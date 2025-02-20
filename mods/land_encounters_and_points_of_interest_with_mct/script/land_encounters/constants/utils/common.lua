@@ -1,0 +1,5 @@
+
+-- Variables for controlling battle types
+AMBUSH_TYPE = 1 
+INTERCEPTION_TYPE = 2
+ALLIED_REINFORCEMENTS_PERMITTED_TYPE = 3
