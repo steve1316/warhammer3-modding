@@ -1,4 +1,5 @@
 require("script/land_encounters/utils/logger")
+require("script/shared/mct_settings")
 
 ------------------------------------------------
 --- Constant values of the class [DO NOT CHANGE]
@@ -195,6 +196,8 @@ core:add_listener(
         return false
     end,
 	function(dilemma_choice_and_faction_info)
+        out("DEBUG - DilemmaChoiceMadeEvent dilemma: " .. dilemma_choice_and_faction_info:dilemma())
+        out("DEBUG - DilemmaChoiceMadeEvent choice: " .. dilemma_choice_and_faction_info:choice())
         spot_event_manager:trigger_dilemma_event_given_choice(dilemma_choice_and_faction_info)
 	end,
 	IS_PERSISTENT_LISTENER
@@ -216,7 +219,11 @@ core:add_listener(
         return false
     end,
 	function(dilemma_choice_and_faction_info)
-        point_of_interest_event_manager:trigger_dilemma_event_given_choice(dilemma_choice_and_faction_info, current_spot_info)
+        if get_mct_settings().enable_randomized_encounter_force_generation then
+            point_of_interest_event_manager:trigger_dilemma_event_given_choice(dilemma_choice_and_faction_info, current_spot_info)
+        else
+            point_of_interest_event_manager:trigger_dilemma_event_given_choice(dilemma_choice_and_faction_info, current_spot_info)
+        end
 	end,
 	IS_PERSISTENT_LISTENER
 )
@@ -243,6 +250,40 @@ cm:add_loading_game_callback(
         saved_poi_event_state = cm:load_named_value(FLATTENED_POI_EVENT_STATE, DEFAULT_FLATTENED_SPOTS_VALUE, context)
         saved_spot_event_state = cm:load_named_value(FLATTENED_SPOT_EVENT_STATE, DEFAULT_FLATTENED_SPOTS_VALUE, context)
 	end
+)
+
+
+core:add_listener(
+    "mct_initial_setup",
+    "MctInitialized",
+    true,
+    function(context)
+        out("DEBUG - mct_initial_setup")
+        local mctMod = context:mct():get_mod_by_key("land_encounters_and_points_of_interest")
+        if not mctMod then return end
+        set_mct_settings(mctMod)
+
+        -- -- Check which of the supported mods are loaded.
+        -- local used_mods = io.open("used_mods.txt", "r")
+        -- if used_mods then
+        --     for line in used_mods:lines() do
+        --         -- Extract the mod name from the line
+        --         local mod_name = line:match('mod "(.-)%.pack"')
+        --         if mod_name then
+        --             -- Check if the mod is supported and loaded
+        --             for _, supported_mod in ipairs(get_supported_mods()) do
+        --                 if mod_name == supported_mod then
+        --                     table.insert(get_mct_settings().enabled_mods, mod_name)
+        --                 end
+        --             end
+        --         end
+        --     end
+        --     used_mods:close()
+        -- end
+
+        -- out("DEBUG - enabled_mods: " .. table.concat(get_mct_settings().enabled_mods, ", "))
+    end,
+    true
 )
 
 

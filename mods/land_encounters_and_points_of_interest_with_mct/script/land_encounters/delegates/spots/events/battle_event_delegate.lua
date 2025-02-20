@@ -37,6 +37,10 @@ local ERROR_BATTLE_CLEAN_UP_EVENT = {
     }
 }
 
+function BattleEventDelegate:get_cached_player_character()
+    return self.cached_player_character
+end
+
 function BattleEventDelegate:trigger_pre_battle_dilemma(area_and_character_info, spot_info, turn_number)
     self.cached_player_character = area_and_character_info:family_member():character()
     local triggering_faction = self.cached_player_character:faction()
@@ -49,8 +53,10 @@ function BattleEventDelegate:trigger_pre_battle_dilemma(area_and_character_info,
     -- Event is triggered by the AI
     elseif not triggering_faction:is_human() then
         local trigger_event_feed = false
-        cm:add_ancillary_to_faction(triggering_faction, elligible_items[random_number(#elligible_items)], trigger_event_feed)
-        cm:treasury_mod(triggering_faction_name, 8000)
+        if math.random() < 0.10 then
+            cm:add_ancillary_to_faction(triggering_faction, elligible_items[random_number(#elligible_items)], trigger_event_feed)
+        end
+        cm:treasury_mod(triggering_faction_name, 500)
         return true
     else 
     -- Event can't be triggered by human
@@ -73,11 +79,14 @@ end
 function BattleEventDelegate:trigger_dilemma_event_given_choice(dilemma_choice_and_faction_info, spot_info)
     local choice = dilemma_choice_and_faction_info:choice()
     if choice == FIRST_OPTION then
+        out("DEBUG - trigger_dilemma_event_given_choice dilemma: " .. dilemma_choice_and_faction_info:dilemma())
+        out("DEBUG - trigger_dilemma_event_given_choice choice: " .. dilemma_choice_and_faction_info:choice())
         -- we check that the army will be able to spawn and fight
         local offensive_army = self:get_offensive_army()
+        out("DEBUG - offensive_army generated")
         if self.invasion_battle_manager:can_generate_battle(offensive_army, spot_info.coordinates) then
             self.is_triggered = true
-        
+
             self.invasion_battle_manager:generate_battle(offensive_army, self.cached_player_character, spot_info.coordinates)
             self.invasion_battle_manager:mark_battle_forces_for_removal(offensive_army)
             self.invasion_battle_manager:reset_state_post_battle(self, "BattleSpot", spot_info, offensive_army)
@@ -217,6 +226,8 @@ function BattleEventDelegate:add_ancillary_to_feuding_factions(feuding_factions,
 end
 
 function BattleEventDelegate:get_offensive_army()
+    out("DEBUG - get_offensive_army Beginning process to generate the encounter force.")
+    -- self.cached_player_character:military_force():command_queue_index()
     return Army:new_from_event(self.cached_event.dilemma)
 end
 

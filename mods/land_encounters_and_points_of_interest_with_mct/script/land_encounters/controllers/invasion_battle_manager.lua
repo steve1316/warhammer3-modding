@@ -49,18 +49,22 @@ end
 
 function InvasionBattleManager:can_generate_battle(offensive_army, spot_coordinates)
     if offensive_army then
+        out("DEBUG - can_generate_battle checking if we can find a location to spawn the army")
         local x, y = self:find_location_for_character_to_spawn(offensive_army.faction, spot_coordinates)
         if x ~= -1 and y ~= -1 then
             return true
         end
     end
+    out("DEBUG - can_generate_battle could not find a location to spawn the army")
     return false
 end
 
 
 function InvasionBattleManager:generate_battle(offensive_army, player_character, spot_coordinates)
     self.event_army = offensive_army
+    out("DEBUG - testing randomize_units")
     self.event_army:randomize_units(self.random_army_manager)
+    out("DEBUG - event army randomized in generate_battle")
     
     local force_cqi = player_character:military_force():command_queue_index()
     local player_faction_name = player_character:faction():name()
@@ -145,7 +149,9 @@ function InvasionBattleManager:main_attacker_attacks_player_and_allies(player_ch
     local x, y = self:find_location_for_character_to_spawn(self.event_army.faction, spot_coordinates)
     local invader_force = self.random_army_manager:generate_force(self.event_army.force_identifier)
     local invasion = self:setup_invasion(self.event_army, player_character, invader_force, {x, y})
-    
+
+    out("DEBUG - invasion setup complete. Now starting invasion")
+
     invasion:start_invasion(
         function(invasion_force)
             self.core:add_listener(
@@ -155,16 +161,68 @@ function InvasionBattleManager:main_attacker_attacks_player_and_allies(player_ch
                 function(local_context)
                     -- force declare war on reinforcement allies of player
                     self:declare_war_on_ally_reinforcement_if_available()
+
+                    ---------------------------------------------------------
+                    ---------------------------------------------------------
+                    ---------------------------------------------------------
+                    -- We need to spawn in the heroes if available then embed them into the invasion army.
+                    local skill_overrides = self.event_army:get_skill_overrides()
+                    local heroes = self.event_army:get_heroes()
+                    for _, hero_object in ipairs(heroes) do
+                        out("DEBUG - spawning invasion hero " .. hero_object.agent_subtype .. ".")
+                        -- Find a valid spawn location for the hero or else the spawn will fail.
+                        local agent_x, agent_y = cm:find_valid_spawn_location_for_character_from_settlement(self.event_army.faction, "wh3_main_combi_region_ubersreik", false, true, 10)
+                        out("DEBUG - agent_x: " .. agent_x .. " agent_y: " .. agent_y)
+                        out("DEBUG - faction: " .. self.event_army.faction)
+                        out("DEBUG - hero_object.agent_subtype: " .. hero_object.agent_subtype)
+                        out("DEBUG - hero_object.agent_type: " .. hero_object.agent_type)
+                        local new_invasion_hero_agent = cm:create_agent(self.event_army.faction, hero_object.agent_type, hero_object.agent_subtype, agent_x, agent_y)
+
+                        out("DEBUG - new_invasion_hero_agent spawned with cqi: " .. new_invasion_hero_agent:command_queue_index())
+                        -- Also apply any skill overrides to the hero.
+                        for temp_hero_agent_subtype, skill_override in pairs(skill_overrides) do
+                            if hero_object.agent_subtype == temp_hero_agent_subtype then
+                                out("DEBUG - adding skills to invasion force hero " .. temp_hero_agent_subtype .. " of cqi " .. new_invasion_hero_agent:command_queue_index())
+                                for _, skill in ipairs(skill_override) do
+                                    cm:add_skill(new_invasion_hero_agent, skill, true, true)
+                                end
+                            end
+                        end
+
+                        -- Embed the hero into the invasion force.
+                        cm:embed_agent_in_force(new_invasion_hero_agent, invasion_force:get_general():military_force())
+                    end
+
+                    -- Now we apply any skill overrides to the invasion force lord.
+                    out("DEBUG - invasion force lord cqi: " .. invasion_force:get_general():command_queue_index())
+                    for lord_agent_subtype, skill_override in pairs(skill_overrides) do
+                        if self.event_army.lord.subtype == lord_agent_subtype then
+                            out("DEBUG - adding skills to invasion force lord of cqi " .. invasion_force:get_general():command_queue_index())
+                            for _, skill in ipairs(skill_override) do
+                                cm:add_skill(invasion_force:get_general(), skill, true, true)
+                            end
+                            break
+                        end
+                    end
+                    ---------------------------------------------------------
+                    ---------------------------------------------------------
+                    ---------------------------------------------------------
+
+
                     local faction_being_declared_war_to = local_context:character():faction():name()
                     if faction_being_declared_war_to == self.event_army.faction then
                         if self.event_army.intervention_type == AMBUSH_TYPE then
                             cm:force_attack_of_opportunity(invasion_force:get_general():military_force():command_queue_index(), player_force_cqi, true)                        
                         elseif self.event_army.intervention_type == INTERCEPTION_TYPE then
+                            out("DEBUG - INTERCEPTION_TYPE called. Now attacking")
+
                             cm:force_attack_of_opportunity(invasion_force:get_general():military_force():command_queue_index(), player_force_cqi, false)
                         else -- ALLIED_REINFORCEMENTS_PERMITTED_TYPE
                             cm:force_attack_of_opportunity(player_force_cqi, invasion_force:get_general():military_force():command_queue_index(), false)
                         end
                     end
+
+                    out("DEBUG - attack initiated")
                 end,
                 IS_NOT_PERSISTENT_LISTENER
             )
@@ -218,22 +276,32 @@ end
 
 
 function InvasionBattleManager:setup_invasion(army, objective_character, force, force_lat_lng)
-    -- create invasion
     if self.invasion_manager:get_invasion(army.invasion_identifier) then
         self.invasion_manager:remove_invasion(army.invasion_identifier)
     end
-    local invasion = self.invasion_manager:new_invasion(army.invasion_identifier, army.faction, force, force_lat_lng)
-    invasion:set_target("CHARACTER", objective_character:command_queue_index(), objective_character:faction():name())
-    invasion:apply_effect("wh_main_bundle_military_upkeep_free_force", -1)
-    -- create general for the invasion
-    local make_faction_leader = false
-    invasion:create_general(make_faction_leader, army.lord.subtype, army.lord.forename, army.lord.clan_name, army.lord.family_name, army.lord.other_name)
+
+    -- https://chadvandy.github.io/tw_modding_resources/WH3/campaign/invasion_manager.html#function:invasion:start_invasion
+
+    local new_invasion = self.invasion_manager:new_invasion(army.invasion_identifier, army.faction, force, force_lat_lng)
+
+    -- Apply the military upkeep free force effect.
+    new_invasion:apply_effect("wh_main_bundle_military_upkeep_free_force", -1)
+
+    -- Set the target to the player character.
+    new_invasion:set_target("CHARACTER", objective_character:command_queue_index(), objective_character:faction():name())
+
+    -- Create the general for the invasion. Agent subtypes come from the agent_subtypes_tables.
+    out("DEBUG - creating general for invasion with the following data: " .. army.lord.subtype .. " " .. army.lord.forename .. " " .. army.lord.clan_name .. " " .. army.lord.family_name .. " " .. army.lord.other_name)
+    new_invasion:create_general(false, army.lord.subtype, army.lord.forename, army.lord.clan_name, army.lord.family_name, army.lord.other_name)
+
     -- add an experience level to the invasion forces
     local by_level = true
-    invasion:add_character_experience(army.lord.level, by_level)
-    -- add experience to the unit
-    invasion:add_unit_experience(army.unit_experience_amount)
-    return invasion
+    new_invasion:add_character_experience(army.lord.level, by_level)
+
+    -- Add experience to the unit
+    new_invasion:add_unit_experience(army.unit_experience_amount)
+
+    return new_invasion
 end
 
 function InvasionBattleManager:mark_battle_forces_for_removal(army)

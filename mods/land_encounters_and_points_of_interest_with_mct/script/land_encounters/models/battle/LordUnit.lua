@@ -20,13 +20,15 @@ local LordUnit = {
 --- Class Methods
 -------------------------
 function LordUnit:generate_random_level()
+    out("DEBUG - random_number(): " .. self.level_ranges[2] .. " - " .. self.level_ranges[1])
     return random_number(self.level_ranges[2], self.level_ranges[1])
 end
 
 
 function LordUnit:generate_subtype()
     if #self.possible_subtypes > 0 then
-        return self.possible_subtypes[random_number(#self.possible_subtypes)]
+        local random_subtype = self.possible_subtypes[random_number(#self.possible_subtypes)]
+        return random_subtype
     end
     return ""
 end

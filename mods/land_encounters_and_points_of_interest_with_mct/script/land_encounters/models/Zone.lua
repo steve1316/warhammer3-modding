@@ -43,8 +43,8 @@ end
 --
 -- POINTS OF INTEREST (PERMANENT CONTROL SPOT)
 -- 
-function Zone:initialize_points_of_interest(points_of_interest_data)
-    self.point_of_interest_delegate:initialize(points_of_interest_data)
+function Zone:initialize_points_of_interest(points_of_interest_data, mctSettings)
+    self.point_of_interest_delegate:initialize(points_of_interest_data, mctSettings)
 end
 
 

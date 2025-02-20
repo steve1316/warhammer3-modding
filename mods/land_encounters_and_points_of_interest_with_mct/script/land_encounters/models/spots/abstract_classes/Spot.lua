@@ -35,9 +35,24 @@ end
 
 function Spot:activate(zone_name)
     self:set_logical_data()
-    
+
+    local mct_settings = get_mct_settings()
     local marker_id = "land_enc_marker_" .. zone_name .. "_" .. self.index
-    local marker_number = random_number(12) + 33
+    local available_skins = {}
+    for i = 33, 44 do
+        if mct_settings.enable_all_encounter_skins or table.contains(mct_settings.enabled_encounter_skin_ids, i) then
+            table.insert(available_skins, i)
+        end
+    end
+
+    local marker_number
+    if #available_skins == 0 then
+        marker_number = 42
+    else
+        local random_index = random_number(#available_skins, 1)
+        marker_number = available_skins[random_index]
+    end
+
     local marker_key = "encounter_marker_"..tostring(marker_number)
     local interaction_radius = 4
     self:set_marker_on_map(marker_id, marker_key, interaction_radius)

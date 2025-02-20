@@ -1,6 +1,6 @@
-
 local Spot = require("script/land_encounters/models/spots/abstract_classes/Spot")
 local SmithySpot = require("script/land_encounters/models/spots/SmithySpot")
+require("script/shared/mct_settings")
 
 -------------------------
 --- Properties definition
@@ -10,7 +10,9 @@ local PointOfInterestDelegate = {
 }
 
 function PointOfInterestDelegate:initialize(points_of_interest_data)
-    self:initialize_smithies(points_of_interest_data["smithies"])
+    if not get_mct_settings().disable_smithies then
+        self:initialize_smithies(points_of_interest_data["smithies"])
+    end
     self:initialize_taverns(points_of_interest_data["taverns"])
     self:initialize_resources(points_of_interest_data["resources"])
 end
@@ -89,7 +91,6 @@ function PointOfInterestDelegate:reinstate_points_of_interest(zone_name, previou
     end
     return poi_index_triggered
 end
-
 
 -------------------------
 --- Constructors

@@ -20,6 +20,7 @@ local skirmishes = require("script/land_encounters/constants/battles/skirmishes"
 local surprise_attacks = require("script/land_encounters/constants/battles/surprise_attacks")
 local waystones = require("script/land_encounters/constants/battles/waystones")
 
+require("script/land_encounters/algorithms/random_encounter_force_generation_system")
 
 -------------------------
 --- Properties definition
@@ -37,13 +38,17 @@ local Army = {
     lord = {},
     -- Reinforcements
     reinforcing_ally_armies = {},
-    reinforcing_enemy_armies = {}
+    reinforcing_enemy_armies = {},
+    ---
+    heroes = {},
+    skill_overrides = {},
 }
 
 -------------------------
 --- Class Methods
 -------------------------
 function Army:randomize_units(random_army_manager)
+    out("DEBUG - randomize_units coming from InvasionBattleManager")
     self:randomize_army_composition_and_declare(random_army_manager)
     self:randomize_lord()
     
@@ -75,6 +80,7 @@ end
 function Army:randomize_lord()
     self.lord.subtype = self.lord_pool:generate_subtype()
     self.lord.level = self.lord_pool:generate_random_level()
+    out("DEBUG - Lord level: " .. self.lord.level)
     self.lord.forename = self.lord_pool:generate_random_forename()
     self.lord.clan_name = self.lord_pool:generate_random_clan_name()
     self.lord.family_name = self.lord_pool:generate_random_family_name()
@@ -103,32 +109,85 @@ function Army:size()
     return #self.units
 end
 
+
+---------------------------------------------------------
+---------------------------------------------------------
+---------------------------------------------------------
+
+function Army:get_heroes()
+    return self.heroes
+end
+
+function Army:get_skill_overrides()
+    return self.skill_overrides
+end
+
+function Army:get_hero_agent_subtypes()
+    local hero_agent_subtypes = {}
+    for _, hero in ipairs(self.heroes) do
+        table.insert(hero_agent_subtypes, hero.agent_subtype)
+    end
+    return hero_agent_subtypes
+end
+
+
 -------------------------
 --- Constructors
 -------------------------
 function Army:new_from_event(battle_event)
+    out("DEBUG - new_from_event battle_event: " .. battle_event)
+    -- out("DEBUG - new_from_event player_force_cqi: " .. player_force_cqi)
+    -- local gold_value = cm:force_gold_value(player_force_cqi)
+    -- out("DEBUG - gold value of player force: " .. gold_value)
     -- Determine the force
     local force_data = {}
-    if string.find(battle_event, "bandit") then
-        force_data = bandits[battle_event]
-    elseif string.find(battle_event, "battlefield") then
-        force_data = battlefields[battle_event]
-    elseif string.find(battle_event, "daemonic_gift") then
-        force_data = daemonic_gifts[battle_event]
-    elseif string.find(battle_event, "incursion") then
-        force_data = incursions[battle_event]
-    elseif string.find(battle_event, "stands") then
-        force_data = relic_defenses[battle_event]
-    elseif string.find(battle_event, "underground") then
-        force_data = rebellions[battle_event]
-    elseif string.find(battle_event, "skirmish") then
-        force_data = skirmishes[battle_event]
-    elseif string.find(battle_event, "surprise") then
-        force_data = surprise_attacks[battle_event]
-    elseif string.find(battle_event, "waystone") then
-        force_data = waystones[battle_event]
+
+    if get_mct_settings().enable_randomized_encounter_force_generation then
+        out("DEBUG - enabling randomized encounter force generation.")
+
+        -- Get the difficulty either based on the difficulty dropdown or the basic progressive difficulty using turn numbers.
+        local difficulty = get_mct_settings().randomized_encounter_force_generation_difficulty
+        if get_mct_settings().enable_basic_progressive_difficulty then
+            if cm:turn_number() < get_mct_settings().turn_number_from_easy_to_medium then
+                difficulty = "easy"
+            elseif cm:turn_number() < get_mct_settings().turn_number_from_medium_to_hard then
+                difficulty = "medium"
+            else
+                difficulty = "hard"
+            end
+        end
+
+        local faction = get_random_faction()
+        -- local faction = "ogr"
+        out("DEBUG - Starting force makeup generation for faction: " .. faction .. " and difficulty: " .. difficulty)
+        force_data = start_force_makeup_generation(difficulty, faction)
+        force_data = convert_force_makeup_to_usable_format(difficulty, force_data, faction, "encounter_force", "encounter_invasion", 2)
+        out("DEBUG - force experience amount: " .. force_data.unit_experience_amount)
+        out("DEBUG - force_data:")
+        print_table(force_data)
+        out("DEBUG - force_data done.")
+    else
+        if string.find(battle_event, "bandit") then
+            force_data = bandits[battle_event]
+        elseif string.find(battle_event, "battlefield") then
+            force_data = battlefields[battle_event]
+        elseif string.find(battle_event, "daemonic_gift") then
+            force_data = daemonic_gifts[battle_event]
+        elseif string.find(battle_event, "incursion") then
+            force_data = incursions[battle_event]
+        elseif string.find(battle_event, "stands") then
+            force_data = relic_defenses[battle_event]
+        elseif string.find(battle_event, "underground") then
+            force_data = rebellions[battle_event]
+        elseif string.find(battle_event, "skirmish") then
+            force_data = skirmishes[battle_event]
+        elseif string.find(battle_event, "surprise") then
+            force_data = surprise_attacks[battle_event]
+        elseif string.find(battle_event, "waystone") then
+            force_data = waystones[battle_event]
+        end
     end
-    
+
     -- if reinforcement armies are present we declare them here
     -- we declare allied armies
     local reinforcing_ally_armies = {}
@@ -163,11 +222,11 @@ function Army:create_from(force)
         intervention_type = force.intervention_type,
         units_pool = {}, 
         units = {}, 
-        unit_experience_amount = force.unit_experience_amount, 
-        lord_pool = {}, 
+        unit_experience_amount = force.unit_experience_amount,
+        lord_pool = {},
         lord = {},
         reinforcing_ally_armies = {},
-        reinforcing_enemy_armies = {}
+        reinforcing_enemy_armies = {},
     }
     t.lord_pool = LordUnit:newFrom(force.lord)
         
@@ -178,7 +237,10 @@ function Army:create_from(force)
     
     setmetatable(t, self)
     self.__index = self
-    
+
+    self.heroes = force.heroes or {}
+    self.skill_overrides = force.skill_overrides or {}
+
     return t
 end
 
@@ -199,13 +261,13 @@ function Army:new_from_faction_and_subculture_and_level(faction_name, subculture
         force_identifier = force_data.identifier,
         invasion_identifier = force_data.invasion_identifier,
         intervention_type = force_data.intervention_type,
-        units_pool = {}, 
-        units = {}, 
-        unit_experience_amount = forces_of_level.unit_experience_amount, 
-        lord_pool = {}, 
+        units_pool = {},
+        units = {},
+        unit_experience_amount = forces_of_level.unit_experience_amount,
+        lord_pool = {},
         lord = {},
         reinforcing_ally_armies = {},
-        reinforcing_enemy_armies = {}
+        reinforcing_enemy_armies = {},
     }
     t.lord_pool = LordUnit:newFrom(force_data.lord)
     
@@ -216,6 +278,7 @@ function Army:new_from_faction_and_subculture_and_level(faction_name, subculture
     
     setmetatable(t, self)
     self.__index = self
+
     return t
 end
 

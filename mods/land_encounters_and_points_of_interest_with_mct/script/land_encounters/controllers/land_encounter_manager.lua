@@ -1,5 +1,6 @@
 require("script/land_encounters/utils/logger")
 require("script/land_encounters/utils/strings")
+require("script/shared/mct_settings")
 
 local Zone = require("script/land_encounters/models/Zone")
 
@@ -7,7 +8,7 @@ local Zone = require("script/land_encounters/models/Zone")
 --- Constant values of the class [DO NOT CHANGE]
 -------------------------
 -- Should be 0.75 by default. This means that 75% of all points are active during a campaign. Modify to make it more.
-local DEFAULT_ACTIVE_SPOT_PERCENTAGE = 1.00--0.85 
+local DEFAULT_ACTIVE_SPOT_PERCENTAGE = 0.75
 
 --=======================
 --- Properties definition
@@ -46,6 +47,7 @@ end
 
 -- Initialize the spots from the map coordinates given, through iterating from them. 
 function LandEncounterManager:initialize_spots_by_zone(coordinates_by_zone)
+    self.active_spot_percentage = get_mct_settings().spawn_percentage
     self.zones = {}
     for zone_name, zone_coordinates in pairs(coordinates_by_zone) do
         local zone = Zone:new(zone_name, zone_coordinates, self.active_spot_percentage)
