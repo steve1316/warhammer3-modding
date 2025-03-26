@@ -1,4 +1,4 @@
-local base_spot = require("script/land_encounters/models/spots/abstract_classes/Spot")
+local base_spot = require("script/land_encounters/models/spots/abstract_classes/spot")
 
 ------------------------------------------------
 --- Constant values of the class

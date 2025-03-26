@@ -1,8 +1,8 @@
 require("script/land_encounters/utils/logger")
 require("script/land_encounters/utils/random")
 
-local Spot = require("script/land_encounters/models/spots/abstract_classes/Spot")
-local EventSpot = require("script/land_encounters/models/spots/EventSpot")
+local Spot = require("script/land_encounters/models/spots/abstract_classes/spot")
+local EventSpot = require("script/land_encounters/models/spots/event_spot")
 
 -------------------------
 --- Constant values of the class [DO NOT CHANGE]

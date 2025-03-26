@@ -1,5 +1,5 @@
-local Spot = require("script/land_encounters/models/spots/abstract_classes/Spot")
-local SmithySpot = require("script/land_encounters/models/spots/SmithySpot")
+local Spot = require("script/land_encounters/models/spots/abstract_classes/spot")
+local SmithySpot = require("script/land_encounters/models/spots/smithy_spot")
 require("script/shared/mct_settings")
 
 -------------------------

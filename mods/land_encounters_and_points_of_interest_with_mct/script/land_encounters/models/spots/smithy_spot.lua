@@ -1,4 +1,4 @@
-local Spot = require("script/land_encounters/models/spots/abstract_classes/Spot")
+local Spot = require("script/land_encounters/models/spots/abstract_classes/spot")
 
 -------------------------
 --- Properties definition

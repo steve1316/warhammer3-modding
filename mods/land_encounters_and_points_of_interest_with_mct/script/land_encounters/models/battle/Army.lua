@@ -3,8 +3,8 @@
 require("script/land_encounters/utils/logger")
 
 -- Mod libs
-local ArmyUnit = require("script/land_encounters/models/battle/ArmyUnit")
-local LordUnit = require("script/land_encounters/models/battle/LordUnit")
+local ArmyUnit = require("script/land_encounters/models/battle/army_unit")
+local LordUnit = require("script/land_encounters/models/battle/lord_unit")
 
 -- smithy defenders
 local smithy_defenders = require("script/land_encounters/constants/battles/smithy/defenders")

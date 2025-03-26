@@ -20,7 +20,7 @@ require("script/land_encounters/controllers/incident_manager")
 local smithy_missions_by_subculture = require("script/land_encounters/constants/missions/smithy_missions_by_subculture")
 local special_items_by_subculture = require("script/land_encounters/constants/items/item_sets_or_special_items_by_subculture")
 
-local Army = require("script/land_encounters/models/battle/Army")
+local Army = require("script/land_encounters/models/battle/army")
 
 ------------------------------------------------
 --- Constant values of the class [DO NOT CHANGE]

@@ -1,6 +1,6 @@
 require("script/land_encounters/utils/logger")
 
-local SmithyState = require("script/land_encounters/models/points_of_interest/smithies/SmithyState")
+local SmithyState = require("script/land_encounters/models/points_of_interest/smithies/smithy_state")
 
 -------------------------
 --- Properties definition
