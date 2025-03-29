@@ -19,6 +19,9 @@ from supported_mods import SUPPORTED_MODS
 from typing import List, Dict
 
 
+FAILED_MODS = []
+MISSING_MODS = []
+
 # Delete all folders inside "./db".
 if os.path.exists("./db"):
     for file_path in os.listdir(f"./db/"):
@@ -320,9 +323,12 @@ def tsv_to_faction_data(
                                     
                                     # Now from each skill row, grab all the skill keys from character_skill_nodes_tables by referencing the key column and then grabbing the value from the character_skill_key column.
                                     skills = []
-                                    for skill_node in df_character_skill_node_set_items_skills:
-                                        skill_node_skill_key = df_character_skill_nodes.loc[df_character_skill_nodes["key"] == skill_node, "character_skill_key"].values[0]
-                                        skills.append(skill_node_skill_key)
+                                    try:
+                                        for skill_node in df_character_skill_node_set_items_skills:
+                                            skill_node_skill_key = df_character_skill_nodes.loc[df_character_skill_nodes["key"] == skill_node, "character_skill_key"].values[0]
+                                            skills.append(skill_node_skill_key)
+                                    except:
+                                        pass
                                     
                                     # Save the skills.
                                     new_allowed_object["skill_overrides"] = skills
@@ -337,6 +343,7 @@ def tsv_to_faction_data(
                                     
                                     factions_data[faction_value][f"allowed_{key_substring}"].append(new_allowed_object)
     except Exception as e:
+        FAILED_MODS.append(mod["name"])
         logging.exception(e)
 
     return factions_data
@@ -400,7 +407,7 @@ if __name__ == "__main__":
         for mod in SUPPORTED_MODS:
             # Check if the mod is installed.
             if mod["path"] and not os.path.exists(mod["path"]):
-                logging.warning(f"Mod {mod['name']} is not installed.")
+                MISSING_MODS.append(mod["name"])
                 continue
 
             # Extract mod data.
@@ -500,6 +507,11 @@ if __name__ == "__main__":
             lua_file.write(lua_data)
     except Exception as e:
         logging.exception(e)
+
+    if MISSING_MODS:
+        logging.info(f"Missing mods: {MISSING_MODS}")
+    if FAILED_MODS:
+        logging.info(f"Failed mods: {FAILED_MODS}")
 
     end_time = round(time.time() - start_time, 2)
     logging.info(f"Total time for processing all main_units_tables .tsv files: {end_time} seconds or {round(end_time / 60, 2)} minutes.")
