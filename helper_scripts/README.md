@@ -4,7 +4,7 @@ This repository contains a suite of tools designed to assist me in creating and 
 
 ## Important Notes
 
-- **rpfm_cli**: Ensure that `rpfm_cli.exe` is located in the same directory as the scripts. This tool is used for schema updates and data extraction.
+- **rpfm_cli**: Ensure that `rpfm_cli.exe` from https://github.com/Frodo45127/rpfm is located in the same directory as the scripts. This tool is used for schema updates and data extraction.
 - **schemas**: Ensure that the `schemas` are downloaded from https://github.com/Frodo45127/rpfm-schemas and placed in a `/schemas` folder in the same directory as the scripts and `rpfm_cli.exe`.
 - **TSV Files**: Some scripts require specific TSV files to be pre-extracted and placed in the same directory as the scripts. Ensure these files are available before running the scripts.
 
