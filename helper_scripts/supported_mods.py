@@ -2010,13 +2010,13 @@ SUPPORTED_MODS = [
         "pattern_overrides": {},
     },
     {
-        "name": "scm_skaven_clans",
-        "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3318719948/scm_skaven_clans.pack",
+        "name": "str_skaven_clans",
+        "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2986543735/str_skaven_clans.pack",
         "pattern_overrides": {"*": "skv"},
     },
     {
-        "name": "scm_skaven_esoterica.pack",
-        "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3318720962/scm_skaven_esoterica.pack",
+        "name": "str_toro_skaven.pack",
+        "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3064165524/str_toro_skaven.pack",
         "pattern_overrides": {"*": "skv"},
     },
     {
@@ -2105,6 +2105,13 @@ SUPPORTED_MODS = [
         "pattern_overrides": {
             "haven_": "brt",
             "tza_": "tze",
+        },
+    },
+    {
+        "name": "cf-Ksl-units.pack",
+        "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3430763383/cf-Ksl-units.pack",
+        "pattern_overrides": {
+            "*": "ksl",
         },
     },
 ]
