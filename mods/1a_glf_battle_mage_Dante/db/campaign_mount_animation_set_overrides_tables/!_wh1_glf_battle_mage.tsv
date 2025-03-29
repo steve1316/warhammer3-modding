@@ -1,0 +1,3 @@
+character_animation_set	mount_unit	rider_animation_set	vfx_filter_override
+#campaign_mount_animation_set_overrides_tables;2;db/campaign_mount_animation_set_overrides_tables/!_wh1_glf_battle_mage			
+cam_hu1b_vampire_sword	wh_dlc07_brt_cha_fay_enchantress_1	cam_hu1b_elf_spellsinger_hr1_warhorse	0
