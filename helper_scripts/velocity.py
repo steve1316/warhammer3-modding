@@ -30,7 +30,7 @@ def adjust_muzzle_velocities(projectile_data: List[Dict]):
             
             if velocity > 0:
                 new_row["muzzle_velocity"] = str(velocity * 2)
-                logging.debug(f"Adjusted velocity for {row.get('projectile', 'unknown')} from {velocity} to {new_row['muzzle_velocity']}")
+                logging.info(f"Updated {row['key']} from {velocity} to {new_row['muzzle_velocity']}.")
             else:
                 logging.warning(f"Invalid velocity ({velocity}) - preserving original value")
                 

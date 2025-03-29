@@ -25,6 +25,7 @@ def update_rows_for_120_degree_ranged_attacks(joined_data: List[Dict]):
         current_arc = float(row["fire_arc_close"])
         if 0 < current_arc < 120:
             row["fire_arc_close"] = "120"
+            logging.info(f"Updated {row['key']} from {current_arc} to 120 degrees.")
     return joined_data
 
 if __name__ == "__main__":
@@ -40,10 +41,6 @@ if __name__ == "__main__":
         # ------------------------------------------------------------------
         updated_data = update_rows_for_120_degree_ranged_attacks(mod_data)
         
-        # Write output file.
-        # ------------------------------------------------------------------
-        os.makedirs(os.path.dirname("corrected.tsv"), exist_ok=True)
-        
         # Write modified data to new TSV.
         # ------------------------------------------------------------------
         with open('new_120.tsv', 'w') as f:
@@ -56,8 +53,6 @@ if __name__ == "__main__":
                 ordered_values = [row[header] for header in headers]
                 f.write('\t'.join(ordered_values) + '\n')
 
-    except FileNotFoundError as e:
-        logging.error(f"Missing required file: {e.filename}")
     except Exception as e:
         logging.exception(e)
 

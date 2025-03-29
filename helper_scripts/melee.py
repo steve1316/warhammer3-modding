@@ -28,6 +28,7 @@ def update_melee_attack_intervals(unit_data: List[Dict]):
             current_interval = row["melee_attack_interval"]
             modified_row = row.copy()
             modified_row["melee_attack_interval"] = str(float(current_interval) / 2)
+            logging.info(f"Updated {row['key']} from {current_interval} to {modified_row['melee_attack_interval']}.")
             modified_data.append(modified_row)
         except ValueError:
             logging.warning(f"Invalid interval value: {current_interval} - preserving original")
@@ -48,10 +49,6 @@ if __name__ == "__main__":
         # ------------------------------------------------------------------
         updated_data = update_melee_attack_intervals(unit_data)
         
-        # Write modified output.
-        # ------------------------------------------------------------------
-        os.makedirs(os.path.dirname("new_melee.tsv"), exist_ok=True)
-        
         with open("new_melee.tsv", "w", encoding="utf-8") as f:
             f.write("\t".join(headers) + "\n")
             f.write(game_version + "\n")
@@ -62,8 +59,6 @@ if __name__ == "__main__":
                 
         logging.info("Successfully created new_melee.tsv with updated combat pacing")
 
-    except FileNotFoundError as e:
-        logging.error(f"Missing required file: {e.filename}")
     except Exception as e:
         logging.exception(e)
 
