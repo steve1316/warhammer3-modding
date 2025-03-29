@@ -75,3 +75,4 @@ glf_mage_lord_wild_missile	false	glf_mage_lord_wild_projectile		false
 glf_mage_hero_wild_missile	false	glf_mage_hero_wild_projectile		false
 glf_nor_arzik_missile	false	glf_nor_arzik_projectile		false
 glf_chs_lord_of_change_missile	false	glf_chs_lord_of_change_projectile		false
+glf_skv_grey_seer_plague_missile	false	glf_skv_grey_seer_plague_projectile		false
