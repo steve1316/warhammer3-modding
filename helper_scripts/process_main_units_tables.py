@@ -379,6 +379,17 @@ if __name__ == "__main__":
             f"./vanilla_character_skill_nodes_tables.tsv", 
             "character_skill_nodes_tables"
         )
+        
+        # Conver the schemas from Ron to JSON.
+        subprocess.run([
+            "./rpfm_cli.exe",
+            "--game",
+            "warhammer_3",
+            "schemas",
+            "to-json",
+            "--schemas-path",
+            "./schemas"
+        ])
 
         # Load the schema.
         with open("schemas/schema_wh3.json", "r", encoding="utf-8") as schema_file:
