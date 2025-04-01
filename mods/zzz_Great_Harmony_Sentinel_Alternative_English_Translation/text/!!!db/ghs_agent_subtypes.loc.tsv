@@ -1,0 +1,9 @@
+key	text	tooltip
+#Loc;1;text/!!!db/ghs_agent_subtypes.loc		
+agent_subtypes_onscreen_name_override_ghs_cth_cha_terracotta_jade	Jade Court Sentinel	false
+agent_subtypes_description_text_override_phoenix_guard_champion	Jade Court Sentinel, a figure of solemn dignity imbued with the heroic spirits of Cathay’s bravest generals. Even in death, they stand as ghostly champions, defying all who challenge their might.	false
+agent_subtypes_onscreen_name_override_ghs_cth_cha_jade_blood_taoist	Jade-Blooded Taoist	false
+agent_subtypes_description_text_override_ghs_cth_cha_jade_blood_taoist	Clad in robes of jade with a faint emerald glow, these enigmatic figures specialize in harnessing the life winds of Qi, striving to suppress the unspeakable desires of their lineage.	false
+agent_subtypes_onscreen_name_override_ghs_cth_inf_royal_guard_crowmen	Onyx Crowman	false
+agent_subtypes_onscreen_name_override_ghs_cth_cha_hongying	Legendary Lord	false
+agent_subtypes_onscreen_name_override_ghs_chd_mon_kdaai_destroyer_doombull	K’daai Conqueror	false

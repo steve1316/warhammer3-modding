@@ -1,0 +1,11 @@
+key	text	tooltip
+#Loc;1;text/!!!db/ghs_ancillary_set.loc		
+ancillary_sets_description_wh2_dlc16_ancillary_set_dragon	Collecting the Dragon Breastplate, Dragon Pendant, Dragon Mask, and Dragon Spear reveals the power of the Dragon.	false
+ancillary_sets_description_wh2_dlc16_ancillary_set_dreaming	Collecting the Boots of Dreaming, Cloak of Dreaming, Ring of Dreaming, and Bow of Dreaming reveals the power of Dreams.	false
+ancillary_sets_description_wh2_dlc16_ancillary_set_eagle	Collecting the Eagle Bracers, Eagle Quiver, Eagle Mask, and Eagle Bow reveals the power of the Eagle.	false
+ancillary_sets_description_wh2_dlc16_ancillary_set_twilight	Collecting the Twilight Helm, Twilight Banner, Twilight Horn, and Twilight Spear reveals the power of Twilight.	false
+ancillary_sets_name_wh2_dlc16_ancillary_set_dragon	Might of the Dragon	false
+ancillary_sets_name_wh2_dlc16_ancillary_set_dreaming	Sea of Dreams	false
+ancillary_sets_name_wh2_dlc16_ancillary_set_eagle	Eagle’s Keen Sight	false
+ancillary_sets_name_wh2_dlc16_ancillary_set_twilight	Omen of Twilight	false
+ancillary_sets_name_ghs_ancillary_set_cth_hongying	Shadowed Celestial Raven	false

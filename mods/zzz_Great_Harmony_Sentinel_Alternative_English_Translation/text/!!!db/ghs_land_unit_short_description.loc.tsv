@@ -1,0 +1,200 @@
+key	text	tooltip
+#Loc;1;text/!!!db/ghs_land_unit_short_description.loc		
+unit_description_short_texts_text_ghs_cth_cha_jade_blood_taoist	The Jade-Blooded Taoists of Yongchang Spirit Palace obey only the summons of the Jade Court. They study the Wind of Life to master their desires, but remain under the watchful eyes of the Moonlight Division by the Jade Dragon's decree.	false
+unit_description_short_texts_text_ghs_cth_cav_jade_lion_rider	The Jade Lions, with their fierce gaze, stand as stalwart guardians, repelling all evil spirits and demons with their commanding presence.	false
+unit_description_short_texts_text_ghs_cth_cav_jet_lion_rider	Jet Lions protect the mountain gates with unyielding dignity. In times of rebellion, they answer the Emperor's command to cleanse the land of corruption.	false
+unit_description_short_texts_text_ghs_cth_inf_secret_follower	The Moonlight Division is a secretive organization directly under the Moon Empress's command. With silver avian emblems on their black robes, they secure victories in unreachable places for Cathay's people.	false
+unit_description_short_texts_text_ghs_cth_cha_hongying	Hong Ying, the "Moon Raven," is rumored to carry the bloodline of the shadow dragon. A trusted draconic lord of the Moon Empress, he oversees the Moonlight Division and commands a significant part of the Onyx Crow Sentinels.	false
+unit_description_short_texts_text_ghs_cth_inf_royal_guard_crowmen	The Onyx Crow Sentinels are elite operatives of the Moon Empress, crafted by her mastery of divination winds. They serve as the sharpest eyes and deadliest blades of Cathay.	false
+unit_description_short_texts_text_ghs_lzd_mon_chief_stegadon	The oldest and most ferocious creation of the Star-God, the Stegadon is only approachable by those chosen by Ixti. Its mighty bows and blowpipes rain thunderous death on enemies.	false
+unit_description_short_texts_text_ghs_lzd_mon_giant_ripperdactyl	The largest and most bloodthirsty Ripperdactyls wield razor-sharp talons capable of decapitating foes, leaving trails of entrails and severed limbs in their wake.	false
+unit_description_short_texts_text_dwf_flying_irondrakes_01	Experimental jetpacks provide enough thrust to counter the recoil of Iron Drakes. Veterans roasting Skaven and Greenskins call themselves "Flying Dragons".	true
+unit_description_short_texts_text_dwf_goat_hammer	Elite warriors mount rare black mountain goats. One hammer strike can either shatter enemy skulls or dislocate their own arms.	true
+unit_description_short_texts_text_dwf_goat_ironbreaker	"Burnt Iron"? What rebellious engineer named this new weapon? Aren’t these goats just singed from battle smoke?	true
+unit_description_short_texts_text_dwf_goat_mad	Gentle goats are a vital meat source for Dwarfs, but the unruly troublemakers are sent to the battlefield before the kitchen.	true
+unit_description_short_texts_text_dwf_goat_ranger	A few pints of Bugman’s Brew can give you incredible strength, but I say: Dawi! Aim properly and don’t shoot my beer barrels!	true
+unit_description_short_texts_text_dwf_goat_slayer	Though these Slayers can leap higher than most Dwarfs, claiming they can strike a flying dragon? Grungni, protect them!	true
+unit_description_short_texts_text_dwf_goat_warrior	Remember, lad, when patrolling and spotting a Goblin, stay patient and hide. There may be a horde of Greenskins right behind him. —Modin Whitebeard, Longbeard Warrior.	true
+unit_description_short_texts_text_dwf_grimnir	Grimnir, the god of war, protected the fledgling Dwarfs from monstrous threats and is especially revered by oath-bound Slayers.	true
+unit_description_short_texts_text_dwf_grungni	Grungni, god of mining and forging, is the father of Dwarfs, teaching them to extract and shape the precious metals within the earth.	true
+unit_description_short_texts_text_dwf_morgrim	Morgrim, god of engineering, was the first to instruct Dwarf clans in the creation of tools, machinery, and engines of war.	true
+unit_description_short_texts_text_dwf_rune_guard_axe_and_cannon	The greatest Runecrafters and Engineers Guilds collaborated to create tireless sentinels. These marvels are both a source of immense pride and profound sorrow for the Dwarfs.	true
+unit_description_short_texts_text_dwf_rune_guard_axe_and_shield	The greatest Runecrafters and Engineers Guilds collaborated to create tireless sentinels. These marvels are both a source of immense pride and profound sorrow for the Dwarfs.	true
+unit_description_short_texts_text_dwf_rune_guard_dual_hammer	The greatest Runecrafters and Engineers Guilds collaborated to create tireless sentinels. These marvels are both a source of immense pride and profound sorrow for the Dwarfs.	true
+unit_description_short_texts_text_dwf_rune_guard_giant	These colossus guardians bear runes forged by Grungni himself amidst thunderous storms. Those who approach too closely are reduced to charred remains.	true
+unit_description_short_texts_text_dwf_runeguard_catling	Rune Guardians (Runic Gatling Guns)	true
+unit_description_short_texts_text_dwf_valaya	Valaya, the creator of runes, grudges, and oaths, embodies Dwarven culture. She governs healing, unity, family, and is also the goddess of ale.	true
+unit_description_historical_texts_text_ghs_kho_inf_armour_bloodletter_champions	Each Blade Legion is led by a rabid Bloodletter, gathering skulls not for themselves but for their enraged master. While they appear as taskmasters for the warhounds, these champions have their own prey to hunt. Unlike the fleshy hounds, they comprehend the minds of mortal prey, predicting their every move.	true
+unit_description_short_texts_text_ghs_kho_inf_armour_bloodletter_champions	Each Blade Legion follows a rabid Bloodletter commander. Clad in blood-soaked heavy armor and wielding brass hellblades, they violently claim skulls from the weak with calculated fury.	true
+unit_description_short_texts_text_kho_bloodcrucher_giant	How does one "crush" blood? Better with this unendingly massive axe. These lunatics are truly insane.	true
+unit_description_short_texts_text_kho_blooddragon	Rather than offering a dragon’s skull in sacrifice, the Blood God prefers branding their souls with blazing marks, binding them to eternal servitude.	true
+unit_description_short_texts_text_kho_eighth_legion_bloodthirster	The fearsome lieutenants of Ka’Bandha hail from the Eighth Legion of Unbridled Wrath. Though marked by failure in Khorne's eyes, the Blood Hunt offers them a chance to reclaim honor.	true
+unit_description_short_texts_text_kho_slaughterbrute	Brave Chaos warriors must endure grueling rituals, repeatedly piercing the beast with a magical blade to tame this massive blood-crazed monstrosity.	true
+unit_description_short_texts_text_kho_warrior_flameshooter	Cowards' souls are trapped within these infernal constructs, their sole value as fuel for the creation of hellfire.	true
+unit_description_short_texts_text_kho_warrior_skullthrower	Nothing pleases the Blood God more than skulls. If one thrown skull yields more, prepare for ascension!	true
+unit_description_short_texts_text_ghs_cav_ksl_flying_eagle_rider	Snow Eagles soar through the skies as storms descend. Their icy arrows are nocked and ready to strike.	true
+unit_description_short_texts_text_ghs_cav_ksl_golden_knight_bear	Only the bravest warriors among the royal guard earn the title of Golden Knight. Each knight is gifted a newly forged, radiant armor said to hold enchantments.	true
+unit_description_short_texts_text_ghs_cav_ksl_ice_guard_bear	The Ice Court crafts armor from millennia-old ice, both lightweight and durable. The Ice Guard and their mighty bears, armed and ready, embody unparalleled grace and ferocity.	true
+unit_description_short_texts_text_ghs_inf_ksl_kreml_guard	After reforms by the Ice Queen, the Kreml Guards retain their black armor tradition. They stand firm against Chaos, their unique duckfoot rifles ensuring northern invaders falter.	true
+unit_description_short_texts_text_ghs_inf_ksl_kreml_guard_halberd	Kreml Guards maintain their black armor tradition, now wielding halberds to repel Chaos. Their volatile kvass transforms battlefields into fiery infernos.	true
+unit_description_short_texts_text_ghs_inf_ksl_kreml_guard_streltsi	During the Red Tzar era, some Kreml Guards trained in Erengrad with Streltsi techniques. They excel in precise musketry and wielding poleaxes with unmatched skill.	true
+unit_description_short_texts_text_ghs_ksl_cav_alces_rider	Taming the temperamental moose rivals forming bonds with Ursun's progeny. Armoured and charging, they unleash blizzards on the battlefield.	true
+unit_description_short_texts_text_ghs_ksl_cav_alces_rider_ror	When you hear the moose's call, flee before you're trampled! That’s Kislev's frosty vengeance taking form.	true
+unit_description_short_texts_text_ghs_ksl_mon_alces	Huge and powerful elk are found in the northern borders of Kislev. Capturing this species is exceptionally difficult, but their immense endurance and strength make it all worthwhile.	true
+unit_description_short_texts_text_ghs_ksl_mon_dazh_autumn_elemental_bear	Dazh, the god of fire and the sun, pours molten gold upon the rampaging lava elemental, incinerating all impurities in the rising flames.	true
+unit_description_short_texts_text_ghs_ksl_mon_salyak_spring_elemental_bear	Salyak, the goddess of healing and comfort, shapes life essence into a divine statue. Its wooden body bears miracles, bringing hope of life like the white birds of early spring.	true
+unit_description_short_texts_text_ghs_ksl_mon_tor_summer_elemental_bear	Tor, the god of lightning and warriors, wields a giant oak axe to cleave the sky, manifesting a thunderous elemental to bring the fury of summer storms to the battlefield.	true
+unit_description_short_texts_text_ghs_ksl_mon_ursun_winter_elemental_bear	The bear god’s statue rests atop an enormous frost construct, embodying cold and death. Kislev’s fate and Ursun's blessings are deeply intertwined.	true
+unit_description_short_texts_text_ghs_mon_ksl_flying_eagle	The Ungol people are adept at taming snow eagles. When the border rises in smoke, their sharp eyes hunt for enemies thousands of miles away.	true
+unit_description_short_texts_text_ghs_mon_ksl_flying_leopard_rider	The wild beasts of the homeland prowl its forests, including divine leopards with icy wings that soar gracefully, delivering chilling torment to all who witness them.	true
+unit_description_short_texts_text_ghs_main_tze_mon_titan	The Changing God's twisted creation showcases the full extent of magic’s might.	true
+unit_description_short_texts_text_ghs_main_sla_mon_titan	The God of Excess deems this their highest art, transforming the battlefield into an unnamed dreamscape.	true
+unit_description_short_texts_text_ghs_main_kho_mon_titan	The Blood God’s infernal machine spews Khorne’s flames, bringing death to the mortal realm.	true
+unit_description_short_texts_text_ghs_main_cth_veh_warchariot_missle	Compared to typical chariots, this one boasts an additional marksman who hurls firestones to disrupt enemy ranks before charging in.	true
+unit_description_short_texts_text_ghs_main_cth_veh_warchariot	Azure iron rides through the mist, halberds reap foes like grain, and the thunderous sound of hooves shatters formations.	true
+unit_description_short_texts_text_ghs_main_cth_veh_long_boat	Shrouded in clouds, the dragon’s wrath descends. Sails rise with the wind, and the vessel glides a thousand miles in one stroke.	true
+unit_description_short_texts_text_ghs_main_cth_veh_flying_commpass	Earth, wind, fire, and water heed the command of this compass; lightning is unleashed, arrows return to strike their origin—all in accordance with the Emperor’s decree.	true
+unit_description_short_texts_text_ghs_cth_mon_dragon_titan	The Four Gods are but jesters! Zhao Ming, let the Dragon Transformation Technique bring their end!	true
+unit_description_short_texts_text_ghs_main_cth_mon_terracotta_night_keeper	A dim blue lantern guides spirits, and none dare disturb the serenity of the Great Bastion, for where the soul banner passes, no living thing remains.	true
+unit_description_short_texts_text_ghs_main_cth_mon_terracotta_sashoujian	Forged of jade and armed with mace, this terracotta sentinel patrols, killing all intruders.	true
+unit_description_short_texts_text_ghs_main_cth_mon_terracotta_great_cannon	The iron colossus from Nan-Gau protects the frontier. Its thunderous roar shakes the heavens and earth.	true
+unit_description_short_texts_text_ghs_main_cth_mon_terracotta_giant_axe	With golden axe and halberd, it reaps enemy heads, serving the Dragon God for millennia, guarding the impenetrable Heavenly Gates.	true
+unit_description_short_texts_text_ghs_main_cth_mon_terracotta_archer	Forged of black jade, its iron arms draw the bow, striking foes from a hundred yards away.	true
+unit_description_short_texts_text_ghs_main_cth_mon_stone_lion_ror	The jade lion stares fiercely to ward off evil spirits, standing proud at the front lines, deterring all vile creatures.	true
+unit_description_short_texts_text_ghs_main_cth_mon_stone_lion	The stone beast guards the mountain gate, but with chaos rising and disrupting serenity, it follows the monks to purge evil.	true
+unit_description_short_texts_text_ghs_main_cth_mon_soul_long	Legends speak of this dragon ferrying Cathayan souls between realms. If the Great Bastion is in peril, it descends from the Soul River to join the fray.	true
+unit_description_short_texts_text_ghs_main_cth_mon_moxue_rider	Clad in cold black armor, with a stoic face and piercing gaze that shatters enemy morale, its blade cuts life from death in an instant.	true
+unit_description_short_texts_text_ghs_main_cth_mon_manao_yaren	Black Jade Crowmen, specialists in intelligence and assassination, strike unseen and kill without a trace.	true
+unit_description_short_texts_text_ghs_main_cth_mon_long_turtle	The Jade Sea’s colossal turtle bears a fortress on its back. Though slow-moving, its rain of rockets and heavy cannon fire renders it impervious to all but the mightiest armies.	true
+unit_description_short_texts_text_ghs_main_cth_inf_modao	Armour black as ink, blades sharp as snow, their guandao cleaves horse and rider alike, advancing as an unstoppable wall.	true
+unit_description_short_texts_text_ghs_main_cth_inf_mis_rifle	Eagle-eyed with piercing vision, they strike enemies from a hundred steps away or beyond.	true
+unit_description_short_texts_text_ghs_main_cth_inf_mis_moxue_shield	Arrows darken the sky, shields deflect all attacks—what foe dares stand before this formation?	true
+unit_description_short_texts_text_ghs_main_cth_inf_miaodao	Forged of black jade, the flaming edge cleaves evil and shatters spells—what can you monsters do against it?	true
+unit_description_short_texts_text_ghs_main_cth_inf_jade_blood	When the Jade Court requires, disciples of the Jade-Blooded Temple are summoned, using serpent-like cunning and agility to strike at their foes.	true
+unit_description_short_texts_text_ghs_main_cth_cha_terracotta_jade	A general’s spirit animates jade armor, leading legions of terracotta warriors, forming an iron fortress against all evil.	true
+unit_description_short_texts_text_ghs_main_cth_cav_panda_rider	Born carefree in the bamboo sea, now called to war against demonic hordes. These iron-eating beasts crush bones unwillingly, yearning only for peace.	true
+unit_description_short_texts_text_ghs_main_cth_cav_mis_rider_rifle	Steppe nomads excel in archery, easily mastering firehawk rifles.	true
+unit_description_short_texts_text_ghs_main_cth_cav_mis_longyan	A crack of thunder signals the dragon’s wrath. Jade riders hurl fiery death at their foes.	true
+unit_description_short_texts_text_ghs_main_cth_cav_mis_longma	Eyes sharp as stars, arrows pierce the heavens, and death falls from above.	true
+unit_description_short_texts_text_ghs_cth_inf_dragon_guard_sword	Guardians of the Dragon Emperor, they stand proudly above all others, shining with glory.	true
+unit_description_short_texts_text_ghs_cth_cav_unarmour_giant_ox	Horns unbound by rope, it roams the earth freely, untethered by the confines of night.	true
+unit_description_short_texts_text_ghs_cth_cav_armour_giant_ox_ror	Like a wildfire sweeping through, it illuminates the heavens for ninety thousand miles.	true
+unit_description_short_texts_text_ghs_cth_cav_armour_giant_ox	From the Heavenly Mountains it comes, plowing fields and scattering bones, claiming victory in the name of the Empire.	true
+unit_description_short_texts_text_lzd_kroxigor_skink_0	The highly intelligent Kroxigors fight alongside Skinks with a calm demeanor but unleash ferocious fury to tear through enemy lines.	true
+unit_description_short_texts_text_lzd_kroxigor_skink_hero	Yocannadozat and Ta'Gras.	true
+unit_description_short_texts_text_lzd_pyramid_chotec	This is the manifestation of the Sun God's will. Lizardmen who gaze upon it are revitalized, and even their weapons glow with the power of the blazing sun.	true
+unit_description_short_texts_text_lzd_pyramid_tepok	Stars… foretell… the return of ancient foes. I must… stop them… once more.	true
+unit_description_short_texts_text_lzd_pyramid_tzunki	The Sea God once walked through Itza, imbuing the Emerald Pools with immense healing powers. Now, this blessing graces the jungle battlefield.	true
+unit_description_short_texts_text_lzd_salamander_skink_0	Older Salamanders possess deep green scales and fiery temperament. Only the most trusted Skink handlers can avoid their terrifying toxic flames.	true
+unit_description_short_texts_text_lzd_skink_carnosaur	Tepok granted this unique Carnosaur the instinct to harness the Winds of Azyr. The Skink Priest guides its immense heavenly power in battle.	true
+unit_description_short_texts_text_lzd_temple_quetzl_god	The bodies of fallen Lizardmen warriors are wrapped in sacred shrouds granted by the God of War, allowing them to continue protecting their Mage Priests and kin.	true
+unit_description_short_texts_text_ogr_crossbowman	These intimidatingly massive Ogres, proven hunters in their warbands, can casually heft and fire harpoon launchers at any time.	true
+unit_description_short_texts_text_ogr_dragoneater	Ogres aspiring to feast on dragon flesh inscribe fiery runes onto their bodies with fresh blood and hurl themselves into the fiercest flames to test their effectiveness.	true
+unit_description_short_texts_text_ogr_fireman	To the apprentices of the Fire Mouth, having an enemy feel the heat of molten lava is the most generous blessing from their volcano god!	true
+unit_description_short_texts_text_ogr_gbnoblar_bodyguard	The tyrant’s favorite Gnoblars arm themselves as heavily as possible, especially protecting their skinny arms—no one in the tribe is short enough to grab their legs.	true
+unit_description_short_texts_text_ogr_gbnoblar_chef	These chefs excel at feeding their kin with leftover bone fragments and rotting meat. The stench forces them to wear nose guards while cooking.	true
+unit_description_short_texts_text_ogr_gbnoblar_heavy	The craftiest Gnoblars patch together scrap metal for protection, which for Ogres, makes them perfectly canned snacks!	true
+unit_description_short_texts_text_ogr_gbnoblar_light	Frostwolves, with their keen sense of smell and agility rivaling Sabertusks, are prized by Gnoblars for aiding in swift escapes.	true
+unit_description_short_texts_text_ogr_gbnoblar_mortar	These scrawny arms may not matter much, but if they can smash enemies into meat patties, that’s worth it—saves us from chewing!	true
+unit_description_short_texts_text_ogr_ice_mammoth	With a cold equal to Thunderlizards, Frost Mammoths are both a tremendous food reserve and a mighty beast only the strongest Ogres can tame.	true
+unit_description_short_texts_text_ogr_lioneater	To become a Leadbelcher master, one must survive barehanded against a pack of raging Sabertusks. The finest masters wear their trophy pelts proudly.	true
+unit_description_short_texts_text_ogr_mammotheater	The Frost Mammoth’s tenderest parts can freeze an Ogre’s teeth, while its icy bones grind into pigments and carve enemies into frost shards.	true
+unit_description_short_texts_text_ghs_tmb_bone_elephant	Buried beneath the sands of Araby lie the remains of colossal war elephants. Eternal curses awaken these giants to roam once more.	true
+unit_description_short_texts_text_ghs_tmb_flying_necrosphinx_usirian	Unfurling wings woven of anguished souls, it rains the Death God's blessings from the sky!	true
+unit_description_short_texts_text_ghs_tmb_heavy_ostrich_rider	Tomb Guard equipped with durable halberds and shields patrol the desert depths, dispatching all intruders.	false
+unit_description_short_texts_text_ghs_tmb_landing_necrosphinx_usirian	Listen to the whispers of the underworld—the God of Death calls for the souls it craves.	true
+unit_description_short_texts_text_ghs_tmb_ostrich_rider	Awakened skeletal warriors, armed with sharp spears, ride swift and agile bone ostriches, seeking deadly openings in their enemies.	false
+unit_description_short_texts_text_ghs_tmb_scarab_flying_01	The kingdoms of Nehekhara sculpted massive stone beetles, praying for the protection of eternal sacred scarabs.	true
+unit_description_short_texts_text_ghs_tmb_scarab_flying_02	Scarabs adorned with the names and likenesses of gods, often inlaid with pure gold, possess incredible magical resistance.	true
+unit_description_short_texts_text_ghs_tmb_scorpion_monster	Deep within the tombs of the Black Pyramid lie guardians created by legendary necromancers. Few know of their terrifying existence.	true
+unit_description_short_texts_text_ghs_tmb_ushabti_dual_weapon	The chosen warrior spirits of Djaf wield giant blades inscribed with the God of War’s name, carving bloody paths through enemy ranks.	true
+unit_description_short_texts_text_ghs_tmb_ushabti_eagle_cannon	The divine warriors of Phakth are enigmatic, wielding Cathayan-crafted firearms of exquisite destruction to devastate foes from afar.	true
+unit_description_short_texts_text_ghs_tmb_ushabti_great_weapon	Slumbering for centuries in the tomb of Asaph, these colossal sculptures carved with the visage of the Crocodile God stand guard over sacred Titans.	true
+unit_description_short_texts_text_hierotitan_arkhan	The most loyal servant of Nagash, imbued with purest and most potent necromantic power.	true
+unit_description_short_texts_text_hierotitan_arkhan_scorption	Arkhan’s staff draws immense dark magic from the Black Tower, unleashing the latent power of Nagash within.	true
+unit_description_short_texts_text_hierotitan_khalida	Blessed by Asaph, the Warrior Queen’s desire for vengeance transforms into the icy sting of her bowstring.	true
+unit_description_short_texts_text_hierotitan_khatep	Though exiled, the High Priest of the Mortuary Cult’s contributions to Nehekhara earned Phakth’s favor.	true
+unit_description_short_texts_text_hierotitan_settra	The Immortal Emperor, King of Kings! Bow to none, ruler of all!	true
+unit_description_short_texts_text_hierotitan_settra_lion	Ptra’s greatest gift—an immortal golden body and supreme power—fulfills the Immortal Emperor’s grand ambition.	true
+unit_description_short_texts_text_tmb_prince_lion	The resilient souls of the Tomb Princes, blessed by the gods, transform them into mighty lions commanding their legions.	true
+unit_description_short_texts_text_tmb_prince_ushabti	The visage of the Tomb Princes adorns these colossal Ushabti, emanating an aura of pure destruction.	true
+unit_description_historical_texts_text_ghs_def_inf_khaine_avatar	Ah, those blood-stained hands...	false
+unit_description_historical_texts_text_ghs_def_mon_sea_dragon	The mutated sea dragon’s elongated, sinuous body and muscular limbs allow rapid movement both on land and in the ocean. Rapid regeneration heals its wounds, and endless hunger drives its relentless search for food. Its powerful tail propels it through the deep, a formidable weapon capable of shattering castle walls. In battle, they are surrounded by crushing darkness and biting cold.	true
+unit_description_short_texts_text_ghs_def_inf_khaine_avatar	The most crazed and murderous souls are locked within statues to please the Bloody-Handed God. Devout yet tragic, their power is undeniable.	false
+unit_description_short_texts_text_ghs_def_mon_flying_medusa	Cursed by Atharti, the strongest Medusae grew bloody wings. The Goddess of Desire mocked them by restoring their spellcasting but binding their limbs and snakes.	true
+unit_description_short_texts_text_ghs_def_mon_manticore_rider	The manticore's strength and savagery make it the ultimate killing tool, ridden by noble Black Ark Knights as avatars of Khaine himself.	true
+unit_description_short_texts_text_ghs_def_mon_sea_dragon	Sea dragons enslaved by the Druchii are infused with the dark magic of Black Arks, mutating them into perfect hunters of the deep.	true
+unit_description_short_texts_text_ghs_def_mon_tzarkan	Centuries ago, the demon Tzarkan was imprisoned in Kha'Dar. Unbeknownst to all, the Black Blade freed him, intertwining his fate with the World-Drinker.	false
+unit_description_short_texts_text_ghs_inf_def_khaine_sister	Morathi crafted this horrific mutation recipe from Medusae blood, entrails, souls, and dark magic. The maddest zealots gain unmatched power, after all.	false
+unit_description_short_texts_text_ghs_inf_def_medusa_defender_halberd	The cursed mask on a Medusa's face is imbued with endless agony and torment. A glance from her fierce eyes will cause blood to pour from every pore.	false
+unit_description_short_texts_text_ghs_mon_def_armour_hydra	Hekarti’s magical creations bind dark destructive energy within the endlessly regenerative body of a hydra, restrained only by enchanted armor.	false
+unit_description_short_texts_text_ghs_wm_def_black_ark	The Black Arks are vast Druchii floating fortresses. Their towering spires pierce the skies, and all beyond the horizon burns to ash.	true
+unit_description_historical_texts_text_ghs_hef_veh_lothern_skycutter	Accompanied by Skycutters, Lothern Sea Guard's sleek airborne chariots are magically protected and drawn by Swiftwing birds into battle. Their archers target smaller foes, preferring lightweight Hawk’s Talon launchers that fire steel bolts capable of felling mighty beasts. These valuable weapons provide Sea Guard with sustained firepower in combat.	false
+unit_description_short_texts_text_ghs_cav_hef_ellyrian_reavers_pegasus_rider	Equipped with lances and bows crafted from enchanted night-yew, these Pegasus riders of Ellyrion are shielded from even the darkest sorcery.	false
+unit_description_short_texts_text_ghs_cav_hef_fire_dragon_prince	Golden-armored Dragon Princes represent Caledor’s mightiest champions. Their blazing lances scorch all in their path, and they follow up with swift sword strikes.	false
+unit_description_short_texts_text_ghs_cav_hef_white_lion_rider	Even in dire situations, White Lion Riders uphold their courage and pride, charging fearlessly regardless of the enemy’s strength or danger.	false
+unit_description_short_texts_text_ghs_hef_mon_flying_fish	The miraculous flying fish of Cothique are seen as Mathlann’s blessing, guiding lost sailors back to warm harbors with their radiant heads.	false
+unit_description_short_texts_text_ghs_hef_veh_lothern_skycutter	When Skycutters encounter airborne foes, their mission becomes clear: eliminate all aerial threats and secure absolute air superiority for their elven forces.	false
+unit_description_short_texts_text_ghs_inf_hef_revenge_soul	The spirits of Ires’s fallen warriors return through Waystones, clad in golden enchanted armor, wielding willpower and strength to pierce eternal mists.	false
+unit_description_short_texts_text_ghs_mon_hef_flying_lion	These great lions with celestial wings are seen as gifts from Asuryan. To ride one is proof of fearless hearts and noble resolve.	false
+unit_description_short_texts_text_ghs_mon_hef_nagarythe_crow	The elves of Nagarythe pray to the Goddesses of Fate and Death in their eternal quest for vengeance, and flocks of bloody crows heed their call.	false
+unit_description_short_texts_text_ghs_mon_hef_tree_man_archer	Edenvale is the first point where the roots of the World Tree reached Ulthuan. Under the careful nurturing of generations of Everqueens, mighty guardian Treemen were born.	false
+unit_description_short_texts_text_ghs_mon_hef_tree_man_dual_sword	Edenvale is the first point where the roots of the World Tree reached Ulthuan. Under the careful nurturing of generations of Everqueens, mighty guardian Treemen were born.	false
+unit_description_short_texts_text_ghs_wm_hef_flying_waystone	Sapherian mages harness Qhaysh to suspend landmasses in the air, dominating battlefields and unleashing destructive spells from the skies.	false
+unit_description_short_texts_text_ghs_cav_wef_wild_hunter_knight	The lord of Athel Loren awakens from winter’s slumber. When the Wild Hunt’s horn echoes, Kurnous’ chosen offer grand tributes to the King of the Forest.	true
+unit_description_short_texts_text_ghs_cav_wef_zoat_rider_thorn_sister	Bound by the Winds of Life, Zoats and Thorn Sisters call upon vines and thorns to ensnare trespassers, turning them into Athel Loren’s fertilizer.	true
+unit_description_short_texts_text_ghs_inf_sisters_thorn_moonfire_wall_of_thorns	Have you dreamed of a towering wall of green? Beware—it’s a venomous, spiked hell you’ll never wish to approach.	true
+unit_description_short_texts_text_ghs_inf_wef_dryads_fire_summon	These ancient Dryads are reborn from fire, their souls bound to unwavering loyalty to Athel Loren. No elf oath could compare.	true
+unit_description_short_texts_text_ghs_inf_wef_oak_tree_guard	The Weave connects all life and death. These mighty warriors guard its nodes with eternal vigilance, ensuring the balance of souls at any cost.	true
+unit_description_short_texts_text_ghs_inf_wef_oak_tree_guard_evil	Dying forest spirits bind themselves to corrupted Asrai, their whispered unity creating these tragic yet formidable beings.	true
+unit_description_short_texts_text_ghs_inf_wef_sisters_thorn_moonfire	The most enigmatic Thorn Sisters wield malevolent Moonfire arrows, burning trespassers who then perish amidst piercing thorns.	true
+unit_description_short_texts_text_ghs_inf_wef_wild_hunter	The lord of Athel Loren awakens from winter’s slumber. When the Wild Hunt’s horn echoes, Kurnous’ chosen offer grand tributes to the King of the Forest.	true
+unit_description_short_texts_text_ghs_mon_wef_treeman_guard_autumn	The spirit of an ancient oak, unbroken by fire, stands vigilant. Guided by spirits from Waystones, it remembers its eternal duty.	true
+unit_description_short_texts_text_ghs_mon_wef_treeman_guard_evil	Forest resentment births such cold-hearted creatures. Graceful as dancers, their twisted limbs pierce hearts from the shadows.	true
+unit_description_short_texts_text_ghs_mon_wef_treeman_guard_spring	The Willow Spirit heralds spring, embodies life’s source, and serves as a refuge for lost souls, aiding all who defend the forest.	true
+unit_description_short_texts_text_ghs_mon_wef_treeman_guard_summer	After years of lightning strikes, the Poplar Spirit’s silvery body and unmatched vitality channel terrifying bolts that pierce armor and flesh alike.	true
+unit_description_short_texts_text_ghs_mon_wef_treeman_guard_winter	Through all seasons, Birch Spirits stand watch over Athel Loren, awaiting rebirth from the ashes of dormancy.	true
+unit_description_short_texts_text_ghs_flc02_dwf_veh_juggernaut	The Dawi Tank, a formidable dwarven war machine.	false
+unit_description_short_texts_text_ghs_flc02_dwf_veh_juggernaut_ror	An important invention of Black Fire Pass—one shot, and everything turns to dust.	false
+unit_description_short_texts_text_ghs_flc02_dwf_art_mortar	The dwarven mortar, a reliable tool of destruction.	false
+unit_description_short_texts_text_ghs_flc02_dwf_veh_thunderbarge_0	Elves received plenty of attention from airships during the War of Vengeance.	false
+unit_description_short_texts_text_ghs_flc02_dwf_veh_thunderbarge_ror	Elite airship unit.	false
+unit_description_short_texts_text_cody_dwf_cha_malakai_makaisson_0	A renowned dwarven Slayer Engineer.	false
+unit_description_short_texts_text_cody_dwf_cha_malakai_makaisson_1	A renowned dwarven Slayer Engineer.	false
+unit_description_short_texts_text_ghs_flc02_dwf_inf_dwarf_warrior_spear	Dwarfs using spears? Even the Elves would be surprised.	false
+unit_description_short_texts_text_ghs_flc02_dwf_inf_ironbreakers_poleaxe	The strongest polearm warriors from the World's Edge Mountains.	false
+unit_description_short_texts_text_ghs_flc02_dwf_inf_dwarf_warrior_spear_javelin	Accurate—at least the goblins think so.	false
+unit_description_short_texts_text_ghs_flc02_dwf_inf_longbeards_bardiche	Longbeard warriors now wield new weapons!	false
+unit_description_short_texts_text_ghs_flc02_dwf_inf_ironbreakers_poleaxe_rider	What’s an Ironbreaker Knight? Lean back.	false
+unit_description_short_texts_text_ghs_flc02_dwf_inf_hammerer_rider	One strike with the hammer lasts a lifetime.	false
+unit_description_short_texts_text_ghs_flc02_dwf_inf_ironbreakers_bear_rider	That’s one big bear.	false
+unit_description_short_texts_text_ghs_flc02_dwf_landmines	Bang!	false
+unit_description_short_texts_text_ghs_flc02_dwf_caltrops	Effective at slowing down enemy advances.	false
+unit_description_short_texts_text_ghs_flc02_dwf_art_sappers_organ_gun	Organ Gun.	false
+unit_description_short_texts_text_ghs_flc02_dwf_art_sappers_volley_gun	Volley Gun.	false
+unit_description_short_texts_text_ghs_flc02_dwf_inf_crank_gunners	Throttling firepower is the name of the game.	false
+unit_description_short_texts_text_ghs_flc02_dwf_inf_iron_thunderers	Thunderers gone rogue with melee weapons.	false
+unit_description_short_texts_text_ghs_flc02_dwf_inf_ironguard	The Chaos Dwarfs might call these Ironguard ‘Thunder Gunners’.	false
+unit_description_short_texts_text_ghs_flc02_dwf_inf_mountaineers	Mountain Rangers.	false
+unit_description_short_texts_text_ghs_flc02_dwf_inf_githammers	New weapon—definitely not a mortar.	false
+unit_description_short_texts_text_ghs_flc02_dwf_inf_grudgesolvers	Vengeance! Vengeance! Vengeance!	false
+unit_description_short_texts_text_ghs_flc02_dwf_inf_sappers	Powerful dwarven engineers who deploy mechanical traps on the battlefield.	false
+unit_description_short_texts_text_ghs_flc02_dwf_veh_plow	Used for plowing. Goblin: ?	false
+unit_description_short_texts_text_ghs_dwf_inf_highking_guard	Armed with broad axes and guns capable of evaporating any foe.	false
+unit_description_short_texts_text_ghs_dwf_inf_slayer_guard	Bound by oaths to their king and the Slayer cult.	false
+unit_description_short_texts_text_ghs_dwf_veh_dreadquake_mortar	Big caliber—brace yourself.	false
+unit_description_short_texts_text_ghs_dwf_veh_iron_train	Steam hisses, the engine roars—this cannon-mounted locomotive excels in both power and firepower.	false
+unit_description_short_texts_text_ghs_dwf_veh_iron_train_1dreadquake	Big caliber—brace yourself.	false
+unit_description_short_texts_text_ghs_dwf_chd_veh_goblin_crusher	Thanks to Grungron’s wild imagination, more bizarre contraptions hit the battlefield, leaving trails of dust or gore wherever they roll.	false
+unit_description_short_texts_text_cth_cav_celestial_mighty_axe_guard	The Celestial Dragon Guard wielding mighty axes are stalwart defenders of Cathay, charged by the Dragon Emperor, though their skills barely extend beyond three strikes.	false
+unit_description_short_texts_text_cth_cav_naogao_fire_lance	Weapons forged by the artisans of Nan-Gau that make even demons retreat in fear.	false
+unit_description_short_texts_text_cth_cav_xiaoguojun	The Xiaoguojun are the elite guards of Weijing, skilled in lance combat and horseback fighting, able to hold off ten enemies at once.	false
+unit_description_short_texts_text_cth_inf_moon_yinyang_maiden	Skilled dual-sword users who imbue their arrows with Yin and Yang energies, striking foes unseen.	false
+unit_description_short_texts_text_cth_inf_nangao_firework_trops	Equally adept at range and melee, these Nan-Gau elites have fought Chaos alongside the Storm Dragon herself.	false
+unit_description_short_texts_text_cth_jade_warrior_halberd_shield	These halberdiers embody the soul of the Great Bastion, forming unyielding walls of shields and spears.	false
+unit_description_short_texts_text_cth_jade_warrior_stick	Among the Jade Warriors, the fiercest wield spiked maces.	false
+unit_description_short_texts_text_ghs_chd_mon_kdaai_firestirke	Flame demons wielding long halberds, incinerating all who dare approach.	false
+unit_description_short_texts_text_ghs_chd_mon_kdaai_destroyer_beasts	The K'daai Destroyer towers over its foes, using blazing claws to crush fortifications and beasts, leaving only ashes in its wake.	false
+unit_description_short_texts_text_ghs_chd_mon_kdaai_destroyer_doombull	Infused with hatred of the world, the K'daai takes the form of a massive bull, flattening hills with its charge.	false
+unit_description_short_texts_text_ghs_chd_mon_kdaai_destroyer_wings	Blessed by Hashut, these K'daai Destroyers possess massive brass wings, filled with dark magic and consecrated blood.	false
+unit_description_short_texts_text_ghs_chd_mon_kdaai_destroyer_conqueror	Covered in spikes and blades, any enemy foolish enough to engage in melee is likely to be shredded to pieces.	false

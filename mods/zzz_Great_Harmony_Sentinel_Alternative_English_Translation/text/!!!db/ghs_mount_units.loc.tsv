@@ -1,0 +1,10 @@
+key	text	tooltip
+#Loc;1;text/!!!db/ghs_mount_units.loc		
+land_units_onscreen_name_ghs_lzd_mon_giant_ripperdactyl_old_blood	Saurus Oldblood on Ancient Ripperdactyl	false
+land_units_onscreen_name_ghs_lzd_mon_giant_ripperdactyl_scar_veteran	Saurus Scar-Veteran on Ancient Ripperdactyl	false
+land_units_onscreen_name_slann_light	Slann Mage-Priest (Lore of Light)	true
+land_units_onscreen_name_slann_life	Slann Mage-Priest (Lore of Life)	true
+land_units_onscreen_name_slann_high	Slann Mage-Priest (High Magic)	true
+land_units_onscreen_name_slann_heaven	Slann Mage-Priest (Lore of Heavens)	true
+land_units_onscreen_name_slann_fire	Slann Mage-Priest (Lore of Fire)	true
+land_units_onscreen_name_slann_campagin	Slann Mage-Priest	true

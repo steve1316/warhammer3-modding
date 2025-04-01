@@ -1,0 +1,33 @@
+key	text	tooltip
+#Loc;1;text/!!!cth_fuyuanshan_xinwu.loc		
+land_units_onscreen_name_fuyuanshan_xinwu_lord_0	Xin Wu, the Defier of Fate	true
+agent_subtypes_onscreen_name_override_fuyuanshan_xinwu_lord	Legendary Lord	true
+character_skills_localised_name_fuyuanshan_xinwu_lord_weapon	Defier of Fate	true
+ancillaries_onscreen_name_fuyuanshan_xinwu_lord_weapon	Defier of Fate	false
+character_skills_localised_description_fuyuanshan_xinwu_lord_weapon	A gift from the Celestial Dragons, capable of severing the threads of fate and bringing destined death to all things. With Xin Wu's demise, this ominous demonic sword was also sealed away.	false
+ancillaries_colour_text_fuyuanshan_xinwu_lord_weapon	A gift from the Celestial Dragons, capable of severing the threads of fate and bringing destined death to all things. With Xin Wu's demise, this ominous demonic sword was also sealed away.	true
+unit_description_historical_texts_text_fuyuanshan_xinwu	The hero Xin Wu, the rebel Xin Wu, the Defier of Fate Xin Wu. His destiny was written in the Book of Prophecies, destined to bring destruction to Grand Cathay. For this, Grand Cathay became his enemy, and the Celestial Dragons bestowed their blessings upon him. He was supposed to bring complete destruction to Cathay amidst its division and conflict, but he, a mere mortal, mocked fate and the Celestial Dragons, bringing salvation to Cathay in his own way... However, this is not the end of Xin Wu's story.	true
+unit_description_short_texts_text_fuyuanshan_xinwu_lord	Xin Wu has once again escaped the fate of death, but this time he will obey the will of Tzeentch, bringing destined destruction to Grand Cathay.	true
+names_name_2024051818		true
+names_name_2024051819	Xin Wu, the Defier of Fate	true
+land_units_onscreen_name_cth_fys_mon_xinwu	Xin Wu, the Defier of Fate	true
+unit_description_short_texts_text_fuyuanshan_xinwu_mon	Even if the flow of fate cannot be defied, the struggle of mortals still holds meaning. Until the final moment arrives, Xin Wu will continue to fight for Grand Cathay.	true
+unit_abilities_onscreen_name_ability_xinwu_remorse_flame	Remorseful Flames	true
+unit_abilities_tooltip_text_ability_xinwu_remorse_flame	Time cannot be reversed, the past cannot be undone, the flames of remorse constantly gnaw at Xin Wu's body and mind.	true
+unit_abilities_onscreen_name_ability_xinwu_fatedefyer	Defier of Fate	true
+unit_abilities_tooltip_text_ability_xinwu_fatedefyer	Fate is something that can be cut down with a sword.	true
+unit_abilities_onscreen_name_ability_xinwu_raven_whisper	Raven's Whispers	true
+unit_abilities_tooltip_text_ability_xinwu_raven_whisper	Xin Wu's ears are constantly filled with the whispers of ravens, granting him extraordinary wisdom but driving all others who hear them to madness.	true
+unit_abilities_onscreen_name_ability_xinwu_fire_blood	Blazing Blood	true
+unit_abilities_tooltip_text_ability_xinwu_fire_blood	With each beat of Xin Wu's heart, scorching blood surges from his neck, transforming into blazing flames. Wherever this fire passes, all things turn to ashes.	true
+unit_abilities_onscreen_name_ability_xinwu_art_of_war	The Art of War	true
+unit_abilities_tooltip_text_ability_xinwu_art_of_war	The memories of a mortal general awaken in Xin Wu's mind, recalling the art of commanding armies... even though his head has been severed by his own demonic sword, and even the Celestial Dragons' power cannot reattach it.	true
+unit_abilities_onscreen_name_ability_fated_death	Fated Death	false
+unit_abilities_tooltip_text_ability_fated_death	All mortals must die, all mortals must serve.	false
+effects_description_effect_ability_enable_fated_death	Activates the ability: "Fated Death"	false
+unit_abilities_onscreen_name_ability_xinwu_undeath	The Undying	false
+unit_abilities_tooltip_text_ability_xinwu_undeath	Death is not the end, but the beginning. The sleeper will awaken, crossing the barrier that mortals cannot overcome, the knight will return to the mortal world.	false
+effects_description_wh3_main_effect_army_ability_xinwu	Activates the army ability: "Defier of Fate"\\n(Cathay-controlled regions)	false
+unit_abilities_onscreen_name_wh3_main_army_abilities_xinwu	Defier of Fate	false
+unit_abilities_tooltip_text_wh3_main_army_abilities_xinwu	Even if the flow of fate cannot be defied, the struggle of mortals still holds meaning. Until the final moment arrives, Xin Wu will continue to fight for Grand Cathay.	false
+unit_abilities_additional_ui_effects_localised_text_wh3_main_all_summon_xinwu	Xin Wu comes to aid the battle.	false

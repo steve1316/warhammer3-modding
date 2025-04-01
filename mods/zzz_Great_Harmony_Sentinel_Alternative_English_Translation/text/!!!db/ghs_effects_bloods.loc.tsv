@@ -1,0 +1,60 @@
+key	text	tooltip
+#Loc;1;text/!!!db/ghs_effects_bloods.loc		
+effects_description_bloodthirster_bonus_frenzy	Faction-wide Bloodthirsters and Exalted Bloodthirsters gain the ability: Frenzy	true
+effects_description_bloodthirster_bonus_gorefeast	Faction-wide Bloodthirsters and Exalted Bloodthirsters gain the ability: Gorefeast	true
+effects_description_bloodthirster_bonus_khorne_fire	Faction-wide Bloodthirsters and Exalted Bloodthirsters gain the ability: Infernal Bloodflame	true
+effects_description_cooldown_kho_blood_magic_blade_shard	Cooldown for Khorne's Blades of Slaughter: %n%	true
+effects_description_cooldown_kho_blood_magic_brass_fortress	Cooldown for Brass Fortress: %n%	true
+effects_description_cooldown_kho_blood_magic_great_tempest	Cooldown for Chainblade Tempest: %n%	true
+effects_description_cooldown_kho_blood_magic_khorne_foot	Cooldown for Khorne's Stomp: %n%	true
+effects_description_cooldown_kho_blood_magic_khornesword	Cooldown for Decapitating Axe: %n%	true
+effects_description_cooldown_kho_blood_magic_sla_breath	Cooldown for Skullflame Breath: %n%	true
+effects_description_cooldown_kho_cultist_magic_chain_cage	Cooldown for Infernal Chains: %n%	true
+effects_description_cooldown_kho_cultist_magic_fist	Cooldown for Skull-Crushing Strike: %n%	true
+effects_description_cooldown_kho_cultist_magic_flood_forbid	Cooldown for Weak Blood Surge: %n%	true
+effects_description_cooldown_kho_cultist_magic_mist	Cooldown for Blood Seal Mist: %n%	true
+effects_description_cooldown_kho_cultist_magic_whip	Cooldown for Bloodthirsty Lash: %n%	true
+effects_description_enable_kho_blood_magic_blade_shard	Unlocks Skull Rune: Khorne's Blades of Slaughter	true
+effects_description_enable_kho_blood_magic_brass_fortress	Unlocks Skull Rune: Brass Fortress	true
+effects_description_enable_kho_blood_magic_cooldown	Shared cooldown for Khorne's Skull Runes: %n%	true
+effects_description_enable_kho_blood_magic_great_tempest	Unlocks Skull Rune: Chainblade Tempest	true
+effects_description_enable_kho_blood_magic_khorne_foot	Unlocks Skull Rune: Khorne's Stomp	true
+effects_description_enable_kho_blood_magic_khornesword	Unlocks Skull Rune: Decapitating Axe	true
+effects_description_enable_kho_blood_magic_passive_anti_missile	Unlocks Skull Rune: Thronekill Order	true
+effects_description_enable_kho_blood_magic_passive_cooldown	Unlocks ability: Skull Hymn	true
+effects_description_enable_kho_blood_magic_sla_breath	Unlocks Skull Rune: Skullflame Breath	true
+effects_description_enable_kho_cultist_magic_chain_cage	Unlocks Blood Rune: Infernal Chains	true
+effects_description_enable_kho_cultist_magic_cooldown	Shared cooldown for Khorne's Blood Runes: %n%	true
+effects_description_enable_kho_cultist_magic_fist	Unlocks Blood Rune: Skull-Crushing Strike	true
+effects_description_enable_kho_cultist_magic_flood_forbid	Unlocks Blood Rune: Weak Blood Surge	true
+effects_description_enable_kho_cultist_magic_mist	Unlocks Blood Rune: Blood Seal Mist	true
+effects_description_enable_kho_cultist_magic_passive_bloom	Unlocks Blood Rune: Khorne's Glance	true
+effects_description_enable_kho_cultist_magic_storm	Unlocks Blood Rune: Blood Tornado	true
+effects_description_enable_kho_cultist_magic_whip	Unlocks Blood Rune: Bloodthirsty Lash	true
+effects_description_kho_army_bronze_body_army	Khorne's units gain the ability: Brass Body	true
+effects_description_kho_blood_magic_brass_fortress_bound	Bloodthirsters gain the Rune: Brass Fortress	true
+effects_description_kho_blood_magic_great_tempest_bound	Bloodthirsters gain the Rune: Chainblade Tempest	true
+effects_description_kho_cultist_magic_flood_forbid_bound	Bloodthirsters gain the Rune: Weak Blood Surge	true
+effects_description_kho_cultist_magic_whip_bound	Bloodthirsters gain the Rune: Bloodthirsty Lash	true
+effects_description_miscast_kho_blood_magic_blade_shard	Miscast chance for Advanced Khorne's Blades of Slaughter: %n%	true
+effects_description_miscast_kho_blood_magic_brass_fortress	Miscast chance for Advanced Brass Fortress: %n%	true
+effects_description_miscast_kho_blood_magic_great_tempest	Miscast chance for Advanced Chainblade Tempest: %n%	true
+effects_description_miscast_kho_blood_magic_khorne_foot	Miscast chance for Advanced Khorne's Stomp: %n%	true
+effects_description_miscast_kho_blood_magic_khornesword	Miscast chance for Advanced Decapitating Axe: %n%	true
+effects_description_miscast_kho_blood_magic_sla_breath	Miscast chance for Advanced Skullflame Breath: %n%	true
+effects_description_miscast_kho_cultist_magic_chain_cage	Miscast chance for Advanced Infernal Chains: %n%	true
+effects_description_miscast_kho_cultist_magic_fist	Miscast chance for Advanced Skull-Crushing Strike: %n%	true
+effects_description_miscast_kho_cultist_magic_flood_forbid	Miscast chance for Advanced Weak Blood Surge: %n%	true
+effects_description_miscast_kho_cultist_magic_mist	Miscast chance for Advanced Blood Seal Mist: %n%	true
+effects_description_miscast_kho_cultist_magic_whip	Miscast chance for Advanced Bloodthirsty Lash: %n%	true
+effects_description_overcast_kho_blood_magic_blade_shard	Overcast Skull Rune: Advanced Khorne's Blades of Slaughter	true
+effects_description_overcast_kho_blood_magic_brass_fortress	Overcast Skull Rune: Advanced Brass Fortress	true
+effects_description_overcast_kho_blood_magic_great_tempest	Overcast Skull Rune: Advanced Chainblade Tempest	true
+effects_description_overcast_kho_blood_magic_khorne_foot	Overcast Skull Rune: Advanced Khorne's Stomp	true
+effects_description_overcast_kho_blood_magic_khornesword	Overcast Skull Rune: Advanced Decapitating Axe	true
+effects_description_overcast_kho_blood_magic_sla_breath	Overcast Skull Rune: Advanced Skullflame Breath	true
+effects_description_overcast_kho_cultist_magic_chain_cage	Overcast Blood Rune: Advanced Infernal Chains	true
+effects_description_overcast_kho_cultist_magic_fist	Overcast Blood Rune: Advanced Skull-Crushing Strike	true
+effects_description_overcast_kho_cultist_magic_flood_forbid	Overcast Blood Rune: Advanced Weak Blood Surge	true
+effects_description_overcast_kho_cultist_magic_mist	Overcast Blood Rune: Advanced Blood Seal Mist	true
+effects_description_overcast_kho_cultist_magic_whip	Overcast Blood Rune: Advanced Bloodthirsty Lash	true

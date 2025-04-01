@@ -1,0 +1,29 @@
+key	text	tooltip
+#Loc;1;text/@@zerooz_wef_units.loc		
+ui_unit_groupings_onscreen_monstrous_shock_cavalry_stags_arrow	Monstrous Ranged Cavalry	false
+ui_unit_groupings_onscreen_infantry_war_druid_human	Melee Mage Infantry	false
+land_units_onscreen_name_wef_cav_spears_of_orion	Spears of Orion	false
+unit_description_historical_texts_text_wef_cav_spears_of_orion	Among the many hunter families loyal to the Forest King, the Spears of Orion is one of the largest. For millennia, they have been the vanguard of Orion's Wild Hunt and the last line of defense for the sacred Oak of Ages each winter.	false
+unit_description_short_texts_text_wef_cav_spears_of_orion	If Orion calls upon them, these warriors will not hesitate to face sharp blades and magic in defense of their king.	false
+land_units_onscreen_name_wef_inf_talsyn_hawks	Talsyn Hawks	false
+unit_description_historical_texts_text_inf_cav_talsyn_hawks	As the Glade Lord of Talsyn, Araloth wholeheartedly supported Ariel's rise to become the Queen of Athel Loren. Unlike other Elves in the Eternal Queen’s army, they remained steadfast in their faith, unshaken even by fighting their kin, for their loyalty to Ariel was as strong as their faith in their lord.	false
+unit_description_short_texts_text_wef_inf_talsyn_hawks	The blades of this unit have tasted the blood of the long-standing enemies, the Beastmen.	false
+land_units_onscreen_name_wef_mon_durthus_wargrove	Durthu's Wargrove	false
+unit_description_historical_texts_text_wef_mon_durthus_wargrove	Durthu awakened other ancient Treemen who once fought beside him in ancient times. They now join the army of Treekin as lieutenants. Such a grand force has not been seen for centuries.	false
+unit_description_short_texts_text_wef_mon_durthus_wargrove	Warriors who once fought alongside Durthu now return to the forests of Athel Loren.	false
+land_units_onscreen_name_wef_mon_durthus_wargrove_treekin	Durthu's Wargrove (Treekin)	false
+land_units_onscreen_name_wef_cav_great_stag_rangers	Great Stag Rangers	false
+unit_description_short_texts_text_wef_cav_great_stag_rangers	A group of female Great Stag Riders, skilled at using their archery to harass and disrupt surrounding enemies.	false
+land_units_onscreen_name_wef_inf_twilight_guard	Twilight Guard	false
+unit_description_historical_texts_text_wef_inf_twilight_guard	The Twilight Guard is a personal bodyguard of the Twilight Sisters, chosen from among the archers who serve the Twilight Sisters in the forests of Athel Loren. Some of the maidens have been blessed with animal affinities through Naestra's training, while others, trained by Arahan, have become cold and ruthless.	false
+unit_description_short_texts_text_wef_inf_twilight_guard	A force of gentle yet ruthless maidens, they continually carry out the commands of the Twilight Sisters throughout Athel Loren.	false
+land_units_onscreen_name_wef_inf_war_druid_human	War Druids	false
+unit_description_historical_texts_text_wef_inf_war_druid_human	It is rumored that some warriors in the Athel Loren forests can transform into animals. They are often seen in the form of various beasts, and they know all that occurs in the woods.	false
+unit_description_short_texts_text_wef_inf_war_druid_human	Druids can cast spells in their human form when necessary, and in their animal form, they tear through enemy lines.	false
+land_units_onscreen_name_wef_mon_war_druid_beast	War Druids (Beast)	false
+land_units_onscreen_name_wef_mon_treemen_acher	Treeman Hunters	false
+unit_description_historical_texts_text_wef_mon_treemen_acher	In the forest, Treemen are not only a resilient line of defense but also ruthless hunters. They silently wait for prey in the woods, using bows made from branches and arrows blessed by the Everqueen.	false
+unit_description_short_texts_text_wef_mon_treemen_acher	Some Treemen in the forest have learned how to use offensive techniques, and their magic-infused arrows can pierce even the toughest armor.	false
+land_units_onscreen_name_wef_mon_treemen_acher_evil	Malevolent Treeman Hunters	false
+unit_description_historical_texts_text_wef_mon_treemen_acher_evil	Treemen corrupted by Drycha have a deep hatred for all things. They fear no enemy, using specially enchanted arrows to pierce through the bodies of their foes time and again.	false
+unit_description_short_texts_text_wef_mon_treemen_acher_evil	Treemen driven by hatred and bitterness, their arrows can ignite with flames while weakening the armor of enemies.	false

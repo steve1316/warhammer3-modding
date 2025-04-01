@@ -1,0 +1,55 @@
+key	text	tooltip
+#Loc;1;text/!!!db/ghs_ui_unit_bullet_point_enums.loc		
+ui_unit_bullet_point_enums_onscreen_name_warpstone_keg	Warpstone Keg	false
+ui_unit_bullet_point_enums_onscreen_name_jade_taoist_rune_spell	Jade Taoist Rune Spell	false
+ui_unit_bullet_point_enums_tooltip_warpstone_keg	The frailty of Skavenslaves makes them the perfect fuse for a warpstone keg explosion.	false
+ui_unit_bullet_point_enums_onscreen_name_ghs_ability_dwf_beer_valaya	Valaya's Chalice	true
+ui_unit_bullet_point_enums_onscreen_name_ghs_ability_dwf_forge_grungni	Grungni's Forge	true
+ui_unit_bullet_point_enums_onscreen_name_ghs_ability_dwf_powder_morgrim	Morgrim's Powder	true
+ui_unit_bullet_point_enums_onscreen_name_ghs_ability_dwf_rage_grimnir	Grimnir's Axe	true
+ui_unit_bullet_point_enums_tooltip_ghs_ability_dwf_beer_valaya	"Build fortresses, protect homes, and revel in the joy of Valaya's brew!"	true
+ui_unit_bullet_point_enums_tooltip_ghs_ability_dwf_forge_grungni	"The forge burns bright, the hammer rings, and a divine weapon is forged!"	true
+ui_unit_bullet_point_enums_tooltip_ghs_ability_dwf_powder_morgrim	"The cannon roars, the smoke clears, and the mountains tremble in song!"	true
+ui_unit_bullet_point_enums_tooltip_ghs_ability_dwf_rage_grimnir	"Slay the dragon, conquer the wilds, and cleanse the Chaos beasts!"	true
+ui_unit_bullet_point_enums_tooltip_jade_taoist_rune_spell	Jade Taoist Rune Spells are a unique development of the Wind of Qi. Casters store magical winds in talismans for later use, providing potent support despite limited control.	true
+ui_unit_bullet_point_enums_tooltip_ghs_cth_cha_hongying	Hong Ying is the Moon Empress's most trusted Dragonborn Lord, rumored to carry the mysterious bloodline of the Shadow Dragon. He oversees the Gui Po Division and commands the Obsidian Crows.	true
+ui_unit_bullet_point_enums_tooltip_magic_eater	Constructed from jade, these creatures boast incredible resilience and can draw power from the Winds of Magic.	true
+ui_unit_bullet_point_enums_tooltip_iron_eater	Sharp weapons and heavy armor are delectable treats for this iron-consuming beast!	true
+ui_unit_bullet_point_enums_tooltip_imperfect	These prototypes of the Dragon Emperor's creations cannot fully stabilize the power of the Aether Winds but still instill fear in their enemies.	true
+ui_unit_bullet_point_enums_onscreen_name_ghs_cth_cha_hongying	"The Pale Moon Raven"	true
+ui_unit_bullet_point_enums_onscreen_name_magic_eater	Jade Construct	true
+ui_unit_bullet_point_enums_onscreen_name_iron_eater	Iron Eater Beast	true
+ui_unit_bullet_point_enums_onscreen_name_imperfect	Dragon Emperor Prototype	true
+ui_unit_bullet_point_enums_onscreen_name_tomb_dragon_breath	Soul Dragon's Breath	true
+ui_unit_bullet_point_enums_tooltip_tomb_dragon_breath	Those who disturb the Tomb Kings' rest will face the wrath of ancient tyrant souls.	true
+ui_unit_bullet_point_enums_onscreen_name_armour_hydra_breath	Cursed Flame	true
+ui_unit_bullet_point_enums_onscreen_name_black_ark	Black Ark	true
+ui_unit_bullet_point_enums_onscreen_name_khaine_avatar	Avatar of Khaine	true
+ui_unit_bullet_point_enums_onscreen_name_medusa_curse	Touch of a Thousand Eyes	true
+ui_unit_bullet_point_enums_onscreen_name_tzarkan	World Drinker	true
+ui_unit_bullet_point_enums_tooltip_armour_hydra_breath	Infused with destructive magic, the many-headed hydra spews dark flames with unparalleled vitality.	true
+ui_unit_bullet_point_enums_tooltip_black_ark	Though slow-moving, the Black Ark provides exceptional ranged and magical support, with the ability to extinguish surrounding flames with its tidal waves.	true
+ui_unit_bullet_point_enums_tooltip_khaine_avatar	Summoning it requires a price, whether in others' blood or your own.	true
+ui_unit_bullet_point_enums_tooltip_medusa_curse	A light touch may numb you, severe weakness will set in, or worse—your heart will be pierced before your eyes.	true
+ui_unit_bullet_point_enums_tooltip_tzarkan	The black soul of Malus Darkblade and the cunning demon Tzarkan are temporarily separated, but it won't last long.	true
+ui_unit_bullet_point_enums_onscreen_name_ghs_legendry	Legendary Glory	true
+ui_unit_bullet_point_enums_onscreen_name_kurnous_chosen	Chosen of Kurnous	true
+ui_unit_bullet_point_enums_onscreen_name_moonfire_bow	Evil Moonfire Bow	true
+ui_unit_bullet_point_enums_tooltip_ghs_legendry	This unit possesses unparalleled combat prowess. May you continue to write their legendary tale!	true
+ui_unit_bullet_point_enums_tooltip_kurnous_chosen	The power of Kurnous flows in their veins. They serve directly under the King of the Forest in the Wild Hunt.	true
+ui_unit_bullet_point_enums_tooltip_moonfire_bow	These spectral blue bows absorb their wielder's malice to create even deadlier arrows, but have no effect on allies.	true
+ui_unit_bullet_point_enums_tooltip_dwarf_engineer_team	This unit is a professional combat engineer team with unique abilities to construct devices and weapons in battle.	false
+ui_unit_bullet_point_enums_onscreen_name_dwarf_engineer_team	Combat Engineers	false
+ui_unit_bullet_point_enums_onscreen_name_weak_to_fire	Weak to Fire	false
+ui_unit_bullet_point_enums_tooltip_weak_to_fire	This unit is particularly vulnerable to [[img:ui/skins/default/modifier_icon_flaming.png]][[/img]] fire damage.	false
+ui_unit_bullet_point_enums_tooltip_short_range	This unit's ranged attacks have limited range.	false
+ui_unit_bullet_point_enums_onscreen_name_short_range	Short Range	false
+ui_unit_bullet_point_enums_tooltip_incendiary_ammunition	This projectile causes [[img:ui/skins/default/modifier_icon_flaming.png]][[/img]] fire damage.	false
+ui_unit_bullet_point_enums_onscreen_name_incendiary_ammunition	Incendiary Rounds	false
+ui_unit_bullet_point_enums_onscreen_name_deployed_crew	Deployable Crew	true
+ui_unit_bullet_point_enums_onscreen_name_ammo_refill	Ammo Replenishment	true
+ui_unit_bullet_point_enums_tooltip_ammo_refill	This unit can replenish ammunition for allies.	true
+ui_unit_bullet_point_enums_onscreen_name_strong_vs_single_entity	Monster Slayer	true
+ui_unit_bullet_point_enums_tooltip_strong_vs_single_entity	Thunder Cannons fire massive shells that deal enormous damage to single entities but are less effective against groups.	true
+ui_unit_bullet_point_enums_onscreen_name_stationary	Stationary Artillery	true
+ui_unit_bullet_point_enums_tooltip_stationary	Once deployed, the Thunder Cannon remains stationary for the duration of the battle.	true

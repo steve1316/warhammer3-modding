@@ -1,0 +1,34 @@
+key	text	tooltip
+#Loc;1;text/!!!db/ghs_nor_units_upgrade.loc		
+effect_bundles_localised_title_ghs_nor_upgrade_effect_kho_attack_0	Reverence to the Hound God - I	true
+effect_bundles_localised_description_ghs_nor_upgrade_effect_kho_attack_0	Champions of the Hound God stand here—tremble before the savage hunt that approaches!	true
+effect_bundles_localised_title_ghs_nor_upgrade_effect_nur_defend_0	Reverence to the Raven God - I	true
+effect_bundles_localised_description_ghs_nor_upgrade_effect_nur_defend_0	Champions of the Raven God stand here—slay everything, and let it feast on the rotting flesh!	true
+effect_bundles_localised_title_ghs_nor_upgrade_effect_tze_barrier_0	Reverence to the Eagle God - I	true
+effect_bundles_localised_description_ghs_nor_upgrade_effect_tze_barrier_0	Champions of the Eagle God stand here—fear the shadow it casts silently from above!	true
+effect_bundles_localised_title_ghs_nor_upgrade_effect_sla_speed_0	Reverence to the Serpent God - I	true
+effect_bundles_localised_description_ghs_nor_upgrade_effect_sla_speed_0	Champions of the Serpent God stand here—tremble at its serpentine form emerging from Norsca's abyss!	true
+effect_bundles_localised_title_ghs_nor_upgrade_effect_kho_attack_1	Reverence to the Hound God - II	true
+effect_bundles_localised_description_ghs_nor_upgrade_effect_kho_attack_1	Champions of the Hound God stand here—tremble before the savage hunt that approaches!	true
+effect_bundles_localised_title_ghs_nor_upgrade_effect_nur_defend_1	Reverence to the Raven God - II	true
+effect_bundles_localised_description_ghs_nor_upgrade_effect_nur_defend_1	Champions of the Raven God stand here—slay everything, and let it feast on the rotting flesh!	true
+effect_bundles_localised_title_ghs_nor_upgrade_effect_tze_barrier_1	Reverence to the Eagle God - II	true
+effect_bundles_localised_description_ghs_nor_upgrade_effect_tze_barrier_1	Champions of the Eagle God stand here—fear the shadow it casts silently from above!	true
+effect_bundles_localised_title_ghs_nor_upgrade_effect_sla_speed1	Reverence to the Serpent God - II	true
+effect_bundles_localised_description_ghs_nor_upgrade_effect_sla_speed_1	Champions of the Serpent God stand here—tremble at its serpentine form emerging from Norsca's abyss!	true
+effect_bundles_localised_title_ghs_nor_upgrade_effect_kho_attack_2	Reverence to the Hound God - III	true
+effect_bundles_localised_description_ghs_nor_upgrade_effect_kho_attack_2	Champions of the Hound God stand here—tremble before the savage hunt that approaches!	true
+effect_bundles_localised_title_ghs_nor_upgrade_effect_nur_defend_2	Reverence to the Raven God - III	true
+effect_bundles_localised_description_ghs_nor_upgrade_effect_nur_defend_2	Champions of the Raven God stand here—slay everything, and let it feast on the rotting flesh!	true
+effect_bundles_localised_title_ghs_nor_upgrade_effect_tze_barrier_2	Reverence to the Eagle God - III	true
+effect_bundles_localised_description_ghs_nor_upgrade_effect_tze_barrier_2	Champions of the Eagle God stand here—fear the shadow it casts silently from above!	true
+effect_bundles_localised_title_ghs_nor_upgrade_effect_sla_speed_2	Reverence to the Serpent God - III	true
+effect_bundles_localised_description_ghs_nor_upgrade_effect_sla_speed_2	Champions of the Serpent God stand here—tremble at its serpentine form emerging from Norsca's abyss!	true
+unit_purchasable_effects_categories_onscreen_name_ghs_nor_upgrade_kho	PLACEHOLDER	true
+unit_purchasable_effects_categories_onscreen_description_ghs_nor_upgrade_kho	PLACEHOLDER	true
+unit_purchasable_effects_categories_onscreen_name_ghs_nor_upgrade_tze	PLACEHOLDER	true
+unit_purchasable_effects_categories_onscreen_description_ghs_nor_upgrade_tze	PLACEHOLDER	true
+unit_purchasable_effects_categories_onscreen_name_ghs_nor_upgrade_nur	PLACEHOLDER	true
+unit_purchasable_effects_categories_onscreen_description_ghs_nor_upgrade_nur	PLACEHOLDER	true
+unit_purchasable_effects_categories_onscreen_name_ghs_nor_upgrade_sla	PLACEHOLDER	true
+unit_purchasable_effects_categories_onscreen_description_ghs_nor_upgrade_sla	PLACEHOLDER	true

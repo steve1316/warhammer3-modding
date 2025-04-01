@@ -1,0 +1,78 @@
+key	text	tooltip
+#Loc;1;text/@@@DEER24Cathay/db/wwd_traits.loc		
+character_trait_levels_explanation_text_defeated_trait_yunxiang	Unlock method: Defeat Yun Xiang.	false
+character_trait_levels_colour_text_defeated_trait_yunxiang	His might, his celestial army, ultimately fell to a greater force. The legend of the Dragon God’s champion ends here.	false
+character_trait_levels_onscreen_name_defeated_trait_yunxiang	Fall of the Heavens.	false
+character_trait_levels_explanation_text_defeated_trait_guanzimo	Unlock method: Defeat Guan Zimo.	false
+character_trait_levels_colour_text_defeated_trait_guanzimo	The young dragon might have once parted clouds and stirred waves, but now she can no longer make a splash.	false
+character_trait_levels_onscreen_name_defeated_trait_guanzimo	Calm After the Storm.	false
+character_trait_levels_explanation_text_defeated_trait_yiqing	Unlock method: Defeat Yi Qing.	false
+character_trait_levels_colour_text_defeated_trait_yiqing	Now that the new star of Cathay has fallen, how much longer can the empire behind him endure?	false
+character_trait_levels_onscreen_name_defeated_trait_yiqing	Beyond the Heavens.	false
+character_trait_levels_explanation_text_defeated_trait_duanzhu	Unlock method: Defeat Qiao Xiao.	false
+character_trait_levels_colour_text_defeated_trait_duanzhu	"Look at these glittering divine weapons—they all belong to me now..."	false
+character_trait_levels_onscreen_name_defeated_trait_duanzhu	Blades of Unity.	false
+character_trait_levels_colour_text_defeated_trait_zhaoqi	Trust me, without their leader, these temporarily unified forces will crumble in an instant.	false
+character_trait_levels_onscreen_name_defeated_trait_zhaoqi	Mob of Rabble.	false
+character_trait_levels_explanation_text_defeated_trait_zhaoqi	Unlock method: Defeat Zhao Qi.	false
+character_trait_levels_colour_text_defeated_trait_lvqiling	In the past, she soared in her final moments; today, she falls into the abyss at White Gate.	false
+character_trait_levels_onscreen_name_defeated_trait_lvqiling	Deadlock at White Gate.	false
+character_trait_levels_explanation_text_defeated_trait_lvqiling	Unlock method: Defeat Xin Qi.	false
+character_trait_levels_colour_text_defeated_trait_yuchigong	The guardian of the Southern Frontier can no longer protect his celestial empire.	false
+character_trait_levels_onscreen_name_defeated_trait_yuchigong	Shattered Lands.	false
+character_trait_levels_explanation_text_defeated_trait_yuchigong	Unlock method: Defeat Duan Wei.	false
+character_trait_levels_explanation_text_defeated_trait_hanxin	Unlock method: Defeat Han Cheng.	false
+character_trait_levels_colour_text_defeated_trait_hanxin	Han Cheng? His Celestial Treasure Sage and his rebellion are mere amusements in the eyes of the Dragon God.	false
+character_trait_levels_onscreen_name_defeated_trait_hanxin	The Dragon Remains.	false
+character_trait_levels_colour_text_defeated_trait_nicheng	No tyrant, no matter how cruel, can plunge the world into eternal darkness.	false
+character_trait_levels_onscreen_name_defeated_trait_nicheng	Light the Night.	false
+character_trait_levels_colour_text_defeated_trait_yushihujun	Jade bones are not eternal; how long can they linger in this realm?	false
+character_trait_levels_onscreen_name_defeated_trait_yushihujun	Wheel of Fate.	false
+character_trait_levels_explanation_text_defeated_trait_nicheng	Unlock method: Defeat Ye Sheng.	false
+character_trait_levels_explanation_text_defeated_trait_yushihujun	Unlock method: Defeat Jin Xiao.	false
+character_trait_levels_onscreen_name_defeated_trait_qinqiong	Fate Sealed.	false
+character_trait_levels_explanation_text_defeated_trait_qinqiong	Your fate is not decided by the heavens... but by me.	false
+character_trait_levels_colour_text_wwd_trait_kehan	The kings of the northern deserts bow at His feet, for the destruction of Cathay is His destined path.	false
+character_trait_levels_onscreen_name_wwd_trait_kehan	"Scourge of the Gods"	false
+character_trait_levels_colour_text_wwd_trait_feijiangjun	Huo Su participated in quelling the Six Counties Rebellion during the civil war, serving as governor of the three gates of the Great Bastion. Later, Yuan Bo appointed him "Flying Cavalry General". Renowned for his archery and horsemanship, he frequently led northern expeditions with Yi Qing, earning the fear of the Zhag tribes.	false
+character_trait_levels_onscreen_name_wwd_trait_feijiangjun	"Flying Cavalry General"	false
+character_trait_levels_colour_text_wwd_trait_yiyongjun	This commander is one of the leaders of the Hedong Volunteer Army, who rose up alongside the peasant army and continues to fight to this day.	false
+character_trait_levels_onscreen_name_wwd_trait_yiyongjun	Volunteer Army Leader	false
+character_trait_levels_colour_text_wwd_trait_bianjun	To the people of Cathay, the lands north of the Great Bastion represent chaos and death. But for the frontier army stationed beyond, the endless wars have forged chaos and death into a way of life.	false
+character_trait_levels_onscreen_name_wwd_trait_bianjun	Frontier Army of the Great Bastion	false
+character_trait_levels_colour_text_wwd_trait_tianzhou	Vast fleets of Celestial Ships are stationed across the empire. Each fleet is typically divided into three squadrons, with a commander leading each, enabling precise execution of complex battlefield tactics.	false
+character_trait_levels_onscreen_name_wwd_trait_tianzhou	Celestial Ship Commander	false
+character_trait_levels_colour_text_wwd_trait_dafo	When you see the Lord of the Heavenly Palace, why do you not bow?	false
+character_trait_levels_onscreen_name_wwd_trait_dafo	"Great Buddha of the Setting Sun"	false
+character_trait_levels_colour_text_wwd_trait_longma	Taming a Longma is a rare honor, but to use it for personal gain indebts one to the Dragon Emperor.	false
+character_trait_levels_onscreen_name_wwd_trait_longma	Longma Whisperer	false
+character_trait_levels_colour_text_wwd_trait_feijiang	Feng Yaochu served under Zhao Ming the Iron Dragon as a cavalry commander. Renowned for his unmatched bravery, he was later promoted to General of the Middle Army and titled Marquis of Taizi, earning the moniker "Flying General".	false
+character_trait_levels_onscreen_name_wwd_trait_feijiang	Flying General	false
+character_trait_levels_colour_text_wwd_trait_ershibajiangxing	"During the Southern Peace, the rulers of the mountains hosted a grand feast for the army. Twenty-eight star generals were named, their resolve towering like mountains, their followers as countless as the stars. These generals achieved unparalleled feats, becoming the backbone of the empire, whether at court or on the battlefield."	false
+character_trait_levels_onscreen_name_wwd_trait_ershibajiangxing	Twenty-Eight Star Generals	false
+character_trait_levels_colour_text_wwd_trait_yumianshu	The official removed his veil, revealing whiskers and the face of a giant rat. The matron fainted as the great rat seized the bride, summoned a jade wind, and vanished into the night.	false
+character_trait_levels_onscreen_name_wwd_trait_yumianshu	"King of the Jade Wind"	false
+character_trait_levels_explanation_text_defeated_trait_yangjian	Unlock method: Defeat Hou Qian.	false
+character_trait_levels_colour_text_defeated_trait_yangjian	Legend has it that Hou Qian acquired his artifacts from the old sage of Kunlan. Since he no longer needs them, they are mine now.	false
+character_trait_levels_onscreen_name_defeated_trait_yangjian	Relics Reclaimed	false
+character_trait_levels_explanation_text_defeated_trait_huangfengdasheng	Unlock method: Defeat Huangfeng Dasheng.	false
+character_trait_levels_colour_text_defeated_trait_huangfengdasheng	Listen closely—the wind carries the sound of unfulfilled desires.	false
+character_trait_levels_onscreen_name_defeated_trait_huangfengdasheng	Evil Wind Silences Banners	false
+character_trait_levels_colour_text_wwd_trait_panwanggonggu	The generals of the Shen Ce Fu immediately responded, dispatching armies to suppress the rebellion. Three columns advanced, only to be defeated by the King of Nanyang. General Tianxian was surrounded by "Lord Xuanhuan" at Gravefield and pierced by countless arrows; General Mingjing was deceived by "Marquis Jingji" into a banquet where his tendons were severed; General Hupu, unmatched in battle, was blinded by a spear thrust from "Marquis Wuqiu". The strategists of Shen Ce Fu were helpless as the King of Nanyang seemed to anticipate their every move, crushing the generals who once swept the north.	false
+character_trait_levels_onscreen_name_wwd_trait_panwanggonggu	Three Tiger Ministers	false
+character_trait_levels_colour_text_wwd_trait_dongtujieshi	The emissaries appointed by the tribal leaders will remain stationed in the empire, acting as vanguard agents for other Order factions.	false
+character_trait_levels_onscreen_name_wwd_trait_dongtujieshi	Faction Representative	false
+character_trait_levels_onscreen_name_wwd_trait_zhongyan_boss_k	Khorne’s Gatekeeper	false
+character_trait_levels_onscreen_name_wwd_trait_zhongyan_boss_t	Tzeentch’s Gatekeeper	false
+character_trait_levels_onscreen_name_wwd_trait_zhongyan_boss_s	Slaanesh’s Gatekeeper	false
+character_trait_levels_onscreen_name_wwd_trait_zhongyan_boss_n	Nurgle’s Gatekeeper	false
+character_trait_levels_onscreen_name_wwd_trait_panjun_null	Rebel General	false
+character_trait_levels_colour_text_wwd_trait_protecter	Commanders are responsible for the defense of critical regions, selected from the battle-hardened generals of Cathay.	false
+character_trait_levels_onscreen_name_wwd_trait_protecter	Commander	false
+character_trait_levels_colour_text_wwd_trait_order_protecter	Order Alliance, assemble!	false
+character_trait_levels_onscreen_name_wwd_trait_order_protecter	Order Coalition	false
+character_trait_levels_colour_text_wwd_trait_huren	"Right Wise King" Wuda Ruodi greatly unified the southern tribes of the steppes, introduced many technologies and texts from Cathay, advancing the Sinicization of the nomadic regimes. He maintained close ties with the frontier army, and together they launched numerous campaigns against the northern Chaos tribes.	false
+character_trait_levels_onscreen_name_wwd_trait_huren	Right Wise King	false
+character_trait_levels_colour_text_defeated_trait_jinfo	He spent his life battling in the void, but now he can return home.	false
+character_trait_levels_onscreen_name_defeated_trait_jinfo	Return to Homeland	false
+character_trait_levels_explanation_text_defeated_trait_jinfo	Unlock method: Defeat Xue Ding.	false

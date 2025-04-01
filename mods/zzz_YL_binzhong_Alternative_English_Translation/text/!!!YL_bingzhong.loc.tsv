@@ -1,0 +1,128 @@
+key	text	tooltip
+#Loc;1;text/!!!YL_bingzhong.loc		
+ui_unit_groupings_onscreen_YLlyxw	[[col:yellow]]Battleguard[[/col]]	false
+ui_unit_groupings_onscreen_YL_pjcw	[[col:yellow]]Ranged Battleguard[[/col]]	false
+ui_unit_groupings_onscreen_YL_lycs	Shield & Double-Barreled Shotgun	false
+ui_unit_groupings_onscreen_YL_xtw	Axe & Shield Monster Infantry	false
+ui_unit_groupings_onscreen_YL_yhcf	[[col:red]]Molten Beasts[[/col]]	false
+ui_unit_groupings_onscreen_YL_cgs	Short Spear Infantry	false
+ui_unit_groupings_onscreen_YL_zsyw	Monster Artillery	false
+ui_unit_groupings_onscreen_YL_sxdw	Sword & Musket Hybrid Infantry	false
+ui_unit_groupings_onscreen_YL_hytj	Guan Dao Cavalry	false
+ui_unit_groupings_onscreen_YL_SHSQB	Guardian Lion Cavalry	false
+ui_unit_bullet_point_enums_onscreen_name_LYXW	Bloodguard	false
+ui_unit_bullet_point_enums_onscreen_name_YLZX	Breath of Yinglong	true
+ui_unit_bullet_point_enums_onscreen_name_CW	Musket Guard	false
+ui_unit_bullet_point_enums_onscreen_name_LY	Dragonfire	false
+ui_unit_bullet_point_enums_onscreen_name_LY1	Thunderfire	false
+ui_unit_bullet_point_enums_onscreen_name_RYXW	Blazing Fury	false
+ui_unit_bullet_point_enums_onscreen_name_CFZL	Imbued with the Spirit of Chaofeng	false
+ui_unit_bullet_point_enums_onscreen_name_PS	Shattering	false
+ui_unit_bullet_point_enums_onscreen_name_ZD	Concussive	false
+ui_unit_bullet_point_enums_onscreen_name_JZ_anti_infantry	Melee Anti-Infantry	false
+ui_unit_bullet_point_enums_onscreen_name_YC_anti_large	Ranged Anti-Large	false
+ui_unit_bullet_point_enums_onscreen_name_CH	Residue Rockets	false
+ui_unit_bullet_point_enums_onscreen_name_FWSH	Area Damage	false
+ui_unit_bullet_point_enums_onscreen_name_YYJ	Moon Shadow Arrows	false
+ui_unit_bullet_point_enums_onscreen_name_HTZY	Earth-Shaking Charge	false
+ui_unit_bullet_point_enums_onscreen_name_ZYM	Cloud Chasing Spear	false
+ui_unit_bullet_point_enums_onscreen_name_YYXJ	Yin Yang Harmony	false
+ui_unit_bullet_point_enums_onscreen_name_LYTB	Dualforce Iron Whip	false
+unit_description_short_texts_text_YLlyxw	A hundred battles, crimson blood seeps through inky armor, gleaming blades shatter the wicked.	false
+unit_description_short_texts_text_YL_pjcw	Nan-Gau summons heavenly fire, dragon flames blaze in all directions.	false
+unit_description_short_texts_text_YL_lycs	A unit armed with the new double-barreled blunderbuss from the Nan-Gau Celestial Foundry.	false
+unit_description_short_texts_text_YL_xtw	Ogre warriors blessed by the blood of Xing Tian, they are the best breakthrough specialists on the front line.	false
+unit_description_short_texts_text_YL_yhcf	A ferocious beast forged by the Celestial Foundry in collaboration with the Astronomer Royal, imbued with the spirit of Chaofeng.	false
+unit_description_short_texts_text_YL_cgs	These Short Spearmen may not be well-trained, but they often participate in military drills.	false
+unit_description_short_texts_text_YL_zsyw	The Earthshaker Terracotta Sentinels are another masterpiece of the Celestial Foundry, although it may seem unorthodox to traditional workshops.	false
+unit_description_short_texts_text_YL_sxdw	Equipped with the new Celestial Foundry's charged musket-blade - the Divine Saltpeter Musket and the Xuan Dao, a unit composed of elites drawn from various units.	false
+unit_description_short_texts_text_YL_chlw	The Remnant Fire units are composed of experienced peasant archers, and disrupting enemy formations with residue rockets during battle is their specialty.	false
+unit_description_short_texts_text_YL_hytj	Still as a fortress, moving like a mountain!	false
+unit_description_short_texts_text_YL_zyxj	Swift horses chase clouds across the snow, silver spears break formations and strike fear into the enemy.	false
+unit_description_short_texts_text_YL_lysw	Duality intertwined, hardness and softness combined.	false
+land_units_onscreen_name_YLlyxw	Dragonfang Bloodguard	false
+land_units_onscreen_name_YL_pjcw	Vanguard Musket Guard	false
+land_units_onscreen_name_YL_lycs	Thunderfire Gunners	false
+land_units_onscreen_name_YL_xtw	Xing Tian Guard	false
+land_units_onscreen_name_YL_yhcf	Inferno Chaofeng	false
+land_units_onscreen_name_YL_cgs	Short Spearmen	false
+land_units_onscreen_name_YL_zsyw	Earthshaker Terracotta Sentinels	false
+land_units_onscreen_name_YL_sxdw	Divine Saltpeter Bladeguard	false
+land_units_onscreen_name_YL_chlw	Remnant Fire Forest Guard	false
+land_units_onscreen_name_YL_hytj	Mountainquaker Iron Cavalry	false
+land_units_onscreen_name_YL_zyxj	Cloud Chasing Cavalry	false
+land_units_onscreen_name_YL_lysw	Dualforce Lion Guard	false
+special_ability_phases_onscreen_name_yinglongzhixi	[[col:red]][[img:ui/battle ui/ability_icons/yinglongzhixi.png]][[/img]]Breath of Yinglong[[/col]]	true
+special_ability_phases_onscreen_name_longyan	[[col:red]][[img:ui/battle ui/ability_icons/longyan.png]][[/img]]Dragonfire![[/col]]	false
+special_ability_phases_onscreen_name_leiyan	[[col:red]][[img:ui/battle ui/ability_icons/leiyan.png]][[/img]]Thunderfire![[/col]]	false
+special_ability_phases_onscreen_name_ranyanxiongwei	[[col:red]][[img:ui/battle ui/ability_icons/ranyanxiongwei.png]][[/img]]Blazing Fury![[/col]]	false
+special_ability_phases_onscreen_name_posui	[[col:red]][[img:ui/battle ui/ability_icons/posui.png]][[/img]]Shattering![[/col]]	false
+special_ability_phases_onscreen_name_zhendang	[[col:red]][[img:ui/battle ui/ability_icons/zhendang.png]][[/img]]Concussive![[/col]]	false
+special_ability_phases_onscreen_name_rongchuan	[[col:red]][[img:ui/battle ui/ability_icons/rongchuan.png]][[/img]]Melt Through![[/col]]	false
+special_ability_phases_onscreen_name_canhuo	[[col:red]][[img:ui/battle ui/ability_icons/canhuo.png]][[/img]]Remnant Fire![[/col]]	false
+special_ability_phases_onscreen_name_yuezhiying	[[col:red]][[img:ui/battle ui/ability_icons/yuezhiying.png]][[/img]]Shadow of the Moon![[/col]]	false
+special_ability_phases_onscreen_name_yueyingjian	[[col:red]][[img:ui/battle ui/ability_icons/yueyingjian.png]][[/img]]Moon Shadow Arrows![[/col]]	false
+special_ability_phases_onscreen_name_dangkou	[[col:red]][[img:ui/battle ui/ability_icons/dangkou.png]][[/img]]Bandit Suppression![[/col]]	false
+special_ability_phases_onscreen_name_zhuiyunmao	[[col:red]][[img:ui/battle ui/ability_icons/zhuiyunmao.png]][[/img]]Cloud Chasing Spear[[/col]]	false
+special_ability_phases_onscreen_name_liangyibian	[[col:red]][[img:ui/battle ui/ability_icons/liangyibian.png]][[/img]]Dualforce Whip![[/col]]	false
+special_ability_phases_onscreen_name_qiankunliuzhuan1	[[col:green]]Qian Yang Cycle[[/col]]	false
+special_ability_phases_onscreen_name_qiankunliuzhuan2	[[col:green]]Kun Yin Cycle[[/col]]	false
+unit_abilities_onscreen_name_yuxueshachang	Bathed in Blood	false
+unit_abilities_onscreen_name_jianwei	Sword Wall	false
+unit_abilities_onscreen_name_ningxinjue	Calm Heart Art	false
+unit_abilities_onscreen_name_yueyingbenxi	Moon Shadow Charge	false
+unit_abilities_onscreen_name_tezhidanxia	Special Magazine	false
+unit_abilities_onscreen_name_nangaohuoyao	Nan-Gau Celestial Foundry Gunpowder	false
+unit_abilities_onscreen_name_tianzhujueyan	Celestial Foundry's Ultimate Flame	false
+unit_abilities_onscreen_name_xingtianzhixue	Blood of Xing Tian	false
+unit_abilities_onscreen_name_chaofengzhiling	Spirit of Chaofeng	false
+unit_abilities_onscreen_name_tianzhuyujia	Celestial Foundry Hellforged Armor	false
+unit_abilities_onscreen_name_huozhuchongduan	Fire-Forged and Retempered	false
+unit_abilities_onscreen_name_wenguzhendi	Hold the Ground	false
+unit_abilities_onscreen_name_ewaichongneng	Extra Charge	false
+unit_abilities_onscreen_name_yuredaofeng	Preheated Blades	false
+unit_abilities_onscreen_name_yueyingjian	Moon Shadow Arrows	false
+unit_abilities_onscreen_name_tiemabinghe	Iron Horses on Icy River	false
+unit_abilities_onscreen_name_dangkouzhandi	Bandit Suppression and Execution	false
+unit_abilities_onscreen_name_zhanyihanchang	Exhilarating Battle	false
+unit_abilities_onscreen_name_xianzhenzhizhi	Wedge Formation Resolve	false
+unit_abilities_onscreen_name_youwuxiangsheng	Yin and Yang Mutual Generation	false
+unit_abilities_onscreen_name_qiankunliuzhuan	Cycle of Qian and Kun	false
+unit_abilities_tooltip_text_yuxueshachang	Bathed in Blood, Ever Braver.	false
+unit_abilities_tooltip_text_jianwei	The Dragonfang Bloodguard's sword-lances can be used for both offense and defense.	false
+unit_abilities_tooltip_text_ningxinjue	Every Bloodguard practices the Calm Heart Art to alleviate their killing intent, allowing them to face the enemy with greater composure.	false
+unit_abilities_tooltip_text_yueyingbenxi	Launch a surprise attack on the enemy under the Moon Empress's protection, shrouded in the shadows of the moon.	false
+unit_abilities_tooltip_text_tezhidanxia	A special magazine crafted by the Celestial Artificers, capable of holding more ammunition.	false
+unit_abilities_tooltip_text_nangaohuoyao	Gunpowder developed by the Celestial Artificers, more powerful than ordinary gunpowder.	false
+unit_abilities_tooltip_text_tianzhujueyan	The Vanguard Musket Guard's equipment is forged by the Celestial Artificers using heavenly fire, making it exceptionally sturdy.	false
+unit_abilities_tooltip_text_xingtianzhixue	Blessed by the blood of Xing Tian, they become even more unyielding in the face of adversity.	false
+unit_abilities_tooltip_text_chaofengzhiling	Chaofeng has the power to ward off evil and dispel demons. Statues of Chaofeng are often placed on rooftops in Cathay to ward off evil spirits.	false
+unit_abilities_tooltip_text_tianzhuyujia	Crafted by the Celestial Artificers in collaboration with the Jade Court Astronomer Royal, the Inferno Armor must be exceptionally strong to contain the spirit of Chaofeng.	false
+unit_abilities_tooltip_text_huozhuchongduan	Reforge the Inferno Armor with spirit-infused flames.	false
+unit_abilities_tooltip_text_wenguzhendi	Hold your ground! Fire at will!	false
+unit_abilities_tooltip_text_ewaichongneng	Each strike of the Xuan Dao charges the Divine Saltpeter Musket.	false
+unit_abilities_tooltip_text_yuredaofeng	Each shot from the Divine Saltpeter Musket preheats the Xuan Dao's blade, increasing its damage.	false
+unit_abilities_tooltip_text_yueyingjian	Arrows blessed by the Moon Empress can greatly disrupt the enemy's ranged attacks.	false
+unit_abilities_tooltip_text_tiemabinghe	Lying awake at night, listening to the wind and rain, dreaming of iron horses crossing a frozen river.	false
+unit_abilities_tooltip_text_dangkouzhandi	The Mountainquaker Iron Cavalry's Guan Dao sweeps across the battlefield, unstoppable.	false
+unit_abilities_tooltip_text_zhanyihanchang	Battle spirit surges, fighting bravely.	false
+unit_abilities_tooltip_text_xianzhenzhizhi	Charge into the enemy ranks, fight to the death in a hundred battles.	false
+unit_abilities_tooltip_text_youwuxiangsheng	Yin and Yang generate each other, difficulty and ease complement each other, long and short define each other, high and low fill each other, sounds harmonize, front and back follow each other, this is the constant Way.	false
+unit_abilities_tooltip_text_qiankunliuzhuan	The cycle of Qian and Kun, when the negative reaches its extreme, the positive arises.	false
+unit_abilities_additional_ui_effects_localised_text_tezhidanxia	Replenishes [[img:icon_ammo]][[/img]] ammunition.	false
+unit_abilities_additional_ui_effects_localised_text_xingtianzhixue	Effect strength increases with the number of enemy models in range.	false
+effects_description_YL_lyxw_rongliang	Unit Capacity: +%n for Dragonfang Bloodguard	false
+effects_description_YL_pjcw_rongliang	Unit Capacity: +%n for Vanguard Musket Guard	false
+effects_description_YL_yhcf_rongliang	Unit Capacity: +%n for Inferno Chaofeng	false
+unit_description_historical_texts_text_YLlyxw	The Dragonfang Bloodguard are known for their long sword-lances, black and silver armor, and blood-red cloaks. They are the most elite warriors under Yinglong's command, his sharpest claws and teeth, and the enemy's worst nightmare. Countless Chaos armies have fallen before this elite force. Every Dragonfang Bloodguard is a warrior tempered in mountains of corpses and seas of blood, and their lifelong pursuit is to follow Yinglong in conquering all invaders.	false
+unit_description_historical_texts_text_YL_pjcw	Founded by Master Gongshu Ye, the Nan-Gau Celestial Foundry produces weapons and armor far superior to those of ordinary forges. The Vanguard Musket Guard's equipment is Master Gongshu Ye's proudest creation. To craft this new set of equipment, Gongshu Ye harnessed the heavenly fire of Nan-Gau's volcano as his forge and used meteoric iron as the primary material. After expending tremendous effort, he finally completed the Dragonfire Musket and Vanguard Armor, fulfilling his promise to Yinglong. The sound of the Vanguard Musket Guard's muskets has become the most chilling sound outside the Great Bastion.	false
+unit_description_historical_texts_text_YL_lycs	Although the Thunderfire Gunners' Thunderfire Muskets are replicas of the Dragonfire Muskets and use less rare materials for mass production, they still have their unique advantages. Due to their ease of maintenance, the Celestial Foundry adjusted their ammunition composition, making them more effective at piercing enemy armor and better suited for coordinated combat with Jade Warrior units.	false
+unit_description_historical_texts_text_YL_xtw	The Xing Tian Guard is composed of Ogres bestowed with the Blood of Xing Tian. Many of them fight against Chaos north of the Great Bastion in exchange for delicious food and generous rewards from Grand Cathay. After witnessing Xing Tian's heroic combat prowess, they were deeply impressed and gradually gathered around him. Xing Tian shared his power with them, and thus the Xing Tian Guard gradually took shape.	false
+unit_description_historical_texts_text_YL_yhcf	Although the Inferno Chaofeng was inspired by the Chaos Dwarfs' war beasts, it has been improved by Master Gongshu Ye of the Celestial Foundry, discarding the evil design of imprisoning daemons as a power source. The Celestial Foundry, in collaboration with the Jade Court Astronomer Royal, sought the spirit power from the Soul-Dragon, who bestowed the spirit of Chaofeng upon the beast. With this as its core, this war beast not only possesses the might to trample any battlefield but also has the power to dispel evil and purify for its allies.	false
+unit_description_historical_texts_text_YL_cgs	Many members of the Spearman unit are farmers who engage in military training during their free time. They are trained by retired Jade Warrior soldiers, focusing on self-defense and delaying the enemy's advance.	false
+unit_description_historical_texts_text_YL_zsyw	Although the Earthshaker Terracotta Sentinel is considered an unorthodox design by traditional foundries, no one can deny that it is a perfect combination of artillery and Terracotta Sentinel, nor can anyone ignore its terrifying firepower and battlefield deterrence. The reputation of the Celestial Foundry has been built upon such bold and innovative designs.	false
+unit_description_historical_texts_text_YL_sxdw	The Divine Saltpeter Musket and the Xuan Dao are the latest achievements of the Celestial Foundry. Energy flows between the musket and the blade. Each strike of the Xuan Dao charges the musket, while the heat generated by the musket's firing preheats the Xuan Dao's blade, resulting in even greater destructive power. Mastering the balance of this flow is not easy, so the Divine Saltpeter Bladeguard are all carefully selected warriors from the Dragon Guard, each skilled in both sword and musket combat.	false
+unit_description_historical_texts_text_YL_chlw	The Moon Empress favors archery and often teaches archery to the people of Grand Cathay. As a result, everyone in Cathay is skilled with bows and crossbows. The Remnant Fire units are composed of experienced archers, each with exceptional archery skills. The Moon Empress has granted them Moon Shadow Arrows for protection, and their commonly used Residue Rockets, produced by the Celestial Foundry, are their weapon of choice for disrupting enemy formations.	false
+unit_description_historical_texts_text_YL_hytj	"Still as a fortress, moving like a mountain!" exclaimed Master Qinglian after witnessing the Mountainquaker Iron Cavalry in action. The Mountainquaker Iron Cavalry undergoes harsh training year-round on the windswept plains outside the Great Bastion. They and their horses are clad in black armor, wielding Guan Dao, fearless and unwavering. No matter how powerful the enemy, they charge forward without hesitation.	false
+unit_description_historical_texts_text_YL_zyxj	North of the Great Bastion, long ravaged by Chaos daemons, they often raided the Cathayan border, plundering and then leaving, exhausting the Cathayan defenders. Until one day, the alerted garrison found a Norscan raider force pinned to death by silver spears outside a village. Survivors from the village said they were saved by a group of righteous cavalry riding white horses. From then on, the name "Cloud Chasing Cavalry" gradually spread outside the Great Bastion, becoming a nightmare for Chaos raiders.	false
+unit_description_historical_texts_text_YL_lysw	Yin and Yang harmony is the foundation of Grand Cathay. These powerful Yin Yang Stone Lions are the culmination of Yin Yang beast magic, and every Dualforce Lion Guard is also skilled in wielding dual iron whips. They are all dressed in black robes and silver armor, their black and white whips capable of both offense and defense in battle. Skilled in manipulating Yin and Yang energies, they can even achieve a seamless flow of Yin and Yang in combat, ensuring their stamina never runs out.	false

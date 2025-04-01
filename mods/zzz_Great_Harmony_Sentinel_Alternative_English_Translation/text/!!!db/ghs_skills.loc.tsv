@@ -1,0 +1,103 @@
+key	text	tooltip
+#Loc;1;text/!!!db/ghs_skills.loc		
+character_skills_localised_name_ghs_cth_jade_taoist_self_restrain_desire	Keep One's Heart	false
+character_skills_localised_description_ghs_cth_jade_taoist_self_restrain_desire	Although the innate thirst of vampires cannot be completely eradicated, Jade-Blooded Taoists who deeply study the Wind of Life can significantly restrain their restless desires.	false
+character_skills_localised_name_ghs_cth_jade_taoist_self_high_speed	Speed of Jade Blood	false
+character_skills_localised_description_ghs_cth_jade_taoist_self_high_speed	Due to their racial traits, Jade-Blooded Taoists cannot ride living creatures despite their deeper affinity with nature. However, this has granted them supernatural speed.	false
+character_skills_localised_name_ghs_cth_royal_guard_crowmen_unique_0	Avatar of Yu Zhuo	false
+character_skills_localised_description_ghs_cth_royal_guard_crowmen_unique_0	It is said that "Yingchuo" is an illusion of the Moon Empress. Only when hearing its call can the Black Jade Crowmen channel the Wind of Yin and transform into the mythical bird.	false
+character_skills_localised_name_ghs_cth_jade_terracotta_unique_0	Immortal Spirit	false
+character_skills_localised_description_ghs_cth_jade_terracotta_unique_0	The heroic soul forever recorded in history, forged into an eternal legend through bravery and resilience, inspiring the people of Cathay to charge forward with courage.	false
+character_skills_localised_name_ghs_cth_jade_terracotta_unique_1	Jade Nexus	false
+character_skills_localised_description_ghs_cth_jade_terracotta_unique_1	The mysterious jade forms this body, guiding the terracotta to channel the Dragon Emperor’s might, circulating and nourishing the lands of the Celestial Empire.	false
+character_skills_localised_name_ghs_cth_jade_terracotta_unique_2	Legend in Death	false
+character_skills_localised_description_ghs_cth_jade_terracotta_unique_2	To live as a hero, to die as a legend. Standing proudly between heaven and earth, unyielding in name and unbroken in spirit.	false
+character_skills_localised_name_ghs_cth_ll_shugengan_demidragon	Demidragon Form	false
+character_skills_localised_name_ghs_cth_rgcm_innate_01	Celestial Dagger	false
+character_skills_localised_name_ghs_cth_rgcm_innate_02	Throat Cutter	false
+character_skills_localised_name_ghs_cth_rgcm_innate_03	Silent Black Feather	false
+character_skills_localised_name_ghs_cth_rgcm_innate_04	Eyes of Cathay	false
+character_skills_localised_name_ghs_cth_rgcm_innate_05	Unbearable Agitation	false
+character_skills_localised_name_ghs_cth_rgcm_innate_06	Deadly Sparrow	false
+character_skills_localised_name_ghs_cth_rgm_innate_01	Shadow of Nations' Fall	false
+character_skills_localised_name_ghs_cth_rgm_innate_02	Master Assassin	false
+character_skills_localised_name_ghs_cth_rgm_innate_03	Director of Espionage	false
+character_skills_localised_name_ghs_cth_rgm_innate_04	Delaying Mist	false
+character_skills_localised_name_ghs_cth_rgm_innate_05	Endless Night	false
+character_skills_localised_name_ghs_cth_rgm_innate_06	Commander of the Flock	false
+character_skills_localised_name_ghs_cth_tpd_innate_01	Power of Thorns	false
+character_skills_localised_name_ghs_cth_tpd_innate_02	Robust Physique	false
+character_skills_localised_name_ghs_cth_tpd_innate_03	Thorned Shield	false
+character_skills_localised_name_ghs_cth_tpd_innate_04	Heart of Renewal	false
+character_skills_localised_name_ghs_cth_tpd_innate_05	Flesh of the Earth	false
+character_skills_localised_name_ghs_cth_tpd_innate_06		false
+character_skills_localised_name_ghs_cth_tpd_innate_07	Soul of the Deep Forest	false
+character_skills_localised_name_ghs_cth_tpd_innate_08	Root Strike	false
+character_skills_localised_name_ghs_cth_tpd_innate_09	Infused Body	false
+character_skills_localised_name_ghs_cth_tpd_innate_10	Rejuvenating Flesh	false
+character_skills_localised_name_ghs_cth_tpd_innate_11	Source of Life	false
+character_skills_localised_name_ghs_skv_ll_ikit_avatar	Avatar of Catastrophe: Greed	false
+character_skills_localised_name_description_ghs_skv_ll_ikit_avatar	One aspect of the Great Horned Rat’s terrifying visage is the Lord of Catastrophe, a living calamity that brings devastation and desolation from the Chaos Realms filled with destruction and slaughter.	false
+character_skills_localised_name_ghs_skv_ll_queek_avatar	Avatar of Catastrophe: Wrath	false
+character_skills_localised_name_description_ghs_skv_ll_queek_avatar	One aspect of the Great Horned Rat’s terrifying visage is the Lord of Catastrophe, a living calamity that brings devastation and desolation from the Chaos Realms filled with destruction and slaughter.	false
+character_skills_localised_name_ghs_skv_ll_skrolk_avatar	Avatar of Catastrophe: Plague	false
+character_skills_localised_name_description_ghs_skv_ll_skrolk_avatar	One aspect of the Great Horned Rat’s terrifying visage is the Lord of Catastrophe, a living calamity that brings devastation and desolation from the Chaos Realms filled with destruction and slaughter.	false
+character_skills_localised_name_ghs_skv_ll_snikch_avatar	Avatar of Catastrophe: Pride	false
+character_skills_localised_name_description_ghs_skv_ll_snikch_avatar	One aspect of the Great Horned Rat’s terrifying visage is the Lord of Catastrophe, a living calamity that brings devastation and desolation from the Chaos Realms filled with destruction and slaughter.	false
+character_skills_localised_name_ghs_skv_ll_throt_avatar	Avatar of Catastrophe: Gluttony	false
+character_skills_localised_name_description_ghs_skv_ll_throt_avatar	One aspect of the Great Horned Rat’s terrifying visage is the Lord of Catastrophe, a living calamity that brings devastation and desolation from the Chaos Realms filled with destruction and slaughter.	false
+character_skills_localised_name_ghs_skv_ll_tretch_avatar	Avatar of Catastrophe: Deceit	false
+character_skills_localised_name_description_ghs_skv_ll_tretch_avatar	One aspect of the Great Horned Rat’s terrifying visage is the Lord of Catastrophe, a living calamity that brings devastation and desolation from the Chaos Realms filled with destruction and slaughter.	false
+character_skills_localised_name_ghs_skv_ll_warlord_avatar	Avatar of Catastrophe	false
+character_skills_localised_name_description_ghs_skv_ll_warlord_avatar	One aspect of the Great Horned Rat’s terrifying visage is the Lord of Catastrophe, a living calamity that brings devastation and desolation from the Chaos Realms filled with destruction and slaughter.	false
+character_skill_node_sets_enc_title_cody_skill_node_set_malakai_makaisson	Malakai Makaisson’s Skills	true
+character_skills_localised_name_cody_skill_innate_dwf_malakai_makaisson	Butcher Engineer	false
+character_skills_localised_description_cody_skill_innate_dwf_malakai_makaisson	After being expelled from the Dwarven Engineer Guild, Malakai felt deeply humiliated and took the Slayer’s Oath, adopting the garb and demeanor of a Slayer.	false
+character_skills_localised_name_cody_skill_malakai_makaisson_mount_thunderbarge	Spirit of Grungni	false
+character_skills_localised_description_cody_skill_malakai_makaisson_mount_thunderbarge	The Spirit of Grungni is a thunderbarge created by the Dwarven Butcher Engineer Malakai Makaisson.	false
+character_skills_localised_name_cody_skill_malakai_makaisson_gotrek_felix_friend	Friend of Gotrek & Felix	false
+character_skills_localised_description_cody_skill_malakai_makaisson_gotrek_felix_friend	Malakai is always willing to lend a helping hand—and a thunderbarge.	false
+character_skills_localised_name_cody_skill_malakai_makaisson_goblin_hewers	Goblin Hewers	false
+character_skills_localised_description_cody_skill_malakai_makaisson_goblin_hewers	Malakai wanted to create a new machine for throwing axes. Hmm? A new machine? That would take too long! It’s easier to train Rangers to throw axes accurately.	false
+character_skills_localised_name_cody_skill_malakai_makaisson_gattling_guns	Dwattling Gun	false
+character_skills_localised_description_cody_skill_malakai_makaisson_gattling_guns	Malakai’s latest invention: a handheld multi-barrel gun, unlike the Hellblaster Volley Gun. For now, it’s just a prototype, but mass production might follow.	false
+character_skills_localised_name_cody_skill_malakai_makaisson_unsinkable	Unsinkable	false
+character_skills_localised_description_cody_skill_malakai_makaisson_unsinkable	The sinking of the Unsinkable Ironclad marked the beginning of Malakai’s end. Much can be learned from that tragedy.	false
+character_skills_localised_name_cody_skill_malakai_makaisson_undestructible	Indestructible	false
+character_skills_localised_description_cody_skill_malakai_makaisson_undestructible	The destruction of the airship Indestructible taught us valuable lessons about time management, communication, and proper material handling.	false
+character_skills_localised_name_cody_skill_dwf_malakai_makaisson_flaming_broadside	Flaming Broadside	false
+character_skills_localised_description_cody_skill_dwf_malakai_makaisson_flaming_broadside	It turns out the Spirit of Grungni's hold can accommodate quite a lot of explosives.	false
+character_skills_localised_name_cody_skill_dwf_malakai_makaisson_explosive_bullets	Explosive Rounds	false
+character_skills_localised_description_cody_skill_dwf_malakai_makaisson_explosive_bullets	Malakai’s firearm can be upgraded to fire full-size rounds. Rough calculations indicate at least a 65% increase per shot.	false
+character_skills_localised_name_ghs_skill_bin	Empty Skill Point	false
+character_skills_localised_description_ghs_skill_bin	This skill is used to manage surplus skill points. It has no effect and can be chosen up to 99 times.	false
+character_skills_localised_name_ghs_skill_cth_hongying_mount_bird	Yingchuo	false
+character_skills_localised_description_ghs_skill_cth_hongying_mount_bird	"Yingchuo" is the Moon Empress' personal gift to Hong Ying, a Taeyue Luan rumored to be the Moon Empress' shadow. Only through hearing its cry can the Onyx Crowmen channel the Wind of Yin and transform into a mythical bird.	false
+character_skills_localised_name_ghs_skill_cth_hongying_weapon_blade_of_moonfire	Blade of Moonfire	false
+character_skills_localised_description_ghs_skill_cth_hongying_weapon_blade_of_moonfire	A mighty weapon brought from the Moon Empress’s abode, its blade is as clear as the moon, with flowing obsidian-like fire capable of easily breaking the magic of opposing weapons.	false
+character_skills_localised_name_ghs_skill_cth_hongying_arcane_item_flame_of_ink	Obsidian Flames	false
+character_skills_localised_description_ghs_skill_cth_hongying_arcane_item_flame_of_ink	Hong Ying possesses an uncanny affinity with the Wind of Shadows. His “staff” is the obsidian flame on his blade, which rises and shifts to channel winds or slay targets when needed.	false
+character_skills_localised_name_ghs_skill_cth_hongying_tailsman_mask_of_shadow	Mask of the Shadow Dragon	false
+character_skills_localised_description_ghs_skill_cth_hongying_tailsman_mask_of_shadow	Legend has it this mask was carved by the Shadow Dragon itself. The wearer can vanish into shadows, move with the wind on the battlefield, and strike generals unseen.	false
+character_skills_localised_name_ghs_skill_cth_hongying_armour_crow_cloak	Crow Cloak	false
+character_skills_localised_description_ghs_skill_cth_hongying_armour_crow_cloak	This feather-light cloak symbolizes the master of the Shadow Crow Guard and is the only means, other than Yuanbo, to directly command the Black Jade Crowmen.	false
+character_skills_localised_name_ghs_skill_cth_hongying_enchanted_item_token_of_empress	Token of Laurel	false
+character_skills_localised_description_ghs_skill_cth_hongying_enchanted_item_token_of_empress	The Laurel Pavilion is divided into three guards, and only their masters may hold this token. Hong Ying’s Shadow Crow Guard is tasked with gathering intelligence and carrying out assassinations, their authority akin to the Moon Empress herself.	false
+character_skills_localised_name_ghs_skill_cth_hongying_innate	Scion of the Shadow Dragon	false
+character_skills_localised_description_ghs_skill_cth_hongying_innate	Since childhood, Hong Ying has been followed by illusions of the divine bird Yu Zhuo. After joining the Laurel Pavilion, Black Jade Crowmen whispered of the vanished power of the Shadow Dragon—a power filled with pain and sacrifice.	false
+character_skills_localised_name_ghs_skill_cth_hongying_unique_01	Shadow Over Nations	false
+character_skills_localised_description_ghs_skill_cth_hongying_unique_01	The eyes of the Celestial Court pierce all realms; the expanse of their wings covers the skies, guarding the Celestial Empire far and wide.	false
+character_skills_localised_name_ghs_skill_cth_hongying_unique_02	Master Assassin	false
+character_skills_localised_description_ghs_skill_cth_hongying_unique_02	Born with an affinity for the Wind of Shadows, Hong Ying mastered assassination techniques personally taught by the Moon Empress, striking as shadows and departing like the wind.	false
+character_skills_localised_name_ghs_skill_cth_hongying_unique_03	Director of Espionage	false
+character_skills_localised_description_ghs_skill_cth_hongying_unique_03	Changqi’s disciples believe their schemes flawless as they revel, unaware someone in the adjacent room is diligently sketching their plans…	false
+character_skills_localised_name_ghs_skill_cth_hongying_unique_04	Lightning Raid	false
+character_skills_localised_description_ghs_skill_cth_hongying_unique_04	Swift as the wind and powerful as thunder, he strides through enemy camps with unparalleled bravery.	false
+character_skills_localised_name_ghs_skill_cth_hongying_unique_05	Unending Night	false
+character_skills_localised_description_ghs_skill_cth_hongying_unique_05	Night is the best concealment for shadows. The deepest shadow moves alone, waiting for the opportune moment to strike before the enemy realizes their fate.	false
+character_skills_localised_name_ghs_skill_cth_hongying_unique_06	Master of Shadow Crows	false
+character_skills_localised_description_ghs_skill_cth_hongying_unique_06	The master of the Shadow Crow Guard commands the flock, appearing alone while a myriad of crows await in the shadows, ready to swarm at their signal.	false
+character_skills_localised_name_ghs_skill_cth_hongying_spy_commander	Laurel Pavilion Overseer	false
+character_skills_localised_description_ghs_skill_cth_hongying_spy_commander	Amid the surging tides of espionage, they navigate with ease, leading their subordinates to unravel complex schemes, exemplifying excellence in covert operations.	false
+character_skills_localised_name_ghs_skill_cth_hongying_cathay_night	Celestial Night	false
+character_skills_localised_description_ghs_skill_cth_hongying_cathay_night	The outlines of the Celestial Court shimmer faintly in the night, while the moonlit sky is dotted with black feathers, resembling endless gems encrusted in the heavens.	false

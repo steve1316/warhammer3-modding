@@ -1,0 +1,67 @@
+key	text	tooltip
+#Loc;1;text/@@zerooz_hef_units_skills.loc		
+unit_abilities_onscreen_name_hef_unit_abilities_defiance	Defiance	true
+unit_abilities_tooltip_text_hef_unit_abilities_defiance	Ready to face any enemy!	true
+unit_abilities_onscreen_name_hef_unit_abilities_endless_waltz	Endless Waltz	true
+unit_abilities_tooltip_text_hef_unit_abilities_endless_waltz	Sacrifice some defense to let the elves dance on the battlefield!	true
+unit_abilities_onscreen_name_hef_unit_abilities_concentrated	Concentrated	true
+unit_abilities_tooltip_text_hef_unit_abilities_concentrated	The handmaidens of the Everqueen are skilled with bows, so every shot is true!	true
+unit_abilities_onscreen_name_hef_unit_abilities_healing_ring	Healing Ring	true
+unit_abilities_tooltip_text_hef_unit_abilities_healing_ring	A life magic spell that restores health to oneself and nearby allies.	true
+unit_abilities_onscreen_name_hef_unit_abilities_earthfury	Earthfury	true
+unit_abilities_tooltip_text_hef_unit_abilities_earthfury	Causes the forest to rage and attack the enemies.	true
+unit_abilities_onscreen_name_hef_unit_abilities_shelter_of_the_forest	Shelter of the Forest	false
+unit_abilities_tooltip_text_hef_unit_abilities_shelter_of_the_forest	When maidens return to the forest, they use everything in the woods to help them fight.	false
+unit_abilities_onscreen_name_hef_unit_abilities_portent_of_asuryan	Portent of Asuryan	false
+unit_abilities_tooltip_text_hef_unit_abilities_portent_of_asuryan	The portent of Asuryan suggests that it’s time to reveal the powers of the past.	false
+unit_abilities_onscreen_name_hef_unit_abilities_brave_of_phoenix_king	Brave of Phoenix King	false
+unit_abilities_tooltip_text_hef_unit_abilities_brave_of_phoenix_king	An invincible energy covers the former Phoenix King’s guards.	false
+unit_abilities_onscreen_name_hef_unit_abilities_dragon_heart	Dragon Heart	false
+unit_abilities_tooltip_text_hef_unit_abilities_dragon_heart	The former Phoenix King’s guards display their past valor.	false
+unit_abilities_onscreen_name_hef_unit_abilities_frost_armor	Frost Armor	false
+unit_abilities_tooltip_text_hef_unit_abilities_frost_armor	The swordsmen’s armor is covered in a layer of frosted armor, making it difficult for attacks to penetrate.	false
+unit_abilities_onscreen_name_hef_unit_abilities_rising_phoenix	Rising Phoenix	false
+unit_abilities_tooltip_text_hef_unit_abilities_rising_phoenix	Flames cover the twin blades as they strike surrounding enemies with extreme speed.	false
+unit_abilities_onscreen_name_hef_unit_abilities_light_of_mist	Light of Mist	false
+unit_abilities_tooltip_text_hef_unit_abilities_light_of_mist	Dispels all darkness and illuminates the area around the Light of Yvresse.	false
+unit_abilities_onscreen_name_hef_unit_guided_to_magic	Guided to Magic	false
+unit_abilities_tooltip_text_hef_unit_abilities_guided_to_magic	The great mages of Hoeth understand how to communicate with the Winds of Magic to keep the magical winds flowing.	false
+unit_abilities_onscreen_name_hef_unit_charge_magic_ammo	Replenish Magic Ammunition	false
+unit_abilities_tooltip_text_hef_unit_charge_magic_ammo	The great mages of Hoeth can use the Winds of Magic to replenish their ammunition.	false
+unit_abilities_onscreen_name_hef_unit_abilities_companions_of_chrace	Companions of Chrace	false
+unit_abilities_tooltip_text_hef_unit_abilities_companions_of_chrace	The companions of the Pride of Chrace appear on the battlefield.	false
+unit_abilities_onscreen_name_hef_unit_abilities_power_of_tidal 	Tidal Power	false
+unit_abilities_tooltip_text_hef_unit_abilities_power_of_tidal 	The elves of Cothique know how to harness the power of the ocean to enhance their combat abilities.	false
+unit_abilities_onscreen_name_hef_unit_abilities_lightning_armour	Lightning Armor	false
+unit_abilities_tooltip_text_hef_unit_abilities_lightning_armour	It is said that every sea lord receives armor blessed by Mathlann that emits lightning, reflecting damage back at enemies.	false
+unit_abilities_onscreen_name_hef_unit_abilities_dragon_knight_dragon_breath	Dragon Breath	false
+unit_abilities_tooltip_text_hef_unit_abilities_dragon_knight_dragon_breath	The breath of the young Sun Dragon may not be as powerful as that of an adult Sun Dragon, but it still inflicts great damage on enemies.	false
+unit_abilities_additional_ui_effects_localised_text_hef_unit_abilities_frost_armor	Mutually exclusive with Rising Phoenix.	false
+unit_abilities_additional_ui_effects_localised_text_hef_unit_abilities_rising_phoenix	Mutually exclusive with Frost Armor.	false
+effects_description_effect_rite_hef_eternal_skill	Avelorn Sisters and Eternal Guard (Bows) gain "Concentrated."	true
+effects_description_effect_global_recruitment_duration_eternal_all	Global Recruitment Duration: %+n turns for Eternal Guard and Avelorn Sister units.	false
+effects_description_effect_global_recruitment_duration_seaguard_all	Global Recruitment Duration: %+n turns for Lothern Sea Guard and Cothique units.	false
+effects_description_effect_global_recruitment_duration_white_lion_all	Global Recruitment Duration: %+n turns for Chrace White Lion, War Lion, and White Lion Chariot units.	false
+effects_description_effect_building_unit_stat_bonus_defence_eternal_all	Melee Defense: %+n for Eternal Guard and Avelorn Sister units.	false
+effects_description_effect_building_unit_stat_bonus_weapon_seaguard_all	Weapon and Missile Damage: %+n for Lothern Sea Guard and Cothique units.	false
+effects_description_effect_building_unit_stat_bonus_defence_seaguard_all	Melee Defense: %+n for Lothern Sea Guard and Cothique units.	false
+effects_description_effect_building_unit_stat_bonus_weapon_white_lion_all	Weapon and Missile Damage: %+n for Chrace White Lion, War Lion, and White Lion Chariot units.	false
+effects_description_effect_building_unit_stat_bonus_attack_white_lion_all	Melee Attack: %+n for Chrace White Lion, War Lion, and White Lion Chariot units.	false
+effects_description_effect_unit_cap_hef_inf_scouts_of_eternal	Unit Cap: Eternal Guard (Bows) %+n.	true
+effects_description_effect_unit_cap_hef_inf_sword_master_of_phenix	Unit Cap: Phoenix Swordmasters %+n.	true
+effects_description_effect_unit_cap_hef_inf_mage_of_hoeth	Unit Cap: Hoeth Mages %+n.	true
+effects_description_effect_unit_cap_hef_cav_caledor_dragon_knight	Unit Cap: Caledor Dragon Knights %+n.	false
+effects_description_effect_unit_cap_hef_inf_the_light_of_yvresse	Unit Cap: Yvressi Champions %+n.	false
+effects_description_effect_unit_cap_hef_inf_pride_of_the_white_lions	Unit Cap: Pride of the White Lions %+n.	false
+effects_description_effect_unit_cap_hef_cav_cothique_deepsea_marauders	Unit Cap: Cothique Deep-Sea Marauders %+n.	false
+effects_description_effect_unit_cap_hef_cav_dragon_knight	Unit Cap: Dragon Knights %+n.	false
+projectile_shot_type_displays_tooltip_text_bolt_mage_of_hoeth_magic_bomb	Hoeth's mages create huge magical bombs that have a very long range but poor accuracy, primarily used against large enemy groups.	false
+projectile_shot_type_displays_onscreen_name_bolt_mage_of_hoeth_magic_bomb	Magic Bombs	false
+projectile_shot_type_displays_tooltip_text_bolt_mage_of_hoeth_magic_arrow	The great mages of Hoeth fire countless magical arrows, each of which tracks enemies, mainly used against large foes.	false
+projectile_shot_type_displays_onscreen_name_bolt_mage_of_hoeth_magic_arrow	Magic Arrows	false
+unit_abilities_onscreen_name_hef_unit_abilities_long_range_shooting	Long-Range Shooting	false
+unit_abilities_tooltip_text_hef_unit_abilitie_long_range_shooting	A special skill of the Brave Archers, trading shooting accuracy for an extended range of fire.	false
+unit_abilities_onscreen_name_hef_unit_abilities_flurry_of_blows	Flurry of Blows	false
+unit_abilities_tooltip_text_hef_unit_abilities_flurry_of_blows	The Brave Blademen abandon traditional swordsmanship, instead relying on sweeping strikes and wide, powerful slashes to overwhelm their foes.	false
+unit_abilities_onscreen_name_hef_unit_abilities_wall_of_shield	Shield Wall	false
+unit_abilities_tooltip_text_hef_unit_abilities_wall_of_shield	The Brave Guardians can form a defensive stance after halting their movement, creating a shield wall that makes them even more indestructible.	false

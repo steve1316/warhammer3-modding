@@ -1,0 +1,8 @@
+key	text	tooltip
+#Loc;1;text/!!!whc_incident.loc		
+dilemmas_localised_title_whc_initial_army	War under Heaven	false
+dilemmas_localised_description_whc_initial_army	Your choice will determine whether the legendary lords of the Northern Provinces and Western Provinces start with unique native units as their initial army.	false
+cdir_events_dilemma_choice_details_localised_choice_label_whc_initial_armyFIRST	Use unique units	false
+cdir_events_dilemma_choice_details_localised_choice_title_whc_initial_armyFIRST	"What is local is inherently Cathayan."	false
+cdir_events_dilemma_choice_details_localised_choice_label_whc_initial_armySECOND	Maintain the default	false
+cdir_events_dilemma_choice_details_localised_choice_title_whc_initial_armySECOND	"The ways of our ancestors must not be changed."	false

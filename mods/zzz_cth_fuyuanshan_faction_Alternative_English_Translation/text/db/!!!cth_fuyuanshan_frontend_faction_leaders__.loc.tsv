@@ -1,0 +1,6 @@
+key	text	tooltip
+#Loc;1;text/db/!!!cth_fuyuanshan_frontend_faction_leaders__.loc		
+frontend_faction_leaders_localised_description_mixer_ime_cth_imperial_wardens	Dragon General Fu Yuanshan will surely rebuild the Great Bastion, isolate Chaos, and restore peace to Grand Cathay.	false
+frontend_faction_leaders_localised_action_points_mixer_ime_cth_imperial_wardens		false
+frontend_faction_leaders_loading_screen_text_mixer_ime_cth_imperial_wardens		false
+frontend_faction_leaders_frontend_description_mixer_ime_cth_imperial_wardens	Tzeentch successfully triggered a series of upheavals in Grand Cathay. Miao Ying and Zhao Ming, suspecting each other of Chaos corruption, went to war. The Nan-Yang rebels besieged Wei-Jin, attempting to eliminate the last obstacle - Fu Yuanshan's army stationed in Po Mu. Yurik breached the Great Bastion and marched inward, while Fu Yuanshan's lone army was cut off by Chaos.\\nNow, Fu Yuanshan must break through the numerous obstacles of Chaos, rebuild the Great Bastion, defend the land and its people, and restore peace to the Grand Cathayan Empire.	false

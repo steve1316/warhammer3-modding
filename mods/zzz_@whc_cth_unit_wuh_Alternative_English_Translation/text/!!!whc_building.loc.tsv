@@ -1,0 +1,6 @@
+key	text	tooltip
+#Loc;1;text/!!!whc_building.loc		
+building_culture_variants_name_wh3_main_cth_cavalry_2.5wh3_main_cth_cathay	Imperial Stables	false
+building_short_description_texts_short_description_wh3_main_cth_cavalry_2.5	Longma are fiercely temperamental and require careful tending.	false
+building_culture_variants_name_wh3_main_cth_cavalry_1.5wh3_main_cth_cathay	Penal Stable	false
+building_short_description_texts_short_description_wh3_main_cth_cavalry_1.5	Serving as both stables and prisons, these are the fate of convicts who forsake a swift death to become living weapons. They and their warhorses are the last line to delay the enemy until Cathay's regular forces arrive. These explosive-laden madmen strike fear not only into their foes but also into their fellow Cathayan soldiers.	false

@@ -1,0 +1,40 @@
+key	text	tooltip
+#Loc;1;text/!!!cth_fuyuanshan_cav.loc		
+land_units_onscreen_name_f_cth_inf_scout	Great Bastion Rangers	false
+unit_description_short_texts_text_wh3_main_unit_short_text_f_cth_inf_scout	Rangers meticulously trained by Miao Ying, responsible for reconnaissance and patrols beyond the Great Bastion. Poisoned arrows and long sabers are their two main weapons against the enemy.	false
+unit_description_historical_texts_text_f_cth_inf_scout	The Great Bastion Rangers are the most agile group selected from the Yeoman Cavalry. They are skilled in surviving in the Chaos Wastes and are responsible for reconnaissance and patrol work in the areas north of the Great Bastion. Almost every one of them has a similar background to Miao Ying, harboring a deep hatred for Chaos and never compromising or retreating in the face of the great enemy.	true
+land_units_onscreen_name_f_cth_sky_keeper	Oathsworn Cavalry	false
+unit_description_short_texts_text_wh3_main_unit_short_text_f_cth_sky_keeper	When the Dragon Emperor's orders reached Miao Ying, they emerged from the Hidden Chambers of Wei-Jin, joining the army and bringing death to the enemy.	false
+unit_description_historical_texts_text_f_cth_sky_keeper	The Oathsworn are the elite among the Dragon Horse cavalry. When they accumulate enough merits, they receive an invitation from the Dragon Emperor to enter the Hidden Chambers and comprehend the Way of Yin and Yang. But when they emerge, they swear not to reveal a single word.	true
+land_units_onscreen_name_f_cth_cav_bastion	Iron Pagoda	false
+unit_description_short_texts_text_wh3_main_unit_short_text_f_cth_cav_bastion	When the Iron Pagoda charge on the battlefield, nothing in the world can stop their advance.	false
+unit_description_historical_texts_text_f_cth_cav_bastion	The Iron Hail Gunners are heavy cavalry forged by Miao Ying. Compared to the Jade Lancers, they utilize technology from the Kunlan artisans and are equipped with heavy metal armor cast in one piece. This armor features a multi-layered composite of different materials and articulated joint design, making it a product that transcends its time. However, even so, its terrifying weight can only be borne by a few Dragon-blooded steeds. Due to its exceptionally high cost, the Iron Hail Gunners' equipment cannot be used to establish a large-scale standing army. The Iron Hail Gunners on the battlefield cannot even be called cavalry; they are mechanisms driven by the power of warhorses.	true
+land_units_onscreen_name_cth_fys_jade_warrior_lancer	Jade Warrior Lancers (Armored)	false
+unit_description_short_texts_text_wh3_main_unit_short_text_cth_fys_jade_warrior_lancer	Moves like thunder, startling both city and countryside	false
+unit_description_historical_texts_text_cth_fys_jade_warrior_lancer	The heavy cavalry of Grand Cathay is called the Jade Warrior Lancers, and their riders come from various major cities. Large contingents of Jade Warrior Lancers are usually stationed in prosperous cities like Fu Zhou and Wei-Jin, and even the more remote southern and western cities will have at least one such unit. Jade Warrior Lancers are not only adept at fighting in open fields but are also trained to fight in the narrow streets of cities. Whether in narrow alleys, on bridges, or in the tunnels of city walls, they can launch devastating charges. And at the Great Bastion, to resist the Chaos hordes, they wear thicker armor than other Jade Warrior Lancers.	false
+ui_unit_bullet_point_enums_onscreen_name_yin_yang	Yin-Yang Harmony	true
+ui_unit_bullet_point_enums_tooltip_yin_yang	This unit has the harmonious attributes of Yin and Yang. 	true
+effects_description_cap_sky_keeper	Unit Capacity: +%n\\nOathsworn	true
+ui_unit_bullet_point_enums_onscreen_name_ability_steelcharge	Steel Charge	true
+special_ability_phases_onscreen_name_ability_steelcharge	Steel Charge	true
+unit_abilities_onscreen_name_abilities_yang	Yang: The Unceasing	true
+unit_abilities_tooltip_text_abilities_yang	As Heaven maintains vigor through movement, a gentleman should constantly strive for self-improvement.	true
+unit_abilities_onscreen_name_abilities_yin	Yin: The Receptive	true
+unit_abilities_tooltip_text_abilities_yin	As Earth's condition is receptive, a gentleman should hold the outer world with broad virtue.	true
+special_ability_phases_onscreen_name_wh_main_unit_ability_steelcharge	[[col:red]][[img:ui/skins/default/modifier_icon_overhead_morale.png]][[/img]]Break the Ranks![[/col]]	true
+unit_abilities_onscreen_name_formation_destroy	Wedge Formation	true
+unit_abilities_tooltip_text_formation_destroy	A formation of spears like a forest, horses roaring like dragons, this formation will tear apart even the strongest enemy lines.	true
+land_units_onscreen_name_cth_fys_peasant_firelancer	Fire-lance Cavalry	false
+unit_description_short_texts_text_cth_fys_peasant_firelancer	Cavalry charging into enemy ranks with explosive-tipped lances, the powerful explosives will violently destroy the enemy's armor and will.	false
+unit_description_historical_texts_text_cth_fys_peasant_firelancer	The Fire-lance Cavalry are all unforgivable criminals who will never receive mercy or pardon. All they can do is charge into the enemy ranks with explosive-laden lances for a chance to live another day.	false
+unit_abilities_onscreen_name_abilities_firelancer_charge	Flaming Charge	false
+unit_abilities_tooltip_text_abilities_firelancer_charge	The Fire-lance Cavalry's charge is an attack that burns both life and future.	false
+ui_unit_bullet_point_enums_onscreen_name_contact_firelancer_charge	Volatile Explosives	false
+special_ability_phases_onscreen_name_contact_firelancer_charge	Volatile Explosives	false
+special_ability_phases_onscreen_name_wh_main_unit_contact_firelancer_charge	[[col:red]][[img:ui/skins/default/modifier_icon_overhead_morale.png]][[/img]]Detonate![[/col]] 	false
+ui_unit_bullet_point_enums_onscreen_name_contact_blast	Blast	false
+special_ability_phases_onscreen_name_contact_blast	Blast	false
+special_ability_phases_onscreen_name_wh_main_unit_contact_blast	[[col:red]][[img:ui/skins/default/modifier_icon_overhead_morale.png]][[/img]]Explode![[/col]] 	false
+unit_abilities_onscreen_name_suicide bombing	Glorious Self-sacrifice	false
+unit_abilities_tooltip_text_suicide bombing	They brought endless shame to Grand Cathay in life, but their deaths will bring glory to Cathay!	false
+ui_unit_groupings_onscreen_firelancer_cavalry	Fire Lancer Cavalry	false

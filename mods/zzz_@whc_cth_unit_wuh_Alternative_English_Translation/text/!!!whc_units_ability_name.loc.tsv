@@ -1,0 +1,26 @@
+key	text	tooltip
+#Loc;1;text/!!!whc_units_ability_name.loc		
+unit_abilities_onscreen_name_guanning_firelancer_fire_charge	Beacon Relay	false
+unit_abilities_tooltip_text_guanning_firelancer_fire_charge	As thunder roars, so the charge advances like the wind.	false
+unit_abilities_onscreen_name_bayara_outflank	Flanking Maneuver	false
+unit_abilities_tooltip_text_bayara_outflank	Temporarily retreat to conserve strength and bide your time.	false
+special_ability_phases_onscreen_name_cth_zhentianlei_jiansu	[[col:red]][[img:ui/battle ui/ability_icons/cth_zhentianlei_jiansu.png]][[/img]]Nan-Gau Thunderstrike![[/col]]	false
+unit_abilities_onscreen_name_defensive_stance_pro	Defensive Stance	false
+unit_abilities_tooltip_text_defensive_stance_pro	Easier to move mountains than to break this army's resolve.	false
+unit_abilities_onscreen_name_suwei_true_bastion	Flesh-and-Blood Bastion: Iron Wall	false
+unit_abilities_tooltip_text_suwei_true_bastion	[[col:red]]Cannot fire while the formation is active.[[/col]]  \\n\\nWhere the shield wall stands, there is no retreat.	false
+unit_abilities_onscreen_name_suwei_indomitable	Flesh-and-Blood Bastion: Indomitable	false
+unit_abilities_tooltip_text_suwei_indomitable	[[col:red]]Formation cannot be maintained when unit size is too low.[[/col]]  \\n\\nA well-ordered shield wall, as mighty as the Great Bastion, supports the backbone of the Cathayan empire.	false
+unit_abilities_onscreen_name_beiwei_dianfan	Galvanizing Courage	false
+unit_abilities_tooltip_text_beiwei_dianfan	The sight of the Beiwei Army charging into battle inspires the entire force to fight with unparalleled bravery.	false
+special_ability_phases_onscreen_name_beiwei_zhanma	[[col:red]][[img:ui/battle ui/ability_icons/beiwei_zhanma.png]][[/img]]Horse-Cleaving Strike![[/col]]	true
+unit_abilities_onscreen_name_golden_pagoda_rock_solid	Rock Solid	false
+unit_abilities_tooltip_text_golden_pagoda_rock_solid	Like a rolling boulder smashing through the enemy or an immovable mountain holding the line, their duty is unyielding.	false
+unit_abilities_onscreen_name_golden_pagoda_exorcism	Demonic Exorcism	false
+unit_abilities_tooltip_text_golden_pagoda_exorcism	These enchanted roars from the guardian stone lions will destabilize the corporeal form of Chaos Daemons, [[col:red]][[img:ui/battle ui/ability_icons/daemonic.png]][[/img]]removing their Daemonic attribute[[/col]].	false
+unit_abilities_onscreen_name_palace_guard_jade_offering	Jade Offering	false
+unit_abilities_tooltip_text_palace_guard_jade_offering	When the battle turns in their favor, the Jade Lion riders channel the winds of magic across the battlefield.	false
+unit_abilities_onscreen_name_palace_guard_jade_charge	Jade-Piercing Charge	false
+unit_abilities_tooltip_text_palace_guard_jade_charge	Warriors charging alongside the Jade Lions feel an overwhelming surge of magical empowerment.	false
+ui_unit_bullet_point_enums_onscreen_name_cth_cata_cav	Ironclad Cavalry	false
+ui_unit_bullet_point_enums_tooltip_cth_cata_cav	This heavy cavalry unit possesses collision attack capabilities.	false

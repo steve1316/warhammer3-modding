@@ -1,0 +1,44 @@
+key	text	tooltip
+#Loc;1;text/!!!db/ghs_custom_battle_mounts.loc		
+units_custom_battle_mounts_localised_description_wh2_main_lzd_cha_saurus_old_blood_0ghs_lzd_mon_giant_ripperdactyl_old_blood	Ancient Ripperdactyl	false
+units_custom_battle_mounts_mount_name_wh2_main_lzd_cha_saurus_old_blood_0ghs_lzd_mon_giant_ripperdactyl_old_blood	The largest and most bloodthirsty of Ripperdactyls, their razor-sharp talons can decapitate enemies, leaving a trail of viscera and limbs behind their ferocious assaults.	false
+units_custom_battle_mounts_localised_description_wh2_main_lzd_cha_saurus_scar_veteran_0ghs_lzd_mon_giant_ripperdactyl_scar_veteran	Ancient Ripperdactyl	false
+units_custom_battle_mounts_mount_name_wh2_main_lzd_cha_saurus_scar_veteran_0ghs_lzd_mon_giant_ripperdactyl_scar_veteran	The largest and most bloodthirsty of Ripperdactyls, their razor-sharp talons can decapitate enemies, leaving a trail of viscera and limbs behind their ferocious assaults.	false
+units_custom_battle_mounts_mount_name_wh3_main_ksl_cha_boris_0wh3_main_ksl_cha_boris_3	Ursun's Winter (Elemental Bear)	false
+units_custom_battle_mounts_localised_description_wh3_main_ksl_cha_boris_0wh3_main_ksl_cha_boris_3	The Bear God's statue stands atop a mighty frost-crafted construct, embodying dominion over cold and death, intertwining Kislev's fate with Ursun's blessings.	false
+units_custom_battle_mounts_mount_name_wh3_main_ksl_cha_katarin_0wh3_main_ksl_cha_katarin_3	Ursun's Winter (Elemental Bear)	false
+units_custom_battle_mounts_localised_description_wh3_main_ksl_cha_katarin_0wh3_main_ksl_cha_katarin_3	The Bear God's statue stands atop a mighty frost-crafted construct, embodying dominion over cold and death, intertwining Kislev's fate with Ursun's blessings.	false
+units_custom_battle_mounts_mount_name_wh3_main_ksl_cha_kostaltyn_0wh3_main_ksl_cha_kostaltyn_3	The Bear God's statue stands atop a mighty frost-crafted construct, embodying dominion over cold and death, intertwining Kislev's fate with Ursun's blessings.	false
+units_custom_battle_mounts_localised_description_wh3_main_ksl_cha_kostaltyn_0wh3_main_ksl_cha_kostaltyn_3	The Bear God's statue stands atop a mighty frost-crafted construct, embodying dominion over cold and death, intertwining Kislev's fate with Ursun's blessings.	false
+units_custom_battle_mounts_mount_name_wh2_dlc09_tmb_cha_liche_priest_death_0tmb_eagle_mage1	Uratip Vulture	false
+units_custom_battle_mounts_localised_description_wh2_dlc09_tmb_cha_liche_priest_death_0tmb_eagle_mage1	This immense vulture is adorned with the remains of its god's enemies, a black tempest shrouded in mystery and unimaginable cost to tame.	false
+units_custom_battle_mounts_mount_name_wh2_dlc09_tmb_cha_liche_priest_light_0tmb_eagle_mage2	Uratip Vulture	false
+units_custom_battle_mounts_localised_description_wh2_dlc09_tmb_cha_liche_priest_light_0tmb_eagle_mage2	This immense vulture is adorned with the remains of its god's enemies, a black tempest shrouded in mystery and unimaginable cost to tame.	false
+units_custom_battle_mounts_mount_name_wh2_dlc09_tmb_cha_liche_priest_nehekhara_0tmb_eagle_mage3	Uratip Vulture	false
+units_custom_battle_mounts_localised_description_wh2_dlc09_tmb_cha_liche_priest_nehekhara_0tmb_eagle_mage3	This immense vulture is adorned with the remains of its god's enemies, a black tempest shrouded in mystery and unimaginable cost to tame.	false
+units_custom_battle_mounts_mount_name_wh2_dlc09_tmb_cha_liche_priest_shadow_0tmb_eagle_mage4	Uratip Vulture	false
+units_custom_battle_mounts_localised_description_wh2_dlc09_tmb_cha_liche_priest_shadow_0tmb_eagle_mage4	This immense vulture is adorned with the remains of its god's enemies, a black tempest shrouded in mystery and unimaginable cost to tame.	false
+units_custom_battle_mounts_mount_name_wh2_dlc09_tmb_cha_necrotect_0tmb_elephant_necrotect	Obsidian War Elephant	false
+units_custom_battle_mounts_localised_description_wh2_dlc09_tmb_cha_necrotect_0tmb_elephant_necrotect	Ancient artisans, roused from their crafting, once again mount the majestic war elephants, their banners fluttering as they cleave through countless foes.	false
+units_custom_battle_mounts_mount_name_wh2_dlc09_tmb_cha_tomb_king_0tmb_dragon_king	Tomb Dragon	false
+units_custom_battle_mounts_localised_description_wh2_dlc09_tmb_cha_tomb_king_0tmb_dragon_king	Tomb artisans poured generations into carving this perfect creation from a single block of obsidian, now bearing the Tomb Kings high above the world.	false
+units_custom_battle_mounts_mount_name_wh2_dlc09_tmb_cha_tomb_prince_0tmb_eagle_prince	Uratip Vulture	false
+units_custom_battle_mounts_localised_description_wh2_dlc09_tmb_cha_tomb_prince_0tmb_eagle_prince	This immense vulture is adorned with the remains of its god's enemies, a black tempest shrouded in mystery and unimaginable cost to tame.	false
+units_custom_battle_mounts_mount_name_wh2_main_hef_cha_alastair_0wh2_main_hef_cha_alastar_02	Alastar War Lion	false
+units_custom_battle_mounts_localised_description_wh2_main_hef_cha_alastair_0wh2_main_hef_cha_alastar_02	Regardless of the enemy's identity or danger, Alastar mounts his war lion, leading charges that would make the Lion Father proud.	false
+units_custom_battle_mounts_mount_name_cody_dwf_cha_malakai_makaisson_0cody_dwf_cha_malakai_makaisson_1	Spirit of Grungni	false
+units_custom_battle_mounts_localised_description_cody_dwf_cha_malakai_makaisson_0cody_dwf_cha_malakai_makaisson_1	The Spirit of Grungni is a thunderous airship crafted by Dwarven Slayer Engineer Malakai Makaisson.	false
+units_custom_battle_mounts_mount_name_ghs_cth_cha_hongyingghs_cth_cha_hongying_cage_bird	"Yingchuo"	false
+units_custom_battle_mounts_localised_description_ghs_cth_cha_hongyingghs_cth_cha_hongying_cage_bird	"Yingchuo" is the Moon Empress' personal gift to Hong Ying, a Taeyue Luan rumored to be the Moon Empress' shadow. Only through hearing its cry can the Onyx Crowmen channel the Wind of Yin and transform into a mythical bird.	false
+units_custom_battle_mounts_mount_name_wh2_main_lzd_cha_slann_mage_priest_light_0slann_light	Ancient Stegadon (Engine of the Gods)	true
+units_custom_battle_mounts_mount_name_wh2_main_lzd_cha_slann_mage_priest_high_0slann_high	Ancient Stegadon (Engine of the Gods)	true
+units_custom_battle_mounts_mount_name_wh2_main_lzd_cha_slann_mage_priest_heavens_0slann_heaven	Ancient Stegadon (Engine of the Gods)	true
+units_custom_battle_mounts_mount_name_wh2_main_lzd_cha_slann_mage_priest_campaign_0slann_campagin	Ancient Stegadon (Engine of the Gods)	true
+units_custom_battle_mounts_mount_name_wh2_dlc13_lzd_cha_slann_mage_priest_life_0slann_life	Ancient Stegadon (Engine of the Gods)	true
+units_custom_battle_mounts_mount_name_wh2_dlc13_lzd_cha_slann_mage_priest_fire_0slann_fire	Ancient Stegadon (Engine of the Gods)	true
+units_custom_battle_mounts_localised_description_wh2_main_lzd_cha_slann_mage_priest_light_0slann_light	Among their kind, they are the largest and most ferocious, with only the oldest beings capable of activating the Engine of the Gods.	true
+units_custom_battle_mounts_localised_description_wh2_main_lzd_cha_slann_mage_priest_high_0slann_high	Among their kind, they are the largest and most ferocious, with only the oldest beings capable of activating the Engine of the Gods.	true
+units_custom_battle_mounts_localised_description_wh2_main_lzd_cha_slann_mage_priest_heavens_0slann_heaven	Among their kind, they are the largest and most ferocious, with only the oldest beings capable of activating the Engine of the Gods.	true
+units_custom_battle_mounts_localised_description_wh2_main_lzd_cha_slann_mage_priest_campaign_0slann_campagin	Among their kind, they are the largest and most ferocious, with only the oldest beings capable of activating the Engine of the Gods.	true
+units_custom_battle_mounts_localised_description_wh2_dlc13_lzd_cha_slann_mage_priest_life_0slann_life	Among their kind, they are the largest and most ferocious, with only the oldest beings capable of activating the Engine of the Gods.	true
+units_custom_battle_mounts_localised_description_wh2_dlc13_lzd_cha_slann_mage_priest_fire_0slann_fire	Among their kind, they are the largest and most ferocious, with only the oldest beings capable of activating the Engine of the Gods.	true

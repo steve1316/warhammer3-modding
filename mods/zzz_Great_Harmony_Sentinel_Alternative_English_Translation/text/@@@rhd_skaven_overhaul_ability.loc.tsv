@@ -1,0 +1,3 @@
+key	text	tooltip
+#Loc;1;text/@@@rhd_skaven_overhaul_ability.loc		
+special_ability_phases_onscreen_name_rhd_unit_contact_melt	[[col:red]][[img:ui/skins/default/modifier_icon_overhead_morale.png]][[/img]]Melt![[/col]]	false

@@ -1,0 +1,240 @@
+key	text	tooltip
+#Loc;1;text/!!!db/ghs_hef_initiatives.loc		
+initiatives_localised_name_ghs_hef_character_initiative_phoenix_champion_01	Champion Warrior	false
+initiatives_localised_name_ghs_hef_character_initiative_phoenix_champion_02	Omen of Doom	false
+initiatives_localised_name_ghs_hef_character_initiative_phoenix_champion_03	Fearless Vanguard	false
+initiatives_localised_name_ghs_hef_character_initiative_hoeth_champion_01	Champion Warrior	false
+initiatives_localised_name_ghs_hef_character_initiative_hoeth_champion_02	Arcane Knowledge	false
+initiatives_localised_name_ghs_hef_character_initiative_hoeth_champion_03	Courage and Wisdom	false
+initiatives_localised_name_ghs_hef_character_initiative_prince_01	Master of Raids	false
+initiatives_localised_name_ghs_hef_character_initiative_prince_02	Illustrious Glory	false
+initiatives_localised_name_ghs_hef_character_initiative_prince_03	Undefeated General	false
+initiatives_localised_name_ghs_hef_character_initiative_prince_04	Mana Eradicator	false
+initiatives_localised_name_ghs_hef_character_initiative_prince_05	Survivor of Defeat	false
+initiatives_localised_name_ghs_hef_character_initiative_prince_06	Shadow Sentinel	false
+initiatives_localised_name_ghs_hef_character_initiative_prince_07	Not to Be Trifled With	false
+initiatives_localised_name_ghs_hef_character_initiative_prince_08	Cloud-Cloaked	false
+initiatives_localised_name_ghs_hef_character_initiative_prince_09	United Effort	false
+initiatives_localised_name_ghs_hef_character_initiative_prince_10	K'daai's Chosen	false
+initiatives_localised_name_ghs_hef_character_initiative_princess_01	Master of Raids	false
+initiatives_localised_name_ghs_hef_character_initiative_princess_02	Illustrious Glory	false
+initiatives_localised_name_ghs_hef_character_initiative_princess_03	Undefeated General	false
+initiatives_localised_name_ghs_hef_character_initiative_princess_04	Mana Eradicator	false
+initiatives_localised_name_ghs_hef_character_initiative_princess_05	Survivor of Defeat	false
+initiatives_localised_name_ghs_hef_character_initiative_princess_06	Shadow Sentinel	false
+initiatives_localised_name_ghs_hef_character_initiative_princess_07	Not to Be Trifled With	false
+initiatives_localised_name_ghs_hef_character_initiative_princess_08	Cloud-Cloaked	false
+initiatives_localised_name_ghs_hef_character_initiative_princess_09	United Effort	false
+initiatives_localised_name_ghs_hef_character_initiative_princess_10	K'daai's Chosen	false
+initiatives_localised_name_ghs_hef_character_initiative_handmaiden_01	Full Momentum	false
+initiatives_localised_name_ghs_hef_character_initiative_handmaiden_02	Hunter's Oracle	false
+initiatives_localised_name_ghs_hef_character_initiative_handmaiden_03	Mana Eradicator	false
+initiatives_localised_name_ghs_hef_character_initiative_handmaiden_04	Survivor of Defeat	false
+initiatives_localised_name_ghs_hef_character_initiative_handmaiden_05	A One-Person Army	false
+initiatives_localised_name_ghs_hef_character_initiative_handmaiden_06	Shadow Sentinel	false
+initiatives_localised_name_ghs_hef_character_initiative_handmaiden_07	Master of Raids	false
+initiatives_localised_name_ghs_hef_character_initiative_handmaiden_08	Blessed Quiver	false
+initiatives_localised_name_ghs_hef_character_initiative_handmaiden_09	United Effort	false
+initiatives_localised_name_ghs_hef_character_initiative_handmaiden_10	Not to Be Trifled With	false
+initiatives_localised_name_ghs_hef_character_initiative_noble_01	Full Momentum	false
+initiatives_localised_name_ghs_hef_character_initiative_noble_02	Hunter's Oracle	false
+initiatives_localised_name_ghs_hef_character_initiative_noble_03	Mana Eradicator	false
+initiatives_localised_name_ghs_hef_character_initiative_noble_04	Survivor of Defeat	false
+initiatives_localised_name_ghs_hef_character_initiative_noble_05	A One-Person Army	false
+initiatives_localised_name_ghs_hef_character_initiative_noble_06	Shadow Sentinel	false
+initiatives_localised_name_ghs_hef_character_initiative_noble_07	Master of Raids	false
+initiatives_localised_name_ghs_hef_character_initiative_noble_08	Blessed Quiver	false
+initiatives_localised_name_ghs_hef_character_initiative_noble_09	United Effort	false
+initiatives_localised_name_ghs_hef_character_initiative_loremaster_01	Full Momentum	false
+initiatives_localised_name_ghs_hef_character_initiative_loremaster_02	Hunter's Oracle	false
+initiatives_localised_name_ghs_hef_character_initiative_loremaster_03	Mana Eradicator	false
+initiatives_localised_name_ghs_hef_character_initiative_loremaster_04	Survivor of Defeat	false
+initiatives_localised_name_ghs_hef_character_initiative_loremaster_05	A One-Person Army	false
+initiatives_localised_name_ghs_hef_character_initiative_loremaster_06	Shadow Sentinel	false
+initiatives_localised_name_ghs_hef_character_initiative_loremaster_07	Master of Raids	false
+initiatives_localised_name_ghs_hef_character_initiative_loremaster_08	Blessed Quiver	false
+initiatives_localised_name_ghs_hef_character_initiative_loremaster_09	United Effort	false
+initiatives_localised_name_ghs_hef_character_initiative_tyrion_01	The Dragon of Korquai	false
+initiatives_localised_name_ghs_hef_character_initiative_teclis_01	Archmage Supreme	false
+initiatives_localised_name_ghs_hef_character_initiative_alarielle_01	Isha's Chosen	false
+initiatives_localised_name_ghs_hef_character_initiative_alith_anar_01	King of Shadows	false
+initiatives_localised_name_ghs_hef_character_initiative_imrik_01	Dragonheart	false
+initiatives_localised_name_ghs_hef_character_initiative_eltharion_01	Mist Without Mercy	false
+initiatives_localised_name_ghs_hef_character_initiative_alastar_01	Vanguard of Charce	false
+initiatives_localised_name_ghs_hef_character_initiative_alastar_02	White Lion's Roar	false
+initiatives_localised_description_ghs_hef_character_initiative_phoenix_champion_01	Win 5 battles.	false
+initiatives_localised_description_ghs_hef_character_initiative_phoenix_champion_02	Reach level 25.	false
+initiatives_localised_description_ghs_hef_character_initiative_phoenix_champion_03	Perform one successful action with this character.	false
+initiatives_localised_description_ghs_hef_character_initiative_hoeth_champion_01	Win 5 battles.	false
+initiatives_localised_description_ghs_hef_character_initiative_hoeth_champion_02	Reach level 25.	false
+initiatives_localised_description_ghs_hef_character_initiative_hoeth_champion_03	Perform one successful action with this character.	false
+initiatives_localised_description_ghs_hef_character_initiative_prince_01	Upgrade while in raiding stance.	false
+initiatives_localised_description_ghs_hef_character_initiative_prince_02	Reach level 25.	false
+initiatives_localised_description_ghs_hef_character_initiative_prince_03	Win 5 battles.	false
+initiatives_localised_description_ghs_hef_character_initiative_prince_04	Defeat an army led by a spellcaster.	false
+initiatives_localised_description_ghs_hef_character_initiative_prince_05	Lose a battle and survive.	false
+initiatives_localised_description_ghs_hef_character_initiative_prince_06	End a turn in a province with less than -50 control.	false
+initiatives_localised_description_ghs_hef_character_initiative_prince_07	Win 1 battle against the Forces of Order.	false
+initiatives_localised_description_ghs_hef_character_initiative_prince_08	Win 1 battle when the enemy army has 5 ranged units.	false
+initiatives_localised_description_ghs_hef_character_initiative_prince_09	Win 1 battle when the enemy army has 3 characters.	false
+initiatives_localised_description_ghs_hef_character_initiative_prince_10	Kill 1000 enemies in a single battle.	false
+initiatives_localised_description_ghs_hef_character_initiative_princess_01	Upgrade while in raiding stance.	false
+initiatives_localised_description_ghs_hef_character_initiative_princess_02	Reach level 25.	false
+initiatives_localised_description_ghs_hef_character_initiative_princess_03	Win 5 battles.	false
+initiatives_localised_description_ghs_hef_character_initiative_princess_04	Defeat an army led by a spellcaster.	false
+initiatives_localised_description_ghs_hef_character_initiative_princess_05	Lose a battle and survive.	false
+initiatives_localised_description_ghs_hef_character_initiative_princess_06	End a turn in a province with less than -50 control.	false
+initiatives_localised_description_ghs_hef_character_initiative_princess_07	Win 1 battle against the Forces of Order.	false
+initiatives_localised_description_ghs_hef_character_initiative_princess_08	Win 1 battle when the enemy army has 5 ranged units.	false
+initiatives_localised_description_ghs_hef_character_initiative_princess_09	Win 1 battle when the enemy army has 3 characters.	false
+initiatives_localised_description_ghs_hef_character_initiative_princess_10	Kill 1000 enemies in a single battle.	false
+initiatives_localised_description_ghs_hef_character_initiative_handmaiden_01	Win 5 battles.	false
+initiatives_localised_description_ghs_hef_character_initiative_handmaiden_02	Defeat multiple enemy armies in one battle.	false
+initiatives_localised_description_ghs_hef_character_initiative_handmaiden_03	Defeat an army led by a spellcaster.	false
+initiatives_localised_description_ghs_hef_character_initiative_handmaiden_04	Lose a battle and survive.	false
+initiatives_localised_description_ghs_hef_character_initiative_handmaiden_05	Perform one successful action with this character.	false
+initiatives_localised_description_ghs_hef_character_initiative_handmaiden_06	End a turn in a province with less than -50 control.	false
+initiatives_localised_description_ghs_hef_character_initiative_handmaiden_07	Upgrade while in raiding stance.	false
+initiatives_localised_description_ghs_hef_character_initiative_handmaiden_08	Win 1 battle when the enemy army has 5 ranged units.	false
+initiatives_localised_description_ghs_hef_character_initiative_handmaiden_09	Win 1 battle when the enemy army has 3 characters.	false
+initiatives_localised_description_ghs_hef_character_initiative_handmaiden_10	Win 1 battle against the Forces of Order.	false
+initiatives_localised_description_ghs_hef_character_initiative_noble_01	Win 5 battles.	false
+initiatives_localised_description_ghs_hef_character_initiative_noble_02	Defeat multiple enemy armies in one battle.	false
+initiatives_localised_description_ghs_hef_character_initiative_noble_03	Defeat an army led by a spellcaster.	false
+initiatives_localised_description_ghs_hef_character_initiative_noble_04	Lose a battle and survive.	false
+initiatives_localised_description_ghs_hef_character_initiative_noble_05	Perform one successful action with this character.	false
+initiatives_localised_description_ghs_hef_character_initiative_noble_06	End a turn in a province with less than -50 control.	false
+initiatives_localised_description_ghs_hef_character_initiative_noble_07	Upgrade while in raiding stance.	false
+initiatives_localised_description_ghs_hef_character_initiative_noble_08	Win 1 battle when the enemy army has 5 ranged units.	false
+initiatives_localised_description_ghs_hef_character_initiative_noble_09	Win 1 battle when the enemy army has 3 characters.	false
+initiatives_localised_description_ghs_hef_character_initiative_loremaster_01	Win 5 battles.	false
+initiatives_localised_description_ghs_hef_character_initiative_loremaster_02	Defeat multiple enemy armies in one battle.	false
+initiatives_localised_description_ghs_hef_character_initiative_loremaster_03	Defeat an army led by a spellcaster.	false
+initiatives_localised_description_ghs_hef_character_initiative_loremaster_04	Lose a battle and survive.	false
+initiatives_localised_description_ghs_hef_character_initiative_loremaster_05	Perform one successful action with this character.	false
+initiatives_localised_description_ghs_hef_character_initiative_loremaster_06	End a turn in a province with less than -50 control.	false
+initiatives_localised_description_ghs_hef_character_initiative_loremaster_07	Upgrade while in raiding stance.	false
+initiatives_localised_description_ghs_hef_character_initiative_loremaster_08	Win 1 battle when the enemy army has 5 ranged units.	false
+initiatives_localised_description_ghs_hef_character_initiative_loremaster_09	Win 1 battle when the enemy army has 3 characters.	false
+initiatives_localised_description_ghs_hef_character_initiative_tyrion_01	Reach level 25.	false
+initiatives_localised_description_ghs_hef_character_initiative_teclis_01	Reach level 25.	false
+initiatives_localised_description_ghs_hef_character_initiative_alarielle_01	Reach level 25.	false
+initiatives_localised_description_ghs_hef_character_initiative_alith_anar_01	Reach level 25.	false
+initiatives_localised_description_ghs_hef_character_initiative_imrik_01	Reach level 25.	false
+initiatives_localised_description_ghs_hef_character_initiative_eltharion_01	Reach level 25.	false
+initiatives_localised_description_ghs_hef_character_initiative_alastar_01	Reach level 25.	false
+initiatives_localised_description_ghs_hef_character_initiative_alastar_02	Win any battle against a Chaos force.	false
+campaign_localised_strings_string_description_useless	The gods of K'daai test specific heroes, granting their favor only when enough Waystone shards are gathered.	false
+campaign_localised_strings_string_description_great_honor	High Elves live by strict laws and norms, emphasizing harmony, balance, and inner peace. Succumbing to anger or desire is seen as a weakness.	false
+campaign_localised_strings_string_title_great_honor	Osuan Honor	false
+campaign_localised_strings_string_title_ignore_path	Restrain Desire	false
+campaign_localised_strings_string_title_power_of_ulthuan	In the Name of Asur	false
+campaign_localised_strings_string_description_guide_of_cadai	Elven culture is steeped in mysticism and magic. Elves believe their gods are always with them, part of them. Every action, thought, and deed is connected to the divine, a devotion in itself.	false
+campaign_localised_strings_string_title_guide_of_cadai	Favor of K'daai	false
+pooled_resources_description_hef_waystone_pieces	High Elf lords and heroes bearing the Name of Asur must gather [[img:ui/skins/wh2_main_hef_high_elves/hef_waystone_pieces.png]][[/img]] Waystone shards to earn the blessings of the gods in the Name of Asur system.	false
+pooled_resources_display_name_hef_waystone_pieces	Waystone Shards	false
+effects_description_hef_glory_name_melee	Melee attack and defense: +%n	false
+effects_description_ghs_effect_waystone_pieces	Waystone Shards Acquired: +%n	false
+effects_description_ghs_hef_ability_hoeth_scholar_scroll	Skill: "Invocation Scroll"	false
+effects_description_ghs_hef_ability_hoeth_scholar_scroll_use_mod	Uses: "Invocation Scroll" %+n	false
+effects_description_ghs_effect_agent_enable_recruitment_phoenix_champion	Allows Recruitment of Officials: Phoenix Champion	false
+effects_description_ghs_effect_agent_recruitment_level_phoenix_champion	Recruitment Level: Phoenix Champion %+n	false
+effects_description_ghs_effect_agent_cap_phoenix_champion	Recruitment Capacity: Phoenix Champion %+n	false
+effects_description_ghs_effect_agent_enable_recruitment_hoeth_champion	Allows Recruitment of Officials: Hoeth Acolyte	false
+effects_description_ghs_effect_agent_recruitment_level_hoeth_champion	Recruitment Level: Hoeth Acolyte %+n	false
+effects_description_ghs_effect_agent_cap_hoeth_champion	Recruitment Capacity: Hoeth Acolyte %+n	false
+unit_abilities_onscreen_name_ghs_hef_ability_hoeth_scholar_scroll	Invocation Scroll	false
+unit_abilities_tooltip_text_ghs_hef_ability_hoeth_scholar_scroll	Even a fragment of wisdom recorded by the god of knowledge holds great power, draining the user's strength while instantly replenishing magic.	false
+agent_subtypes_onscreen_name_override_phoenix_guard_champion	Phoenix Champion	false
+agent_subtypes_description_text_override_phoenix_guard_champion	Phoenix Champions perceive the battlefield's pivotal points, unseen by mortal eyes. They know the moment of their destined death, yet none seek to evade it.	false
+agent_subtypes_onscreen_name_override_hoeth_scholar_champion	Hoeth Acolyte	false
+agent_subtypes_description_text_override_hoeth_scholar_champion	Bathed in their patron god's generosity, Hoeth Acolytes explore the winds of magic with precision, guided by unwavering faith. Only fools declare there is nothing left to learn.	false
+effects_description_phoenix_guard_champion_steed	Mount: Flame Steed	false
+effects_description_phoenix_guard_champion_phoenix	Mount: Blazing Phoenix	false
+effects_description_ghs_faction_diplomacy_bonus_all_order_factions	Diplomatic Relations: %+n with High Elves, Bretonnia, The Empire, Southern Realms, Kislev, Wood Elves, Lizardmen, Dwarfs, and Cathay.	false
+effects_description_hoeth_scholar_champion_steed	Mount: Scholar's Steed	false
+effects_description_hoeth_scholar_champion_phoenix	Mount: Frostheart Phoenix	false
+land_units_onscreen_name_phoenix_guard_champion	Phoenix Champion	true
+land_units_onscreen_name_phoenix_guard_champion_steed	Phoenix Champion	true
+land_units_onscreen_name_phoenix_guard_champion_phoenix	Phoenix Champion	true
+unit_description_short_texts_text_phoenix_guard_champion	Phoenix Champions perceive the battlefield's pivotal points, unseen by mortal eyes. They know the moment of their destined death, yet none seek to evade it.	true
+unit_description_historical_texts_text_phoenix_guard_champion	The Phoenix Guard protects the Asuryan Temple in the Sea of Dreams. Deep within the shrine lies the Chamber of Days, where past, present, and future are inscribed in fiery runes. Visitors who comprehend these inscriptions are said to be cursed to know the time of their death. The Phoenix Guard appears where battles are fiercest and victory seems unattainable, as their unique gift reveals the battlefield's pivotal points. Each member knows their destined time of death but fights fearlessly regardless of the outcome.	true
+land_units_onscreen_name_hoeth_scholar_champion	Hoeth Acolyte	true
+land_units_onscreen_name_hoeth_scholar_champion_steed	Hoeth Acolyte	true
+land_units_onscreen_name_hoeth_scholar_champion_phoenix	Hoeth Acolyte	true
+unit_description_short_texts_text_hoeth_scholar_champion	Bathed in their patron god's generosity, Hoeth Acolytes explore the winds of magic with precision, guided by unwavering faith. Only fools declare there is nothing left to learn.	true
+unit_description_historical_texts_text_hoeth_scholar_champion	Sword Mages of Hoeth are adept warriors whose intellect allows them to master the strictures of Swordmasters. Similarly, each Sword Mage comprehends the principles of arcane knowledge. However, they rarely waste time memorizing battle spells, focusing instead on profound and complex incantations unsuited for the battlefield. Within the Tower of Hoeth lies a repository of specialized lore covering engineering, magic, and warfare. Most scholars dedicate their lives to perfecting one discipline, yet Sword Mages surpass even their noble peers in mastering multiple fields.	true
+ancillaries_onscreen_name_phoenix_guard_champion_steed	Mount: Flame Steed	true
+ancillaries_colour_text_phoenix_guard_champion_steed	Noble, wise, elegant, and swift, the steeds of the Elves embody these traits. The Flame Steed of the Phoenix Champion is a fiery marvel.	true
+ancillaries_onscreen_name_phoenix_guard_champion_phoenix	Mount: Blazing Phoenix	true
+ancillaries_colour_text_phoenix_guard_champion_phoenix	A pure king of the skies, delivering flames and death as it dives into enemy ranks.	true
+ancillaries_onscreen_name_hoeth_scholar_champion_steed	Mount: Scholar's Steed	true
+ancillaries_colour_text_hoeth_scholar_champion_steed	Noble, wise, elegant, and swift, the steeds of the Elves harness the winds of magic under the guidance of a Hoeth Acolyte.	true
+ancillaries_onscreen_name_hoeth_scholar_champion_phoenix	Mount: Frostheart Phoenix	true
+ancillaries_colour_text_hoeth_scholar_champion_phoenix	The touch of an ancient phoenix can freeze warriors to death.	true
+character_skills_localised_name_phoenix_guard_champion_steed	Mount: Flame Steed	true
+character_skills_localised_description_phoenix_guard_champion_steed	Noble, wise, elegant, and swift, the steeds of the Elves embody these traits. The Flame Steed of the Phoenix Champion is a fiery marvel.	true
+character_skills_localised_name_phoenix_guard_champion_phoenix	Mount: Blazing Phoenix	true
+character_skills_localised_description_phoenix_guard_champion_phoenix	A pure king of the skies, delivering flames and death as it dives into enemy ranks.	true
+character_skills_localised_name_hoeth_scholar_champion_steed	Mount: Scholar's Steed	true
+character_skills_localised_description_hoeth_scholar_champion_steed	Noble, wise, elegant, and swift, the steeds of the Elves harness the winds of magic under the guidance of a Hoeth Acolyte.	true
+character_skills_localised_name_hoeth_scholar_champion_phoenix	Mount: Frostheart Phoenix	true
+character_skills_localised_description_hoeth_scholar_champion_phoenix	The touch of an ancient phoenix can freeze warriors to death.	true
+units_custom_battle_mounts_localised_description_phoenix_guard_championphoenix_guard_champion_steed	Noble, wise, elegant, and swift, the steeds of the Elves embody these traits. The Flame Steed of the Phoenix Champion is a fiery marvel.	false
+units_custom_battle_mounts_mount_name_phoenix_guard_championphoenix_guard_champion_steed	Flame Steed	false
+units_custom_battle_mounts_localised_description_phoenix_guard_championphoenix_guard_champion_phoenix	A pure king of the skies, delivering flames and death as it dives into enemy ranks.	false
+units_custom_battle_mounts_mount_name_phoenix_guard_championphoenix_guard_champion_phoenix	Blazing Phoenix	false
+units_custom_battle_mounts_localised_description_hoeth_scholar_championhoeth_scholar_champion_steed	Noble, wise, elegant, and swift, the steeds of the Elves harness the winds of magic under the guidance of a Hoeth Acolyte.	false
+units_custom_battle_mounts_mount_name_hoeth_scholar_championhoeth_scholar_champion_steed	Scholar's Steed	false
+units_custom_battle_mounts_localised_description_hoeth_scholar_championhoeth_scholar_champion_phoenix	The touch of an ancient phoenix can freeze warriors to death.	false
+units_custom_battle_mounts_mount_name_hoeth_scholar_championhoeth_scholar_champion_phoenix	Frostheart Phoenix	false
+character_skills_localised_name_ghs_hef_immortality_hero_upgrade	Eternal Life	true
+character_skills_localised_description_ghs_hef_immortality_hero_upgrade	Who wants to live forever? Most would not refuse...	true
+character_skills_localised_name_phoenix_guard_champion_unique_0	Baptism of Sacred Fire	false
+character_skills_localised_description_phoenix_guard_champion_unique_0	The sacred fire of Asuryan purifies every devout follower, rendering them immune to ordinary flames. Only those who endure the baptism can truly comprehend its sensation.	false
+character_skills_localised_name_phoenix_guard_champion_unique_1	Unwavering Resolve	false
+character_skills_localised_description_phoenix_guard_champion_unique_1	Who but warriors forewarned of their fate could stand steadfast amidst blinding volleys of arrows or monstrous visages?	false
+character_skills_localised_name_phoenix_guard_champion_unique_2	Shadows of the Past	false
+character_skills_localised_description_phoenix_guard_champion_unique_2	Whether in victory or defeat, life or death, the Chosen of Asuryan fight fearlessly, inspired by the heroes of old.	false
+character_skills_localised_name_phoenix_guard_champion_unique_3	Silent Truth	false
+character_skills_localised_description_phoenix_guard_champion_unique_3	Those privy to the secrets of time are forbidden from speaking of them, bound by unbreakable magical oaths of silence.	false
+character_skills_localised_name_phoenix_guard_champion_unique_4	Glimpses of the Future	false
+character_skills_localised_description_phoenix_guard_champion_unique_4	Phoenix Guard always appear where battles are most intense and victory seems impossible, guided by their curse to foresee the end.	false
+character_skills_localised_name_phoenix_guard_champion_unique_5	Wrath of Asuryan	false
+character_skills_localised_description_phoenix_guard_champion_unique_5	Surrounded by a sacred aura of immense power, their eyes blaze with searing light, and the air hums with Asuryan's primordial energy.	false
+character_skills_localised_name_phoenix_guard_champion_unique_6	Blood is Thicker	false
+character_skills_localised_description_phoenix_guard_champion_unique_6	When fate reaches its pivotal moment, the Chosen of Asuryan leave their shrines to bring hope to their mortal kin as the creators' emissaries.	false
+character_skills_localised_name_phoenix_guard_champion_unique_7	Knightly Virtues	false
+character_skills_localised_description_phoenix_guard_champion_unique_7	You embody virtue and righteousness, noble Champion. Blessings will soon grace those who demonstrate such virtues.	false
+character_skills_localised_name_phoenix_guard_champion_unique_8	Interwoven Destinies	false
+character_skills_localised_description_phoenix_guard_champion_unique_8	The human kingdoms must not fall! Their fate is intertwined with ours, and their strength and faith are steadfast allies to the Asur.	false
+character_skills_localised_name_phoenix_guard_champion_unique_9	Cold-Blooded Accord	false
+character_skills_localised_description_phoenix_guard_champion_unique_9	Among the "young races," the Lizardmen hold the Asur in the highest regard—a bond strong enough to draw near these cold-blooded guardians.	false
+character_skills_localised_name_phoenix_guard_champion_unique_10	Envoy of Cathay	false
+character_skills_localised_description_phoenix_guard_champion_unique_10	Amidst the turmoil in the East, the Celestial Dragon Emperor decrees that Cathay and the Asur must unite against the forces of discord.	false
+character_skills_localised_name_phoenix_guard_champion_unique_11	Alliance of Order	false
+character_skills_localised_description_phoenix_guard_champion_unique_11	Even the Dwarfs may set aside their Book of Grudges for a time, as allies' doubts and fears dissipate like mist in the wind.	false
+character_skills_localised_name_loremaster_wh_dlc05_skill_magic_life_earth_blood	Earthblood	false
+character_skills_localised_description_loremaster_wh_dlc05_skill_magic_life_earth_blood	The mage summons healing energy from the land, channeling the natural restorative power of the earth to protect warriors.	false
+character_skills_localised_name_hoeth_scholar_champion_unique_0	Saphery Mage	false
+character_skills_localised_description_hoeth_scholar_champion_unique_0	Hoeth, the Asur god of wisdom, guards the pursuit of knowledge. The magical traditions of Saphery are the most esteemed among the High Elf realms.	false
+character_skills_localised_name_hoeth_scholar_champion_unique_1	Elven Lore	false
+character_skills_localised_description_hoeth_scholar_champion_unique_1	Well-versed in Athel Loren and Druchii customs, this individual holds significant standing in the Tower of Hoeth and is renowned throughout the High Elf kingdoms.	false
+character_skills_localised_name_hoeth_scholar_champion_unique_2	Human Lore	false
+character_skills_localised_description_hoeth_scholar_champion_unique_2	The human kingdoms must not fall. Their fate is intertwined with ours, and lessons can be drawn from their defeats.	false
+character_skills_localised_name_hoeth_scholar_champion_unique_3	Cold-Blooded Lore	false
+character_skills_localised_description_hoeth_scholar_champion_unique_3	These cold-blooded beings have long fought alone in the jungles. I hear whispers of dragon tamers—it must be the will of the Old Ones.	false
+character_skills_localised_name_hoeth_scholar_champion_unique_4	Dwarven Lore	false
+character_skills_localised_description_hoeth_scholar_champion_unique_4	The foes who once forced the Asur to withdraw from the Old World must now set aside their ancient grudges, for vengeance and oaths only serve to endanger entire races.	false
+character_skills_localised_name_hoeth_scholar_champion_unique_5	Invocation Scroll	false
+character_skills_localised_description_hoeth_scholar_champion_unique_5	Even a fragment of wisdom recorded by the god of knowledge holds great power, draining the user's strength while instantly replenishing magic.	false
+character_skills_localised_name_hoeth_scholar_champion_unique_6	Northern Lore	false
+character_skills_localised_description_hoeth_scholar_champion_unique_6	The Tower of Hoeth is surprised that these "monkeys" have their own language, but what drives them to worship the Dark Gods?	false
+character_skills_localised_name_hoeth_scholar_champion_unique_7	Undead Lore	false
+character_skills_localised_description_hoeth_scholar_champion_unique_7	Whether from graveyards, seas, or deserts, skeletons and zombies are all the same. The key lies in breaking the powerful magic controlling them.	false
+character_skills_localised_name_hoeth_scholar_champion_unique_8	Daemon Lore	false
+character_skills_localised_description_hoeth_scholar_champion_unique_8	Daemons covet elven souls, but they are not united. Wisdom often yields greater rewards than reckless, unthinking assaults.	false
+character_skills_localised_name_hoeth_scholar_champion_unique_9	Beast Lore	false
+character_skills_localised_description_hoeth_scholar_champion_unique_9	These savage beasts gnaw at the pillars of the world, threatening Asur stability. Prince Iriel will listen intently to such warnings.	false
+character_skills_localised_name_hoeth_scholar_champion_unique_10	Blade of the White Tower	false
+character_skills_localised_description_hoeth_scholar_champion_unique_10	The depths beneath the Tower of Hoeth are the proving grounds for every Sword Mage. Those who guard this tower are renowned for their extraordinary wisdom and skill.	false

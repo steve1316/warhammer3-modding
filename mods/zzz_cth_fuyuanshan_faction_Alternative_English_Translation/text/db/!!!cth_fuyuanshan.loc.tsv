@@ -1,0 +1,134 @@
+key	text	tooltip
+#Loc;1;text/db/!!!cth_fuyuanshan.loc		
+land_units_onscreen_name_wh3_main_cth_fuyuanshan_0	"Dragon General" Fu Yuanshan	true
+land_units_onscreen_name_wh3_main_cth_fuyuanshan_1	"Dragon General" Fu Yuanshan	true
+agent_subtypes_onscreen_name_override_wh3_main_cth_fuyuanshan	Legendary Lord	true
+units_custom_battle_mounts_mount_name_wh3_main_cth_fuyuanshan_0wh3_main_cth_fuyuanshan_1	Chi Yan	true
+unit_description_short_texts_text_wh3_main_cth_fuyuanshan_0	Fu Yuanshan is a weapon meticulously crafted by Miao Ying to combat Grand Cathay's long-standing enemy. Honed by hatred and consecrated with blood, this weapon is destined to shine in the north of the Great Bastion.	true
+unit_description_short_texts_text_wh3_main_cth_fuyuanshan_1	Fu Yuanshan is a weapon meticulously crafted by Miao Ying to combat Grand Cathay's long-standing enemy. Honed by hatred and consecrated with blood, this weapon is destined to shine in the north of the Great Bastion.	true
+names_name_2022052001	"Dragon General"	true
+names_name_2022052000	Fu Yuanshan	true
+ancillaries_onscreen_name_cth_fuyuanshan_arcane_item	Six Yao Copper Coins	true
+ancillaries_onscreen_name_cth_fuyuanshan_armour	Celestial Dragon Armor	true
+ancillaries_onscreen_name_cth_fuyuanshan_enchanted_item	Wei-Jin Tiger Tally	true
+ancillaries_onscreen_name_cth_fuyuanshan_weapon	Lie Que	true
+ancillaries_onscreen_name_cth_fuyuanshan_talisman	Six Yao Copper Coins	true
+character_skills_localised_name_cth_fuyuanshan_arcane_item	Celestial Dragon Armor	true
+character_skills_localised_name_cth_fuyuanshan_armour	Wei-Jin Tiger Tally	true
+character_skills_localised_name_cth_fuyuanshan_enchanted_item	Lie Que	true
+character_skills_localised_name_cth_fuyuanshan_weapon	Lie Que	true
+character_skills_localised_name_cth_fuyuanshan_talisman	Jade-Blood Pendant	true
+character_skills_localised_name_wh3_main_skill_innate_fuyuanshan	Trueblood Dragonborn	true
+character_skills_localised_name_wh3_main_skill_innate_fuyuanshan_innate_1	Ghost from the Underworld	true
+character_skills_localised_name_wh3_main_skill_innate_fuyuanshan_innate_2	Lifetime of Galloping	true
+character_skills_localised_name_wh3_main_skill_innate_fuyuanshan_innate_3	Forged in Blood	true
+character_skills_localised_name_wh3_main_skill_innate_fuyuanshan_innate_4	Soaring Ambition	true
+character_skills_localised_name_wh3_main_skill_innate_fuyuanshan_innate_5	Dwarfen Wit	true
+character_skills_localised_name_wh3_main_skill_innate_fuyuanshan_innate_6	Beacon of the Bastion	true
+ancillaries_colour_text_cth_fuyuanshan_arcane_item	Although Fu Yuanshan rejected the proposal of the Nan-Gau merchant Peng Du to marry his daughter, Peng Du did not take back the magic-infused copper coins he had gifted to Fu Yuanshan.	true
+ancillaries_colour_text_cth_fuyuanshan_armour	The armor is crafted from the Dragon Emperor's own scales, making it stronger than steel and exceptionally magnificent. It can only be obtained through exceptional merit.	true
+ancillaries_colour_text_cth_fuyuanshan_enchanted_item	A tiger-shaped tally personally bestowed by the Dragon Emperor, emanating a faint aura of the Celestial Dragon's might. Holding it allows one to command armies from all directions.	true
+ancillaries_colour_text_cth_fuyuanshan_weapon	On the day Fu Yuanshan came of age, Miao Ying personally presented him with this spear. Crafted by Zhao Ming himself, the spearhead is wreathed in the radiance of celestial lightning, hence its name Lie Que.\\nWith the power of this spear, Fu Yuanshan even accomplished the feat of slaying a Greater Daemon on the battlefield.	true
+ancillaries_colour_text_cth_fuyuanshan_talisman	Before the army set off, Fu Yuanshan made a special trip to the Jade-Blood Temple, but the Jade-Blood Oracle did not appear. Instead, a disciple presented him with a jade pendant faintly emanating the aura of life.	true
+character_skills_localised_description_cth_fuyuanshan_arcane_item	Although Fu Yuanshan rejected the proposal of the Nan-Gau merchant Peng Du to marry his daughter, Peng Du did not take back the magic-infused copper coins he had gifted to Fu Yuanshan.	true
+character_skills_localised_description_cth_fuyuanshan_armour	The armor is crafted from the Dragon Emperor's own scales, making it stronger than steel and exceptionally magnificent. It can only be obtained through exceptional merit.	true
+character_skills_localised_description_cth_fuyuanshan_enchanted_item	A tiger-shaped tally personally bestowed by the Dragon Emperor, emanating a faint aura of the Celestial Dragon's might. Holding it allows one to command armies from all directions.	true
+character_skills_localised_description_cth_fuyuanshan_weapon	On the day Fu Yuanshan came of age, Miao Ying personally presented him with this spear. Crafted by Zhao Ming himself, the spearhead is wreathed in the radiance of celestial lightning, hence its name Lie Que.\\nWith the power of this spear, Fu Yuanshan even accomplished the feat of slaying a Greater Daemon on the battlefield.	true
+character_skills_localised_description_cth_fuyuanshan_talisman	When Fu Yuanshan went to visit the Jade-Blood Oracle, the Oracle did not appear but sent a disciple to give him a jade pendant faintly emanating the aura of life.	true
+character_skills_localised_description_wh3_main_skill_innate_fuyuanshan_innate_1	When Miao Ying first met Fu Yuanshan, he was a child who had survived for fifteen days in the ruins ravaged by Chaos. He was so wary upon seeing Miao Ying that he even attempted to attack her.\\nMiao Ying recognized the child's potential and resolved to forge him into a spear thrust into the Chaos Wastes	true
+character_skills_localised_description_wh3_main_skill_innate_fuyuanshan_innate_2	Although Miao Ying adopted the child and named him Fu Yuanshan, she did not give him any special treatment. At the age of fifteen, Fu Yuanshan joined the Yeoman Cavalry, starting from the bottom, but quickly demonstrated exceptional horsemanship, as he practically forced himself to live on horseback.\\nThe young Fu Yuanshan believed that relying on human strength alone was not enough to fight against those monsters. Only heavily armored cavalry could crush those demons and monsters head-on and fulfill his desired revenge	true
+character_skills_localised_description_wh3_main_skill_innate_fuyuanshan_innate_3	Fu Yuanshan's troops encountered a raiding force that Kairos had magically transported across the Great Bastion. Others suggested retreating immediately and regrouping at the camp to counterattack, but Fu Yuanshan knew this was just empty talk from those who were terrified. He told everyone that if they couldn't defeat the enemy while they were still establishing a foothold, they would surely be hunted down and killed by the Chaos hordes.\\nFu Yuanshan achieved an almost unbelievable success. He led his cavalry in repeated raids, like a violent whip lashing at the Chaos legions. Then, with a brilliant cavalry charge, he shattered the enemy's formation and impaled the leader of the Chaos army on his own spear, causing the other daemonic troops to scatter and flee.\\nHowever, Fu Yuanshan himself was severely wounded by the Chaos leader's counterattack, clinging to life only by his sheer will to survive. At that moment, Miao Ying appeared before him. If Fu Yuanshan had fled during the battle, Miao Ying would never have cared about this mortal's life or death again. But Fu Yuanshan ultimately proved his intense hatred and his matching talent for war. Miao Ying bestowed her own blood upon Fu Yuanshan, creating a Dragonborn who surpassed all others.	true
+character_skills_localised_description_wh3_main_skill_innate_fuyuanshan_innate_4	After coming of age, Fu Yuanshan joined the Dragon Horse cavalry and quickly rose through the ranks with his abilities, even catching the eye of the wealthy Nan-Gau merchant Peng Du.\\nPeng Du wanted to marry his daughter to Fu Yuanshan, offering a dowry that could buy half of Nan-Gau. However, Fu Yuanshan refused, saying, "How can I have a family before Chaos is vanquished?" This led to Fu Yuanshan being ostracized by the Nan-Gau merchants, and his comrades mocked his foolishness, but only Fu Yuanshan knew the true reason.\\nFrom then on, Fu Yuanshan continued to rely on his own abilities, earning merits through countless life-and-death battles, and eventually became the commander of the Dragon Horse cavalry.\\nNow, with the most powerful force in Grand Cathay at his disposal, he patiently awaits an opportunity	true
+character_skills_localised_description_wh3_main_skill_innate_fuyuanshan_innate_5	The Dragon Emperor's command arrived. Fu Yuanshan, as the most outstanding Dragonborn, would lead the eastern theater of the Great Bastion and launch a sweep of the Chaos forces north of the Bastion alongside Miao Ying in the western theater. But the power of the Dragon Horses alone was not enough; this time, over a thousand Sky-Junks would be dispatched to assist the Dragon Guard in the sweep.\\nFu Yuanshan welcomed his second-in-command, a Cathayan Dwarf who sniffed snuff. He declared that he would use Dwarfen knowledge to aid Fu Yuanshan	true
+character_skills_localised_description_wh3_main_skill_innate_fuyuanshan_innate_6	When the Grand Cathayan army crossed the Great Bastion, a thousand Sky-Junks blotted out the sun, and tens of thousands of Dragon Horse cavalry swept across the land like wings of death. The Chaos-tainted tribes that plagued the northern lands were wiped out. Kairos was also defeated by the combined efforts of Miao Ying and Zhao Ming, fleeing back to the Chaos Realms amidst Zhao Ming's taunts in his human form. The border of the Great Bastion enjoyed a long period of peace.\\nOn par with the fame of the two living Dragon-Gods was Fu Yuanshan, a mere mortal whose accomplishments were no less than those of the two deities. He was thus respectfully called the "Dragon General".\\nIn the years that followed, Fu Yuanshan never returned to Nan-Gau, only gazing at the Dragon Emperor's eldest daughter from afar, day after day, guarding the northern border of the Grand Cathayan Empire	true
+ancillaries_onscreen_name_cth_fuyuanshan_mount	Chi Yan	false
+character_skills_localised_name_cth_fuyuanshan_mount	Chi Yan	false
+ancillaries_colour_text_cth_fuyuanshan_mount	When Fu Yuanshan found it, it was being tortured by a group of Tzeentch cultists. Fu Yuanshan cut its shackles with his sword, and then its furious hooves crushed the bones of all the Tzeentch cultists. After it was all over, it became Fu Yuanshan's closest comrade-in-arms.	false
+character_skills_localised_description_cth_fuyuanshan_mount	When Fu Yuanshan found it, it was being tortured by a group of Tzeentch cultists. Fu Yuanshan cut its shackles with his sword, and then its furious hooves crushed the bones of all the Tzeentch cultists. After it was all over, it became Fu Yuanshan's closest comrade-in-arms.	false
+effects_description_Upkeep_longma	Upkeep: %n% for Dragon Horse cavalry units	true
+effects_description_Melee_longma	Weapon Strength: +%n% for Dragon Horse cavalry units	true
+effects_description_Recruit_longma	Recruitment Turns: %n turns for Dragon Horse cavalry units	true
+effects_description_Upkeep_jade_lancer	Upkeep: %n% for Jade Lancer units	true
+effects_description_Xp_jade_lancer	New Recruit Rank: +%n for Jade Lancers	true
+unit_abilities_onscreen_name_wh3_main_storm_rage	Storm Rage	true
+unit_abilities_tooltip_text_wh3_main_storm_rage	A manifestation of Miao Ying's gifted essence, capable of both slaying enemies and protecting oneself.	true
+character_skills_localised_name_wh3_main_storm_rage	Gift of the Storm Dragon	true
+character_skills_localised_description_storm_wh3_main_rage	"The essence between Heaven and Earth can only be controlled by the Dragon-Gods. Although you have received my gift, you must use it with utmost caution," said the majestic and beautiful woman.	true
+character_skills_localised_name_wh3_main_rage_blood	Blood of Rage	true
+character_skills_localised_description_wh3_main_rage_blood	The raging blood of the Dragon-God surges through Fu Yuanshan's veins, silently and profoundly transforming his body, making him stronger day by day. But he knows all too well that every gift comes with a price.\\nOne day, Fu Yuanshan noticed an apparition resembling Miao Ying standing before him. The apparition always gazed at him with the coldest eyes, only revealing a cruel smile amidst the bloodshed after a great battle.\\nFu Yuanshan quickly grew accustomed to its presence.	true
+effects_description_wh3_main_effect_ability_enable_storm_rage	Ability: "Storm Rage"	true
+unit_abilities_onscreen_name_wh3_main_abilities_battleskill	Battlefield Expertise	true
+unit_abilities_tooltip_text_wh3_main_abilities_battleskill	Fu Yuanshan's skills were honed on the battlefield, second to none.	true
+unit_abilities_onscreen_name_wh3_main_abilities_honour	Reputation for Victory	true
+unit_abilities_tooltip_text_wh3_main_abilities_honour	Over time, Fu Yuanshan has achieved countless victories, making his soldiers firmly believe that as long as they follow his lead, they will surely triumph.	true
+effects_description_wh3_main_effect_ability_enable_jade_blood	Bound Spell: "Jade-Blood Incantation"	true
+unit_abilities_onscreen_name_wh3_main_jade_blood	Jade-Blood Incantation	true
+unit_abilities_tooltip_text_wh3_main_jade_blood	The Supreme Laurel Shade, ever-changing and adapting. Dispels evil and binds demons, preserving life and protecting the body	true
+effects_description_wh3_main_effect_ability_enable_dragon_terror	Bound Spell: "Celestial Dragon's Aura"	true
+unit_abilities_onscreen_name_wh3_main_dragon_terror	Celestial Dragon's Aura	true
+unit_abilities_tooltip_text_wh3_main_dragon_terror	The aura of the Celestial Dragon emanating from the armor, even a mere wisp, is enough to make all beings bow their heads.	true
+unit_description_historical_texts_text_cth_fuyuanshan	Fu Yuanshan, a war orphan adopted by Miao Ying, vowed to avenge his family killed by Chaos. Possessing an extremely strong will for revenge and outstanding talent for war, he ultimately passed Miao Ying's test and was granted the physique of a Dragonborn through her secret arts. From then on, Fu Yuanshan gradually rose to the position of commander of the Grand Cathayan army. He successfully led the charge north of the Great Bastion alongside Miao Ying and Zhao Ming, sweeping away the Chaos-tainted tribes that plagued the northern lands and bringing lasting peace to Grand Cathay, fulfilling his revenge. Thereafter, Fu Yuanshan and Miao Ying stood watch over the north of Cathay, separated by a vast distance. But at some point, Fu Yuanshan found an unshakeable image in his heart - as a mortal, he hopelessly admired Miao Ying, the Dragon-God...	true
+unit_abilities_onscreen_name_wh3_main_abilities_kumusou	Peerless	true
+unit_abilities_tooltip_text_wh3_main_abilities_kumusou	Even a forest of spears and halberds cannot stop Fu Yuanshan's advance.	true
+effect_bundles_localised_title_wh3_main_lord_trait_cth_fuyuanshan	Imperial Wardens	true
+effect_bundles_localised_description_wh3_main_lord_trait_cth_fuyuanshan	The Dragon General guards the north of the Great Bastion and protects the entire empire	true
+effects_description_wh3_main_effect_fuyuanshan_devotion_dummy	The Great Bastion garrison, tempered by countless battles, possesses resilient vitality and suffers less climate penalty in settlements within the Chaos Wastes	true
+effects_description_wh3_main_effect_fuyuanshan_followers	Will receive aid from the empire's elites (unique followers) while conquering Chaos	false
+effects_description_wh3_main_effect_fuyuanshan_celestial	Can construct unique landmarks in the Chaos Wastes	false
+effects_description_wh3_main_effect_fuyuanshan_bastion	Dynamic Great Bastion mechanics and the expanded Garrison's Will mechanics based on it	false
+effects_description_wh3_main_effect_fuyuanshan_jadelancer	Replaces "Jade Lancers" with "Jade Warrior Lancers (Armored)"	false
+ancillaries_onscreen_name_wh3_main_anc_follower_cth_fu_hung_monk_1	Fu Hung Monk Official	true
+ancillaries_colour_text_wh3_main_anc_follower_cth_fu_hung_monk_1	The Fu Hung Monk Official arrives with numerous monks, dedicating themselves to meditation and chanting every day. The Chaos corruption begins to gradually recede.	true
+ancillaries_explanation_text_wh3_main_anc_follower_cth_fu_hung_monk_1	Acquisition: Upgrade in a province with high corruption.	true
+ancillaries_onscreen_name_wh3_main_anc_follower_cth_nan_gau_artisan	Nan-Gau Artisan	true
+ancillaries_colour_text_wh3_main_anc_follower_cth_nan_gau_artisan	To assist Fu Yuanshan in defending the Great Bastion, Miao Ying sends the most skilled artisans from Nan-Gau to help construct various facilities	true
+ancillaries_explanation_text_wh3_main_anc_follower_cth_nan_gau_artisan	Acquisition: Upgrade in a province with high corruption	true
+ancillaries_onscreen_name_wh3_main_anc_follower_cth_dragon_emperor_envoy	Dragon Emperor's Envoy	true
+ancillaries_colour_text_wh3_main_anc_follower_cth_dragon_emperor_envoy	To commend Fu Yuanshan for his achievements in battling Chaos, the Dragon Emperor sends his envoy, bringing a large quantity of supplies as a reward	true
+ancillaries_explanation_text_wh3_main_anc_follower_cth_dragon_emperor_envoy	Acquisition: Upgrade in a province with high corruption.	true
+ancillaries_onscreen_name_wh3_main_anc_follower_cth_calvary_drillmaster	Cavalry Drillmaster	true
+ancillaries_colour_text_wh3_main_anc_follower_cth_calvary_drillmaster	The new cavalry drillmaster is strict in his training, making the soldiers miserable. However, after demonstrating his exceptional horsemanship, he successfully wins their admiration.\\nIn addition, there's something unusual about him. His appearance beneath the cloak and his strange accent clearly indicate he's not Cathayan, but rather from further north...	true
+ancillaries_explanation_text_wh3_main_anc_follower_cth_calvary_drillmaster	Acquisition: Win a battle using at least 2 cavalry units.	true
+names_name_2022091600	Han	true
+names_name_2022091601	Peng	true
+names_name_2022091602	Huo	false
+names_name_2022091603	Yi	false
+names_name_1022100744	Qu	true
+names_name_1022100745	Miao Ling	true
+effect_bundles_localised_description_wh3_main_climate_unsuitable_chaotic_fuyuanshan	The climate in this region is harsh and not suitable for your faction's activities. Construction time is increased, and settlement income, supplies, and control are slightly decreased.	false
+effect_bundles_localised_description_wh3_main_edict_cth_the_dragon_general_statute	Dragon General's Edict	false
+provincial_initiative_records_localised_name_wh3_main_edict_cth_the_dragon_general_statute	Dragon General's Edict	false
+effect_bundles_localised_title_wh3_main_edict_cth_the_dragon_general_statute	Dragon General's Edict	false
+effect_bundles_localised_description_wh3_main_region_debuff_1	Due to the frequent travels of the Great Bastion garrison to the prosperous cities of Grand Cathay, the soldiers' will has gradually weakened. Even within the barracks, one can often hear noises of revelry and amusement. Although the generals immediately enforced strict military discipline, it had limited effect.\\n(10 < Cathayan Cities Occupied - Chaos Cities < 15)	false
+effect_bundles_localised_description_wh3_main_region_debuff_2	Even among General Fu Yuanshan's personal guards, discordant voices have begun to emerge. Their purpose in following General Fu Yuanshan is not for power or wealth, but for revenge against the Chaos enemy, a goal that now seems increasingly distant.\\n(15 < Cathayan Cities Occupied - Chaos Cities < 20)	false
+effect_bundles_localised_title_wh3_main_region_debuff_1	Lax Armaments	false
+effect_bundles_localised_title_wh3_main_region_debuff_2	Military Deterioration	false
+effect_bundles_localised_description_wh3_main_region_debuff_3	It is said that General Fu Yuanshan has amassed a great fortune while meddling in Grand Cathay's internal affairs. His troops are equipped with the finest gear from both Kunlan and Nan-Gau. However, the soldiers' impression of the Chaos enemy has become increasingly blurred, and all their training now seems to be solely for fighting against their fellow Cathayans.\\n(Cathayan Cities Occupied - Chaos Cities > 20)	false
+effect_bundles_localised_title_wh3_main_region_debuff_3	Corruption and Degradation	false
+effect_bundles_localised_title_wh3_main_region_buff_0	Garrison's Will (Inactive)	false
+effect_bundles_localised_title_wh3_main_region_buff_1	Garrison's Will: Rest and Recuperation	false
+effect_bundles_localised_title_wh3_main_region_buff_2	Garrison's Will: Muster and Prepare	false
+effect_bundles_localised_title_wh3_main_region_buff_3	Garrison's Will: Vigilance and Readiness	false
+effect_bundles_localised_title_wh3_main_region_buff_4	Garrison's Will: Defend the Bastion	false
+effect_bundles_localised_title_wh3_main_dilemma_gatemaster_choice1_buff	Inspired Soldiers	false
+effect_bundles_localised_title_wh3_main_ie_victory_objective_fys_short	Pacified North	false
+effect_bundles_localised_title_wh3_main_ie_victory_objective_fys_long	Peace Under Heaven	false
+effect_bundles_localised_description_wh3_main_region_buff_0	The Imperial Wardens are well-versed in the art of prolonged warfare, fighting when necessary and resting when possible, even sleeping soundly when the enemy is at the gates. It is through this balance of tension and relaxation that they remain as steadfast as the Great Bastion itself.\\n\\nThe Imperial Wardens adjust their strategies according to the intensity of the battle. At the start of a turn, low Chaos threat encourages development, while high Chaos threat prompts them to prepare for the coming enemy.\\n\\n	false
+effects_description_wh3_main_region_buff_0_desc	The Garrison's Will mechanic will be activated after all Great Bastion passes are controlled by Cathayan factions. This condition is currently not met!	false
+effect_bundles_localised_description_wh3_main_region_buff_1	The Imperial Wardens are well-versed in the art of prolonged warfare, fighting when necessary and resting when possible, even sleeping soundly when the enemy is at the gates. It is through this balance of tension and relaxation that they remain as steadfast as the Great Bastion itself.\\n\\nThe Imperial Wardens adjust their strategies according to the intensity of the battle. At the start of a turn, low Chaos threat encourages development, while high Chaos threat prompts them to prepare for the coming enemy.\\n\\nChaos Threat (0-25):\\n\\nThe Chaos threat is distant; now is the time to rest and recuperate	false
+effect_bundles_localised_description_wh3_main_region_buff_2	The Imperial Wardens are well-versed in the art of prolonged warfare, fighting when necessary and resting when possible, even sleeping soundly when the enemy is at the gates. It is through this balance of tension and relaxation that they remain as steadfast as the Great Bastion itself.\\n\\nThe Imperial Wardens adjust their strategies according to the intensity of the battle. At the start of a turn, low Chaos threat encourages development, while high Chaos threat prompts them to prepare for the coming enemy.\\n\\n Chaos Threat (26-75):\\n\\nThe Chaos threat is approaching, all soldiers must be mobilized.	false
+effect_bundles_localised_description_wh3_main_region_buff_3	The Imperial Wardens are well-versed in the art of prolonged warfare, fighting when necessary and resting when possible, even sleeping soundly when the enemy is at the gates. It is through this balance of tension and relaxation that they remain as steadfast as the Great Bastion itself.\\n\\nThe Imperial Wardens adjust their strategies according to the intensity of the battle. At the start of a turn, low Chaos threat encourages development, while high Chaos threat prompts them to prepare for the coming enemy.\\n\\nChaos Threat (76-99):\\n\\nThe Chaos threat is imminent, form up and await the enemy	false
+effect_bundles_localised_description_wh3_main_region_buff_4	The Imperial Wardens are well-versed in the art of prolonged warfare, fighting when necessary and resting when possible, even sleeping soundly when the enemy is at the gates. It is through this balance of tension and relaxation that they remain as steadfast as the Great Bastion itself.\\n\\nThe Imperial Wardens adjust their strategies according to the intensity of the battle. At the start of a turn, low Chaos threat encourages development, while high Chaos threat prompts them to prepare for the coming enemy.\\n\\n Chaos Threat (100):\\n\\nThe Chaos threat has arrived, now we can only defend the Great Bastion with our lives	false
+effect_bundles_localised_description_wh3_main_dilemma_gatemaster_choice1_buff	The soldiers are in high spirits, all eager to fight bravely	false
+effect_bundles_localised_description_wh3_main_ie_victory_objective_fys_short	Foreign threats eliminated, internal strife quelled, the Great Bastion stands tall, the North is pacified!	false
+effect_bundles_localised_description_wh3_main_ie_victory_objective_fys_long	Evil eradicated, the people flourish, the world is pure, and peace reigns under heaven!	false
+effects_description_wh3_main_effect_fuyuanshan_bastion_thread_dummy	Chaos threat permanently reduced to zero.	false
+character_trait_levels_colour_text_defeated_trait_fuyuanshan		true
+character_trait_levels_explanation_text_defeated_trait_fuyuanshan	It's time to go crying to the Northern Provinces Protector General for help, isn't that what all children like to do?	true
+character_trait_levels_removal_text_defeated_trait_fuyuanshan		true
+character_trait_levels_onscreen_name_defeated_trait_fuyuanshan	Distant Mountains, No Longer Distant	true
+character_skills_localised_name_wh3_main_skill_node_cth_alchemist_innate_qumiaoling	Daughter of the Northern Star	true
+character_skills_localised_description_wh3_main_skill_node_cth_alchemist_innate_qumiaoling	"Think long to know, know much to crave thought. Be sincere, be single-minded, and hold fast to the middle way." The voice claiming to be P'o Mu from the Northern Star Grimoire spoke thus to Qu Miao Ling.\\nConvinced that she had received guidance from her ancestors, Qu Miao Ling felt she had grasped the mysteries of magic, enough to aid Fu Yuanshan	true
+character_trait_levels_explanation_text_trait_qumiaoling	"Think long to know, know much to crave thought. Be sincere, be single-minded, and hold fast to the middle way." The voice claiming to be P'o Mu from the Northern Star Grimoire spoke thus.\\nQu Miao Ling is determined to use this power to help Fu Yuanshan achieve his ideals, while secretly hoping that afterward, Fu Yuanshan will accept her feelings	true
+character_trait_levels_removal_text_trait_qumiaoling	 	true
+character_trait_levels_onscreen_name_trait_qumiaoling	Daughter of the Northern Star	true

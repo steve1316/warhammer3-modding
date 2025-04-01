@@ -1,0 +1,830 @@
+key	text	tooltip
+#Loc;1;text/@@@DEER24Cathay/db/!!!!!!wwd_incident.loc		
+effect_bundles_localised_title_cathay_weijing_lost_incident_payment	Bribing the Scholars	false
+effect_bundles_localised_description_cathay_weijing_lost_incident_payment	Not all Cathayans are loyal ministers and valiant generals. If your rewards are rich enough, scholars will gladly debate in your favor.	false
+effect_bundles_localised_title_cathay_weijing_recapture_player	Reclaiming Wei-Jin	false
+effect_bundles_localised_description_cathay_weijing_recapture_player	You have reclaimed Wei-Jin from the hands of foreign invaders!	false
+effect_bundles_localised_title_cathay_weijing_lost_player_refuse_join	Appeasement and Defense	false
+effect_bundles_localised_description_cathay_weijing_lost_player_refuse_join	The troubles within your lands have left you unable to launch an immediate campaign to retake Wei-Jin.	false
+campaign_payload_ui_details_description_dummy_cathay_weijing_lost_incident	Other Cathayan factions declare war on the occupiers.	false
+campaign_payload_ui_details_description_dummy_cathay_weijing_lost_player_war	All factions loyal to the Dragon Emperor will unite to declare war on the foreign invaders who have seized Wei-Jin.	false
+campaign_payload_ui_details_description_dummy_cathay_weijing_capture_player_war	While you hold Wei-Jin, you cannot negotiate peace with Cathayan factions.	false
+campaign_payload_ui_details_description_dummy_cathay_weijing_lost_player_against_incident	You will face the might of Cathayan forces on the battlefield.	false
+campaign_payload_ui_details_description_dummy_cathay_weijing_lost_player_join_incident	Before Wei-Jin is reclaimed, the march of Cathay’s fury will never cease!	false
+campaign_payload_ui_details_description_dummy_cathay_weijing_recapture_player_incident	At long last, Wei-Jin has returned to the embrace of Cathay through your efforts. Today, your name will be etched into history as a hero who shook the ages!	false
+campaign_payload_ui_details_description_dummy_cathay_weijing_recapture_ai_incident	Other Cathayan factions have reclaimed Wei-Jin from foreign invaders.	false
+campaign_payload_ui_details_description_dummy_cathay_weijing_lost_to_other_incident	Wei-Jin has been captured by another foreign faction, allowing Cathay to make peace with the original occupiers.	false
+cdir_events_dilemma_choice_details_localised_choice_label_cathay_weijing_capture_player_dilemmaFIRST	Bring the Attack	false
+cdir_events_dilemma_choice_details_localised_choice_label_cathay_weijing_capture_player_dilemmaSECOND	Bribe the Scholars	false
+cdir_events_dilemma_choice_details_localised_choice_title_cathay_weijing_capture_player_dilemmaFIRST	Forcefully declare war on Cathayan factions. While holding Wei-Jin, no peace is possible.	false
+cdir_events_dilemma_choice_details_localised_choice_title_cathay_weijing_capture_player_dilemmaSECOND	Foster goodwill with Cathay.	false
+dilemmas_localised_description_cathay_weijing_capture_player_dilemma	Wei-Jin, the crown jewel of the Celestial Empire, the site of the Five Elements Compass, and the Dragon Emperor’s earthly palace, is now under our control. However, the backlash from Cathayans will be fierce and unrelenting...	false
+dilemmas_localised_title_cathay_weijing_capture_player_dilemma	Seizing Wei-Jin	false
+cdir_events_dilemma_choice_details_localised_choice_label_cathay_weijing_lost_player_dilemmaFIRST	Join the Battle	false
+cdir_events_dilemma_choice_details_localised_choice_label_cathay_weijing_lost_player_dilemmaSECOND	Appeasement and Defense	false
+cdir_events_dilemma_choice_details_localised_choice_title_cathay_weijing_lost_player_dilemmaFIRST	Before Wei-Jin is reclaimed, Cathay’s fury will never cease!	false
+cdir_events_dilemma_choice_details_localised_choice_title_cathay_weijing_lost_player_dilemmaSECOND	Wei-Jin? What does that have to do with me?	false
+dilemmas_localised_description_cathay_weijing_lost_player_dilemma	Wei-Jin, the crown jewel of the Celestial Empire, the site of the Five Elements Compass, and the Dragon Emperor’s earthly palace, has fallen to foreign invaders. This is a disgrace to all of Cathay! Messengers from the Shen Ce Fu have been dispatched across the land, and princes and nobles from all provinces are prepared for battle. Armies from across the land are gathering to march on the capital.\\n\\n[[col:yellow]]Those not of our kind who occupy Wei Jing must be opposed by all under heaven![[/col]]	false
+dilemmas_localised_title_cathay_weijing_lost_player_dilemma	Fall of Wei-Jin	false
+incidents_localised_title_cathay_weijing_lost_incident	Wei-Jin Falls	false
+incidents_localised_title_cathay_weijing_lost_to_other_incident	Wei-Jin Changes Hands	false
+incidents_localised_title_cathay_weijing_recapture_ai_incident	Wei-Jin Reclaimed	false
+incidents_localised_title_cathay_weijing_recapture_player_incident	Wei-Jin Reclaimed	false
+incidents_localised_title_cathay_weijing_lost_player_join_incident	Stabilizing the Crisis	false
+incidents_localised_title_cathay_weijing_lost_player_against_incident	Shame of Cathay	false
+incidents_localised_description_cathay_weijing_lost_incident	Wei-Jin has been captured by foreign factions.	false
+incidents_localised_description_cathay_weijing_lost_to_other_incident	Wei-Jin has changed hands between foreign factions while Cathay stands helpless. This will forever be a stain on our history...	false
+incidents_localised_description_cathay_weijing_recapture_ai_incident	Urgent news from the front! A coalition force has successfully reclaimed Wei-Jin, returning the capital to Cathay’s embrace!	false
+incidents_localised_description_cathay_weijing_recapture_player_incident	Your forces breach the damaged gates, and the streets are deserted. Once a shining jewel, the city has been ravaged by the invaders. Doors creak open, and more citizens step cautiously onto the streets, gazing in disbelief at your troops. Many did not survive to see the capital reclaimed, but your arrival has brought hope to those who remain. A cheer breaks out, then another. Soon, the streets erupt in joyous tears and cries of relief.	false
+incidents_localised_description_cathay_weijing_lost_player_join_incident	You will join other Cathayan factions in declaring war on those who seized Wei-Jin. No peace is possible until the capital is reclaimed.	false
+incidents_localised_description_cathay_weijing_lost_player_against_incident	Cathayan factions have declared war on you, vowing to cleanse the shame of Wei-Jin with your blood.	false
+effect_bundles_localised_title_cathay_weijing_lost_buff	Unite Against the Invaders	false
+effect_bundles_localised_description_cathay_weijing_lost_buff	Cathay will cleanse the shame of Wei-Jin with the blood of the invaders!	false
+effect_bundles_localised_title_cathay_weijing_lost_debuff1	[[col:red]]Panic and Unrest (Turns 1-8 after the Capital Falls)[[/col]]	false
+effect_bundles_localised_description_cathay_weijing_lost_debuff1	Wei-Jin is more than a capital to Cathayans—it is a symbol of their connection to the immortal and mysterious Celestial Court. News of its fall fills every heart with fear and fury.	false
+effect_bundles_localised_title_cathay_weijing_lost_debuff2	[[col:red]]Chaos Ensues (Turns 8-16 after the Capital Falls)[[/col]]	false
+effect_bundles_localised_description_cathay_weijing_lost_debuff2	Wei-Jin remains in foreign hands, and bickering generals blame one another for the loss. Plans to reclaim the capital are nearly abandoned. Though Cathay’s forces still watch the occupiers closely, ambitious lords have begun plotting their own schemes as the heart of the empire crumbles...	false
+effect_bundles_localised_title_cathay_weijing_lost_debuff3	[[col:red]]Collapse of the Celestial Empire (16+ Turns after the Capital Falls)[[/col]]	false
+effect_bundles_localised_description_cathay_weijing_lost_debuff3	Cathayan forces have lost the will to reclaim the capital. Self-serving lords openly seize one another’s territories, leaving the homeless populace to wander. The empire teeters on the brink of collapse. Is there no one who can rally the people and reverse this dire situation?	false
+dilemmas_localised_title_wwd_incident01	Clash of Wills	false
+dilemmas_localised_description_wwd_incident01	Mistrust between Yun Xiang and Yuan Bo has grown uncontrollable. The Shen Ce Fu army bypasses the Jade Court to attack foreign enemies, while the Jade Court’s Raven Spies openly investigate the Garrison Bureau’s offices. Though the two leaders maintain a façade of cooperation, as factions choose sides, internal strife within Cathay is bound to intensify.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_incident01FIRST	We should support the Dragon’s children.	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_incident01FIRST	The legacy of Cathay rests on their shoulders. Yuan Bo will be pleased to see his allies still trust him.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_incident01SECOND	Perhaps Yun Xiang is more dependable.	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_incident01SECOND	Yun Xiang has addressed problems that the aloof Dragon’s children have overlooked and values cooperation with Cathay’s loyal champions.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_incident01THIRD	Try to mediate.	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_incident01THIRD	With enemies at the gates, Cathay cannot afford internal conflict. Your influence could mend this rift. Call for a meeting to resolve this crisis.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_incident01FOURTH	Perhaps we should wait and see.	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_incident01FOURTH	A previous rebellion caused by interference is still fresh in memory. Now is not the time to act—the leaders will find their balance.	false
+effects_description_wwd_diplomacy_mod_wh3_main_cth_celestial_loyalists	Diplomatic Relations: %+n with Celestial Loyalists.	false
+effects_description_wwd_diplomacy_mod_wh3_dlc24_cth_the_celestial_court	Diplomatic Relations: %+n with the Jade Court.	false
+campaign_payload_ui_details_description_wwd_incident_text_4	Triggers follow-up events.	false
+dilemmas_localised_title_wwd_incident02	Council of Dragons and Men	false
+dilemmas_localised_description_wwd_incident02	You have successfully convinced Yun Xiang and Yuan Bo to attend the meeting, but the atmosphere is tense. The Dragon Emperor’s Imperial Guard and the Jade Court Sentinels glare at each other. Yun Xiang’s disdain for the Jade Dragon is evident, while Yuan Bo dismisses Yun Xiang as a mere mortal. You need a unifying topic to align their goals.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_incident02FIRST	Urge them to focus on the people of Cathay.	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_incident02FIRST	Despite their differences, they share a common goal: to protect Cathay. This may unite them.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_incident02SECOND	Remind them of Cathay’s enemies.	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_incident02SECOND	Cathay teeters on the brink of destruction. Internal strife will be its undoing.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_incident02THIRD	Point out the internal blockades and espionage.	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_incident02THIRD	The Raven Spies and Hongwu Inspectors waste their resources fighting each other instead of the enemy. This rivalry must end.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_incident02FOURTH	Seal the hall and spark a rebellion.	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_incident02FOURTH	Everyone is stunned—no one expected such betrayal at this meeting. You have united Cathay’s factions, but now they stand united against you.	false
+effect_bundles_localised_description_wwd_incident01_chose1	You supported the Jade Court, and they will repay you.	false
+effect_bundles_localised_title_wwd_incident01_chose1	Gift from the Jade Court	false
+effect_bundles_localised_description_wwd_incident01_chose2	The Shen Ce Fu controls Cathay’s military strategy and will reward those who aid them.	false
+effect_bundles_localised_title_wwd_incident01_chose2	Support from the Shen Ce Fu	false
+effect_bundles_localised_description_wwd_incident01_chose3	The people are the foundation of Cathay. Even the Dragon’s children and the Dragon God’s champions must not ignore them, lest they fade into history’s oblivion.	false
+effect_bundles_localised_title_wwd_incident01_chose3	Peace and Prosperity	false
+effect_bundles_localised_description_wwd_incident01_chose4	Cathay faces its greatest peril yet. We must set aside our differences and unite against the enemy.	false
+effect_bundles_localised_title_wwd_incident01_chose4	Prepare for War	false
+effect_bundles_localised_description_wwd_incident01_chose5	The Raven Spies and Hongwu Inspectors must be directed to serve Cathay’s needs rather than obstructing each other.	false
+effect_bundles_localised_title_wwd_incident01_chose5	Seamless Strategy	false
+effect_bundles_localised_description_wwd_incident01_chose6	All of Cathay will oppose us, but there is no turning back. Civil war is here.	false
+effect_bundles_localised_title_wwd_incident01_chose6	The Great Rebellion	false
+campaign_payload_ui_details_description_wwd_incident_text_6	You will gain significant bonuses for 15 turns, but all of Cathay will turn against you.	false
+dilemmas_localised_title_wwd_incident03	Arrival of the Haotian Envoy	false
+dilemmas_localised_description_wwd_incident03	Thunderous roars shake your camp. An unexpected visitor stuns your soldiers: a member of the Dragon Emperor’s Imperial Guard. They last left the capital during a time of rebellion, crushing disobedient generals like ants. Now, with one of Haotian’s blades in your camp, your troops are filled with uncontrollable dread.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_incident03FIRST	Respectfully inquire about the envoy’s purpose.	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_incident03FIRST	The Imperial Guard represents Haotian’s will. We should tread carefully.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_incident03SECOND	Display your authority.	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_incident03SECOND	You are a pillar of Cathay. This is your domain, and no one but the Dragon Emperor himself can make you bow.	false
+campaign_payload_ui_details_description_wwd_incident_text_1	The envoy silently hands you a sword—not as an execution order, but as a gift from the Dragon Emperor.	false
+campaign_payload_ui_details_description_wwd_incident_text_2	The envoy’s momentary surprise is clear. They are reassured by your resolve—this was, after all, their purpose in visiting. Without such composure, most Imperial Guards would have taken the offender’s head back to the capital. Now, the envoy will follow your lead and witness your campaign.	false
+dilemmas_localised_title_wwd_incident04	The State of Cathay	false
+dilemmas_localised_description_wwd_incident04	Your advisors are at odds. Your contributions to Cathay far surpass those of the imperial nobility. The Dragon Emperor has been absent for over a century, and the fractured provinces cannot withstand the rising chaos. Some generals argue that Cathay must unify under your leadership to break free from the shackles of destruction. Others insist on adhering to tradition: the provinces governed by the Dragon’s children, preserving the Dragon Emperor’s legacy, and protecting the people. To seize the provinces would risk overstepping your bounds...	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_incident04FIRST	Support the idea of unifying the provinces.	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_incident04FIRST	The division of Cathay by the Dragon’s children weakens it. A united Cathay under my banner will be stronger.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_incident04SECOND	Adhere to the provincial governance system.	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_incident04SECOND	The Dragon’s children govern according to local needs, countering threats as they arise. To unify the provinces would be counterproductive.	false
+campaign_payload_ui_details_description_wwd_incident_text_5	Cathay’s factions will soon learn of your decision.	false
+effect_bundles_localised_description_wwd_incident04_chose1	The division of Cathay by the Dragon’s children weakens it. A united Cathay under my banner will be stronger.	false
+effect_bundles_localised_title_wwd_incident04_chose1	Dominion of the Six Directions	false
+effect_bundles_localised_description_wwd_incident04_chose2	The Dragon’s children govern according to local needs, countering threats as they arise. To unify the provinces would be counterproductive.	false
+effect_bundles_localised_title_wwd_incident04_chose2	Duties Divided	false
+dilemmas_localised_title_wwd_incident05	A Knife in the Shadows	false
+dilemmas_localised_description_wwd_incident05	One of your trusted officers wakes you in the dead of night, accompanied by guards—they have captured a Hongwu Inspector.\\n\\nUnlike the emotionless and loyal Jade Ravens, some Hongwu Inspectors lack resolve and have been bribed to betray the Dragon Emperor. The traitor kneeling before you had been plotting your assassination, and if not for your loyal troops, the consequences would have been dire.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_incident05FIRST	Execute Him	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_incident05FIRST	Traitors who abandon loyalty deserve death at the hands of the righteous.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_incident05SECOND	Hand Him Over	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_incident05SECOND	Let his peers handle their own affairs.	false
+effect_bundles_localised_description_wwd_incident05_chose1	Others will think twice before betraying you after seeing this traitor’s fate.	false
+effect_bundles_localised_title_wwd_incident05_chose1	Tightened Security	false
+effect_bundles_localised_description_wwd_incident05_chose2	With his network unclear, leaving this matter to others complicates future control, as he is no longer under your watch.	false
+effect_bundles_localised_title_wwd_incident05_chose2	Slipped Through the Net	false
+effect_bundles_localised_description_wwd_incident05_chose3	"Though the plan failed, I escaped alive. Next time, the target won’t be so lucky..."	false
+effect_bundles_localised_title_wwd_incident05_chose3	Spy Games	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_incident05THIRD	Recruit the Mole	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_incident05THIRD	Those driven by greed can be made to serve anyone.	false
+effects_description_wwd_diplomacy_mod_wh3_main_cth_rebel_lords_of_nan_yang	Diplomatic Relations: %+n with the Rebel Lords of Nan Yang.	false
+effects_description_wwd_diplomacy_mod_wh3_main_cth_dissenter_lords_of_jinshen	Diplomatic Relations: %+n with the Dissenter Lords of Jinshen.	false
+dilemmas_localised_title_wwd_incident06	Heavenly Khagan	false
+dilemmas_localised_description_wwd_incident06	During Cathay’s third grand expedition into the Chaos Wastes, numerous tribes once enslaved by Chaos joined the war, rallying under Cathay’s banner. Their liberation was sealed by Yi Qing at Bloodwind Keep. As Cathay’s ties with the southern steppes deepened, some tribes decided to integrate into Cathay to resist Chaos. They bestowed upon Cathay’s ruler the title of "Heavenly Khagan." However, these nomads, unaware of the Dragon Emperor’s existence, now tremble before you, mistaking you for the Heavenly Khagan.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_incident06FIRST	Accept the Title	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_incident06FIRST	Just as the Jade Dragon became known as the Dragon Emperor in the West, a misunderstanding by these nomads is understandable.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_incident06SECOND	Dedicate the Title to the Dragon Emperor	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_incident06SECOND	Cathay’s glory is the Dragon Emperor’s glory. Such honors are not ours to claim.	false
+effect_bundles_localised_description_wwd_incident06_chose2	Cathay is never short of praise, yet every word of it is uplifting.	false
+effect_bundles_localised_title_wwd_incident06_chose2	Honor of the Celestial Empire	false
+effect_bundles_localised_description_wwd_incident06_chose1	Your northern allies see you as their true leader, but one can only imagine the reaction of other Cathayan nobles upon hearing your new title...	false
+effect_bundles_localised_title_wwd_incident06_chose1	Loyalty of the Nomads	false
+ancillaries_onscreen_name_jinjun_jiaoguan	Dragon Emperor’s Imperial Guard	true
+ancillaries_colour_text_jinjun_jiaoguan	Traveling with a member of the Dragon Emperor’s Imperial Guard is always an enlightening experience.	true
+ancillaries_onscreen_name_haotian_weapon	Haotian Blade	true
+ancillaries_colour_text_haotian_weapon	A blessed blade passed down for centuries in Cathay, bearing the weight of the nation and regarded as a symbol of the Dragon Emperor’s favor.	true
+dilemmas_localised_title_wwd_incident07	Stranger in Strange Lands	false
+dilemmas_localised_description_wwd_incident07	As your army crosses the great river, a sharp-eyed soldier spots a woman clinging to a plank, drifting downstream. Her golden hair stands out starkly. Your soldiers attempt to rescue her, but the raging current makes it nearly impossible to get close.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_incident07FIRST	Attempt the Rescue	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_incident07FIRST	Use the Celestial Winds to aid in the rescue. We cannot abandon her.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_incident07SECOND	Abandon the Effort	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_incident07SECOND	The soldiers have done their best, but we’ve spent too much time. Let us hope another will come to her aid as we move on.	false
+ancillaries_onscreen_name_wwd_prince_of_hef	Princess of Saphery	true
+ancillaries_colour_text_wwd_prince_of_hef	"Thank you, my lord. Without your aid, I would have perished like the rest of my envoy. I will send word to my homeland, but until I return to Ulthuan, please allow me to repay your kindness."	true
+ancillaries_onscreen_name_wwd_shuoshuren	Storyteller	true
+ancillaries_colour_text_wwd_shuoshuren	"To know what happens next, stay tuned for the next episode..."	true
+dilemmas_localised_title_wwd_incident99	The Storyteller	false
+dilemmas_localised_description_wwd_incident99	Your army enters a bustling city where locals speak of an extraordinary storyteller in a teahouse. This masked figure is always accompanied by a group of small rats. Some suspect he is one of the creatures from the ruins of the Warpstone Desert, while others whisper he is a Monkeyman from the Celestial Mountains.\\n\\nIntrigued, you head to the teahouse only to see a group of Jade Warriors escorting the storyteller away. Suspicious individuals have reported him to the authorities.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_incident99FIRST	Rescue Him	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_incident99FIRST	Though cloaked and masked, his imposing stature is undeniable. If he joins our cause, great things are within reach!	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_incident99SECOND	Ignore It	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_incident99SECOND	You hear him recite, "Like a drifter on the tide, ask not where I wander." \\n\\nDespite his capture, he remains calm and composed. Perhaps fate will bring your paths together again.	false
+effect_bundles_localised_description_wwd_incident07_chose1	Your soldiers have exerted all their strength to defy nature’s forces. Though successful, they will need time to recover.	false
+effect_bundles_localised_title_wwd_incident07_chose1	[[col:red]]Exhausted Soldiers[[/col]]	false
+effect_bundles_localised_description_wwd_incident99_chose1	Tales of this enigmatic storyteller grow increasingly wild. Wherever you go, expect intrigue and curiosity to follow.	false
+effect_bundles_localised_title_wwd_incident99_chose1	[[col:red]]Curious Company[[/col]]	false
+dilemmas_localised_title_wwd_incident98	Tenets of Military Reform	false
+dilemmas_localised_description_wwd_incident98	Authored by "Queller of Chaos" Yi Qing, the *Tenets of Military Reform* detail his strategies for restructuring the army. He advocates for a permanent heavy cavalry force stationed along the Great Bastion, using formation charges to counter the guerrilla tactics of Chaos marauders employing light cavalry against infantry lines. Based on this, he devised an extensive system of reforms.\\n\\nThis strategy has proven highly effective in battles at the Great Bastion, yet debate continues over whether it should be implemented on a broader scale.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_incident98FIRST	Implement Reform	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_incident98FIRST	As warfare evolves, we must learn from frontline experiences to remain undefeated.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_incident98SECOND	Maintain Status Quo	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_incident98SECOND	"Our Celestial armies are invincible under heaven—what does this upstart know of leading armies into battle?"	false
+effect_bundles_localised_description_wwd_incident98_chose1	Your army will require time to adapt to these reforms, while entrenched interests may resist your changes.	false
+effect_bundles_localised_title_wwd_incident98_chose1	[[col:red]]Resistance to Reform[[/col]]	false
+dilemmas_localised_title_wwd_incident97	The Duty of All	false
+dilemmas_localised_description_wwd_incident97	Your army marches through peaceful countryside, untouched by war. The tranquil atmosphere is almost disorienting, and many of your soldiers hail from villages like this—most are gone now. Your reverie is broken by your lieutenant, who reports a group of young villagers trailing the army. Despite being urged to return home, they insist on following the famed general to the battlefield, hoping to earn their place in history.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_incident97FIRST	Recruit Them	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_incident97FIRST	"The fate of the Celestial Empire is the duty of all. We cannot dampen their fervor. With luck, they may indeed be remembered beyond the fields of the fallen."	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_incident97SECOND	Send Them Back	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_incident97SECOND	"This is nonsense! A rabble of inexperienced youths following my army? Send them home at once."	false
+effect_bundles_localised_description_wwd_incident97_chose1	The spurned youths will spread word of your refusal, tarnishing your reputation. Yet you cannot stand by and watch them perish—the people are the future of Cathay.	false
+effect_bundles_localised_title_wwd_incident97_chose1	"Image Shattered"	false
+effect_bundles_localised_description_wwd_incident97_chose2	Your reputation draws people to your cause. Though you understand the grim fate that awaits most, you also know that every sacrifice brings Cathay closer to victory in its darkest hour.	false
+effect_bundles_localised_title_wwd_incident97_chose2	Many Rushing to Join	false
+dilemmas_localised_title_wwd_incident96	Improper Promotions	false
+dilemmas_localised_description_wwd_incident96	During an inspection of newly promoted officers, you find them to be exemplary Jade Warriors. As you prepare to leave, a group of soldiers bursts in, demanding an audience. Waving a document, they angrily accuse one officer of bribing his way to promotion. The accused turns pale—it seems he indeed resorted to dishonorable means. Yet your inspection reveals him to be an exceptional talent. You ponder why someone so capable felt compelled to bribe his way forward, but the soldiers grow increasingly agitated. A decision must be made swiftly.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_incident96FIRST	Uphold Promotion	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_incident96FIRST	His misconduct will be dealt with separately, but talent like his cannot be wasted.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_incident96SECOND	Enforce Justice	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_incident96SECOND	We cannot allow such injustice. Both the briber and the official who accepted the bribe will be thoroughly investigated.	false
+effect_bundles_localised_description_wwd_incident96_chose1	Allowing this behavior will not go unnoticed by others...	false
+effect_bundles_localised_title_wwd_incident96_chose1	Fostering Corruption	false
+effect_bundles_localised_description_wwd_incident96_chose2	The righteous will be rewarded, and the dishonorable will find no refuge.	false
+effect_bundles_localised_title_wwd_incident96_chose2	Strict Discipline	false
+campaign_payload_ui_details_description_damage_character	Characters may sustain injuries.	true
+effect_bundles_localised_description_wwd_recruit_enemy	Your bold decision is bound to attract dissent.	false
+effect_bundles_localised_title_wwd_recruit_enemy	Uneasy Advisors	false
+campaign_payload_ui_details_description_wwd_incident06_text	A nomadic army will gather at the Great Bastion, pledging loyalty to you.	false
+names_name_2024924	"Right Wise King" Wuda Ruodi	true
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_dilemma_changyuanyuanjunFIRST	Perform Your Duty	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_ll_dilemma_changyuanyuanjunFIRST	The Great Bastion shields all Cathayans—it is our duty to ensure its strength.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_dilemma_changyuanyuanjunSECOND	Contribute Generously	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_ll_dilemma_changyuanyuanjunSECOND	You offer generous contributions to bolster the Great Bastion, ensuring more reinforcements.	false
+dilemmas_localised_title_wwd_ll_dilemma_changyuanyuanjun	Above the Great Bastion	false
+dilemmas_localised_description_wwd_ll_dilemma_changyuanyuanjun	For countless generations, Cathay has thrived under the protection of the Great Bastion. To maintain its immense defenses, the imperial nobility regularly contributes substantial donations.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_dilemma_changyuanyuanjunTHIRD	Provide Full Support	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_ll_dilemma_changyuanyuanjunTHIRD	With such overwhelming support, the Celestial Empire’s elite forces can march to the frontlines.	false
+campaign_payload_ui_details_description_wwd_ll_changyuanyuanjun1	A peasant militia will support the Great Bastion.	false
+campaign_payload_ui_details_description_wwd_ll_changyuanyuanjun2	A regiment of Jade Warriors will reinforce the Great Bastion.	false
+campaign_payload_ui_details_description_wwd_ll_changyuanyuanjun3	A force of Celestial Dragon Guards will reinforce the Great Bastion.	false
+campaign_payload_ui_details_description_wwd_ll_changyuanyuanjun4	[[col:red]]Your soldiers will not be pleased...[[/col]]	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_dilemma_changyuanyuanjunFOURTH	Line Your Pockets	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_ll_dilemma_changyuanyuanjunFOURTH	Cathay’s wealth is vast, with countless factions supporting the Great Bastion. Surely my share won’t be missed...	false
+effect_bundles_localised_description_wwd_ll_dilemma_changyuanyuanjun	You chose self-preservation over the greater good. While this benefits you in the short term, others in Cathay will not see it that way.	false
+effect_bundles_localised_title_wwd_ll_dilemma_changyuanyuanjun	[[col:red]]"Abandoning the Nation—How Can Such a Wretch Achieve Greatness?"[[/col]]	false
+dilemmas_localised_title_wwd_ll_dilemma_battle_of_weijin	Battle of Weijin	false
+dilemmas_localised_description_wwd_ll_dilemma_battle_of_weijin	Amidst fire and ashes, light pierces the darkness. The rebellion of the King of Nan Yang heralds chaos across Cathay. Once a celebrated general who crushed countless uprisings for the Dragon Emperor, he now leads an army to topple the eternal dynasty. Former comrades turn against one another, brothers-in-arms now bitter enemies. Half of the northern provinces have pledged themselves to his cause, vowing to overthrow the celestial reign.\\n\\nThe Celestial Strategists’ generals rallied to counter the rebellion, dispatching three great armies. Yet, each was decisively defeated: General Tianxian fell at the Grave Plains under a storm of arrows from the "Duke of Xuanhuan"; General Mingjing was lured into a trap by the "Marquis of Jingji," meeting his end at a banquet; and General Hubu, despite his battlefield prowess, was impaled by the "Marquis of Wuqiu." The Celestial court stands paralyzed by fear and confusion, for the King of Nan Yang seems to foresee every strategy, aiming to annihilate the Dragon Emperor’s forces.\\n\\nAmidst this turmoil, only the Dragon Emperor’s Champion remains composed. His decision is clear: the Imperial Guard shall march from the capital to annihilate the rebel coalition near the Jewel City. As it was a century ago, no one will threaten the capital while he stands.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_dilemma_battle_of_weijinFIRST	Salvage the Empire	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_ll_dilemma_battle_of_weijinFIRST	Cloudwalker, Cathay’s most skilled general, has taken command of the Imperial Guard. The tide of war may yet change...	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_dilemma_battle_of_weijinSECOND	Like Leaves in the Wind	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_ll_dilemma_battle_of_weijinSECOND	Han Cheng’s reputation as the "War Saint" is well-earned. With the northern lords rallying to his banner, Weijin may fall...	false
+campaign_payload_ui_details_description_wwd_ll_unknow_future_good	The future is uncertain...	false
+campaign_payload_ui_details_description_wwd_ll_unknow_future_bad	[[col:red]]The future is uncertain...[[/col]]	false
+incidents_localised_description_wwd_ll_dilemma_battle_of_weijin_1	My lord, news from Weijin! "Heavenly Mandate" has achieved a great victory, slaying three of Han Cheng’s trusted allies and scattering the rebel coalition. The King of Nan Yang has fled back to Ruimei!\\n\\nIt is said that on the cliffs, Cloudwalker held firm, leading the Imperial Guard against a coalition several times their size. Though the flanks faltered under relentless assault, Han Cheng’s attempt to encircle Cloudwalker ended in chaos when Longma riders descended upon his ranks, scattering his troops. Though triumphant, the cost was heavy—yet Han Cheng’s defeat in this battle may spell the end of his rebellion.	false
+incidents_button_text_wwd_ll_dilemma_battle_of_weijin_1	The wheels turn ever forward...	false
+incidents_localised_title_wwd_ll_dilemma_battle_of_weijin_1	Securing the Empire	false
+incidents_localised_description_wwd_ll_dilemma_battle_of_weijin_2	My lord, news from Weijin! "Heavenly Mandate’s" gamble has failed. The elite forces of Weijin are all but annihilated, and Han Cheng’s armies march on the capital...\\n\\nThe battle was fierce, with the Imperial Guard and rebel forces locked in a deadly stalemate. Yet betrayal came from within, as "Duke Zhuxiang" turned his forces against the Celestial Army, striking from the rear. The tides turned irreversibly, and Cloudwalker’s blade fell in resignation as his soldiers broke and fled. The capital now lies exposed to Han Cheng’s advancing army.	false
+incidents_button_text_wwd_ll_dilemma_battle_of_weijin_2	The wheels turn ever forward...	false
+incidents_localised_title_wwd_ll_dilemma_battle_of_weijin_2	Securing the Empire	false
+dilemmas_localised_title_wwd_ll_dilemma_battle_of_yuanbo_and_yunxiang	Shattered Harmony	false
+dilemmas_localised_description_wwd_ll_dilemma_battle_of_yuanbo_and_yunxiang	My lord, negotiations between the Celestial Strategists and the Jade Court have collapsed. Yuan Bo has declared Cloudwalker a traitor to the Empire, calling upon the Dragon Sons to drive him out of the capital. Most generals of the Strategists remain loyal to their Celestial Warlord, but the situation grows perilously close to full-scale war...	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_dilemma_battle_of_yuanbo_and_yunxiangFIRST	The future is unclear...	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_ll_dilemma_battle_of_yuanbo_and_yunxiangFIRST	The Empire cannot endure another civil war...	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_dilemma_battle_of_yuanbo_and_yunxiang_1FIRST	Support the Celestial Strategists	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_ll_dilemma_battle_of_yuanbo_and_yunxiang_1FIRST	Yuan Bo’s cold pragmatism reduces all to mere pawns. We must challenge him on the battlefield to force his concession.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_dilemma_battle_of_yuanbo_and_yunxiang_1SECOND	Side with the Jade Court	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_ll_dilemma_battle_of_yuanbo_and_yunxiang_1SECOND	Yuan Bo, as the Dragon Emperor’s son and Cathay’s greatest unifier, must be supported—even against Cloudwalker’s defiance.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_dilemma_battle_of_yuanbo_and_yunxiang_1THIRD	End the Strife	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_ll_dilemma_battle_of_yuanbo_and_yunxiang_1THIRD	Amid the chaos, you alone hold the power to expose the true enemy behind this conflict and bring peace before war engulfs all.	false
+dilemmas_localised_title_wwd_ll_dilemma_battle_of_yuanbo_and_yunxiang_1	Civil War	false
+dilemmas_localised_description_wwd_ll_dilemma_battle_of_yuanbo_and_yunxiang_1	My lord, envoys from the Strategists and Jade Court have sought an audience. Yuan Bo’s initial attack on Weijin failed, and news of Cloudwalker’s rebellion against the Dragon Sons has unsettled the people. We must carefully decide our course of action.	false
+campaign_payload_ui_details_description_wwd_ll_dilemma_battle_of_yuanbo_and_yunxiangFIRST	Form an alliance with the Celestial Loyalists to strike down Yuan Bo and force his compromise.	false
+campaign_payload_ui_details_description_wwd_ll_dilemma_battle_of_yuanbo_and_yunxiangSECOND	Form an alliance with the Jade Court. Cloudwalker’s hubris must be checked before it tears the Empire apart.	false
+campaign_payload_ui_details_description_wwd_ll_dilemma_battle_of_yuanbo_and_yunxiangTHIRD	Deploy your spies to uncover the truth behind this conflict. With evidence in hand, you can expose the true instigator and halt the war.	false
+effect_bundles_localised_description_wwd_ll_dilemma_battle_of_yuanbo_and_yunxiang_1	Though the people may never know, you averted a disaster that could have consumed all of Cathay.	false
+effect_bundles_localised_title_wwd_ll_dilemma_battle_of_yuanbo_and_yunxiang_1	Peacemaker	false
+effect_bundles_localised_description_wwd_chosenone	You have chosen his destiny.	false
+effect_bundles_localised_title_wwd_chosenone	Fate’s Chosen	false
+dilemmas_localised_title_wwd_incident_yuenv	Rising of Hedong	false
+dilemmas_localised_description_wwd_incident_yuenv	The people of Hedong have risen in rebellion under "Jade Moonlight" Zhao Qi, turning the tide of the war against the Dark Elf invaders.\\n\\nCathay’s eastern coastline has suffered greatly under the raids of foreign invaders. Despite the efforts of the Sea Dragon’s fleets to intercept them, these fragmented raiders have evaded blockades to burn undefended villages, enslaving countless citizens. Zhao Qi’s Moonlight Sect has worked tirelessly to rescue displaced citizens, and as more join their cause, they now possess the strength to directly combat the Dark Elves.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_incident_yuenvFIRST	Called by the People	false
+dilemmas_localised_title_wwd_incident_panjun	Crossing States and Counties	false
+dilemmas_localised_description_wwd_incident_panjun	With the Dragon Sons returning to quell rebellion, the insurgents across counties have been eradicated—except for the King of Nan Yang and the usurper, who continue their desperate resistance. Intelligence suggests they are rallying remaining forces for a final, all-out counterattack!	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_incident_panjunFIRST	Let them come	false
+campaign_payload_ui_details_description_wwd_incident_yuenv	Peasant uprisings will erupt across Hedong’s provinces.	false
+campaign_payload_ui_details_description_wwd_incident_panjun	Muster your forces and prepare for the rebels’ final assault.	false
+effect_bundles_localised_description_wwd_chosenone_4	Your righteous actions have garnered widespread support. Your supply consumption will decrease!	false
+effect_bundles_localised_title_wwd_chosenone_4	Supply Line Support	false
+dilemmas_localised_title_wwd_ll_dilemma_battle_of_hundunhuangyuan	Battle of Chaos Wasteland	false
+dilemmas_localised_description_wwd_ll_dilemma_battle_of_hundunhuangyuan	After the Third Northern Expedition, the Chaos tribes retreated deep into the Wasteland. The border armies, stretched thin, prepared to cease pursuit when the Khan launched raids, leaving the northern granaries empty and the people exhausted.\\n\\nThus, Grand Overseer Yuan Bo dispatched Generals Yi Qing and Huo Su to lead two elite armies into the Wasteland, seeking to annihilate the Chaos tribes and lay siege to Bloodwind Keep. A climactic battle is about to begin, echoing across the desolate steppes.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_dilemma_battle_of_hundunhuangyuanFIRST	Devour the Land	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_ll_dilemma_battle_of_hundunhuangyuanFIRST	Cathay’s iron cavalry has crushed the enemy time and time again. The scattered Chaos tribes are no match for them.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_dilemma_battle_of_hundunhuangyuanSECOND	Retreat in Panic	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_ll_dilemma_battle_of_hundunhuangyuanSECOND	Deep in the Wasteland, uncertainty reigns. The Khan’s forces may be lying in wait, ready to strike.	false
+incidents_localised_description_wwd_ll_dilemma_battle_of_hundunhuangyuan_1	My lord, news from the Great Bastion! Yi Qing’s forces encountered the Khan in the desert, delivering a crushing blow, killing tens of thousands, and forcing his remnants to retreat to Bloodwind Keep.	false
+incidents_button_text_wwd_ll_dilemma_battle_of_hundunhuangyuan_1	South of the Wastes, No Khagan...	false
+incidents_localised_title_wwd_ll_dilemma_battle_of_hundunhuangyuan_1	Sealing the Wolves	false
+incidents_localised_description_wwd_ll_dilemma_battle_of_hundunhuangyuan_2	My lord, news from the Great Bastion reports that Yi Qing's forces have been locked in combat with the Khan for days, unable to break the stalemate. Chaos reinforcements pour in relentlessly, overwhelming the defenses. Meanwhile, Huo Su's forces have gone astray in the northern wastes, unable to join the battle, leaving Yi Qing unsupported. He has retreated south of Longkui Road, and the iron cavalry is nearly wiped out. The Khan may invade at any moment...	false
+incidents_button_text_wwd_ll_dilemma_battle_of_hundunhuangyuan_2	Heroes Wrapped in Shrouds...	false
+incidents_localised_title_wwd_ll_dilemma_battle_of_hundunhuangyuan_2	Broken Spear, Sinking Sands	false
+names_name_98742418	"Zhu Xiang Lord" Xun Chun	true
+names_name_98742419	"General of Rapid Cavalry" Huo Su	true
+dilemmas_localised_title_wwd_incident_nanmanruqin	Flickering Candlelight	false
+dilemmas_localised_description_wwd_incident_nanmanruqin	The candlelights on the dense forests flicker as the Candle Guards seek aid from the provinces. The power of Chaos sweeps over the mountains, with Nurgle’s vanguard spreading plague and disease that have worn down the soldiers. The Twenty-Eight Star Generals have all been deployed to the front lines. The southern gods of the gates attempt to hold off the invasion beneath the Candle Tower, but their weakened bodies struggle against the spreading corruption. My lord, evil lurks within the forests, and the storm is imminent.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_incident_nanmanruqinFIRST	Light the Night	false
+campaign_payload_ui_details_description_wwd_incident_nanmanruqin	[[col:red]]The invasion has begun. "Duke Jingnan" Duan Wei and the Candle Guards will defend the land at Ashia Candle Tower with their lives.[[/col]]\\n\\nYou will participate in a near-hopeless battle as one of the Twenty-Eight Star Generals.	false
+dilemmas_localised_title_wwd_ll_dilemma_deal_with_ogr	Ogre Diplomacy	false
+dilemmas_localised_description_wwd_ll_dilemma_deal_with_ogr	Since the Ogre Wars, Cathay’s relationship with the giant denizens of the Mountains of Mourn has been tenuous. Cathay occasionally hires ogre mercenaries for both caravans and armies, but instances of caravans and citizens being devoured persist. Among the Dragon Lords, only the Eighth Lord of Shanyang maintains a close relationship with the ogres, reportedly sharing personal ties with the tyrant Greasus Goldtooth. He seems inclined to set aside old grievances and forge a new alliance, though his erratic nature leaves his intentions unpredictable.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_dilemma_deal_with_ogrFIRST	Let’s hope it goes smoothly	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_ll_dilemma_deal_with_ogrFIRST	Cathay has always valued peace, and the ogres hold key positions along the western trade routes. Turning them into allies could greatly enhance trade and commerce.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_dilemma_deal_with_ogrSECOND	It might end in a fight	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_ll_dilemma_deal_with_ogrSECOND	The barbarians of the Mountains of Mourn have always been at odds with Cathay. Though the Goldtooth Tyrant is friendly with the Eighth Lord, his underlings are unruly. Let them clash, and may the ogres learn to fear us.	false
+incidents_localised_description_wwd_ll_dilemma_deal_with_ogr_1	My lord, news from Shanyang reports that the Eighth Lord and Goldtooth Tyrant have sworn an oath of eternal friendship. Shanyang will supply the ogres with Cathay’s culinary delicacies in exchange for their warriors guarding the western trade routes. If nothing else, the roads westward will now be much safer.	false
+incidents_button_text_wwd_ll_dilemma_deal_with_ogr_1	Cathay gains a new ally	false
+incidents_localised_title_wwd_ll_dilemma_deal_with_ogr_1	Silk Road Alliance	false
+incidents_localised_description_wwd_ll_dilemma_deal_with_ogr_2	My lord, news from Shanyang reports a dire incident. Goldtooth’s subordinates insulted Cathay’s Jade Warriors during a banquet, leading to a deadly altercation. One of the Goldtooth ogres tore a Jade Warrior in half on the spot, spilling blood throughout the embassy’s banquet hall. Though the Eighth Lord managed to send the Goldtooth delegation away unharmed, the outraged Cathayan officials demand retribution. A conflict seems unavoidable...	false
+incidents_button_text_wwd_ll_dilemma_deal_with_ogr_2	It was bound to happen...	false
+campaign_payload_ui_details_description_wwd_ll_dilemma_deal_with_ogr_2	Conflict has erupted between Cathay and the ogres.	false
+incidents_localised_title_wwd_ll_dilemma_deal_with_ogr_2	Bloody Banquet	false
+effect_bundles_localised_description_wwd_ll_dilemma_deal_with_ogr_1	The cooperation of ogre laborers has significantly improved trade efficiency along the Silk Road.	false
+effect_bundles_localised_title_wwd_ll_dilemma_deal_with_ogr_1	Silk Road Alliance	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_dilemma_battle_of_yuanbo_and_yunxiang_2FIRST	United Against Chaos	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_ll_dilemma_battle_of_yuanbo_and_yunxiang_2FIRST	It’s time to direct our blades at Cathay’s true enemies!	false
+dilemmas_localised_title_wwd_ll_dilemma_battle_of_yuanbo_and_yunxiang_2	Behind the Curtain	false
+dilemmas_localised_description_wwd_ll_dilemma_battle_of_yuanbo_and_yunxiang_2	The Deceiver’s plot has been uncovered! The civil war has been thwarted before it could begin, and Yuan Bo and Yun Xiang have reconciled. Changeling has fled Cathay, and now it’s time to face the true enemies of the Celestial Empire.	false
+campaign_payload_ui_details_description_wwd_ll_dilemma_battle_of_yuanbo_and_yunxiang_2	Yuan Bo and Yun Xiang will form an alliance with you to declare war against the Deceiver.	false
+dilemmas_localised_title_wwd_ll_dilemma_battle_of_longmenguan	Battle of Longmen Gate	false
+dilemmas_localised_description_wwd_ll_dilemma_battle_of_longmenguan	The Great Bastion burns. Chaos Dwarfs’ siege engines shatter the ancient walls as the soldiers fall amidst the chaos. Zhatan the Blackheart’s sudden assault has devastated the Border Armies. Messengers from the provinces have been sent seeking reinforcements. My lord, we have tended to an exhausted messenger, and word from other courts suggests the provinces are preparing reinforcements for a decisive strike at Longmen Gate to destroy the Chaos Dwarfs’ siege engines. It is time to decide.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_dilemma_battle_of_longmenguanFIRST	Join the Battle	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_ll_dilemma_battle_of_longmenguanFIRST	A regiment stands ready, awaiting your orders to march to the Great Bastion for the assault.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_dilemma_battle_of_longmenguanSECOND	Decline Assistance	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_ll_dilemma_battle_of_longmenguanSECOND	Our forces are already stretched too thin. Sending reinforcements is not feasible at this time.	false
+campaign_payload_ui_details_description_wwd_ll_dilemma_battle_of_longmenguan	[[col:red]]Zhatan the Blackheart has declared war on Cathay.[[/col]]\\n\\nA new regiment will be sent to the Great Bastion to join the assault against the Chaos Dwarfs. Victory will grant you command of this regiment.	false
+effect_bundles_localised_description_wwd_Guardian_of_cth	"Be the wall that protects the land."	false
+effect_bundles_localised_title_wwd_Guardian_of_cth	Guardian of the Celestial Empire	false
+dilemmas_localised_title_wwd_ll_dilemma_battle_of_yujiang	Battle of the Jade Delta	false
+dilemmas_localised_description_wwd_ll_dilemma_battle_of_yujiang	The Hedong uprising gains momentum as the Moonlight Sect’s banner waves across the land. The people rally behind their cause, driving the Dark Elves into retreat. However, on the delta plains, the forces of the Decadent Heart lie in wait, preparing to enslave the rebels. It’s time for the Decadent Heart to tighten its net.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_dilemma_battle_of_yujiangFIRST	Set Sail	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_ll_dilemma_battle_of_yujiangFIRST	The Decadent Heart sees the rebels as easy prey, but they will soon learn that Cathay’s people cannot be crushed.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_dilemma_battle_of_yujiangSECOND	A Disaster Waiting to Happen	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_ll_dilemma_battle_of_yujiangSECOND	The peasants are not ready to face the Decadent Heart. This will be a slaughter.	false
+campaign_payload_ui_details_description_wwd_ll_dilemma_battle_of_yujiang	[[col:red]]The rebels face the Decadent Heart’s forces in the delta plains.[[/col]]\\n\\nYou will participate in the battle from the perspective of a peasant army. Victory will grant you command of this regiment as a reward.	false
+dilemmas_localised_title_wwd_ll_dilemma_battle_of_muyuan	Battle of the Tomb of Warriors	false
+dilemmas_localised_description_wwd_ll_dilemma_battle_of_muyuan	As loyalists shift more forces north to suppress the rebellion of Nan Yang, Han Cheng’s forces are stretched thin. Rumors of dissent spread among his followers. The King of Nan Yang desperately needs a decisive victory to stabilize morale.\\n\\nThe artisans of Phantom City have constructed Cathay’s most massive fleet, and it now sails westward. Han Cheng has learned of Miao Ying’s movements and has set his sights on her fleet resting at the Tomb of Warriors. He has staked everything on this battle. Defeating the Storm Dragon’s forces here may turn the tide of war.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_dilemma_battle_of_muyuanFIRST	Blade Meets Blade	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_ll_dilemma_battle_of_muyuanFIRST	A Duel of Sky Junks	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_dilemma_battle_of_muyuanSECOND	Flames Consume the Sky	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_ll_dilemma_battle_of_muyuanSECOND	Masts Reduced to Ash...	false
+campaign_payload_ui_details_description_wwd_ll_dilemma_battle_of_muyuan	[[col:red]]The Tempest Dragon and the King of Nan Yang will clash at the Tomb of Warriors in a decisive naval battle.[[/col]]\\n\\nYou will participate in the battle from the perspective of a Longma cavalry regiment. Victory will grant you command of this unit as a reward.	false
+effect_bundles_localised_description_wwd_buff_for_peasant	"Our strength lies not in weapons but in righteousness."	false
+effect_bundles_localised_title_wwd_buff_for_peasant	Mandated by the People	false
+effect_bundles_localised_description_wwd_buff_for_longma	"In a breath, the masts are reduced to ash."	false
+effect_bundles_localised_title_wwd_buff_for_longma	Longma Rides the Skies	false
+incidents_localised_description_wwd_ll_dilemma_battle_of_longmenguan_2	                                              You bear witness to a battle that will be sung of for millennia.\\n\\n[[col:yellow]]"Be the wall that protects the land."[[/col]]	false
+incidents_button_text_wwd_ll_dilemma_battle_of_longmenguan_2	The wheels roll forward...	false
+incidents_localised_title_wwd_ll_dilemma_battle_of_longmenguan_2	End of the Battle of Longmen Gate	false
+incidents_localised_description_wwd_ll_dilemma_battle_of_yujiang_2	                                             You bear witness to a battle that will be sung of for millennia.\\n\\n[[col:yellow]]"Our strength lies not in weapons but in righteousness."[[/col]]	false
+incidents_button_text_wwd_ll_dilemma_battle_of_yujiang_2	The wheels roll forward...	false
+incidents_localised_title_wwd_ll_dilemma_battle_of_yujiang_2	End of the Battle of the Jade Delta	false
+incidents_localised_description_wwd_ll_dilemma_battle_of_muyuan_2	                                             You bear witness to a battle that will be sung of for millennia.\\n\\n[[col:yellow]]"In a breath, the masts are reduced to ash."[[/col]]	false
+incidents_button_text_wwd_ll_dilemma_battle_of_muyuan_2	The wheels roll forward...	false
+incidents_localised_title_wwd_ll_dilemma_battle_of_muyuan_2	End of the Battle of the Tomb of Warriors	false
+campaign_payload_ui_details_description_wwd_ll_dilemma_battle_of_hundunhuangyuan	[[col:red]]The Border Cavalry will engage the Chaos Wastes Warbands in a great battle at the Desolate Plains.[[/col]]\\n\\nYou will participate in the battle as "General of Rapid Cavalry" Huo Su. Victory will grant you command of this unit as a reward.	false
+effect_bundles_localised_description_wwd_buff_for_cavalry	"Armored steeds and golden spears, devouring miles with a roar."	false
+effect_bundles_localised_title_wwd_buff_for_cavalry	Devouring Miles Like a Tiger	false
+incidents_localised_description_wwd_ll_dilemma_battle_of_hundunhuangyuan_3	                                             You bear witness to a battle that will be sung of for millennia.\\n\\n[[col:yellow]]"Armored steeds and golden spears, devouring miles with a roar."[[/col]]	false
+incidents_button_text_wwd_ll_dilemma_battle_of_hundunhuangyuan_3	The wheels roll forward...	false
+incidents_localised_title_wwd_ll_dilemma_battle_of_hundunhuangyuan_3	End of the Battle of the Desolate Plains	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_dilemma_battle_of_hundunhuangyuanTHIRD	Armored Steeds and Golden Spears	false
+names_name_98742423	"The God-Blessed" Khundulun Khan	true
+dilemmas_localised_title_wwd_ll_dilemma_confederate_with_changyuan	On the Great Bastion	false
+dilemmas_localised_description_wwd_ll_dilemma_confederate_with_changyuan	As the Chaos storm draws near, the northern situation has become increasingly dire. The Great Khan of the Mongols watches the provinces with keen interest, while Chaos and destruction march towards Cathay's gates. The Border Armies at the Great Bastion request reinforcements. As Cathay’s most accomplished leader, your actions will influence the entire empire. You could set an example by supporting the Border Armies, or you could seize direct command of their forces. Are you prepared to face the storm head-on?\\n\\n[[col:white]]"The Whip of the Gods" has gathered its legions in the north and will attack in waves.[[/col]]	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_dilemma_confederate_with_changyuanFIRST	Take Command	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_ll_dilemma_confederate_with_changyuanFIRST	Winter is here. Cathay’s strength must unite under my banner.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_dilemma_confederate_with_changyuanSECOND	Support the Border Armies	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_ll_dilemma_confederate_with_changyuanSECOND	Cathay is in peril. We shall lead by example and support the Border Armies.	false
+campaign_payload_ui_details_description_wwd_ll_dilemma_confederate_with_changyuan5	The target faction will become your vassal.	false
+campaign_payload_ui_details_description_wwd_ll_dilemma_confederate_with_changyuan1	You will confederate with the target faction.	false
+campaign_payload_ui_details_description_wwd_ll_dilemma_confederate_with_changyuan2	The target faction will form an alliance with you.	false
+names_name_98742422	"The Whip of the Gods" Mongori Khan	true
+campaign_payload_ui_details_description_wwd_ll_dilemma_confederate_with_changyuan3	The Dragon Guard have taken position at the Great Bastion.	false
+campaign_payload_ui_details_description_wwd_ll_dilemma_confederate_with_changyuan4	If other provinces still exist, their armies will ally with you and march to the Great Bastion to resist the invasion.	false
+dilemmas_localised_title_wwd_ll_dilemma_confederate_with_changyuan_warning	The Calm Before the Storm	false
+dilemmas_localised_description_wwd_ll_dilemma_confederate_with_changyuan_warning	My lord, news from beyond the borders reports that a new Great Khan has emerged from the chaos of the northern steppes. Mongori Khan, "The Whip of the Gods," has united the scattered tribes exiled to the north and ascended to godhood through blood rituals. With destructive power amassing under his banner, he begins his march south. The Border Armies prepare for the inevitable, as reconnaissance riders have already departed from Longmen Gate. Let us hope they return with news before destruction arrives.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_dilemma_confederate_with_changyuan_warningFIRST	The Curtain Rises...	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_ll_dilemma_confederate_with_changyuan_warningFIRST	[[col:red]]The northern storm approaches. We must prepare.[[/col]]	false
+campaign_payload_ui_details_description_wwd_ll_dilemma_confederate_with_changyuan_warning	Contact has been lost with the northern outposts. A cavalry detachment has been sent from the Great Bastion to investigate.	false
+names_name_98742301	"The Lord of Xuanhuan" Hao Yuan	true
+names_name_98742302	"King of Yougu" Lu Jia	false
+names_name_98742303	"Master of the Hongshui River" Chen Zulong	false
+names_name_98742304	"Lord of Jingji" Shi Qiu	false
+names_name_98742305	"Lord of Martial Might" Wen Qie	false
+names_name_98742306	"Bamboo Dragon Li Dao" – the Usurper	false
+names_name_98742307	Krize "Shatterjaw"	false
+names_name_98742308	"Lord of the Mountain Tribes" Zhu Lang	false
+names_name_98742309	Aldo "The Murderer"	false
+names_name_98742311	"Helmsman of the River of Bones" Headless Sarutobi	false
+names_name_98742312	"King of Right Valley" Lu Wen	false
+names_name_98742313	"Vanguard of the Forest" Lanqian King	false
+names_name_98742314	"Master of the Celestial Palace" Sunset Buddha	false
+names_name_98742315	"Mountain Rakshasa" Mokun King	false
+names_name_98742316	"King of Jade Winds" Jade Mouse Minister	false
+names_name_98742317	"The Flying General" Feng Yao	false
+names_name_98742318	"Lord of Pearl Provinces" Xun Chun	false
+names_name_98742421	"Duke of the Nation's Defense" Yin Yu	true
+names_name_98742420	"Lord of Grand Virtue" Zhangsun Ji	true
+names_name_98742425	"General of the Left Valiant Guards" Hou Zhijie	true
+names_name_1021105005	"Supervisor of the Grand Temple" Wen Cheng	true
+names_name_1021105006	"North Palace Astrologer" Tong An	true
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_incident_nanmanruqinSECOND	A Candle's Final Glow	false
+incidents_localised_description_wwd_ll_dilemma_wwd_incident_nanmanruqin_2	                                             You bear witness to a battle that will be sung of for millennia.\\n\\n[[col:yellow]]"The children of Lingnan bleed but do not weep."[[/col]]	false
+incidents_button_text_wwd_ll_dilemma_wwd_incident_nanmanruqin_2	The wheels roll forward...	false
+incidents_localised_title_wwd_ll_dilemma_wwd_incident_nanmanruqin_2	End of the Candle Tower Battle	false
+effect_bundles_localised_description_wwd_buff_for_infantry	"The children of Lingnan bleed but do not weep."	false
+effect_bundles_localised_title_wwd_buff_for_infantry	Illuminating the Night	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_dilemma_tiantinyuanzhuFIRST	Plan for Peace	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_ll_dilemma_tiantinyuanzhuFIRST	It is foolish to rely solely on oneself. Dispatch emissaries to expand trade along the Ivory Road.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_dilemma_tiantinyuanzhuSECOND	Plan for War	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_ll_dilemma_tiantinyuanzhuSECOND	Surrounded by enemies, we must expedite war preparations and hammer out strategy in every corner of the realm. Let the Astrologer divine celestial patterns to guide us to victory.	false
+dilemmas_localised_title_wwd_ll_dilemma_tiantinyuanzhu	Envoy from the Capital	false
+dilemmas_localised_description_wwd_ll_dilemma_tiantinyuanzhu	Weijing, the crown jewel of the Celestial Empire, houses the Celestial Compass and the mortal palace of the Dragon Emperor. Within this grand city resides the Emperor’s inner circle and the Empire's most illustrious officials. To maintain control over all directions, envoys from the capital are dispatched to various provinces.                                              \\n\\nAn envoy, accompanied by the Dragon Guard, has entered your residence. This is a rare opportunity to leverage relations for the Celestial Court’s aid, a chance to gain an edge in the struggle for power.\\n\\n[[col:yellow]]When allied with the Celestial Loyalists, envoys from the Celestial Court will regularly visit your faction. You can trade diplomatic standing for their assistance.[[/col]]	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_dilemma_tiantinyuanzhuTHIRD	Plan for Wealth	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_ll_dilemma_tiantinyuanzhuTHIRD	A thousand ambitions rest on one foundation. Persuasive words can move hearts, but only wealth can move mountains and seas.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_dilemma_tiantinyuanzhuFOURTH	Tribute to the Throne	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_ll_dilemma_tiantinyuanzhuFOURTH	Present a gift to the Celestial Court in exchange for greater support in the future.	false
+effect_bundles_localised_description_wwd_buff_for_tianting	Presenting a tribute to the Celestial Court to secure more significant support in the future.	false
+effect_bundles_localised_title_wwd_buff_for_tianting	Tribute Paid	false
+dilemmas_localised_title_wwd_ll_dilemma_confederate_with_tiantin	Envoy from the Capital	false
+dilemmas_localised_description_wwd_ll_dilemma_confederate_with_tiantin	Beyond the Great Bastion, the war cries of Kurgans shake the steppes. Beneath the Candle Tower, the blood of warriors stains the endless forests red. Destruction assails Cathay from all directions, yet under your leadership, the Empire stands defiant. At this critical juncture, when the fate of Cathay and the world hangs in balance, a leader must unite the scattered lords. You have proven your might to all under heaven. The Celestial Court’s envoys have delivered their decision: until the return of the Dragon Emperor and Moon Empress, they will follow your lead to save Cathay from the brink.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_dilemma_confederate_with_tiantinFIRST	Ascend to the Capital	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_ll_dilemma_confederate_with_tiantinFIRST	Winter has come. Cathay’s strength must rally under my command.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_dilemma_confederate_with_tiantinSECOND	Retain Current Order	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_ll_dilemma_confederate_with_tiantinSECOND	The Celestial Court's system is vast and intricate. A hasty takeover may lead to unforeseen chaos. It may be wiser to let them maintain their current structure.	false
+effect_bundles_localised_description_wwd_tiantinhebang	The sprawling bureaucracy of Weijing is now under your control. However, restoring its efficiency will take time to adapt.	false
+effect_bundles_localised_title_wwd_tiantinhebang	A Vast Bureaucracy	false
+effect_bundles_localised_description_wwd_tiantinhebang2	The sprawling bureaucracy of Weijing is now under your control. Population, roads, grain — information from all provinces converges in your hands. With one command, you can mobilize the entire nation.	false
+effect_bundles_localised_title_wwd_tiantinhebang2	Orchestrator of the Nine Provinces	false
+incidents_localised_title_deer_tiantin_captured1_event	Transfer of Counties	false
+incidents_localised_description_deer_tiantin_captured1_event	My lord, the Celestial Court’s army has captured a settlement beyond the Jingji Route and granted the territory to its rightful provincial lord.	false
+dilemmas_localised_title_wwd_introduction	[[col:yellow]]Walking with Dragons[[/col]]	false
+dilemmas_localised_description_wwd_introduction	The Celestial Empire is in turmoil, an era marked by darkness and discord. The Dragon Emperor and Moon Empress have been missing for over a century. Rebel warlords rise, distant provinces fall into lawlessness, and the Emperor's dragon children posture for power. While the lords bicker over this power vacuum, Cathay’s enemies seize the opportunity to swarm. In the south, the Monkey King claims lands of the Celestial Court—territory he would never dare touch were the Dragon Emperor present. Across Cathay, Tzeentchian cults silently grow, inciting strife among dragon heirs. To the north of the Great Bastion, the ravaging hordes of destruction gather on the steppes, their dark gods pounding at the Empire’s gates.\\n\\n[[img:icon_great_bastion]][[col:yellow]]Celestial Loyalists[[/col]] and [[col:green]]Imperial Wardens[[/col]] cannot confederate diplomatically. These factions represent [[col:yellow]]the Celestial Court[[/col]] and [[col:green]]the Great Bastion[[/col]], respectively, and serve as iconic symbols of Cathay. They will generate numerous events during the campaign. Through these events, you may eventually unite these factions.\\n\\n[[img:icon_great_bastion]] As time progresses, [[/img]][[col:magic]]major events[[/col]] will occur across the map, influencing the fate of other Cathayan factions. You can choose to participate in these battles to shape the course of the Empire.\\n\\n[[img:icon_great_bastion]] Cathay is treated as a single entity. The fall or recovery of a [[/img]][[col:white]]key region[[/col]] will affect the entire Empire.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_introductionFIRST	The wheels roll forward...	false
+effect_bundles_localised_description_wwd_dont_move	Your fate has already been decided.	false
+effect_bundles_localised_title_wwd_dont_move	Do Not Move	false
+effect_bundles_localised_description_wwd_longrengzaici	                                             [[col:yellow]]"I faced the apocalypse, and I did not waver."[[/col]]	false
+effect_bundles_localised_title_wwd_longrengzaici	[[col:yellow]]The Dragon Still Stands[[/col]]	false
+dilemmas_localised_title_wwd_ll_fina_battle	[[col:red]]The End Times[[/col]]	false
+dilemmas_localised_description_wwd_ll_fina_battle	You have triggered the End Times artifact battle chain for Cathay and completed one of its battles. Archaon's armies march on Weijing, and Cathay teeters on the brink of destruction. Would you like the campaign map to follow the artifact battle narrative—plunging Cathay into true apocalypse?\\n\\n[[col:red]]Note: If the scenario is followed, numerous Chaos armies will flood Cathay as the End Times progress, and some northern cities will be forcibly destroyed or occupied.[[/col]]	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_fina_battleFIRST	Fight!	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_ll_fina_battleFIRST	Let Archaon and his minions come!	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_fina_battleSECOND	Not my city!	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_ll_fina_battleSECOND	That's my level five city! You’re not touching my level five city!	false
+effect_bundles_localised_description_wwd_chosenone_archaon	Do you hear it? Destruction is knocking at the door.	false
+effect_bundles_localised_title_wwd_chosenone_archaon	Everchosen	false
+effect_bundles_localised_description_wwd_fazhan	The shadow of doom has been erased, and the sun rises again in the east.	false
+effect_bundles_localised_title_wwd_fazhan	End Times Victory!	false
+incidents_localised_title_deer_changyuan_captured1_event	Reclaiming the Great Bastion	false
+incidents_localised_description_deer_changyuan_captured1_event	My lord, a force from another province has reclaimed a fallen [[sl:campaign_great_bastion]]Great Bastion[[/sl]] gate. The border troops have reoccupied it and are fortifying its defenses.	false
+effect_bundles_localised_description_wwd_ll_dilemma_changyuanhuibao	In gratitude for our continued support of the Great Bastion, the border troops will provide assistance in future endeavors.	false
+effect_bundles_localised_title_wwd_ll_dilemma_changyuanhuibao	Border Troops' Support	false
+dilemmas_localised_title_wwd_ll_dilemma_changyuanhuibao	Border Troops' Support	false
+dilemmas_localised_description_wwd_ll_dilemma_changyuanhuibao	My lord, envoys from the Great Bastion have arrived. Our efforts to support the border troops have not gone unnoticed. Although you may see this as a duty, countless lives have been saved because of you. These brave guardians of Cathay’s borders are deeply grateful and have pledged to stand with you, no matter what the future holds.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_dilemma_changyuanhuibaoFIRST	Return the Favor	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_ll_dilemma_changyuanhuibaoFIRST	In gratitude for our continued support of the Great Bastion, the border troops will provide assistance in future endeavors.	false
+dilemmas_localised_title_wwd_ll_dilemma_changyuan_change	Reclaiming the Great Bastion	false
+dilemmas_localised_description_wwd_ll_dilemma_changyuan_change	My lord, our forces have successfully reclaimed one of the three gates of the [[sl:campaign_great_bastion]]Great Bastion[[/sl]]. The border troops are deeply grateful. Should we return command of the gate to them, or retain control ourselves?	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_dilemma_changyuan_changeFIRST	Return Control	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_ll_dilemma_changyuan_changeFIRST	The border troops will resume their duty of defending the Great Bastion.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_dilemma_changyuan_changeSECOND	Take Command	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_ll_dilemma_changyuan_changeSECOND	The border troops have failed. If they cannot hold the Great Bastion, I will.	false
+campaign_payload_ui_details_description_wwd_ll_dilemma_changyuan_change1	The gate will be returned to the Imperial Wardens faction.	false
+campaign_payload_ui_details_description_wwd_ll_dilemma_changyuan_change2	You will retain control of the gate.	false
+incidents_localised_description_wwd_ll_fina_battle_death_count01	                                           Archaon gazes upon this empire in its twilight, and his champions revel in the path of destruction.\\n\\n[[col:red]]Known Chaos Forces: 4[[/col]]\\n\\n[[col:red]]Confirmed Casualties: 12,607[[/col]]\\n\\n[[col:red]]Territories Lost: 1[[/col]]\\n\\n\\n[[col:red]]"Do you hear it? Destruction is knocking at the door."[[/col]]	false
+incidents_button_text_wwd_ll_fina_battle_death_count01	The Beginning of the End	false
+incidents_localised_title_wwd_ll_fina_battle_death_count01	[[col:red]]The End Times[[/col]]	false
+incidents_localised_description_wwd_ll_fina_battle_death_count02	                                            The Great Bastion has fallen under the endless tide of Chaos. The servants of the dark gods have flooded Cathay's heartlands.\\n\\n[[col:red]]Known Chaos Forces: ???[[/col]]\\n\\n[[col:red]]Confirmed Casualties: 93,714[[/col]]\\n\\n[[col:red]]Territories Lost: 5[[/col]]\\n\\n\\n[[col:red]]"Do you see it? Death dances across Cathay."[[/col]]	false
+incidents_button_text_wwd_ll_fina_battle_death_count02	Total War	false
+incidents_localised_title_wwd_ll_fina_battle_death_count02	[[col:red]]The End Times[[/col]]	false
+incidents_localised_description_wwd_ll_fina_battle_death_count03	                                            Centuries from now, our deeds will still be sung of. There is no retreat, only the path forward! Let our courage burn bright as flames, and let our enemies' fear be the herald of our victory! For the Dragon Emperor! For Cathay!\\n\\n[[col:red]]Known Chaos Forces: ???[[/col]]\\n\\n[[col:red]]Confirmed Casualties: 310,687[[/col]]\\n\\n[[col:red]]Territories Lost: 18[[/col]]\\n\\n\\n[[col:yellow]]"Do you hear it? The roar of Cathay's defiance."[[/col]]	false
+incidents_button_text_wwd_ll_fina_battle_death_count03	Sound the Horns of Retaliation!	false
+incidents_localised_title_wwd_ll_fina_battle_death_count03	[[col:red]]The End Times[[/col]]	false
+dilemmas_localised_title_wwd_ll_dilemma_deal_with_lzd	Survival of the Fittest	false
+dilemmas_localised_description_wwd_ll_dilemma_deal_with_lzd	The cold-blooded giant lizard pounds relentlessly on the raider's body until it ceases struggling, collapsing at its feet. Suddenly, a white shadow flashes through the jungle—a creature unlike anything it has seen. Its fur gleams like moonlight, and its swaying tails resemble the winds of its homeland. This strange white beast fills it with an unfamiliar lightness. What could it be? Chaos minions surge like waves, but Nakai's gaze remains fixed on the white figure. Then...	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_dilemma_deal_with_lzdFIRST	It stands with the beast.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_dilemma_deal_with_lzdSECOND	It raises its stone hammer against the beast.	false
+incidents_localised_title_deer_changyuan_captured1_enemy_event	The Great Bastion Falls	false
+incidents_localised_description_deer_changyuan_captured1_enemy_event	[[sl:campaign_great_bastion]]The Great Bastion[[/sl]], the grand defensive line across the Empire’s northern border, once thought unshakable, has now fallen under the invaders' assault!	false
+effect_bundles_localised_title_deer_changyuan_captured1_event	Dreams of Glory, Realities of Fall	false
+effect_bundles_localised_description_deer_changyuan_captured1_event	Though Cathayan soldiers fought to the last, the unending tide of enemies has broken even the firmest resolve. The news spreads like wildfire throughout the Empire, shrouding every corner in shock and fear: the Great Bastion has fallen. What place will be next?	false
+effect_bundles_localised_description_wwd_lost_landmark_kunlan	The master forges of Kunlan, whose weapons armed Cathay's finest soldiers, have gone cold. Divine weapons are nowhere to be found.\\n\\nRemoval Condition: Any [[sl:campaign_cathay]]Cathayan[[/sl]] faction recaptures Kunlan.	false
+effect_bundles_localised_title_wwd_lost_landmark_kunlan	[[col:red]]Fallen Kunlan[[/col]]	false
+effect_bundles_localised_description_wwd_lost_landmark_nangao	The industrial heart of Cathay, Nangao, supplied much of the Empire's weaponry and war machines. Its factories once roared ceaselessly, the product of centuries of refinement, but now lie destroyed in a single campaign.\\n\\nRemoval Condition: Any [[sl:campaign_cathay]]Cathayan[[/sl]] faction recaptures Nangao.	false
+effect_bundles_localised_title_wwd_lost_landmark_nangao	[[col:red]]Fallen Nangao[[/col]]	false
+incidents_localised_description_wwd_lost_landmark	A [[url:script_link_campaign_settlements]][[tooltip:{{tt:tooltip_campaign_settlements}}]]settlement[[/tooltip]][[/url]] critical to the Nine Provinces has fallen to the invaders.\\n\\nThese areas contain unique industries or resources, and losing them deals a significant blow to [[sl:campaign_cathay]]Cathay[[/sl]]. We must reclaim them quickly!	false
+incidents_localised_title_wwd_lost_landmark	[[col:red]]Key Region Lost[[/col]]	false
+campaign_payload_ui_details_description_wwd_lost_landmark	[[col:red]]Negative effects have been applied to all Cathayan factions[[/col]]	false
+effect_bundles_localised_title_wwd_lost_landmark_nongchang	[[col:red]]Fallen Nongchang[[/col]]	false
+effect_bundles_localised_description_wwd_lost_landmark_nongchang	The fertile rice paddies of the Nongchang Basin once fed all of Cathay, supplying its vast population with abundant grain. Now, the fertile fields lie in ruins, crops have failed, and famine grips the land.\\n\\nRemoval Condition: Any [[sl:campaign_cathay]]Cathayan[[/sl]] faction recaptures Nongchang.	false
+incidents_localised_title_wwd_take_landmark	Reclaiming Key Regions	false
+incidents_localised_description_wwd_take_landmark	A vital [[url:script_link_campaign_settlements]][[tooltip:{{tt:tooltip_campaign_settlements}}]]settlement[[/tooltip]][[/url]] that had fallen to invaders has been reclaimed by Cathay!	false
+campaign_payload_ui_details_description_wwd_take_landmark	[[col:green]]Negative effects have been removed[[/col]]	false
+effect_bundles_localised_description_wwd_lost_landmark_changyuan	Without the Great Bastion's protection, the Winds of Magic surge unchecked across the border. Do you hear them? The whispers of daemons.\\n\\nRemoval Condition: Any [[sl:campaign_cathay]]Cathayan[[/sl]] faction recaptures all three gates of the Great Bastion.	false
+effect_bundles_localised_title_wwd_lost_landmark_changyuan	[[col:red]]Fallen Great Bastion – Snake Gate[[/col]]	false
+effect_bundles_localised_description_wwd_lost_landmark_changyuan2	Without the Great Bastion's protection, the Winds of Magic surge unchecked across the border. Do you hear them? The whispers of daemons.\\n\\nRemoval Condition: Any [[sl:campaign_cathay]]Cathayan[[/sl]] faction recaptures all three gates of the Great Bastion.	false
+effect_bundles_localised_title_wwd_lost_landmark_changyuan2	[[col:red]]Fallen Great Bastion – Dragon Gate[[/col]]	false
+effect_bundles_localised_description_wwd_lost_landmark_changyuan3	Without the Great Bastion's protection, the Winds of Magic surge unchecked across the border. Do you hear them? The whispers of daemons.\\n\\nRemoval Condition: Any [[sl:campaign_cathay]]Cathayan[[/sl]] faction recaptures all three gates of the Great Bastion.	false
+effect_bundles_localised_title_wwd_lost_landmark_changyuan3	[[col:red]]Fallen Great Bastion – Turtle Gate[[/col]]	false
+campaign_payload_ui_details_description_wwd_ll_dilemma_confederate	Unlock the confederation option with the target faction in diplomatic actions (cannot confederate with vassal factions).	false
+dilemmas_localised_title_wwd_ll_dilemma_alliance_of_order	Gathering Storm: Part I	false
+dilemmas_localised_description_wwd_ll_dilemma_alliance_of_order	My lord, an envoy claiming to serve Emperor Karl Franz of the Western Empire seeks an audience. He speaks of an impending storm of destruction and the need to unite nations against the dark gods.\\nThe Empire requests that delegates travel to Altdorf for a summit that may decide the world's fate. Should you, or a representative, attend, it could greatly influence the conference's outcomes.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_dilemma_alliance_of_orderFIRST	Send a Delegate	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_ll_dilemma_alliance_of_orderFIRST	A diplomatic team will accompany the envoy westward. The crisis is upon us, and none can stand alone.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_dilemma_alliance_of_orderSECOND	Refuse the Envoy	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_ll_dilemma_alliance_of_orderSECOND	Nonsense! Cathay is a mighty realm, unrivaled under heaven. Their apocalypse is but an anthill before a mountain.	false
+campaign_payload_ui_details_description_wwd_ll_dilemma_alliance_of_order	A diplomatic team will be dispatched westward and will arrive in a few turns.	false
+dilemmas_localised_title_wwd_ll_dilemma_alliance_of_order2	Gathering Storm: Part II	false
+dilemmas_localised_description_wwd_ll_dilemma_alliance_of_order2	"The storm gathers.\\nEvil invades.\\nIt spares neither the mundane nor the extraordinary.\\nHow much longer can we withstand this tide?\\nWe must seek allies!\\nDie alone or survive together!\\nLet us not be blinded by our thirst for power!\\nAt this moment...\\nYour choice will determine the fate of the world\\nand all who dwell within it.\\nMake the\\nwise\\nchoice!"	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_dilemma_alliance_of_order2FIRST	Alliance of Order	false
+campaign_payload_ui_details_description_wwd_ll_dilemma_alliance_of_order2	Karl Franz has successfully brokered peace among the Order factions. Together, we will face the Chaos invasion.	false
+effect_bundles_localised_title_wwd_ll_dilemma_alliance_of_order	Order Alliance	false
+effect_bundles_localised_description_wwd_ll_dilemma_alliance_of_order	Die alone or survive together!	false
+dilemmas_localised_title_wwd_ll_fina_norsca	Uneasy Waters: Part I	false
+dilemmas_localised_description_wwd_ll_fina_norsca	My lord, the Navy Watch reports they have not received scheduled communications from the North Jade Sea Fleet in two weeks. No records of returning ships have been logged at the dragon fleet ports of Fuzhou.\\nDebris washes ashore, as if carrying whispers of death from the icy winds of Norsca. Something ominous stirs beyond the waves...	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_fina_norscaFIRST	All Quiet Across the Sea	false
+dilemmas_localised_title_wwd_ll_fina_norsca2	Uneasy Waters: Part II	false
+dilemmas_localised_description_wwd_ll_fina_norsca2	My lord, the Navy Watch reports a massive Norscan longship fleet advancing southwards across the Jade Sea, launching an invasion against Cathay. The dragon fleets have been deployed to the Northern Gulf, where a fierce battle rages—	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_fina_norsca2FIRST	The Norscans Break the Line	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_fina_norsca2SECOND	The Dragon Fleet Repels the Invasion	false
+dilemmas_localised_title_wwd_ll_fina_norsca3	Uneasy Waters: Part III	false
+dilemmas_localised_description_wwd_ll_fina_norsca3	Cathay’s proud dragon fleet drifts ashore in shattered remnants, split apart by merciless tides.\\n\\nStorms rage over the sea, and the shadows of longships fall across the land.\\n\\nNow, they come.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_fina_norsca3FIRST	The Waves Strike the Shore	false
+campaign_payload_ui_details_description_wwd_ll_fina_norsca3	[[col:red]]The full-scale invasion has begun[[/col]]	false
+dilemmas_localised_title_WWD_zhongyan_victory2	A New Dawn Rises	false
+dilemmas_localised_description_WWD_zhongyan_victory2	The Chaos assault has been repelled, and Cathay has reclaimed the bastions standing in the north. The scars of the End Times still linger—palaces reduced to rubble, heroes and sages now silent graves—but this was always meant to be a losing battle, and you have defied fate. On these shattered lands, survivors rebuild their homes. Beyond the horizon, the sun rises on a new day.\\n\\nCan Cathay reclaim its former glory? None can say, but you have witnessed this land's epic story. Its people will never bow.	false
+cdir_events_dilemma_choice_details_localised_choice_label_WWD_zhongyan_victory2FIRST	End\\nFin	false
+cdir_events_dilemma_choice_details_localised_choice_title_WWD_zhongyan_victory2FIRST	You have completed the End Times content of "With Dragons We March" and led Cathay through the apocalypse.\\nThe Warhammer world’s story continues. Destruction still rages in other lands, and the total war between Order and Chaos carries on. If you wish, your legend may yet be written.\\n\\nThank you for playing!	false
+incidents_localised_description_wwd_ll_fina_victory_region1	                                              My lord, our forces have recaptured [[url:script_link_campaign_settlements]][[tooltip:{{tt:tooltip_campaign_settlements}}]]Po Mei[[/tooltip]][[/url]]. The largest Chaos stronghold within the Bastion has been eradicated!\\n\\n[[col:yellow]]"Let us restore our shattered lands and reclaim the throne!"[[/col]]	false
+incidents_button_text_wwd_ll_fina_victory_region1	Restore the Land	false
+incidents_localised_title_wwd_ll_fina_victory_region1	Lost Territory Reclaimed	false
+effect_bundles_localised_description_wwd_ll_fina_victory_region	Northward! Northward!	false
+effect_bundles_localised_title_wwd_ll_fina_victory_region	Po Mei Reclaimed	false
+incidents_localised_description_wwd_ll_fina_victory_gate1	                                              My lord, the banners of Cathay once again fly over [[url:script_link_campaign_settlements]][[tooltip:{{tt:tooltip_campaign_settlements}}]]Snake Gate[[/tooltip]][[/url]].\\n\\nThe forces of Chaos have been driven from the borderlands, and one segment of the Bastion is ours once more!\\n\\n[[col:yellow]]"With sword in hand, we cut down the invaders!"[[/col]]	false
+incidents_button_text_wwd_ll_fina_victory_gate1	Restore the Land	false
+incidents_localised_title_wwd_ll_fina_victory_gate1	Lost Territory Reclaimed	false
+incidents_localised_description_wwd_ll_fina_victory_gate2	                                             We fought here once before, where the tides of Chaos overwhelmed [[url:script_link_campaign_settlements]][[tooltip:{{tt:tooltip_campaign_settlements}}]]Dragon Gate[[/tooltip]][[/url]].\\n\\nMountains were reduced to ashes, and countless border soldiers fell. Now, they have returned home. \\n\\n[[col:yellow]]"Drive the chariots forth and crush the invaders!"[[/col]]	false
+incidents_button_text_wwd_ll_fina_victory_gate2	Reclaim the Homeland	false
+incidents_localised_title_wwd_ll_fina_victory_gate2	Reclaim Lost Territory	false
+incidents_localised_description_wwd_ll_fina_victory_gate3	                                             The thundering drums echo through [[url:script_link_campaign_settlements]][[tooltip:{{tt:tooltip_campaign_settlements}}]]Ao Gate[[/tooltip]][[/url]].\\n\\nCheers rise and fall as the shadow of destruction is lifted, and the sun rises once more.\\n\\n[[col:yellow]]"The banners of the Han fill the Yin Mountains; not a single barbarian horse shall return."[[/col]]	false
+incidents_button_text_wwd_ll_fina_victory_gate3	Reclaim the Homeland	false
+incidents_localised_title_wwd_ll_fina_victory_gate3	Reclaim Lost Territory	false
+incidents_localised_title_wwd_incident_nochoose_00	The Scarlet Daoist	false
+incidents_localised_description_wwd_incident_nochoose_00	Along rugged paths, your army passes through forested terrain, intending to rest briefly in a village marked on the map, only to find it littered with corpses. The Jade-Blood Curse spreads, leaving mountain hamlets far from the citadels devastated.\\n\\nA Scarlet Daoist, also passing through, has just completed rites for the villagers. He offers your forces talismans to repel evil and departs in search of the source of this calamity. His eyes are obscured by tarnished coins, and his lone figure carries the sorrow of this tragedy upon his shoulders.	false
+incidents_localised_title_wwd_incident_nochoose_01	The Land of Martial Arts	false
+incidents_localised_description_wwd_incident_nochoose_01	A martial arts tournament is being held in a city along your path. Warriors gather to compete and showcase their skills, drawing martial enthusiasts from all walks of life. The traditions of Cathayan martial arts have endured for millennia, with even commoners able to execute flashy techniques, while the stage is dominated by true masters. The grandeur stirs your soldiers, and it seems a perfect opportunity to sharpen their skills outside the battlefield.	false
+effect_bundles_localised_description_wwd_incident_nochoose_00	The Daoist's talisman wards off evil and calamity. While Daoists can dispel spirits effortlessly, they are forever a fraction removed from saving everyone.	false
+effect_bundles_localised_title_wwd_incident_nochoose_00	The Daoist’s Talismans	false
+effect_bundles_localised_description_wwd_incident_nochoose_01	Watching masters at work is always exhilarating.	false
+effect_bundles_localised_title_wwd_incident_nochoose_01	Itching to Compete	false
+incidents_localised_title_wwd_incident_nochoose_02	Maxim of the Grand Secretary	false
+incidents_localised_description_wwd_incident_nochoose_02	The Grand Secretariat bridges the mortal realm and the Celestial Court. Countless secretaries heed the teachings of the Moon Empress, conveying her decrees to the land below. A maiden from the Secretariat arrives at your camp, radiating the Moon Empress's compassion: "Under the shade of the osmanthus, blessings descend, and martial fortunes flourish."	false
+effect_bundles_localised_description_wwd_incident_nochoose_02	The Moon Empress protects your army; wherever moonlight touches, sanctuary is assured.	false
+effect_bundles_localised_title_wwd_incident_nochoose_02	Blessings Under the Osmanthus	false
+incidents_localised_title_wwd_incident_nochoose_03	Nipponese Delegation	false
+incidents_localised_description_wwd_incident_nochoose_03	Nippon, across the Jade Sea, is shrouded in mystery, its powerful navy enforcing near-total isolation. Most Cathayans know only that Nipponese raiders frequently harass the coasts. However, records from the Dragon Emperor's era reveal that alchemists once visited this land, spreading Cathayan culture. Cathay's unparalleled prosperity under the Dragon Emperor captivated Nipponese scholars, merchants, and monks, though formal exchanges were restricted until a decree was issued a decade ago. After centuries of anticipation, a delegation has finally arrived to learn from Cathay.\\n\\nA delegation of Nipponese scholars visits your territory. After meeting them, their leader, speaking accented Cathayan, shares his concerns: escalating tensions in Nippon have led the military faction to halt all delegations. The political discord has turned the Shinto bureaucracy into a battleground. Despite waning calls for friendship, he assures you that voices for peace will always remain.	false
+effect_bundles_localised_description_wwd_incident_nochoose_03	"The radiant ark of Cathay is truly mesmerizing. I hope you may one day visit Nippon and witness our dragon ships, which will enrapture you as much as I am now!"	false
+effect_bundles_localised_title_wwd_incident_nochoose_03	Cultural Exchange	false
+incidents_localised_title_wwd_incident_nochoose_04	Wandering Souls	false
+incidents_localised_description_wwd_incident_nochoose_04	The Jade-Blood Curse spreads through Cathay, and the cycle of reincarnation escapes the control of the Celestial Masters. Souls meant to return to the Dragon River are scattered, and hollow corpses wail among the living. The Celestial Masters hear the Dragon of Souls weeping from the river's depths, mourning the collapse of life and death's balance. Bereft of power to intervene, the Celestial Masters resolve to take action against the chaos wrought by the Jade-Blood Curse.	false
+effect_bundles_localised_description_wwd_incident_nochoose_04	The Celestial Masters cannot idly stand by as the Jade-Blood Curse plunges Cathay into chaos. They must act.	false
+effect_bundles_localised_title_wwd_incident_nochoose_04	Celestial Intervention	false
+incidents_localised_title_wwd_incident_nochoose_05	Autumn Hunt of the Moonlit Forest	false
+incidents_localised_description_wwd_incident_nochoose_05	Dragon Monks guard the sacred Moonlit Forest, protecting it from unwelcome intruders and internal malevolence. The forest is a holy hunting ground for Cathayan dragons, teeming with mystical beasts nurtured by abundant magical winds. Yet, it also spawns malevolent spirits, born from its ambient energy, known as the Qi and Mei.\\n\\nEach year, dragons conduct four sacred hunts: Spring Sow, Summer Shoots, Autumn Hunt, and Winter Pursuit. During the Autumn Hunt, Dragon Monks assist the dragons in purging these malevolent spirits, ensuring the forest's harmony. This ritual, known as the Autumn Hunt of the Malevolent, purges the forest of its evils.	false
+effect_bundles_localised_description_wwd_incident_nochoose_05	Evil spirits harming the forest's creatures will be vanquished during the Autumn Hunt, restoring life’s balance.	false
+effect_bundles_localised_title_wwd_incident_nochoose_05	Autumn Purge of Malevolence	false
+dilemmas_localised_title_wwd_ll_fina_skv	Disturbing Movements	false
+dilemmas_localised_description_wwd_ll_fina_skv	My lord, troubling news arrives from the west. A protracted and brutal struggle unfolds at Eight Peaks among dwarfs, greenskins, and skaven. After much bloodshed, the skaven warlord Queek emerges victorious, with the severed heads of dwarfs and goblins adorning the mountains.\\n\\nRather than remaining fixated on the dwarfs, these vermin now march east under the decrepit Lord Nordwell's orders. The "Headtakers" lead the Clan Mors army, disrupting trade routes and silencing caravans crossing the Bone Wastes.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_fina_skvFIRST	Where are they headed?	false
+dilemmas_localised_title_wwd_ll_fina_skv2	Flesh Grinder	false
+dilemmas_localised_description_wwd_ll_fina_skv2	My lord, reports from the Western Provinces tell of skaven assaults on the southwest frontier. Of the 36,000 soldiers stationed at Naobula Pass, only one escaped to deliver the news, while the rest perished. Reinforcements from the five provinces suffered heavy losses, and entire units were annihilated. The dragon general Binlong, leading elite forces, barely holds the line at the Gentle Plains.\\n\\nThe Eightfold Sovereign has appealed for aid from the Altdorf College and allies along the Ivory Road, but their responses remain elusive.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_fina_skv2FIRST	Not an inch of ground!	false
+incidents_localised_description_wwd_zhongyan_jieduan1_flag	The world approaches its end as the Great Bastion's three gates are simultaneously besieged. The Everchosen commands an incomprehensibly vast army, surging like a tide outside the Great Bastion. Destruction beats upon Cathay's gates.\\n\\n[[col:red]]The Chaos armies assault the Great Bastion, with more enemies gathering at its three gates![[/col]]\\n\\n[[col:white]]Complete the next stage of the artifact quest to end the assault.[[/col]]	false
+incidents_localised_title_wwd_zhongyan_jieduan1_flag	[[col:red]]The End Times[[/col]]	false
+dilemmas_localised_title_wwd_ll_fina_nur	The Tower of Ashshya - Part 1	false
+dilemmas_localised_description_wwd_ll_fina_nur	Mountains tremble, the earth quakes, and the peaks shield the Bone Road from ill tidings. Yet the pestilence seeps over the summits.\\n\\nOgre refugees flee south, desperate and near death, some even seeking sanctuary in Cathay. They bring disturbing news: the Lord of Maggots approaches.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_fina_nurFIRST	The Great Khan moves among the peaks...	false
+dilemmas_localised_title_wwd_ll_fina_nur2	The Tower of Ashshya - Part 2	false
+dilemmas_localised_description_wwd_ll_fina_nur2	The Mourning Mountains weep as war engulfs Cathay. The Lord of Maggots follows his prophetic path, having claimed the tyrant of the Red Fist Tribe as his new host. However, the sprawling hordes of the Great Khan's warband are rife with dissent. A tribal leader, Xel the Faithless, covets the Tower of Ashshya's immense winds of magic. He has united vast beastmen herds, launching an assault on Cathay. The Western Provinces mobilize in response, and battle erupts.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_fina_nur2FIRST	On the seventh day, it listens to the plague's hymn...	false
+dilemmas_localised_title_dilemma_wwd_guojin	The "Great Hero" Tang Jingyin	false
+dilemmas_localised_description_dilemma_wwd_guojin	The battle is over, and this time, the "Great Hero" is no longer alone. With the defeat of the Dark Elves, vast territories have been reclaimed, and displaced people return to their homes. Grateful for your efforts alongside Tang Jingyin, eager youths hope to follow in your footsteps, seeking to uphold justice and serve Cathay.	false
+cdir_events_dilemma_choice_details_localised_choice_label_dilemma_wwd_guojinFIRST	Reclaim Lost Territory	false
+cdir_events_dilemma_choice_details_localised_choice_label_dilemma_wwd_guojinSECOND	Uphold Justice	false
+effect_bundles_localised_description_dilemma_wwd_guojin1	The displaced return home, marking a fresh start for all.	false
+effect_bundles_localised_title_dilemma_wwd_guojin1	Reclaim Lost Territory	false
+effect_bundles_localised_description_dilemma_wwd_guojin2	Some join your forces, while others, inspired by Tang Jingyin’s tales, wander the land seeking justice.	false
+effect_bundles_localised_title_dilemma_wwd_guojin2	Uphold Justice	false
+dilemmas_localised_title_dilemma_wwd_zhouyu	"The Silken Jade Commander" Ying Jin	false
+dilemmas_localised_description_dilemma_wwd_zhouyu	"The Silken Jade Commander" stands aboard the Celestial Ark as Po Mei once again returns to Cathay's embrace. This city bears many scars, but now, everything will return to its proper course. Across Cathay's vast lands, Celestial Ark fleets sparkle like stars, yet few leaders rival the renown of "The Silken Jade Commander." However, factions within Po Mei still stir restlessly, and Ying Jin is the most suitable candidate to mediate their interests.\\n\\nMy lord, how shall we act in this situation? Ying Jin's joining will undoubtedly bring immense strength to our cause. His wisdom and talent can aid us greatly in addressing the challenges posed by Po Mei.	false
+cdir_events_dilemma_choice_details_localised_choice_label_dilemma_wwd_zhouyuFIRST	The Ark Sets Sail	false
+cdir_events_dilemma_choice_details_localised_choice_label_dilemma_wwd_zhouyuSECOND	Workshops Rekindled	false
+effect_bundles_localised_description_dilemma_wwd_zhouyu1	"The commander has boarded the ark!"	false
+effect_bundles_localised_title_dilemma_wwd_zhouyu1	The Ark Sets Sail	false
+effect_bundles_localised_description_dilemma_wwd_zhouyu2	The workshops of Po Mei are active once more, with new fleets under construction.	false
+effect_bundles_localised_title_dilemma_wwd_zhouyu2	Workshops Rekindled	false
+dilemmas_localised_title_dilemma_wwd_yiqu	"The Incense Bearer" Yi Yaohua	false
+dilemmas_localised_description_dilemma_wwd_yiqu	"The Incense Bearer" returns to her residence after tending to the wounds of frontline soldiers. The war over the Great Bastion rages on without pause, and neither has she rested. Thanks to your assistance, the border army has gained some reprieve. Although Yi Yaohua still worries for the battlefront, she believes that following you will allow her to help even more people. As a Grand Secretary linking the Celestial Court and the Jade Court, Yi Yaohua possesses unparalleled skills, and her ritual dances, seen by mortals as miracles, have profound effects. Now, this legendary Grand Secretary has joined your cause. Where will she be sent?	false
+cdir_events_dilemma_choice_details_localised_choice_label_dilemma_wwd_yiquFIRST	Bridge the Celestial Court	false
+cdir_events_dilemma_choice_details_localised_choice_label_dilemma_wwd_yiquSECOND	Join the Army	false
+effect_bundles_localised_description_dilemma_wwd_yiqu1	Allow "The Incense Bearer" to continue conveying the Grand Secretariat's messages.	false
+effect_bundles_localised_title_dilemma_wwd_yiqu1	Maxim of the Grand Secretariat	false
+effect_bundles_localised_description_dilemma_wwd_yiqu2	Yi Yaohua's fame spreads across Cathay, and her presence greatly boosts the morale of your troops.	false
+effect_bundles_localised_title_dilemma_wwd_yiqu2	Emboldened Army	false
+dilemmas_localised_title_dilemma_wwd_yawei	"The Raven Guard" Ku Xi	false
+dilemmas_localised_description_dilemma_wwd_yawei	The rustling of feathers fills your ears. You dislike Ku Xi's penchant for making such entrances, but it is a habit honed through a long career of assassinations. The master assassin nods in approval of your achievements. As the founder of the Raven Feather Corps, Ku Xi's unmatched skills make him Cathay's foremost assassin. Countless prominent figures have met their end at his hands, and now, "The Raven Guard" awaits your command to name his next target.	false
+cdir_events_dilemma_choice_details_localised_choice_label_dilemma_wwd_yaweiFIRST	Penetrate All Defenses	false
+cdir_events_dilemma_choice_details_localised_choice_label_dilemma_wwd_yaweiSECOND	Shadows Hold No Refuge	false
+effect_bundles_localised_description_dilemma_wwd_yawei1	In the known world, there is no place Ku Xi cannot infiltrate.	false
+effect_bundles_localised_title_dilemma_wwd_yawei1	Penetrate All Defenses	false
+effect_bundles_localised_description_dilemma_wwd_yawei2	Attempting to deceive Ku Xi with covert ploys is a futile effort. Conspiracies cannot escape his scrutiny.	false
+effect_bundles_localised_title_dilemma_wwd_yawei2	Shadows Hold No Refuge	false
+dilemmas_localised_title_dilemma_wwd_meihouwang	"The Monkey King"	false
+dilemmas_localised_description_dilemma_wwd_meihouwang	The Monkey King vividly recounts his tale. Undoubtedly, this monkey is a master storyteller, and his legend is likely more than mere stories. With many battles ahead, you have vouched for the Monkey King to Cathay, allowing him and his descendants free passage within the Celestial Empire. Convincing other nobles to work alongside this "troublesome monkey" might be challenging, but the Monkey King's powerful support makes it all worthwhile.	false
+cdir_events_dilemma_choice_details_localised_choice_label_dilemma_wwd_meihouwangFIRST	The Monkey King Rises	false
+effect_bundles_localised_description_wwd_ll_fina_victory_gate1	"To wield my sword, I vow to vanquish Loulan."	false
+effect_bundles_localised_title_wwd_ll_fina_victory_gate1	Reclaim Kuimen Gate	false
+effect_bundles_localised_description_wwd_ll_fina_victory_gate2	"Ride my chariot to shatter the Helan Pass."	false
+effect_bundles_localised_title_wwd_ll_fina_victory_gate2	Reclaim Longmen Gate	false
+effect_bundles_localised_description_wwd_ll_fina_victory_gate3	"The banners of the Han fill the Yin Mountains; not a single barbarian horse shall return."	false
+effect_bundles_localised_title_wwd_ll_fina_victory_gate3	Reclaim Ao Gate	false
+effects_description_wwd_main_effect_army_ability_ancestral_warriors	Army Ability: "Ancestral Warriors"	false
+resources_description_wwd_weijin	Wei-Jin is the capital of the Celestial Empire and home to the Dragon Emperor. This magnificent city is adorned with wonders, its jade towers gleaming in the sky, with the Five-Element Compass suspended above its peaks.	false
+resources_onscreen_text_wwd_weijin	Capital of the Celestial Empire	false
+effect_bundles_localised_description_wwd_weijin	Wei-Jin is the capital of the Celestial Empire and home to the Dragon Emperor. This magnificent city is adorned with gleaming wonders.\\n\\n[[img:icon_yang]][[col:white]]Unlocked by constructing the Celestial Court.[[/col]]	false
+effect_bundles_localised_title_wwd_weijin	Capital of the Celestial Empire	false
+effect_bundles_localised_description_wwd_kunlan	The elite armies of Cathay rely on weapons forged in Kunlan.\\n\\n[[img:icon_yang]][[col:white]]Unlocked by constructing a Provincial Capital.[[/col]]	false
+effect_bundles_localised_title_wwd_kunlan	Kunlan	false
+effect_bundles_localised_description_wwd_nangao	The industrial heart of Cathay, Nangao supplies the majority of weapons and war machines used by its armies.\\n\\n[[img:icon_yang]][[col:white]]Unlocked by constructing a Provincial Capital.[[/col]]	false
+effect_bundles_localised_title_wwd_nangao	Nangao	false
+effect_bundles_localised_title_wwd_nongchang	Nongchang	false
+effect_bundles_localised_description_wwd_nongchang	The Nongchang Basin boasts the richest rice fields in all of Cathay. The city's produce is transported across the empire to sustain its vast population.\\n\\n[[img:icon_yang]][[col:white]]Unlocked by constructing a Provincial Capital.[[/col]]	false
+resources_description_wwd_import_city	These regions control industries or resources critical to Cathay. Upon constructing a Provincial Capital, the region gains unique benefits. However, should these cities fall, all of Cathay will feel the impact.	false
+resources_onscreen_text_wwd_import_city	Key City of Cathay	false
+dilemmas_localised_title_wwd_ll_dilemma_deal_with_gelt	The Golden College	false
+dilemmas_localised_description_wwd_ll_dilemma_deal_with_gelt	For those who journey thousands of miles eastward from the Old World, Zhao Ming is the most enlightened leader they can imagine. This enigmatic ruler of the Eastern Celestial Empire embraces the technologies and knowledge they bring with curiosity and openness. Diplomatic meetings between Gelt and the Eightfold Sovereign have borne fruit. Binlong, intrigued by the starkly different arts of metallurgy Gelt practices compared to Cathay’s alchemists, granted his wish to establish a branch of the Golden College in Cathay. In exchange, Gelt admitted numerous Cathayan alchemists into his institution and continuously supplied Zhao Ming with innovations from the Old World.\\n\\nAlthough both sides have benefited greatly from this alliance, as the Golden College’s presence grows, discontent rises among Cathayan nobility. Though Gelt officially manages the Golden College, operating within the Jingfeng Monastery, and serves as an imperial envoy, his influence seems to grow unchecked. The Jingfeng Monastery increasingly feels like his domain. While Zhao Ming believes he has maintained balance, other Cathayan leaders demand reassurances. Gelt and Zhao Ming must address their concerns.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_dilemma_deal_with_geltFIRST	Ensure Sovereignty	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_ll_dilemma_deal_with_geltFIRST	Cathay retains full sovereignty over Jingfeng Monastery. The Golden College resides here only by permission and pledges to respect Cathay's territorial integrity with official guarantees.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_dilemma_deal_with_geltSECOND	Send Them Home	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_ll_dilemma_deal_with_geltSECOND	The Imperial representatives have overstepped their bounds. They must not interfere with Cathay's sovereignty.	false
+campaign_payload_ui_details_description_wwd_ll_dilemma_deal_with_gelt1	Gelt establishes a military alliance with Zhao Ming.	false
+campaign_payload_ui_details_description_wwd_ll_dilemma_deal_with_gelt2	Gelt returns to Solland.	false
+effect_bundles_localised_title_wwd_ll_dilemma_deal_with_gelt	Oath of the Golden College	false
+effect_bundles_localised_description_wwd_ll_dilemma_deal_with_gelt	Gelt has no intention of claiming land from his allies. He has made every promise within his power to ensure continued friendship between the Empire and Cathay.\\n\\n[[col:white]]If war breaks out with Gelt, this oath will be nullified.[[/col]]	false
+dilemmas_localised_title_wwd_ll_dilemma_deal_with_gelt3	Departing Years	false
+dilemmas_localised_description_wwd_ll_dilemma_deal_with_gelt3	"Friends of Cathay, I have been warmly received here. Thank you for your trust. Together, we have shed blood and tears, a bond I will never forget. Yet now, as the End Times approach, I must leave, though I deeply regret abandoning you in your time of crisis. My homeland faces annihilation, and I hope you understand that I must first save my own people.\\n\\nThe Golden Bastion built by my college in the Empire's north is crumbling. The good news is that the undead of Sylvania are also fighting Chaos, though whether they are friend or foe remains unclear. Regardless, they stand in my path, and I intend to take my chances, hoping to find more ways to save the Empire. By the time you read this, my army will already be marching. Perhaps we shall meet again after the apocalypse. When that day comes, I shall bring you spoils from the western battlefields. Farewell for now, Binlong. Good luck!\\n\\n—Your friend, Gelt"	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_dilemma_deal_with_gelt3FIRST	You head to Xiang River; I march to Qin.	false
+campaign_payload_ui_details_description_wwd_ll_dilemma_deal_with_gelt3	Gelt has returned to the Empire, and Cathayan settlements under his control will be relinquished.	false
+names_name_1021105007	"Imperial Ambassador" Helmut Gintlay	true
+names_name_1021105008	"Mountain Kingdom Envoy" Baldeck Broadbeard	false
+names_name_1021105009	"Royal Court Envoy" Vassalissa Fedokova	false
+names_name_1021105010	"Bretonnian Emissary" Lagne Nathan	false
+names_name_1021105011	"Ulthuan Ambassador" Sylentor	false
+names_name_1021105012	Miao An	false
+names_name_1021105004	"Eastern Envoy" Nangong Zi	true
+effect_bundles_localised_title_wwd_turtle_gate	Turtle's Breath	false
+effect_bundles_localised_title_wwd_dragon_gate	Dragon's Charge	false
+effect_bundles_localised_title_wwd_snake_gate	Snake's Coil	false
+effects_description_wwd_army_ability_qishe	Army Ability: "Volley Fire"\\n(Under Cathayan Command)	false
+unit_abilities_tooltip_text_wwd_army_ability_qishe	Bows drawn tight, firing in perfect unison.	false
+unit_abilities_onscreen_name_wwd_army_ability_qishe	Volley Fire	false
+effect_bundles_localised_description_wwd_turtle_gate	The three gates wind through rocky peaks, unassailable cliffs. Brave warriors stand vigilant atop the bastion; one soldier holds the pass, ten thousand cannot break through.\\n\\n[[img:icon_yang]][[col:white]]Unlocked by fortifying the Great Bastion.[[/col]]	false
+effect_bundles_localised_description_wwd_dragon_gate	The three gates wind through rocky peaks, unassailable cliffs. Brave warriors stand vigilant atop the bastion; one soldier holds the pass, ten thousand cannot break through.\\n\\n[[img:icon_yang]][[col:white]]Unlocked by fortifying the Great Bastion.[[/col]]	false
+effect_bundles_localised_description_wwd_snake_gate	The three gates wind through rocky peaks, unassailable cliffs. Brave warriors stand vigilant atop the bastion; one soldier holds the pass, ten thousand cannot break through.\\n\\n[[img:icon_yang]][[col:white]]Unlocked by fortifying the Great Bastion.[[/col]]	false
+character_trait_levels_explanation_text_haotian_weapon_trait	Acquisition: Gained from the Hao Tian Sword.	false
+character_trait_levels_onscreen_name_haotian_weapon_trait	Treasure of the Nation, Wielded by Many	false
+character_trait_levels_colour_text_haotian_weapon_trait	This sword once bore the marks of a farmer's clumsy strike and was driven into a demon's flesh by an unnamed soldier. Countless Cathayans have wielded this blade, not as heroes or legends, but as ordinary people fighting for their homeland.\\n\\nThe blade reflects sunlight, blinding yet captivating—it reveals the fellow Cathayans fighting alongside you and the Dragon God walking among His people.	false
+character_trait_levels_explanation_text_shuoshuren_trait	Acquisition: Gained from the Storyteller.	false
+character_trait_levels_onscreen_name_shuoshuren_trait	Agent of the Skaven	false
+character_trait_levels_colour_text_shuoshuren_trait	Contact between Skaven and other races is not unprecedented, but securing the support of a Skaven warband on this scale is unheard of. Does this storyteller truly possess such charisma?	false
+land_units_onscreen_name_wwd_cstg	Agent of the Skaven	false
+unit_description_short_texts_text_wwd_cstg	An infamous Skaven warband, rumored to have clashed with various races across the Old World.	false
+effects_description_wwd_cstg	Binds Ability: "Agent of the Skaven"	true
+unit_abilities_tooltip_text_wwd_cstg	An infamous Skaven warband, rumored to have clashed with various races across the Old World.	false
+unit_abilities_onscreen_name_wwd_cstg	Agent of the Skaven	false
+dilemmas_localised_title_deer_tiantin_captured1_event_my	Capture the City	false
+dilemmas_localised_description_deer_tiantin_captured1_event_my	My lord, the Celestial Army has captured a [[url:script_link_campaign_settlements]][[tooltip:{{tt:tooltip_campaign_settlements}}]]city[[/tooltip]][[/url]] outside the Imperial Route. This region was originally under your jurisdiction but fell into other hands during prior conflicts. The Celestial Court intends to return it to you, provided you pledge renewed loyalty to the court.	false
+cdir_events_dilemma_choice_details_localised_choice_label_deer_tiantin_captured1_event_myFIRST	Accept the City	false
+cdir_events_dilemma_choice_details_localised_choice_title_deer_tiantin_captured1_event_myFIRST	Send a note of thanks to the Celestial envoy for reclaiming the city on our behalf.	false
+cdir_events_dilemma_choice_details_localised_choice_label_deer_tiantin_captured1_event_mySECOND	Relinquish the City	false
+cdir_events_dilemma_choice_details_localised_choice_title_deer_tiantin_captured1_event_mySECOND	It’s not that I won’t reclaim my lands, but I simply have no need for them now.	false
+campaign_payload_ui_details_description_deer_tiantin_captured1_event_taken	The city will be transferred to your control.	false
+campaign_payload_ui_details_description_deer_tiantin_captured1_event_give	The city will remain under Celestial Court administration.	false
+dilemmas_localised_title_deer_tiantin_captured1_event_hd	Capture the City	false
+dilemmas_localised_description_deer_tiantin_captured1_event_hd	My lord, the Celestial Army has captured a [[url:script_link_campaign_settlements]][[tooltip:{{tt:tooltip_campaign_settlements}}]]city[[/tooltip]][[/url]] outside the Imperial Route. This region was originally under your jurisdiction but fell into other hands during prior conflicts. The Celestial Court intends to return it to you, provided you pledge renewed loyalty to the court.	false
+cdir_events_dilemma_choice_details_localised_choice_label_deer_tiantin_captured1_event_hdFIRST	Accept the City	false
+cdir_events_dilemma_choice_details_localised_choice_title_deer_tiantin_captured1_event_hdFIRST	Send a note of thanks to the Celestial envoy for reclaiming the city on our behalf.	false
+cdir_events_dilemma_choice_details_localised_choice_label_deer_tiantin_captured1_event_hdSECOND	Relinquish the City	false
+cdir_events_dilemma_choice_details_localised_choice_title_deer_tiantin_captured1_event_hdSECOND	It’s not that I won’t reclaim my lands, but I simply have no need for them now.	false
+dilemmas_localised_title_deer_tiantin_captured1_event_yt	Capture the City	false
+dilemmas_localised_description_deer_tiantin_captured1_event_yt	My lord, the Celestial Army has captured a [[url:script_link_campaign_settlements]][[tooltip:{{tt:tooltip_campaign_settlements}}]]city[[/tooltip]][[/url]] outside the Imperial Route. This region was originally under your jurisdiction but fell into other hands during prior conflicts. The Celestial Court intends to return it to you, provided you pledge renewed loyalty to the court.	false
+cdir_events_dilemma_choice_details_localised_choice_label_deer_tiantin_captured1_event_ytFIRST	Accept the City	false
+cdir_events_dilemma_choice_details_localised_choice_title_deer_tiantin_captured1_event_ytFIRST	Send a note of thanks to the Celestial envoy for reclaiming the city on our behalf.	false
+cdir_events_dilemma_choice_details_localised_choice_label_deer_tiantin_captured1_event_ytSECOND	Relinquish the City	false
+cdir_events_dilemma_choice_details_localised_choice_title_deer_tiantin_captured1_event_ytSECOND	It’s not that I won’t reclaim my lands, but I simply have no need for them now.	false
+advice_levels_onscreen_text_202411121401	\\nMy lord, the troops are at the ready. A battle will commence after the turn ends. We should prepare accordingly.	true
+advice_levels_onscreen_text_202411121402	\\nIn the chaos, another Guardian Beast has appeared. They still honor their ancient pact with the Dragon Emperor. Perhaps we can seek their aid.\\n\\n[[col:white]]A Guardian Beast mission has been added.[[/col]]	true
+names_name_98742427	"Right Wing General" Li Zhixuan	true
+names_name_98742428	"Dragon Gate Commander" Yi Shao	true
+names_name_98742429	"Ao Gate Commander" An Tutong	true
+names_name_98742430	"Southern Army Commander" Zhao Yixuan	true
+effects_description_wwd_diplomacy_mod_bianjun	Diplomatic Stance: %+n with Imperial Sentinels	false
+effects_description_wwd_ll_dilemma_changyuanhuibao	Border Guard Recruitment Unlocked	false
+effects_description_wwd_ll_dilemma_changyuanhuibao2	Your aid to the frontier army will bring additional reinforcements.	false
+dilemmas_localised_title_wwd_incident_vilitch	The Ever-Changing Drama	false
+dilemmas_localised_description_wwd_incident_vilitch	Unbelievable upheaval has struck Po Mei—cultists of Tzeentch lurking within the city, seeing their agent's defeat as inevitable, have incited a rebellion. Maddened ramblings echo in schools, bizarre sermons emanate from the Nanyang King's residence, and daemons laugh from within sacrificial vessels. Nightmares of the past descend once more.\\n\\nThe puppet beneath the strings falters; the horns of Chaos rise to take center stage.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_incident_vilitchFIRST	One crisis after another...	false
+campaign_payload_ui_details_description_wwd_incident_vilitch	[[col:red]]The Tyranny Puppet's army has seized control of Po Mei.[[/col]]	false
+dilemmas_localised_title_wwd_incident_hongwudu	Loyalty in the Northwest	false
+dilemmas_localised_description_wwd_incident_hongwudu	Not all Hongwu Overseers in Shang-Yang have become collaborators with the usurpers. Those loyal to Zhao Ming hid from the purges, waiting for the right moment. Many have already sacrificed themselves under Yesheng’s reign of terror, but as Binlong’s forces approach Shangyang, the tide finally turns. Loyal defenders rally discontented soldiers and civilians, rising up to strike Yesheng from behind.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_incident_hongwuduFIRST	Strike Back	false
+campaign_payload_ui_details_description_wwd_incident_hongwudu	[[col:green]]A group of loyal Hongwu Overseers has launched an attack outside Shang-Yang.[[/col]]	false
+dilemmas_localised_title_wwd_incident_ogr_fight	Ogre Uprising	false
+dilemmas_localised_description_wwd_incident_ogr_fight	Terrible news from the western frontier—a horde of starving ogres, incited by the Overtyrant of Bloodcrag Peak, has poured across the borders of Titan Valley. Small villages are being pillaged, westbound merchants torn apart in frenzied brawls, and tons of meat and treasure are being sent to the blood-drenched throne of Bloodcrag Peak. The scars of the Ogre Wars are still fresh; we cannot allow such atrocities to continue. Since they have abandoned the hard-won peace, it falls to Cathay to restore it.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_incident_ogr_fightFIRST	Peace Through Struggle	false
+campaign_payload_ui_details_description_wwd_incident_ogr_fight	[[col:red]]Ogres from the Bloodfeast Tribe are raiding Cathay's frontier.[[/col]]	false
+dilemmas_localised_title_wwd_ll_zhongyan_herald	The End Draws Near	false
+dilemmas_localised_description_wwd_ll_zhongyan_herald	On the western frontier, the Iron Army of the Western Provinces fights desperately to keep plague and vermin at bay; in the southern jungles, alien corpses pile high, their blood used to paint grotesque totems by the Zhushu; the Great Bastion has become a true meat grinder, where death is routine, with tens of thousands of reinforcements sent daily to replace fallen predecessors; on the eastern coast, Norscan hordes march ashore in tens of thousands, and behind their longships looms an even greater shadow. Prepare yourself—the end is coming.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_zhongyan_heraldFIRST	Continue	false
+dilemmas_localised_title_wwd_ll_fina_jade_blood	Jade Blood Curse: Part 1	false
+dilemmas_localised_description_wwd_ll_fina_jade_blood	Along rugged paths, your army passes through forested terrain, intending to rest briefly in a village marked on the map, only to find it littered with corpses. The Jade Blood Curse spreads, leaving mountain hamlets far from the citadels devastated.\\n\\nA Scarlet Daoist, also passing through, has just completed rites for the villagers. He offers your forces talismans to repel evil and departs in search of the source of this calamity. His eyes are obscured by tarnished coins, and his lone figure carries the sorrow of this tragedy upon his shoulders.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_fina_jade_bloodFIRST	A Calamity Unbidden...	false
+dilemmas_localised_title_wwd_ll_fina_jade_blood2	Jade Blood Curse: Part 2	false
+dilemmas_localised_description_wwd_ll_fina_jade_blood2	Conditions in Nongchang worsen. Once Cathay's most fertile lands, the region now lies in eerie silence. The cycle of reincarnation is broken, with souls meant for the Dragon River scattered and lifeless corpses wailing among the living. The Celestial Masters hear the cries from the river's depths: the Dragon of Souls mourns the collapse of life and death’s balance. Corpses long dead rise again, while malevolent spirits plague the land.\\n\\nThe curse spreads, sparing no living being.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_fina_jade_blood2FIRST	The Cycle of Life Is Broken	false
+dilemmas_localised_title_wwd_ll_fina_battle_event01	Fifteen Edicts of Gold	false
+dilemmas_localised_description_wwd_ll_fina_battle_event01	My lord, hearing of the northern barbarian threat, the court officials disgrace themselves with cowardice before battle! Shao, the Vice Censor of the Celestial Court, leads a group of officials and clerks to storm the Grand Secretariat and present fifteen golden edicts, urging the withdrawal of troops from the northern provinces and the relocation of the capital to the southeast. They even propose ceding lands north of the Jiang River to the Tianqi Warbands, hoping to buy temporary peace and avoid annihilation.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_fina_battle_event01FIRST	Execute Without Mercy!	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_ll_fina_battle_event01FIRST	These treacherous dogs! Every inch of Cathay is sacred, and our soldiers bleed on the frontlines not to save the hides of craven bureaucrats! How dare these vermin issue orders to Cathay’s proud warriors!	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_fina_battle_event01SECOND	Helpless Indignation...	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_ll_fina_battle_event01SECOND	Shao already controls the court officials. While we have the will to serve our nation, these small-minded schemers obstruct our path. The nation falls, the mountains crumble.	false
+campaign_payload_ui_details_description_wwd_ll_fina_battle_event01	[[col:green]]When Cathay's situation is at or above [[/col]] [[col:white]]Prosperity[[/col]] [[col:green]], resistance succeeds.[[/col]]\\n[[col:red]]When Cathay's situation is below [[/col]] [[col:white]]Prosperity[[/col]] [[col:red]], resistance fails.[[/col]]	false
+campaign_payload_ui_details_description_wwd_ll_fina_battle_event011	[[col:red]]A thousand miles of fertile land north of the Jade River have been betrayed by traitorous officials seeking survival.[[/col]]\\n[[col:red]]Cathay’s armies will be forcibly redeployed.[[/col]]	false
+dilemmas_localised_title_wwd_dip_event_emp	Empire's Plea	false
+dilemmas_localised_description_wwd_dip_event_emp	My lord, the Emperor of the Western Empire has delivered a plea for aid through our emissary. Nuln's forges are running at full capacity, yet they cannot produce enough firearms to hold back Chaos. Appeals to the dwarfs have yielded little, as their craftsmen are stretched thin by ongoing wars in the mountains. The Empire now turns to us as their last hope.\\n\\nHowever, the requested quantity of firearms is immense. Supplying such a vast arsenal will undoubtedly strain our own reserves, and under the current circumstances, the Empire has little to offer in return.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_dip_event_empFIRST	Extend Our Aid	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_dip_event_empFIRST	The world teeters on the brink. The principle of mutual dependence is clear to all. Now is not the time for shortsightedness. Inform our allies that Cathay's aid will arrive as promised.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_dip_event_empSECOND	We Regretfully Decline	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_dip_event_empSECOND	The Celestial Empire faces its own dire peril. While our hearts long to assist, we lack the means.	false
+effect_bundles_localised_description_wwd_dip_event_emp	A vast shipment of firearms has been sent to the Empire, with hopes that our allies will weather the storm.	false
+effect_bundles_localised_title_wwd_dip_event_emp	[[col:red]]Aid for the Empire[[/col]]	false
+dilemmas_localised_title_wwd_dip_event_emp2	Assistance for the Empire	false
+dilemmas_localised_description_wwd_dip_event_emp2	Though the Old World fronts are on the brink of collapse, the Celestial Empire stands amidst its own autumn of peril. The Empire will not stand idle—under Emperor Karl's directive, a contingent of elite Imperial troops marches east. Now, our human brothers from the Old World have arrived in Wei-Jin, ready to fight alongside us!	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_dip_event_emp2FIRST	The Empire Repays Its Debts	false
+dilemmas_localised_title_wwd_dip_event_dwf	Aid from the Mountain Kingdom	false
+dilemmas_localised_description_wwd_dip_event_dwf	My lord, the High King of the Mountain Kingdom has sent a plea through our emissary. Their Iron Army fights desperately in the tunnels against countless Skaven, achieving heroic feats every day. But the vermin's numbers are overwhelming. The Book of Grudges grows ever heavier as one dwarf stronghold after another is obliterated, entire kingdoms erased. The Mountain Kingdom’s defenses have repeatedly contracted.\\n\\nThe High King, once too proud to seek aid, now sets aside his arrogance, knowing his people face extinction. He beseeches Cathay to send forces to help repel the invaders.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_dip_event_dwfFIRST	Extend Our Aid	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_dip_event_dwfFIRST	The world teeters on the brink. The principle of mutual dependence is clear to all. Now is not the time for shortsightedness. Inform our allies that Cathay’s aid will arrive as promised.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_dip_event_dwfSECOND	Regretfully Decline	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_dip_event_dwfSECOND	The Celestial Empire faces its own dire peril. While our hearts long to assist, we lack the means.	false
+effect_bundles_localised_description_wwd_dip_event_dwf	Celestial expeditionary forces have been dispatched to the Mountain Kingdoms. We stand with the mountains.	false
+effect_bundles_localised_title_wwd_dip_event_dwf	[[col:red]]Aid for the Mountain Kingdom[[/col]]	false
+dilemmas_localised_title_wwd_dip_event_dwf2	Assistance for the Mountain Kingdom	false
+dilemmas_localised_description_wwd_dip_event_dwf2	The dwarfs do not only remember grievances—they also honor kindness. With aid from the east during their time of need, the Celestial Empire prevented the fall of the Mountain Kingdoms. Now, it is the dwarfs' turn to save their allies!	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_dip_event_dwf2FIRST	The Mountain Kingdom Never Forgets	false
+campaign_payload_ui_details_description_wwd_dip_event	[[col:green]]Reinforcements will be sent to the Old World, strengthening the Forces of Order.[[/col]]	false
+campaign_payload_ui_details_description_wwd_dip_event2	[[col:green]]Order Alliance, Unite![[/col]]\\n[[img:icon_allegiance]][[/img]][[col:white]]You can command allied units using the Army Borrowing feature.[[/col]]	false
+campaign_payload_ui_details_description_wwd_dip_event3	[[col:green]]The Empire Joins the Battle[[/col]]	false
+campaign_payload_ui_details_description_wwd_dip_event4	[[col:green]]The Mountain Kingdom Joins the Battle[[/col]]	false
+dilemmas_localised_title_wwd_ll_fina_battle_event02	Every Inch of Land, Every Drop of Blood	false
+dilemmas_localised_description_wwd_ll_fina_battle_event02	Wei-Jin lies beneath us, the homeland of our descendants. The soil of Cathay is the resting place of our ancestors’ spirits. We stand with righteousness and repay our nation with our lives.\\n\\nIssue my decree: The fifteen provinces within the Great Bastion are to muster their armies immediately and converge at the three gates. In this time of national peril, we shall fight Chaos to the death. Any who suggest ceding land for survival shall be executed!	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_fina_battle_event02FIRST	Not an Inch!	false
+effect_bundles_localised_description_wwd_ll_fina_battle_event02	Wei-Jin lies beneath us, the homeland of our descendants. The soil of Cathay is the resting place of our ancestors’ spirits. We stand with righteousness and repay our nation with our lives.\\n\\nIssue my decree: The fifteen provinces within the Great Bastion are to muster their armies immediately and converge at the three gates. In this time of national peril, we shall fight Chaos to the death. Any who suggest ceding land for survival shall be executed!	false
+effect_bundles_localised_title_wwd_ll_fina_battle_event02	Not an Inch!	false
+campaign_payload_ui_details_description_wwd_ll_fina_battle_event022	[[col:green]]Qing Shao and his faction have been eliminated. Cathay will not bow before destruction.[[/col]]	false
+dilemmas_localised_title_wwd_dip_event_hef	Aid for Ulthuan	false
+dilemmas_localised_description_wwd_dip_event_hef	My lord, Tyrion has sent diplomatic correspondence. The Great Vortex faces an existential threat. As the Winds of Magic grow ever stronger, daemons have invaded the sanctuary of Ulthuan. The northern realms of Yvresse and Chrace have nearly fallen, and the Phoenix King Finubar is nowhere to be found. The Ten Kingdoms are in chaos, and the Dark Elves are poised to strike.\\n\\nTyrion urgently seeks a reliable ally to provide diplomatic support, unite the kingdoms, and strengthen Ulthuan's defenses.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_dip_event_hefFIRST	Extend Our Aid	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_dip_event_hefFIRST	The world teeters on the brink. The principle of mutual dependence is clear to all. Now is not the time for shortsightedness. Inform our allies that Cathay’s aid will arrive as promised.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_dip_event_hefSECOND	Regretfully Decline	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_dip_event_hefSECOND	The Celestial Empire faces its own dire peril. While our hearts long to assist, we lack the means.	false
+effect_bundles_localised_description_wwd_dip_event_hef	The Celestial Empire will support Ulthuan’s defenders. We will not let a trusted ally fall.	false
+effect_bundles_localised_title_wwd_dip_event_hef	[[col:red]]Aid for Ulthuan[[/col]]	false
+dilemmas_localised_title_wwd_dip_event_hef2	Assistance for Ulthuan	false
+dilemmas_localised_description_wwd_dip_event_hef2	"Light will triumph over darkness. Nobility will bring the vile to their knees. Glorious warriors, we fight as one!"	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_dip_event_hef2FIRST	Glory Eternal!	false
+effect_bundles_localised_description_wwd_dip_event_emp2	Though the Old World fronts are on the brink of collapse, the Celestial Empire stands amidst its own autumn of peril. The Empire will not stand idle—under Emperor Karl's directive, a contingent of elite Imperial troops marches east. Now, our human brothers from the Old World have arrived in Wei-Jin, ready to fight alongside us!	false
+effect_bundles_localised_title_wwd_dip_event_emp2	The Empire Stands With You	false
+effect_bundles_localised_description_wwd_dip_event_dwf2	The dwarfs do not only remember grievances—they also honor kindness. With aid from the east during their time of need, the Celestial Empire prevented the fall of the Mountain Kingdoms. Now, it is the dwarfs' turn to save their allies!	false
+effect_bundles_localised_title_wwd_dip_event_dwf2	The Dwarfs Stand With You	false
+effect_bundles_localised_description_wwd_dip_event_hef2	"Light will triumph over darkness. Nobility will bring the vile to their knees. Glorious warriors, we fight as one!"	false
+effect_bundles_localised_title_wwd_dip_event_hef2	The Elves Stand With You	false
+dilemmas_localised_title_wwd_dip_event_brt	Aid for Bretonnia	false
+dilemmas_localised_description_wwd_dip_event_brt	My lord, a missive arrives from the Kingdom of Knights. As the rebellion sparked by Mallobaude spirals out of control, the portals opened by Carlos have torn the skies asunder. Burning daemons rain down upon the plains of Quenelles. Tzeentchian daemons swarm Bretonnia, coveting the twelve artifacts once held by King Gilles and his companions.\\n\\nThe kingdom’s armies are shredded into crimson ribbons by magic, dukes’ castles burned to smoldering ruins. Civil war ravages the duchies, and the rivers run red with blood. Yet the virtues of the knights still shine brightly. King Louen has ordered the unification of all forces for the kingdom’s decisive war. Any external aid could tip the scales.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_dip_event_brtFIRST	Extend Our Aid	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_dip_event_brtFIRST	The world teeters on the brink. The principle of mutual dependence is clear to all. Now is not the time for shortsightedness. Inform our allies that Cathay’s aid will arrive as promised.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_dip_event_brtSECOND	Regretfully Decline	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_dip_event_brtSECOND	The Celestial Empire faces its own dire peril. While our hearts long to assist, we lack the means.	false
+effect_bundles_localised_description_wwd_dip_event_brt	A fine steed shall carry a knight through the darkness.	false
+effect_bundles_localised_title_wwd_dip_event_brt	[[col:red]]Aid for Bretonnia[[/col]]	false
+dilemmas_localised_title_wwd_dip_event_brt2	Bretonnian Assistance	false
+dilemmas_localised_description_wwd_dip_event_brt2	"The Celestial Empire sent us life-saving steeds, and Bretonnia shall send an entire army to aid Cathay. In the face of the apocalypse, we will not abandon each other—that is the King's chivalry, my friend."	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_dip_event_brt2FIRST	We Fight Together	false
+effect_bundles_localised_description_wwd_dip_event_brt2	"The Celestial Empire sent us life-saving steeds, and Bretonnia shall send an entire army to aid Cathay. In the face of the apocalypse, we will not abandon each other—that is the King's chivalry, my friend."	false
+effect_bundles_localised_title_wwd_dip_event_brt2	Bretonnia Stands With You	false
+campaign_payload_ui_details_description_wwd_dip_event5	[[col:green]]Bretonnia Joins the Battle[[/col]]\\n[[img:icon_allegiance]][[/img]][[col:white]]You can command allied units using the Army Borrowing feature.[[/col]]	false
+dilemmas_localised_title_wwd_dip_event_ksl	Aid for Kislev	false
+dilemmas_localised_description_wwd_dip_event_ksl	My lord, envoys from Kislev have been dispatched across nations. Ice and snow cannot shield against death. The storm of destruction has crossed the Great Bridge, leaving Praag on the brink of annihilation. To the north, "The Conqueror" Vardek Crom leads his army across the snowy borders, hungry for the glory of destroying the maddened city. To the west, Throgg dreams of his Age of Beasts, with Praag as his ice palace.\\n\\nKislev’s defenses are near collapse. The embattled Tsarina is surrounded by enemies, while the Elector Counts argue endlessly about reinforcements. Kislev’s fate hangs by a thread.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_dip_event_kslFIRST	Extend Our Aid	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_dip_event_kslFIRST	The world teeters on the brink. The principle of mutual dependence is clear to all. Now is not the time for shortsightedness. Inform our allies that Cathay’s aid will arrive as promised.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_dip_event_kslSECOND	Regretfully Decline	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_dip_event_kslSECOND	The Celestial Empire faces its own dire peril. While our hearts long to assist, we lack the means.	false
+effect_bundles_localised_description_wwd_dip_event_ksl	Kislev is the bulwark of the Old World. If Chaos destroys it, they will move on to the entire world.	false
+effect_bundles_localised_title_wwd_dip_event_ksl	[[col:red]]Aid for Kislev[[/col]]	false
+dilemmas_localised_title_wwd_dip_event_ksl2	Kislev Assistance	false
+dilemmas_localised_description_wwd_dip_event_ksl2	In the long night, the Celestial Empire lit the first beacon for Kislev. Now, as darkness falls upon Cathay, Kislev will light the way forward.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_dip_event_ksl2FIRST	Illuminate the Night	false
+effect_bundles_localised_description_wwd_dip_event_ksl2	In the long night, the Celestial Empire lit the first beacon for Kislev. Now, as darkness falls upon Cathay, Kislev will light the way forward.	false
+effect_bundles_localised_title_wwd_dip_event_ksl2	Kislev Stands With You	false
+campaign_payload_ui_details_description_wwd_dip_event6	[[col:green]]Kislev Joins the Battle[[/col]]	false
+effect_bundles_localised_title_wwd_ll_zhongyan_herald	[[col:white]]The artifact mission for the 'Battle of the End Times' will be issued soon.[[/col]]	false
+effect_bundles_localised_description_wwd_ll_zhongyan_herald	When the time comes to decide, ensure you make no choices you’ll regret.	false
+dilemmas_localised_title_wwd_final_defender	Strategic Planning: Part II	false
+dilemmas_localised_description_wwd_final_defender	The nobles of the provinces gather in the capital, followed by the generals who have waged wars across the land. For centuries, the Divine Strategy Office has never been so crowded. Brilliant military strategists propose varied plans to counter Chaos, each given space to elaborate. However, the game of war allows only two players, and now the entire might of Cathay converges under your command. By the grace of the Dragon God, Cathay’s fate depends on your decisions.\\n\\nThe burden of such a vast empire weighs heavily upon you. Until the Dragon Emperor returns, only you can shoulder this responsibility. As you enter the Divine Strategy Office, the noise ceases. Governors and generals kneel before you, while rival courtiers nod their respect. The contentious topics are presented, and your decisions will shape Cathay's destiny. Though the Great Bastion remains impenetrable, we must prepare for the worst. If the Three Gates fall, the north will be left defenseless. How shall we position our forces then?	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_final_defenderFIRST	Hold the Capital	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_final_defenderFIRST	The rocky plains offer no natural defense, but the capital, perched atop the peaks, houses vast resources and countless troops. We can draw the enemy into a quagmire and deliver a decisive blow at the capital to secure peace for generations.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_final_defenderSECOND	Arc Defense Strategy	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_final_defenderSECOND	We shall fortify the line between Wei-Jin, Mingzhu, Nongchang, Nanli, and Nangao. Using the terrain to our advantage, we’ll create a bastion to repel the invaders and protect the lands behind us.	false
+incidents_localised_description_wwd_ll_fina_battle_death_count031	                                            A thousand years from now, our deeds will still be sung. No retreat, only forward!\\nLet our courage burn like flames, and let the enemy's fear sound the horn of our victory! For the Dragon Emperor! For Cathay!\\n\\n[[col:red]]Known Chaos Armies: ???[[/col]]\\n\\n[[col:red]]Confirmed Fallen Soldiers: 420687[[/col]]\\n\\n[[col:red]]Lost Territories: 14[[/col]]\\n\\n\\n[[/col]][[col:yellow]]"Do you hear it? The roar of Cathay's people!"[[/col]]	false
+incidents_button_text_wwd_ll_fina_battle_death_count031	Sound the Counteroffensive Horn!	false
+incidents_localised_title_wwd_ll_fina_battle_death_count031	[[col:red]]The End Times[[/col]]	false
+effect_bundles_localised_description_wwd_final_defender	Cathayan soldiers, under your command, held the Arc Defense line without retreating. Blood was shed on both sides of the line, but much of Cathay's land remained intact.	false
+effect_bundles_localised_title_wwd_final_defender	[[col:red]]Every Inch of Land, Every Drop of Blood[[/col]]	false
+dilemmas_localised_title_wwd_final_defender2	Strategic Planning: Part I	false
+dilemmas_localised_description_wwd_final_defender2	Ye Jiangzhou is the quintessential southerner in the eyes of the border armies—raised along the Grand Canal, enjoying the wealth brought by trade, and accustomed to leisurely evenings by moonlit waters. Skilled in debate but untested in action, or so the perception goes. The truth is, Cathay’s vastness means most never venture beyond their birthplace, living through tales from traveling storytellers.\\n\\nSummoned from Wai Li Village, Jiangzhou, like his peers, found himself in the unfamiliar martial land of Fuhong within weeks. Believing his destiny lay in lifelong tea farming, he was shocked by the sudden draft. Fuhong’s warriors, famed for their prowess, rarely allowed civilians onto battlefields. Jiangzhou once followed masked soldiers to a tea ceremony, curious if they ate like ordinary men beneath their masks—only to find they did.\\n\\nNow, in uncertain times, imperial orders cannot be refused. Hundreds from riverside villages have been conscripted and sent north. Jiangzhou reflects on leaving behind his sister and their shared longing for plum blossom cakes, only to be overwhelmed by Mingzhu City, Cathay’s second largest metropolis. Towering structures surpass all expectations; noise and crowds unsettle him.\\n\\nUpon reaching the Bastion, Jiangzhou trains daily beneath towering walls. Each village mirrors his hometown, yet without his quarrelsome sister, he grows uneasy. Stories of Chaos armies crossing seas to devastate Cathay magnify his anxiety.\\n\\nBeneath your command, additional reinforcements were drawn to the Bastion. Norscan raids proved devastating beyond council projections. The Great Bastion holds firm; as long as it stands, so does hope. But Cathay's fate is unforgiving. Should the Bastion fall, where will the future lead?	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_final_defender2FIRST	Hold to the Last	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_final_defender2FIRST	The Great Bastion is Cathay’s sole shield against Chaos and its symbol of resolve. We cannot abandon it, no matter the cost.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_final_defender2SECOND	Preserve Strength	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_final_defender2SECOND	To lose ground is to lose all; to save people is to save both. The Bastion must be a tool for victory, not our grave.	false
+incidents_localised_description_wwd_ll_fina_battle_death_count021	                                            The Bastion has fallen under the endless waves of Chaos. Servants of the dark gods now pour into Cathay's heartlands.\\n\\n[[col:red]]Known Chaos Armies: ???[[/col]]\\n\\n[[col:red]]Confirmed Fallen Soldiers: 173714[[/col]]\\n\\n[[col:red]]Lost Territories: 5[[/col]]\\n\\n\\n[[col:red]]"Do you see it? Death dancing across Cathay."[[/col]]	false
+incidents_button_text_wwd_ll_fina_battle_death_count021	Total War	false
+incidents_localised_title_wwd_ll_fina_battle_death_count021	[[col:red]]The End Times[[/col]]	false
+effect_bundles_localised_description_wwd_final_defender2	Cathayan soldiers fought to the last against Chaos at the Bastion, slaying countless warbands in the process. Though Chaos was halted, the entirety of the Bastion’s 150,000 defenders perished, save for scattered cavalry retreating south and the injured in the rear.	false
+effect_bundles_localised_title_wwd_final_defender2	[[col:red]]Hold to the Last[[/col]]	false
+effects_description_wwd_fatigued_3	Enemies will become fatigued more easily over the next three turns.	false
+dilemmas_localised_title_wwd_ship_city	Celestial Skyships: Part I	false
+dilemmas_localised_description_wwd_ship_city	My lord, the craftsmen’s guild of Po Mei has sent a proposal. Inspired by the Five Elements Compass, they conceptualized a new floating war machine unlike anything created in Nangao or Po Mei: the Skyship. Powered by both fuel and Winds of Magic, their theories have undergone extensive testing, and designs are finalized.\\n\\nHowever, the rebellion displaced many artisans, stalling progress. Though the workshops are functional again, trust in this troubled city is lacking. The Skyship could save countless lives and mark a turning point in Cathayan technology, but its immense cost and uncertain timeline raise doubts.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ship_cityFIRST	Financial Backing	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_ship_cityFIRST	The artisans of Po Mei have brought countless inventions to Cathay. Why not trust them to achieve another breakthrough?	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ship_citySECOND	Manpower Support	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_ship_citySECOND	My treasury cannot provide guarantees at this time, but I will ensure the artisans’ guild has ample manpower.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ship_cityTHIRD	Abandon the Plan	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_ship_cityTHIRD	A group of dreamers... Better to focus on how tomorrow’s rations will be secured.	false
+dilemmas_localised_title_wwd_ship_city2	Celestial Skyships: Part II	false
+dilemmas_localised_description_wwd_ship_city2	My lord, the craftsmen’s guild of Po Mei has sent another report. They claim the Skyship project is progressing smoothly thanks to your support, but the resource consumption has far exceeded expectations. Your initial aid is no longer sufficient. Attempts to inspect their progress were denied under the guise of technical confidentiality, raising suspicions among advisors that this might be an elaborate scam—or worse, the remnants of a Tzeentch cult.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ship_city2FIRST	Financial Backing	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_ship_city2FIRST	Give innovation time—I am patient.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ship_city2SECOND	Manpower Support	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_ship_city2SECOND	Continue communication. I will supply whatever manpower they require.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ship_city2THIRD	Abandon the Plan	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_ship_city2THIRD	Many scams start like this. I won’t allow them to drain my resources further—the front lines need these supplies more urgently.	false
+dilemmas_localised_title_wwd_ship_city3	Celestial Skyships: Part III	false
+dilemmas_localised_description_wwd_ship_city3	My lord, the Skyship project has succeeded! Unbelievably, a colossus rivaling the mighty dragon ships has taken to the skies—something that seemed impossible with our previous technology.\\n\\nThe inventors have named this groundbreaking creation "Long Gong," and it is a name that will be remembered by all.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ship_city3FIRST	The Sweet Taste of Progress...	false
+cdir_events_dilemma_choice_details_localised_choice_title_wwd_ship_city3FIRST	The mighty dragon rises into the heavens.	false
+campaign_payload_ui_details_description_wwd_ship_city	"Long Gong" has been added to your elite recruitment pool.	false
+effect_bundles_localised_title_wwd_ship_city	Manpower Support	false
+effect_bundles_localised_description_wwd_ship_city	My treasury cannot provide guarantees at this time, but I will ensure the artisans’ guild has ample manpower.	false
+dilemmas_localised_title_wwd_ll_fina_kho	The Annihilation of the Thousand Gods	false
+dilemmas_localised_description_wwd_ll_fina_kho	The Land of the Thousand Gods has been consumed in bloody slaughter—Ind’s immortal deities fell one by one. Karanak tore apart their revered forms, while the Slayer of Kings claimed divine skulls as trophies. Ugana, in his final moments, slew over 300 daemons, loosing every arrow against the accursed Flesh Hound, but even he could not escape decapitation. The Skull Throne now towers so high that even the jungle predators of the southern rainforests cannot see its peak. With Ind conquered, Khorne’s bloody hand turns to new battlefields.	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_fina_khoFIRST	Abaal Crosses the Mountains	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_fina_khoSECOND	Abaal is Summoned to Middenheim	false
+dilemmas_localised_title_wwd_ll_fina_kho2	The Foundation of the Skull Throne	false
+dilemmas_localised_description_wwd_ll_fina_kho2	Abaal wrenched his battle-axe from the mangled remains of a tiger warrior. These noble beastmen were born warriors, their blood filled with primal savagery that constantly stoked Abaal's thirst for combat. Yet now, the tigerfolk are nearly extinct—the mightiest among them reduced to a mere, unremarkable skull atop Ind’s towering pile. Compared to Ind, Cathay’s tigerfolk are scarce, and their homes are desolate.\\n\\nFrustrated by the dwindling challenge, Abaal hungers for greater foes. Feeble humans are unworthy opponents compared to tiger warriors. But dragons? Yes, Cathay’s dragons! In Ind, he had heard the name of the Zhu Dragon, ruler of the martial southern provinces. A kindred spirit. Such a battle would be truly worthy—a greater challenge than the Thousand Gods ever were. Blood for the Blood God, skulls for the Skull Throne—let the slaughter begin!	false
+cdir_events_dilemma_choice_details_localised_choice_label_wwd_ll_fina_kho2FIRST	On the Eighth Day, He Walks...	false
