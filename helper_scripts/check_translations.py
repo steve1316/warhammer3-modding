@@ -169,9 +169,9 @@ def process_key_differences(diff_keys: List[str], mod_name: str, messages: List[
         
         # Create appropriate message based on discrepancy direction.
         if is_missing_in_translation:
-            message = f"\"{key}\" is in the translation but not in the original."
-        else:
             message = f"\"{key}\" is in the original but not in the translation."
+        else:
+            message = f"\"{key}\" is in the translation but not in the original."
             
         messages.append(message)
     if len(messages) > 0:
@@ -194,15 +194,18 @@ def check_placeholder_translations(df_original: pd.DataFrame, df_translation: pd
         # Normalize translated text for consistent comparison
         translated_text = str(row["text"]).strip().lower()
         if translated_text in ["", "placeholder", "nan"]:
-            # Get corresponding original text using the same key.
-            original_text = str(df_original[df_original["key"] == row["key"]]["text"].iloc[0]).strip().lower()
-            
-            # Only flag if original text is valid (non-placeholder and non-empty)
-            if original_text not in ["", "placeholder", "nan"]:
-                # Add mod name header if not already present.
-                if mod_name not in messages:
-                    messages.append(mod_name)
-                messages.append(f"\"{row['key']}\" is placeholder/empty in the translation but not in the original.")
+            try:
+                # Get corresponding original text using the same key.
+                original_text = str(df_original[df_original["key"] == row["key"]]["text"].iloc[0]).strip().lower()
+                
+                # Only flag if original text is valid (non-placeholder and non-empty)
+                if original_text not in ["", "placeholder", "nan"]:
+                    # Add mod name header if not already present.
+                    if mod_name not in messages:
+                        messages.append(mod_name)
+                    messages.append(f"\"{row['key']}\" is placeholder/empty in the translation but not in the original.")
+            except IndexError:
+                messages.append(f"Key {row['key']} not found in the original.")
     return messages
 
 def check_text_string_amount_diff(messages: List[str], mod_name: str, is_collection: bool = False, subfolder_name: str = ""):
@@ -232,31 +235,28 @@ def check_text_string_amount_diff(messages: List[str], mod_name: str, is_collect
             logging.warning("The number of text files from text_original is lower than text_translation.")
     
     # Validate content of each TSV file pair.
-    for file_path in os.listdir("./text_original/text/"):
-        full_path = os.path.join("./text_original/text/", file_path)
-        if not os.path.isfile(full_path):
-            # Skip directories.
-            continue
-        
-        # Handle different translation file naming conventions.
-        possible_translation_path_prepends = ["", "@", "@@", "@@@", "!!!"]
-        df_original = read_text_tsv_with_schema(f"./text_original/text/{file_path}")
-        
-        for prepend in possible_translation_path_prepends:
-            try:
-                df_translation = read_text_tsv_with_schema(f"./text_translation/text/{subfolder_name}{prepend}{file_path}")
-                
-                # Compare entries between original and translation.
-                messages = compare_translation_entries(
-                    df_original=df_original,
-                    df_translation=df_translation,
-                    mod_name=mod_name,
-                    messages=messages
-                )
-                
-                break
-            except FileNotFoundError:
-                continue
+    for root, _, files in os.walk("./text_original/text/"):
+        for file_path in files:
+            # Handle different translation file naming conventions.
+            possible_translation_path_prepends = ["", "@", "@@", "@@@", "!!!", "!!!!!", "!!!!!!", "db/", "db/@", "db/@@", "db/@@@", "db/!!!", "db/!!!!!", "db/!!!!!!"]
+            df_original = read_text_tsv_with_schema(f"{root}/{file_path}")
+            
+            for prepend in possible_translation_path_prepends:
+                try:
+                    df_translation = read_text_tsv_with_schema(f"./text_translation/text/{subfolder_name}{prepend}{file_path}")
+                    logging.info(f"Found the alternative translation file at ./text_translation/text/{subfolder_name}{prepend}{file_path}.")
+                    
+                    # Compare entries between original and translation.
+                    messages = compare_translation_entries(
+                        df_original=df_original,
+                        df_translation=df_translation,
+                        mod_name=mod_name,
+                        messages=messages
+                    )
+                    
+                    break
+                except FileNotFoundError:
+                    continue
 
     return messages
 
