@@ -336,5 +336,13 @@ if __name__ == "__main__":
     except Exception as e:
         logging.exception(e)
 
+    # Delete the db/, text_original/, and text_translation/ folders.
+    if os.path.exists("./db/"):
+        shutil.rmtree("./db/")
+    if os.path.exists("./text_original/"):
+        shutil.rmtree("./text_original/")
+    if os.path.exists("./text_translation/"):
+        shutil.rmtree("./text_translation/")
+
     end_time = round(time.time() - start_time, 2)
     logging.info(f"Total time for processing all text .tsv files: {end_time} seconds or {round(end_time / 60, 2)} minutes.")
