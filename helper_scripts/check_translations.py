@@ -101,7 +101,7 @@ def read_text_tsv_with_schema(tsv_file_path: str):
     df = df.iloc[1:]
     return df
 
-def compare_translation_entries(df_original: pd.DataFrame, df_translation: pd.DataFrame, mod_name: str, messages: List[str]):
+def compare_translation_entries(table_name: str, df_original: pd.DataFrame, df_translation: pd.DataFrame, mod_name: str):
     """Compare translation entries between original and translated text data.
     
     Performs three key checks:
@@ -110,6 +110,7 @@ def compare_translation_entries(df_original: pd.DataFrame, df_translation: pd.Da
     3. Checks for placeholder text in translations where original has valid text.
     
     Args:
+        table_name (str): Name of the table being checked.
         df_original (pd.DataFrame): DataFrame containing original text entries.
         df_translation (pd.DataFrame): DataFrame containing translated text entries.
         mod_name (str): Name of the mod being checked (for error reporting).
@@ -127,19 +128,19 @@ def compare_translation_entries(df_original: pd.DataFrame, df_translation: pd.Da
         # Calculate difference using set operations.
         diff_keys = original_keys - translation_keys
         explanation = f"The number of strings is higher than the translation."
-        messages = process_key_differences(diff_keys, mod_name, messages, explanation, is_missing_in_translation=True)
+        messages = process_key_differences(diff_keys, mod_name, table_name, messages, explanation, is_missing_in_translation=True)
     
     # Check for extra keys in translation (translation has more entries).
     elif len(df_original) < len(df_translation):
         diff_keys = translation_keys - original_keys
         explanation = f"The number of strings is lower than the translation."
-        messages = process_key_differences(diff_keys, mod_name, messages, explanation, is_missing_in_translation=False)
+        messages = process_key_differences(diff_keys, mod_name, table_name, messages, explanation, is_missing_in_translation=False)
     
     # Check for placeholder texts regardless of key count match.
     messages = check_placeholder_translations(df_original, df_translation, mod_name, messages)
     return messages
 
-def process_key_differences(diff_keys: List[str], mod_name: str, messages: List[str], explanation: str, is_missing_in_translation: bool):
+def process_key_differences(diff_keys: List[str], mod_name: str, table_name: str, messages: List[str], explanation: str, is_missing_in_translation: bool):
     """Process key differences between original and translation data.
     
     Handles two types of discrepancies:
@@ -149,6 +150,7 @@ def process_key_differences(diff_keys: List[str], mod_name: str, messages: List[
     Args:
         diff_keys (List[str]): List of keys that differ between versions.
         mod_name (str): Name of the mod being checked (for error reporting).
+        table_name (str): Name of the table being checked.
         messages (List[str]): List to accumulate validation messages.
         explanation (str): Context message about the key difference origin.
         is_missing_in_translation (bool): Flag indicating direction of mismatch (True = missing in translation).
@@ -162,8 +164,10 @@ def process_key_differences(diff_keys: List[str], mod_name: str, messages: List[
             continue
         
         # Ensure mod name and explanation are only added once per discrepancy group.
-        if mod_name not in messages:
-            messages.append(mod_name)
+        if f"Mod name: {mod_name}" not in messages:
+            messages.append("//////////////////////////////////////////////////")
+            messages.append(f"Mod name: {mod_name}")
+            messages.append(f"Table name: {table_name}")
         if explanation not in messages:
             messages.append(explanation)
         
@@ -248,6 +252,7 @@ def check_text_string_amount_diff(messages: List[str], mod_name: str, is_collect
                     
                     # Compare entries between original and translation.
                     messages = compare_translation_entries(
+                        table_name=f"{prepend}{file_path}",
                         df_original=df_original,
                         df_translation=df_translation,
                         mod_name=mod_name,
