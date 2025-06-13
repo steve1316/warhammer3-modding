@@ -119,6 +119,7 @@ def compare_translation_entries(table_name: str, df_original: pd.DataFrame, df_t
     Returns:
         Updated list of messages to review regarding the translation consistency.
     """
+    messages = []
     # Use sets for fast comparison of keys between original and translation.
     original_keys = set(df_original["key"])
     translation_keys = set(df_translation["key"])
@@ -213,7 +214,7 @@ def check_placeholder_translations(df_original: pd.DataFrame, df_translation: pd
     return messages
 
 def check_text_string_amount_diff(messages: List[str], mod_name: str, is_collection: bool = False, subfolder_name: str = ""):
-    """Validate text file counts and content between original and translation directories.
+    """Validate text file counts and content between original and translation directories and prints the results.
     
     Performs two main checks:
     1. Compares file counts between original and translation directories
@@ -261,19 +262,27 @@ def check_text_string_amount_diff(messages: List[str], mod_name: str, is_collect
                         table_name=f"{prepend}{file_path}",
                         df_original=df_original,
                         df_translation=df_translation,
-                        mod_name=mod_name,
-                        messages=messages
+                        mod_name=mod_name
                     )
                     
-                    break
+                    # Report final results to a text file.
+                    with open("translation_check_results.txt", "a") as result_file:
+                        if len(messages) > 0:
+                            for message in messages:
+                                result_file.write(f"{message}\n")
+                    
+                    del messages
+                    gc.collect()
                 except FileNotFoundError:
                     continue
-
-    return messages
 
 if __name__ == "__main__":
     logging.basicConfig(format="%(asctime)s - %(levelname)s - %(message)s", level=logging.INFO)
     start_time = time.time()
+    
+    # If the translation_check_results.txt file exists, delete it.
+    if os.path.exists("translation_check_results.txt"):
+        os.remove("translation_check_results.txt")
     
     try:
         messages = []
@@ -335,15 +344,6 @@ if __name__ == "__main__":
                 for file_path in os.listdir(f"./text_translation/"):
                     shutil.rmtree(f"./text_translation/{file_path}")
             gc.collect()
-
-        # Report final results.
-        # ------------------------------------------------------------------
-        print("\n\n")
-        logging.info("Translation check completed.")
-        if len(messages) > 0:
-            logging.info("These are the warning messages to check:")
-            for message in messages:
-                logging.info(message)
     except Exception as e:
         logging.exception(e)
 
