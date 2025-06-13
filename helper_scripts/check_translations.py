@@ -160,7 +160,7 @@ def process_key_differences(diff_keys: List[str], mod_name: str, table_name: str
     """
     for key in diff_keys:
         # Skip automatic update keys by mod authors that don't require translation.
-        if key == "UPDATE":
+        if key.upper() == "UPDATE":
             continue
         
         # Ensure mod name and explanation are only added once per discrepancy group.
