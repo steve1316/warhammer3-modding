@@ -223,16 +223,22 @@ def check_text_string_amount_diff(messages: List[str], mod_name: str, is_collect
         messages (List[str]): List to accumulate validation messages.
         mod_name (str): Name of the mod being checked.
         is_collection (bool): Flag indicating if this is a mod collection with subfolders.
-        subfolder_name (str): Subdirectory path for translation files (collection mods only).
-        
-    Returns:
-        Updated list of validation messages.
+        subfolder_name (str): Subdirectory path for translation files (collection mods only) without any @ and trailing slashes.
     """
     # Check file count discrepancies for collection mods.
     if is_collection:
         original_count = len(os.listdir("./text_original/text/"))
-        translation_count = len(os.listdir(f"./text_translation/text/{subfolder_name}"))
-        
+        translation_count = 0
+        for prepend in ["", "@", "@@", "@@@"]:
+            if os.path.exists(f"./text_translation/text/{prepend}{subfolder_name}/"):
+                translation_count = len(os.listdir(f"./text_translation/text/{prepend}{subfolder_name}/"))
+                subfolder_name = f"{prepend}{subfolder_name}/"
+                break
+
+        if translation_count == 0:
+            logging.warning(f"No translation files found for {subfolder_name}.")
+            return messages
+
         if original_count > translation_count:
             logging.warning("The number of text files from text_original is higher than text_translation.")
         elif original_count < translation_count:
@@ -318,9 +324,9 @@ if __name__ == "__main__":
                 if mod_name.startswith('@'):
                     mod_name = mod_name[1:]
                 
-                messages = check_text_string_amount_diff(messages, mod_name, is_collection=True, subfolder_name=f"@@@{mod_name}/")
+                check_text_string_amount_diff(messages, mod_name, is_collection=True, subfolder_name=mod_name)
             else:
-                messages = check_text_string_amount_diff(messages, mod_name)
+                check_text_string_amount_diff(messages, mod_name)
 
             if os.path.exists("./text_original"):
                 for file_path in os.listdir(f"./text_original/"):
