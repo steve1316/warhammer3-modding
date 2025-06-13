@@ -5,3 +5,4 @@ db/
 factions_data.lua
 factions_data.json
 rpfm_cli.exe
+*.txt
