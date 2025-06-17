@@ -1,7 +1,8 @@
 # main_units_tables
 SUPPORTED_MODS = [
     {
-        "name": "vanilla",
+        "name": "Vanilla",
+        "package_name": "vanilla",
         "path": "",
         "pattern_overrides": {},
         "character_overrides": {
@@ -1046,7 +1047,8 @@ SUPPORTED_MODS = [
         },
     },
     {
-        "name": "!!!!!!champions_of_undeath_bloodline_agents.pack",
+        "name": "Champions Of Undeath: Bloodline Agents",
+        "package_name": "!!!!!!champions_of_undeath_bloodline_agents.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3121694491/!!!!!!champions_of_undeath_bloodline_agents.pack",
         "pattern_overrides": {"*": "vmp"},
         "character_overrides": {
@@ -1061,7 +1063,8 @@ SUPPORTED_MODS = [
         },
     },
     {
-        "name": "!!!!!!Champions_of_undeath_merged_fun_tyme.pack",
+        "name": "Champions Of Undeath: Conquest Of The Blood Dragons",
+        "package_name": "!!!!!!Champions_of_undeath_merged_fun_tyme.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3022054734/!!!!!!Champions_of_undeath_merged_fun_tyme.pack",
         "pattern_overrides": {"*": "vmp"},
         "character_overrides": {
@@ -1096,47 +1099,56 @@ SUPPORTED_MODS = [
         }
     },
     {
-        "name": "!!!bruiser_careers.pack",
+        "name": "Bruiser Careers",
+        "package_name": "!!!bruiser_careers.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3383170428/!!!bruiser_careers.pack",
         "pattern_overrides": {"*": "dwf"},
     },
     {
-        "name": "!!!calm_animals_for_wood_elves.pack",
+        "name": "Animals for Wood Elves",
+        "package_name": "!!!calm_animals_for_wood_elves.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2934267802/!!!calm_animals_for_wood_elves.pack",
         "pattern_overrides": {"*": "wef"},
     },
     {
-        "name": "!!!cou_blood_knight_heretics_live_build.pack",
+        "name": "Champions Of Undeath: Blood Knight Heretics",
+        "package_name": "!!!cou_blood_knight_heretics_live_build.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3357763311/!!!cou_blood_knight_heretics_live_build.pack",
         "pattern_overrides": {},
     },
     {
-        "name": "!!!d3rpyVersaEng.pack",
+        "name": "Versatile Engineers 1",
+        "package_name": "!!!d3rpyVersaEng.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2879757612/!!!d3rpyVersaEng.pack",
         "pattern_overrides": {"*": "dwf"},
     },
     {
-        "name": "!!!laf_dwarfs.pack",
+        "name": "Lost & Found Dwarfs: Complete Collection",
+        "package_name": "!!!laf_dwarfs.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2897800168/!!!laf_dwarfs.pack",
         "pattern_overrides": {"*": "dwf"},
     },
     {
-        "name": "!!!lost_calm_jurassic_normal.pack",
+        "name": "Lost Calm: Jurassic Normal",
+        "package_name": "!!!lost_calm_jurassic_normal.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3079850881/!!!lost_calm_jurassic_normal.pack",
         "pattern_overrides": {"*": "lzd"},
     },
     {
-        "name": "!!!phy_runic_units.pack",
+        "name": "Runic Units",
+        "package_name": "!!!phy_runic_units.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3311408575/!!!phy_runic_units.pack",
         "pattern_overrides": {"*": "dwf"},
     },
     {
-        "name": "!!_sartosa_overhaul.pack",
+        "name": "Nanu's Pirates of Sartosa Overhaul",
+        "package_name": "!!_sartosa_overhaul.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2866673136/!!_sartosa_overhaul.pack",
         "pattern_overrides": {"*": "cst"},
     },
     {
-        "name": "!!YL_binzhong.pack",
+        "name": "『龙战于野』震旦兵种包(Cathay Units Patch:Dragons Battle in the Field)",
+        "package_name": "!!YL_binzhong.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3061752415/!!YL_binzhong.pack",
         "pattern_overrides": {
             "*lyxw*": "cth",
@@ -1154,12 +1166,14 @@ SUPPORTED_MODS = [
         },
     },
     {
-        "name": "!ak_kraka3.pack",
+        "name": "Cataph's Kraka Drak: the Norse Dwarfs",
+        "package_name": "!ak_kraka3.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2878423760/!ak_kraka3.pack",
         "pattern_overrides": {"kraka_": "dwf"},
     },
     # {
-    #     "name": "!ak_teb3.pack",
+    #     "name": "Cataph's Southern Realms (TEB)",
+    #     "package_name": "!ak_teb3.pack",
     #     "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2927296206/!ak_teb3.pack",
     #     "pattern_overrides": {"*": "emp"},
     #     # "faction_overrides": ["teb"],
@@ -1236,47 +1250,56 @@ SUPPORTED_MODS = [
     #     # }
     # },
     {
-        "name": "!cody_dwf_various_things.pack",
+        "name": "Dwarf Mechanized Forces",
+        "package_name": "!cody_dwf_various_things.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2947521631/!cody_dwf_various_things.pack",
         "pattern_overrides": {},
     },
     {
-        "name": "!cr_beastman_unit_dumping_ground.pack",
+        "name": "Preytons",
+        "package_name": "!cr_beastman_unit_dumping_ground.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2876531798/!cr_beastman_unit_dumping_ground.pack",
         "pattern_overrides": {},
     },
     {
-        "name": "!cr_daemon_unit_dumping_ground.pack",
+        "name": "Pleasureseekers of Slaanesh and Tzeentch Great Winged Terrors",
+        "package_name": "!cr_daemon_unit_dumping_ground.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2795725577/!cr_daemon_unit_dumping_ground.pack",
         "pattern_overrides": {},
     },
     {
-        "name": "!cr_elf_unit_dumping_ground.pack",
+        "name": "Merwyrms, Sea Dragons, and Lothern Skycutters",
+        "package_name": "!cr_elf_unit_dumping_ground.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2870172362/!cr_elf_unit_dumping_ground.pack",
         "pattern_overrides": {},
     },
     {
-        "name": "!cr_empire_unit_dumping_ground.pack",
+        "name": "Celestial Hurricanum",
+        "package_name": "!cr_empire_unit_dumping_ground.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2906452595/!cr_empire_unit_dumping_ground.pack",
         "pattern_overrides": {},
     },
     {
-        "name": "!cr_skaven_unit_dumping_ground.pack",
+        "name": "Moulder's Menagerie (Chimaerats, Stormfiends, and More!)",
+        "package_name": "!cr_skaven_unit_dumping_ground.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2857187582/!cr_skaven_unit_dumping_ground.pack",
         "pattern_overrides": {},
     },
     {
-        "name": "!derpy_noinruneguardian.pack",
+        "name": "Rune Golems",
+        "package_name": "!derpy_noinruneguardian.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2883357983/!derpy_noinruneguardian.pack",
         "pattern_overrides": {"*": "dwf"},
     },
     {
-        "name": "!kislev.pack",
+        "name": "The Motherland",
+        "package_name": "!kislev.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2789857474/!kislev.pack",
         "pattern_overrides": {},
     },
     # {
-    #     "name": "!scm_marienburg.pack",
+    #     "name": "SCM Marienburg",
+    #     "package_name": "!scm_marienburg.pack",
     #     "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3030996759/!scm_marienburg.pack",
     #     "pattern_overrides": {"*": "emp"},
     #     # "faction_overrides": ["mar"],
@@ -1335,7 +1358,8 @@ SUPPORTED_MODS = [
     #     # }
     # },
     {
-        "name": "!uber_zoat_lord.pack",
+        "name": "Zoat Elder - Generic Lord for Wood Elves",
+        "package_name": "!uber_zoat_lord.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2855365665/!uber_zoat_lord.pack",
         "pattern_overrides": {"*": "wef"},
         "character_overrides": {
@@ -1347,7 +1371,8 @@ SUPPORTED_MODS = [
         }
     },
     {
-        "name": "!xou_age_TKExtended.pack",
+        "name": "Agemouk's TOMB KINGS: Extended",
+        "package_name": "!xou_age_TKExtended.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3029928348/!xou_age_TKExtended.pack",
         "pattern_overrides": {"*": "tmb"},
         "character_overrides": {
@@ -1370,37 +1395,44 @@ SUPPORTED_MODS = [
         }
     },
     {
-        "name": "!zfcr_unique_steam_tanks.pack",
+        "name": "Unique Steam Tanks",
+        "package_name": "!zfcr_unique_steam_tanks.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2855238321/!zfcr_unique_steam_tanks.pack",
         "pattern_overrides": {},
     },
     {
-        "name": "@Deer24batuoniya.pack",
+        "name": "[DEER24/巴托尼亚]骑士王国（ BRETONNIA UNITS PATCH Knight Kingdom）",
+        "package_name": "@Deer24batuoniya.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2872222879/@Deer24batuoniya.pack",
         "pattern_overrides": {"*": "brt"},
     },
     {
-        "name": "@Deer24diguochuanqi.pack",
+        "name": "【Deer24帝国单位包】帝国传奇 ( Units patch：Empire Romance)",
+        "package_name": "@Deer24diguochuanqi.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2859396310/@Deer24diguochuanqi.pack",
         "pattern_overrides": {"*": "emp"},
     },
     {
-        "name": "@Deer24HEF.pack",
+        "name": "【Deer24高等精灵单位包】荣光国度（ HEF UNITS PATCH Glorious Nation）",
+        "package_name": "@Deer24HEF.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2908711955/@Deer24HEF.pack",
         "pattern_overrides": {"*": "hef"},
     },
     {
-        "name": "@DEERKSL.pack",
+        "name": "【Deer24 基斯里夫兵种包】厄孙之牙 (Deer24 Kislve Units Patc Ursuns Tooth)",
+        "package_name": "@DEERKSL.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2804084630/@DEERKSL.pack",
         "pattern_overrides": {"*": "ksl"},
     },
     {
-        "name": "@ghs_dwf_dwfling_mecha.pack",
+        "name": "GHS：毒风与硫磺（万世天朝出品）",
+        "package_name": "@ghs_dwf_dwfling_mecha.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2886780217/@ghs_dwf_dwfling_mecha.pack",
         "pattern_overrides": {},
     },
     {
-        "name": "@LOW_Dragon_Princes_Legion.pack",
+        "name": "LoW - Dragon Legion",
+        "package_name": "@LOW_Dragon_Princes_Legion.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2853343800/@LOW_Dragon_Princes_Legion.pack",
         "pattern_overrides": {},
         "character_overrides": {
@@ -1416,12 +1448,14 @@ SUPPORTED_MODS = [
         }
     },
     {
-        "name": "@whc_cth_unit_wuh_7.pack",
+        "name": "Whc's Cathay unit pack:【War under Heaven】",
+        "package_name": "@whc_cth_unit_wuh_7.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3297754796/@whc_cth_unit_wuh_7.pack",
         "pattern_overrides": {},
     },
     {
-        "name": "@xou_high_elves.pack",
+        "name": "[BETA] Sons of Asuryan - Dragon Mages",
+        "package_name": "@xou_high_elves.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2993136690/@xou_high_elves.pack",
         "pattern_overrides": {},
         "character_overrides": {
@@ -1436,7 +1470,8 @@ SUPPORTED_MODS = [
         }
     },
     {
-        "name": "A_VampiresofNehekhara.pack",
+        "name": "Vampires of Nehekhara",
+        "package_name": "A_VampiresofNehekhara.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2872414549/A_VampiresofNehekhara.pack",
         "pattern_overrides": {"*": "tmb"},
         "character_overrides": {
@@ -1453,7 +1488,8 @@ SUPPORTED_MODS = [
         }
     },
     # {
-    #     "name": "AAA_dynasty_of_the_damned.pack",
+    #     "name": "Dynasty of the Damned",
+    #     "package_name": "AAA_dynasty_of_the_damned.pack",
     #     "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2991431203/AAA_dynasty_of_the_damned.pack",
     #     "pattern_overrides": {"*": "cth"},
     #     # "faction_overrides": ["dmd"],
@@ -1490,17 +1526,20 @@ SUPPORTED_MODS = [
     #     # }
     # },
     {
-        "name": "ab_mixu_legendary_lords.pack",
+        "name": "Mixu's Legendary Lords",
+        "package_name": "ab_mixu_legendary_lords.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2802810577/ab_mixu_legendary_lords.pack",
         "pattern_overrides": {},
     },
     {
-        "name": "ab_unwashed_masses.pack",
+        "name": "Gnoblar Hordes - The Unwashed Masses",
+        "package_name": "ab_unwashed_masses.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2825728189/ab_unwashed_masses.pack",
         "pattern_overrides": {"*": "ogr"},
     },
     {
-        "name": "archer_fuyuanshan_faction.pack",
+        "name": "Dragon General Fu Yuanshan:Faction Overhaul【Reforged】/龙将傅远山:震旦新派系【重铸版】",
+        "package_name": "archer_fuyuanshan_faction.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3316985957/archer_fuyuanshan_faction.pack",
         "pattern_overrides": {"*": "cth"},
         "character_overrides": {
@@ -1514,12 +1553,14 @@ SUPPORTED_MODS = [
         }
     },
     {
-        "name": "bane_towers.pack",
+        "name": "Tzeentch's Bane Towers",
+        "package_name": "bane_towers.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3199769506/bane_towers.pack",
         "pattern_overrides": {"*": "tze"},
     },
     {
-        "name": "bastilean_bloodwrack_hero_whiii.pack",
+        "name": "Medusa Hero: One of the Girls",
+        "package_name": "bastilean_bloodwrack_hero_whiii.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3047905685/bastilean_bloodwrack_hero_whiii.pack",
         "pattern_overrides": {},
         "character_overrides": {
@@ -1531,17 +1572,20 @@ SUPPORTED_MODS = [
         }
     },
     {
-        "name": "Blood_Rager_Main_Shadowman.pack",
+        "name": "Shadowman's Blood-Ragers!",
+        "package_name": "Blood_Rager_Main_Shadowman.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2839525149/Blood_Rager_Main_Shadowman.pack",
         "pattern_overrides": {"*": "kho"},
     },
     {
-        "name": "Bretonnia_Royal_Lake_Guard.pack",
+        "name": "Bretonnian Royal Lake Guard - New Elite Units for Bretonnia",
+        "package_name": "Bretonnia_Royal_Lake_Guard.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2978535578/Bretonnia_Royal_Lake_Guard.pack",
         "pattern_overrides": {},
     },
     {
-        "name": "chaos_champions.pack",
+        "name": "Mono God Aspiring Champions",
+        "package_name": "chaos_champions.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2920671677/chaos_champions.pack",
         "pattern_overrides": {
             "khorne_": "kho",
@@ -1551,37 +1595,44 @@ SUPPORTED_MODS = [
         },
     },
     {
-        "name": "chd_chaos_dwarfs_airship.pack",
+        "name": "Chaos Dwarf Aerial Supremacy - Two Flying units",
+        "package_name": "chd_chaos_dwarfs_airship.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3265616349/chd_chaos_dwarfs_airship.pack",
         "pattern_overrides": {"*": "chd"},
     },
     {
-        "name": "Chosen_Archers_of_Tzeentch.pack",
+        "name": "Chosen Archers of Tzeentch",
+        "package_name": "Chosen_Archers_of_Tzeentch.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3173709831/Chosen_Archers_of_Tzeentch.pack",
         "pattern_overrides": {"*": "tze"},
     },
     {
-        "name": "cipher_wef_units.pack",
+        "name": "Asrai Unit Pack (Wood Elves)",
+        "package_name": "cipher_wef_units.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2985506863/cipher_wef_units.pack",
         "pattern_overrides": {"*": "wef"},
     },
     {
-        "name": "cth_yinyin_pol.pack",
+        "name": "Roar of the Jade Sea : Yin-Yin, the Sea Dragon",
+        "package_name": "cth_yinyin_pol.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2989226363/cth_yinyin_pol.pack",
         "pattern_overrides": {},
     },
     {
-        "name": "dead_jade_army_pack.pack",
+        "name": "Dead's Jade Army Expansion",
+        "package_name": "dead_jade_army_pack.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2790444587/dead_jade_army_pack.pack",
         "pattern_overrides": {"*": "cth"},
     },
     {
-        "name": "DEER24Cathay.pack",
+        "name": "[DEER24/震旦] 与龙同行 (Cathay Units Patch：Walk with the Dragon）",
+        "package_name": "DEER24Cathay.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2789903784/DEER24Cathay.pack",
         "pattern_overrides": {"*": "cth"},
     },
     {
-        "name": "dead_kislev_lord_shaman.pack",
+        "name": "Dead's Kislev Shaman Lord",
+        "package_name": "dead_kislev_lord_shaman.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3036658395/dead_kislev_lord_shaman.pack",
         "pattern_overrides": {},
         "character_overrides": {
@@ -1598,87 +1649,104 @@ SUPPORTED_MODS = [
         },
     },
     {
-        "name": "derpy_chd_aeromachines.pack",
+        "name": "Dawi-Zharr Whirlwinds",
+        "package_name": "derpy_chd_aeromachines.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3352512928/derpy_chd_aeromachines.pack",
         "pattern_overrides": {"*": "chd"},
     },
     {
-        "name": "derpy_dwf_burloks_patents.pack",
+        "name": "Dawi Gunships",
+        "package_name": "derpy_dwf_burloks_patents.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3244046996/derpy_dwf_burloks_patents.pack",
         "pattern_overrides": {"*": "dwf"},
     },
     {
-        "name": "derpy_dwf_polearms.pack",
+        "name": "Dwarf Polearms",
+        "package_name": "derpy_dwf_polearms.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2895834334/derpy_dwf_polearms.pack",
         "pattern_overrides": {"*": "dwf"},
     },
     {
-        "name": "derpy_emp_tanks.pack",
+        "name": "Empire Tanks",
+        "package_name": "derpy_emp_tanks.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3341513607/derpy_emp_tanks.pack",
         "pattern_overrides": {"*": "emp"},
     },
     {
-        "name": "derpy_grn_looted.pack",
+        "name": "Da Greenskin Looted Arsenal BETA",
+        "package_name": "derpy_grn_looted.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3390778948/derpy_grn_looted.pack",
         "pattern_overrides": {"*": "grn"},
     },
     {
-        "name": "derpy_gunpowder_units.pack",
+        "name": "Dawi Gunpowder Units",
+        "package_name": "derpy_gunpowder_units.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3255424120/derpy_gunpowder_units.pack",
         "pattern_overrides": {"*": "dwf"},
     },
     {
-        "name": "derpy_gunpowder_units_add.pack",
+        "name": "Dawi Additional GP Units",
+        "package_name": "derpy_gunpowder_units_add.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3334803139/derpy_gunpowder_units_add.pack",
         "pattern_overrides": {"*": "dwf"},
     },
     {
-        "name": "derpy_hashuts_polearm.pack",
+        "name": "Hashut's Polearms",
+        "package_name": "derpy_hashuts_polearm.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2965136773/derpy_hashuts_polearm.pack",
         "pattern_overrides": {"*": "chd"},
     },
     {
-        "name": "derpy_ksl_tanks.pack",
+        "name": "Kislev Tanks",
+        "package_name": "derpy_ksl_tanks.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3343351457/derpy_ksl_tanks.pack",
         "pattern_overrides": {"*": "ksl"},
     },
     {
-        "name": "derpy_um_mecha_dogs.pack",
+        "name": "Dawi-Zharr Daemachina",
+        "package_name": "derpy_um_mecha_dogs.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3355050473/derpy_um_mecha_dogs.pack",
         "pattern_overrides": {"*": "chd"},
     },
     {
-        "name": "dog.pack",
+        "name": "vampire coasttt ships",
+        "package_name": "dog.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3279560591/dog.pack",
         "pattern_overrides": {"*": "cst"},
     },
     {
-        "name": "doggo.pack",
+        "name": "vampire coast artillery",
+        "package_name": "doggo.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3281925347/doggo.pack",
         "pattern_overrides": {"*": "cst"},
     },
     {
-        "name": "drg_gr_khorne_spawn.pack",
+        "name": "Greater Chaos Spawn of Khorne",
+        "package_name": "drg_gr_khorne_spawn.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3072440695/drg_gr_khorne_spawn.pack",
         "pattern_overrides": {"*": "kho"},
     },
     {
-        "name": "drg_gr_nrg_spawn_5_2.pack",
+        "name": "Greater Chaos Spawn of Nurgle",
+        "package_name": "drg_gr_nrg_spawn_5_2.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3317704639/drg_gr_nrg_spawn_5_2.pack",
         "pattern_overrides": {"*": "nur"},
     },
     {
-        "name": "Drg_gr_tztch_spawn.pack",
+        "name": "Greater Chaos Spawn of Tzeentch",
+        "package_name": "Drg_gr_tztch_spawn.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2861939449/Drg_gr_tztch_spawn.pack",
         "pattern_overrides": {"*": "tze"},
     },
     {
-        "name": "Dwarf_Land_Ship.pack",
+        "name": "Dwarf Fortress",
+        "package_name": "Dwarf_Land_Ship.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3139892310/Dwarf_Land_Ship.pack",
         "pattern_overrides": {"*": "dwf"},
     },
     {
-        "name": "Elven_Artillery.pack",
+        "name": "Elven Artillery",
+        "package_name": "Elven_Artillery.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3047021643/Elven_Artillery.pack",
         "pattern_overrides": {
             "light_": "hef",
@@ -1688,7 +1756,8 @@ SUPPORTED_MODS = [
         },
     },
     {
-        "name": "froeb_bonepillar_champions.pack",
+        "name": "Bonepilla Championz",
+        "package_name": "froeb_bonepillar_champions.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2857203588/froeb_bonepillar_champions.pack",
         "pattern_overrides": {"*": "grn"},
     },
@@ -1698,7 +1767,8 @@ SUPPORTED_MODS = [
         "pattern_overrides": {"*": "nur"},
     },
     {
-        "name": "gorilla_warcastle_final.pack",
+        "name": "Bretonnian War Castle",
+        "package_name": "gorilla_warcastle_final.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2977858837/gorilla_warcastle_final.pack",
         "pattern_overrides": {"*": "brt"},
     },
@@ -1708,17 +1778,20 @@ SUPPORTED_MODS = [
         "pattern_overrides": {},
     },
     {
-        "name": "Guns_of_Bretonnia_III.pack",
+        "name": "Guns of Bretonnia 3",
+        "package_name": "Guns_of_Bretonnia_III.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2888035371/Guns_of_Bretonnia_III.pack",
         "pattern_overrides": {"*": "brt"},
     },
     {
-        "name": "IronScorpion.pack",
+        "name": "Iron Scorpion",
+        "package_name": "IronScorpion.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2792939724/IronScorpion.pack",
         "pattern_overrides": {"*": "kho"},
     },
     # {
-    #     "name": "jade_vamp_pol.pack",
+    #     "name": "The Jade-Blooded Vampires: Curse of Nongchang",
+    #     "package_name": "jade_vamp_pol.pack",
     #     "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2880515805/jade_vamp_pol.pack",
     #     "pattern_overrides": {"*": "cth"},
     #     # "faction_overrides": ["jbv"],
@@ -1744,7 +1817,8 @@ SUPPORTED_MODS = [
     #     # }
     # },
     # {
-    #     "name": "jade_vamp_pol_IotM.pack",
+    #     "name": "The Jade-Blooded Vampires: Islanders of the Moon",
+    #     "package_name": "jade_vamp_pol_IotM.pack",
     #     "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3032432016/jade_vamp_pol_IotM.pack",
     #     "pattern_overrides": {"*": "cth"},
     #     # "faction_overrides": ["jbv"],
@@ -1758,12 +1832,14 @@ SUPPORTED_MODS = [
     #     # }
     # },
     {
-        "name": "KslUni.pack",
+        "name": "『北境守望』基斯里夫兵种mod",
+        "package_name": "KslUni.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2789878278/KslUni.pack",
         "pattern_overrides": {"*": "ksl"},
     },
     {
-        "name": "laf_hag_mothers.pack",
+        "name": "Lost & Found Kislev: Hag Mothers",
+        "package_name": "laf_hag_mothers.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3043772682/laf_hag_mothers.pack",
         "pattern_overrides": {"*": "ksl"},
         "character_overrides": {
@@ -1779,27 +1855,32 @@ SUPPORTED_MODS = [
         }
     },
     {
-        "name": "laf_ostankya_chicken_hut.pack",
+        "name": "Lost & Found Kislev: Chicken-Legged Hut",
+        "package_name": "laf_ostankya_chicken_hut.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3129043905/laf_ostankya_chicken_hut.pack",
         "pattern_overrides": {"*": "ksl"},
     },
     {
-        "name": "loupi_ten_kingdoms_IE.pack",
+        "name": "The Ten Kingdoms",
+        "package_name": "loupi_ten_kingdoms_IE.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2996854616/loupi_ten_kingdoms_IE.pack",
         "pattern_overrides": {"*": "hef"},
     },
     {
-        "name": "MAMMOTH_Mods.pack",
+        "name": "MAMMOTH MODS",
+        "package_name": "MAMMOTH_Mods.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3243507897/MAMMOTH_Mods.pack",
         "pattern_overrides": {"*": "nor"},
     },
     {
-        "name": "MikeyWickermen_5_2.pack",
+        "name": "Mikey's Wickermen",
+        "package_name": "MikeyWickermen_5_2.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3320017610/MikeyWickermen_5_2.pack",
         "pattern_overrides": {"*": "vmp"},
     },
     # {
-    #     "name": "nag_nagash.pack",
+    #     "name": "Legions of Nagash",
+    #     "package_name": "nag_nagash.pack",
     #     "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3293001739/nag_nagash.pack",
     #     "pattern_overrides": {"*": "tmb"},
     #     # "faction_overrides": ["nag"],
@@ -1852,17 +1933,20 @@ SUPPORTED_MODS = [
     #     # }
     # },
     {
-        "name": "Nurgle_Abomination.pack",
+        "name": "Nurgle Rotting Monstruosities (New monster units for Nurgle (and Beastmen too)",
+        "package_name": "Nurgle_Abomination.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2944483244/Nurgle_Abomination.pack",
         "pattern_overrides": {"*": "nur"},
     },
     {
-        "name": "Nurgle_Chargers.pack",
+        "name": "Nurgle Rotting Chargers (and Walkers) - New units for Nurgle and for Beastmen",
+        "package_name": "Nurgle_Chargers.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2946950142/Nurgle_Chargers.pack",
         "pattern_overrides": {"*": "nur"},
     },
     # {
-    #     "name": "ovn_albion.pack",
+    #     "name": "OvN Lost Factions: Albion",
+    #     "package_name": "ovn_albion.pack",
     #     "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2873961274/ovn_albion.pack",
     #     "pattern_overrides": {"*": "emp"},
     #     # "faction_overrides": ["alb"],
@@ -1892,7 +1976,8 @@ SUPPORTED_MODS = [
     #     # }
     # },
     # {
-    #     "name": "ovn_araby.pack",
+    #     "name": "OvN Lost Factions: Araby",
+    #     "package_name": "ovn_araby.pack",
     #     "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3134922105/ovn_araby.pack",
     #     "pattern_overrides": {"*": "emp"},
     #     # "faction_overrides": ["arb"],
@@ -1943,7 +2028,8 @@ SUPPORTED_MODS = [
     #     # }
     # },
     # {
-    #     "name": "ovn_dread_king.pack",
+    #     "name": "OvN Lost Factions: Dread King Legions",
+    #     "package_name": "ovn_dread_king.pack",
     #     "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3016830682/ovn_dread_king.pack",
     #     "pattern_overrides": {"*": "tmb"},
     #     # "faction_overrides": ["dk"],
@@ -1978,7 +2064,8 @@ SUPPORTED_MODS = [
     #     # }
     # },
     # {
-    #     "name": "ovn_fimir.pack",
+    #     "name": "OvN Lost Factions: Fimir",
+    #     "package_name": "ovn_fimir.pack",
     #     "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2899955636/ovn_fimir.pack",
     #     "pattern_overrides": {"*": "nor"},
     #     # "faction_overrides": ["fim"],
@@ -2005,77 +2092,92 @@ SUPPORTED_MODS = [
     #     # }
     # },
     {
-        "name": "possibly a verminlord.pack",
+        "name": "Vile Verminlords: It's Time-Time",
+        "package_name": "possibly a verminlord.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3193506009/possibly a verminlord.pack",
         "pattern_overrides": {},
     },
     {
-        "name": "str_skaven_clans",
+        "name": "Skaven Clans - Blood for the Blood God!",
+        "package_name": "str_skaven_clans",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2986543735/str_skaven_clans.pack",
         "pattern_overrides": {"*": "skv"},
     },
     {
-        "name": "str_toro_skaven.pack",
+        "name": "Skaven Esoterica",
+        "package_name": "str_toro_skaven.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3064165524/str_toro_skaven.pack",
         "pattern_overrides": {"*": "skv"},
     },
     {
-        "name": "seggs_cst_expansion.pack",
+        "name": "Scrambled Eggs' Vampire Coast Unit Expansion (+ Fell Bat Mount)",
+        "package_name": "seggs_cst_expansion.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3250232922/seggs_cst_expansion.pack",
         "pattern_overrides": {"*": "cst"},
     },
     {
-        "name": "sla_beast_expand.pack",
+        "name": "Slaanesh Beast Expand - Update Goz & Mez",
+        "package_name": "sla_beast_expand.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3321253105/sla_beast_expand.pack",
         "pattern_overrides": {"*": "sla"},
     },
     {
-        "name": "snek_guns_of_the_empire.pack",
+        "name": "Guns of the Empire",
+        "package_name": "snek_guns_of_the_empire.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2856619530/snek_guns_of_the_empire.pack",
         "pattern_overrides": {"*": "emp"},
     },
     {
-        "name": "str_cw_slaanesh.pack",
+        "name": "Chaos Mortals of Slaanesh",
+        "package_name": "str_cw_slaanesh.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2803760086/str_cw_slaanesh.pack",
         "pattern_overrides": {"*": "sla"},
     },
     {
-        "name": "str_plague_knights.pack",
+        "name": "Mortal Warriors of Nurgle",
+        "package_name": "str_plague_knights.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2799774034/str_plague_knights.pack",
         "pattern_overrides": {"*": "nur"},
     },
     {
-        "name": "sug_flying_sword_tze_chosen.pack",
+        "name": "Chosen of Tzeentch (Psychic Greatswords) - 奸奇神选者（念力剑）",
+        "package_name": "sug_flying_sword_tze_chosen.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3030374942/sug_flying_sword_tze_chosen.pack",
         "pattern_overrides": {"*": "tze"},
     },
     {
-        "name": "Trajanns_Chosen_Daemons.pack",
+        "name": "Trajann's Chosen Daemons",
+        "package_name": "Trajanns_Chosen_Daemons.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2966058888/Trajanns_Chosen_Daemons.pack",
         "pattern_overrides": {"nrg_": "nur"},
     },
     {
-        "name": "Trajanns_Khorne_Compilation.pack",
+        "name": "Trajann's Khorne Mods Compilation",
+        "package_name": "Trajanns_Khorne_Compilation.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2909192970/Trajanns_Khorne_Compilation.pack",
         "pattern_overrides": {"*": "kho"},
     },
     {
-        "name": "Trajanns_Sentinels.pack",
+        "name": "Trajann's Sentinels Compilation",
+        "package_name": "Trajanns_Sentinels.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3015140379/Trajanns_Sentinels.pack",
         "pattern_overrides": {"*": "tmb"},
     },
     {
-        "name": "trojan_archer.pack",
+        "name": "Slaanbulls & Trojan",
+        "package_name": "trojan_archer.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2834367065/trojan_archer.pack",
         "pattern_overrides": {"*": "sla"},
     },
     {
-        "name": "UD_Deithland_Machines.pack",
+        "name": "Empire Steam Suits",
+        "package_name": "UD_Deithland_Machines.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3386462023/UD_Deithland_Machines.pack",
         "pattern_overrides": {"*": "emp"},
     },
     {
-        "name": "Um_verminlord.pack",
+        "name": "Servants of the Horned Rat - Verminlord // Verminking & Thanquol //",
+        "package_name": "Um_verminlord.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3363045069/Um_verminlord.pack",
         "pattern_overrides": {"*": "skv"},
         "character_overrides": {
@@ -2090,17 +2192,20 @@ SUPPORTED_MODS = [
         }
     },
     {
-        "name": "unitsofnaggarothsamarai.pack",
+        "name": "Units of Naggaroth (Dark Elf unit expansion)",
+        "package_name": "unitsofnaggarothsamarai.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3123822598/unitsofnaggarothsamarai.pack",
         "pattern_overrides": {"*": "def"},
     },
     {
-        "name": "werebeastspol.pack",
+        "name": "Children of the Woods (Immortal Empires Edition)",
+        "package_name": "werebeastspol.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2855839105/werebeastspol.pack",
         "pattern_overrides": {"*": "wef"},
     },
     {
-        "name": "Zerooz_All_Units.pack",
+        "name": "[Zerooz] 兵种合集",
+        "package_name": "Zerooz_All_Units.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2901237965/Zerooz_All_Units.pack",
         "pattern_overrides": {
             "haven_": "brt",
@@ -2108,7 +2213,8 @@ SUPPORTED_MODS = [
         },
     },
     {
-        "name": "cf-Ksl-units.pack",
+        "name": "Kislev Units",
+        "package_name": "cf-Ksl-units.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3430763383/cf-Ksl-units.pack",
         "pattern_overrides": {
             "*": "ksl",
