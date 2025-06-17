@@ -214,7 +214,7 @@ def tsv_to_faction_data(
     """
     try:
         # Usage in the main code
-        if mod["name"].replace(".pack", "") != "vanilla":
+        if mod["package_name"].replace(".pack", "") != "vanilla":
             df_main_units_tables = process_tsv_files("./db/main_units_tables/", "main_units_tables")
             df_faction_agent_permitted_subtypes = process_tsv_files("./db/faction_agent_permitted_subtypes_tables/", "faction_agent_permitted_subtypes")
             df_character_skill_node_set_items = process_tsv_files(
@@ -290,7 +290,7 @@ def tsv_to_faction_data(
                             "land_unit": row["land_unit"],
                             "recruitment_cost": int(row["recruitment_cost"]),
                             "multiplayer_cost": int(row["multiplayer_cost"]),
-                            "origin": mod["name"].replace(".pack", ""),
+                            "origin": mod["package_name"].replace(".pack", ""),
                         }
                     )
 
@@ -310,7 +310,7 @@ def tsv_to_faction_data(
                                     new_allowed_object = {
                                         "land_unit": allowed_object["land_unit"],
                                         "agent_subtype": allowed_object["agent_subtype"],
-                                        "origin": mod["name"].replace(".pack", ""),
+                                        "origin": mod["package_name"].replace(".pack", ""),
                                         "skill_overrides": [],
                                     }
                                     
@@ -343,7 +343,7 @@ def tsv_to_faction_data(
                                     
                                     factions_data[faction_value][f"allowed_{key_substring}"].append(new_allowed_object)
     except Exception as e:
-        FAILED_MODS.append(mod["name"])
+        FAILED_MODS.append(mod["package_name"])
         logging.exception(e)
 
     return factions_data
@@ -356,8 +356,8 @@ if __name__ == "__main__":
     logging.basicConfig(format="%(asctime)s - %(levelname)s - %(message)s", level=logging.INFO)
     start_time = time.time()
 
-    # Create a list of all the mods that are supported from SUPPORTED_MODS in the "name" field.
-    # supported_mods = [mod["name"].replace(".pack", "") for mod in SUPPORTED_MODS]
+    # Create a list of all the mods that are supported from SUPPORTED_MODS in the "package_name" field.
+    # supported_mods = [mod["package_name"].replace(".pack", "") for mod in SUPPORTED_MODS]
     # print(json.dumps(supported_mods, indent=4))
     # exit()
 
