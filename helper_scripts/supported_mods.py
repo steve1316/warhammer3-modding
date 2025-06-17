@@ -1762,8 +1762,9 @@ SUPPORTED_MODS = [
         "pattern_overrides": {"*": "grn"},
     },
     {
-        "name": "GMD_NURGLE_TANK_5_2.pack",
-        "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3320018229/GMD_NURGLE_TANK_5_2.pack",
+        "name": "GMD Plague Tank V2.0",
+        "package_name": "GMD_NURGLE_TANK.pack",
+        "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3226932077/GMD_NURGLE_TANK.pack",
         "pattern_overrides": {"*": "nur"},
     },
     {
