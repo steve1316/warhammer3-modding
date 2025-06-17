@@ -408,14 +408,18 @@ if __name__ == "__main__":
 
         # Process supported mods.
         # ------------------------------------------------------------------
+        list_of_supported_package_names = []
         for mod in SUPPORTED_MODS:
-            # Check if the mod is installed.
-            if mod["path"] and not os.path.exists(mod["path"]):
-                MISSING_MODS.append(mod["package_name"])
-                continue
             # Skip if the mod is marked with the flag to skip generation with.
             if "ignore_generation" in mod and mod["ignore_generation"]:
                 logging.info(f"Skipping {mod['package_name']} because it is marked to be ignored.")
+                continue
+
+            list_of_supported_package_names.append(mod["package_name"].replace(".pack", ""))
+
+            # Check if the mod is installed.
+            if mod["path"] and not os.path.exists(mod["path"]):
+                MISSING_MODS.append(mod["package_name"])
                 continue
 
             # Extract mod data.
@@ -520,6 +524,10 @@ if __name__ == "__main__":
         logging.info(f"Missing mods: {MISSING_MODS}")
     if FAILED_MODS:
         logging.info(f"Failed mods: {FAILED_MODS}")
+
+    # Output the list of supported mod package names to be updated in mct_settings.lua.
+    for package_name in list_of_supported_package_names:
+        print(f"\"{package_name}\",")
 
     end_time = round(time.time() - start_time, 2)
     logging.info(f"Total time for processing all main_units_tables .tsv files: {end_time} seconds or {round(end_time / 60, 2)} minutes.")
