@@ -1,14 +1,43 @@
 """Utility functions for Total War Warhammer 3 modding."""
 
 import pandas as pd
+import shutil
+import subprocess
 import logging
 from typing import List
 
+
+FILEPATH_TO_VANILLA_DATA_TABLES = r"C:\SteamLibrary\steamapps\common\Total War WARHAMMER III\data\db.pack"
 
 # TSV file structure constants
 HEADER_ROW_INDEX = 0
 VERSION_ROW_INDEX = 1
 DATA_START_ROW = 2
+
+def extract_tsv_data(table_name: str):
+    """Extract the TSV data for a given table name from the vanilla data tables.
+    
+    Args:
+        table_name (str): The name of the table to extract.
+    """
+    subprocess.run([
+        "./rpfm_cli.exe",
+        "--game",
+        "warhammer_3",
+        "pack",
+        "extract",
+        "--pack-path",
+        FILEPATH_TO_VANILLA_DATA_TABLES,
+        "--tables-as-tsv",
+        "./schemas/schema_wh3.ron",
+        "--file-path",
+        f"db/{table_name}/data__;./vanilla_{table_name}"
+    ])
+    
+    # Now move the data__.tsv file to the root and rename it to vanilla_main_units_tables.tsv.
+    shutil.move(f"./vanilla_{table_name}/db/{table_name}/data__.tsv", f"./vanilla_{table_name}.tsv")
+    shutil.rmtree(f"./vanilla_{table_name}")
+    logging.info(f"TSV file \"{table_name}\" successfully extracted.")
 
 def load_tsv_data(file_path: str):
     """Load and parse TSV file into structured data.
