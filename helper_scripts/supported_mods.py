@@ -1774,8 +1774,9 @@ SUPPORTED_MODS = [
         "pattern_overrides": {"*": "brt"},
     },
     {
-        "name": "Great_Harmony_Sentinel.pack",
-        "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2789871157/Great_Harmony_Sentinel.pack",
+        "name": "万世天朝/Great Harmony Sentinel Overhaul Beta",
+        "package_name": "ghs_great_harmony.pack",
+        "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3442971928/ghs_great_harmony.pack",
         "pattern_overrides": {},
     },
     {
