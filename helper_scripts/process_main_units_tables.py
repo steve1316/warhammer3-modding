@@ -409,6 +409,10 @@ if __name__ == "__main__":
             if mod["path"] and not os.path.exists(mod["path"]):
                 MISSING_MODS.append(mod["package_name"])
                 continue
+            # Skip if the mod is marked with the flag to skip generation with.
+            if "ignore_generation" in mod and mod["ignore_generation"]:
+                logging.info(f"Skipping {mod['package_name']} because it is marked to be ignored.")
+                continue
 
             # Extract mod data.
             # ------------------------------------------------------------------
