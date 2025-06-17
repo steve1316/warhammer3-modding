@@ -407,13 +407,13 @@ if __name__ == "__main__":
         for mod in SUPPORTED_MODS:
             # Check if the mod is installed.
             if mod["path"] and not os.path.exists(mod["path"]):
-                MISSING_MODS.append(mod["name"])
+                MISSING_MODS.append(mod["package_name"])
                 continue
 
             # Extract mod data.
             # ------------------------------------------------------------------
-            if mod["name"] != "vanilla":
-                logging.info(f"Extracting mod data from {mod['name']}...")
+            if mod["package_name"] != "vanilla":
+                logging.info(f"Extracting mod data from {mod['package_name']}...")
                 
                 # Loop through each folder path and run the extraction command.
                 folders_to_extract = [
@@ -440,7 +440,7 @@ if __name__ == "__main__":
 
             # Transform data.
             # ------------------------------------------------------------------
-            if mod["name"] == "vanilla":
+            if mod["package_name"] == "vanilla":
                 logging.info(f"Processing vanilla units...")
                 factions_data = tsv_to_faction_data(
                     factions_data, 
@@ -452,7 +452,7 @@ if __name__ == "__main__":
                     df_character_skill_nodes_vanilla
                 )
             else:
-                logging.info(f"Now processing {mod['name']}...")
+                logging.info(f"Now processing {mod['package_name']}...")
 
                 default_faction = None
                 do_not_use_underscore_pattern = False
