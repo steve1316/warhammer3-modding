@@ -39,3 +39,6 @@ Provides utility functions for data handling, including functions for loading an
 
 ### 10. `process_main_units_tables.py`
 Processes main unit tables for mod integration by loading, cleaning, and extracting data from main unit tables, supporting mod compatibility and updates.
+
+### 11. `update_supported_mods_list.py`
+Generates a formatted list of supported mods that have their melee, firing arcs and projectile velocity data adjusted. The lists are to be updated in their respective Steam Workshop pages whenever a new mod is added or removed.
