@@ -14,7 +14,7 @@ import logging
 import gc
 import shutil
 import time
-from utilities import read_and_clean_tsv
+from utilities import extract_tsv_data, read_and_clean_tsv
 from supported_mods import SUPPORTED_MODS
 from typing import List, Dict
 
@@ -360,7 +360,11 @@ if __name__ == "__main__":
     # supported_mods = [mod["package_name"].replace(".pack", "") for mod in SUPPORTED_MODS]
     # print(json.dumps(supported_mods, indent=4))
     # exit()
-
+    
+    # If the required vanilla data files are not present, extract them from the game.
+    for table_name in ["main_units_tables", "faction_agent_permitted_subtypes_tables", "character_skill_node_set_items_tables", "character_skill_node_sets_tables", "character_skill_nodes_tables"]:
+        if not os.path.exists(f"./vanilla_{table_name}.tsv"):
+            extract_tsv_data(table_name)
     try:
         factions_data = {}
         
