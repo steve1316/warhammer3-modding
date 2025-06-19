@@ -2,6 +2,7 @@
 
 import pandas as pd
 import subprocess
+import os
 import logging
 from typing import List
 
@@ -35,6 +36,30 @@ def extract_tsv_data(table_name: str):
     
     logging.info(f"TSV file \"{table_name}\" successfully extracted.")
 
+def extract_modded_tsv_data(table_name: str, packfile_path: str, extract_path: str):
+    """Extract the TSV data for a given table name from the modded data tables.
+    
+    Args:
+        table_name (str): The name of the table to extract.
+        packfile_path (str): The path to the packfile to extract from.
+        extract_path (str): The path to extract the TSV data to.
+    """
+    subprocess.run([
+        "./rpfm_cli.exe",
+        "--game",
+        "warhammer_3",
+        "pack",
+        "extract",
+        "--pack-path",
+        packfile_path,
+        "--tables-as-tsv",
+        "./schemas/schema_wh3.ron",
+        "--folder-path",
+        f"db/{table_name};{extract_path}"
+    ])
+
+    logging.info(f"TSV file(s) for \"{table_name}\" successfully extracted to {extract_path}.")
+
 def load_tsv_data(file_path: str):
     """Load and parse TSV file into structured data.
     
@@ -59,6 +84,28 @@ def load_tsv_data(file_path: str):
         data.append(dict(zip(headers, values)))
     
     return data, headers, version_info
+
+def load_multiple_tsv_data(folder_path: str):
+    """Load all TSV files in a folder and parse them all into a single list of structured data.
+    
+    Args:
+        folder_path (str): Path to the folder containing the TSV files.
+        
+    Returns:
+        A tuple of a list of row dictionaries with header keys and the headers.
+    """
+    merged_data = []
+    headers = None
+    for file_name in os.listdir(folder_path):
+        print(f"Loading TSV file: {file_name}")
+        if file_name.endswith(".tsv"):
+            data, headers, _ = load_tsv_data(os.path.join(folder_path, file_name))
+            print(f"Loaded {len(data)} rows from {file_name}.")
+            merged_data.extend(data)
+            if headers is None:
+                headers = headers
+    print(f"Loaded a total of {len(merged_data)} rows.")
+    return merged_data, headers
 
 def read_and_clean_tsv(tsv_file_path: str, table_type: str, allowed_patterns: List[str] = None):
     """Load and clean TSV file based on the table type.
