@@ -22,23 +22,17 @@ Merges and updates unit data for mods by combining data from different sources a
 ### 4. `correct_quotation_marks.py`
 Standardizes quotation mark usage in localization files by correcting and ensuring proper formatting of quotes in text files.
 
-### 5. `melee.py`
-Adjusts melee combat data for units by modifying attack intervals and writing updated data to a new file.
-
-### 6. `velocity.py`
-Updates projectile velocity data by adjusting and writing new velocity data for projectiles.
-
-### 7. `120.py`
-Modifies data for ranged attacks with a 120-degree arc by updating and writing modified data to a new file.
-
-### 8. `supported_mods.py`
+### 5. `supported_mods.py`
 Manages and lists supported mods by providing paths and configurations for various mods.
 
-### 9. `utilities.py`
+### 6. `utilities.py`
 Provides utility functions for data handling, including functions for loading and cleaning TSV data, used across various scripts.
 
-### 10. `process_main_units_tables.py`
+### 7. `process_main_units_tables.py`
 Processes main unit tables for mod integration by loading, cleaning, and extracting data from main unit tables, supporting mod compatibility and updates.
 
-### 11. `update_supported_mods_list.py`
+### 8. `update_supported_mods_list.py`
 Generates a formatted list of supported mods that have their melee, firing arcs and projectile velocity data adjusted. The lists are to be updated in their respective Steam Workshop pages whenever a new mod is added or removed.
+
+### 9. `update_modified_attribute_mods.py`
+Script to update the modified attribute mods from the Steam Workshop to account for latest changes to the vanilla and modded data tables.
