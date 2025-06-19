@@ -10,7 +10,7 @@ building_culture_variants_name_north_station_4wh3_main_cth_cathay	Blacksteel Kee
 building_short_description_texts_short_description_north_station_4	The legendary Dragon Spine Sentinels are said to be stationed here.	true
 building_culture_variants_name_north_station_5wh3_main_cth_cathay	Black Tortoise Tower	true
 building_short_description_texts_short_description_north_station_5	The gate is strictly guarded by the Watch Wardens.	true
-building_sets_onscreen_name_north_station	Northern Military Town Series	true
+building_sets_onscreen_name_north_station	Northern Garrison Command Series	true
 building_sets_onscreen_description_north_station	Constructing this series progressively unlocks unique units native to the Northern Provinces.	true
 effects_description_whc_enable_north_units_tier_1	Unlocks recruitment of Garrison Spear Archers, Garrison Blade Crossbowmen, Garrison Spear Cavalry, and Jade Bastion Guards (Mace).	true
 effects_description_whc_enable_north_units_tier_2	Unlocks recruitment of Jade Bastion Guards (Spear).	true
@@ -40,7 +40,7 @@ building_culture_variants_name_east_station_2wh3_main_cth_cathay	Azure Wave Hall
 building_short_description_texts_short_description_east_station_2	The sailors of the "Grand Dragon Fleet" are selected from these coastal garrisons.	true
 building_culture_variants_name_east_station_3wh3_main_cth_cathay	Sky Blue Keep	true
 building_short_description_texts_short_description_east_station_3	Strong resolve and cutting-edge firearms both require sufficient supplies and wages.	true
-building_sets_onscreen_name_east_station	Eastern Garrison Series	true
+building_sets_onscreen_name_east_station	Eastern Encampment Series	true
 building_sets_onscreen_description_east_station	Constructing this series progressively unlocks unique units native to the Eastern Provinces.	true
 effects_description_whc_enable_east_units_tier_1	Unlocks recruitment of Frontier Wolf-Fork Spearmen, Frontier Firecracker Archers, Frontier Firelance Cavalry, and Coastal Defense Corps (Triple-Barrel Arquebuses).	true
 effects_description_whc_enable_east_units_tier_2	Unlocks recruitment of Coastal Defense Corps (Divine Arrow Rockets) and Fire Thunder Grenadiers.	true

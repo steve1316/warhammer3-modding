@@ -24,3 +24,7 @@ unit_abilities_onscreen_name_palace_guard_jade_charge	Jade-Piercing Charge	false
 unit_abilities_tooltip_text_palace_guard_jade_charge	Warriors charging alongside the Jade Lions feel an overwhelming surge of magical empowerment.	false
 ui_unit_bullet_point_enums_onscreen_name_cth_cata_cav	Ironclad Cavalry	false
 ui_unit_bullet_point_enums_tooltip_cth_cata_cav	This heavy cavalry unit possesses collision attack capabilities.	false
+ui_unit_bullet_point_enums_onscreen_name_cth_barbarian_naturalized	Naturalized Barbarians	false
+ui_unit_bullet_point_enums_tooltip_cth_barbarian_naturalized	This unit is deeply influenced by Cathayan military strategy, embracing martial harmony while growing distant from their original specialties.	false
+ui_unit_bullet_point_enums_onscreen_name_cth_ogre_artofwar	Art of War (Ogre)	false
+ui_unit_bullet_point_enums_tooltip_cth_ogre_artofwar	These burly ogres at least know to climb the walls and wreak havoc, rather than ramming their clubs straight into stone.	false

@@ -53,3 +53,7 @@ unit_abilities_tooltip_text_cth_south_songyuan_roar	The tiger's roar shakes the 
 special_ability_phases_onscreen_name_cth_north_suitang_electric_shock	[[col:red]][[img:ui/battle ui/ability_icons/cth_north_suitang_electric_shock.png]][[/img]]Electric Shock![[/col]] 	false
 special_ability_phases_onscreen_name_cth_east_mingqing_smoke	[[col:red]][[img:ui/battle ui/ability_icons/cth_east_mingqing_smoke.png]][[/img]]Thick Smoke![[/col]] 	false
 special_ability_phases_onscreen_name_cth_south_songyuan_jade_bow_ar_poison	[[col:red]][[img:ui/battle ui/ability_icons/cth_south_songyuan_jade_bow_ar_poison.png]][[/img]]Gut-Wrenching Venom![[/col]] 	false
+unit_abilities_onscreen_name_cth_central_tianting_ogre_naturalized	Martial Discipline	false
+unit_abilities_tooltip_text_cth_central_tianting_ogre_naturalized	"Well what can I do? Those little ones insisted I stay put right here."	false
+unit_abilities_onscreen_name_cth_central_tianting_ogre_trainer	Break Through Mountains	false
+unit_abilities_tooltip_text_cth_central_tianting_ogre_trainer	These Swordmaster Brutes are battle-hardened veterans, especially skilled at demonstrating how to swing a weapon with full force.	false
