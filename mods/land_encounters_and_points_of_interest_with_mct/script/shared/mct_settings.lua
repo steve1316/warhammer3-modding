@@ -136,6 +136,7 @@ local encounter_data = {
 
 -- TODO: This needs to be periodically updated whenever new mods are added/removed.
 local supported_mods = {
+    "!cr_immortal_empires_expanded", -- Immortal Empires Expanded
     "vanilla",
     "!!!!!!champions_of_undeath_bloodline_agents",
     "!!!!!!Champions_of_undeath_merged_fun_tyme",
