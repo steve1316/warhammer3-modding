@@ -1158,6 +1158,13 @@ SUPPORTED_MODS = [
         "pattern_overrides": {"*": "lzd"},
     },
     {
+        "name": "Lost Calm: Nakai Submod",
+        "package_name": "!!!lost_calm_nakai_normal.pack",
+        "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3085589102/!!!lost_calm_nakai_normal.pack",
+        "modified_attributes": ["melee"],
+        "pattern_overrides": {"*": "lzd"},
+    },
+    {
         "name": "Runic Units",
         "package_name": "!!!phy_runic_units.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3311408575/!!!phy_runic_units.pack",
@@ -2541,6 +2548,20 @@ SUPPORTED_MODS = [
         "package_name": "_hv_overhaul_hvo.pack",
         "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2862839667/_hv_overhaul_hvo.pack",
         "modified_attributes": ["melee", "ranged_arc", "velocity"],
+        "ignore_generation": True,
+    },
+    {
+        "name": "Nanu's Dynamic Regiments of Renown (Beta)",
+        "package_name": "!!_nanu_dynamic_rors.pack",
+        "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3278112051/!!_nanu_dynamic_rors.pack",
+        "modified_attributes": ["velocity"],
+        "ignore_generation": True,
+    },
+    {
+        "name": "[GLF] Battle Mage 战斗法师",
+        "package_name": "!!!1a_glf_battle_mage_Dante.pack",
+        "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3387635246/!!!1a_glf_battle_mage_Dante.pack",
+        "modified_attributes": ["velocity"],
         "ignore_generation": True,
     },
 ]
