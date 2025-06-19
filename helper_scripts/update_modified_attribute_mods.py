@@ -129,7 +129,7 @@ if __name__ == "__main__":
             is_vanilla = True
         else:
             # Table names cannot end in numbers.
-            folder_name = mod["package_name"].replace(".pack", "")
+            folder_name = mod["package_name"].replace(".pack", "").replace(" ", "_")
             if folder_name[-1].isdigit():
                 folder_name = folder_name[:-1]
 
