@@ -337,7 +337,6 @@ local ie_coordinates = {
           -- Path to the East
           {997, 705},
           {909, 692},
-          {954, 704},
      },
      ["darklands"] = {
           -- The Dragon Isles
