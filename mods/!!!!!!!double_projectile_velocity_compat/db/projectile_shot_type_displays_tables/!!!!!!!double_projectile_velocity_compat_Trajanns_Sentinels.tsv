@@ -1,4 +1,4 @@
 key	ui_sound_event	icon_name
-#projectile_shot_type_displays_tables;1;db/projectile_shot_type_displays_tables/!!!!!!!double_projectile_velocity_compat_Trajanns_Sentinels		
+#projectile_shot_type_displays_tables;1;db/projectile_shot_type_displays_tables/!!!!!!!double_projectile_velocity_compat_Trajanns_Sentinels
 traj_barthuum_single	UI_BAT_SABL_Generic_Enable	traj_barthuum_single
 traj_barthuum_multi	UI_BAT_SABL_Generic_Enable	traj_barthuum_multi

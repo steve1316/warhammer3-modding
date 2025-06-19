@@ -1,4 +1,4 @@
 key	ui_sound_event	icon_name
-#projectile_shot_type_displays_tables;1;db/projectile_shot_type_displays_tables/!!!!!!!double_projectile_velocity_compat_!xou_age_TKExtended		
+#projectile_shot_type_displays_tables;1;db/projectile_shot_type_displays_tables/!!!!!!!double_projectile_velocity_compat_!xou_age_TKExtended
 tmb_bone_thrower_bolt	UI_BAT_SABL_Generic_Enable	tmb_artillery_default
 tmb_bone_thrower_bolt_canister	UI_BAT_SABL_Generic_Enable	tmb_artillery_canister

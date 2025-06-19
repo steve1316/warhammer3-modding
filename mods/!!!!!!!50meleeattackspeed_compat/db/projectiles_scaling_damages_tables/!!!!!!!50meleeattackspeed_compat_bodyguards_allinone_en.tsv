@@ -1,5 +1,5 @@
 key	max_damage_multiplier	max_health_ratio	min_damage_multiplier	min_health_ratio
-#projectiles_scaling_damages_tables;0;db/projectiles_scaling_damages_tables/!!!!!!!50meleeattackspeed_compat_bodyguards_allinone_en				
+#projectiles_scaling_damages_tables;0;db/projectiles_scaling_damages_tables/!!!!!!!50meleeattackspeed_compat_bodyguards_allinone_en
 skv_bodyguard_scale_1_25	1.0000	1.0000	1.2500	0.0100
 skv_bodyguard_scale_1_50	1.0000	1.0000	1.5000	0.0100
 tmb_bodyguard_scale_1_25	1.0000	1.0000	1.2500	0.0100
