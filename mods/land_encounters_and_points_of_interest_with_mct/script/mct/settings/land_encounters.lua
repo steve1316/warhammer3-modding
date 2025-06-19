@@ -494,7 +494,10 @@ if used_mods then
     used_mods:close()
 end
 
-out("DEBUG - enabled supported mods: " .. table.concat(get_mct_settings().enabled_mods, ", "))
+out("DEBUG - enabled supported mods: ")
+for _, mod in ipairs(get_mct_settings().enabled_mods) do
+    out("DEBUG - " .. mod)
+end
 
 -- TODO: If a MCT List is ever implemented, we can uncomment this. For now, it would display some of the items but it will put everything else into a tooltip when it gets too long and the tooltip itself will overflow vertically past the screen.
 -- local enabled_supported_mods_section = mct_mod:add_new_section("enabled_supported_mods_section")
