@@ -1,7 +1,6 @@
 """Utility functions for Total War Warhammer 3 modding."""
 
 import pandas as pd
-import shutil
 import subprocess
 import logging
 from typing import List
@@ -34,9 +33,6 @@ def extract_tsv_data(table_name: str):
         f"db/{table_name}/data__;./vanilla_{table_name}"
     ])
     
-    # Now move the data__.tsv file to the root and rename it to vanilla_main_units_tables.tsv.
-    shutil.move(f"./vanilla_{table_name}/db/{table_name}/data__.tsv", f"./vanilla_{table_name}.tsv")
-    shutil.rmtree(f"./vanilla_{table_name}")
     logging.info(f"TSV file \"{table_name}\" successfully extracted.")
 
 def load_tsv_data(file_path: str):

@@ -365,6 +365,9 @@ if __name__ == "__main__":
     for table_name in ["main_units_tables", "faction_agent_permitted_subtypes_tables", "character_skill_node_set_items_tables", "character_skill_node_sets_tables", "character_skill_nodes_tables"]:
         if not os.path.exists(f"./vanilla_{table_name}.tsv"):
             extract_tsv_data(table_name)
+            # Now move the data__.tsv file to the root and rename it.
+            shutil.move(f"./vanilla_{table_name}/db/{table_name}/data__.tsv", f"./vanilla_{table_name}.tsv")
+            shutil.rmtree(f"./vanilla_{table_name}")
     try:
         factions_data = {}
         
