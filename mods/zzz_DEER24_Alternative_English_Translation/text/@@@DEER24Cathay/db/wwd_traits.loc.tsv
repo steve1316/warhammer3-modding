@@ -76,3 +76,25 @@ character_trait_levels_onscreen_name_wwd_trait_huren	Right Wise King	false
 character_trait_levels_colour_text_defeated_trait_jinfo	He spent his life battling in the void, but now he can return home.	false
 character_trait_levels_onscreen_name_defeated_trait_jinfo	Return to Homeland	false
 character_trait_levels_explanation_text_defeated_trait_jinfo	Unlock method: Defeat Xue Ding.	false
+character_trait_levels_onscreen_name_wwd_trait_provincial_reinforcements	Provincial Reinforcements	false
+character_trait_levels_colour_text_wwd_trait_provincial_reinforcements	Each province arms its own, marching to war for hearth and home—today is the day!	false
+character_trait_levels_colour_text_defeated_trait_taishi	The Grand Preceptor was right—see, the fish came after all.	false
+character_trait_levels_onscreen_name_defeated_trait_taishi	Bait Taken	false
+character_trait_levels_explanation_text_defeated_trait_taishi	Acquired by: Defeating Jiang Wang	false
+character_trait_levels_onscreen_name_wwd_trait_movement_debuff	Slow Down	false
+character_trait_levels_colour_text_wwd_trait_movement_debuff	It's all for your own good...	false
+character_trait_levels_onscreen_name_wwd_trait_fangwenzi_I	[[col:white]]Unwritten Paths[[/col]]	false
+character_trait_levels_colour_text_wwd_trait_fangwenzi_I	You wish to change the story's course? Very well—if it’s you, perhaps it’s possible...	false
+character_trait_levels_onscreen_name_wwd_trait_fangwenzi_II	[[col:white]]The Weight of Miracles[[/col]]	false
+character_trait_levels_colour_text_wwd_trait_fangwenzi_II	"You are not alone... even mortals walk with you."	false
+character_trait_levels_onscreen_name_wwd_trait_longdidaixing	[[col:yellow]]Mandate of the Dragon Emperor[[/col]]	false
+character_trait_levels_colour_text_wwd_trait_longdidaixing	"By this decree, I grant you the Tristar Banner and the Celestial Axe to judge before plea. Command the Five Guards and Two Armies. Govern Fifteen Provinces and Eighty-One Prefectures. Wield Heaven’s Sword and wage war for the Way."	false
+character_trait_levels_onscreen_name_wwd_trait_yuanbo_war	[[col:yellow]]Dogmatic Crusade[[/col]]	false
+character_trait_levels_colour_text_wwd_trait_yuanbo_war	In His name, remove all obstacles.	false
+character_trait_levels_explanation_text_wwd_trait_yuanbo_war	Acquired by: Declaring full war upon first contact with Lizardmen in Yuan Bo’s storyline	false
+character_trait_levels_onscreen_name_wwd_trait_yuanbo_dip	[[col:yellow]]Endgame Strategist[[/col]]	false
+character_trait_levels_colour_text_wwd_trait_yuanbo_dip	For the best possible ending, no cost is too great.	false
+character_trait_levels_explanation_text_wwd_trait_yuanbo_dip	Acquired by: Pursuing diplomacy with the Lizardmen through repeated crises in Yuan Bo’s storyline	false
+character_trait_levels_onscreen_name_wwd_trait_yuanbo_tianting_war	[[col:yellow]]The Burning of Weijing[[/col]]	false
+character_trait_levels_colour_text_wwd_trait_yuanbo_tianting_war	What seems a trifle may break the tune; a string retuned may not resound.	false
+character_trait_levels_explanation_text_wwd_trait_yuanbo_tianting_war	Acquired by: Declaring war on the Celestial Court and seizing Weijing in Yuan Bo’s storyline	false
