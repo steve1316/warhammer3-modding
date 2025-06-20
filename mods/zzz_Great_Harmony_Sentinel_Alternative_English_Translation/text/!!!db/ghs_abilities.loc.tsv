@@ -320,3 +320,30 @@ unit_abilities_tooltip_text_unit_ability_dragons_tenacity	Dragon's Resolve is li
 unit_abilities_tooltip_text_unit_ability_enable_volley_of_fire_lance	The deafening roar of fire lances fills the air, laying waste to everything.	false
 unit_abilities_tooltip_text_unit_ability_three_axe_strokes	Three mighty axe blows of tremendous power, yet exhausting their use leaves the wielder defenseless.	false
 unit_abilities_tooltip_text_wuxing_compass_cast_up	Harness the power of the Five Elements Compass for the mage's use.	true
+unit_abilities_onscreen_name_cth_zhaowang_battle_master	Blood of the Flood Dragon	true
+unit_abilities_onscreen_name_cth_zhaowang_flooddragon	Flood Dragon Technique	true
+unit_abilities_onscreen_name_cth_zhaowang_flooddragon_1	Flood Dragon Technique	true
+unit_abilities_onscreen_name_cth_zhaowang_steel	Might of the Flood Dragon	true
+unit_abilities_onscreen_name_zhaowang_thunder_skill	Thunderous Dragon Annihilation	true
+unit_abilities_tooltip_text_cth_zhaowang_battle_master	When the wind strikes the Tuo Drums, the mountains and rivers shake; lightning flashes above the banners, reaching sun and moon.	true
+unit_abilities_tooltip_text_cth_zhaowang_flooddragon	Though unable to take the form of a true dragon, one can still awaken its might.	true
+unit_abilities_tooltip_text_cth_zhaowang_flooddragon_1	Though unable to take the form of a true dragon, one can still awaken its might.	true
+unit_abilities_tooltip_text_cth_zhaowang_steel	Golden helm, golden armor, cinnabar robe; purple eyes, crimson brows, and verdant mane.	true
+unit_abilities_tooltip_text_zhaowang_thunder_skill	"The souls of our Celestial warriors shall be claimed by Heaven itself—how could we allow the foul Daemons of Tzeentch to defile them?"	true
+unit_abilities_onscreen_name_ghs_ksl_thor_arcane_item	Storm Aura	true
+unit_abilities_onscreen_name_ghs_ksl_thor_talisman	Oracle of War	true
+unit_abilities_onscreen_name_ghs_ksl_thor_weapon	Thor's Thunderstorm	true
+unit_abilities_tooltip_text_ghs_ksl_thor_arcane_item	The storm took my dearest friend. The lightning pulled me back from death. From pain I rose again—becoming the thunder that tears through the dark!	true
+unit_abilities_tooltip_text_ghs_ksl_thor_talisman	Arcs of lightning leap from the scar upon Hafdan's chest, bursting forth with dazzling brilliance as he smashes enemy skulls—healing Thor's Chosen and driving him ever forward.	true
+unit_abilities_tooltip_text_ghs_ksl_thor_weapon	Blood-drenched Son of Thor raises his warhammer high—lightning howls from the heavens, cleansing the foul beasts that dare violate the motherland’s borders.	true
+unit_abilities_onscreen_name_chakax_silence_sculpture	Sculpture of Silence	true
+unit_abilities_onscreen_name_lzd_kroxigor_bro_01_weapon	Fist of Quiji	true
+unit_abilities_tooltip_text_lzd_kroxigor_bro_01_weapon	In the hands of Old-Kan, this great hammer moves like an extension of his limbs—each casual blow fuses warm-bloods and their so-called fine armor into a single mass of gore.	true
+unit_abilities_onscreen_name_lzd_kroxigor_bro_02_weapon	Edge of Itzi	true
+unit_abilities_tooltip_text_lzd_kroxigor_bro_02_weapon	Sharp and heavy, blessed with the wild fury of the Beast God Itzi. Forged and honed by a legion of Skink craftsmen, this mighty axe can decapitate even the thick-necked Carnosaur in one fell swoop.	true
+unit_abilities_onscreen_name_lzd_kroxigor_bro_02_armour	Beastbone Armor	true
+unit_abilities_tooltip_text_lzd_kroxigor_bro_02_armour	Assembled from the proudest trophies felled by Old-K’ja, this thick armor endures the searing heat of a Solar Engine—arrows and bullets feel like mere scratches on its hide.	true
+unit_abilities_onscreen_name_skv_mon_hellpit_lightling	Dimensional Lightning	true
+unit_abilities_onscreen_name_wh2_main_unit_passive_the_warpflame_explosion	Surge of Warpflame	true
+unit_abilities_tooltip_text_skv_mon_hellpit_lightling	Within the twisted flesh brews devastating dimensional lightning, potent enough to pierce the toughest armor.	true
+unit_abilities_tooltip_text_wh2_main_unit_passive_the_warpflame_explosion	When the warpstone runs dry, the fire dies down... but these hairless wretches will feel the *real* explosion, yes-yes!	true

@@ -101,3 +101,88 @@ character_skills_localised_name_ghs_skill_cth_hongying_spy_commander	Laurel Pavi
 character_skills_localised_description_ghs_skill_cth_hongying_spy_commander	Amid the surging tides of espionage, they navigate with ease, leading their subordinates to unravel complex schemes, exemplifying excellence in covert operations.	false
 character_skills_localised_name_ghs_skill_cth_hongying_cathay_night	Celestial Night	false
 character_skills_localised_description_ghs_skill_cth_hongying_cathay_night	The outlines of the Celestial Court shimmer faintly in the night, while the moonlit sky is dotted with black feathers, resembling endless gems encrusted in the heavens.	false
+character_skills_localised_description_cth_zhaowang_horse	This draconic steed is jet black from head to hoof, galloping ten thousand li by day and eight thousand by night—thus named “Cloudstrider of Ten Thousand Li.”	true
+character_skills_localised_description_cth_zhaowang_steel	It’s not over yet!	true
+character_skills_localised_description_cth_zhaowang_unique_0	Muster riders, prepare soldiers, feed horses, sharpen blades, and strengthen formations—this is the path to victory.	true
+character_skills_localised_description_cth_zhaowang_unique_1	Discipline yourself with introspection, reflect thrice daily, bask in the moon’s glow, carry the dignity of the Dragon Emperor—never falter in virtue or decorum.	true
+character_skills_localised_description_cth_zhaowang_unique_2	Let golden steel reflect a loyal heart—leave no regrets nor unspoken laments.	true
+character_skills_localised_description_cth_zhaowang_unique_3	You beasts and barbarian fiends—halt! Who dares face even half my hammer swing?!	true
+character_skills_localised_description_cth_zhaowang_unique_4	His immense magical power, innate since birth, hammers and tempers Xuan Lie’s body day and night—granting him divine might to shatter mountains and tear down walls.	true
+character_skills_localised_description_cth_zhaowang_unique_5	Golden helm, golden armor, cinnabar robe; purple eyes, crimson brows, azure mane. As drums thunder and banners flash, the earth trembles and the heavens stir. His mount is born of dragon blood—how could petty daemons escape? When we return in triumph, general, we shall lay down our arms together.	true
+character_skills_localised_description_cth_zhaowang_weapon	A golden hammer crowned with a beast’s head, its head infused with the spirit of a temple guardian—its strikes tear through ranks like a dragon's claws.	true
+character_skills_localised_name_cth_zhaowang_horse	Cloudstrider of Ten Thousand Li	true
+character_skills_localised_name_cth_zhaowang_innate	"Prince of Western Wei"	true
+character_skills_localised_name_cth_zhaowang_steel	Great Guardian's Vigor	true
+character_skills_localised_name_cth_zhaowang_unique_0	Tempered for War	true
+character_skills_localised_name_cth_zhaowang_unique_1	Self-Discipline and Command	true
+character_skills_localised_name_cth_zhaowang_unique_2	Bloodforged Legacy	true
+character_skills_localised_name_cth_zhaowang_unique_3	Chaos’s End	true
+character_skills_localised_name_cth_zhaowang_unique_4	Might of the Flood Dragon	true
+character_skills_localised_name_cth_zhaowang_unique_5	Ode of the Bronze Dragon	true
+character_skills_localised_name_cth_zhaowang_weapon	War-Drum Golden Hammer	true
+character_skills_localised_description_dwf_missile_mecha	The prototype of these machines dates back to the Gold Age’s great mining rush. Buried beneath rubble after countless engineers and miners were lost to the green tide, they were only recently unearthed. Now, restored and mass-produced, the survivors of that long-ago tragedy ride them into battle to finally settle the score with the Greenskins and Skaven filth.	true
+character_skills_localised_name_dwf_missile_mecha	Hatred Reckoner Mech (Multi-Barreled Rune Gun)	true
+character_skills_localised_description_ghs_ksl_thor_arcane_item	"When Hafdan won the Dwarfen drinking contest, he met Grelid. As they escaped from a Dark Elf Black Ark, a storm swept Grelid away—leaving only his heirloom rune helm behind."	true
+character_skills_localised_description_ghs_ksl_thor_armour	"This armor, forged by a renowned Dwarf master, is etched with lost runes of thunder. It channels Hafdan’s inner lightning and repels surrounding Chaos energies."	true
+character_skills_localised_description_ghs_ksl_thor_enchanted_item	"After defeating the Bonegrinder chieftain in single combat, Hafdan seized a golden rune from the giants’ treasure hoard. With it comes an irresistible charisma that draws warriors to his cause."	true
+character_skills_localised_description_ghs_ksl_thor_innate	"I shall raise Mjolnir high and rally Kislev beneath one banner—let the thunder of the skies wash away our ancient shame!"	true
+character_skills_localised_description_ghs_ksl_thor_talisman	"When the god-hammer struck down with lightning, it left an eternal bolt-shaped scar on Hafdan’s chest. This mark renders Thor’s Chosen invulnerable and tireless in battle."	true
+character_skills_localised_description_ghs_ksl_thor_unique_0	Kislev’s once-clear skies have long been shrouded in darkness. But today, the divine hammer falls, thunder roars, and shame is cast away in radiant vengeance!	true
+character_skills_localised_description_ghs_ksl_thor_unique_1	For too long, Norscan raiders, Skaven, and Daemons have tormented our homeland. Now it’s time they taste the suffering they have inflicted!	true
+character_skills_localised_description_ghs_ksl_thor_unique_2	Countless loyal soldiers have bled across tundra, walls, homesteads, and shrines. Yet their blood and the frost have forged bodies and wills that cannot be broken.	true
+character_skills_localised_description_ghs_ksl_thor_unique_3	Thor’s blessing grants us unmatched speed and strength—let us charge forth like a thunderous tide of ruin!	true
+character_skills_localised_description_ghs_ksl_thor_unique_4	I always arrive where my comrades need me most. I will not fall. I do not stop!	true
+character_skills_localised_description_ghs_ksl_thor_unique_5	Behind us stands the Motherland—Kislev itself! Under Thor’s gaze, we shall stand united!	true
+character_skills_localised_description_ghs_ksl_thor_unique_6	I carry the glory of the Thunder God. In Thor’s name I raise the divine hammer—Chaos shall not breach our homeland!	true
+character_skills_localised_description_ghs_ksl_thor_unique_rubbish	Every scar is a badge of honor. Every battle brings us one step closer to victory!	true
+character_skills_localised_description_ghs_ksl_thor_weapon	"This heaven-sent hammer marked a turning point in Hafdan’s life. When he grips its handle, he hears the divine voice of Thor guiding him through every battle."	true
+character_skills_localised_name_ghs_ksl_thor_arcane_item	Grelid's Winged Helm	true
+character_skills_localised_name_ghs_ksl_thor_armour	Armor of Yarganpei	true
+character_skills_localised_name_ghs_ksl_thor_enchanted_item	Janggripel	true
+character_skills_localised_name_ghs_ksl_thor_innate	"Chosen of Thor"	true
+character_skills_localised_name_ghs_ksl_thor_talisman	Lightning Scar	true
+character_skills_localised_name_ghs_ksl_thor_unique_0	The Hammer Descends	true
+character_skills_localised_name_ghs_ksl_thor_unique_1	Cycle of Vengeance	true
+character_skills_localised_name_ghs_ksl_thor_unique_2	Loyal Soldiers	true
+character_skills_localised_name_ghs_ksl_thor_unique_3	Thunderous Momentum	true
+character_skills_localised_name_ghs_ksl_thor_unique_4	Unyielding	true
+character_skills_localised_name_ghs_ksl_thor_unique_5	"Motherland"	true
+character_skills_localised_name_ghs_ksl_thor_unique_6	"Thorsson"	true
+character_skills_localised_name_ghs_ksl_thor_unique_rubbish	Chosen’s Trial	true
+character_skills_localised_name_ghs_ksl_thor_weapon	Mjolnir	true
+character_skills_localised_name_lzd_kroxigor_bro_01_weapon	Fist of Quiji	true
+character_skills_localised_description_lzd_kroxigor_bro_01_weapon	When indestructibility is wielded as a weapon, nothing is unbreakable. This massive hammer, which requires multiple Kroxigors to carry, moves as fluidly as a limb in Old-Kan’s hands. A casual swing melds warm-bloods and their prized armor into a single, gory mass.	true
+character_skills_localised_name_lzd_kroxigor_bro_01_armour	Golden Warplate	true
+character_skills_localised_description_lzd_kroxigor_bro_01_armour	Though soft metals offer no defense to its hardened scales, they reflect brilliantly—making Old-Kan’s massive frame a gleaming beacon, guiding Lizardmen warriors behind him to follow the bloody path he carves.	true
+character_skills_localised_name_lzd_kroxigor_bro_02_weapon	Edge of Itzi	true
+character_skills_localised_description_lzd_kroxigor_bro_02_weapon	Sharp, heavy, and infused with the wild blessings of the Beast-God Itzi, this great axe, honed by legions of Skink smiths, can decapitate the thickest-necked Carnosaur in a single blow.	true
+character_skills_localised_name_lzd_kroxigor_bro_02_armour	Beastbone Plate	true
+character_skills_localised_description_lzd_kroxigor_bro_02_armour	Assembled from the most prized trophies of Old-K’ja’s conquests, this thick armor endures even the searing heat of Solar Engines—arrows and bullets barely register.	true
+character_skills_localised_name_lzd_kroxigor_bro_01_innate	"Fist of Quiji"	true
+character_skills_localised_name_lzd_kroxigor_bro_02_innate	"Edge of Itzi"	true
+character_skills_localised_name_lzd_kroxigor_bro_01_unique_0	Blood of the Old Ones	true
+character_skills_localised_description_lzd_kroxigor_bro_01_unique_0	"Blood of the Old Ones, blessings of the Beast-God—these make them mightier than their kin."	true
+character_skills_localised_name_lzd_kroxigor_bro_01_unique_1	Rampaging Impact	true
+character_skills_localised_description_lzd_kroxigor_bro_01_unique_1	"Battles involving Old-Kan rarely last long—a blood-slicked titan crashing through ranks is terrifying to any warm-blood."	true
+character_skills_localised_name_lzd_kroxigor_bro_01_unique_2	Relentless Might	true
+character_skills_localised_description_lzd_kroxigor_bro_01_unique_2	"They tire not. They break not. Their might knows no end."	true
+character_skills_localised_name_lzd_kroxigor_bro_01_unique_3	Blazing Majesty	true
+character_skills_localised_description_lzd_kroxigor_bro_01_unique_3	"Their gleaming presence on the battlefield stirs courage among allies."	true
+character_skills_localised_name_lzd_kroxigor_bro_01_unique_4	Twin Kroxigors	true
+character_skills_localised_description_lzd_kroxigor_bro_01_unique_4	"From the moment they emerged from the spawning pool, these twin Kroxigors were different—larger, stronger, and even… smarter."	true
+character_skills_localised_name_lzd_kroxigor_bro_02_unique_0	Blood of the Old Ones	true
+character_skills_localised_description_lzd_kroxigor_bro_02_unique_0	"Blood of the Old Ones, blessings of the Beast-God—these make them mightier than their kin."	true
+character_skills_localised_name_lzd_kroxigor_bro_02_unique_1	Strength Begets Strength	true
+character_skills_localised_description_lzd_kroxigor_bro_02_unique_1	"Old-K’ja grows stronger with every clash, driven by obsession for worthy foes and hunger to prove his might."	true
+character_skills_localised_name_lzd_kroxigor_bro_02_unique_2	Brutal Onslaught	true
+character_skills_localised_description_lzd_kroxigor_bro_02_unique_2	"This berserking titan crashes through crowds, leaving carnage in its wake."	true
+character_skills_localised_name_lzd_kroxigor_bro_02_unique_3	No Mercy	true
+character_skills_localised_description_lzd_kroxigor_bro_02_unique_3	"Don't let it fixate on you. It hasn’t quite grasped the concept of 'holding back'..."	true
+character_skills_localised_name_lzd_kroxigor_bro_02_unique_4	Twin Kroxigors	true
+character_skills_localised_description_lzd_kroxigor_bro_02_unique_4	"From the moment they emerged from the spawning pool, these twin Kroxigors were different—larger, stronger, and even… smarter."	true
+character_skill_level_details_localised_name_kho_war_mammoth_warshrine_hero	War Mammoth (Khorne Warshrine)	true
+character_skill_level_details_localised_name_kho_war_mammoth_warshrine_lord	War Mammoth (Khorne Warshrine)	true
+character_skills_localised_description_kho_war_mammoth_warshrine_hero	A towering beast of bone and flame, bearing Khorne’s warshrine upon its back, trudging through blood and mud while leaving behind scorched limbs and charred remains.	true
+character_skills_localised_description_kho_war_mammoth_warshrine_lord	A towering beast of bone and flame, bearing Khorne’s warshrine upon its back, trudging through blood and mud while leaving behind scorched limbs and charred remains.	true
+character_skills_localised_name_kho_war_mammoth_warshrine_hero	War Mammoth (Khorne Warshrine)	true
+character_skills_localised_name_kho_war_mammoth_warshrine_lord	War Mammoth (Khorne Warshrine)	true

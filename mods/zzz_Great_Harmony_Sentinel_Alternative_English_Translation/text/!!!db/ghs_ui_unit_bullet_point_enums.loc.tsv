@@ -53,3 +53,5 @@ ui_unit_bullet_point_enums_onscreen_name_strong_vs_single_entity	Monster Slayer	
 ui_unit_bullet_point_enums_tooltip_strong_vs_single_entity	Thunder Cannons fire massive shells that deal enormous damage to single entities but are less effective against groups.	true
 ui_unit_bullet_point_enums_onscreen_name_stationary	Stationary Artillery	true
 ui_unit_bullet_point_enums_tooltip_stationary	Once deployed, the Thunder Cannon remains stationary for the duration of the battle.	true
+ui_unit_bullet_point_enums_onscreen_name_ghs_ksl_thor_weapon	Thunder God’s Hammer	false
+ui_unit_bullet_point_enums_tooltip_ghs_ksl_thor_weapon	Mjolnir, the divine hammer gifted to Hafdan by Thor, can be hurled with lightning force to shatter enemies—then instantly returns to his hand.	false

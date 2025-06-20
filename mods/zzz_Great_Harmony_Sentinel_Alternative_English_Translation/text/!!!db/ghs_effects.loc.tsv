@@ -166,3 +166,30 @@ effects_description_wh3_main_effect_agent_cap_increase_kdaai	Hero Recruitment Ca
 effects_description_wh3_main_effect_agent_enable_recruitment_kdaai	Allows recruitment of [[img:icon_hero]][[/img]] Hero: K'daai Conqueror	false
 effects_description_wh3_main_effect_agent_recruitment_xp_kdaai	New Hero Rank: K'daai Conqueror %+n	false
 effects_description_ghs_effect_chd_kdaai_ward_save	Ward save: K'daai Units %+n%	false
+effects_description_kroxigor_charge	Kroxigor & Sacred Kroxigor units gain attribute: Ogre Charge	true
+effects_description_kroxigor_fatigue_immue	Kroxigor & Sacred Kroxigor units gain attribute: Unbreakable Vigor	true
+effects_description_kroxigor_immune_to_psychology	Kroxigor & Sacred Kroxigor units gain attribute: Immune to Psychology	true
+effects_description_kroxigor_keep	Recruitment and upkeep cost for Kroxigor & Sacred Kroxigor units: %n	true
+effects_description_kroxigor_ma	Melee attack for Kroxigor & Sacred Kroxigor units: +%n	true
+effects_description_kroxigor_md	Melee defense for Kroxigor & Sacred Kroxigor units: +%n	true
+effects_description_kroxigor_weapon_strength	Weapon strength for Kroxigor & Sacred Kroxigor units: +%n%	true
+effects_description_kroxigor_xp	Starting rank for newly recruited Kroxigor & Sacred Kroxigor units: +%n	true
+effects_description_battle_master_celestial_ma	Melee attack for Celestial Dragon Guard units in army: +%n	true
+effects_description_battle_master_celestial_md	Melee defense for Celestial Dragon Guard units in army: +%n	true
+effects_description_battle_zhaowang_master	Cathedran melee infantry units in army unlock skill: Blood of the Flood Dragon	true
+effects_description_fight_sky_doom	When fighting Beastmen, Skaven, Greenskins, High Elves, Dark Elves, Daemons of Chaos, Chaos Warriors, and Norsca: +%n Melee Attack & Defense	true
+effects_description_guild_support	Peasant Laborers, Jade Warriors, and Celestial Dragon Guard recruitment and upkeep cost: %n%	true
+effects_description_guild_support_speed	Celestial Dragon Guard movement speed: +%n%	true
+effects_description_weapon_strength_vs_chaos	Weapon strength when fighting Beastmen, Daemons of Chaos, Norsca, and Chaos Warriors: +%n%	true
+effects_description_zhaowang_thunder_skill	Unlocks skill: "Thunderous Dragon Annihilation"	true
+effects_description_dwf_missile_mecha	Repairs: Grudgebreaker Mech (Multi-Barrel Rune Cannon)	true
+effects_description_ghs_ksl_thor_weapon	Unlocks skill: "Thor's Thunderstorm"	true
+effects_description_ghs_ksl_thor_arcane_item	Unlocks skill: "Storm Aura"	true
+effects_description_wh3_main_effect_thor_stat_upkeep_tsar_guard	Upkeep cost for Armored Kossars and Tsar Guard: %n%	true
+effects_description_wh3_main_effect_thor_stat_speed_tsar_guard	Movement speed for Armored Kossars and Tsar Guard: +%n%	true
+effects_description_wh3_main_effect_thor_stat_melee_attack_tsar_guard	Melee attack for Armored Kossars and Tsar Guard: +%n	true
+effects_description_wh3_main_effect_thor_stat_missile_resistance_tsar_guard	Missile resistance for Armored Kossars and Tsar Guard: +%n%	true
+effects_description_wh3_main_effect_thor_stat_melee_ap_tsar_guard	Armor-piercing melee damage for Armored Kossars and Tsar Guard: +%n	true
+effects_description_wh3_main_effect_thor_tsar_guard_xp_bonus	Armor-piercing melee damage for Tsar Guard: +%n	true
+effects_description_wh_dlc08_effect_enable_mount_kho_mammoth	Mount: War Mammoth (Khorne Warshrine)	true
+effects_description_ghs_ksl_unit_cap	Unit capacity: Gilded Warbear Knights and Frosthorn Riders +%n	false
