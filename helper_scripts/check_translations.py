@@ -117,36 +117,36 @@ def compare_translation_entries(table_name: str, df_original: pd.DataFrame, df_t
         messages (List[str]): List to accumulate validation messages.
         
     Returns:
-        Tuple of (messages, collected_keys) where messages is the updated list of validation messages
-        and collected_keys is a set of keys that had issues.
+        Tuple of (messages, collected_keys, discarded_keys) where messages is the updated list of validation messages,
+        collected_keys is a set of keys that had issues, and discarded_keys is a set of keys that were discarded.
     """
     messages = []
     collected_keys = set()
+    discarded_keys = set()
     
     # Use sets for fast comparison of keys between original and translation.
     original_keys = set(df_original["key"])
     translation_keys = set(df_translation["key"])
     
-    # Check for missing keys in translation (original has more entries).
-    if len(df_original) > len(df_translation):
-        # Calculate difference using set operations.
-        diff_keys = original_keys - translation_keys
+    # Always check for missing keys in translation (original has more entries).
+    missing_in_translation = original_keys - translation_keys
+    if missing_in_translation:
         explanation = f"The number of strings is higher than the translation."
-        messages, keys = process_key_differences(diff_keys, mod_name, table_name, messages, explanation, is_missing_in_translation=True)
+        messages, keys = process_key_differences(missing_in_translation, mod_name, table_name, messages, explanation, is_missing_in_translation=True)
         collected_keys.update(keys)
     
-    # Check for extra keys in translation (translation has more entries).
-    elif len(df_original) < len(df_translation):
-        diff_keys = translation_keys - original_keys
+    # Always check for discarded keys in translation (translation has more entries).
+    discarded_in_translation = translation_keys - original_keys
+    if discarded_in_translation:
         explanation = f"The number of strings is lower than the translation."
-        messages, keys = process_key_differences(diff_keys, mod_name, table_name, messages, explanation, is_missing_in_translation=False)
-        collected_keys.update(keys)
+        messages, keys = process_key_differences(discarded_in_translation, mod_name, table_name, messages, explanation, is_missing_in_translation=False)
+        discarded_keys.update(keys)
     
     # Check for placeholder texts regardless of key count match.
     messages, placeholder_keys = check_placeholder_translations(df_original, df_translation, mod_name, messages)
     collected_keys.update(placeholder_keys)
     
-    return messages, collected_keys
+    return messages, collected_keys, discarded_keys
 
 def process_key_differences(diff_keys: List[str], mod_name: str, table_name: str, messages: List[str], explanation: str, is_missing_in_translation: bool):
     """Process key differences between original and translation data.
@@ -342,7 +342,7 @@ def check_text_string_amount_diff(messages: List[str], mod_name: str, is_collect
                     logging.info(f"Found the alternative translation file at ./text_translation/text/{subfolder_name}{prepend}{file_path}.")
                     
                     # Compare entries between original and translation.
-                    messages, collected_keys = compare_translation_entries(
+                    messages, collected_keys, discarded_keys = compare_translation_entries(
                         table_name=f"{prepend}{file_path}",
                         df_original=df_original,
                         df_translation=df_translation,
@@ -365,6 +365,20 @@ def check_text_string_amount_diff(messages: List[str], mod_name: str, is_collect
                             collected_keys_list = list(collected_keys)
                             for i in range(0, len(collected_keys_list), chunk_size):
                                 chunk = collected_keys_list[i:i + chunk_size]
+                                regex_pattern = "|".join(f"\\b{key}\\b" for key in chunk)
+                                result_file.write(f"{regex_pattern}\n\n")
+                    
+                    # Write the regex pattern for discarded keys separately
+                    if discarded_keys:
+                        with open("translation_check_results.txt", "a", encoding="utf-8") as result_file:
+                            result_file.write("//////////////////////////////////////////////////\n")
+                            result_file.write(f"DISCARDED KEYS REGEX PATTERN FOR {mod_name} - {prepend}{file_path}:\n")
+                            result_file.write("These keys exist in translation but were removed from the original:\n")
+                            chunk_size = 200
+                            
+                            discarded_keys_list = list(discarded_keys)
+                            for i in range(0, len(discarded_keys_list), chunk_size):
+                                chunk = discarded_keys_list[i:i + chunk_size]
                                 regex_pattern = "|".join(f"\\b{key}\\b" for key in chunk)
                                 result_file.write(f"{regex_pattern}\n\n")
                     
