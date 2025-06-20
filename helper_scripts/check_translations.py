@@ -161,7 +161,9 @@ def process_key_differences(diff_keys: List[str], mod_name: str, table_name: str
     """
     for key in diff_keys:
         # Skip automatic update keys by mod authors that don't require translation.
-        if key.upper() == "UPDATE":
+        if key.lower() in ["update", "land_units_onscreen_name_update"]:
+            continue
+        if "steamapps/workshop/" in key:
             continue
         
         # Ensure mod name and explanation are only added once per discrepancy group.
