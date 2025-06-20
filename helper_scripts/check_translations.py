@@ -117,9 +117,12 @@ def compare_translation_entries(table_name: str, df_original: pd.DataFrame, df_t
         messages (List[str]): List to accumulate validation messages.
         
     Returns:
-        Updated list of messages to review regarding the translation consistency.
+        Tuple of (messages, collected_keys) where messages is the updated list of validation messages
+        and collected_keys is a set of keys that had issues.
     """
     messages = []
+    collected_keys = set()
+    
     # Use sets for fast comparison of keys between original and translation.
     original_keys = set(df_original["key"])
     translation_keys = set(df_translation["key"])
@@ -129,17 +132,21 @@ def compare_translation_entries(table_name: str, df_original: pd.DataFrame, df_t
         # Calculate difference using set operations.
         diff_keys = original_keys - translation_keys
         explanation = f"The number of strings is higher than the translation."
-        messages = process_key_differences(diff_keys, mod_name, table_name, messages, explanation, is_missing_in_translation=True)
+        messages, keys = process_key_differences(diff_keys, mod_name, table_name, messages, explanation, is_missing_in_translation=True)
+        collected_keys.update(keys)
     
     # Check for extra keys in translation (translation has more entries).
     elif len(df_original) < len(df_translation):
         diff_keys = translation_keys - original_keys
         explanation = f"The number of strings is lower than the translation."
-        messages = process_key_differences(diff_keys, mod_name, table_name, messages, explanation, is_missing_in_translation=False)
+        messages, keys = process_key_differences(diff_keys, mod_name, table_name, messages, explanation, is_missing_in_translation=False)
+        collected_keys.update(keys)
     
     # Check for placeholder texts regardless of key count match.
-    messages = check_placeholder_translations(df_original, df_translation, mod_name, messages)
-    return messages
+    messages, placeholder_keys = check_placeholder_translations(df_original, df_translation, mod_name, messages)
+    collected_keys.update(placeholder_keys)
+    
+    return messages, collected_keys
 
 def process_key_differences(diff_keys: List[str], mod_name: str, table_name: str, messages: List[str], explanation: str, is_missing_in_translation: bool):
     """Process key differences between original and translation data.
@@ -157,14 +164,20 @@ def process_key_differences(diff_keys: List[str], mod_name: str, table_name: str
         is_missing_in_translation (bool): Flag indicating direction of mismatch (True = missing in translation).
         
     Returns:
-        Updated list of messages with key difference warnings.
+        Tuple of (updated_messages, collected_keys) where updated_messages is the updated list of messages
+        and collected_keys is a set of keys that had issues.
     """
+    collected_keys = set()
     for key in diff_keys:
         # Skip automatic update keys by mod authors that don't require translation.
         if key.lower() in ["update", "land_units_onscreen_name_update"]:
             continue
-        if "steamapps/workshop/" in key:
+        elif "steamapps/workshop/" in key:
             continue
+        elif "----" in key:
+            continue
+        
+        collected_keys.add(key)
         
         # Ensure mod name and explanation are only added once per discrepancy group.
         if f"Mod name: {mod_name}" not in messages:
@@ -181,9 +194,7 @@ def process_key_differences(diff_keys: List[str], mod_name: str, table_name: str
             message = f"\"{key}\" is in the translation but not in the original."
             
         messages.append(message)
-    if len(messages) > 0:
-        messages.append("=========================")
-    return messages
+    return messages, collected_keys
 
 def check_placeholder_translations(df_original: pd.DataFrame, df_translation: pd.DataFrame, mod_name: str, messages: List[str]):
     """Check for placeholder text in translations where original has valid text.
@@ -195,8 +206,10 @@ def check_placeholder_translations(df_original: pd.DataFrame, df_translation: pd
         messages (List[str]): List to accumulate validation messages.
         
     Returns:
-        Updated list of messages with placeholder warnings.
+        Tuple of (updated_messages, collected_keys) where updated_messages is the updated list of messages
+        and collected_keys is a set of keys that had placeholder issues.
     """
+    collected_keys = set()
     for _, row in df_translation.iterrows():
         # Normalize translated text for consistent comparison
         translated_text = str(row["text"]).strip().lower()
@@ -207,13 +220,15 @@ def check_placeholder_translations(df_original: pd.DataFrame, df_translation: pd
                 
                 # Only flag if original text is valid (non-placeholder and non-empty)
                 if original_text not in ["", "placeholder", "nan"]:
+                    collected_keys.add(row["key"])
                     # Add mod name header if not already present.
                     if mod_name not in messages:
                         messages.append(mod_name)
                     messages.append(f"\"{row['key']}\" is placeholder/empty in the translation but not in the original.")
             except IndexError:
+                collected_keys.add(row["key"])
                 messages.append(f"Key {row['key']} not found in the original.")
-    return messages
+    return messages, collected_keys
 
 def check_missing_files(messages: List[str], mod_name: str, is_collection: bool = False, subfolder_name: str = ""):
     """Check for missing .loc files in translation mods compared to original mods.
@@ -327,7 +342,7 @@ def check_text_string_amount_diff(messages: List[str], mod_name: str, is_collect
                     logging.info(f"Found the alternative translation file at ./text_translation/text/{subfolder_name}{prepend}{file_path}.")
                     
                     # Compare entries between original and translation.
-                    messages = compare_translation_entries(
+                    messages, collected_keys = compare_translation_entries(
                         table_name=f"{prepend}{file_path}",
                         df_original=df_original,
                         df_translation=df_translation,
@@ -339,6 +354,19 @@ def check_text_string_amount_diff(messages: List[str], mod_name: str, is_collect
                         if len(messages) > 0:
                             for message in messages:
                                 result_file.write(f"{message}\n")
+                    
+                    # Write the regex pattern for this specific file if there were issues
+                    if collected_keys:
+                        with open("translation_check_results.txt", "a", encoding="utf-8") as result_file:
+                            result_file.write("//////////////////////////////////////////////////\n")
+                            result_file.write(f"REGEX PATTERN FOR {mod_name} - {prepend}{file_path}:\n")
+                            chunk_size = 200
+                            
+                            collected_keys_list = list(collected_keys)
+                            for i in range(0, len(collected_keys_list), chunk_size):
+                                chunk = collected_keys_list[i:i + chunk_size]
+                                regex_pattern = "|".join(f"\\b{key}\\b" for key in chunk)
+                                result_file.write(f"{regex_pattern}\n\n")
                     
                     del messages
                     gc.collect()
@@ -354,7 +382,6 @@ if __name__ == "__main__":
         os.remove("translation_check_results.txt")
     
     try:
-        messages = []
         for mod in mod_paths_to_be_translated:
             # Check if the mod is installed.
             if not os.path.exists(mod["mod_path"]):
@@ -402,9 +429,9 @@ if __name__ == "__main__":
                 if mod_name.startswith('@'):
                     mod_name = mod_name[1:]
                 
-                check_text_string_amount_diff(messages, mod_name, is_collection=True, subfolder_name=mod_name)
+                check_text_string_amount_diff([], mod_name, is_collection=True, subfolder_name=mod_name)
             else:
-                check_text_string_amount_diff(messages, mod_name)
+                check_text_string_amount_diff([], mod_name)
 
             if os.path.exists("./text_original"):
                 for file_path in os.listdir(f"./text_original/"):
