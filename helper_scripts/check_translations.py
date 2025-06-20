@@ -215,12 +215,76 @@ def check_placeholder_translations(df_original: pd.DataFrame, df_translation: pd
                 messages.append(f"Key {row['key']} not found in the original.")
     return messages
 
+def check_missing_files(messages: List[str], mod_name: str, is_collection: bool = False, subfolder_name: str = ""):
+    """Check for missing .loc files in translation mods compared to original mods.
+    
+    Performs comprehensive file comparison to identify files that exist in the original
+    but are missing from the translation mod.
+    
+    Args:
+        messages (List[str]): List to accumulate validation messages.
+        mod_name (str): Name of the mod being checked.
+        is_collection (bool): Flag indicating if this is a mod collection with subfolders.
+        subfolder_name (str): Subdirectory path for translation files (collection mods only).
+        
+    Returns:
+        Updated list of messages with missing file warnings.
+    """
+    # Get all files from original directory
+    original_files = set()
+    for root, _, files in os.walk("./text_original/text/"):
+        for file_path in files:
+            if file_path.endswith('.loc'):
+                # Get relative path from text_original/text/
+                rel_path = os.path.relpath(os.path.join(root, file_path), "./text_original/text/")
+                original_files.add(rel_path)
+    
+    # Get all files from translation directory
+    translation_files = set()
+    translation_base_path = "./text_translation/text/"
+    
+    # Handle collection mods with different subfolder structures
+    if is_collection:
+        for prepend in ["", "@", "@@", "@@@"]:
+            potential_path = f"{translation_base_path}{prepend}{subfolder_name}/"
+            if os.path.exists(potential_path):
+                translation_base_path = potential_path
+                break
+    
+    if os.path.exists(translation_base_path):
+        for root, _, files in os.walk(translation_base_path):
+            for file_path in files:
+                if file_path.endswith('.loc'):
+                    # Get relative path from translation_base_path
+                    rel_path = os.path.relpath(os.path.join(root, file_path), translation_base_path)
+                    translation_files.add(rel_path)
+    
+    # Find missing files
+    missing_files = original_files - translation_files
+    
+    if missing_files:
+        # Add header if not already present
+        if f"Mod name: {mod_name}" not in messages:
+            messages.append("//////////////////////////////////////////////////")
+            messages.append(f"Mod name: {mod_name}")
+        
+        messages.append("MISSING FILES IN TRANSLATION:")
+        messages.append("The following .loc files exist in the original mod but are missing from the translation mod:")
+        
+        for missing_file in sorted(missing_files):
+            messages.append(f"  - {missing_file}")
+        
+        messages.append("=========================")
+    
+    return messages
+
 def check_text_string_amount_diff(messages: List[str], mod_name: str, is_collection: bool = False, subfolder_name: str = ""):
     """Validate text file counts and content between original and translation directories and prints the results.
     
-    Performs two main checks:
+    Performs three main checks:
     1. Compares file counts between original and translation directories
     2. Validates content of matching TSV files using multiple path variations
+    3. Checks for missing .loc files in translation mods
     
     Args:
         messages (List[str]): List to accumulate validation messages.
@@ -228,6 +292,9 @@ def check_text_string_amount_diff(messages: List[str], mod_name: str, is_collect
         is_collection (bool): Flag indicating if this is a mod collection with subfolders.
         subfolder_name (str): Subdirectory path for translation files (collection mods only) without any @ and trailing slashes.
     """
+    # Check for missing files first
+    messages = check_missing_files(messages, mod_name, is_collection, subfolder_name)
+    
     # Check file count discrepancies for collection mods.
     if is_collection:
         original_count = len(os.listdir("./text_original/text/"))
