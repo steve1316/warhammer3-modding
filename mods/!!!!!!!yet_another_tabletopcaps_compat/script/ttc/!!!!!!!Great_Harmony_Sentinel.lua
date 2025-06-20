@@ -52,6 +52,10 @@ local caps = {
     {"ghs_main_dwf_veh_iron_train", "rare", 1},
     {"ghs_main_dwf_veh_iron_train_1dreadquake", "rare", 3},
     {"ghs_main_dwf_veh_flying_irondrakes_01", "rare", 2},
+    {"ghs_main_dwf_thrower_chariot", "special", 2},
+    {"ghs_main_dwf_gun_chariot", "special", 3},
+    {"ghs_main_dwf_cannon_chariot", "special", 2},
+    {"ghs_main_dwf_veh_flame_cannon_chariot", "special", 3},
     -- Khorne
     {"ghs_main_kho_inf_armour_bloodletter_champions", "special", 2},
     {"ghs_main_kho_inf_warrior_shooter", "special", 2},
@@ -60,6 +64,7 @@ local caps = {
     {"ghs_main_kho_mon_eighth_legion_bloodthirster", "rare", 3},
     {"ghs_main_kho_mon_giant", "rare", 3},
     {"ghs_main_kho_mon_slaughterbrute", "rare", 2},
+    {"ghs_main_kho_mon_war_mammoth_warshrine", "rare", 3},
     -- Kislev
     {"ghs_main_ksl_cav_alces_rider", "special", 2},
     {"ghs_main_ksl_cav_alces_rider_ror", "rare", 1},
@@ -127,6 +132,9 @@ local caps = {
     {"rhd_land_skv_inf_warp_grinder_ror", "special", 1},
     {"rhd_land_skv_mon_bonebreaker_0", "special", 3},
     {"rhd_land_skv_veh_screaming_bell_0", "special", 3},
+    {"rhd_land_skv_art_plagueclaw_catapult_ror", "rare", 1},
+    {"rhd_land_skv_inf_poison_wind_globadiers_ror", "special", 1},
+    {"rhd_land_skv_inf_plague_monks_ror", "special", 1},
     -- Dark Elves
     {"ghs_main_def_inf_khaine_avatar", "rare", 1},
     {"ghs_main_def_inf_khaine_sister", "rare", 2},
@@ -186,6 +194,26 @@ local caps = {
     {"ghs_main_cth_veh_flying_commpass", "rare", 2},
     {"ghs_main_cth_veh_warchariot", "special", 1},
     {"ghs_main_cth_veh_warchariot_missle", "special", 1},
+    -- Empire
+    {"ghs_main_emp_imperial_guard_mounted", "special", 3},
+    {"ghs_main_emp_imperial_guard", "special", 2},
+    {"ghs_main_emp_mon_empire_dragon", "rare", 3},
+    {"ghs_main_emp_inf_halberdiers_heavy", "special", 2},
+    {"ghs_main_emp_inf_hammmers_of_sigma", "special", 3},
+    -- Misc
+    {"hell_pit_abomination_wyc_hunted", "rare", 3},
+    {"dragon_ogre_shaggoth_wyc_hunted", "rare", 3},
+    {"cygor_wyc_hunted", "rare", 3},
+    {"phoenix_flamespyre_wyc_hunted", "rare", 3},
+    {"war_mammoth_wyc_hunted", "rare", 3},
+    {"war_hydra_wyc_hunted", "rare", 3},
+    {"forest_dragon_wyc_hunted", "rare", 3},
+    {"frost_wyrm_wyc_hunted", "rare", 3},
+    {"treeman_wyc_hunted", "rare", 3},
+    {"terrorgheist_wyc_hunted", "rare", 3},
+    {"arachnarok_spider_wyc_hunted", "rare", 3},
+    {"carnosaur_wyc_hunted", "rare", 3},
+    {"giant_wyc_hunted", "rare", 3},
 }
 
 local ttc = core:get_static_object("tabletopcaps")

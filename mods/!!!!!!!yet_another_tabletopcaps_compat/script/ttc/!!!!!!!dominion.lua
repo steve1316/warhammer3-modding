@@ -1,6 +1,6 @@
 -- dominion
 local caps = {
-    -- Kislev
+    -- Dominion
     {"dom_vol_legion_01", "core"},
     {"dom_vol_legion_02", "core"},
     {"dom_vol_legion_03", "core"},
@@ -34,6 +34,17 @@ local caps = {
     {"dom_flying_fort", "rare", 3},
     {"dom_pillbox", "rare", 3},
     {"dom_heavy_tank", "rare", 3},
+    {"dom_bulwark_01", "special", 2},
+    {"dom_bulwark_0", "special", 2},
+    {"dom_carryall_0", "special", 2},
+    {"dom_light_mortar", "special", 2},
+    {"dom_soldat_01", "core", 1},
+    {"dom_heavy_mortar", "special", 3},
+    {"dom_soldat_02", "core", 1},
+    {"dom_flame_tank", "rare", 3},
+    {"dom_carryall_01", "special", 2},
+    {"dom_soldat_0", "core", 1},
+    {"dom_heat_gun", "special", 2},
 }
 
 local ttc = core:get_static_object("tabletopcaps")

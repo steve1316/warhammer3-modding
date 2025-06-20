@@ -4,6 +4,7 @@ local caps = {
     {"wh3_dlc26_bst_inf_khorngors", "special", 1},
     -- Chaos Dwarfs
     {"wh3_dlc23_chd_veh_iron_daemon_3payload_qb", "special", 2},
+    {"wh3_main_chd_art_hobgob_bolt_thrower", "rare", 1},
     -- Dwarfs
     {"wh3_dlc25_dwf_veh_thunderbarge_grungni_mp", "rare", 3},
     -- Greenskins
@@ -40,6 +41,7 @@ local caps = {
     {"wh3_dlc26_ogr_inf_golgfags_maneaters", "special", 3},
     -- Vampire Counts
     {"wh3_main_vmp_inf_grave_guard_2", "special", 1},
+    {"wh3_main_vmp_blood_knights_sword_shield", "rare", 2},
     -- Norsca
     {"wh_dlc08_vmp_mon_terrorgheist_boss", "rare", 3},
     {"wh_dlc08_grn_mon_arachnarok_spider_boss", "rare", 3},
@@ -52,6 +54,8 @@ local caps = {
     {"wh2_dlc10_skv_mon_hell_pit_abomination_boss", "rare", 3},
     {"wh2_dlc10_lzd_mon_carnosaur_boss", "rare", 3},
     {"wh2_dlc10_def_mon_war_hydra_boss", "rare", 3},
+    -- Grand Cathay
+    {"wh3_main_cth_inf_grenadiers", "core", 1},
 }
 
 local ttc = core:get_static_object("tabletopcaps")

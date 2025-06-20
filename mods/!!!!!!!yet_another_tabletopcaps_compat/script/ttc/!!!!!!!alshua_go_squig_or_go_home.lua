@@ -1,8 +1,8 @@
--- GMD_NURGLE_TANK
+-- !alshua_go_squig_or_go_home
 local caps = {
-    -- Nurgle
-    {"gmd_nur_tank", "rare", 3},
-    {"gmd_nur_veh_steam_tank_volley_gun", "rare", 3},
+    -- Greenskins
+    {"als_squig_horned", "special", 1},
+    {"als_squig_tomb", "special", 1},
 }
 
 local ttc = core:get_static_object("tabletopcaps")
