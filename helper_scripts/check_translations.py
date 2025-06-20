@@ -27,7 +27,7 @@ mod_paths_to_be_translated = [
         "translation_path": r"C:\SteamLibrary\steamapps\workshop\content\1142710\3317696617\zzz_cth_fuyuanshan_faction_Alternative_English_Translation.pack",
     },
     {
-        "mod_path": r"C:\SteamLibrary\steamapps\workshop\content\1142710\2789871157\Great_Harmony_Sentinel.pack",
+        "mod_path": r"C:\SteamLibrary\steamapps\workshop\content\1142710\3442971928\ghs_great_harmony.pack",
         "translation_path": r"C:\SteamLibrary\steamapps\workshop\content\1142710\3393724734\zzz_Great_Harmony_Sentinel_Alternative_English_Translation.pack",
     },
     {
