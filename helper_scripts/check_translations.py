@@ -314,11 +314,11 @@ def check_text_string_amount_diff(messages: List[str], mod_name: str, is_collect
         elif original_count < translation_count:
             logging.warning("The number of text files from text_original is lower than text_translation.")
     
-    # Validate content of each TSV file pair.
+    # Validate content of each loc TSV file pair.
     for root, _, files in os.walk("./text_original/text/"):
         for file_path in files:
             # Handle different translation file naming conventions.
-            possible_translation_path_prepends = ["", "@", "@@", "@@@", "!!!", "!!!!!", "!!!!!!", "db/", "db/@", "db/@@", "db/@@@", "db/!!!", "db/!!!!!", "db/!!!!!!"]
+            possible_translation_path_prepends = ["", "@", "@@", "@@@", "!!!", "!!!!!", "!!!!!!", "db/", "db/@", "db/@@", "db/@@@", "db/!!!", "db/!!!!!", "db/!!!!!!", "!!!db/"]
             df_original = read_text_tsv_with_schema(f"{root}/{file_path}")
             
             for prepend in possible_translation_path_prepends:
