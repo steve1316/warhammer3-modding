@@ -335,7 +335,7 @@ def check_text_string_amount_diff(messages: List[str], mod_name: str, is_collect
                     )
                     
                     # Report final results to a text file.
-                    with open("translation_check_results.txt", "a") as result_file:
+                    with open("translation_check_results.txt", "a", encoding="utf-8") as result_file:
                         if len(messages) > 0:
                             for message in messages:
                                 result_file.write(f"{message}\n")
