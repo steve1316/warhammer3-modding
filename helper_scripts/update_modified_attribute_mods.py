@@ -5,7 +5,7 @@ import time
 import shutil
 import os
 from typing import List, Dict
-from utilities import extract_tsv_data, extract_modded_tsv_data, load_tsv_data, load_multiple_tsv_data
+from utilities import extract_tsv_data, extract_modded_tsv_data, load_tsv_data, load_multiple_tsv_data, write_updated_tsv_file, merge_move
 from supported_mods import SUPPORTED_MODS
 
 
@@ -225,6 +225,12 @@ if __name__ == "__main__":
                 shutil.rmtree(f"./vanilla_projectiles_tables", ignore_errors=True)
             else:
                 shutil.rmtree(f"./{folder_name}", ignore_errors=True)
+
+    # After processing all mods, move the final folders to their destinations.
+    for folder_name in ["!!!!!!!50meleeattackspeed_compat", "!!!!!!!firing_arc_120_compat", "!!!!!!!double_projectile_velocity_compat"]:
+        if os.path.exists(f"./{folder_name}"):
+            logging.info(f"Moving {folder_name} to ../mods/.")
+            merge_move(f"./{folder_name}", "../mods/")
 
     end_time = round(time.time() - start_time, 2)
     logging.info(f"Total time for updating modified attribute mods: {end_time} seconds or {round(end_time / 60, 2)} minutes.")

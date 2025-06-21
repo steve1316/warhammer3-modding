@@ -3,8 +3,9 @@
 import pandas as pd
 import subprocess
 import os
+import shutil
 import logging
-from typing import List
+from typing import List, Dict
 
 
 FILEPATH_TO_VANILLA_DATA_TABLES = r"C:\SteamLibrary\steamapps\common\Total War WARHAMMER III\data\db.pack"
@@ -15,7 +16,7 @@ VERSION_ROW_INDEX = 1
 DATA_START_ROW = 2
 
 def extract_tsv_data(table_name: str):
-    """Extract the TSV data for a given table name from the vanilla data tables.
+    """Extract the TSV data for a given table name from the vanilla data tables to a folder prepended with \"vanilla_\".
     
     Args:
         table_name (str): The name of the table to extract.
@@ -94,17 +95,22 @@ def load_multiple_tsv_data(folder_path: str):
     Returns:
         A tuple of a list of row dictionaries with header keys and the headers.
     """
-    merged_data = []
+    merged_data_set = set()
     headers = None
     for file_name in os.listdir(folder_path):
         print(f"Loading TSV file: {file_name}")
         if file_name.endswith(".tsv"):
             data, headers, _ = load_tsv_data(os.path.join(folder_path, file_name))
             print(f"Loaded {len(data)} rows from {file_name}.")
-            merged_data.extend(data)
+            # Convert each row dict to a tuple of items for set storage.
+            for row in data:
+                merged_data_set.add(tuple(row.items()))
             if headers is None:
                 headers = headers
-    print(f"Loaded a total of {len(merged_data)} rows.")
+    
+    # Convert back to list of dictionaries.
+    merged_data = [dict(row_tuple) for row_tuple in merged_data_set]
+    print(f"Loaded a total of {len(merged_data)} unique rows.")
     return merged_data, headers
 
 def read_and_clean_tsv(tsv_file_path: str, table_type: str, allowed_patterns: List[str] = None):
@@ -138,3 +144,29 @@ def read_and_clean_tsv(tsv_file_path: str, table_type: str, allowed_patterns: Li
 
     logging.info(f"TSV file '{tsv_file_path}' successfully read and cleaned for table '{table_type}'.")
     return df
+def merge_move(source_path: str, destination_path: str):
+    """Moves a folder to its destination and overwrite any existing files.
+    
+    Args:
+        source_path (str): The path to the source folder.
+        destination_path (str): The path to the destination folder.
+    """
+    destination_path = os.path.join(destination_path, os.path.basename(source_path))
+    os.makedirs(destination_path, exist_ok=True)
+
+    for root, _, files in os.walk(source_path):
+        # Determine the relative path to recreate the folder structure.
+        relative_path = os.path.relpath(root, source_path)
+        destination_dir = os.path.join(destination_path, relative_path)
+        os.makedirs(destination_dir, exist_ok=True)
+
+        # Move files to the destination folder while overwriting any existing files.
+        for file in files:
+            source_file = os.path.join(root, file)
+            destination_file = os.path.join(destination_dir, file)
+            if os.path.exists(destination_file):
+                os.remove(destination_file)
+            shutil.move(source_file, destination_file)
+
+    # Remove the source folder afterwards.
+    shutil.rmtree(source_path)
