@@ -1,18 +1,18 @@
 key	bonus_v_large	bonus_v_infantry	damage	ap_damage	weapon_length	melee_weapon_type	audio_type	splash_attack_target_size	splash_attack_max_attacks	splash_attack_power_multiplier	building_damage_multiplier	ignition_amount	is_magical	contact_phase	collision_attack_max_targets	collision_attack_max_targets_cooldown	melee_attack_interval	scaling_damage	is_spell
 #melee_weapons_tables;25;db/melee_weapons_tables/!!!!!!!50meleeattackspeed_compat_@Deer24diguochuanqi
-guanjun_weapon	0	12	10	28	2.0000	sword	sword	small	1	1.0000	1.0000	0.0000	false		0	10	1.9		false
-yulintiewei_weapon	0	0	50	70	2.0000	spear	halberd	medium	4	2.5000	1.0000	20.0000	true	wh2_dlc12_unit_contact_flammable	0	10	0.75		false
-jiaozongqishi	0	12	11	25	2.0000	sword	sword	small	1	1.0000	1.0000	0.0000	true	wh_dlc08_unit_contact_frostbite	0	10	1.9		false
-gsts_weapon	0	0	12	38	2.0000	sword	sword	small	1	1.0000	1.0000	0.0000	true		0	10	1.9		false
 agesiqishi_weapon	0	0	20	40	2.0000	axe	axe	small	1	1.0000	1.0000	0.0000	false		0	10	1.9		false
+bailang_weapon	35	0	105	315	5.0000	axe	axe	large	15	2.5000	1.2500	0.0000	true		0	10	0.5		false
+buxingqishihalberd	20	0	11	25	1.0000	spear	halberd		1	1.0000	0.7500	0.0000	false		0	10	2.8		false
+buxingqishisword	0	0	26	10	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	10	2.15		false
+gsts_weapon	0	0	12	38	2.0000	sword	sword	small	1	1.0000	1.0000	0.0000	true		0	10	1.9		false
+guanjun_weapon	0	12	10	28	2.0000	sword	sword	small	1	1.0000	1.0000	0.0000	false		0	10	1.9		false
+jiaozongqishi	0	12	11	25	2.0000	sword	sword	small	1	1.0000	1.0000	0.0000	true	wh_dlc08_unit_contact_frostbite	0	10	1.9		false
+neihuanweapon	0	0	70	185	8.0000	sword	axe	large	8	1.0000	1.0000	0.0000	false		0	3	2.0		false
+ruikeqishi	0	12	11	25	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	10	1.9		false
 shenxue_weapon	22	0	20	25	2.0000	lance	spear		1	1.0000	0.7500	20.0000	false	wh2_pro08_unit_contact_dampen	0	10	2.55		false
+sl_main_emp_sword_reiksguard	0	12	9	27	2.0000	sword	sword	small	1	1.0000	1.0000	0.0000	false		0	10	1.9		false
 xiunv_weapon	0	10	10	30	2.0000	sword	sword	small	1	1.0000	1.0000	0.0000	true		0	10	1.9		false
+youlike_weapon	0	0	9	25	1.0000	sword	sword	small	1	1.0000	1.0000	0.0000	false		0	10	1.9		false
+yulintiewei_weapon	0	0	50	70	2.0000	spear	halberd	medium	4	2.5000	1.0000	20.0000	true	wh2_dlc12_unit_contact_flammable	0	10	0.75		false
 zhenqiqishi_weapon	0	18	33	77	2.0000	axe	unarmed	very_large	10	5.0000	1.2500	20.0000	false		15	1	2.0		false
 zituan_weapon	18	0	11	25	4.0000	spear	halberd	small	2	1.0000	1.0000	0.0000	false		0	10	1.9		false
-neihuanweapon	0	0	70	185	8.0000	sword	axe	large	8	1.0000	1.0000	0.0000	false		0	3	2.0		false
-buxingqishisword	0	0	26	10	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	10	2.15		false
-buxingqishihalberd	20	0	11	25	1.0000	spear	halberd		1	1.0000	0.7500	0.0000	false		0	10	2.8		false
-ruikeqishi	0	12	11	25	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	10	1.9		false
-sl_main_emp_sword_reiksguard	0	12	9	27	2.0000	sword	sword	small	1	1.0000	1.0000	0.0000	false		0	10	1.9		false
-youlike_weapon	0	0	9	25	1.0000	sword	sword	small	1	1.0000	1.0000	0.0000	false		0	10	1.9		false
-bailang_weapon	35	0	105	315	5.0000	axe	axe	large	15	2.5000	1.2500	0.0000	true		0	10	0.5		false

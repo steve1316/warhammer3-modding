@@ -164,12 +164,16 @@ if __name__ == "__main__":
                         melee_data, headers, version_info = load_tsv_data(f"./vanilla_melee_weapons_tables/db/{table_name}/data__.tsv")
                         version_info = version_info.replace("data__", f"!!!!!!!50meleeattackspeed_compat_vanilla_and_dlc")
                         updated_melee_data = update_melee_attack_intervals(melee_data)
+                        # Sort the data by the key column ascending.
+                        updated_melee_data = sorted(updated_melee_data, key=lambda x: x["key"])
                         write_updated_tsv_file(updated_melee_data, headers, version_info, f"./vanilla_melee_weapons_tables/db/{table_name}", f"./!!!!!!!50meleeattackspeed_compat/db/{table_name}", f"{PREPEND_MELEE_TABLE_FILE_NAME}_vanilla_and_dlc")
                     elif os.path.exists(f"./{folder_name}/db/{table_name}") and any(file.endswith(".tsv") for file in os.listdir(f"./{folder_name}/db/{table_name}")):
                         print(f"There are TSV files in {folder_name}/db/{table_name}.")
                         melee_data, headers = load_multiple_tsv_data(f"./{folder_name}/db/{table_name}")
                         version_info = f"#{table_name};{table_version_number};db/{table_name}/{PREPEND_MELEE_TABLE_FILE_NAME}_{folder_name}"
                         updated_melee_data = update_melee_attack_intervals(melee_data)
+                        # Sort the data by the key column ascending.
+                        updated_melee_data = sorted(updated_melee_data, key=lambda x: x["key"])
                         write_updated_tsv_file(updated_melee_data, headers, version_info, f"./{folder_name}/db/{table_name}", f"./!!!!!!!50meleeattackspeed_compat/db/{table_name}", f"{PREPEND_MELEE_TABLE_FILE_NAME}_{folder_name}")
             
             # Update the ranged firing arcs.
@@ -178,12 +182,16 @@ if __name__ == "__main__":
                     battle_entities_data, headers, version_info = load_tsv_data(f"./vanilla_battle_entities_tables/db/battle_entities_tables/data__.tsv")
                     version_info = version_info.replace("data__", f"!!!!!!!firing_arc_120_compat_vanilla_and_dlc")
                     updated_battle_entities_data = update_rows_for_120_degree_ranged_attacks(battle_entities_data)
+                    # Sort the data by the key column ascending.
+                    updated_battle_entities_data = sorted(updated_battle_entities_data, key=lambda x: x["key"])
                     write_updated_tsv_file(updated_battle_entities_data, headers, version_info, f"./vanilla_battle_entities_tables/db/battle_entities_tables", f"./!!!!!!!firing_arc_120_compat/db/battle_entities_tables", f"{PREPEND_RANGED_ARC_TABLE_FILE_NAME}_vanilla_and_dlc")
                 elif os.path.exists(f"./{folder_name}/db/battle_entities_tables") and any(file.endswith(".tsv") for file in os.listdir(f"./{folder_name}/db/battle_entities_tables")):
                     print(f"There are TSV files in {folder_name}/db/battle_entities_tables.")
                     battle_entities_data, headers = load_multiple_tsv_data(f"./{folder_name}/db/battle_entities_tables")
                     version_info = f"#battle_entities_tables;{BATTLE_ENTITIES_TABLE_VERSION_NUMBER};db/battle_entities_tables/{PREPEND_RANGED_ARC_TABLE_FILE_NAME}_{folder_name}"
                     updated_battle_entities_data = update_rows_for_120_degree_ranged_attacks(battle_entities_data)
+                    # Sort the data by the key column ascending.
+                    updated_battle_entities_data = sorted(updated_battle_entities_data, key=lambda x: x["key"])
                     write_updated_tsv_file(updated_battle_entities_data, headers, version_info, f"./{folder_name}/db/battle_entities_tables", f"./!!!!!!!firing_arc_120_compat/db/battle_entities_tables", f"{PREPEND_RANGED_ARC_TABLE_FILE_NAME}_{folder_name}")
             
             # Update the projectile velocities.
@@ -198,12 +206,17 @@ if __name__ == "__main__":
                         projectile_data, headers, version_info = load_tsv_data(f"./vanilla_projectiles_tables/db/{table_name}/data__.tsv")
                         version_info = version_info.replace("data__", f"!!!!!!!double_projectile_velocity_compat_vanilla_and_dlc")
                         updated_projectile_data = adjust_muzzle_velocities(projectile_data)
+                        # Sort the data by the key column ascending.
+                        updated_projectile_data = sorted(updated_projectile_data, key=lambda x: x["key"])
                         write_updated_tsv_file(updated_projectile_data, headers, version_info, f"./vanilla_projectiles_tables/db/{table_name}", f"./!!!!!!!double_projectile_velocity_compat/db/{table_name}", f"{PREPEND_VELOCITY_TABLE_FILE_NAME}_vanilla_and_dlc")
                     elif os.path.exists(f"./{folder_name}/db/{table_name}") and any(file.endswith(".tsv") for file in os.listdir(f"./{folder_name}/db/{table_name}")):
                         print(f"There are TSV files in {folder_name}/db/{table_name}.")
                         projectile_data, headers = load_multiple_tsv_data(f"./{folder_name}/db/{table_name}")
                         version_info = f"#{table_name};{table_version_number};db/{table_name}/{PREPEND_VELOCITY_TABLE_FILE_NAME}_{folder_name}"
                         updated_projectile_data = adjust_muzzle_velocities(projectile_data)
+                        # Sort the data by the key column ascending.
+                        key = "key" if table_name != "battle_vortexs_tables" else "vortex_key"
+                        updated_projectile_data = sorted(updated_projectile_data, key=lambda x: x[key])
                         write_updated_tsv_file(updated_projectile_data, headers, version_info, f"./{folder_name}/db/{table_name}", f"./!!!!!!!double_projectile_velocity_compat/db/{table_name}", f"{PREPEND_VELOCITY_TABLE_FILE_NAME}_{folder_name}")
 
             if is_vanilla:

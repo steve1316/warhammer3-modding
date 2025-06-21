@@ -1,22 +1,22 @@
 key	bonus_v_large	bonus_v_infantry	damage	ap_damage	weapon_length	melee_weapon_type	audio_type	splash_attack_target_size	splash_attack_max_attacks	splash_attack_power_multiplier	building_damage_multiplier	ignition_amount	is_magical	contact_phase	collision_attack_max_targets	collision_attack_max_targets_cooldown	melee_attack_interval	scaling_damage	is_spell
 #melee_weapons_tables;25;db/melee_weapons_tables/!!!!!!!50meleeattackspeed_compat_Mf_Bertrand_Thieves_Honor
-friar_weapon	0	0	240	120	3.0000	sword	staff	medium	5	1.0000	1.2500	0.0000	false		0	10	2.0		false
-brt_Crownless_sword	0	0	240	125	3.0000	sword	sword	medium	5	1.0000	1.0000	0.0000	false		0	10	2.0		false
 brt_Crownless_greatsword	0	14	130	250	3.0000	sword	sword	medium	5	1.0000	1.2500	0.0000	false		0	10	2.0		false
-brt_hugo_le_petit_staff	0	0	320	160	3.0000	spear	staff	large	5	1.0000	1.2500	0.0000	false		0	10	1.9		false
-brt_bertrand_sword	0	0	240	135	3.0000	sword	sword	medium	6	1.0000	1.0000	0.0000	false		0	10	2.0		false
+brt_Crownless_sword	0	0	240	125	3.0000	sword	sword	medium	5	1.0000	1.0000	0.0000	false		0	10	2.0		false
 brt_aspirant_hoods_sword	0	0	60	22	2.0000	sword	sword	medium	3	1.2000	1.0000	0.0000	false		0	10	2.0		false
-brt_brigand_waylayers_halberd	14	0	8	20	1.0000	spear	halberd		1	1.0000	1.0000	0.0000	false	brtbrg_contact_waylaid	0	10	2.5		false
+brt_axe_great_brigands	0	0	6	22	1.0000	axe	axe		1	1.0000	1.0000	0.0000	false		0	10	2.3		false
+brt_bertrand_sword	0	0	240	135	3.0000	sword	sword	medium	6	1.0000	1.0000	0.0000	false		0	10	2.0		false
 brt_brigand_cutthroats_sword	0	10	10	20	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false	wh_dlc06_unit_contact_sundered_armour	0	10	1.9		false
+brt_brigand_waylayers_halberd	14	0	8	20	1.0000	spear	halberd		1	1.0000	1.0000	0.0000	false	brtbrg_contact_waylaid	0	10	2.5		false
+brt_dual_swords_brigands	0	6	20	6	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	10	2.15		false
+brt_hugo_le_petit_staff	0	0	320	160	3.0000	spear	staff	large	5	1.0000	1.2500	0.0000	false		0	10	1.9		false
+brt_sword_herrimaults	0	0	22	7	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	10	2.15		false
 faceless_dual_sword	0	16	230	120	3.0000	sword	sword	large	6	1.0000	1.0000	0.0000	false		0	10	1.9		false
 faceless_greatsword	0	14	120	230	3.0000	sword	sword	medium	6	1.0000	1.0000	0.0000	false		0	10	2.0		false
 faceless_sword	0	0	230	120	3.0000	sword	sword	medium	6	1.0000	1.0000	0.0000	false		0	10	2.0		false
-brt_dual_swords_brigands	0	6	20	6	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	10	2.15		false
-brt_axe_great_brigands	0	0	6	22	1.0000	axe	axe		1	1.0000	1.0000	0.0000	false		0	10	2.3		false
-brt_sword_herrimaults	0	0	22	7	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	10	2.15		false
-mf_srvbrgTH_brt_knight_mace	0	0	22	12	1.0000	axe	hammer		1	1.0000	1.0000	0.0000	false		0	10	2.1		false
-mf_srvbrgTH_brt_swords_dual_herrimault_rangers	0	6	24	8	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	10	2.2		false
-mf_srvbrgTH_brt_desperado_sword	0	0	240	120	3.0000	sword	sword	medium	4	1.0000	0.7500	0.0000	false		0	10	2.0		false
-mf_srvbrgTH_brt_outlaw_chief_halberd	25	0	110	260	3.0000	spear	halberd	large	4	1.0000	0.5000	0.0000	false		0	10	2.0		false
+friar_weapon	0	0	240	120	3.0000	sword	staff	medium	5	1.0000	1.2500	0.0000	false		0	10	2.0		false
 mf_brtbrg_brt_hooded_blade	0	16	130	300	3.0000	sword	sword	medium	4	1.0000	0.7500	0.0000	false		0	10	2.0		false
 mf_srvbrgTH_brt_brigand_plunderer_sword	0	8	21	9	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false	mf_srvbrgTH_unit_contact_robbed	0	10	1.9		false
+mf_srvbrgTH_brt_desperado_sword	0	0	240	120	3.0000	sword	sword	medium	4	1.0000	0.7500	0.0000	false		0	10	2.0		false
+mf_srvbrgTH_brt_knight_mace	0	0	22	12	1.0000	axe	hammer		1	1.0000	1.0000	0.0000	false		0	10	2.1		false
+mf_srvbrgTH_brt_outlaw_chief_halberd	25	0	110	260	3.0000	spear	halberd	large	4	1.0000	0.5000	0.0000	false		0	10	2.0		false
+mf_srvbrgTH_brt_swords_dual_herrimault_rangers	0	6	24	8	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	10	2.2		false
