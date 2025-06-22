@@ -32,7 +32,7 @@ if __name__ == "__main__":
 
         # Check if the mod is installed in the file system.
         if not os.path.exists(mod["path"]):
-            missing_mods.append(f"https://steamcommunity.com/sharedfiles/filedetails/?id={mod_id}")
+            missing_mods.append(f"{mod['name']} - https://steamcommunity.com/sharedfiles/filedetails/?id={mod_id}")
 
     for type in ["melee", "ranged_arc", "velocity"]:
         text_body = f"""[h1]Quick Overview[/h1]
