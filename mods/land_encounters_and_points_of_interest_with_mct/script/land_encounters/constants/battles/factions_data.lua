@@ -2698,7 +2698,6 @@ return {
                     {land_unit="wh_main_vmp_inf_skeleton_warriors_1", origin="vanilla", recruitment_cost=325, multiplayer_cost=325},
                     {land_unit="wh_main_vmp_inf_zombie", origin="vanilla", recruitment_cost=100, multiplayer_cost=100},
                     {land_unit="kys_und_necro_zombie", origin="!!from_the_grave_main", recruitment_cost=100, multiplayer_cost=100},
-                    {land_unit="kys_und_necro_zombie", origin="!!from_the_grave_main", recruitment_cost=100, multiplayer_cost=100},
                 },
                 ["missile_infantry"] = {
                     {land_unit="wh2_dlc11_vmp_inf_crossbowmen", origin="vanilla", recruitment_cost=475, multiplayer_cost=475},
@@ -2730,13 +2729,9 @@ return {
                     {land_unit="kys_und_void_revenants", origin="!!from_the_grave_main", recruitment_cost=650, multiplayer_cost=700},
                     {land_unit="kys_und_shield_revenants", origin="!!from_the_grave_main", recruitment_cost=700, multiplayer_cost=800},
                     {land_unit="kys_und_basic_infantry", origin="!!from_the_grave_main", recruitment_cost=700, multiplayer_cost=700},
-                    {land_unit="kys_und_void_revenants", origin="!!from_the_grave_main", recruitment_cost=650, multiplayer_cost=700},
-                    {land_unit="kys_und_shield_revenants", origin="!!from_the_grave_main", recruitment_cost=700, multiplayer_cost=800},
-                    {land_unit="kys_und_basic_infantry", origin="!!from_the_grave_main", recruitment_cost=700, multiplayer_cost=700},
                 },
                 ["missile_infantry"] = {
                     {land_unit="wh2_dlc11_vmp_inf_handgunners", origin="vanilla", recruitment_cost=600, multiplayer_cost=600},
-                    {land_unit="kys_und_crossbow", origin="!!from_the_grave_main", recruitment_cost=450, multiplayer_cost=500},
                     {land_unit="kys_und_crossbow", origin="!!from_the_grave_main", recruitment_cost=450, multiplayer_cost=500},
                 },
                 ["melee_cavalry"] = {},
@@ -2767,8 +2762,6 @@ return {
                     {land_unit="cst_lzd_skink_redcrest", origin="!!!!!!Champions_of_undeath_merged_fun_tyme", recruitment_cost=825, multiplayer_cost=825},
                     {land_unit="kys_und_behemoth", origin="!!from_the_grave_main", recruitment_cost=1050, multiplayer_cost=1100},
                     {land_unit="kys_und_bk_foot", origin="!!from_the_grave_main", recruitment_cost=1200, multiplayer_cost=1200},
-                    {land_unit="kys_und_behemoth", origin="!!from_the_grave_main", recruitment_cost=1050, multiplayer_cost=1100},
-                    {land_unit="kys_und_bk_foot", origin="!!from_the_grave_main", recruitment_cost=1200, multiplayer_cost=1200},
                 },
                 ["missile_infantry"] = {
                     {land_unit="cst_lzd_skink_cohort_1", origin="!!!!!!Champions_of_undeath_merged_fun_tyme", recruitment_cost=400, multiplayer_cost=400},
@@ -2779,8 +2772,6 @@ return {
                     {land_unit="wh_main_vmp_cav_black_knights_3", origin="vanilla", recruitment_cost=1050, multiplayer_cost=1050},
                     {land_unit="wh_main_vmp_cav_hexwraiths", origin="vanilla", recruitment_cost=1400, multiplayer_cost=1400},
                     {land_unit="wh_dlc02_vmp_cav_blood_knights_0", origin="!!!!!!Champions_of_undeath_merged_fun_tyme", recruitment_cost=1900, multiplayer_cost=1600},
-                    {land_unit="kys_und_bk_cav", origin="!!from_the_grave_main", recruitment_cost=1500, multiplayer_cost=1500},
-                    {land_unit="kys_und_brood_horror_rider", origin="!!from_the_grave_main", recruitment_cost=1400, multiplayer_cost=1400},
                     {land_unit="kys_und_bk_cav", origin="!!from_the_grave_main", recruitment_cost=1500, multiplayer_cost=1500},
                     {land_unit="kys_und_brood_horror_rider", origin="!!from_the_grave_main", recruitment_cost=1400, multiplayer_cost=1400},
                 },
@@ -6892,7 +6883,7 @@ return {
                 ["melee_infantry"] = {
                     {land_unit="YLlyxw", origin="!!YL_binzhong", recruitment_cost=3000, multiplayer_cost=3000},
                     {land_unit="wwd_chs_inf_archaon_champions_0", origin="DEER24Cathay", recruitment_cost=1100, multiplayer_cost=1100},
-                    {land_unit="wwd_jinjun_longdijinjun_campaign", origin="DEER24Cathay", recruitment_cost=300, multiplayer_cost=300},
+                    {land_unit="wwd_jinjun_longdijinjun_campaign", origin="DEER24Cathay", recruitment_cost=6900, multiplayer_cost=300},
                     {land_unit="wwd_jinjun_longdijinjun", origin="DEER24Cathay", recruitment_cost=3000, multiplayer_cost=3000},
                     {land_unit="wwd_jinjun_west_baier", origin="DEER24Cathay", recruitment_cost=2250, multiplayer_cost=2250},
                     {land_unit="wwd_jinjun_celest_yayu", origin="DEER24Cathay", recruitment_cost=2250, multiplayer_cost=2250},
