@@ -548,8 +548,9 @@ if __name__ == "__main__":
         logging.info(f"Failed mods: {FAILED_MODS}")
 
     # Output the list of supported mod package names to be updated in mct_settings.lua.
+    print(f"\t\"!cr_immortal_empires_expanded\", -- Immortal Empires Expanded")
     for package_name in list_of_supported_package_names:
-        print(f"\"{package_name}\",")
+        print(f"\t\"{package_name}\",")
 
     end_time = round(time.time() - start_time, 2)
     logging.info(f"Total time for processing all main_units_tables .tsv files: {end_time} seconds or {round(end_time / 60, 2)} minutes.")
