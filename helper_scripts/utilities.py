@@ -101,10 +101,8 @@ def load_multiple_tsv_data(folder_path: str):
     merged_data_set = set()
     headers = None
     for file_name in os.listdir(folder_path):
-        print(f"Loading TSV file: {file_name}")
         if file_name.endswith(".tsv"):
             data, headers, _ = load_tsv_data(os.path.join(folder_path, file_name))
-            print(f"Loaded {len(data)} rows from {file_name}.")
             # Convert each row dict to a tuple of items for set storage.
             for row in data:
                 merged_data_set.add(tuple(row.items()))
@@ -113,7 +111,7 @@ def load_multiple_tsv_data(folder_path: str):
     
     # Convert back to list of dictionaries.
     merged_data = [dict(row_tuple) for row_tuple in merged_data_set]
-    print(f"Loaded a total of {len(merged_data)} unique rows.")
+    logging.info(f"Loaded a total of {len(merged_data)} unique rows for {folder_path}.")
     return merged_data, headers
 
 def read_and_clean_tsv(tsv_file_path: str, table_type: str, allowed_patterns: List[str] = None):
