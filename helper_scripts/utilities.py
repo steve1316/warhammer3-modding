@@ -59,7 +59,10 @@ def extract_modded_tsv_data(table_name: str, packfile_path: str, extract_path: s
         f"db/{table_name};{extract_path}"
     ])
 
-    logging.info(f"TSV file(s) for \"{table_name}\" successfully extracted to {extract_path}.")
+    if not os.path.exists(extract_path):
+        logging.warning(f"No TSV file(s) for \"{table_name}\" found in {extract_path}.")
+    else:
+        logging.info(f"TSV file(s) for \"{table_name}\" successfully extracted to {extract_path}.")
 
 def load_tsv_data(file_path: str):
     """Load and parse TSV file into structured data.
