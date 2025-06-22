@@ -36,3 +36,6 @@ Generates a formatted list of supported mods that have their melee, firing arcs 
 
 ### 9. `update_modified_attribute_mods.py`
 Script to update the modified attribute mods from the Steam Workshop to account for latest changes to the vanilla and modded data tables.
+
+### 10. `update_dynamic_rors.py`
+Script to update the dynamic RORs for Nanu from the Steam Workshop to account for latest changes to modded data tables.
