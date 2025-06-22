@@ -158,9 +158,10 @@ def write_updated_tsv_file(data: List[Dict], headers: List[str], version_info: s
         file_name (str): Name of the TSV file to write.
     """
     # Remove all other .tsv files in the folder.
-    for file in os.listdir(source_path):
-        if file.endswith(".tsv"):
-            os.remove(f"{source_path}/{file}")
+    if os.path.exists(source_path):
+        for file in os.listdir(source_path):
+            if file.endswith(".tsv"):
+                os.remove(f"{source_path}/{file}")
     # Create the target directory if it doesn't exist
     os.makedirs(target_path, exist_ok=True)
     with open(f"{target_path}/{file_name}.tsv", "w", encoding="utf-8") as f:
