@@ -531,6 +531,17 @@ if __name__ == "__main__":
         shutil.move("factions_data.lua", destination_filepath)
         os.remove("factions_data.json")
 
+    # Perform final cleanup.
+    for cleanup_file in [
+        "vanilla_main_units_tables",
+        "vanilla_faction_agent_permitted_subtypes_tables",
+        "vanilla_character_skill_node_set_items_tables",
+        "vanilla_character_skill_node_sets_tables",
+        "vanilla_character_skill_nodes_tables"
+    ]:
+        if os.path.exists(cleanup_file):
+            os.remove(cleanup_file)
+
     if MISSING_MODS:
         logging.info(f"Missing mods: {MISSING_MODS}")
     if FAILED_MODS:
