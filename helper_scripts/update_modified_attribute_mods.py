@@ -36,10 +36,10 @@ def update_melee_attack_intervals(unit_data: List[Dict]):
             current_interval = row["melee_attack_interval"]
             modified_row = row.copy()
             modified_row["melee_attack_interval"] = str(float(current_interval) / 2)
-            logging.info(f"Updated {row['key']} melee attack interval from {current_interval} to {modified_row['melee_attack_interval']}.")
+            logging.debug(f"Updated {row['key']} melee attack interval from {current_interval} to {modified_row['melee_attack_interval']}.")
             modified_data.append(modified_row)
         except ValueError:
-            logging.warning(f"Invalid interval value: {current_interval} - preserving original")
+            logging.debug(f"Invalid interval value: {current_interval} - preserving original")
             modified_data.append(row)
         except KeyError:
             modified_data.append(row)
@@ -61,7 +61,7 @@ def update_rows_for_120_degree_ranged_attacks(joined_data: List[Dict]):
         current_arc = float(row["fire_arc_close"])
         if 0 < current_arc < 120:
             row["fire_arc_close"] = "120"
-            logging.info(f"Updated {row['key']} firing arc from {current_arc} to 120 degrees.")
+            logging.debug(f"Updated {row['key']} firing arc from {current_arc} to 120 degrees.")
     
     return joined_data
 
@@ -81,13 +81,13 @@ def adjust_muzzle_velocities(projectile_data: List[Dict]):
             new_row = row.copy()
             if velocity > 0:
                 new_row["muzzle_velocity"] = str(velocity * 2)
-                logging.info(f"Updated {row['key']} projectile velocity from {velocity} to {new_row['muzzle_velocity']}.")
+                logging.debug(f"Updated {row['key']} projectile velocity from {velocity} to {new_row['muzzle_velocity']}.")
             else:
-                logging.warning(f"Invalid velocity ({velocity}) - preserving original value")
+                logging.debug(f"Invalid velocity ({velocity}) - preserving original value")
                 
             modified.append(new_row)
         except ValueError as e:
-            logging.warning(f"Error processing row: {str(e)} - using original data")
+            logging.debug(f"Error processing row: {str(e)} - using original data")
             modified.append(row)
         except KeyError:
             modified.append(row)
