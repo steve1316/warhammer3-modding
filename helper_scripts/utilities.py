@@ -149,7 +149,7 @@ def read_and_clean_tsv(tsv_file_path: str, table_type: str, allowed_patterns: Li
     logging.info(f"TSV file '{tsv_file_path}' successfully read and cleaned for table '{table_type}'.")
     return df
 
-def write_updated_tsv_file(data: List[Dict], headers: List[str], version_info: str, target_path: str, file_name: str):
+def write_updated_tsv_file(data: List[Dict], headers: List[str], version_info: str, target_path: str, file_name: str, allow_duplicates: bool = False):
     """Write the updated TSV file to the target path.
 
     Args:
@@ -158,13 +158,36 @@ def write_updated_tsv_file(data: List[Dict], headers: List[str], version_info: s
         version_info (str): String containing the version information for the TSV file.
         target_path (str): Path to the target directory where the updated TSV file will be written.
         file_name (str): Name of the TSV file to write.
+        allow_duplicates (bool, optional): Whether to allow duplicates in the TSV file. Defaults to False.
     """
     # Create the target directory if it doesn't exist
     os.makedirs(target_path, exist_ok=True)
-    with open(f"{target_path}/{file_name}.tsv", "w", encoding="utf-8") as f:
-        f.write("\t".join(headers) + "\n")
-        f.write(version_info + "\n")
+    
+    file_path = f"{target_path}/{file_name}.tsv"
+    file_exists = os.path.exists(file_path)
+    
+    # If file doesn't exist, we need to write headers and version info
+    if not file_exists:
+        with open(file_path, "w", encoding="utf-8") as f:
+            f.write("\t".join(headers) + "\n")
+            f.write(version_info + "\n")
+    
+    # Read existing data to check for duplicates if needed
+    existing_keys = set()
+    if not allow_duplicates and file_exists:
+        try:
+            existing_data, _, _ = load_tsv_data(file_path)
+            existing_keys = {row[headers[0]] for row in existing_data}
+        except:
+            pass
+    
+    # Append new data to the file
+    with open(file_path, "a", encoding="utf-8") as f:
         for row in data:
+            key_column = headers[0]
+            if not allow_duplicates and row[key_column] in existing_keys:
+                continue
+            existing_keys.add(row[key_column])
             # Sometimes the mod's table is outdated. The provided headers is always the latest so it may have new columns that these old tables do not have.
             # In that case, we set the cell to an empty string.
             ordered_values = [row[header] if row.get(header) else "" for header in headers]
