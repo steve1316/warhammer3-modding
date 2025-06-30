@@ -146,22 +146,16 @@ def read_and_clean_tsv(tsv_file_path: str, table_type: str, allowed_patterns: Li
     logging.info(f"TSV file '{tsv_file_path}' successfully read and cleaned for table '{table_type}'.")
     return df
 
-def write_updated_tsv_file(data: List[Dict], headers: List[str], version_info: str, source_path: str, target_path: str, file_name: str):
+def write_updated_tsv_file(data: List[Dict], headers: List[str], version_info: str, target_path: str, file_name: str):
     """Write the updated TSV file to the target path.
 
     Args:
         data (List[Dict]): List of dictionaries representing the data to write to the TSV file.
         headers (List[str]): List of headers for the TSV file.
         version_info (str): String containing the version information for the TSV file.
-        source_path (str): Path to the source directory containing the TSV files.
         target_path (str): Path to the target directory where the updated TSV file will be written.
         file_name (str): Name of the TSV file to write.
     """
-    # Remove all other .tsv files in the folder.
-    if os.path.exists(source_path):
-        for file in os.listdir(source_path):
-            if file.endswith(".tsv"):
-                os.remove(f"{source_path}/{file}")
     # Create the target directory if it doesn't exist
     os.makedirs(target_path, exist_ok=True)
     with open(f"{target_path}/{file_name}.tsv", "w", encoding="utf-8") as f:
