@@ -193,3 +193,13 @@ def merge_move(source_path: str, destination_path: str):
 
     # Remove the source folder afterwards.
     shutil.rmtree(source_path)
+
+def cleanup_folders(folders_to_cleanup: List[str]):
+    """Clean up the folders that were created during the extraction process.
+    
+    Args:
+        folders_to_cleanup (List[str]): List of folders to cleanup.
+    """
+    for folder in folders_to_cleanup:
+        if os.path.exists(folder):
+            shutil.rmtree(folder)
