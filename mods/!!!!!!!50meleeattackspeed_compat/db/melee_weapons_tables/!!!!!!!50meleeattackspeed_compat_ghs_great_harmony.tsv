@@ -204,8 +204,7 @@ rhd_land_skv_inf_night_runners_ror_melee_weapon	0	0	20	6	1.0000	sword	sword		5	1
 rhd_land_skv_inf_pickaxe_melee_weapon	0	0	6	16	1.0000	axe	axe		5	1.0000	1.5000	0.0000	false		0	10	2.15		false
 rhd_land_skv_inf_pickaxe_melee_weapon_slave	0	0	6	10	1.0000	axe	axe		5	1.0000	1.5000	0.0000	false		0	10	2.15		false
 rhd_land_skv_inf_plague_monk_warpstone_0_melee_weapon	0	0	18	46	1.0000	axe	flail	small	5	1.0000	1.2500	0.0000	true	wh2_main_unit_contact_plague_monk_censer_morale	0	10	2.2		false
-rhd_land_skv_inf_skv_slave_powder_ror_melee_weapon	0	0	6	12	1.0000	axe	axe	small	5	1.0000	1.5000	0.0000	false		0	10	2.15		false
-rhd_land_skv_inf_tesla_trooper_0_melee_weapon	20	0	20	70	1.0000	spear	halberd	medium	4	1.3000	0.7500	0.0000	true	wh2_dlc12_unit_passive_zzzap	0	10	2.0		false
+rhd_land_skv_inf_tesla_trooper_0_melee_weapon	0	0	20	70	1.0000	spear	halberd	medium	4	1.3000	0.7500	0.0000	true	wh2_dlc12_unit_passive_zzzap	0	10	2.0		false
 rhd_land_skv_inf_warp_grinder_ror_melee_weapon	0	0	18	78	4.0000	spear	halberd	medium	4	1.3000	0.7500	0.0000	true	rhd_unit_contact_melt	0	10	2.85		false
 rhd_land_skv_mon_bonebreaker_0_melee_weapon	0	0	30	80	5.0000	sword	sword	medium	5	1.5000	1.2500	0.0000	false		0	10	1.9		false
 rhd_land_skv_veh_screaming_bell_0_melee_weapon	0	20	30	70	6.0000	axe	unarmed	medium	5	1.0000	1.2500	0.0000	false		4	4	2.6		false

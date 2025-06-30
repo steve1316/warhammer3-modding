@@ -59,4 +59,5 @@ mixu_sword_emp_vorn_thugenheim	0	20	250	150	3.0000	sword	sword	medium	8	1.0000	1
 mixu_sword_tze_cultists	0	0	21	7	1.0000	sword	sword		1	1.0000	1.0000	0.0000	true		0	10	2.15		false
 mixu_sword_wef_daith	0	20	120	260	3.0000	sword	sword	medium	8	1.0000	1.0000	0.0000	false		0	10	2.0		false
 mixu_sword_wef_naieth_stag	0	0	260	120	3.0000	sword	sword	medium	6	1.0000	1.0000	0.0000	true		0	10	2.0		false
+mixu_tze_warhound_claw	0	0	19	3	1.0000	sword	creatures_claws		1	1.0000	0.7500	0.0000	true		0	10	2.15		false
 mixu_whip_emp_celebrants	0	0	27	11	1.0000	sword	sword		4	1.0000	1.0000	0.0000	false		0	10	2.25		false
