@@ -162,7 +162,9 @@ def write_updated_tsv_file(data: List[Dict], headers: List[str], version_info: s
         f.write("\t".join(headers) + "\n")
         f.write(version_info + "\n")
         for row in data:
-            ordered_values = [row[header] for header in headers]
+            # Sometimes the mod's table is outdated. The provided headers is always the latest so it may have new columns that these old tables do not have.
+            # In that case, we set the cell to an empty string.
+            ordered_values = [row[header] if row.get(header) else "" for header in headers]
             f.write("\t".join(ordered_values) + "\n")
 
 def merge_move(source_path: str, destination_path: str):
