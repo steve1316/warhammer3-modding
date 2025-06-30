@@ -60,9 +60,9 @@ def extract_modded_tsv_data(table_name: str, packfile_path: str, extract_path: s
     ])
 
     if not os.path.exists(extract_path):
-        logging.warning(f"No TSV file(s) for \"{table_name}\" found in {extract_path}.")
+        logging.warning(f"No TSV file(s) for \"{table_name}\" found in {extract_path} for the mod \"{packfile_path.split('/')[-1]}\".")
     else:
-        logging.info(f"TSV file(s) for \"{table_name}\" successfully extracted to {extract_path}.")
+        logging.info(f"TSV file(s) for \"{table_name}\" successfully extracted to {extract_path} for the mod \"{packfile_path.split('/')[-1]}\".")
 
 def load_tsv_data(file_path: str):
     """Load and parse TSV file into structured data.
@@ -96,23 +96,26 @@ def load_multiple_tsv_data(folder_path: str):
         folder_path (str): Path to the folder containing the TSV files.
         
     Returns:
-        A tuple of a list of row dictionaries with header keys and the headers.
+        A tuple of a list of row dictionaries with header keys, the headers, and version information of which the latter belongs to the first TSV file found.
     """
     merged_data_set = set()
     headers = None
+    version_info = None
     for file_name in os.listdir(folder_path):
         if file_name.endswith(".tsv"):
-            data, headers, _ = load_tsv_data(os.path.join(folder_path, file_name))
+            temp_data, temp_headers, temp_version_info = load_tsv_data(os.path.join(folder_path, file_name))
             # Convert each row dict to a tuple of items for set storage.
-            for row in data:
+            for row in temp_data:
                 merged_data_set.add(tuple(row.items()))
             if headers is None:
-                headers = headers
-    
+                headers = temp_headers
+            if version_info is None:
+                version_info = temp_version_info
+
     # Convert back to list of dictionaries.
     merged_data = [dict(row_tuple) for row_tuple in merged_data_set]
     logging.info(f"Loaded a total of {len(merged_data)} unique rows for {folder_path}.")
-    return merged_data, headers
+    return merged_data, headers, version_info
 
 def read_and_clean_tsv(tsv_file_path: str, table_type: str, allowed_patterns: List[str] = None):
     """Load and clean TSV file based on the table type.
