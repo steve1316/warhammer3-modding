@@ -1,0 +1,6 @@
+key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
+#missile_weapons_tables;11;db/missile_weapons_tables/!!!!ak_kraka
+kraka_spikegunners	false	kraka_spikegunners	drakegun	false
+kraka_trollsearers	false	kraka_trollsearers		false
+kraka_pathgrinders	false	kraka_pathgrinders		false
+kraka_frostgun	false	kraka_frostgun	drakegun	false

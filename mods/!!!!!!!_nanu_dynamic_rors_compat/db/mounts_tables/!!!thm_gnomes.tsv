@@ -1,0 +1,4 @@
+key	animation	entity	audio_armour_type	variant	voiceover
+#mounts_tables;10;db/mounts_tables/!!!thm_gnomes
+hilldwf_gnome_fox	wf1_giant_wolf	wh_main_grn_wolf_mount_blood	leather	hilldwf_gnome_fox_mount	wh_main_vo_culture_Wolf
+hilldwf_gnome_badger	wf1_giant_wolf	wh_main_grn_wolf_mount_blood	leather	hilldwf_gnome_badger_mount	wh_main_vo_culture_Wolf

@@ -1,0 +1,5 @@
+key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
+#missile_weapons_tables;11;db/missile_weapons_tables/!!!trojan_archer
+champ_missile	false	champ_projectile		false
+trojan_missile	false	trojan_projectile		false
+slaanbull_missile	false	slaanbull_projectile		false

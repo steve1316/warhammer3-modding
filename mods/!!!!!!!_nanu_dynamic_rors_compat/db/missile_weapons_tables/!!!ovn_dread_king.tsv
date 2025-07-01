@@ -1,0 +1,4 @@
+key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
+#missile_weapons_tables;11;db/missile_weapons_tables/!!!ovn_dread_king
+ovn_dk_skeleton_javelin	false	ovn_dk_skeleton_javelin	javelin	false
+ovn_dk_peltast_javelin_heavy	false	ovn_dk_peltast_javelin_heavy	javelin	false

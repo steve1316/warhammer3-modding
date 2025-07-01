@@ -1,0 +1,8 @@
+key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
+#missile_weapons_tables;11;db/missile_weapons_tables/!!!!!YL_binzhong
+YL_zsyw_cannon	false	YL_zsyw_cannon	grand_cannon	false
+YL_zyxj_biaoqiang	false	YL_zyxj_biaoqiang	javelin	false
+YL_pjcw_gun	false	YL_pjcw_gun	hand_cannon	false
+YL_chlw_gong	false	YL_chlw_gong	bow	false
+YL_sxdw_gun	false	YL_sxdw_gun	pistol	false
+YL_lycs_gun	false	YL_lycs_gun	hand_cannon	false

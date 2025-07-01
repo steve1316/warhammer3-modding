@@ -1,0 +1,11 @@
+key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
+#missile_weapons_tables;11;db/missile_weapons_tables/!!!!kitties
+star_jag	false	star_jag	javelin	false
+javelin_tiga	false	javelin_tiga	javelin	false
+gorilla_bomb	false	gorilla_bomb	globe	false
+shieldtiga_missile	false	shieldtiga_projectile	bow_large	false
+chakram_tiga	false	chakram_tiga	javelin	false
+commandertiga_missile	false	commandertiga_projectile	bow_large	false
+bola_tiga	false	bola_tiga	globe	false
+cthcommander_bomb	true	cthcommander_bomb	globe	false
+herostar_jag	false	herostar_jag	javelin	false

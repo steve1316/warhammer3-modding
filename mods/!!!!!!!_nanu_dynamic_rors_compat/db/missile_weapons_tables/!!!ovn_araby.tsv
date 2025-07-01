@@ -1,0 +1,9 @@
+key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
+#missile_weapons_tables;11;db/missile_weapons_tables/!!!ovn_araby
+ovn_arb_bowmen	false	ovn_arb_bowmen_arrow	bow	false
+ovn_arb_tempest_djinn	false	ovn_arb_tempest_djinn_shot	cannon	false
+ovn_arb_camel_arrow	false	ovn_arb_camel_arrow	bow	false
+ovn_arb_inf_jezzails	false	ovn_arb_inf_jezzails_bullet	iron_hail_gunner	false
+ovn_arb_javelin	false	ovn_arb_javelin	javelin	false
+arb_carpet_bow	false	arb_carpet_bow	bow	false
+arb_corsair_pistol	true	wh_dlc04_emp_free_company_pistol_bullet	pistol	false

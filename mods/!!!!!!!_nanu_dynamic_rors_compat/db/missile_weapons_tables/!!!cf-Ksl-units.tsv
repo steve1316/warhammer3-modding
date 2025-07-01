@@ -1,0 +1,12 @@
+key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
+#missile_weapons_tables;11;db/missile_weapons_tables/!!!cf-Ksl-units
+cf_streltsi_blunderbuss	false	cf_streltsi_blunderbuss	blunderbuss	false
+wh3_main_ksl_little_grom_mortar	false	wh3_main_ksl_little_grom_mortar	grand_cannon	false
+cf_throwing_javelin	false	cf_throwing_javelin		false
+cf_throwing_axe	false	cf_throwing_axe		false
+cf_gryphon_legion_bow	false	cf_gryphon_legion_bow	bow	false
+wh3_main_ksl_sled_blunderbuss	false	wh3_ksl_sled_blunderbuss_bullet	blunderbuss	false
+cf_sibyrian_hunters	false	cf_sibyrian_hunters_arrow	bow	false
+cf_molotov	false	cf_molotov		false
+wh3_main_ksl_little_grom_rockets	false	wh3_main_ksl_little_grom_rockets	rocket_battery	false
+cf_ice_guard_missile_cav	false	cf_ice_guard_missile_cav	bow	false
