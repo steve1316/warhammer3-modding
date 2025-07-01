@@ -16,6 +16,7 @@ if __name__ == "__main__":
     list_of_mods_for_melee = []
     list_of_mods_for_ranged_arc = []
     list_of_mods_for_velocity = []
+    list_of_mods_for_land_encounters = []
     missing_mods = []
 
     for mod in SUPPORTED_MODS:
@@ -29,12 +30,14 @@ if __name__ == "__main__":
             list_of_mods_for_ranged_arc.append(list_item)
         if "velocity" in mod["modified_attributes"]:
             list_of_mods_for_velocity.append(list_item)
+        if "ignore_generation" not in mod or not mod["ignore_generation"]:
+            list_of_mods_for_land_encounters.append(list_item)
 
         # Check if the mod is installed in the file system.
         if not os.path.exists(mod["path"]):
             missing_mods.append(f"{mod['name']} - https://steamcommunity.com/sharedfiles/filedetails/?id={mod_id}")
 
-    for type in ["melee", "ranged_arc", "velocity"]:
+    for type in ["melee", "ranged_arc", "velocity", "land_encounters"]:
         text_body = f"""[h1]Quick Overview[/h1]
 Auto-generated on {datetime.now().strftime("%Y-%m-%d %H:%M:%S")} via Python script.
 
@@ -45,7 +48,7 @@ INSERT_LIST_HERE
 [/list]
 """
 
-        list_of_mods = list_of_mods_for_melee if type == "melee" else list_of_mods_for_ranged_arc if type == "ranged_arc" else list_of_mods_for_velocity
+        list_of_mods = list_of_mods_for_melee if type == "melee" else list_of_mods_for_ranged_arc if type == "ranged_arc" else list_of_mods_for_velocity if type == "velocity" else list_of_mods_for_land_encounters
         text_body = text_body.replace(f"INSERT_LIST_HERE", "\n".join(list_of_mods))
         with open(f"supported_mods_list_to_update_{type}.txt", "w", encoding="utf-8") as f:
             f.write(text_body)
