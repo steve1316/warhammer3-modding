@@ -482,6 +482,9 @@ if __name__ == "__main__":
         "./modded_projectile_shot_type_displays_tables",
         "./modded_unit_spacings_tables",
         "./modded_first_person_engines_tables",
+        "./modded_land_unit_articulated_vehicles_tables",
+        "./modded_ui_unit_groupings_tables",
+        "./modded_ui_unit_group_parents_tables",
     ])
 
     try:
@@ -528,6 +531,9 @@ if __name__ == "__main__":
                 {"table_name": "projectile_shot_type_displays_tables", "folder_name": "projectile_shot_type_displays_tables", "key_field": "key"},
                 {"table_name": "unit_spacings_tables", "folder_name": "unit_spacings_tables", "key_field": "key"},
                 {"table_name": "first_person_engines_tables", "folder_name": "first_person_engines_tables", "key_field": "key"},
+                {"table_name": "land_unit_articulated_vehicles_tables", "folder_name": "land_unit_articulated_vehicles_tables", "key_field": "key"}, # NEW
+                {"table_name": "ui_unit_groupings_tables", "folder_name": "ui_unit_groupings_tables", "key_field": "key"}, # NEW
+                {"table_name": "ui_unit_group_parents_tables", "folder_name": "ui_unit_group_parents_tables", "key_field": "key"}, # NEW
             ]
 
             # Extract and load all the required and optional tables needed for this mod.
@@ -570,6 +576,9 @@ if __name__ == "__main__":
                     "projectile_shot_type_displays": [],
                     "unit_spacings": [],
                     "first_person_engines": [],
+                    "land_unit_articulated_vehicles": [],
+                    "ui_unit_groupings": [],
+                    "ui_unit_group_parents": [],
                 }
 
                 faction = units_to_factions_mapping.get(data["key"])
@@ -592,7 +601,8 @@ if __name__ == "__main__":
                         # If the unit key does not exist in the main_units_tables, that means the mod edited a vanilla unit. So it is okay if there is no record for it.
                         # This will raise the KeyError.
                         if data["key"] in main_units_mapping:
-                            new_data["main_units"].append(main_units_mapping[data["key"]])
+                            main_unit_data = main_units_mapping[data["key"]]
+                            new_data["main_units"].append(main_unit_data)
                             new_data["land_units"].append(data)
 
                             # Use the entry from land_units_tables to get the entries from the following tables.
@@ -641,6 +651,18 @@ if __name__ == "__main__":
                                 new_data["unit_spacings"].append(table_data["unit_spacings_tables"][data["spacing"]])
                             if data.get("first_person") and data["first_person"] in table_data["first_person_engines_tables"]:
                                 new_data["first_person_engines"].append(table_data["first_person_engines_tables"][data["first_person"]])
+                            if data.get("articulated_record") and data["articulated_record"] in table_data["land_unit_articulated_vehicles_tables"]:
+                                articulated_vehicle_data = table_data["land_unit_articulated_vehicles_tables"][data["articulated_record"]]
+                                new_data["land_unit_articulated_vehicles"].append(articulated_vehicle_data)
+
+                                # Use the entry from land_unit_articulated_vehicles_tables if available to get the entry from battle_entities_tables.
+                                if articulated_vehicle_data.get("articulated_entity") and articulated_vehicle_data["articulated_entity"] in table_data["battle_entities_tables"]:
+                                    new_data["battle_entities"].append(table_data["battle_entities_tables"][articulated_vehicle_data["articulated_entity"]])
+                            if main_unit_data.get("ui_unit_group_land") and main_unit_data["ui_unit_group_land"] in table_data["ui_unit_groupings_tables"]:
+                                new_data["ui_unit_groupings"].append(table_data["ui_unit_groupings_tables"][main_unit_data["ui_unit_group_land"]])
+
+                                if table_data["ui_unit_groupings_tables"][main_unit_data["ui_unit_group_land"]].get("parent_group") and table_data["ui_unit_groupings_tables"][main_unit_data["ui_unit_group_land"]]["parent_group"] in table_data["ui_unit_group_parents_tables"]:
+                                    new_data["ui_unit_group_parents"].append(table_data["ui_unit_group_parents_tables"][table_data["ui_unit_groupings_tables"][main_unit_data["ui_unit_group_land"]]["parent_group"]])
 
                         list_of_data_to_add.append(new_data)
                     except KeyError as e:
@@ -697,6 +719,9 @@ if __name__ == "__main__":
                         ("projectile_shot_type_displays", "projectile_shot_type_displays_tables"),
                         ("unit_spacings", "unit_spacings_tables"),
                         ("first_person_engines", "first_person_engines_tables"),
+                        ("land_unit_articulated_vehicles", "land_unit_articulated_vehicles_tables"),
+                        ("ui_unit_groupings", "ui_unit_groupings_tables"),
+                        ("ui_unit_group_parents", "ui_unit_group_parents_tables"),
                     ]
                     for data_key, table_name in optional_tables:
                         if data_to_add[data_key]:
@@ -729,6 +754,9 @@ if __name__ == "__main__":
                 "./modded_projectile_shot_type_displays_tables",
                 "./modded_unit_spacings_tables",
                 "./modded_first_person_engines_tables",
+                "./modded_land_unit_articulated_vehicles_tables",
+                "./modded_ui_unit_groupings_tables",
+                "./modded_ui_unit_group_parents_tables",
             ])
 
             # Clear the data list from memory to avoid accessing old data in the next iteration.
@@ -766,6 +794,9 @@ if __name__ == "__main__":
         "projectile_shot_type_displays_tables",
         "unit_spacings_tables",
         "first_person_engines_tables",
+        "land_unit_articulated_vehicles_tables",
+        "ui_unit_groupings_tables",
+        "ui_unit_group_parents_tables",
     ]:
         if os.path.exists(f"../mods/!!!!!!!_nanu_dynamic_rors_compat/db/{folder_name}"):
             subprocess.run([
