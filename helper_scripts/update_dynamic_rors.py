@@ -433,6 +433,7 @@ def extract_and_load_table_data(mod_path: str, table_configs: List[Dict[str, Any
         folder_name = config["folder_name"]
         key_field = config.get("key_field", "key")
         required = config.get("required", False)
+        logging.info(f"Table config: {config}")
 
         # Extract the table data from the mod.
         extract_modded_tsv_data(table_name, mod_path, f"./modded_{folder_name}")
@@ -507,26 +508,26 @@ if __name__ == "__main__":
             if folder_name[-1].isdigit():
                 folder_name = folder_name[:-1]
 
-            # Define table configurations for extraction
+            # Define table configurations for extraction.
             table_configs = [
-                {"table_name": "units_to_groupings_military_permissions_tables", "folder_name": "units_to_groupings_military_permissions_tables", "required": True},
-                {"table_name": "main_units_tables", "folder_name": "main_units_tables", "required": True},
-                {"table_name": "land_units_tables", "folder_name": "land_units_tables", "required": True},
-                {"table_name": "unit_description_historical_texts_tables", "folder_name": "unit_description_historical_texts_tables"},
-                {"table_name": "battle_animations_table_tables", "folder_name": "battle_animations_table_tables"},
-                {"table_name": "battle_entities_tables", "folder_name": "battle_entities_tables"},
-                {"table_name": "mounts_tables", "folder_name": "mounts_tables"},
-                {"table_name": "melee_weapons_tables", "folder_name": "melee_weapons_tables"},
-                {"table_name": "missile_weapons_tables", "folder_name": "missile_weapons_tables"},
-                {"table_name": "unit_description_short_texts_tables", "folder_name": "unit_description_short_texts_tables"},
+                {"table_name": "units_to_groupings_military_permissions_tables", "folder_name": "units_to_groupings_military_permissions_tables", "key_field": "unit", "required": True},
+                {"table_name": "main_units_tables", "folder_name": "main_units_tables", "key_field": "unit", "required": True},
+                {"table_name": "land_units_tables", "folder_name": "land_units_tables", "key_field": "key", "required": True},
+                {"table_name": "unit_description_historical_texts_tables", "folder_name": "unit_description_historical_texts_tables", "key_field": "key"},
+                {"table_name": "battle_animations_table_tables", "folder_name": "battle_animations_table_tables", "key_field": "key"},
+                {"table_name": "battle_entities_tables", "folder_name": "battle_entities_tables", "key_field": "key"},
+                {"table_name": "mounts_tables", "folder_name": "mounts_tables", "key_field": "key"},
+                {"table_name": "melee_weapons_tables", "folder_name": "melee_weapons_tables", "key_field": "key"},
+                {"table_name": "missile_weapons_tables", "folder_name": "missile_weapons_tables", "key_field": "key"},
+                {"table_name": "unit_description_short_texts_tables", "folder_name": "unit_description_short_texts_tables", "key_field": "key"},
                 {"table_name": "unit_attributes_groups_tables", "folder_name": "unit_attributes_groups_tables", "key_field": "group_name"},
-                {"table_name": "battlefield_engines_tables", "folder_name": "battlefield_engines_tables"},
-                {"table_name": "projectiles_tables", "folder_name": "projectiles_tables"},
+                {"table_name": "battlefield_engines_tables", "folder_name": "battlefield_engines_tables", "key_field": "key"},
+                {"table_name": "projectiles_tables", "folder_name": "projectiles_tables", "key_field": "key"},
                 {"table_name": "battle_vortexs_tables", "folder_name": "battle_vortexs_tables", "key_field": "vortex_key"},
-                {"table_name": "projectiles_scaling_damages_tables", "folder_name": "projectiles_scaling_damages_tables"},
-                {"table_name": "projectile_shot_type_displays_tables", "folder_name": "projectile_shot_type_displays_tables"},
-                {"table_name": "unit_spacings_tables", "folder_name": "unit_spacings_tables"},
-                {"table_name": "first_person_engines_tables", "folder_name": "first_person_engines_tables"},
+                {"table_name": "projectiles_scaling_damages_tables", "folder_name": "projectiles_scaling_damages_tables", "key_field": "key"},
+                {"table_name": "projectile_shot_type_displays_tables", "folder_name": "projectile_shot_type_displays_tables", "key_field": "key"},
+                {"table_name": "unit_spacings_tables", "folder_name": "unit_spacings_tables", "key_field": "key"},
+                {"table_name": "first_person_engines_tables", "folder_name": "first_person_engines_tables", "key_field": "key"},
             ]
 
             # Extract and load all the required and optional tables needed for this mod.
