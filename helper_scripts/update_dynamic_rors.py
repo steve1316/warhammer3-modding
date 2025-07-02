@@ -774,7 +774,7 @@ if __name__ == "__main__":
                 "pack",
                 "delete",
                 "--pack-path",
-                r"C:\SteamLibrary\steamapps\common\Total War WARHAMMER III\data\!!!!!!!_nanu_dynamic_rors_compat.pack",
+                r"C:\SteamLibrary\steamapps\workshop\content\1142710\3513364573\!!!!!!!_nanu_dynamic_rors_compat.pack",
                 "--folder-path",
                 f"db/{folder_name}"
             ])
@@ -787,7 +787,7 @@ if __name__ == "__main__":
                 "pack",
                 "add",
                 "--pack-path",
-                r"C:\SteamLibrary\steamapps\common\Total War WARHAMMER III\data\!!!!!!!_nanu_dynamic_rors_compat.pack",
+                r"C:\SteamLibrary\steamapps\workshop\content\1142710\3513364573\!!!!!!!_nanu_dynamic_rors_compat.pack",
                 "--tsv-to-binary",
                 "./schemas/schema_wh3.ron",
                 "--folder-path",
