@@ -1,0 +1,3 @@
+key	ammo_caisson_entity	ammo_caisson_destruction	ammo_caisson_model	ammo_caisson_destroyed_model	articulated_entity	head_offset	engine_articulation_node_index	draughts_articulation_node_index	is_train
+#land_unit_articulated_vehicles_tables;6;db/land_unit_articulated_vehicles_tables/!!!!str_legendary
+kou_stag_chariot		hef_tiranoc_chariot_hero_destruct			kou_stag_chariot_articulation	1.6000	2	0	false

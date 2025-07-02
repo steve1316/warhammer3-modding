@@ -1,0 +1,6 @@
+key	icon	parent_group
+#ui_unit_groupings_tables;1;db/ui_unit_groupings_tables/!!!!xou_age_TKExtended
+Necrolithcolossus	giant	constructs
+tmb_ushabti_great_weapon	monstrous_infantry	constructs
+wh2_main_tmb_missile_infantry_bow_spear	wh2_main_hef_missile_infantry_bow_spear	missile_infantry
+missile_infantry_shortbow	missile_infantry_bow	missile_infantry

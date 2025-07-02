@@ -1,11 +1,11 @@
 key
 #unit_description_historical_texts_tables;0;db/unit_description_historical_texts_tables/!!!!!!1a_glf_unit_expansion
-glf_vmp_zombie_dragon
 glf_sp_mercenary_units
-glf_hef_caledor_sentinel
-glf_lzd_serpent_riders
-glf_def_slaves
 glf_skv_stormfiend_rattling_gun
+glf_def_slaves
+glf_vmp_zombie_dragon
+glf_lzd_serpent_riders
 glf_hef_griffon
-glf_brt_bolt_thrower
 glf_sp_knights_of_the_raging_bull
+glf_hef_caledor_sentinel
+glf_brt_bolt_thrower

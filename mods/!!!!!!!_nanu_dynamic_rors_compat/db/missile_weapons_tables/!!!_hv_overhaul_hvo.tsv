@@ -1,6 +1,6 @@
 key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
 #missile_weapons_tables;11;db/missile_weapons_tables/!!!_hv_overhaul_hvo
-hv_brt_castle_bowman	false	hv_brt_rider_longbow_arrow	bow	false
 hv_wef_treeman_vengeful_spirits	false	hv_wef_treeman_vengeful_spirits		false
-hv_wef_dryad_vengeful_spirits	false	hv_wef_dryad_vengeful_spirits		false
 hv_ksl_orthodoxy_henchmen_rifle	false	hv_ksl_orthodoxy_henchmen_rifle	repeater_rifle	false
+hv_wef_dryad_vengeful_spirits	false	hv_wef_dryad_vengeful_spirits		false
+hv_brt_castle_bowman	false	hv_brt_rider_longbow_arrow	bow	false

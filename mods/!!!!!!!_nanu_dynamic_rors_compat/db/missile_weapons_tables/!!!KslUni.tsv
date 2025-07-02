@@ -1,5 +1,5 @@
 key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
 #missile_weapons_tables;11;db/missile_weapons_tables/!!!KslUni
-salyak_healer_bow_poison	false	salyak_bow_poison	bow	false
-wh3_ksl_marine_rifle_bullet	false	wh3_ksl_marine_rifle_bullet	repeater_gun	false
 wh3_ksl_kraken_javelin_heavy	false	wh3_ksl_kraken_javelin_heavy	javelin	false
+wh3_ksl_marine_rifle_bullet	false	wh3_ksl_marine_rifle_bullet	repeater_gun	false
+salyak_healer_bow_poison	false	salyak_bow_poison	bow	false

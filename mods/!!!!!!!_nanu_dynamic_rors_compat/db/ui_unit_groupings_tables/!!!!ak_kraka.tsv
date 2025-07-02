@@ -1,0 +1,7 @@
+key	icon	parent_group
+#ui_unit_groupings_tables;1;db/ui_unit_groupings_tables/!!!!ak_kraka
+kraka_runic_inf	kraka_runic_inf	infantry
+infantry_dual_axe	infantry_dual_axe	infantry
+kraka_runic_inf_2h	kraka_runic_inf_2h	infantry
+kraka_frostgun	kraka_frostgun	missile_infantry
+kraka_runic_inf_ranged_2h	kraka_runic_inf_2h	missile_infantry

@@ -1,7 +1,7 @@
 key	skeleton
 #battle_animations_table_tables;0;db/battle_animations_table_tables/!!!_hv_overhaul_hvo
-hu1b_hv_drycha_welf_dual_sword	humanoid01b
-hu3_hv_dwarf_dual_axe_throwing_axe	humanoid03
-hu1_bowmen_rider	humanoid01
 hu21_hv_treeman_ranged	humanoid21
+hu3_hv_dwarf_dual_axe_throwing_axe	humanoid03
 hu20_hv_dryad_ranged	humanoid20
+hu1b_hv_drycha_welf_dual_sword	humanoid01b
+hu1_bowmen_rider	humanoid01

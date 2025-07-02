@@ -1,10 +1,10 @@
 key	skeleton
 #battle_animations_table_tables;0;db/battle_animations_table_tables/!!!cth_yinyin_pol
-hu1_wokou_gun	humanoid01
-hu1d_cth_samurai	humanoid01d
-hu17_ansatsu	humanoid17
+rp4_kaiju	raptor04
 hu1_wokou_yari	humanoid01
+hu1_wokou_gun	humanoid01
 hu1e_yicha_fighter	humanoid01e
 cr1_bakegani	crab01
+hu1d_cth_samurai	humanoid01d
+hu17_ansatsu	humanoid17
 rp3b_giganotosaur	raptor03b
-rp4_kaiju	raptor04

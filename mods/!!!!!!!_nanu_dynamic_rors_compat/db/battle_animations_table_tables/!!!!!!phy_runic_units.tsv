@@ -1,6 +1,6 @@
 key	skeleton
 #battle_animations_table_tables;0;db/battle_animations_table_tables/!!!!!!phy_runic_units
-hu9b_phy_rune_golem_shield	humanoid09b
-hc2_phy_dwf_rune_guardian	hybridcreature02
 lz02_phy_shard_dragon	lizard02
+hc2_phy_dwf_rune_guardian	hybridcreature02
 hu5_phy_clockwork_thunderer	humanoid05
+hu9b_phy_rune_golem_shield	humanoid09b

@@ -1,6 +1,6 @@
 key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
 #missile_weapons_tables;11;db/missile_weapons_tables/!!!jade_vamp_pol_IotM
-jbv_soul_flame	false	jbv_soul_flame	catapult_screaming_skull	false
-cth_worker	false	cth_worker		false
 jbv2_islanders_bow_fire	false	jbv2_islanders_arrow_fire	bow	false
 jbv_spirit_skull	false	jbv_spirit_skull	wh2_dlc14_medusa_gaze	false
+jbv_soul_flame	false	jbv_soul_flame	catapult_screaming_skull	false
+cth_worker	false	cth_worker		false

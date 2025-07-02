@@ -1,6 +1,6 @@
 key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
 #missile_weapons_tables;11;db/missile_weapons_tables/!!!cth_yinyin_pol
 whaler_gun	false	whaler_gun	cannon	false
+yicha_bow	false	yicha_poison_arrows	bow	false
 marine_carbine	false	marine_carbine	deck_gunner_cannon	false
 ansatsu_bombs	false	ansatsu_bombs		false
-yicha_bow	false	yicha_poison_arrows	bow	false

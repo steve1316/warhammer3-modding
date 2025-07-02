@@ -1,0 +1,5 @@
+key	icon	parent_group
+#ui_unit_groupings_tables;1;db/ui_unit_groupings_tables/!!!ovn_albion
+ovn_fenbeasts	fenbeast	monster_beasts
+ovn_centaur_great_weapons	centaur_great_weapon	cavalry_chariots
+ovn_druids	wh2_main_infantry_druid	infantry

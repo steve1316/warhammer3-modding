@@ -1,8 +1,8 @@
 key	bonus_v_large	bonus_v_infantry	damage	ap_damage	weapon_length	melee_weapon_type	audio_type	splash_attack_target_size	splash_attack_max_attacks	splash_attack_power_multiplier	building_damage_multiplier	ignition_amount	is_magical	contact_phase	collision_attack_max_targets	collision_attack_max_targets_cooldown	melee_attack_interval	scaling_damage	is_spell
 #melee_weapons_tables;25;db/melee_weapons_tables/!!!Mf_Bertrand_Thieves_Honor
-brt_axe_great_brigands	0	0	6	22	1.0000	axe	axe		1	1.0000	1.0000	0.0000	false		0	10	4.6000		false
+brt_brigand_cutthroats_sword	0	10	10	20	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false	wh_dlc06_unit_contact_sundered_armour	0	10	3.8000		false
+brt_dual_swords_brigands	0	6	20	6	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	10	4.3000		false
 brt_sword_herrimaults	0	0	22	7	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	10	4.3000		false
 brt_brigand_waylayers_halberd	14	0	8	20	1.0000	spear	halberd		1	1.0000	1.0000	0.0000	false	brtbrg_contact_waylaid	0	10	5.0000		false
-brt_brigand_cutthroats_sword	0	10	10	20	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false	wh_dlc06_unit_contact_sundered_armour	0	10	3.8000		false
 brt_aspirant_hoods_sword	0	0	60	22	2.0000	sword	sword	medium	3	1.2000	1.0000	0.0000	false		0	10	4.0000		false
-brt_dual_swords_brigands	0	6	20	6	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	10	4.3000		false
+brt_axe_great_brigands	0	0	6	22	1.0000	axe	axe		1	1.0000	1.0000	0.0000	false		0	10	4.6000		false

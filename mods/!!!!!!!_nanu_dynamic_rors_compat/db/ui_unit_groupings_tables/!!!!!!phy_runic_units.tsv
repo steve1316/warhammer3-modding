@@ -1,0 +1,7 @@
+key	icon	parent_group
+#ui_unit_groupings_tables;1;db/ui_unit_groupings_tables/!!!!!!phy_runic_units
+phy_dwf_shard_dragon_collar	shard_dragon	monster_beasts
+rune_guardians	rune_guardians	monster_beasts
+phy_dwf_clockwork_thunderers	clockwork_thunderer	missile_infantry
+rune_golem	rune_golem	monster_beasts
+phy_dwf_shard_dragon_summon	shard_dragon	monster_beasts

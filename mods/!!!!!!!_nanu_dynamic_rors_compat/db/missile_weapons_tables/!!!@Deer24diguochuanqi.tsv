@@ -1,8 +1,8 @@
 key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
 #missile_weapons_tables;11;db/missile_weapons_tables/!!!@Deer24diguochuanqi
-wh3_sanbinggun	false	wh3_sanbinggun	repeater_gun	false
+wh3_ssgun	false	wh3_ssgun	repeater_gun	false
+wh3_judunnushou	false	wh3_judunnushou	crossbow	false
 wh3_huoqiangshougun	false	wh3_huoqiangshougun	repeater_gun	false
 gaositianshipistol	false	gaositianshipistol	pistol	false
-wh3_judunnushou	false	wh3_judunnushou	crossbow	false
-wh3_ssgun	false	wh3_ssgun	repeater_gun	false
 wh3_syrbow	false	wh3_syrbow	bow	false
+wh3_sanbinggun	false	wh3_sanbinggun	repeater_gun	false

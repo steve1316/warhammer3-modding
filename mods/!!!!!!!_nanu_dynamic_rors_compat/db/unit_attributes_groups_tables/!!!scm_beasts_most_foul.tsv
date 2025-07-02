@@ -1,9 +1,9 @@
 group_name
 #unit_attributes_groups_tables;0;db/unit_attributes_groups_tables/!!!scm_beasts_most_foul
-tzaan_hal
-theak_slaangor_attribs1
-theak_slaangor_attribs2
-bst_mino_nurgle
-bst_mino_slaanesh
-kho_khorngor_attribs
 bst_mino_tzeentch
+theak_slaangor_attribs1
+bst_mino_slaanesh
+theak_slaangor_attribs2
+tzaan_hal
+kho_khorngor_attribs
+bst_mino_nurgle

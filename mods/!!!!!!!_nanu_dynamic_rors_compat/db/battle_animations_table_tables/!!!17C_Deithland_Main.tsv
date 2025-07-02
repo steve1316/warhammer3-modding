@@ -1,6 +1,6 @@
 key	skeleton
 #battle_animations_table_tables;0;db/battle_animations_table_tables/!!!17C_Deithland_Main
+hu1c_emp_pyrehulk_fusilaxe	humanoid01c
 hu1_emp_rifle_bayonet	humanoid01
 hu1c_emp_pyrehulk_volley	humanoid01c
-hu1c_emp_pyrehulk_fusilaxe	humanoid01c
 hu1_emp_gonner_multishot	humanoid01

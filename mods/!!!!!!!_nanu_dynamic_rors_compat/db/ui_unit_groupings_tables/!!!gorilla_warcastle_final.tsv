@@ -1,0 +1,4 @@
+key	icon	parent_group
+#ui_unit_groupings_tables;1;db/ui_unit_groupings_tables/!!!gorilla_warcastle_final
+gorilla_brt_war_castle_siege	missile_chariot_mortar	artillery_war_machines
+gorilla_brt_war_castle	missile_chariot	artillery_war_machines

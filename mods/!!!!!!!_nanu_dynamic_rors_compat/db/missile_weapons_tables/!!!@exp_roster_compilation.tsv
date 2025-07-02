@@ -1,11 +1,11 @@
 key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
 #missile_weapons_tables;11;db/missile_weapons_tables/!!!@exp_roster_compilation
+deco_ironside_rifle	false	deco_ironside_rifle	repeater_rifle	false
+deco_irondrakes_missile	false	deco_irondrakes_missile	pistol	false
+deco_chd_naptha_bombs	false	deco_chd_naptha_bombs	globe	false
+deco_prospectors_charges	false	deco_prospectors_charges		false
 deco_nor_reavers_throw	false	deco_nor_reavers_throw	none	false
 dwf_kou_dreadnaught	false	dwf_kou_dreadnaught		false
-deco_chd_naptha_bombs	false	deco_chd_naptha_bombs	globe	false
-deco_irondrakes_missile	false	deco_irondrakes_missile	pistol	false
-dec_hunters_anath_raema	false	dec_hunters_anath_raema	bow	false
-deco_ironside_rifle	false	deco_ironside_rifle	repeater_rifle	false
 deco_chd_gnoblar_missile	false	deco_chd_gnoblar_missile		false
 deco_chd_annihilators	false	deco_chd_annihilators	troll_hammer	false
-deco_prospectors_charges	false	deco_prospectors_charges		false
+dec_hunters_anath_raema	false	dec_hunters_anath_raema	bow	false

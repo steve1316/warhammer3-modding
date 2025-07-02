@@ -1,7 +1,7 @@
 group_name
 #unit_attributes_groups_tables;0;db/unit_attributes_groups_tables/!!!Guns_of_Bretonnia_III
-gob3_special_elite_attributes
-gob3_special_templars_attributes
-gob3_special_pike_attributes
 gob3_special_elite_pike_attributes
 gob3_special_ranged_attributes
+gob3_special_pike_attributes
+gob3_special_templars_attributes
+gob3_special_elite_attributes

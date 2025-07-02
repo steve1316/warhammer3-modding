@@ -1,7 +1,7 @@
 key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
 #missile_weapons_tables;11;db/missile_weapons_tables/!!!dog
 cst_small_mortars	false	cst_small_mortars	mortar	false
-harkonship_test_jericho	false	harkonship_test_jericho		false
-cst_ship_rider_crane	false	cst_ship_rider_crane	deck_gunner_cannon	true
-cst_boarding	true	cst_boarding	hand_cannon	false
 cst_corsairs	true	cst_corsairs		false
+harkonship_test_jericho	false	harkonship_test_jericho		false
+cst_boarding	true	cst_boarding	hand_cannon	false
+cst_ship_rider_crane	false	cst_ship_rider_crane	deck_gunner_cannon	true

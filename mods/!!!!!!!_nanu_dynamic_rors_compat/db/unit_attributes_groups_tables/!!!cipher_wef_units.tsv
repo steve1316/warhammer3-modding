@@ -1,8 +1,8 @@
 group_name
 #unit_attributes_groups_tables;0;db/unit_attributes_groups_tables/!!!cipher_wef_units
-c_glade_rangers_attributes
-c_asrai_blademasters_attributes
 c_asrai_sunderers_attributes
-c_asrai_shieldmaidens_attributes
 c_maidens_of_kurnous_attributes
 c_oak_guardians_attributes
+c_asrai_blademasters_attributes
+c_glade_rangers_attributes
+c_asrai_shieldmaidens_attributes
