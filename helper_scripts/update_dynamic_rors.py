@@ -433,7 +433,6 @@ def extract_and_load_table_data(mod_path: str, table_configs: List[Dict[str, Any
         folder_name = config["folder_name"]
         key_field = config.get("key_field", "key")
         required = config.get("required", False)
-        logging.info(f"Table config: {config}")
 
         # Extract the table data from the mod.
         extract_modded_tsv_data(table_name, mod_path, f"./modded_{folder_name}")
@@ -587,7 +586,7 @@ if __name__ == "__main__":
                 faction = units_to_factions_mapping.get(data["key"])
                 if not faction:
                     continue
-                logging.info(f"Processing the unit key: {data['key']}.")
+                logging.debug(f"Processing the unit key: {data['key']}.")
 
                 # Collect all possible effects for the unit.
                 for effect in process_unit_by_category(data, main_units_mapping, faction):
@@ -686,7 +685,7 @@ if __name__ == "__main__":
                 main_units_version_info = modded_main_units_version_info.replace(modded_main_units_version_info.split("/")[-1], f"!!!{folder_name}")
 
                 for data_to_add in list_of_data_to_add:
-                    logging.info(f"Writing {len(data_to_add['unit_purchasable_effect_sets'])} unit purchasable effect sets for {data_to_add['key']}.")
+                    logging.debug(f"Writing {len(data_to_add['unit_purchasable_effect_sets'])} unit purchasable effect sets for {data_to_add['key']}.")
 
                     # Write to the required tables first.
                     write_updated_tsv_file(
