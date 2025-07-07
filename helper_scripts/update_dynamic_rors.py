@@ -485,6 +485,7 @@ if __name__ == "__main__":
         "./modded_land_unit_articulated_vehicles_tables",
         "./modded_ui_unit_groupings_tables",
         "./modded_ui_unit_group_parents_tables",
+        "./modded_variants_tables",
     ])
 
     try:
@@ -531,9 +532,10 @@ if __name__ == "__main__":
                 {"table_name": "projectile_shot_type_displays_tables", "folder_name": "projectile_shot_type_displays_tables", "key_field": "key"},
                 {"table_name": "unit_spacings_tables", "folder_name": "unit_spacings_tables", "key_field": "key"},
                 {"table_name": "first_person_engines_tables", "folder_name": "first_person_engines_tables", "key_field": "key"},
-                {"table_name": "land_unit_articulated_vehicles_tables", "folder_name": "land_unit_articulated_vehicles_tables", "key_field": "key"}, # NEW
-                {"table_name": "ui_unit_groupings_tables", "folder_name": "ui_unit_groupings_tables", "key_field": "key"}, # NEW
-                {"table_name": "ui_unit_group_parents_tables", "folder_name": "ui_unit_group_parents_tables", "key_field": "key"}, # NEW
+                {"table_name": "land_unit_articulated_vehicles_tables", "folder_name": "land_unit_articulated_vehicles_tables", "key_field": "key"},
+                {"table_name": "ui_unit_groupings_tables", "folder_name": "ui_unit_groupings_tables", "key_field": "key"},
+                {"table_name": "ui_unit_group_parents_tables", "folder_name": "ui_unit_group_parents_tables", "key_field": "key"},
+                {"table_name": "variants_tables", "folder_name": "variants_tables", "key_field": "variant_name"},
             ]
 
             # Extract and load all the required and optional tables needed for this mod.
@@ -579,6 +581,7 @@ if __name__ == "__main__":
                     "land_unit_articulated_vehicles": [],
                     "ui_unit_groupings": [],
                     "ui_unit_group_parents": [],
+                    "variants": [],
                 }
 
                 faction = units_to_factions_mapping.get(data["key"])
@@ -614,11 +617,13 @@ if __name__ == "__main__":
                             if data.get("man_entity") and data["man_entity"] in table_data["battle_entities_tables"]:
                                 new_data["battle_entities"].append(table_data["battle_entities_tables"][data["man_entity"]])
                             if data.get("mount") and data["mount"] in table_data["mounts_tables"]:
-                                new_data["mounts"].append(table_data["mounts_tables"][data["mount"]])
-                                mount_battle_entity = table_data["mounts_tables"][data["mount"]].get("entity")
+                                mount_data = table_data["mounts_tables"][data["mount"]]
+                                new_data["mounts"].append(mount_data)
+                                mount_battle_entity = mount_data.get("entity")
                                 if mount_battle_entity and mount_battle_entity in table_data["battle_entities_tables"]:
                                     new_data["battle_entities"].append(table_data["battle_entities_tables"][mount_battle_entity])
-
+                                if mount_data.get("variant") and mount_data["variant"] in table_data["variants_tables"]:
+                                    new_data["variants"].append(table_data["variants_tables"][mount_data["variant"]])
                             if data.get("primary_melee_weapon") and data["primary_melee_weapon"] in table_data["melee_weapons_tables"]:
                                 melee_weapon_data = table_data["melee_weapons_tables"][data["primary_melee_weapon"]]
                                 new_data["melee_weapons"].append(melee_weapon_data)
@@ -659,10 +664,11 @@ if __name__ == "__main__":
                                 if articulated_vehicle_data.get("articulated_entity") and articulated_vehicle_data["articulated_entity"] in table_data["battle_entities_tables"]:
                                     new_data["battle_entities"].append(table_data["battle_entities_tables"][articulated_vehicle_data["articulated_entity"]])
                             if main_unit_data.get("ui_unit_group_land") and main_unit_data["ui_unit_group_land"] in table_data["ui_unit_groupings_tables"]:
-                                new_data["ui_unit_groupings"].append(table_data["ui_unit_groupings_tables"][main_unit_data["ui_unit_group_land"]])
+                                ui_unit_grouping_data = table_data["ui_unit_groupings_tables"][main_unit_data["ui_unit_group_land"]]
+                                new_data["ui_unit_groupings"].append(ui_unit_grouping_data)
 
-                                if table_data["ui_unit_groupings_tables"][main_unit_data["ui_unit_group_land"]].get("parent_group") and table_data["ui_unit_groupings_tables"][main_unit_data["ui_unit_group_land"]]["parent_group"] in table_data["ui_unit_group_parents_tables"]:
-                                    new_data["ui_unit_group_parents"].append(table_data["ui_unit_group_parents_tables"][table_data["ui_unit_groupings_tables"][main_unit_data["ui_unit_group_land"]]["parent_group"]])
+                                if ui_unit_grouping_data.get("parent_group") and ui_unit_grouping_data["parent_group"] in table_data["ui_unit_group_parents_tables"]:
+                                    new_data["ui_unit_group_parents"].append(table_data["ui_unit_group_parents_tables"][ui_unit_grouping_data["parent_group"]])
 
                         list_of_data_to_add.append(new_data)
                     except KeyError as e:
@@ -722,6 +728,7 @@ if __name__ == "__main__":
                         ("land_unit_articulated_vehicles", "land_unit_articulated_vehicles_tables"),
                         ("ui_unit_groupings", "ui_unit_groupings_tables"),
                         ("ui_unit_group_parents", "ui_unit_group_parents_tables"),
+                        ("variants", "variants_tables"),
                     ]
                     for data_key, table_name in optional_tables:
                         if data_to_add[data_key]:
@@ -757,6 +764,7 @@ if __name__ == "__main__":
                 "./modded_land_unit_articulated_vehicles_tables",
                 "./modded_ui_unit_groupings_tables",
                 "./modded_ui_unit_group_parents_tables",
+                "./modded_variants_tables",
             ])
 
             # Clear the data list from memory to avoid accessing old data in the next iteration.
@@ -797,6 +805,7 @@ if __name__ == "__main__":
         "land_unit_articulated_vehicles_tables",
         "ui_unit_groupings_tables",
         "ui_unit_group_parents_tables",
+        "variants_tables",
     ]:
         if os.path.exists(f"../mods/!!!!!!!_nanu_dynamic_rors_compat/db/{folder_name}"):
             subprocess.run([
