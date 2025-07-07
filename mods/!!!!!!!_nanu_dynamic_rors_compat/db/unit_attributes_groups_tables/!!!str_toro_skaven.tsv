@@ -1,12 +1,12 @@
 group_name
 #unit_attributes_groups_tables;0;db/unit_attributes_groups_tables/!!!str_toro_skaven
-warp_runners
-skaven_cav
-poxigors
-krakback_kill_squad_spears
-skaven_mech
 warp_tank
+poxigors
 warp_bomber
+warp_runners
 warp_gunship
+skaven_mech
+krakback_kill_squad_spears
+skaven_cav
 krakback_kill_squad
 warp_zeppelin

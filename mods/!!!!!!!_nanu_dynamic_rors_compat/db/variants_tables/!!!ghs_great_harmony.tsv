@@ -1,52 +1,52 @@
 variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
 #variants_tables;6;db/variants_tables/!!!ghs_great_harmony
-dwf_goat_hammer_mnt	VariantMeshes\wh_variantmodels\bo1\grn\grn_warboar\tech	dwf_goat_hammer_mnt		1.0000	1.0000	0.0000	
-ghs_ksl_cav_alces_rider	animations/techpack/ksl_great_alces/tech	ghs_ksl_cav_alces_rider		1.5000	1.0000	0.0000	
-ghs_tmb_heavy_skeleton_ostrich	VariantMeshes/wh_variantmodels/rp1/dae/dae_steed_of_slaanesh/tech	tmb_heavy_skeleton_ostrich		1.0000	1.0000	0.0000	
-ghs_lzd_mon_giant_ripperdactyl	animations/techpack/ghs_lzd_ripperdactyl/tech	lzd_giant_ripperdactyl		1.1000	1.0000	0.0000	
-ghs_wm_hef_flying_waystone	animations/techpack/ghs_hef_flying_stone/tech	ghs_wm_hef_flying_waystone		1.5000	1.0000	0.0000	
-cth_armour_warpanda	VariantMeshes/wh_variantmodels/br1/ksl/ksl_bear/tech	cth_armour_warpanda		1.0000	1.0000	0.0500	
-ghs_tmb_bone_elephant	VariantMeshes/wh_variantmodels/hq3/nor/nor_war_mammoth/tech	ghs_tmb_bone_elephant		1.0000	1.0000	0.0000	
-ogr_ice_mammoth	VariantMeshes/wh_variantmodels/hq3/nor/nor_war_mammoth/tech	ogr_ice_mammoth		1.0000	1.1000	0.0000	
-ghs_mnt_hef_pegasus	animations/techpack/ghs_hef_pegasus/tech	ghs_mnt_hef_pegasus		1.0500	1.0000	0.0000	
-cth_dragon_turtle	VariantMeshes\wh_variantmodels\hq1\lzd\lzd_stegadon\tech	cth_dragon_turtle		1.5000	1.5000	0.0000	
-ghs_lzd_chief_stegadon	animations/techpack/ghs_lzd_chief_stegadon/tech	ghs_lzd_chief_stegadon		1.8000	1.0000	0.0000	
-dwf_morgrim	VariantMeshes\wh_variantmodels\gi2\cst\cst_necrofex_colossus\tech	dwf_titan_morgrim		1.0000	1.0000	0.0000	
+ghs_cav_wef_zoat_mount	animations/techpack/ghs_wef_zoat_mount/tech	ghs_cav_wef_zoat_mount		1.0000	1.0000	0.0000	
 ghs_emp_guard_warhorse_armoured		ghs_emp_guard_warhorse_armoured		1.0000	1.0000	0.0500	
-dwf_goat_slayer_mnt	VariantMeshes\wh_variantmodels\bo1\grn\grn_warboar\tech	dwf_goat_slayer_mnt		1.0000	1.0000	0.0000	
-ghs_main_kho_mon_titan	VariantMeshes\wh_variantmodels\gi2\cst\cst_necrofex_colossus\tech	ghs_main_kho_mon_titan		1.0000	1.0000	0.0000	
-dwf_goat_ranger_mnt	VariantMeshes\wh_variantmodels\bo1\grn\grn_warboar\tech	dwf_goat_ranger_mnt		1.0000	1.0000	0.0000	
-skv_mon_hellpit_ratling	animations/battle/ghs_skv_hellpit/tech	skv_mon_hellpit_ratling		1.0000	1.0000	0.0000	
-ghs_ksl_mon_ursun_winter_elemental_bear	animations/techpack/ghs_ksl_ursun_bear/tech	ghs_ksl_mon_ursun_winter_elemental_bear		3.7000	1.0000	0.0000	
+skv_mon_hellpit_warpdrill	animations/battle/ghs_skv_hellpit/tech	skv_mon_hellpit_warpdrill		1.0000	1.0000	0.0000	
+dwf_goat_hammer_mnt	VariantMeshes\wh_variantmodels\bo1\grn\grn_warboar\tech	dwf_goat_hammer_mnt		1.0000	1.0000	0.0000	
+ghs_wef_great_stag		ghs_wef_great_stag		1.5000	1.0000	0.0000	
+ghs_hef_mon_flying_fish	animations/techpack/ghs_hef_flying_fish/tech	ghs_mon_flying_fish		1.5000	1.0000	0.0000	
 ghs_main_sla_mon_titan	VariantMeshes\wh_variantmodels\gi2\cst\cst_necrofex_colossus\tech	ghs_main_sla_mon_titan		1.0000	1.0000	0.0000	
-dwf_grimnir	VariantMeshes\wh_variantmodels\gi2\cst\cst_necrofex_colossus\tech	dwf_titan_grimnir		1.0000	1.0000	0.0000	
-kho_war_mammoth_warshrine	VariantMeshes/wh_variantmodels/hq3/nor/nor_war_mammoth/tech	kho_war_mammoth_warshrine		1.0000	1.0000	0.0000	
-ghs_tmb_scarab_flying_mount	animations/techpack/ghs_tmb_fly_scarab/tech	tmb_scarab_flying_02		1.0000	1.0000	0.0000	
 ghs_tmb_skeleton_ostrich	VariantMeshes/wh_variantmodels/rp1/dae/dae_steed_of_slaanesh/tech	tmb_skeleton_ostrich		1.0000	1.0000	0.0000	
 skv_mon_hellpit_warpflame	animations/battle/ghs_skv_hellpit/tech	skv_mon_hellpit_warpflame		1.0000	1.0000	0.0000	
-ghs_cav_wef_zoat_mount	animations/techpack/ghs_wef_zoat_mount/tech	ghs_cav_wef_zoat_mount		1.0000	1.0000	0.0000	
-ghs_mon_hef_flying_lion	animations/techpack/ghs_flying_lion/tech	ghs_mon_hef_flying_lion		1.6670	1.0000	0.0000	
-dwf_ancestor_statue	VariantMeshes\wh_variantmodels\gi2\cst\cst_necrofex_colossus\tech	dwf_titan_common		1.0000	1.0000	0.0000	
-ghs_wm_def_black_ark	animations/techpack/ghs_def_black_ark/tech	ghs_wm_def_black_ark		4.0000	1.0000	0.0000	
-skv_mon_hellpit_warpdrill	animations/battle/ghs_skv_hellpit/tech	skv_mon_hellpit_warpdrill		1.0000	1.0000	0.0000	
-ksl_flying_leopard	VariantMeshes\wh_variantmodels\bc2\emp\emp_imperial_griffon\tech	ksl_flying_leopard		1.6670	1.0000	0.0000	
-cth_black_longma_heavy	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	cth_black_longma_heavy	hr1/cth/cth_longma/cth_longma_armour_heavy_01_imposter	1.0000	1.0000	0.0000	
-dwf_goat_ironbreaker_mnt	VariantMeshes\wh_variantmodels\bo1\grn\grn_warboar\tech	dwf_goat_ironbreaker_mnt		1.0000	1.0000	0.0000	
-ghs_wef_great_stag		ghs_wef_great_stag		1.5000	1.0000	0.0000	
+ghs_main_kho_mon_titan	VariantMeshes\wh_variantmodels\gi2\cst\cst_necrofex_colossus\tech	ghs_main_kho_mon_titan		1.0000	1.0000	0.0000	
+ghs_tmb_heavy_skeleton_ostrich	VariantMeshes/wh_variantmodels/rp1/dae/dae_steed_of_slaanesh/tech	tmb_heavy_skeleton_ostrich		1.0000	1.0000	0.0000	
 ksl_ice_guard_bear	animations/techpack/ksl_ice_guard_bear/tech	ksl_ice_guard_bear		1.0000	1.0000	0.0000	
-ghs_mnt_hef_fire_dragon_prince	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	ghs_mnt_hef_fire_dragon_prince		1.0000	1.0000	0.0000	
-ghs_main_nur_mon_titan	VariantMeshes\wh_variantmodels\gi2\cst\cst_necrofex_colossus\tech	ghs_main_nur_mon_titan		1.0000	1.0000	0.0000	
-ghs_cth_cav_armour_giant_ox	animations/techpack/ghs_cth_giant_ox/tech	cth_armour_giant_ox		1.0000	1.0000	0.0000	
-ghs_hef_mon_flying_fish	animations/techpack/ghs_hef_flying_fish/tech	ghs_mon_flying_fish		1.5000	1.0000	0.0000	
-ghs_cth_jade_lion_mount	animations/techpack/ghs_cth_jade_lion_mount/tech	ghs_cth_jade_lion_mount		0.7500	0.7500	0.0000	
-cth_armour_longmanowing	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	cth_armour_longmanowing		1.0000	1.0000	0.0500	
-ghs_cth_jet_lion_mount	animations/techpack/ghs_cth_lion_mount/tech	ghs_cth_jet_lion_mount		0.7500	0.7500	0.0000	
-ghs_hef_white_lion_mount	animations/techpack/ghs_white_lion_mnt/tech	ghs_hef_white_lion_mount		0.5800	1.0000	0.0000	
-ghs_main_tze_mon_titan	VariantMeshes\wh_variantmodels\gi2\cst\cst_necrofex_colossus\tech	ghs_main_tze_mon_titan		1.0000	1.0000	0.0000	
-ogr_ice_wolf	VariantMeshes\wh_variantmodels\wf1\grn\grn_giant_wolf\tech	ogr_ice_wolf		1.0000	1.0000	0.0000	
-dwf_grungni	VariantMeshes\wh_variantmodels\gi2\cst\cst_necrofex_colossus\tech	dwf_titan_grungni		1.0000	1.0000	0.0000	
-ghs_mon_def_armour_hydra	animations/techpack/ghs_def_armour_hydra/tech	ghs_mon_def_armour_hydra		1.0000	1.0000	0.0000	
-ksl_flying_eagle		ksl_ice_eagle		0.6500	0.6500	0.0000	
-ghs_cth_mon_dragon_titan	VariantMeshes\wh_variantmodels\gi2\cst\cst_necrofex_colossus\tech	ghs_main_cth_mon_titan		1.0000	1.0000	0.0000	
+ghs_lzd_mon_giant_ripperdactyl	animations/techpack/ghs_lzd_ripperdactyl/tech	lzd_giant_ripperdactyl		1.1000	1.0000	0.0000	
+ghs_lzd_chief_stegadon	animations/techpack/ghs_lzd_chief_stegadon/tech	ghs_lzd_chief_stegadon		1.8000	1.0000	0.0000	
+ghs_mnt_hef_pegasus	animations/techpack/ghs_hef_pegasus/tech	ghs_mnt_hef_pegasus		1.0500	1.0000	0.0000	
+dwf_morgrim	VariantMeshes\wh_variantmodels\gi2\cst\cst_necrofex_colossus\tech	dwf_titan_morgrim		1.0000	1.0000	0.0000	
+cth_black_longma_heavy	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	cth_black_longma_heavy	hr1/cth/cth_longma/cth_longma_armour_heavy_01_imposter	1.0000	1.0000	0.0000	
+cth_armour_warpanda	VariantMeshes/wh_variantmodels/br1/ksl/ksl_bear/tech	cth_armour_warpanda		1.0000	1.0000	0.0500	
 dwf_valaya	VariantMeshes\wh_variantmodels\gi2\cst\cst_necrofex_colossus\tech	dwf_titan_valaya		1.0000	1.0000	0.0000	
+dwf_goat_ironbreaker_mnt	VariantMeshes\wh_variantmodels\bo1\grn\grn_warboar\tech	dwf_goat_ironbreaker_mnt		1.0000	1.0000	0.0000	
+ghs_tmb_bone_elephant	VariantMeshes/wh_variantmodels/hq3/nor/nor_war_mammoth/tech	ghs_tmb_bone_elephant		1.0000	1.0000	0.0000	
+ghs_mnt_hef_fire_dragon_prince	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	ghs_mnt_hef_fire_dragon_prince		1.0000	1.0000	0.0000	
 ghs_hef_lothern_skycutter	variantmeshes/wh_variantmodels/bi1sc/hef/hef_lothern_skycutter/tech	ghs_hef_lothern_skycutter		0.8000	1.0000	0.0000	
+dwf_grungni	VariantMeshes\wh_variantmodels\gi2\cst\cst_necrofex_colossus\tech	dwf_titan_grungni		1.0000	1.0000	0.0000	
+ghs_main_tze_mon_titan	VariantMeshes\wh_variantmodels\gi2\cst\cst_necrofex_colossus\tech	ghs_main_tze_mon_titan		1.0000	1.0000	0.0000	
+ghs_tmb_scarab_flying_mount	animations/techpack/ghs_tmb_fly_scarab/tech	tmb_scarab_flying_02		1.0000	1.0000	0.0000	
+ksl_flying_leopard	VariantMeshes\wh_variantmodels\bc2\emp\emp_imperial_griffon\tech	ksl_flying_leopard		1.6670	1.0000	0.0000	
+ogr_ice_wolf	VariantMeshes\wh_variantmodels\wf1\grn\grn_giant_wolf\tech	ogr_ice_wolf		1.0000	1.0000	0.0000	
+dwf_goat_ranger_mnt	VariantMeshes\wh_variantmodels\bo1\grn\grn_warboar\tech	dwf_goat_ranger_mnt		1.0000	1.0000	0.0000	
+ghs_main_nur_mon_titan	VariantMeshes\wh_variantmodels\gi2\cst\cst_necrofex_colossus\tech	ghs_main_nur_mon_titan		1.0000	1.0000	0.0000	
+cth_armour_longmanowing	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	cth_armour_longmanowing		1.0000	1.0000	0.0500	
+skv_mon_hellpit_ratling	animations/battle/ghs_skv_hellpit/tech	skv_mon_hellpit_ratling		1.0000	1.0000	0.0000	
+cth_dragon_turtle	VariantMeshes\wh_variantmodels\hq1\lzd\lzd_stegadon\tech	cth_dragon_turtle		1.5000	1.5000	0.0000	
+ghs_cth_jet_lion_mount	animations/techpack/ghs_cth_lion_mount/tech	ghs_cth_jet_lion_mount		0.7500	0.7500	0.0000	
+dwf_grimnir	VariantMeshes\wh_variantmodels\gi2\cst\cst_necrofex_colossus\tech	dwf_titan_grimnir		1.0000	1.0000	0.0000	
+ghs_cth_cav_armour_giant_ox	animations/techpack/ghs_cth_giant_ox/tech	cth_armour_giant_ox		1.0000	1.0000	0.0000	
+ogr_ice_mammoth	VariantMeshes/wh_variantmodels/hq3/nor/nor_war_mammoth/tech	ogr_ice_mammoth		1.0000	1.1000	0.0000	
+ghs_wm_def_black_ark	animations/techpack/ghs_def_black_ark/tech	ghs_wm_def_black_ark		4.0000	1.0000	0.0000	
+ghs_mon_def_armour_hydra	animations/techpack/ghs_def_armour_hydra/tech	ghs_mon_def_armour_hydra		1.0000	1.0000	0.0000	
+ghs_hef_white_lion_mount	animations/techpack/ghs_white_lion_mnt/tech	ghs_hef_white_lion_mount		0.5800	1.0000	0.0000	
+ghs_cth_jade_lion_mount	animations/techpack/ghs_cth_jade_lion_mount/tech	ghs_cth_jade_lion_mount		0.7500	0.7500	0.0000	
+ghs_cth_mon_dragon_titan	VariantMeshes\wh_variantmodels\gi2\cst\cst_necrofex_colossus\tech	ghs_main_cth_mon_titan		1.0000	1.0000	0.0000	
+ghs_mon_hef_flying_lion	animations/techpack/ghs_flying_lion/tech	ghs_mon_hef_flying_lion		1.6670	1.0000	0.0000	
+ksl_flying_eagle		ksl_ice_eagle		0.6500	0.6500	0.0000	
+ghs_ksl_mon_ursun_winter_elemental_bear	animations/techpack/ghs_ksl_ursun_bear/tech	ghs_ksl_mon_ursun_winter_elemental_bear		3.7000	1.0000	0.0000	
+dwf_ancestor_statue	VariantMeshes\wh_variantmodels\gi2\cst\cst_necrofex_colossus\tech	dwf_titan_common		1.0000	1.0000	0.0000	
+kho_war_mammoth_warshrine	VariantMeshes/wh_variantmodels/hq3/nor/nor_war_mammoth/tech	kho_war_mammoth_warshrine		1.0000	1.0000	0.0000	
+dwf_goat_slayer_mnt	VariantMeshes\wh_variantmodels\bo1\grn\grn_warboar\tech	dwf_goat_slayer_mnt		1.0000	1.0000	0.0000	
+ghs_wm_hef_flying_waystone	animations/techpack/ghs_hef_flying_stone/tech	ghs_wm_hef_flying_waystone		1.5000	1.0000	0.0000	
+ghs_ksl_cav_alces_rider	animations/techpack/ksl_great_alces/tech	ghs_ksl_cav_alces_rider		1.5000	1.0000	0.0000	

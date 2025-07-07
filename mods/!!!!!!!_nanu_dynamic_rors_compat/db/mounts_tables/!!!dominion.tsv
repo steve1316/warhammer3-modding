@@ -1,5 +1,5 @@
 key	animation	entity	audio_armour_type	variant	voiceover
 #mounts_tables;10;db/mounts_tables/!!!dominion
 ksl_cavernbear	be1_wh3_warbear	ksl_cavernbear	plate	ksl_cavernbear_heavy	wh_main_vo_culture_Kislev
-dom_warblimp	sj1_wh3_dom_warblimp_01	dom_warblimp	plate	dom_warblimp	vo_culture_None
 dom_flying_fort	sj1_wh3_dom_flying_fort_01	dom_flying_fort	heavy_metal	dom_flying_fort	vo_culture_None
+dom_warblimp	sj1_wh3_dom_warblimp_01	dom_warblimp	plate	dom_warblimp	vo_culture_None

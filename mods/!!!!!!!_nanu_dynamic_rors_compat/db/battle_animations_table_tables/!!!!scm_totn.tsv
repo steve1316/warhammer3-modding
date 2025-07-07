@@ -1,7 +1,7 @@
 key	skeleton
 #battle_animations_table_tables;0;db/battle_animations_table_tables/!!!!scm_totn
-birna	humanoid01
 gra_longship	zeppelin01
 totn_longship	zeppelin01
-sarlarcher	humanoid01c
 hu1cshieldwall	humanoid01c
+birna	humanoid01
+sarlarcher	humanoid01c

@@ -1,5 +1,5 @@
 key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
 #missile_weapons_tables;11;db/missile_weapons_tables/!!!!landmarks_of_legend_wh
-brotherhood_ranger_templar_pistol	false	brotherhood_ranger_templar_pistol_bullet	pistol	false
-braconnier_bows	false	braconnier_arrows	bow	false
 mounted_braconnier_bows	false	mounted_braconnier_arrows	bow	false
+braconnier_bows	false	braconnier_arrows	bow	false
+brotherhood_ranger_templar_pistol	false	brotherhood_ranger_templar_pistol_bullet	pistol	false

@@ -2,5 +2,5 @@ variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	sc
 #variants_tables;6;db/variants_tables/!!!loupi_ten_kingdoms_IE
 loupi_eagle_mount	VariantMeshes\wh_variantmodels\bi1\hef\hef_great_eagle\tech	loupi_eagle_mount		1.0000	1.0000	0.0000	
 loupi_shore_rider_barded_steed		loupi_shore_rider_barded_steed		1.0000	1.0000	0.0500	
-loupi_knights_of_anlec_steed		loupi_knight_anlec_steed		1.0000	1.0000	0.0500	
 loupi_saphery_pegasus_mount		loupi_saphery_pegasus_mount		1.0000	1.0000	0.0500	
+loupi_knights_of_anlec_steed		loupi_knight_anlec_steed		1.0000	1.0000	0.0500	

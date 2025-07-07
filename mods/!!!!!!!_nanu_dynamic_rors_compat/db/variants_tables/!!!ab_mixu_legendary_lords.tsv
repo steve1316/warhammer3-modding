@@ -1,5 +1,5 @@
 variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
 #variants_tables;6;db/variants_tables/!!!ab_mixu_legendary_lords
-mixu_emp_daughters_of_rhya_mount_stag		mixu_emp_daughters_of_rhya_mount_stag	st1\wef\wef_great_stag\wef_great_stag_imposter	1.0000	1.0000	0.0000	
 mixu_emp_mount_promethean_riders	VariantMeshes/wh_variantmodels/cr1/cst/emp_promethean_riders/tech/	mixu_emp_promethean_riders_platform_01		1.0000	0.8000	0.0000	
+mixu_emp_daughters_of_rhya_mount_stag		mixu_emp_daughters_of_rhya_mount_stag	st1\wef\wef_great_stag\wef_great_stag_imposter	1.0000	1.0000	0.0000	
 mixu_emp_leviathan	VariantMeshes/wh_variantmodels/cr1/cst/cst_leviathan/tech	mixu_emp_leviathan		1.0000	2.0000	0.0000	

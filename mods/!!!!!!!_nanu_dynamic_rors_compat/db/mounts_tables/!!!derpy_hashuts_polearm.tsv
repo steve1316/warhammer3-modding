@@ -1,4 +1,4 @@
 key	animation	entity	audio_armour_type	variant	voiceover
 #mounts_tables;10;db/mounts_tables/!!!derpy_hashuts_polearm
-chd_mnt_great_auroch	ox_auroch_riders	chd_auroch	plate	chd_mnt_great_auroch	wh3_dlc23_vo_culture_Chd_Bale_Taurus
 chd_mnt_auroch	ox_auroch_riders	chd_auroch_heavy	plate	chd_mnt_auroch	wh3_dlc23_vo_culture_Chd_Bale_Taurus
+chd_mnt_great_auroch	ox_auroch_riders	chd_auroch	plate	chd_mnt_great_auroch	wh3_dlc23_vo_culture_Chd_Bale_Taurus

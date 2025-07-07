@@ -1,9 +1,9 @@
 group_name
 #unit_attributes_groups_tables;0;db/unit_attributes_groups_tables/!!!archer_fuyuanshan_faction
 f_cth_cav_bastion_attributes
-jade_banner
-cth_mon_yaksha_attributes
-cth_fys_jade_warrior_lancer
 f_cth_sky_keeper_attributes
 f_cth_inf_scout
+cth_mon_yaksha_attributes
 attribute_cth_fys_peasant_firelancer
+jade_banner
+cth_fys_jade_warrior_lancer

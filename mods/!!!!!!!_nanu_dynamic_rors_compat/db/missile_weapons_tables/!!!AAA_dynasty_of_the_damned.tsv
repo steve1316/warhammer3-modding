@@ -1,5 +1,5 @@
 key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
 #missile_weapons_tables;11;db/missile_weapons_tables/!!!AAA_dynasty_of_the_damned
 zombie_shaft	false	zombie_shaft	bow	false
-balefire_shaft	false	balefire_shaft	crossbow	false
 zombie_shaft_corpse	false	zombie_shaft_corpse	bow	false
+balefire_shaft	false	balefire_shaft	crossbow	false

@@ -1,4 +1,4 @@
 key	icon	parent_group
 #ui_unit_groupings_tables;1;db/ui_unit_groupings_tables/!!!!ak_teb
-infantry_pike	infantry_pike	infantry
 teb_paymaster	missile_chariot	missile_cavalry_chariots
+infantry_pike	infantry_pike	infantry

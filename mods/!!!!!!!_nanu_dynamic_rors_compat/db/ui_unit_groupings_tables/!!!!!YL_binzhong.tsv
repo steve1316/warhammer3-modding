@@ -1,12 +1,12 @@
 key	icon	parent_group
 #ui_unit_groupings_tables;1;db/ui_unit_groupings_tables/!!!!!YL_binzhong
-YL_cgs	infantry_sword	infantry
 YL_lycs	wh2_dlc11_cst_close_quarters_missile_infantry	missile_infantry
-YL_sxdw	missile_infantry_rifle	infantry
-YL_SHSQB	wh3_dlc24_mon_guardian_lion	cavalry_chariots
-YL_zsyw	cannon	constructs
-YL_hytj	shock_cavalry	cavalry_chariots
-YL_xtw	wh3_ogr_monstrous_ironfist	infantry
 YLlyxw	infantry_sword_great	infantry
 YL_pjcw	wh2_dlc11_cst_close_quarters_missile_infantry	missile_infantry
+YL_zsyw	cannon	constructs
+YL_hytj	shock_cavalry	cavalry_chariots
+YL_cgs	infantry_sword	infantry
+YL_xtw	wh3_ogr_monstrous_ironfist	infantry
+YL_SHSQB	wh3_dlc24_mon_guardian_lion	cavalry_chariots
 YL_yhcf	wh3_dlc23_chd_kdaai_destroyer	monster_beasts
+YL_sxdw	missile_infantry_rifle	infantry

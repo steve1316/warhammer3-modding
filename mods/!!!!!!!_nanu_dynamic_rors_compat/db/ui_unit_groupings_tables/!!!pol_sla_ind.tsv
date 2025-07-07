@@ -1,6 +1,6 @@
 key	icon	parent_group
 #ui_unit_groupings_tables;1;db/ui_unit_groupings_tables/!!!pol_sla_ind
-sla_bl_mahadevata	sla_bl_mahadevata	monster_beasts
 sla_bl_katar	sla_bl_katar	infantry
-sla_bl_tigermen	sla_bl_tigerman	monster_beasts
 sla_bl_sura	sla_bl_sura	monster_beasts
+sla_bl_tigermen	sla_bl_tigerman	monster_beasts
+sla_bl_mahadevata	sla_bl_mahadevata	monster_beasts

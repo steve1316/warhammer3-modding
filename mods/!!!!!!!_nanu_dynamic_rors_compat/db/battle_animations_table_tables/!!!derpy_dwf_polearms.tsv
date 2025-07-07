@@ -1,7 +1,7 @@
 key	skeleton
 #battle_animations_table_tables;0;db/battle_animations_table_tables/!!!derpy_dwf_polearms
 hu3_derpy_dwf_spears	humanoid03
-hu3_derpy_dwf_javelin	humanoid03
-hu3_dwf_boar_2handed	humanoid03
 hu3_dwf_goat_rider_spear_javelin	humanoid03
 hu3_dwf_halberd	humanoid03
+hu3_dwf_boar_2handed	humanoid03
+hu3_derpy_dwf_javelin	humanoid03

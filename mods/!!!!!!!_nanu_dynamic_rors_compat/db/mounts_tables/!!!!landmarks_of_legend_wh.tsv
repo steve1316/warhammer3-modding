@@ -1,5 +1,5 @@
 key	animation	entity	audio_armour_type	variant	voiceover
 #mounts_tables;10;db/mounts_tables/!!!!landmarks_of_legend_wh
+braconnier_horses	hr1_warhorse	wh3_main_ksl_cav_horse_archers_0	leather	braconnier_horses	wh_main_vo_culture_Horse
 eonir_stag	st1_stag	wh_dlc05_wef_cav_stag_blood	body	eonir_stag	wh_main_vo_culture_Horse
 phoenixes	bi1_dlc15_phoenix	wh2_main_hef_mon_phoenix	body	phoenixes	wh2_main_vo_culture_Phoenix
-braconnier_horses	hr1_warhorse	wh3_main_ksl_cav_horse_archers_0	leather	braconnier_horses	wh_main_vo_culture_Horse

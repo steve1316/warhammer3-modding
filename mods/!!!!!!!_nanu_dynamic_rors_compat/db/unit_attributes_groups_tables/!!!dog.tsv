@@ -1,8 +1,8 @@
 group_name
 #unit_attributes_groups_tables;0;db/unit_attributes_groups_tables/!!!dog
-cst_generic_ship_not_undead
-cst_boarding
-harkonatt
-cst_corsairs
 cst_ghostship
+cst_generic_ship_not_undead
 cst_spectral
+harkonatt
+cst_boarding
+cst_corsairs

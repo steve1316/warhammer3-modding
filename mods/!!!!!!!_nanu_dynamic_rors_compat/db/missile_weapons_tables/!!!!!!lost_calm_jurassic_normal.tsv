@@ -1,12 +1,12 @@
 key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
 #missile_weapons_tables;11;db/missile_weapons_tables/!!!!!!lost_calm_jurassic_normal
+calm_ictlamimus	false	calm_ictlamimus_barbs	steamgun_copter	false
+calm_solar_blast	false	calm_solar_blast		false
 calm_cerapod_bola	false	calm_cerapod_bola		false
 calm_spitter_proto	false	calm_spitter_proto	wh2_dlc12_ikit_warpfiregun	false
-calm_solar_blast	false	calm_solar_blast		false
-dilophiraptor_spit	true	dilophiraptor_spit	razordon_spike	false
-calm_solar_beam	false	calm_solar_beam	luminark	false
 calm_solar_lightning	false	calm_solar_lightning		false
 calm_nuatl	false	calm_nuatl		false
-cherupin_giant_blowpipe	false	cherupin_giant_blowpipe	wh3_dlc23_fireglaive	false
-calm_ictlamimus	false	calm_ictlamimus_barbs	steamgun_copter	false
 manta_jav	false	manta_jav		false
+calm_solar_beam	false	calm_solar_beam	luminark	false
+cherupin_giant_blowpipe	false	cherupin_giant_blowpipe	wh3_dlc23_fireglaive	false
+dilophiraptor_spit	true	dilophiraptor_spit	razordon_spike	false

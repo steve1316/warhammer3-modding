@@ -1,9 +1,9 @@
 group_name
 #unit_attributes_groups_tables;0;db/unit_attributes_groups_tables/!!!ovn_dread_king
-ovn_dk_inf_skeleton_hoplites
-ovn_dk_inf_skeleton_pikemen
-ovn_dk_mon_skeleton_elephant
-ovn_dk_mon_skeleton_giant
 ovn_dk_mon_skeletal_minotaurs
-ovn_dk_mon_bone_hydra
+ovn_dk_inf_skeleton_hoplites
+ovn_dk_mon_skeleton_giant
 ovn_dk_inf_mummies
+ovn_dk_mon_skeleton_elephant
+ovn_dk_mon_bone_hydra
+ovn_dk_inf_skeleton_pikemen

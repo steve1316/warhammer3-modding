@@ -1,5 +1,5 @@
 key	animation	entity	audio_armour_type	variant	voiceover
 #mounts_tables;10;db/mounts_tables/!!!derpy_dwf_polearms
+dwf_mnt_goat_base	bo1_warboar	dwf_goat_base	leather	dwf_goat_base	wh_dlc03_vo_culture_Boar
 dwf_mnt_warboar_dwf_elite	hq2_wh3_mournfang	dwf_boar_heavy	plate	dwf_warboar_elite	wh_dlc03_vo_culture_Boar
 dwf_mnt_warboar_dwf_elite_spear	hq2_wh3_mournfang	dwf_boar_heavy	plate	dwf_warboar_elite_spear	wh_dlc03_vo_culture_Boar
-dwf_mnt_goat_base	bo1_warboar	dwf_goat_base	leather	dwf_goat_base	wh_dlc03_vo_culture_Boar

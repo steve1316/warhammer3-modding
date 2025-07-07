@@ -1,9 +1,9 @@
 group_name
 #unit_attributes_groups_tables;0;db/unit_attributes_groups_tables/!!!cth_undead_legion
-cth_cannibal
-cth_ghost
-cth_revenant
-cth_jiangshi_p
-cth_legion
 cth_skeleton
+cth_legion
+cth_jiangshi_p
+cth_revenant
+cth_ghost
 cth_buddha
+cth_cannibal

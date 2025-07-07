@@ -1,7 +1,7 @@
 key	close_formation_spacing_horizontal	close_formation_spacing_variation	close_formation_spacing_vertical	dismounted_close_formation_spacing_horizontal	dismounted_close_formation_spacing_variation	dismounted_close_formation_spacing_vertical	dismounted_loose_formation_spacing_horizontal	dismounted_loose_formation_spacing_variation	dismounted_loose_formation_spacing_vertical	loose_formation_spacing_horizontal	loose_formation_spacing_variation	loose_formation_spacing_vertical	routing_space_variation	is_chaotic_formation	testudo_horizontal_spacing	testudo_vertical_spacing	shield_wall_horizontal_spacing	shield_wall_vertical_spacing
 #unit_spacings_tables;7;db/unit_spacings_tables/!!!snek_guns_of_the_empire
-wh_main_infantry_ranged_ordered	1.2000	0.0000	1.9000	1.0000	0.0000	1.0000	1.0000	0.0000	1.0000	3.6000	0.0000	3.6000	3.0000	false	0.8500	1.0000	0.8500	0.8500
-snek_wh_main_inf_juggernauts	7.5000	1.0000	6.0000	1.0000	1.0000	1.0000	1.0000	1.0000	1.0000	12.0000	6.0000	14.0000	4.0000	false	1.0000	1.0000	1.0000	1.0000
-wh_main_cavalry_pegasus_pistoliers	7.0000	0.0000	7.0000	1.2000	1.0000	1.0000	1.0000	1.0000	1.0000	8.0000	0.8000	9.0000	3.0000	false	0.8500	1.0000	0.8500	0.8500
 wh_main_war_machines_steamcopter	13.0000	0.5000	10.0000	1.0000	1.0000	1.0000	1.0000	1.0000	1.0000	14.0000	0.0000	14.0000	3.0000	true	0.8500	1.0000	0.8500	0.8500
+wh_main_cavalry_pegasus_pistoliers	7.0000	0.0000	7.0000	1.2000	1.0000	1.0000	1.0000	1.0000	1.0000	8.0000	0.8000	9.0000	3.0000	false	0.8500	1.0000	0.8500	0.8500
+wh_main_infantry_ranged_ordered	1.2000	0.0000	1.9000	1.0000	0.0000	1.0000	1.0000	0.0000	1.0000	3.6000	0.0000	3.6000	3.0000	false	0.8500	1.0000	0.8500	0.8500
 snek_wh_main_artillery_small	5.0000	0.0000	7.0000	2.0000	1.0000	2.0000	1.0000	1.0000	1.0000	6.0000	0.0000	12.0000	3.0000	false	0.8500	1.0000	0.8500	0.8500
+snek_wh_main_inf_juggernauts	7.5000	1.0000	6.0000	1.0000	1.0000	1.0000	1.0000	1.0000	1.0000	12.0000	6.0000	14.0000	4.0000	false	1.0000	1.0000	1.0000	1.0000

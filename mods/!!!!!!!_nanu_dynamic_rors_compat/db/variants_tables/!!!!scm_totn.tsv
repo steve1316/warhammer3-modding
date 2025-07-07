@@ -1,5 +1,5 @@
 variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
 #variants_tables;6;db/variants_tables/!!!!scm_totn
-gra_longship	warmachines/aircraft/gra_longship/gra_longship_tech/	gra_longship		1.0000	1.0200	0.0000	
-sarl_birna_longship	warmachines/aircraft/nor_longship/sarl_longship_tech/	sarl_longship		1.0000	0.9700	0.0000	
 hkrul_geimdall_longship	warmachines/aircraft/nor_longship/totn_longship_tech	gei_longship		1.0000	1.0600	0.0000	
+sarl_birna_longship	warmachines/aircraft/nor_longship/sarl_longship_tech/	sarl_longship		1.0000	0.9700	0.0000	
+gra_longship	warmachines/aircraft/gra_longship/gra_longship_tech/	gra_longship		1.0000	1.0200	0.0000	

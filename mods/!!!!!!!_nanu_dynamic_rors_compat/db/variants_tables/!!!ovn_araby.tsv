@@ -1,10 +1,10 @@
 variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
 #variants_tables;6;db/variants_tables/!!!ovn_araby
+ovn_arb_mnt_knight_warhorse	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	arb_knight_warhorse	hr1\brt\brt_horse\imposter\brt_horse_armoured_imposter	1.0000	1.0000	0.0500	
+ovn_arb_mnt_elephant	variantmeshes/wh_variantmodels/el1/arb/arb_new_elephants/arb_base_elephant/tech	arb_elephant		1.0000	1.1500	0.0000	
 ovn_arb_mnt_camel	variantmeshes/wh_variantmodels/cm1/arb/arb_camel/tech	arb_camel		1.0000	1.0000	0.0000	
+ovn_arb_horse	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	arb_horse	hr1\brt\brt_horse\imposter\brt_horse_armoured_imposter	1.0000	1.0000	0.0500	
+ovn_arb_mnt_camel_armoured	variantmeshes/wh_variantmodels/cm1/arb/arb_camel/tech	arb_camel_armoured		1.0000	1.0000	0.0000	
+ovn_arb_mnt_hippo	variantmeshes/wh_variantmodels/bo1/arb/arb_hippo/tech	arb_hippo		1.0000	1.5000	0.0000	
 ovn_arb_mnt_flying_carpet	VariantMeshes/wh_variantmodels/fc2/arb/arb_flying_carpet/tech/	arb_flying_carpet		0.6000	1.0000	0.0000	
 ovn_arb_mnt_war_elephant	variantmeshes/wh_variantmodels/el1/arb/arb_new_elephants/arb_war_elephant/tech	arb_war_elephant		1.3500	1.3500	0.0000	
-ovn_arb_horse	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	arb_horse	hr1\brt\brt_horse\imposter\brt_horse_armoured_imposter	1.0000	1.0000	0.0500	
-ovn_arb_mnt_hippo	variantmeshes/wh_variantmodels/bo1/arb/arb_hippo/tech	arb_hippo		1.0000	1.5000	0.0000	
-ovn_arb_mnt_knight_warhorse	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	arb_knight_warhorse	hr1\brt\brt_horse\imposter\brt_horse_armoured_imposter	1.0000	1.0000	0.0500	
-ovn_arb_mnt_camel_armoured	variantmeshes/wh_variantmodels/cm1/arb/arb_camel/tech	arb_camel_armoured		1.0000	1.0000	0.0000	
-ovn_arb_mnt_elephant	variantmeshes/wh_variantmodels/el1/arb/arb_new_elephants/arb_base_elephant/tech	arb_elephant		1.0000	1.1500	0.0000	
