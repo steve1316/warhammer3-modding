@@ -651,7 +651,11 @@ if __name__ == "__main__":
                             if data.get("attribute_group") and data["attribute_group"] in table_data["unit_attributes_groups_tables"]:
                                 new_data["unit_attributes_groups"].append(table_data["unit_attributes_groups_tables"][data["attribute_group"]])
                             if data.get("engine") and data["engine"] in table_data["battlefield_engines_tables"]:
-                                new_data["battlefield_engines"].append(table_data["battlefield_engines_tables"][data["engine"]])
+                                engine_data = table_data["battlefield_engines_tables"][data["engine"]]
+                                new_data["battlefield_engines"].append(engine_data)
+
+                                if engine_data.get("battle_entity") and engine_data["battle_entity"] in table_data["battle_entities_tables"]:
+                                    new_data["battle_entities"].append(table_data["battle_entities_tables"][engine_data["battle_entity"]])
                             if data.get("spacing") and data["spacing"] in table_data["unit_spacings_tables"]:
                                 new_data["unit_spacings"].append(table_data["unit_spacings_tables"][data["spacing"]])
                             if data.get("first_person") and data["first_person"] in table_data["first_person_engines_tables"]:
