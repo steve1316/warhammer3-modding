@@ -1,0 +1,4 @@
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/!!!derpy_hashuts_polearm
+chd_mnt_great_auroch	VariantMeshes/_VariantModels/oxen01/tech/	chd_bale_auroch_mount		1.2000	0.9500	0.0500	
+chd_mnt_auroch	VariantMeshes/_VariantModels/oxen01/tech/	chd_great_auroch_mount		1.2000	0.9500	0.0500	

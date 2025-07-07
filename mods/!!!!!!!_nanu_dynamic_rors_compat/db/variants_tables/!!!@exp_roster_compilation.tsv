@@ -1,0 +1,5 @@
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/!!!@exp_roster_compilation
+dec_oblivion_dragon	VariantMeshes\wh_variantmodels\dr1\def\def_black_dragon\tech	dec_oblivion_dragon		1.0000	1.0000	0.0000	
+deco_chd_hobhound		deco_chd_hobhounds	wf1\bst\bst_warhounds\low_poly\bst_warhound_lowlod	1.0000	1.0000	0.0500	
+grn_poop_squig		grn_poop_squig		0.9000	0.7000	0.0500	

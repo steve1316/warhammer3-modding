@@ -1,0 +1,4 @@
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/!!!str_skaven_clans
+kou_rat_mnt_giant_spider	VariantMeshes/wh_variantmodels/sp1/grn/grn_giant_spider/tech/	grn_giant_spider		1.0000	0.9000	0.0500	
+thom_ferrik_armoured_rat_ogre_chariot		thom_ferrik_armoured_rat_ogre		1.0000	1.0000	0.1500	

@@ -1,0 +1,10 @@
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/!!!!!!lost_calm_jurassic_normal
+calm_cerapod_mount	variantmeshes/wh_variantmodels/dinosaurs/cerapod/tech	calm_cerapod_mount		1.0000	0.5600	0.0000	
+calm_parasaur_mount	variantmeshes/wh_variantmodels/dinosaurs/parasuar/tech	calm_parasaur_mount		2.0000	1.0000	0.0000	
+calm_culchan_mount		calm_culchan_mount		1.0000	1.0000	0.0000	
+calm_croc_mount	variantmeshes/wh_variantmodels/dinosaurs/croc/tech	calm_croc_mount		1.1500	1.0000	0.0000	
+calm_thunder_lizard	variantmeshes/wh_variantmodels/dinosaurs/thunder_lizard/tech	calm_thunder_lizard		1.4500	1.4500	0.0000	
+calm_cherupin_mount	variantmeshes/wh_variantmodels/dinosaurs/cherupin/tech	calm_cherupin_mount		0.5000	1.0000	0.0000	
+calm_ornisornis		calm_ornisornis		1.0000	1.2500	0.0000	
+calm_allosaur_mount	variantmeshes/wh_variantmodels/dinosaurs/allosaur/tech	calm_allosaur_mount		1.3000	1.0000	0.0000	

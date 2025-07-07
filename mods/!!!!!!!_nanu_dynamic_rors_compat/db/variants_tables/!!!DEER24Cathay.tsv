@@ -1,0 +1,12 @@
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/!!!DEER24Cathay
+wh3_deer24_yangjiama	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	wh3_deer24_yangjiama	hr1/cth/cth_horse/cth_horse_heavy_01_imposter	1.0000	1.0000	0.0000	
+wh3_deer24_jiaNUQIma		wh3_deer24_jiaNUQIma		1.0500	1.0300	0.0500	
+wwd_jinjun_fengyunlanlongma	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	wwd_jinjun_fengyunlanlongma	hr1/cth/cth_horse/cth_horse_heavy_01_imposter	1.1500	1.0000	0.0000	
+wh3_deer24_jinhunqilin	VariantMeshes\wh_variantmodels\st1\wef\wef_great_stag\tech	wh3_deer24_jinhunqilin	st1\wef\wef_great_stag\wef_great_stag_imposter	1.4500	1.0000	0.0000	
+wh3_deer24_BAIMA	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	wh3_deer24_BAIMA	hr1/cth/cth_horse/cth_horse_heavy_01_imposter	1.0000	1.0000	0.0000	
+jinwu_longma	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	jinwu_longma	hr1/cth/cth_horse/cth_horse_heavy_01_imposter	1.0000	1.0000	0.0000	
+burenjia_ma	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	burenjia_ma	hr1/cth/cth_horse/cth_horse_heavy_01_imposter	1.0000	1.0000	0.0000	
+wh3_deer24_panda	VariantMeshes/wh_variantmodels/br1/ksl/ksl_bear/tech	wh3_deer24_panda		1.0000	1.0000	0.0000	
+wh3_deer24_QINTONGLONGMA	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	wh3_deer24_QINTONGLONGMA	hr1/cth/cth_horse/cth_horse_heavy_01_imposter	1.0000	1.0000	0.0000	
+wh3_deer24_MA	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	cth_horse_lord	hr1/cth/cth_horse/cth_horse_heavy_01_imposter	1.0000	1.0000	0.0000	

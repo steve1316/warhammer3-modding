@@ -1,16 +1,16 @@
 key	bonus_v_large	bonus_v_infantry	damage	ap_damage	weapon_length	melee_weapon_type	audio_type	splash_attack_target_size	splash_attack_max_attacks	splash_attack_power_multiplier	building_damage_multiplier	ignition_amount	is_magical	contact_phase	collision_attack_max_targets	collision_attack_max_targets_cooldown	melee_attack_interval	scaling_damage	is_spell
 #melee_weapons_tables;25;db/melee_weapons_tables/!!!cth_yinyin_pol
-kaiju_jaws	10	0	720	140	10.0000	axe	creatures_claws	very_large	20	8.0000	5.0000	0.0000	false		20	4	5.0000		false
-pachy_club	0	0	50	90	3.0000	axe	club_saurus	small	3	1.0000	1.2500	0.0000	false	wh_dlc06_unit_contact_sundered_armour	0	10	3.8000		false
+sam_kat	0	10	10	29	2.0000	sword	sword	small	2	0.2000	1.0000	0.0000	false		0	10	3.5000		false
+styracosaur_horns	0	0	80	400	10.0000	axe	creatures_claws	medium	7	1.5000	1.2500	0.0000	false		0	10	3.5000		false
 wokou_yari	14	0	22	5	4.0000	long_spear	spear	small	2	0.4500	0.7500	0.0000	false		0	10	4.2000		false
+wokou_sword_2	0	5	20	11	1.0000	sword	sword	small	2	0.1500	1.0000	0.0000	false		0	10	3.5000		false
 wokou_sword	0	0	21	9	1.0000	sword	sword	small	2	0.1500	1.0000	0.0000	false		0	10	3.5000		false
+kaiju_jaws	10	0	720	140	10.0000	axe	creatures_claws	very_large	20	8.0000	5.0000	0.0000	false		20	4	5.0000		false
 spinosaur_claws	0	24	250	325	9.0000	axe	creatures_claws	large	5	2.0000	1.2500	0.0000	false		0	10	3.1000		false
+kaiju_claws	8	0	600	190	9.0000	axe	axe_huge	very_large	24	5.0000	3.0000	0.0000	false		15	5	5.0000		false
+marine_axe	0	0	14	19	1.0000	axe	axe	small	1	0.1500	1.0000	0.0000	false		0	10	3.0000		false
+giganotosaur_jaws	25	10	160	395	10.0000	axe	creatures_claws	large	7	3.0000	1.2500	0.0000	false		0	10	3.8000		false
+pachy_club	0	0	50	90	3.0000	axe	club_saurus	small	3	1.0000	1.2500	0.0000	false	wh_dlc06_unit_contact_sundered_armour	0	10	3.8000		false
 tyrannosaur_jaws	50	0	110	410	7.0000	axe	creatures_claws	large	5	2.5000	1.2500	0.0000	false		0	10	3.6000		false
 yicha_guandao	18	0	7	32	3.0000	axe	halberd	small	3	0.3000	0.7500	0.0000	false		0	10	4.0000		false
-kaiju_claws	8	0	600	190	9.0000	axe	axe_huge	very_large	24	5.0000	3.0000	0.0000	false		15	5	5.0000		false
-sam_kat	0	10	10	29	2.0000	sword	sword	small	2	0.2000	1.0000	0.0000	false		0	10	3.5000		false
-marine_axe	0	0	14	19	1.0000	axe	axe	small	1	0.1500	1.0000	0.0000	false		0	10	3.0000		false
 ninjato_0	0	0	8	27	1.0000	sword	sword	small	1	0.1500	1.0000	0.0000	false	wh_main_unit_contact_poison	0	10	2.5000		false
-styracosaur_horns	0	0	80	400	10.0000	axe	creatures_claws	medium	7	1.5000	1.2500	0.0000	false		0	10	3.5000		false
-wokou_sword_2	0	5	20	11	1.0000	sword	sword	small	2	0.1500	1.0000	0.0000	false		0	10	3.5000		false
-giganotosaur_jaws	25	10	160	395	10.0000	axe	creatures_claws	large	7	3.0000	1.2500	0.0000	false		0	10	3.8000		false

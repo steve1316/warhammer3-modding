@@ -1,9 +1,9 @@
 key	icon	parent_group
 #ui_unit_groupings_tables;1;db/ui_unit_groupings_tables/!!!!!_sartosa_overhaul
-undead_kharibdyss	wh2_main_def_mon_war_hydra	monster_beasts
-undead_carnosaur	wh2_main_lzd_dinosaur	monster_beasts
-infantry_axe_dual_shock	infantry_axe_dual	infantry
-sartosa_mourngul_chariot	chariot	heroes_agents
 undead_dread_saurian	wh2_main_lzd_dinosaur	monster_beasts
 undead_dragon	dragon	monster_beasts
+sartosa_mourngul_chariot	chariot	heroes_agents
+infantry_axe_dual_shock	infantry_axe_dual	infantry
 undead_mammoth	wh_dlc08_nor_chaos_war_mammoth	monster_beasts
+undead_carnosaur	wh2_main_lzd_dinosaur	monster_beasts
+undead_kharibdyss	wh2_main_def_mon_war_hydra	monster_beasts

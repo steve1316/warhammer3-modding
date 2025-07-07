@@ -1,4 +1,4 @@
 key	ammo_caisson_entity	ammo_caisson_destruction	ammo_caisson_model	ammo_caisson_destroyed_model	articulated_entity	head_offset	engine_articulation_node_index	draughts_articulation_node_index	is_train
 #land_unit_articulated_vehicles_tables;6;db/land_unit_articulated_vehicles_tables/!!!gorilla_warcastle_final
-gorilla_brt_war_castle_siege		vmp_black_coach_01			gorilla_vehicle_brt_war_castle_siege_articulation	0.0000	2	0	false
 gorilla_brt_war_castle		vmp_black_coach_01			gorilla_vehicle_brt_war_castle_articulation	0.0000	2	0	false
+gorilla_brt_war_castle_siege		vmp_black_coach_01			gorilla_vehicle_brt_war_castle_siege_articulation	0.0000	2	0	false

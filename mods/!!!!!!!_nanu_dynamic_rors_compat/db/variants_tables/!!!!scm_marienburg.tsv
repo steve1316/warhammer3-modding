@@ -1,0 +1,5 @@
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/!!!!scm_marienburg
+hkrul_mar_sons_of_manann_warhorse		mar_sons_of_manann_warhorse		1.0000	1.0000	0.0500	
+hkrul_mar_mnt_knights_griffon	VariantMeshes\wh_variantmodels\bc2\emp\emp_imperial_griffon\tech	mar_griffon		1.0000	1.6670	0.0000	
+hkrul_mar_knights_cleansing_flame		thm_mar_knights_cleansing_flame_horse		1.0000	1.0000	0.0500	

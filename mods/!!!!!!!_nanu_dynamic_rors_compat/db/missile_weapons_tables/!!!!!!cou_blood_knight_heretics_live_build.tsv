@@ -1,5 +1,5 @@
 key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
 #missile_weapons_tables;11;db/missile_weapons_tables/!!!!!!cou_blood_knight_heretics_live_build
 tze_templar_flame_cavlary	false	tze_templar_flame_cavlary		false
-tze_templar_flame	false	tze_templar_flame		false
 tze_templar_flame_manticore	false	tze_templar_flame_manticore		false
+tze_templar_flame	false	tze_templar_flame		false

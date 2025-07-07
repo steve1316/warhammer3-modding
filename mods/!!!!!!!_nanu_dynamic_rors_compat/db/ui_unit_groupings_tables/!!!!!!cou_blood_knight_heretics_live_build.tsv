@@ -1,7 +1,7 @@
 key	icon	parent_group
 #ui_unit_groupings_tables;1;db/ui_unit_groupings_tables/!!!!!!cou_blood_knight_heretics_live_build
-cou_dt_magi_inf	cou_dt_magi_inf_icon	infantry
 cou_dg_fathomite_cav	cou_dg_fathomite_cav_icon	cavalry_chariots
-cou_dg_proslyete_cav	cou_dg_proslyete_cav_icon	cavalry_chariots
 cou_dg_proslyete_inf	cou_dg_proslyete_inf_icon	infantry
+cou_dg_proslyete_cav	cou_dg_proslyete_cav_icon	cavalry_chariots
 cou_dt_magi_cav	cou_dt_magi_cav_icon	cavalry_chariots
+cou_dt_magi_inf	cou_dt_magi_inf_icon	infantry

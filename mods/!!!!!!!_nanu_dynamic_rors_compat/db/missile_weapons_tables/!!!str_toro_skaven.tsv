@@ -1,11 +1,11 @@
 key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
 #missile_weapons_tables;11;db/missile_weapons_tables/!!!str_toro_skaven
-warp_bombard	false	warp_bombard		false
-skaven_mech_gat	false	skaven_mech_gat	clattergun	false
 warp_runners	false	warp_runners		false
+skaven_mech_gat	false	skaven_mech_gat	clattergun	false
+warp_tank	false	warp_tank		false
+warp_bombard	false	warp_bombard		false
+warp_bomber	false	warp_bomber	clattergun	false
 warp_gunship	false	warp_gunship		false
 skaven_mech	false	skaven_mech		false
-warp_bomber	false	warp_bomber	clattergun	false
 skaven_mech_at	false	skaven_mech_at		false
-warp_tank	false	warp_tank		false
 warp_zeppelin	false	warp_zeppelin		false

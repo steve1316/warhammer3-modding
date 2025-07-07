@@ -1,0 +1,5 @@
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/!!!!landmarks_of_legend_wh
+eonir_stag		eonir_stag		1.0000	1.0000	0.0500	
+phoenixes	VariantMeshes\wh_variantmodels\bi1\hef\hef_great_eagle\tech	phoenixes		1.0000	1.0000	0.0500	
+braconnier_horses	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	braconnier_horses	hr1/ksl/ksl_horse/ksl_horse_light_01_imposter	1.0000	1.0000	0.0500	

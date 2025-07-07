@@ -1,11 +1,11 @@
 group_name
 #unit_attributes_groups_tables;0;db/unit_attributes_groups_tables/!!!dominion
+ksl_magneticsentinel
 dom_warblimp
+dom_charger
+dom_vol_legion_02
 dom_vanguard
 dom_flame_tank
-dom_aeronaught
-dom_charger
 dom_snipers
-dom_vol_legion_02
 dom_flying_fort
-ksl_magneticsentinel
+dom_aeronaught

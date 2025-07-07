@@ -1,0 +1,4 @@
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/!!!chd_chaos_dwarfs_airship
+wh3_dlc25_dwf_mnt_veh_thunderbarge_chd	warmachines/aircraft/dwf_thunderbarge/thunderbarge_tech/	dwf_thunderbarge_chd		1.0000	1.0000	0.0000	
+wh3_main_cth_veh_sky_junk_chd	warmachines/aircraft/cth_sky_junk/tech/	cth_sky_junk_chd		1.0000	1.0000	0.0000	

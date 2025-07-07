@@ -1,0 +1,5 @@
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/!!!dominion
+ksl_cavernbear_heavy	VariantMeshes/wh_variantmodels/br1/ksl/ksl_bear/tech	ksl_cavernbear_heavy	br1/ksl/ksl_bear/ksl_bear_imposter	1.0000	1.0000	0.0000	
+dom_warblimp	warmachines/aircraft/dom_warblimp/tech	dom_warblimp		1.0000	1.0000	0.0000	
+dom_flying_fort	warmachines/aircraft/dom_flying_fort/tech	dom_flying_fort		1.0000	1.0000	0.0000	

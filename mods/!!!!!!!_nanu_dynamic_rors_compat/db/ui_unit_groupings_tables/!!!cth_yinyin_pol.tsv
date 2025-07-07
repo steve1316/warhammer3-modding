@@ -1,5 +1,5 @@
 key	icon	parent_group
 #ui_unit_groupings_tables;1;db/ui_unit_groupings_tables/!!!cth_yinyin_pol
-kaiju	wh2_dlc17_lzd_dread_saurian	monster_beasts
 npn_sam	npn_sam	infantry
+kaiju	wh2_dlc17_lzd_dread_saurian	monster_beasts
 npn_ninja	npn_ninja	missile_infantry

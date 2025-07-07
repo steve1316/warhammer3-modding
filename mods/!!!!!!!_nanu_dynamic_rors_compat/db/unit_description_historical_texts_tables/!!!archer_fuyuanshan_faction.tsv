@@ -1,9 +1,9 @@
 key
 #unit_description_historical_texts_tables;0;db/unit_description_historical_texts_tables/!!!archer_fuyuanshan_faction
-cth_mon_yaksha
-f_cth_sky_keeper
-cth_fys_peasant_firelancer
 f_cth_cav_bastion
-cth_fys_jade_warrior_lancer
 jade_banner
+cth_mon_yaksha
+cth_fys_jade_warrior_lancer
+f_cth_sky_keeper
 f_cth_inf_scout
+cth_fys_peasant_firelancer

@@ -1,0 +1,4 @@
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/!!!derpy_gunpowder_units
+dwf_gun_goat_base	variantmeshes/wh_variantmodels/hu3/dwf/tech	dwf_goat_base		1.0000	0.9500	0.0500	
+dwf_gun_warboar_elite_spear	variantmeshes\wh_variantmodels\hq2\dwf\tech_spear_mournfang	dwf_warboar_elite		0.5500	0.9500	0.0500	

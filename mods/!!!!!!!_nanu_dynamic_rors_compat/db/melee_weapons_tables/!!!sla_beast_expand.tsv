@@ -2,5 +2,5 @@ key	bonus_v_large	bonus_v_infantry	damage	ap_damage	weapon_length	melee_weapon_t
 #melee_weapons_tables;25;db/melee_weapons_tables/!!!sla_beast_expand
 sla_slaangor_weapon	0	4	14	26	1.0000	axe	creatures_claws		1	1.0000	0.7500	0.0000	true		0	0	4.0000		false
 sla_mutant	0	0	100	320	6.0000	axe	creatures_claws	large	8	1.1000	1.2500	0.0000	true	sla_mutant_contact	0	10	3.8000		false
-sla_steed_dragon	0	25	275	325	12.0000	axe	creatures_claws	large	12	1.8000	1.2500	0.0000	true		0	10	4.0000		false
 sla_serpent	17	0	14	26	1.0000	axe	creatures_claws		1	1.0000	0.7500	0.0000	true	wh_main_unit_contact_poison	0	0	4.0000		false
+sla_steed_dragon	0	25	275	325	12.0000	axe	creatures_claws	large	12	1.8000	1.2500	0.0000	true		0	10	4.0000		false

@@ -1,7 +1,7 @@
 key	skeleton
 #battle_animations_table_tables;0;db/battle_animations_table_tables/!!!derpy_grn_looted
-derpy_grn_looted_chd_rifles	humanoid02
-derpy_grn_looted_emp_tank	dreadquake01
-derpy_grn_looted_dwf_blunderbuss	humanoid02
 derpy_grn_looted_dwf_tank	dreadquake01
+derpy_grn_looted_chd_rifles	humanoid02
+derpy_grn_looted_dwf_blunderbuss	humanoid02
+derpy_grn_looted_emp_tank	dreadquake01
 derpy_grn_looted_chd_tank	dreadquake01
