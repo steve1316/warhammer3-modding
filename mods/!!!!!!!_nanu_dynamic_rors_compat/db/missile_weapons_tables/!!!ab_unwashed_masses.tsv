@@ -1,5 +1,5 @@
 key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
 #missile_weapons_tables;11;db/missile_weapons_tables/!!!ab_unwashed_masses
-gnob_rustbucket_crossbow	false	gnob_rustbucket_crossbow_bolt	crossbow_LH	false
-gnob_powder_sniffers_grenade	false	gnob_powder_sniffers_grenade		false
 gnob_pigback_riders_javelin	false	gnob_pigback_riders_javelin		false
+gnob_powder_sniffers_grenade	false	gnob_powder_sniffers_grenade		false
+gnob_rustbucket_crossbow	false	gnob_rustbucket_crossbow_bolt	crossbow_LH	false

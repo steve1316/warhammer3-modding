@@ -1,6 +1,6 @@
 key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
 #missile_weapons_tables;11;db/missile_weapons_tables/!!!AAA_Theak_Patron_Gods
-slaanesh_magic_jav_heavy	false	slaanesh_magic_jav_heavy	javelin	false
 kho_axe_throw_fire	false	kho_axe_throw_fire	javelin	false
-tze_javelin_heavy_wf	false	tze_javelin_heavy_wf	javelin	false
 nurg_axe_throw_poison	false	nurg_axe_throw_poison	javelin	false
+slaanesh_magic_jav_heavy	false	slaanesh_magic_jav_heavy	javelin	false
+tze_javelin_heavy_wf	false	tze_javelin_heavy_wf	javelin	false

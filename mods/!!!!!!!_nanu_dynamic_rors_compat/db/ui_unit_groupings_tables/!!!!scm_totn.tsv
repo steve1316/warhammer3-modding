@@ -1,5 +1,5 @@
 key	icon	parent_group
 #ui_unit_groupings_tables;1;db/ui_unit_groupings_tables/!!!!scm_totn
 hkrul_norsca_longship_lord	scm_nor_ship	commander
-hkrul_norsca_missile_bow_lord	missile_infantry_bow	commander
 hkrul_norsca_missile_bow	missile_infantry_bow	hkrul_nor_norsca
+hkrul_norsca_missile_bow_lord	missile_infantry_bow	commander

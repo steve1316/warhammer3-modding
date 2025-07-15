@@ -1,9 +1,9 @@
 key	skeleton
 #battle_animations_table_tables;0;db/battle_animations_table_tables/!!!!ak_teb
-hu1_teb_bow_composite	humanoid01
-wm_tortoise_tank01	tortoisetank01
-hu1_teb_pike	humanoid01
-teb_hu1_hr1_lance_1h	humanoid01
-hu1_teb_javelin	humanoid01
 hu1_hr1_teb_warhorse_sword_and_crossbow	humanoid01
 hu1_hr1_teb_warhorse_sword_and_rifle	humanoid01
+hu1_teb_bow_composite	humanoid01
+hu1_teb_javelin	humanoid01
+hu1_teb_pike	humanoid01
+teb_hu1_hr1_lance_1h	humanoid01
+wm_tortoise_tank01	tortoisetank01

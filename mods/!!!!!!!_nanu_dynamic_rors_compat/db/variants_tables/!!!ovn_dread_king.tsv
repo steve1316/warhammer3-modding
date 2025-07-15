@@ -1,6 +1,6 @@
 variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
 #variants_tables;6;db/variants_tables/!!!ovn_dread_king
+dread_skeletal_elephant	variantmeshes/wh_variantmodels/el1/arb/arb_war_elephant/tech	dread_skeletal_elephant		1.3500	1.3500	0.0000	
+dread_skeletal_steed	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	dread_skeletal_steed		1.0000	1.0000	0.0500	
 dread_skeletal_steed_chariot		dread_skeletal_steed_chariot		1.0000	1.0000	0.0500	
 dread_skeletal_steed_guard	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	dread_skeletal_steed_guard		1.0000	1.0000	0.0500	
-dread_skeletal_steed	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	dread_skeletal_steed		1.0000	1.0000	0.0500	
-dread_skeletal_elephant	variantmeshes/wh_variantmodels/el1/arb/arb_war_elephant/tech	dread_skeletal_elephant		1.3500	1.3500	0.0000	

@@ -1,17 +1,17 @@
 variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
 #variants_tables;6;db/variants_tables/!!!Zerooz_All_Units
-cth_skyboat_moonbird	animations/techpack/sky_boat_01/tech	cth_skyboat_moonbird		0.8000	1.0000	0.0000	
-cth_mnt_celestial_hourse	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	cth_horse_lord	hr1/cth/cth_horse/cth_horse_heavy_01_imposter	1.0000	1.0000	0.0000	
-cth_mnt_jade_longma_land_compass	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	cth_mnt_jade_longma_land_compass	hr1/cth/cth_longma/cth_longma_armour_heavy_01_imposter	1.0000	1.0000	0.0000	
 chs_cav_death_reaper_steed_knights	animations/death_reaper_mnur/tech/	dae_rotfly_ror	in1/dae_rotfly_01_imposter	1.0000	1.0000	0.0500	
-hef_mon_flying_fish_two_people	animations/techpack/hef_flying_fish_2_human/tech	hef_mon_flying_fish_two_people		2.0000	1.0000	0.0000	
-hef_mon_flying_fish	animations/techpack/hef_flying_fish_1_human/tech	hef_mon_flying_fish		1.5000	1.0000	0.0000	
+cth_mnt_celestial_hourse	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	cth_horse_lord	hr1/cth/cth_horse/cth_horse_heavy_01_imposter	1.0000	1.0000	0.0000	
 cth_mnt_jade_longma_land	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	cth_mnt_jade_longma_land	hr1/cth/cth_longma/cth_longma_armour_heavy_01_imposter	1.0000	1.0000	0.0000	
-hef_mon_flying_fish_heavy_weapon	animations/techpack/hef_flying_fish_heavy_weapon/tech	hef_mon_flying_fish_heavy_weapon		2.0000	1.0000	0.0000	
-emp_mnt_knight_of_the_raven	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	emp_warhorse_morr_ror	hr1\emp\emp_warhorse_armoured\low_poly\emp_horse_armoured_lowlod	1.0000	1.0000	0.0500	
+cth_mnt_jade_longma_land_compass	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	cth_mnt_jade_longma_land_compass	hr1/cth/cth_longma/cth_longma_armour_heavy_01_imposter	1.0000	1.0000	0.0000	
+cth_skyboat_moonbird	animations/techpack/sky_boat_01/tech	cth_skyboat_moonbird		0.8000	1.0000	0.0000	
+cth_veh_sky_ark	animations/techpack/sky_ark_01/tech	cth_sky_boat		1.0000	1.0000	0.0000	
 emp_imperial_griffon	VariantMeshes\wh_variantmodels\bc2\emp\emp_imperial_griffon\tech	emp_imperial_griffon		1.0000	1.4000	0.0000	
+emp_mnt_knight_of_the_raven	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	emp_warhorse_morr_ror	hr1\emp\emp_warhorse_armoured\low_poly\emp_horse_armoured_lowlod	1.0000	1.0000	0.0500	
+haven_paladinhorse		haven_paladinhorse		1.0000	1.0000	0.0000	
 haven_sunrider_steed		haven_sunrider_steed		1.0000	1.0000	0.0000	
 hef_mnt_dragon	VariantMeshes\wh_variantmodels\dr1\hef\hef_sun_dragon\tech	hef_mnt_dragon		1.0000	0.6000	0.0000	
+hef_mon_flying_fish	animations/techpack/hef_flying_fish_1_human/tech	hef_mon_flying_fish		1.5000	1.0000	0.0000	
+hef_mon_flying_fish_heavy_weapon	animations/techpack/hef_flying_fish_heavy_weapon/tech	hef_mon_flying_fish_heavy_weapon		2.0000	1.0000	0.0000	
+hef_mon_flying_fish_two_people	animations/techpack/hef_flying_fish_2_human/tech	hef_mon_flying_fish_two_people		2.0000	1.0000	0.0000	
 tze_doom_disc	animations/techpack/tze_flying_disc/tech/	tze_doom_disc		1.0000	1.0000	0.0000	
-haven_paladinhorse		haven_paladinhorse		1.0000	1.0000	0.0000	
-cth_veh_sky_ark	animations/techpack/sky_ark_01/tech	cth_sky_boat		1.0000	1.0000	0.0000	

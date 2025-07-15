@@ -1,6 +1,6 @@
 variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
 #variants_tables;6;db/variants_tables/!!!derpy_chd_aeromachines
 derpy_chd_gyro_01_cannon	warmachines\aircraft\whirlwind_tech\whirlwind_standard\tech	chd_whirlwind		1.0000	1.2500	0.0500	
-derpy_chd_gyro_04_bomber	warmachines\aircraft\whirlwind_tech\whirlwind_bomber\tech	chd_whirlwind_bomber		1.0000	1.2500	0.0500	
 derpy_chd_gyro_03_flame	warmachines\aircraft\whirlwind_tech\whirlwind_standard\tech	chd_whirlwind_flamer		1.0000	1.2500	0.0500	
+derpy_chd_gyro_04_bomber	warmachines\aircraft\whirlwind_tech\whirlwind_bomber\tech	chd_whirlwind_bomber		1.0000	1.2500	0.0500	
 derpy_chd_gyro_05_rocket	warmachines\aircraft\whirlwind_tech\whirlwind_standard\tech	chd_whirlwind_rocket		1.0000	1.2500	0.0500	

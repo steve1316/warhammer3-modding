@@ -1,5 +1,5 @@
 variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
 #variants_tables;6;db/variants_tables/!!!!obsidian_lustria_rises
-lzd_skink_horned_ones_riders_mount		lzd_horned_one_skink_mount		1.1000	1.1000	0.0000	
 lzd_skink_cold_ones_riders_mount		lzd_cold_one_skink_mount		1.1000	1.1000	0.0000	
 lzd_skink_culchan_riders_mount		lzd_culchan_mount		1.1500	1.1500	0.0000	
+lzd_skink_horned_ones_riders_mount		lzd_horned_one_skink_mount		1.1000	1.1000	0.0000	

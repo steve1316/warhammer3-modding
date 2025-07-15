@@ -1,4 +1,4 @@
 key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
 #missile_weapons_tables;11;db/missile_weapons_tables/!!!@Deer24batuoniya
-CGSBOW	false	CGSBOW	bow	false
 BTCGSBOW	false	BTCGSBOW	bow	false
+CGSBOW	false	CGSBOW	bow	false

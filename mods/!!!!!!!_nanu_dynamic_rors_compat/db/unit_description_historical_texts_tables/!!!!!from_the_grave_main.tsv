@@ -1,10 +1,10 @@
 key
 #unit_description_historical_texts_tables;0;db/unit_description_historical_texts_tables/!!!!!from_the_grave_main
-kys_und_crossbow
-kys_und_bk_foot
-kys_und_behemoth
-kys_und_void_revenants
 kys_und_basic_infantry
+kys_und_behemoth
 kys_und_bk_cav
-kys_und_shield_revenants
+kys_und_bk_foot
+kys_und_crossbow
 kys_und_necro_zombie
+kys_und_shield_revenants
+kys_und_void_revenants

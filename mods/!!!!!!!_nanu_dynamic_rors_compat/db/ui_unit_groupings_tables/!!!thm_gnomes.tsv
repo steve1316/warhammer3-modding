@@ -1,6 +1,6 @@
 key	icon	parent_group
 #ui_unit_groupings_tables;1;db/ui_unit_groupings_tables/!!!thm_gnomes
-hilldwf_gnome_rabble	waystone_guardians	infantry
-hilldwf_gnome_fox_riders	fox_riders	missile_cavalry_chariots
-thm_gnomes_toads_ranged	totadtillery_icon	monster_beasts
 hilldwf_gnome_badger_riders	badger_riders	cavalry_chariots
+hilldwf_gnome_fox_riders	fox_riders	missile_cavalry_chariots
+hilldwf_gnome_rabble	waystone_guardians	infantry
+thm_gnomes_toads_ranged	totadtillery_icon	monster_beasts

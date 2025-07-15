@@ -1,14 +1,14 @@
 key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
 #missile_weapons_tables;11;db/missile_weapons_tables/!!!DEER24Cathay
+wh3_cth_YUEGONGBOW	false	wh3_cth_YUEGONGBOW	bow	false
+wh3_cth_jade_SHUANGYAN	false	wh3_deer24_SHUANGYAN	hand_cannon	false
+wh3_cth_jade_TIEWEI	false	wh3_cth_jade_TIEWEI	hand_cannon	false
 wh3_cth_jade_hail_gun	false	wh3_deer24_XIANDAN	hand_cannon	false
+wh3_cth_lihuayu	false	wh3_cth_lihuayu	grenade_launcher	false
 wh3_cth_penhuobing	false	wh3_cth_penhuobing	drakegun	false
+wh3_deer24_bianjun_1	false	wh3_deer24_bianjun_1	bow	false
+wh3_deer24_jinhunqilin	false	wh3_deer24_jinhunqilin	bow_LH	false
 wh3_main_cth_grand_xuanwu	false	wh3_main_cth_grand_xuanwu	grand_cannon	false
 wh3_main_cth_xia	false	wh3_main_cth_xia	crossbow	false
-wh3_deer24_jinhunqilin	false	wh3_deer24_jinhunqilin	bow_LH	false
-wh3_cth_jade_SHUANGYAN	false	wh3_deer24_SHUANGYAN	hand_cannon	false
-wh3_deer24_bianjun_1	false	wh3_deer24_bianjun_1	bow	false
-wh3_cth_YUEGONGBOW	false	wh3_cth_YUEGONGBOW	bow	false
-wwd_weibeishengbing	false	wwd_weibeishengbing	bow	false
-wh3_cth_jade_TIEWEI	false	wh3_cth_jade_TIEWEI	hand_cannon	false
 wwd_jinjun_east_chaoting	false	wwd_jinjun_east_chaoting	crossbow	false
-wh3_cth_lihuayu	false	wh3_cth_lihuayu	grenade_launcher	false
+wwd_weibeishengbing	false	wwd_weibeishengbing	bow	false

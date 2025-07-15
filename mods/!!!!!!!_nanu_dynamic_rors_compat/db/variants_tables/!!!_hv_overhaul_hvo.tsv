@@ -1,5 +1,5 @@
 variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
 #variants_tables;6;db/variants_tables/!!!_hv_overhaul_hvo
-hv_ksl_black_horse_dervish	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	hv_ksl/_hvo/hv_ksl_black_horse_dervish	hr1/ksl/ksl_horse/ksl_horse_light_01_imposter	1.0000	1.0000	0.0500	
 hv_brt_oxen_draught		hv_brt/_hvo/hv_brt_oxen		1.0000	1.3000	0.0000	
 hv_emp_mnt_knights_panther_warhorse		hv_emp\_hvo\hv_emp_knights_panther_warhorse	hr1\emp\emp_warhorse_armoured\low_poly\emp_horse_armoured_lowlod	1.0000	1.0000	0.0500	
+hv_ksl_black_horse_dervish	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	hv_ksl/_hvo/hv_ksl_black_horse_dervish	hr1/ksl/ksl_horse/ksl_horse_light_01_imposter	1.0000	1.0000	0.0500	

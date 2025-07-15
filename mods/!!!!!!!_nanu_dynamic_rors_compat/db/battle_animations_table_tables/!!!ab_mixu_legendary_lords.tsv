@@ -1,6 +1,6 @@
 key	skeleton
 #battle_animations_table_tables;0;db/battle_animations_table_tables/!!!ab_mixu_legendary_lords
-mixu_hu1_dual_swords_and_bombs	humanoid01
-mixu_hu4c_tze_trolls_2handed_hammer	humanoid04c
 mixu_hu1_cultists_of_tzeentch_staff_and_sword	humanoid01
+mixu_hu1_dual_swords_and_bombs	humanoid01
 mixu_hu1_sword_and_whip	humanoid01
+mixu_hu4c_tze_trolls_2handed_hammer	humanoid04c

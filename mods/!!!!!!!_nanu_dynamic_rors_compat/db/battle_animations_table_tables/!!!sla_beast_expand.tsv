@@ -1,7 +1,7 @@
 key	skeleton
 #battle_animations_table_tables;0;db/battle_animations_table_tables/!!!sla_beast_expand
+hu6_sla_gor_01	humanoid06
+hu8d_sla_glutos_stand_01	humanoid08d
+sla_mutant_stand	humanoid18
 sla_steed_dragon_stand	dragon05
 sn1_sla_serpent_stand_01	snake01
-sla_mutant_stand	humanoid18
-hu8d_sla_glutos_stand_01	humanoid08d
-hu6_sla_gor_01	humanoid06

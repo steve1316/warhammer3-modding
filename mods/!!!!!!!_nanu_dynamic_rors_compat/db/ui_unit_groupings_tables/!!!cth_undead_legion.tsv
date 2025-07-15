@@ -1,5 +1,5 @@
 key	icon	parent_group
 #ui_unit_groupings_tables;1;db/ui_unit_groupings_tables/!!!cth_undead_legion
-cth_jiangshi	cth_jiangshi_p	infantry
 cth_ghost	cth_ghost	monster_beasts
+cth_jiangshi	cth_jiangshi_p	infantry
 cth_sage	cth_sage	missile_monster_beasts

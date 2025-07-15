@@ -1,14 +1,14 @@
 key	icon	parent_group
 #ui_unit_groupings_tables;1;db/ui_unit_groupings_tables/!!!jade_vamp_pol
 cth_ghost	cth_ghost	monster_beasts
-jbv_faithfuls	jbv_faithfuls	infantry
-jbv_monstrous_infantry	jbv_monster	monster_beasts
-cth_ghost_greater	cth_ghost_greater	monster_beasts
-cth_jiangshi_3	cth_jiangshi_3	infantry
-cth_jiangshi	cth_jiangshi_p	infantry
-jbv_monster	jbv_monster	monster_beasts
-jbv_giant	jbv_giant	monster_beasts
-cth_jiangshi_2	cth_jiangshi_2	infantry
 cth_ghost_flying	cth_ghost_flying	missile_monster_beasts
-jbv_guandao_cav	jbv_guandao_cav	cavalry_chariots
+cth_ghost_greater	cth_ghost_greater	monster_beasts
+cth_jiangshi	cth_jiangshi_p	infantry
+cth_jiangshi_2	cth_jiangshi_2	infantry
+cth_jiangshi_3	cth_jiangshi_3	infantry
 jbv_devil_infantry	jbv_monster_inf	infantry
+jbv_faithfuls	jbv_faithfuls	infantry
+jbv_giant	jbv_giant	monster_beasts
+jbv_guandao_cav	jbv_guandao_cav	cavalry_chariots
+jbv_monster	jbv_monster	monster_beasts
+jbv_monstrous_infantry	jbv_monster	monster_beasts

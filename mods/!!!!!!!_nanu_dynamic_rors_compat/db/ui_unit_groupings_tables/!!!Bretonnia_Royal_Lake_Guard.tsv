@@ -1,5 +1,5 @@
 key	icon	parent_group
 #ui_unit_groupings_tables;1;db/ui_unit_groupings_tables/!!!Bretonnia_Royal_Lake_Guard
-infantry_mage_support	MageSupport	infantry
 infantry_hammer_and_shield	HammerAndShieldIcon	infantry
+infantry_mage_support	MageSupport	infantry
 infantry_spear_and_shield	SpearAndShieldIcon	infantry

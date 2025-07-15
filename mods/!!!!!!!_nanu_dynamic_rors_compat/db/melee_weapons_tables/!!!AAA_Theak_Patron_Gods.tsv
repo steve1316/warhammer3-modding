@@ -1,11 +1,11 @@
 key	bonus_v_large	bonus_v_infantry	damage	ap_damage	weapon_length	melee_weapon_type	audio_type	splash_attack_target_size	splash_attack_max_attacks	splash_attack_power_multiplier	building_damage_multiplier	ignition_amount	is_magical	contact_phase	collision_attack_max_targets	collision_attack_max_targets_cooldown	melee_attack_interval	scaling_damage	is_spell
 #melee_weapons_tables;25;db/melee_weapons_tables/!!!AAA_Theak_Patron_Gods
-hellfire_halberd	26	0	15	31	2.0000	spear	halberd		1	1.0000	0.7500	1.0000	false	wh2_dlc12_unit_contact_flammable	0	10	4.3000		false
-warrior_tzn_glaive	0	0	10	26	1.0000	spear	halberd		1	1.0000	0.7500	0.0000	true		0	10	4.2000		false
-khorne_marauder_fire_axe	0	0	21	7	1.0000	axe	axe		1	1.0000	1.2500	1.0000	false		0	10	4.2000		false
-chs_sla_spear_bliss	24	0	28	12	1.0000	spear	spear		4	1.0000	0.7500	0.0000	true	bliss_spear_theak	0	10	4.8000		false
-nurgle_war_reaper	0	10	18	20	1.0000	axe	halberd		1	1.0000	1.2500	0.0000	false	wh_main_unit_contact_poison	0	10	4.4000		false
 chosen_tzn_glaive_blaze	0	0	12	36	1.0000	spear	halberd		1	1.0000	1.2500	0.0000	true		0	10	4.1000		false
 chs_sla_spear	16	0	25	8	1.0000	spear	spear		4	1.0000	0.7500	0.0000	false		0	10	4.8000		false
-tze_flame_magic_axe	0	0	21	7	1.0000	axe	axe		1	1.0000	1.2500	1.0000	true		0	10	4.2000		false
+chs_sla_spear_bliss	24	0	28	12	1.0000	spear	spear		4	1.0000	0.7500	0.0000	true	bliss_spear_theak	0	10	4.8000		false
+hellfire_halberd	26	0	15	31	2.0000	spear	halberd		1	1.0000	0.7500	1.0000	false	wh2_dlc12_unit_contact_flammable	0	10	4.3000		false
+khorne_marauder_fire_axe	0	0	21	7	1.0000	axe	axe		1	1.0000	1.2500	1.0000	false		0	10	4.2000		false
 nurgle_chosen_man_reaper	0	10	24	26	1.0000	axe	halberd		1	1.0000	1.2500	0.0000	false	wh_main_unit_contact_poison	0	10	4.4000		false
+nurgle_war_reaper	0	10	18	20	1.0000	axe	halberd		1	1.0000	1.2500	0.0000	false	wh_main_unit_contact_poison	0	10	4.4000		false
+tze_flame_magic_axe	0	0	21	7	1.0000	axe	axe		1	1.0000	1.2500	1.0000	true		0	10	4.2000		false
+warrior_tzn_glaive	0	0	10	26	1.0000	spear	halberd		1	1.0000	0.7500	0.0000	true		0	10	4.2000		false

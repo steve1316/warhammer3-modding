@@ -1,12 +1,12 @@
 key	skeleton
 #battle_animations_table_tables;0;db/battle_animations_table_tables/!!!str_toro_skaven
-warp_bombard_01	steamtank01
 dwf_warp_warpbomber_01	gyrobomber01
 dwf_warp_warpgunship_01	gyrobomber01
+skaven_cav_01	boar01
 skaven_spider_mech	hybridcreature07
 skaven_spider_mech_cannon	hybridcreature07
-skaven_cav_01	boar01
-warp_forged	heavyquadruped04
 skaven_spider_mech_gattling	hybridcreature07
-warp_tank_01	steamtank01
 skaven_zeppelin	skyjunk01
+warp_bombard_01	steamtank01
+warp_forged	heavyquadruped04
+warp_tank_01	steamtank01

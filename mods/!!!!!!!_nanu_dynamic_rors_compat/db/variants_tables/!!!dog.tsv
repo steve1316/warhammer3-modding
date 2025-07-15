@@ -1,5 +1,5 @@
 variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
 #variants_tables;6;db/variants_tables/!!!dog
 cst_jericho_ghostship	warmachines/jericho/jericho_ghosthsip/tech	cst_jericho_ghostship		1.0000	1.0000	0.0000	
-cst_jericho_spectral_cannons	warmachines/jericho/jericho_spectral_cannons/tech	cst_jericho_spectral_cannons		1.0000	1.0000	0.0000	
 cst_jericho_harkonship_medium	warmachines/jericho/jericho_harkon_medium/tech	cst_jericho_harkonship_medium		1.0000	0.5000	0.0000	
+cst_jericho_spectral_cannons	warmachines/jericho/jericho_spectral_cannons/tech	cst_jericho_spectral_cannons		1.0000	1.0000	0.0000	

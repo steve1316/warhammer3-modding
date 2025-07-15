@@ -1,11 +1,11 @@
 key	ammo_caisson_entity	ammo_caisson_destruction	ammo_caisson_model	ammo_caisson_destroyed_model	articulated_entity	head_offset	engine_articulation_node_index	draughts_articulation_node_index	is_train
 #land_unit_articulated_vehicles_tables;6;db/land_unit_articulated_vehicles_tables/!!!ghs_great_harmony
-ghs_dwf_veh_dreadquake_mortar		vmp_black_coach_01			wh3_dlc23_chd_veh_articulation_dreadquake	0.0000	0	0	true
-ghs_main_dwf_cannon_chariot		vmp_black_coach_01			wh_main_vehicle_grn_boar_chariot_articulation	1.0000	2	0	false
-ghs_main_dwf_thrower_chariot		vmp_black_coach_01			wh_main_vehicle_grn_boar_chariot_articulation	1.0000	2	0	false
 cth_dark_warchariot		vmp_black_coach_01			cth_dark_warchariot_true	1.6000	2	0	false
-ghs_main_dwf_gun_chariot		vmp_black_coach_01			wh_main_vehicle_grn_boar_chariot_articulation	1.0000	2	0	false
-ghs_main_dwf_veh_flame_cannon_chariot		vmp_black_coach_01			wh_main_vehicle_grn_boar_chariot_articulation	1.0000	2	0	false
 ghs_dwf_chd_veh_goblin_crusher		vmp_black_coach_01			wh3_dlc23_chd_veh_articulation_locomotive	0.0000	0	0	true
-ghs_dwf_veh_iron_train_1dreadquake		vmp_black_coach_01			wh3_dlc23_chd_veh_articulation_train	0.0000	0	0	true
+ghs_dwf_veh_dreadquake_mortar		vmp_black_coach_01			wh3_dlc23_chd_veh_articulation_dreadquake	0.0000	0	0	true
 ghs_dwf_veh_iron_train		vmp_black_coach_01			wh3_dlc23_chd_veh_articulation_locomotive	0.0000	0	0	true
+ghs_dwf_veh_iron_train_1dreadquake		vmp_black_coach_01			wh3_dlc23_chd_veh_articulation_train	0.0000	0	0	true
+ghs_main_dwf_cannon_chariot		vmp_black_coach_01			wh_main_vehicle_grn_boar_chariot_articulation	1.0000	2	0	false
+ghs_main_dwf_gun_chariot		vmp_black_coach_01			wh_main_vehicle_grn_boar_chariot_articulation	1.0000	2	0	false
+ghs_main_dwf_thrower_chariot		vmp_black_coach_01			wh_main_vehicle_grn_boar_chariot_articulation	1.0000	2	0	false
+ghs_main_dwf_veh_flame_cannon_chariot		vmp_black_coach_01			wh_main_vehicle_grn_boar_chariot_articulation	1.0000	2	0	false

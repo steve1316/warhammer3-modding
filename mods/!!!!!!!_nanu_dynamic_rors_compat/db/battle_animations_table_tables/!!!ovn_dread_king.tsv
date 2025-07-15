@@ -1,9 +1,9 @@
 key	skeleton
 #battle_animations_table_tables;0;db/battle_animations_table_tables/!!!ovn_dread_king
 hu12_skeleton_minotaur_2handed_axe	humanoid12
+hu1_dread_skeleton_2hpike	humanoid01
+hu1_dreadking_tomb_javelin_spear_shield	humanoid01
 hu1_hr1_dread_rider_2hlance	humanoid01
 hu1_skeleton_javelin_shield_spear	humanoid01
 hu4_colossus	humanoid04
-hu1_dreadking_tomb_javelin_spear_shield	humanoid01
 vigpro_vmp_skeleton_hydra	dragon02
-hu1_dread_skeleton_2hpike	humanoid01

@@ -1,8 +1,8 @@
 key	skeleton
 #battle_animations_table_tables;0;db/battle_animations_table_tables/!!!!!!laf_dwarfs
-wm_dwf_juggernaut_bolt_thrower	wagon01
 hu3_dwf_crank_gunner	humanoid03
+hu3_dwf_dual_drakefire_pistol	humanoid03
 hu3_dwf_miners_steam_drills	humanoid03
+wm_dwf_juggernaut_bolt_thrower	wagon01
 wm_dwf_juggernaut_cannon	wagon01
 wm_mining_drill01	steamtank23
-hu3_dwf_dual_drakefire_pistol	humanoid03

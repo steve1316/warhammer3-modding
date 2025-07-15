@@ -1,10 +1,10 @@
 key	skeleton
 #battle_animations_table_tables;0;db/battle_animations_table_tables/!!!!!from_the_grave_main
-kys_und_crossbow	humanoid01
-kys_und_bk_foot	humanoid01d
-kys_und_behemoth	humanoid01c
-kys_und_hewers	humanoid01
 kys_und_basic_inf_sb	humanoid01
+kys_und_behemoth	humanoid01c
+kys_und_bk_foot	humanoid01d
 kys_und_bk_mount	humanoid01d
+kys_und_crossbow	humanoid01
 kys_und_grim_bulwark	humanoid01
+kys_und_hewers	humanoid01
 kys_und_necro_zombie	humanoid01

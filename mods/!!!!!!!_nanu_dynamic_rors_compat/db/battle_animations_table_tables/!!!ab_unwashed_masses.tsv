@@ -1,9 +1,9 @@
 key	skeleton
 #battle_animations_table_tables;0;db/battle_animations_table_tables/!!!ab_unwashed_masses
-rustbucket_greatweapon_crossbows	humanoid03
 mixu_hu5_flingers_sword_sling	humanoid05
-mixu_hu5_powder_sniffers	humanoid05
-mixu_hu5_gnoblar_hq2_throwing_knives	humanoid05
 mixu_hu5_gnoblar_flail	humanoid05
+mixu_hu5_gnoblar_hq2_throwing_knives	humanoid05
 mixu_hu5_pigback_rider_javelin	humanoid05
+mixu_hu5_powder_sniffers	humanoid05
 rustbucket_crossbows	humanoid03
+rustbucket_greatweapon_crossbows	humanoid03

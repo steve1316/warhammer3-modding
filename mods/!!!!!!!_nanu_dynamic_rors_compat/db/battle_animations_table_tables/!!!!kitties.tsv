@@ -1,14 +1,14 @@
 key	skeleton
 #battle_animations_table_tables;0;db/battle_animations_table_tables/!!!!kitties
-armorshieldtiga	humanoid06f
-shieldtiga	humanoid06f
-commandertiga	humanoid06f
-dagatiga	humanoid06f
 2hswtiga	humanoid06f
-halberdtiga	humanoid06f
-gorilla1	humanoid18c
+armorshieldtiga	humanoid06f
 berstiga	humanoid06f
+commandertiga	humanoid06f
+cthcommander	humanoid06f
+dagatiga	humanoid06f
+gorilla1	humanoid18c
+halberdtiga	humanoid06f
 jaguar1	humanoid01c
 jaguar1hero	humanoid01c
+shieldtiga	humanoid06f
 speartiga	humanoid06f
-cthcommander	humanoid06f
