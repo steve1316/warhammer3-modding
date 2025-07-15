@@ -492,6 +492,32 @@ if __name__ == "__main__":
         extract_tsv_data("unit_purchasable_effect_sets_tables")
         _, vanilla_unit_purchasable_effect_sets_tables_headers, vanilla_unit_purchasable_effect_sets_tables_version_info = load_tsv_data("vanilla_unit_purchasable_effect_sets_tables/db/unit_purchasable_effect_sets_tables/data__.tsv")
 
+        # Define table configurations for extraction.
+        table_configs = [
+            {"table_name": "units_to_groupings_military_permissions_tables", "folder_name": "units_to_groupings_military_permissions_tables", "key_field": "unit", "required": True},
+            {"table_name": "main_units_tables", "folder_name": "main_units_tables", "key_field": "unit", "required": True},
+            {"table_name": "land_units_tables", "folder_name": "land_units_tables", "key_field": "key", "required": True},
+            {"table_name": "unit_description_historical_texts_tables", "folder_name": "unit_description_historical_texts_tables", "key_field": "key"},
+            {"table_name": "battle_animations_table_tables", "folder_name": "battle_animations_table_tables", "key_field": "key"},
+            {"table_name": "battle_entities_tables", "folder_name": "battle_entities_tables", "key_field": "key"},
+            {"table_name": "mounts_tables", "folder_name": "mounts_tables", "key_field": "key"},
+            {"table_name": "melee_weapons_tables", "folder_name": "melee_weapons_tables", "key_field": "key"},
+            {"table_name": "missile_weapons_tables", "folder_name": "missile_weapons_tables", "key_field": "key"},
+            {"table_name": "unit_description_short_texts_tables", "folder_name": "unit_description_short_texts_tables", "key_field": "key"},
+            {"table_name": "unit_attributes_groups_tables", "folder_name": "unit_attributes_groups_tables", "key_field": "group_name"},
+            {"table_name": "battlefield_engines_tables", "folder_name": "battlefield_engines_tables", "key_field": "key"},
+            {"table_name": "projectiles_tables", "folder_name": "projectiles_tables", "key_field": "key"},
+            {"table_name": "battle_vortexs_tables", "folder_name": "battle_vortexs_tables", "key_field": "vortex_key"},
+            {"table_name": "projectiles_scaling_damages_tables", "folder_name": "projectiles_scaling_damages_tables", "key_field": "key"},
+            {"table_name": "projectile_shot_type_displays_tables", "folder_name": "projectile_shot_type_displays_tables", "key_field": "key"},
+            {"table_name": "unit_spacings_tables", "folder_name": "unit_spacings_tables", "key_field": "key"},
+            {"table_name": "first_person_engines_tables", "folder_name": "first_person_engines_tables", "key_field": "key"},
+            {"table_name": "land_unit_articulated_vehicles_tables", "folder_name": "land_unit_articulated_vehicles_tables", "key_field": "key"},
+            {"table_name": "ui_unit_groupings_tables", "folder_name": "ui_unit_groupings_tables", "key_field": "key"},
+            {"table_name": "ui_unit_group_parents_tables", "folder_name": "ui_unit_group_parents_tables", "key_field": "key"},
+            {"table_name": "variants_tables", "folder_name": "variants_tables", "key_field": "variant_name"},
+        ]
+
         for mod in SUPPORTED_MODS:
             # Check if the mod is installed.
             if mod["path"] and not os.path.exists(mod["path"]):
@@ -510,32 +536,6 @@ if __name__ == "__main__":
             folder_name = mod["package_name"].replace(".pack", "").replace(" ", "_")
             if folder_name[-1].isdigit():
                 folder_name = folder_name[:-1]
-
-            # Define table configurations for extraction.
-            table_configs = [
-                {"table_name": "units_to_groupings_military_permissions_tables", "folder_name": "units_to_groupings_military_permissions_tables", "key_field": "unit", "required": True},
-                {"table_name": "main_units_tables", "folder_name": "main_units_tables", "key_field": "unit", "required": True},
-                {"table_name": "land_units_tables", "folder_name": "land_units_tables", "key_field": "key", "required": True},
-                {"table_name": "unit_description_historical_texts_tables", "folder_name": "unit_description_historical_texts_tables", "key_field": "key"},
-                {"table_name": "battle_animations_table_tables", "folder_name": "battle_animations_table_tables", "key_field": "key"},
-                {"table_name": "battle_entities_tables", "folder_name": "battle_entities_tables", "key_field": "key"},
-                {"table_name": "mounts_tables", "folder_name": "mounts_tables", "key_field": "key"},
-                {"table_name": "melee_weapons_tables", "folder_name": "melee_weapons_tables", "key_field": "key"},
-                {"table_name": "missile_weapons_tables", "folder_name": "missile_weapons_tables", "key_field": "key"},
-                {"table_name": "unit_description_short_texts_tables", "folder_name": "unit_description_short_texts_tables", "key_field": "key"},
-                {"table_name": "unit_attributes_groups_tables", "folder_name": "unit_attributes_groups_tables", "key_field": "group_name"},
-                {"table_name": "battlefield_engines_tables", "folder_name": "battlefield_engines_tables", "key_field": "key"},
-                {"table_name": "projectiles_tables", "folder_name": "projectiles_tables", "key_field": "key"},
-                {"table_name": "battle_vortexs_tables", "folder_name": "battle_vortexs_tables", "key_field": "vortex_key"},
-                {"table_name": "projectiles_scaling_damages_tables", "folder_name": "projectiles_scaling_damages_tables", "key_field": "key"},
-                {"table_name": "projectile_shot_type_displays_tables", "folder_name": "projectile_shot_type_displays_tables", "key_field": "key"},
-                {"table_name": "unit_spacings_tables", "folder_name": "unit_spacings_tables", "key_field": "key"},
-                {"table_name": "first_person_engines_tables", "folder_name": "first_person_engines_tables", "key_field": "key"},
-                {"table_name": "land_unit_articulated_vehicles_tables", "folder_name": "land_unit_articulated_vehicles_tables", "key_field": "key"},
-                {"table_name": "ui_unit_groupings_tables", "folder_name": "ui_unit_groupings_tables", "key_field": "key"},
-                {"table_name": "ui_unit_group_parents_tables", "folder_name": "ui_unit_group_parents_tables", "key_field": "key"},
-                {"table_name": "variants_tables", "folder_name": "variants_tables", "key_field": "variant_name"},
-            ]
 
             # Extract and load all the required and optional tables needed for this mod.
             table_data = extract_and_load_table_data(mod["path"], table_configs)
