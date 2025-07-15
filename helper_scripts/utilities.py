@@ -193,6 +193,39 @@ def write_updated_tsv_file(data: List[Dict], headers: List[str], version_info: s
             ordered_values = [row[header] if row.get(header) else "" for header in headers]
             f.write("\t".join(ordered_values) + "\n")
 
+def sort_tsv_data(target_path: str, file_name: str, sort_key: str = None):
+    """Sort the data in a TSV file by a specified column.
+
+    Args:
+        target_path (str): Path to the directory containing the TSV file.
+        file_name (str): Name of the TSV file without the .tsv extension.
+        sort_key (str, optional): Column name to sort by. If None, sorts by the first column. Defaults to None.
+    """
+    file_path = f"{target_path}/{file_name}.tsv"
+    if not os.path.exists(file_path):
+        logging.error(f"TSV file {file_path} does not exist to sort.")
+        return
+
+    # Load the existing data.
+    data, headers, version_info = load_tsv_data(file_path)
+
+    # Determine the sort key and defaults to the first column if not specified.
+    sort_key = sort_key or headers[0]
+
+    # Sort the data.
+    data.sort(key=lambda x: x.get(sort_key, ""))
+
+    # Write the sorted data back to the file.
+    with open(file_path, "w", encoding="utf-8") as f:
+        # Write headers and version info.
+        f.write("\t".join(headers) + "\n")
+        f.write(version_info + "\n")
+
+        # Write all data rows and handle missing columns with empty strings.
+        for row in data:
+            ordered_values = [row.get(header, "") for header in headers]
+            f.write("\t".join(ordered_values) + "\n")
+
 def merge_move(source_path: str, destination_path: str):
     """Moves a folder to its destination and overwrite any existing files.
     
