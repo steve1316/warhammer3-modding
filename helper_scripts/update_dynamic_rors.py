@@ -1,6 +1,6 @@
 """Script to update the dynamic RORs for Nanu from the Steam Workshop to account for latest changes to modded data tables."""
 
-from utilities import extract_tsv_data, load_tsv_data, extract_modded_tsv_data, load_multiple_tsv_data, write_updated_tsv_file, merge_move, cleanup_folders
+from utilities import extract_tsv_data, load_tsv_data, extract_modded_tsv_data, load_multiple_tsv_data, write_updated_tsv_file, sort_tsv_data, merge_move, cleanup_folders
 from supported_mods import SUPPORTED_MODS
 from dynamic_rors_effects import SUPPORTED_EFFECTS
 import time
@@ -684,6 +684,13 @@ if __name__ == "__main__":
                 land_units_version_info = modded_land_units_version_info.replace(modded_land_units_version_info.split("/")[-1], f"!!!{folder_name}")
                 main_units_version_info = modded_main_units_version_info.replace(modded_main_units_version_info.split("/")[-1], f"!!!{folder_name}")
 
+                tables_to_sort = [
+                    "./!!!!!!!_nanu_dynamic_rors_compat/db/land_units_tables",
+                    "./!!!!!!!_nanu_dynamic_rors_compat/db/main_units_tables",
+                    "./!!!!!!!_nanu_dynamic_rors_compat/db/unit_purchasable_effect_sets_tables",
+                ]
+
+                # Write the data to required and optional tables.
                 for data_to_add in list_of_data_to_add:
                     logging.debug(f"Writing {len(data_to_add['unit_purchasable_effect_sets'])} unit purchasable effect sets for {data_to_add['key']}.")
 
@@ -743,6 +750,14 @@ if __name__ == "__main__":
                                 f"./!!!!!!!_nanu_dynamic_rors_compat/db/{table_name}",
                                 f"!!!{folder_name}",
                             )
+                            tables_to_sort.append(f"./!!!!!!!_nanu_dynamic_rors_compat/db/{table_name}")
+
+                # After writing is complete, sort the required and optional tables.
+                for table_path in tables_to_sort:
+                    sort_tsv_data(
+                        table_path,
+                        f"!!!{folder_name}",
+                    )
 
             # Perform cleanup of modded folders.
             cleanup_folders([
