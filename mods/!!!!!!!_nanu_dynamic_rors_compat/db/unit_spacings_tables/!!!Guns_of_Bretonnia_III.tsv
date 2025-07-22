@@ -1,9 +1,12 @@
 key	close_formation_spacing_horizontal	close_formation_spacing_variation	close_formation_spacing_vertical	dismounted_close_formation_spacing_horizontal	dismounted_close_formation_spacing_variation	dismounted_close_formation_spacing_vertical	dismounted_loose_formation_spacing_horizontal	dismounted_loose_formation_spacing_variation	dismounted_loose_formation_spacing_vertical	horde	loose_formation_spacing_horizontal	loose_formation_spacing_variation	loose_formation_spacing_vertical	routing_space_variation	is_chaotic_formation
 #unit_spacings_tables;4;db/unit_spacings_tables/!!!Guns_of_Bretonnia_III
+wh2_dlc09_tmb_chariot	14.0000	1.0000	13.0000	1.0000	0.0000	1.0000	2.0000	0.0000	2.0000	false	0.0000	14.0000	3.0000	1.0000	false
 wh_main_artillery_small	10.0000	0.0000	10.0000	2.0000	1.0000	2.0000	1.0000	1.0000	1.0000	false	10.0000	0.0000	12.0000	3.0000	false
 wh_main_cavalry_chaotic	2.6000	0.8600	4.0000	1.2000	1.0000	1.0000	1.0000	1.0000	1.0000	false	2.8000	0.8000	5.0000	3.0000	false
 wh_main_cavalry_ordered	2.2000	0.6000	4.0000	1.2000	1.0000	1.0000	1.0000	1.0000	1.0000	false	0.6000	0.8000	5.0000	3.0000	false
 wh_main_infantry	1.3000	0.5000	1.5000	1.0000	0.0000	1.0000	1.0000	0.0000	1.0000	false	2.6000	0.8000	2.0000	3.0000	false
 wh_main_infantry_greatswords	1.6000	0.5000	1.8000	1.0000	0.0000	1.0000	1.0000	0.0000	1.0000	false	2.6000	0.8000	2.0000	3.0000	false
+wh_main_infantry_musket	1.1000	0.4000	1.6000	1.0000	1.0000	1.0000	1.0000	1.0000	1.0000	false	3.6000	1.5000	3.6000	3.0000	false
+wh_main_infantry_musket_elite	1.1000	0.3200	1.6000	1.0000	1.0000	1.0000	1.0000	1.0000	1.0000	false	3.6000	1.5000	3.6000	3.0000	false
 wh_main_infantry_pike	1.3000	0.3600	1.6000	1.0000	0.0000	1.0000	1.0000	0.0000	1.0000	false	2.6000	0.8000	2.0000	3.0000	false
 wh_main_infantry_ranged	1.3000	0.4200	1.7000	1.0000	1.0000	1.0000	1.0000	1.0000	1.0000	false	3.6000	1.5000	3.6000	3.0000	false
