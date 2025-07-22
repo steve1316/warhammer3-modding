@@ -10,6 +10,7 @@ import logging
 from typing import Dict, Any, List
 import gc
 import re
+import argparse
 
 
 MISSING_MODS = []
@@ -460,6 +461,18 @@ if __name__ == "__main__":
     logging.basicConfig(format="%(asctime)s - %(levelname)s - %(message)s", level=logging.INFO)
     start_time = time.time()
 
+    # Get argument for --reset from argparse.
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--reset", action="store_true", help="Reset the script.")
+    args = parser.parse_args()
+    if args.reset:
+        logging.info("Will reset folders in the packfile before writing.")
+        for folder in ["db", "variantmeshes"]:
+            try:
+                shutil.rmtree(f"../mods/!!!!!!!_nanu_dynamic_rors_compat/{folder}")
+            except FileNotFoundError:
+                pass
+
     # Ensure all folders are cleaned up before the script starts if they exist.
     cleanup_folders([
         "./vanilla_unit_purchasable_effect_sets_tables",
@@ -800,6 +813,31 @@ if __name__ == "__main__":
         logging.info(f"Moving !!!!!!!_nanu_dynamic_rors_compat to ../mods/.")
         merge_move("./!!!!!!!_nanu_dynamic_rors_compat", "../mods/")
 
+    # Reset if necessary.
+    if args.reset:
+        # Use the RPFM CLI to delete all files from the required folders.
+        subprocess.run([
+            "./rpfm_cli.exe",
+            "--game",
+            "warhammer_3",
+            "pack",
+            "delete",
+            "--pack-path",
+            r"C:\SteamLibrary\steamapps\workshop\content\1142710\3513364573\!!!!!!!_nanu_dynamic_rors_compat.pack",
+            "--folder-path",
+            "db",
+        ], capture_output=True)
+        subprocess.run([
+            "./rpfm_cli.exe",
+            "--game",
+            "warhammer_3",
+            "pack",
+            "delete",
+            "--pack-path",
+            r"C:\SteamLibrary\steamapps\workshop\content\1142710\3513364573\!!!!!!!_nanu_dynamic_rors_compat.pack",
+            "--folder-path",
+            "variantmeshes",
+        ], capture_output=True)
     # Use the RPFM CLI to delete all files from the required folders.
     for folder_name in [
         "unit_purchasable_effect_sets_tables",
