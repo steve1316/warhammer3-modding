@@ -2619,4 +2619,31 @@ SUPPORTED_MODS = [
         "modified_attributes": ["ranged_arc", "velocity"],
         "pattern_overrides": {"*": "cst"},
     },
+    {
+        "name": "Patron Gods",
+        "package_name": "AAA_Theak_Patron_Gods.pack",
+        "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2859718528/AAA_Theak_Patron_Gods.pack",
+        "modified_attributes": ["melee", "velocity"],
+        "pattern_overrides": {
+            "khorne": "kho",
+            "nurgle": "nur",
+            "slaanesh": "sla",
+            "tzeentch": "tze",
+            "blaze": "tze",
+        },
+    },
+    {
+        "name": "Lustria Rises - Lizardmen Overhaul",
+        "package_name": "!obsidian_lustria_rises.pack",
+        "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2940793412/!obsidian_lustria_rises.pack",
+        "modified_attributes": ["melee", "ranged_arc", "velocity"],
+        "pattern_overrides": {"*": "lzd"},
+    },
+    {
+        "name": "Red Host of Tehenhauin",
+        "package_name": "!uber_red_host_additional_units.pack",
+        "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2855224971/!uber_red_host_additional_units.pack",
+        "modified_attributes": ["melee", "ranged_arc", "velocity"],
+        "pattern_overrides": {"*": "lzd"},
+    },
 ]
