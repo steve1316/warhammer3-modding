@@ -552,7 +552,9 @@ if __name__ == "__main__":
             if mod["path"] and not os.path.exists(mod["path"]):
                 MISSING_MODS.append(mod["package_name"])
                 continue
-            if mod["package_name"] in ["vanilla", "MAMMOTH_Mods.pack"]:
+            # MAMMOTH_Mods.pack needs to have its main_units_tables be manually updated due to how old one of its files is.
+            # Otherwise, it will need to be skipped due to it causing the final TSV file to be corrupted.
+            if mod["package_name"] in ["vanilla"]:
                 continue
             # Ignore mods that are just a collection of Regiment of Renown units.
             if re.search(r"ror_|_ror_|_ror", mod["package_name"]):
