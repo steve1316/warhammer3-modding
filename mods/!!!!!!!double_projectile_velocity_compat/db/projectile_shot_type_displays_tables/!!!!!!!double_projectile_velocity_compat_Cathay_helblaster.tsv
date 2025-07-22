@@ -1,0 +1,4 @@
+key	ui_sound_event	icon_name
+#projectile_shot_type_displays_tables;1;db/projectile_shot_type_displays_tables/!!!!!!!double_projectile_velocity_compat_Cathay_helblaster
+bastion_multi_shot	UI_BAT_SABL_Generic_Enable	bastion_canister
+bastion_single_shot	UI_BAT_SABL_Generic_Enable	bastion_single

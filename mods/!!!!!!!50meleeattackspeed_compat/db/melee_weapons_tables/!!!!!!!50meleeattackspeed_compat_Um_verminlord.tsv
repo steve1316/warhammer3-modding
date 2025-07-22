@@ -3,7 +3,7 @@ key	bonus_v_large	bonus_v_infantry	damage	ap_damage	weapon_length	melee_weapon_t
 skv_brp	0	25	410	155	6.0000	axe	axe	medium	6	0.9000	1.0000	0.0000	false		0	10	1.9		false
 skv_taq	0	0	217	93	3.0000	axe	staff	medium	5	1.0000	0.7500	0.0000	false		0	10	2.0		false
 vermin_king	0	0	155	387	7.5000	axe	spear_huge	large	5	1.0000	1.2500	0.0000	false		0	10	2.0		false
-verminlord_01	0	20	165	422	9.0000	axe	axe_huge	large	8	1.0000	1.0000	0.0000	false		0	10	1.7		false
-verminlord_02	30	0	176	411	7.0000	axe	sword_huge	large	5	1.0000	1.2500	0.0000	false		0	10	2.0		false
+verminlord_01	0	20	155	385	9.0000	axe	axe_huge	large	8	1.0000	1.0000	0.0000	false		0	10	1.7		false
+verminlord_02	30	0	165	370	7.0000	axe	sword_huge	large	5	1.0000	1.2500	0.0000	false		0	10	2.0		false
 verminlord_03	0	0	115	330	12.0000	axe	staff	medium	4	1.0000	1.2500	0.0000	false		0	10	2.0		false
 verminlord_04	0	0	175	300	12.0000	axe	staff	medium	4	1.0000	1.2500	0.0000	false		0	10	2.0		false

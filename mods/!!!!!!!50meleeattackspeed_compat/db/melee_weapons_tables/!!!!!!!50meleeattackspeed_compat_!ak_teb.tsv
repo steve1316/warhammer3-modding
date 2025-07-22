@@ -12,7 +12,7 @@ teb_duellist_hero	0	40	225	150	3.0000	sword	sword	medium	5	1.0000	1.0000	0.0000	
 teb_eldaddio	15	0	270	180	3.0000	spear	halberd	medium	7	1.0000	1.0000	0.0000	false		0	10	2.0		false
 teb_encarmine	0	8	28	12	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	10	2.0		false
 teb_enforcers	0	0	7	19	1.0000	axe	hammer		1	1.0000	1.0000	0.0000	false		0	10	2.15		false
-teb_freelance_knights	10	0	21	9	1.0000	lance	spear		1	1.0000	1.0000	0.0000	false		0	10	2.55		false
+teb_freelance_knights	10	0	22	10	1.0000	lance	spear		1	1.0000	1.0000	0.0000	false		0	10	2.55		false
 teb_gashnag	0	0	120	290	3.0000	axe	creatures_claws	medium	8	1.0000	1.2500	0.0000	false		0	10	2.0		false
 teb_golden_lion	25	0	180	270	6.0000	axe	creatures_claws	large	5	1.4000	0.7500	0.0000	false		0	3	1.8		false
 teb_halberd	17	0	8	20	1.0000	spear	halberd		5	1.0000	1.0000	0.0000	false		0	10	2.3		false
@@ -28,7 +28,7 @@ teb_lupio_demi	15	0	165	280	6.0000	axe	creatures_claws	large	5	1.0000	1.0000	0.0
 teb_manflayers	0	14	10	26	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false	wh_main_unit_contact_poison	0	10	2.15		false
 teb_manflayers_mengil	0	0	90	250	3.0000	sword	sword	medium	3	1.0000	1.0000	0.0000	false	wh_main_unit_contact_poison	0	10	1.9		false
 teb_merc_captain	0	0	130	200	3.0000	axe	hammer	medium	4	1.0000	1.0000	0.0000	false		0	10	2.0		false
-teb_noble_retinue	10	0	26	11	1.0000	lance	spear		1	1.0000	1.0000	0.0000	false		0	10	2.55		false
+teb_noble_retinue	10	0	28	12	1.0000	lance	spear		1	1.0000	1.0000	0.0000	false		0	10	2.55		false
 teb_parravon	17	0	6	18	1.0000	spear	halberd		1	1.0000	1.0000	0.0000	false		0	10	2.8		false
 teb_piggolo	0	0	95	225	5.0000	axe	creatures_claws	medium	4	1.0000	0.7500	0.0000	false		0	10	2.0		false
 teb_pike	20	0	18	8	3.0000	spear	spear		1	1.0000	1.0000	0.0000	false		0	10	2.0		false
