@@ -206,7 +206,7 @@ def tsv_to_faction_data(
         df_character_skill_node_set_items (pd.DataFrame): Skill node items data.
         df_character_skill_node_sets (pd.DataFrame): Skill node sets data.
         df_character_skill_nodes (pd.DataFrame): Skill nodes data.
-        default_faction (str): Fallback faction if none detected.
+        default_faction (str): Fallback faction if none detected. Can be comma-delimited list.
         do_not_use_underscore_pattern (bool): Disable underscore pattern matching.
         
     Returns:
@@ -232,11 +232,16 @@ def tsv_to_faction_data(
         # Iterate over each unit row in the DataFrame
         for _, row in df_main_units_tables.iterrows():
             if default_faction:
-                _, faction_value = default_faction, default_faction
+                # Handle comma-delimited faction list
+                if "," in default_faction:
+                    faction_values = [faction.strip() for faction in default_faction.split(",")]
+                else:
+                    faction_values = [default_faction]
             elif do_not_use_underscore_pattern:
                 faction_key, faction_value = next(
                     ((key, faction[key]) for faction in faction_keys for key in faction if f"{key}" in row["land_unit"]), (None, None)
                 )
+                faction_values = [faction_value] if faction_value else []
             else:
                 faction_key, faction_value = next(
                     (
@@ -247,101 +252,108 @@ def tsv_to_faction_data(
                     ),
                     (None, None),
                 )
-            if faction_value is None:
-                logging.warning(f"No valid faction key found for land unit '{row['land_unit']}' for faction_key: {faction_key}")
+                faction_values = [faction_value] if faction_value else []
+            
+            if not faction_values or all(faction_value is None for faction_value in faction_values):
+                logging.warning(f"No valid faction key found for land unit '{row['land_unit']}'")
                 continue
 
-            # Check if the extracted faction key is in any of the dictionaries in faction_keys
-            if not any(faction_value in faction_dict for faction_dict in faction_keys):
-                logging.warning(f"Faction key '{faction_value}' not recognized for land unit '{row['land_unit']}'")
-                continue
+            # Process the unit for each faction
+            for faction_value in faction_values:
+                if faction_value is None:
+                    continue
+                    
+                # Check if the extracted faction key is in any of the dictionaries in faction_keys
+                if not any(faction_value in faction_dict for faction_dict in faction_keys):
+                    logging.warning(f"Faction key '{faction_value}' not recognized for land unit '{row['land_unit']}'")
+                    continue
 
-            logging.info(f"Processing {row['land_unit']} for faction {faction_value}...")
+                logging.info(f"Processing {row['land_unit']} for faction {faction_value}...")
 
-            # Initialize the faction and tier if they don't exist.
-            if faction_value not in factions_data:
-                factions_data[faction_value] = {"units": {"tier_0": {}, "tier_1": {}, "tier_2": {}, "tier_3": {}, "tier_4": {}, "tier_5": {}}}
-                # Initialize categories within each tier
-                for tier in factions_data[faction_value]["units"]:
-                    factions_data[faction_value]["units"][tier] = {
-                        "melee_infantry": [],
-                        "missile_infantry": [],
-                        "melee_cavalry": [],
-                        "missile_cavalry": [],
-                        "monstrous_infantry": [],
-                        "monstrous_cavalry": [],
-                        "chariot": [],
-                        "warmachine": [],
-                        "war_beast": [],
-                        "monster": [],
-                        "generic": [],
-                        "lord": [],
-                        "hero": [],
-                    }
-
-            # Save the unit data.
-            tier = f"tier_{int(row['tier'])}"
-            caste_category = row["caste"]
-            if caste_category in factions_data[faction_value]["units"][tier]:
-                # Save lords and heroes into their own lists.
-                if caste_category != "lord" and caste_category != "hero":
-                    factions_data[faction_value]["units"][tier][caste_category].append(
-                        {
-                            "land_unit": row["land_unit"],
-                            "recruitment_cost": int(row["recruitment_cost"]),
-                            "multiplayer_cost": int(row["multiplayer_cost"]),
-                            "origin": mod["package_name"].replace(".pack", ""),
+                # Initialize the faction and tier if they don't exist.
+                if faction_value not in factions_data:
+                    factions_data[faction_value] = {"units": {"tier_0": {}, "tier_1": {}, "tier_2": {}, "tier_3": {}, "tier_4": {}, "tier_5": {}}}
+                    # Initialize categories within each tier
+                    for tier in factions_data[faction_value]["units"]:
+                        factions_data[faction_value]["units"][tier] = {
+                            "melee_infantry": [],
+                            "missile_infantry": [],
+                            "melee_cavalry": [],
+                            "missile_cavalry": [],
+                            "monstrous_infantry": [],
+                            "monstrous_cavalry": [],
+                            "chariot": [],
+                            "warmachine": [],
+                            "war_beast": [],
+                            "monster": [],
+                            "generic": [],
+                            "lord": [],
+                            "hero": [],
                         }
-                    )
 
-                # Check if the unit key is in the allowed_lords field.
-                if (
-                    "character_overrides" in mod 
-                    and faction_value in mod["character_overrides"] 
-                ):
-                    for key_substring in ["lords", "heroes"]:
-                        if f"allowed_{key_substring}" not in factions_data[faction_value]:
-                            factions_data[faction_value][f"allowed_{key_substring}"] = []
-                        
-                        if f"allowed_{key_substring}" in mod["character_overrides"][faction_value]:
-                            for allowed_object in mod["character_overrides"][faction_value][f"allowed_{key_substring}"]:
-                                if row["land_unit"] == allowed_object["land_unit"]:
-                                    logging.info(f"Adding {row['land_unit']} to allowed_{key_substring} for faction {faction_value}.")
-                                    new_allowed_object = {
-                                        "land_unit": allowed_object["land_unit"],
-                                        "agent_subtype": allowed_object["agent_subtype"],
-                                        "origin": mod["package_name"].replace(".pack", ""),
-                                        "skill_overrides": [],
-                                    }
-                                    
-                                    # Use the character_skill_node_sets_tables to grab key by referencing its agent_subtype_key with the agent_subtype from the allowed_object.
-                                    agent_subtype = allowed_object["agent_subtype"]
-                                    df_character_skill_node_sets_key = df_character_skill_node_sets.loc[df_character_skill_node_sets["agent_subtype_key"] == agent_subtype, "key"].values[0]
-                                    
-                                    # Inside character_skill_node_set_items_tables, all skill rows for a character belong to a set which is the key from the previous step.
-                                    df_character_skill_node_set_items_skills = df_character_skill_node_set_items.loc[df_character_skill_node_set_items["set"] == df_character_skill_node_sets_key, "item"].values
-                                    
-                                    # Now from each skill row, grab all the skill keys from character_skill_nodes_tables by referencing the key column and then grabbing the value from the character_skill_key column.
-                                    skills = []
-                                    try:
-                                        for skill_node in df_character_skill_node_set_items_skills:
-                                            skill_node_skill_key = df_character_skill_nodes.loc[df_character_skill_nodes["key"] == skill_node, "character_skill_key"].values[0]
-                                            skills.append(skill_node_skill_key)
-                                    except:
-                                        pass
-                                    
-                                    # Save the skills.
-                                    new_allowed_object["skill_overrides"] = skills
-                                    
-                                    # Check if the agent_subtype for heroes is in the df_agent_permitted_subtypes DataFrame.
-                                    if new_allowed_object["agent_subtype"] in df_faction_agent_permitted_subtypes["subtype"].values:
-                                        # Retrieve the corresponding agent value.
-                                        agent_value = df_faction_agent_permitted_subtypes.loc[
-                                            df_faction_agent_permitted_subtypes["subtype"] == new_allowed_object["agent_subtype"], "agent"
-                                        ].values[0]
-                                        new_allowed_object["agent_type"] = agent_value
-                                    
-                                    factions_data[faction_value][f"allowed_{key_substring}"].append(new_allowed_object)
+                # Save the unit data.
+                tier = f"tier_{int(row['tier'])}"
+                caste_category = row["caste"]
+                if caste_category in factions_data[faction_value]["units"][tier]:
+                    # Save lords and heroes into their own lists.
+                    if caste_category != "lord" and caste_category != "hero":
+                        factions_data[faction_value]["units"][tier][caste_category].append(
+                            {
+                                "land_unit": row["land_unit"],
+                                "recruitment_cost": int(row["recruitment_cost"]),
+                                "multiplayer_cost": int(row["multiplayer_cost"]),
+                                "origin": mod["package_name"].replace(".pack", ""),
+                            }
+                        )
+
+                    # Check if the unit key is in the allowed_lords field.
+                    if (
+                        "character_overrides" in mod 
+                        and faction_value in mod["character_overrides"] 
+                    ):
+                        for key_substring in ["lords", "heroes"]:
+                            if f"allowed_{key_substring}" not in factions_data[faction_value]:
+                                factions_data[faction_value][f"allowed_{key_substring}"] = []
+                            
+                            if f"allowed_{key_substring}" in mod["character_overrides"][faction_value]:
+                                for allowed_object in mod["character_overrides"][faction_value][f"allowed_{key_substring}"]:
+                                    if row["land_unit"] == allowed_object["land_unit"]:
+                                        logging.info(f"Adding {row['land_unit']} to allowed_{key_substring} for faction {faction_value}.")
+                                        new_allowed_object = {
+                                            "land_unit": allowed_object["land_unit"],
+                                            "agent_subtype": allowed_object["agent_subtype"],
+                                            "origin": mod["package_name"].replace(".pack", ""),
+                                            "skill_overrides": [],
+                                        }
+                                        
+                                        # Use the character_skill_node_sets_tables to grab key by referencing its agent_subtype_key with the agent_subtype from the allowed_object.
+                                        agent_subtype = allowed_object["agent_subtype"]
+                                        df_character_skill_node_sets_key = df_character_skill_node_sets.loc[df_character_skill_node_sets["agent_subtype_key"] == agent_subtype, "key"].values[0]
+                                        
+                                        # Inside character_skill_node_set_items_tables, all skill rows for a character belong to a set which is the key from the previous step.
+                                        df_character_skill_node_set_items_skills = df_character_skill_node_set_items.loc[df_character_skill_node_set_items["set"] == df_character_skill_node_sets_key, "item"].values
+                                        
+                                        # Now from each skill row, grab all the skill keys from character_skill_nodes_tables by referencing the key column and then grabbing the value from the character_skill_key column.
+                                        skills = []
+                                        try:
+                                            for skill_node in df_character_skill_node_set_items_skills:
+                                                skill_node_skill_key = df_character_skill_nodes.loc[df_character_skill_nodes["key"] == skill_node, "character_skill_key"].values[0]
+                                                skills.append(skill_node_skill_key)
+                                        except:
+                                            pass
+                                        
+                                        # Save the skills.
+                                        new_allowed_object["skill_overrides"] = skills
+                                        
+                                        # Check if the agent_subtype for heroes is in the df_agent_permitted_subtypes DataFrame.
+                                        if new_allowed_object["agent_subtype"] in df_faction_agent_permitted_subtypes["subtype"].values:
+                                            # Retrieve the corresponding agent value.
+                                            agent_value = df_faction_agent_permitted_subtypes.loc[
+                                                df_faction_agent_permitted_subtypes["subtype"] == new_allowed_object["agent_subtype"], "agent"
+                                            ].values[0]
+                                            new_allowed_object["agent_type"] = agent_value
+                                        
+                                        factions_data[faction_value][f"allowed_{key_substring}"].append(new_allowed_object)
     except Exception as e:
         FAILED_MODS.append(mod["package_name"])
         logging.exception(e)
