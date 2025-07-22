@@ -1,0 +1,6 @@
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/!!!gra_holy_orders
+mnt_barded_warhorse_brt_knights_hospital		mnt_barded_warhorse_brt_knights_hospital	hr1\brt\brt_horse\imposter\brt_horse_armoured_random_colours_imposter	1.0000	1.0000	0.0500	
+mnt_barded_warhorse_brt_knights_lazarite		mnt_barded_warhorse_brt_knights_lazarite	hr1\brt\brt_horse\imposter\brt_horse_armoured_random_colours_imposter	1.0000	1.0000	0.0500	
+mnt_barded_warhorse_brt_knights_sepulchre		mnt_barded_warhorse_brt_knights_sepulchre	hr1\brt\brt_horse\imposter\brt_horse_armoured_random_colours_imposter	1.0000	1.0000	0.0500	
+mnt_barded_warhorse_brt_knights_temple		mnt_barded_warhorse_brt_knights_temple	hr1\brt\brt_horse\imposter\brt_horse_armoured_random_colours_imposter	1.0000	1.0000	0.0500	

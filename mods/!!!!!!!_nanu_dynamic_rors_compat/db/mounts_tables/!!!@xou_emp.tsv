@@ -1,0 +1,4 @@
+key	animation	entity	audio_armour_type	variant	voiceover
+#mounts_tables;10;db/mounts_tables/!!!@xou_emp
+emp_cav_knight_north_star	hr1_warhorse	wh_main_cavalry_slow_blood	plate	emp_cav_knight_north_star_warhorse	wh_main_vo_culture_Horse
+snek_wh_mount_iron_colossus	gi2_emp_iron_colossus	snek_iron_colossus	body	emp_iron_colossus	vo_culture_Invalid

@@ -1,0 +1,4 @@
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/!!!MAMMOTH_Mods
+chonky_nor_mon_war_mammoth_1	variantmeshes/wh_variantmodels/hq3/nor/chonky_nor_war_mammoth/tech	chonky_nor_war_mammoth_mount		1.0000	1.4000	0.0000	
+zerg_nor_heavy_warshine_mammoth	VariantMeshes/wh_variantmodels/hq3/nor/nor_war_mammoth/tech	zerg_nor_heavy_warshine_mammoth		1.0000	1.2000	0.0000	

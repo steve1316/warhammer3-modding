@@ -1,0 +1,6 @@
+key	close_formation_spacing_horizontal	close_formation_spacing_variation	close_formation_spacing_vertical	dismounted_close_formation_spacing_horizontal	dismounted_close_formation_spacing_variation	dismounted_close_formation_spacing_vertical	dismounted_loose_formation_spacing_horizontal	dismounted_loose_formation_spacing_variation	dismounted_loose_formation_spacing_vertical	loose_formation_spacing_horizontal	loose_formation_spacing_variation	loose_formation_spacing_vertical	routing_space_variation	is_chaotic_formation	testudo_horizontal_spacing	testudo_vertical_spacing	shield_wall_horizontal_spacing	shield_wall_vertical_spacing
+#unit_spacings_tables;7;db/unit_spacings_tables/!!!froeb_dark_land_orcs
+frb_dark_land_bulwarks	4.0000	1.0000	4.0000	1.0000	1.0000	1.0000	1.0000	1.0000	1.0000	2.8000	0.0000	2.0000	3.0000	false	0.8500	1.0000	0.8500	0.8500
+frb_dark_land_orc_boyz	2.3000	0.9000	2.3000	1.0000	0.0000	1.0000	1.0000	0.0000	1.0000	2.0000	0.0000	2.0000	3.0000	false	0.8500	1.0000	0.8500	0.8500
+frb_dark_land_orc_boyz_big_uns	2.6000	0.7500	2.6000	1.0000	0.0000	1.0000	1.0000	0.0000	1.0000	2.0000	0.0000	2.0000	3.0000	false	0.8500	1.0000	0.8500	0.8500
+frb_scrap_shooters	3.2000	0.8000	3.2000	1.0000	0.0000	1.0000	1.0000	0.0000	1.0000	2.0000	0.0000	2.0000	3.0000	false	0.8500	1.0000	0.8500	0.8500

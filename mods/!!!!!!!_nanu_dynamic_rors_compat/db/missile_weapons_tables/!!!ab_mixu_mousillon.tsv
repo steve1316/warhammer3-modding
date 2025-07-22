@@ -1,0 +1,5 @@
+key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
+#missile_weapons_tables;11;db/missile_weapons_tables/!!!ab_mixu_mousillon
+mixu_msl_brigades_crossbow	false	mixu_msl_brigades_crossbow_bolt	crossbow	false
+mixu_msl_peasant_bowmen_balefire	false	mixu_msl_peasant_bowmen_balefire	bow	false
+mixu_msl_squires_bow	false	mixu_msl_squires_bow	bow	false

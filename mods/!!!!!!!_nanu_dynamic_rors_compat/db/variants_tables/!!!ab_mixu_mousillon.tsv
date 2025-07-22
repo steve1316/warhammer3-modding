@@ -1,0 +1,5 @@
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/!!!ab_mixu_mousillon
+mixu_msl_hellsteed		vmp_hellsteed		1.0000	1.0000	0.0500	
+mixu_msl_skeletal_steed	VariantMeshes\wh_variantmodels\hr1\brt\brt_horse\tech	msl_skeletal_steed		1.0000	1.0000	0.0500	
+msl_horse	VariantMeshes\wh_variantmodels\hr1\brt\brt_horse\tech	msl_horse		1.0000	1.0000	0.0500	

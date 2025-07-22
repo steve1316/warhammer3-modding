@@ -1,0 +1,4 @@
+key	animation	entity	audio_armour_type	variant	voiceover
+#mounts_tables;10;db/mounts_tables/!!!MAMMOTH_Mods
+chonky_nor_mon_war_mammoth_mount	hq3_chonky_mammoth	wh_dlc08_nor_mon_mammoth_howdah_blood_Chonky	body	chonky_nor_mon_war_mammoth_1	vo_culture_Invalid
+zerg_nor_heavy_warshine_mammoth	hq3_mammoth_warshrine	zerg_heavy_war_shrine_mammoth_entity	body	zerg_nor_heavy_warshine_mammoth	vo_culture_Invalid

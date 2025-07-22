@@ -1,0 +1,4 @@
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/!!!@xou_emp
+emp_cav_knight_north_star_warhorse		xou_nordland/emp_cav_knight_north_star_warhorse	hr1\emp\emp_warhorse_armoured\low_poly\emp_horse_armoured_lowlod	1.0000	1.0000	0.0500	
+emp_iron_colossus	VariantMeshes\wh_variantmodels\gi2\cst\cst_necrofex_colossus\tech	xou_wissenland\emp_iron_colossus		1.0000	1.0000	0.0000	

@@ -1,0 +1,4 @@
+key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
+#missile_weapons_tables;11;db/missile_weapons_tables/!!!shun_cth_unitpack
+cth_onna_bushi_bow	false	bushi_bow	bow	false
+shun_matchlock_rifle	false	shun_matchlock_sam	iron_hail_gunner	false

@@ -1,0 +1,7 @@
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/!!!The_Gunpowder_Road2.
+cth_juma_zhendi		cth_juma_zhendi		1.0000	1.0000	0.0000	
+cth_ogr_mount		cth_ogr_mount		1.0000	1.0000	0.0500	
+wh3_main_cth_juma		cth_juma		1.0000	1.0000	0.0000	
+wh3_main_cth_juma_dunpai		cth_juma_dunpai		1.0000	1.0000	0.0000	
+wh3_main_cth_juma_mu		cth_juma_mu		1.0000	1.0000	0.0000	

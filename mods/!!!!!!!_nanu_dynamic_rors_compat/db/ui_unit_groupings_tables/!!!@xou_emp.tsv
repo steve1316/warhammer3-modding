@@ -1,0 +1,8 @@
+key	icon	parent_group
+#ui_unit_groupings_tables;1;db/ui_unit_groupings_tables/!!!@xou_emp
+infantry_hammer	emp_infantry_hammer	infantry
+reiksguard_cav	shock_cavalry	reiksguard
+reiksguard_inf_axe	infantry_axe	reiksguard
+reiksguard_inf_gsword	infantry_sword_great	reiksguard
+reiksguard_inf_halberd	infantry_spear_halberd	reiksguard
+reiksguard_inf_sword	infantry_sword	reiksguard
