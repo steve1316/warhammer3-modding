@@ -1,6 +1,17 @@
 """Script to update the dynamic RORs for Nanu from the Steam Workshop to account for latest changes to modded data tables."""
 
-from utilities import extract_tsv_data, load_tsv_data, extract_modded_tsv_data, load_multiple_tsv_data, write_updated_tsv_file, sort_tsv_data, merge_move, cleanup_folders
+from utilities import (
+    extract_tsv_data,
+    read_and_clean_tsv,
+    load_tsv_data,
+    extract_modded_tsv_data,
+    load_multiple_tsv_data,
+    write_updated_tsv_file,
+    sort_tsv_data,
+    merge_move,
+    cleanup_folders,
+    extract_model_paths_from_variantmeshdefinition,
+)
 from supported_mods import SUPPORTED_MODS
 from dynamic_rors_effects import SUPPORTED_EFFECTS
 import time
@@ -10,6 +21,7 @@ import logging
 from typing import Dict, Any, List
 import gc
 import re
+import shutil
 import argparse
 
 
@@ -476,6 +488,7 @@ if __name__ == "__main__":
     # Ensure all folders are cleaned up before the script starts if they exist.
     cleanup_folders([
         "./vanilla_unit_purchasable_effect_sets_tables",
+        "./vanilla_mounts_tables",
         "./modded_units_to_groupings_military_permissions_tables",
         "./modded_land_units_tables",
         "./modded_main_units_tables",
@@ -498,12 +511,15 @@ if __name__ == "__main__":
         "./modded_ui_unit_groupings_tables",
         "./modded_ui_unit_group_parents_tables",
         "./modded_variants_tables",
+        "./modded_variantmeshes",
     ])
 
     try:
-        # Extract the vanilla unit_purchasable_effect_sets_tables data.
+        # Extract the vanilla unit_purchasable_effect_sets_tables and mounts_tables data.
         extract_tsv_data("unit_purchasable_effect_sets_tables")
         _, vanilla_unit_purchasable_effect_sets_tables_headers, vanilla_unit_purchasable_effect_sets_tables_version_info = load_tsv_data("vanilla_unit_purchasable_effect_sets_tables/db/unit_purchasable_effect_sets_tables/data__.tsv")
+        extract_tsv_data("mounts_tables")
+        vanilla_mounts_tables_dataframe = read_and_clean_tsv("vanilla_mounts_tables/db/mounts_tables/data__.tsv", "mounts_tables")
 
         # Define table configurations for extraction.
         table_configs = [
@@ -554,6 +570,21 @@ if __name__ == "__main__":
             table_data = extract_and_load_table_data(mod["path"], table_configs)
             if table_data is None:
                 continue
+
+            # Extract the variantmeshes/variantmeshdefinitions folder if it exists.
+            variant_mesh_definitions_to_add = []
+            variant_mesh_models_to_add = []
+            subprocess.run([
+                "./rpfm_cli.exe",
+                "--game",
+                "warhammer_3",
+                "pack",
+                "extract",
+                "--pack-path",
+                mod["path"],
+                "--folder-path",
+                "variantmeshes;./modded_variantmeshes",
+            ], capture_output=True)
 
             # Load required tables into separate mappings.
             units_to_factions_mapping = {}
@@ -635,7 +666,12 @@ if __name__ == "__main__":
                                 if mount_battle_entity and mount_battle_entity in table_data["battle_entities_tables"]:
                                     new_data["battle_entities"].append(table_data["battle_entities_tables"][mount_battle_entity])
                                 if mount_data.get("variant") and mount_data["variant"] in table_data["variants_tables"]:
-                                    new_data["variants"].append(table_data["variants_tables"][mount_data["variant"]])
+                                    variant_data = table_data["variants_tables"][mount_data["variant"]]
+                                    new_data["variants"].append(variant_data)
+
+                                    # Add the variantmeshdefinition for this mount if it exists. This applies to vanilla mounts only.
+                                    if mount_data.get("key") in vanilla_mounts_tables_dataframe.key.values and variant_data.get("variant_filename") and os.path.exists(f"./modded_variantmeshes/variantmeshes/variantmeshdefinitions/{variant_data['variant_filename']}.variantmeshdefinition"):
+                                        variant_mesh_definitions_to_add.append(f"./modded_variantmeshes/variantmeshes/variantmeshdefinitions/{variant_data['variant_filename']}.variantmeshdefinition")
                             if data.get("primary_melee_weapon") and data["primary_melee_weapon"] in table_data["melee_weapons_tables"]:
                                 melee_weapon_data = table_data["melee_weapons_tables"][data["primary_melee_weapon"]]
                                 new_data["melee_weapons"].append(melee_weapon_data)
@@ -765,6 +801,22 @@ if __name__ == "__main__":
                             )
                             tables_to_sort.append(f"./!!!!!!!_nanu_dynamic_rors_compat/db/{table_name}")
 
+                            # Add the variantmeshdefinition for mounts if available.
+                            if table_name == "mounts_tables" and variant_mesh_definitions_to_add:
+                                for variant_mesh_definition in variant_mesh_definitions_to_add:
+                                    os.makedirs(f"./!!!!!!!_nanu_dynamic_rors_compat/variantmeshes/variantmeshdefinitions", exist_ok=True)
+                                    try:
+                                        shutil.move(variant_mesh_definition, f"./!!!!!!!_nanu_dynamic_rors_compat/variantmeshes/variantmeshdefinitions/{os.path.basename(variant_mesh_definition)}")
+                                        mesh_model_paths = extract_model_paths_from_variantmeshdefinition(f"./!!!!!!!_nanu_dynamic_rors_compat/variantmeshes/variantmeshdefinitions/{os.path.basename(variant_mesh_definition)}")
+                                        for mesh_model_path in mesh_model_paths:
+                                            if os.path.exists(f"./!!!!!!!_nanu_dynamic_rors_compat/variantmeshes/wh_variantmodels/{mesh_model_path}"):
+                                                os.remove(f"./!!!!!!!_nanu_dynamic_rors_compat/variantmeshes/wh_variantmodels/{mesh_model_path}")
+                                            os.makedirs("./!!!!!!!_nanu_dynamic_rors_compat/variantmeshes/wh_variantmodels", exist_ok=True)
+                                            shutil.move(f"./modded_variantmeshes/variantmeshes/wh_variantmodels/{mesh_model_path}", f"./!!!!!!!_nanu_dynamic_rors_compat/variantmeshes/wh_variantmodels/{mesh_model_path}")
+                                    except FileNotFoundError:
+                                        logging.error(f"variantmeshdefinition not found: {variant_mesh_definition}.")
+                                        pass
+
                 # After writing is complete, sort the required and optional tables.
                 for table_path in tables_to_sort:
                     sort_tsv_data(
@@ -796,6 +848,7 @@ if __name__ == "__main__":
                 "./modded_ui_unit_groupings_tables",
                 "./modded_ui_unit_group_parents_tables",
                 "./modded_variants_tables",
+                "./modded_variantmeshes",
             ])
 
             # Clear the data list from memory to avoid accessing old data in the next iteration.
@@ -864,18 +917,6 @@ if __name__ == "__main__":
         "variants_tables",
     ]:
         if os.path.exists(f"../mods/!!!!!!!_nanu_dynamic_rors_compat/db/{folder_name}"):
-            subprocess.run([
-                "./rpfm_cli.exe", 
-                "--game", 
-                "warhammer_3", 
-                "pack",
-                "delete",
-                "--pack-path",
-                r"C:\SteamLibrary\steamapps\workshop\content\1142710\3513364573\!!!!!!!_nanu_dynamic_rors_compat.pack",
-                "--folder-path",
-                f"db/{folder_name}"
-            ])
-
             # Then merge the updated mod files into the packfile.
             subprocess.run([
                 "./rpfm_cli.exe",
@@ -889,10 +930,24 @@ if __name__ == "__main__":
                 "./schemas/schema_wh3.ron",
                 "--folder-path",
                 f"../mods/!!!!!!!_nanu_dynamic_rors_compat/db/{folder_name};db/{folder_name}"
-            ])
+            ], capture_output=True)
+            if folder_name == "mounts_tables" and os.path.exists("../mods/!!!!!!!_nanu_dynamic_rors_compat/variantmeshes/variantmeshdefinitions"):
+                subprocess.run([
+                    "./rpfm_cli.exe",
+                    "--game",
+                    "warhammer_3",
+                    "pack",
+                    "add",
+                    "--pack-path",
+                    r"C:\SteamLibrary\steamapps\workshop\content\1142710\3513364573\!!!!!!!_nanu_dynamic_rors_compat.pack",
+                    "--tsv-to-binary",
+                    "./schemas/schema_wh3.ron",
+                    "--folder-path",
+                    f"../mods/!!!!!!!_nanu_dynamic_rors_compat/variantmeshes;variantmeshes"
+                ], capture_output=True)
 
     # Perform final cleanup of vanilla folders.
-    cleanup_folders(["./vanilla_unit_purchasable_effect_sets_tables"])
+    cleanup_folders(["./vanilla_unit_purchasable_effect_sets_tables", "./vanilla_mounts_tables"])
 
     if MISSING_MODS:
         logging.info(f"Missing mods: {MISSING_MODS}")
