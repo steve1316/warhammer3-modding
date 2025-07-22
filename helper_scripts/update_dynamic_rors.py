@@ -677,7 +677,7 @@ if __name__ == "__main__":
                                 new_data["melee_weapons"].append(melee_weapon_data)
 
                                 # Use the entry from melee_weapons_tables if available to get the entry from projectiles_scaling_damages_tables.
-                                if melee_weapon_data["scaling_damage"]:
+                                if melee_weapon_data.get("scaling_damage"):
                                     new_data["projectiles_scaling_damages"].append(table_data["projectiles_scaling_damages_tables"][melee_weapon_data["scaling_damage"]])
 
                             if data.get("primary_missile_weapon") and data["primary_missile_weapon"] in table_data["missile_weapons_tables"]:
@@ -687,7 +687,7 @@ if __name__ == "__main__":
                                 # Use the entry from missile_weapons_tables if available to get the entries from the following tables.
                                 if missile_weapon_data.get("default_projectile") and missile_weapon_data["default_projectile"] in table_data["projectiles_tables"]:
                                     new_data["projectiles"].append(table_data["projectiles_tables"][missile_weapon_data["default_projectile"]])
-                                    if table_data["projectiles_tables"][missile_weapon_data["default_projectile"]]["spawned_vortex"] and table_data["projectiles_tables"][missile_weapon_data["default_projectile"]]["spawned_vortex"] in table_data["battle_vortexs_tables"]:
+                                    if table_data["projectiles_tables"][missile_weapon_data["default_projectile"]].get("spawned_vortex") and table_data["projectiles_tables"][missile_weapon_data["default_projectile"]]["spawned_vortex"] in table_data["battle_vortexs_tables"]:
                                         new_data["battle_vortexs"].append(table_data["battle_vortexs_tables"][table_data["projectiles_tables"][missile_weapon_data["default_projectile"]]["spawned_vortex"]])
                                     if table_data["projectiles_tables"][missile_weapon_data["default_projectile"]].get("projectile_shot_type_display") and table_data["projectiles_tables"][missile_weapon_data["default_projectile"]]["projectile_shot_type_display"] in table_data["projectile_shot_type_displays_tables"]:
                                         new_data["projectile_shot_type_displays"].append(table_data["projectile_shot_type_displays_tables"][table_data["projectiles_tables"][missile_weapon_data["default_projectile"]]["projectile_shot_type_display"]])
