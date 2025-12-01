@@ -12,7 +12,7 @@ goblin_big_boss_gigantic_spider	8	0	170	200	4.0000	spear	spear	medium	5	1.0000	1
 gorbad_bodyguard	0	0	40	152	2.0000	spear	spear	medium	2	1.0000	0.7500	0.0000	false		0	10	2.1		false
 greasus_stonehorn	0	20	135	455	6.0000	axe	axe	medium	8	1.0000	1.2500	0.0000	true		4	2	1.9		false
 grimgor_immotulz	0	0	60	140	2.0000	axe	axe	medium	2	1.0000	1.0000	0.0000	false		0	10	1.9		false
-grimgor_rogue_idol_fist	0	0	200	500	7.0000	axe	club_huge	large	8	1.7000	1.2500	0.0000	false		6	6	1.9		false
+grimgor_rogue_idol_fist	0	0	200	500	7.0000	axe	axe_huge	large	8	1.7000	1.2500	0.0000	false		6	6	1.9		false
 grimgor_stonehorn	0	20	155	405	6.0000	axe	axe	medium	8	1.0000	1.2500	0.0000	false		4	2	1.9		false
 harald_hammerstorm_mkho_juggernaut	0	0	100	450	6.0000	axe	hammer_huge	medium	8	1.8000	1.0000	0.0000	false		0	10	1.9		false
 isabella_varghulf	0	0	195	305	5.0000	axe	axe	medium	6	1.2000	1.2500	0.0000	false		0	10	1.45		false

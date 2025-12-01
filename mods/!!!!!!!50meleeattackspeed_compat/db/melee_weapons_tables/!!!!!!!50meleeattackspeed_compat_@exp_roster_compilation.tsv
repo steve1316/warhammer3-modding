@@ -20,6 +20,8 @@ dec_savage_giant_club	0	0	190	485	5.0000	axe	club_huge	large	10	1.8000	1.2500	0.
 dec_savage_orc_spear	10	0	25	7	2.0000	spear	spear		1	1.0000	0.7500	0.0000	false		0	10	2.25		false
 dec_spirit_host	0	0	0	28	1.0000	knife	creatures_claws		0	1.0000	0.7500	0.0000	false	wh_dlc08_unit_contact_frostbite	0	10	2.0		false
 dec_tower_masters	0	0	24	44	1.0000	sword	sword	medium	1	0.8000	0.7500	0.0000	true		0	10	2.0		false
+deco_avelorn_maidens	0	0	22	10	1.0000	sword	sword		1	1.0000	0.7500	0.0000	true		0	10	2.15		false
+deco_bladelords	0	14	25	60	1.0000	sword	sword		1	1.0000	0.7500	1.0000	true		0	10	2.15		false
 deco_chd_acolytes	26	0	15	40	2.0000	spear	halberd		1	1.0000	0.5000	0.0000	true		0	10	2.15		false
 deco_chd_bull_centaur_lord	0	30	150	335	5.0000	axe	axe_2h	medium	5	2.0000	1.2500	0.0000	false		0	10	2.0		false
 deco_chd_hobgoblin_great_khan	0	0	250	125	3.0000	spear	spear	medium	5	1.0000	1.0000	0.0000	false		0	10	2.0		false
@@ -29,8 +31,13 @@ deco_chd_ogre_slaves	0	0	59	21	3.0000	sword	sword_medium	medium	3	1.0000	0.7500	
 deco_chd_siege_giant	0	0	250	450	6.0000	axe	club_huge	large	11	1.7000	2.0000	0.0000	false		0	10	2.0		false
 deco_chd_zealots	0	12	32	16	1.0000	axe	axe		1	0.3000	1.0000	0.0000	false		0	10	2.15		false
 deco_doom_prophets	0	0	68	28	2.0000	sword	hammer	medium	3	1.4000	0.7500	10.0000	false	wh_dlc06_unit_contact_sundered_armour	0	10	2.0		false
+deco_dryads_willow	0	0	32	4	2.0000	axe	creatures_tiny		1	1.0000	0.7500	0.0000	true		0	10	2.1		false
 deco_forest_goblin_spears	9	0	18	6	1.0000	spear	spear		1	1.0000	0.5000	0.0000	false	wh_main_unit_contact_poison	0	10	2.3		false
+deco_glade_knights	15	0	10	35	2.0000	spear	spear		1	1.0000	0.5000	0.0000	true		0	10	2.1		false
+deco_griffon_knights	0	0	80	200	8.0000	sword	creatures_claws	large	3	1.0000	0.7500	0.0000	false		0	3	2.0		false
 deco_hammerers_dual	0	8	36	12	1.0000	axe	hammer_dwarf		1	0.5000	1.0000	0.0000	true		0	10	2.15		false
+deco_handmaidens_torothal	0	0	25	10	1.0000	sword	sword		1	1.0000	0.7500	0.0000	false		0	10	2.15		false
+deco_high_helms	0	0	10	25	1.0000	lance	spear		1	1.0000	0.5000	0.0000	false	wh_dlc06_unit_contact_sundered_armour	0	10	2.5		false
 deco_knights_lynx	15	0	10	28	1.0000	lance	halberd	small	1	1.5000	0.5000	0.0000	false		0	10	2.4		false
 deco_nor_bondsmen	0	0	16	6	1.0000	axe	hammer		1	0.2000	0.5000	0.0000	false		0	10	2.25		false
 deco_nor_huskarls	0	0	33	12	1.0000	axe	axe		1	1.0000	1.0000	0.0000	false		0	10	1.9		false
@@ -44,6 +51,7 @@ deco_old_guard	0	0	15	45	2.0000	axe	axe_2h		1	1.0000	0.5000	0.0000	true		0	10	2.
 deco_prospectors	0	0	10	30	1.0000	axe	axe		1	1.0000	3.0000	0.0000	false		0	10	2.15		false
 deco_roadwardens	0	0	22	8	2.0000	lance	spear		1	1.0000	0.5000	0.0000	false		0	10	2.5		false
 deco_snotlings_weapon	0	0	13	2	1.0000	knife	club		1	1.0000	0.5000	0.0000	false		0	10	1.6		false
+deco_wildwood_wardens	0	15	25	65	1.0000	sword	sword		1	1.0000	0.7500	0.0000	true		0	10	2.15		false
 dwf_kou_dreadnaught	0	25	137	413	10.0000	axe	club_huge	very_large	15	1.2500	1.2500	0.0000	false		0	15	2.0		false
 grn_poop	0	5	16	8	0.0000	sword	sword		1	1.0000	1.0000	0.0000	false	wh_main_unit_contact_poison	0	10	2.0		false
 hill_goblins	10	0	20	10	2.0000	spear	spear		2	1.0000	0.7500	0.0000	false		0	10	2.0		false

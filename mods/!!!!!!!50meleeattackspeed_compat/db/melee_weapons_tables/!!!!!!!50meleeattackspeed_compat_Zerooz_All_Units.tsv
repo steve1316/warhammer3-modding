@@ -89,6 +89,10 @@ hef_inf_sea_master	0	0	26	14	1.0000	sword	sword		4	1.0000	1.0000	1.0000	true	wh2
 hef_inf_sword_master_of_phenix	0	15	30	25	3.0000	sword	sword		4	2.0000	1.2500	0.0000	false		0	10	2.0		false
 hef_inf_the_light_of_yvresse	25	0	0	50	3.0000	spear	sword	small	4	2.0000	1.2500	0.0000	true		0	10	2.1		false
 hef_mon_son_of_rahagra	0	10	16	34	1.0000	axe	axe	medium	3	1.0000	1.2500	0.0000	false	wh_main_unit_contact_poison	0	3	2.0		false
+kho_blood_maiden	20	0	52	86	2.0000	spear	spear	medium	3	1.0000	0.5000	1.0000	true		0	10	2.0		false
+kho_flesh_hound_knight	0	0	38	20	2.0000	spear	halberd	medium	3	1.0000	1.0000	0.0000	false		0	10	1.9		false
+kho_inf_exalted_eightbound	0	0	52	108	2.0000	axe	flail	small	5	0.5000	1.2500	0.0000	true	wh_dlc06_unit_contact_sundered_armour	0	10	2.0		false
+khorngors_dule_axe	0	16	30	18	2.0000	axe	axe		1	1.0000	1.0000	0.0000	false		0	10	2.0		false
 nur_cav_plague_cultist	0	0	21	7	2.0000	lance	spear		1	1.0000	0.7500	0.0000	false	wh_main_unit_contact_poison	0	10	2.5		false
 nur_inf_centigors_great_axe	8	0	10	28	2.0000	axe	axe		1	1.0000	0.7500	0.0000	false	unit_contact_deadly_corrosion	0	10	2.3		false
 nur_inf_centigors_throwing_axes	0	0	28	14	1.0000	axe	axe		1	1.0000	0.5000	0.0000	false	unit_contact_deadly_corrosion	0	10	2.1		false
@@ -104,6 +108,7 @@ ogr_leadbelchers_flame	0	0	65	30	3.0000	sword	sword_medium	medium	3	1.0000	1.250
 ogr_leadbelchers_longrange	0	0	65	30	3.0000	sword	sword_medium	medium	3	1.0000	1.2500	0.0000	false		0	10	2.0		false
 ogr_mon_rhinox_draft	0	0	30	60	4.0000	sword	axe	small	4	1.0000	1.2500	0.0000	false		0	10	2.15		false
 ogr_mon_stonehorn_wild	0	20	80	200	6.0000	sword	axe	medium	6	1.0000	3.5000	0.0000	false		4	2	1.9		false
+the_red_revelation_axe	0	0	35	12	2.0000	axe	flail	small	3	0.5000	1.2500	1.0000	false		0	10	2.0		false
 tza_cav_doom_tzaangors	0	0	16	32	2.0000	spear	halberd	medium	2	1.5000	1.0000	0.0000	true		0	10	2.4		false
 tza_cav_doom_tzaangors_archer	0	0	29	10	2.0000	axe	axe	medium	2	1.0000	0.7500	0.0000	true		0	10	2.2		false
 tza_inf_change_of_thousand_sons	0	0	38	24	2.0000	spear	halberd	medium	3	1.5000	1.0000	0.0000	true		0	10	2.3		false

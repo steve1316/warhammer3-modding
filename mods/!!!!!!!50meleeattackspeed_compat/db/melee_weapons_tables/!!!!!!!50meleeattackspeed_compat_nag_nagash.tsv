@@ -4,7 +4,7 @@ BAKnag_nagashi_guard_halb	20	0	10	22	2.0000	spear	halberd		4	1.0000	1.0000	0.000
 nag_bone_golems	0	8	60	30	2.0000	axe	club_medium	medium	5	1.1000	1.0000	0.0000	false		0	10	2.0		false
 nag_burning_dead_axes	0	6	30	9	1.0000	sword	sword		1	1.0000	1.0000	20.0000	true		0	10	2.0		false
 nag_doomed_legion_axe	0	10	34	14	1.0000	axe	axe		1	1.0000	1.2500	0.0000	true	wh2_pro08_unit_contact_dampen	0	10	1.9		false
-nag_kalledria_harp	0	10	220	20	3.0000	lance	dlc15_troll_hag_net	very_large	10	2.0000	1.0000	0.0000	true		0	10	2.25		false
+nag_kalledria_harp	0	10	0	240	3.0000	lance	dlc15_troll_hag_net	very_large	10	2.0000	1.0000	0.0000	true		0	10	2.25		false
 nag_morghasts	0	0	60	120	2.0000	axe	axe	medium	6	1.2000	1.0000	0.0000	false		0	10	2.0		false
 nag_nagash_boss	15	0	180	320	5.0000	sword	sword	large	7	1.0000	1.0000	0.0000	true		0	10	2.0		false
 nag_nagashi_doom_lance	0	0	15	38	0.0000	lance	spear		1	1.0000	0.7500	0.0000	true	wh_dlc08_unit_contact_frostbite	0	10	2.55		false
