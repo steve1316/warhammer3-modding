@@ -102,14 +102,14 @@ core:add_listener(
 -- Create sections for the new randomized encounter force generation and assign it to its own page.
 local randomized_encounter_force_generation_section = mct_mod:add_new_section("randomized_encounter_force_generation_section")
 randomized_encounter_force_generation_section:set_localised_text("Randomized Encounter Force Configuration (Beta)", true)
-randomized_encounter_force_generation_section:set_description("This section contains options to enable and customize the new randomized encounter force generation system. This also includes enabling compatibility with many mods.\n\nWill need to load the save again to take effect.")
+randomized_encounter_force_generation_section:set_description("This section contains options to enable and customize the new randomized encounter force generation system. This also includes enabling compatibility with many mods.\n\nYou do not need to load the save again for the changes to take effect.")
 local second_page = mct_mod:create_settings_page("Randomized Encounter Force Configuration (Beta)", 2)
 randomized_encounter_force_generation_section:assign_to_page(second_page)
 
 -- Create the checkbox to enable the new randomized encounter force generation system.
 local enable_randomized_encounter_force_generation_checkbox = mct_mod:add_new_option("enable_randomized_encounter_force_generation", "checkbox")
 enable_randomized_encounter_force_generation_checkbox:set_text("Enable Randomized Encounter Force Generation", true)
-enable_randomized_encounter_force_generation_checkbox:set_tooltip_text("When enabled, the new randomized encounter force generation will be enabled. Will need to load the save again to take effect.", true)
+enable_randomized_encounter_force_generation_checkbox:set_tooltip_text("When enabled, the new randomized encounter force generation will be enabled.", true)
 enable_randomized_encounter_force_generation_checkbox:set_is_global(true)
 enable_randomized_encounter_force_generation_checkbox:set_default_value(false)
 enable_randomized_encounter_force_generation_checkbox:set_assigned_section("randomized_encounter_force_generation_section")
@@ -117,7 +117,7 @@ enable_randomized_encounter_force_generation_checkbox:set_assigned_section("rand
 -- Create the checkbox to enable compatibility with supported mods defined in the shared/mct_settings.lua file.
 local enable_compatibility_with_supported_mods_checkbox = mct_mod:add_new_option("enable_compatibility_with_supported_mods", "checkbox")
 enable_compatibility_with_supported_mods_checkbox:set_text("Enable compatibility with supported mods", true)
-enable_compatibility_with_supported_mods_checkbox:set_tooltip_text("When enabled, the new randomized encounter force generation will use the supported mods. Refer to the \"Enabled Mods that are Supported\" section for the list. Will need to load the save again to take effect.", true)
+enable_compatibility_with_supported_mods_checkbox:set_tooltip_text("When enabled, the new randomized encounter force generation will use the supported mods. Refer to the Steam Workshop page for the list of supported mods.", true)
 enable_compatibility_with_supported_mods_checkbox:set_is_global(true)
 enable_compatibility_with_supported_mods_checkbox:set_default_value(false)
 enable_compatibility_with_supported_mods_checkbox:set_assigned_section("randomized_encounter_force_generation_section")
@@ -133,7 +133,7 @@ use_only_modded_units_checkbox:set_assigned_section("randomized_encounter_force_
 -- There are 3 difficulties. Create a dropdown to select the difficulty.
 local difficulty_dropdown = mct_mod:add_new_option("difficulty_dropdown", "dropdown")
 difficulty_dropdown:set_text("Select randomization difficulty", true)
-difficulty_dropdown:set_tooltip_text("Select the difficulty for the randomized encounter force generation. Note that this will be overridden by the basic progressive difficulty if enabled. Will need to load the save again to take effect.", true)
+difficulty_dropdown:set_tooltip_text("Select the difficulty for the randomized encounter force generation. Note that this will be overridden by the basic progressive difficulty if enabled.", true)
 difficulty_dropdown:add_dropdown_values({
     {key = "easy", text = "Easy"},
     {key = "medium", text = "Medium"},
@@ -152,7 +152,7 @@ enable_basic_progressive_difficulty_checkbox:set_assigned_section("randomized_en
 -- Create a slider to set the turn number at which the difficulty will start increasing.
 local turn_number_from_easy_to_medium_slider = mct_mod:add_new_option("turn_number_from_easy_to_medium_slider", "slider")
 turn_number_from_easy_to_medium_slider:set_text("Turn number at which difficulty increases from easy to medium", true)
-turn_number_from_easy_to_medium_slider:set_tooltip_text("Set the turn number at which the difficulty increase from easy to medium. Will need to load the save again to take effect.", true)
+turn_number_from_easy_to_medium_slider:set_tooltip_text("Set the turn number at which the difficulty increase from easy to medium.", true)
 turn_number_from_easy_to_medium_slider:set_is_global(true)
 turn_number_from_easy_to_medium_slider:slider_set_min_max(2, 50)
 turn_number_from_easy_to_medium_slider:slider_set_precision(1)
@@ -161,7 +161,7 @@ turn_number_from_easy_to_medium_slider:set_default_value(15)
 turn_number_from_easy_to_medium_slider:set_assigned_section("randomized_encounter_force_generation_section")
 local turn_number_from_medium_to_hard_slider = mct_mod:add_new_option("turn_number_from_medium_to_hard_slider", "slider")
 turn_number_from_medium_to_hard_slider:set_text("Turn number at which difficulty increases from medium to hard", true)
-turn_number_from_medium_to_hard_slider:set_tooltip_text("Set the turn number at which the difficulty increase from medium to hard. Will need to load the save again to take effect.", true)
+turn_number_from_medium_to_hard_slider:set_tooltip_text("Set the turn number at which the difficulty increase from medium to hard.", true)
 turn_number_from_medium_to_hard_slider:set_is_global(true)
 turn_number_from_medium_to_hard_slider:slider_set_min_max(3, 100)
 turn_number_from_medium_to_hard_slider:slider_set_precision(1)
@@ -368,7 +368,7 @@ local slider_data = {
 for _, difficulty in ipairs({"easy", "medium", "hard"}) do
     local difficulty_section = mct_mod:add_new_section("difficulty_" .. difficulty .. "_section")
     difficulty_section:set_localised_text("Randomization Difficulty Settings: " .. difficulty, true)
-    difficulty_section:set_description("This section contains options for the random generation difficulty.\n\nWill need to load the save again to take effect.", true)
+    difficulty_section:set_description("This section contains options for the random generation difficulty.\n\nYou do not need to load the save again for the changes to take effect.", true)
     difficulty_section:set_is_collapsible(true)
     difficulty_section:set_visibility(false)
     difficulty_section:assign_to_page(second_page)
@@ -433,7 +433,7 @@ faction_overrides_section:assign_to_page(second_page)
 -- Create checkboxes to enable/disable individual factions to be selected for the randomized encounter force generation.
 local enable_all_faction_checkboxes = mct_mod:add_new_option("enable_all_faction_checkboxes", "checkbox")
 enable_all_faction_checkboxes:set_text("Enable all factions", true)
-enable_all_faction_checkboxes:set_tooltip_text("When enabled, all factions will be allowed for the randomized encounter force generation. Will need to load the save again to take effect.", true)
+enable_all_faction_checkboxes:set_tooltip_text("When enabled, all factions will be allowed for the randomized encounter force generation.", true)
 enable_all_faction_checkboxes:set_is_global(true)
 enable_all_faction_checkboxes:set_default_value(true)
 enable_all_faction_checkboxes:set_assigned_section("faction_overrides_section")
@@ -444,7 +444,7 @@ for _, faction in ipairs(get_faction_mapping()) do
     local key = "faction_" .. faction.key
     local checkbox = mct_mod:add_new_option(key, "checkbox")
     checkbox:set_text(faction.text, true)
-    checkbox:set_tooltip_text("Enable this faction for the randomized encounter force generation. Will need to load the save again to take effect.", true)
+    checkbox:set_tooltip_text("Enable this faction for the randomized encounter force generation.", true)
     checkbox:set_is_global(true)
     checkbox:set_default_value(true)
     checkbox:set_assigned_section("faction_overrides_section")
