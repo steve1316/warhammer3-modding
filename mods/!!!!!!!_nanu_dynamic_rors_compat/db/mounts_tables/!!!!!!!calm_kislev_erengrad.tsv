@@ -1,0 +1,5 @@
+key	animation	entity	audio_armour_type	variant	voiceover
+#mounts_tables;10;db/mounts_tables/!!!!!!!calm_kislev_erengrad
+calm_cannon_sled_horse	hr1_warhorse_draught	calm_cannon_horse	body	calm_erengrad_horse_draught	wh_main_vo_culture_Horse
+calm_horse_light	hr1_warhorse	wh3_main_ksl_cav_horse_archers_0	leather	calm_horse_light	wh_main_vo_culture_Horse
+calm_kirasir_horse	hr1_warhorse	wh_main_cavalry_slow_blood	plate	calm_kirasir_horse	wh_main_vo_culture_Horse
