@@ -214,7 +214,6 @@ local supported_mods = {
     "laf_hag_mothers",
     "laf_ostankya_chicken_hut",
     "loupi_ten_kingdoms_IE",
-    "MAMMOTH_Mods",
     "MikeyWickermen_5_2",
     "Nurgle_Abomination",
     "Nurgle_Chargers",

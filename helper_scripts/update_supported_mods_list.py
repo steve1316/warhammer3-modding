@@ -34,7 +34,7 @@ if __name__ == "__main__":
             list_of_mods_for_velocity.append(list_item)
         if "ignore_generation" not in mod or not mod["ignore_generation"]:
             list_of_mods_for_land_encounters.append(list_item)
-        if mod["package_name"] != "MAMMOTH_Mods.pack" and not re.search(r"ror_|_ror_|_ror", mod["package_name"]):
+        if not re.search(r"ror_|_ror_|_ror", mod["package_name"]):
             list_of_mods_for_dynamic_rors.append(list_item)
 
         # Check if the mod is installed in the file system.
