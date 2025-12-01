@@ -1,9 +1,20 @@
-"""Script to automatically add missing effects from mod packfile to dynamic_rors_effects.py."""
+"""Script to automatically add missing effects from mod packfile to dynamic_rors_effects.py.
+
+This script performs the following steps:
+    1. Extracts effect bundles from the mod packfile.
+    2. Loads and merges TSV files containing effect data.
+    3. Filters for relevant effects and compares with existing effects.
+    4. Categorizes missing effects based on naming patterns.
+    5. Adds missing effects to dynamic_rors_effects.py in their appropriate categories.
+    6. Recategorizes any effects in the misc category.
+    7. Cleans up temporary files.
+"""
 
 import os
 import re
 import logging
-from typing import Dict, List, Set
+import time
+from typing import Dict, List, Tuple
 from utilities import (
     extract_modded_tsv_data,
     load_multiple_tsv_data,
@@ -12,7 +23,7 @@ from utilities import (
 )
 from dynamic_rors_effects import SUPPORTED_EFFECTS
 
-# Configure logging
+# Configure logging.
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
 MOD_PACKFILE_PATH = f"{STEAM_LIBRARY_DRIVE}\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\3278112051\\!!_nanu_dynamic_rors.pack"
@@ -21,12 +32,161 @@ TEMP_EXTRACT_PATH = "./temp_unit_purchasable_effects_tables"
 DYNAMIC_RORS_EFFECTS_FILE = "dynamic_rors_effects.py"
 
 
-def get_all_existing_effects() -> Set[str]:
-    """Get all existing effects from SUPPORTED_EFFECTS as a flat set."""
-    existing_effects = set()
-    for category, effects in SUPPORTED_EFFECTS.items():
-        existing_effects.update(effects)
-    return existing_effects
+# Pattern matching rules for categorization.
+_PREFIX_PATTERNS: List[Tuple[str, str]] = [
+    ("nanu_dynamic_ror_basic_artillery_", "artillery"),
+    ("nanu_dynamic_ror_basic_cavalry_", "cavalry"),
+    ("nanu_dynamic_ror_basic_melee_", "melee"),
+    ("nanu_dynamic_ror_basic_monster_", "monster"),
+    ("nanu_dynamic_ror_basic_ranged_", "ranged"),
+    ("nanu_dynamic_ror_ability_melee_", "melee"),
+    ("nanu_dynamic_ror_ability_powder_", "ranged"),
+    ("nanu_dynamic_ror_ability_ranged_", "ranged"),
+    ("nanu_dynamic_ror_attribute_melee_", "melee"),
+    ("nanu_dynamic_ror_attribute_ranged_", "ranged"),
+    ("nanu_dynamic_ror_contact_ranged_", "ranged"),
+    ("nanu_dynamic_ror_ranged_ammo_type_", "ranged"),
+    ("nanu_dynamic_ror_scripted_ammo_type_", "ranged"),
+    ("nanu_dynamic_ror_basic_all_", "generic"),
+    ("nanu_dynamic_ror_basic_elite_", "generic"),
+    ("nanu_dynamic_ror_basic_single_entity_", "generic"),
+    ("nanu_dynamic_ror_ability_all_", "generic"),
+    ("nanu_dynamic_ror_ability_single_entity_", "generic"),
+    ("nanu_dynamic_ror_attribute_all_", "generic"),
+    ("nanu_dynamic_ror_contact_all_", "generic"),
+    ("nanu_dynamic_ror_climate_", "generic"),
+]
+
+_CONTAINS_PATTERNS: List[Tuple[str, str]] = [
+    ("special_forces_of_order_enemy_ability_all_", "anti_order_generic"),
+    ("special_forces_of_order_enemy_contact_all_", "anti_order_generic"),
+    ("special_forces_of_order_enemy_ability_melee_", "anti_order_melee"),
+    ("special_forces_of_order_enemy_attribute_melee_", "anti_order_melee"),
+    ("special_forces_of_order_enemy_ability_ranged_", "anti_order_ranged"),
+    ("special_forces_of_destruction_enemy_ranged_ability_", "anti_destruction_ranged"),
+    ("special_chaos_enemy_melee_", "anti_destruction_melee"),
+    ("special_chaos_enemy_ranged_", "anti_destruction_ranged"),
+    ("special_chaos_enemy_powder_", "anti_destruction_ranged"),
+    ("special_cathay_ally_ability_melee_", "cathay_melee"),
+    ("special_cathay_ally_ability_ranged_", "ranged"),
+    ("special_cathay_enemy_ability_melee_", "melee"),
+    ("special_cathay_enemy_contact_all_", "generic"),
+    ("contact_bretonnia_", "bretonnia_artillery"),
+    ("bretonnia_special_", "bretonnia_artillery"),
+    ("death_explosion_all_", "generic"),
+    ("special_nurgle_all_", "nurgle_generic"),
+]
+
+_REGEX_PATTERNS: List[Tuple[str, str]] = [
+    (r"special_\w+_enemy_all_", "generic"),
+    (r"special_\w+_enemy_melee_", "melee"),
+    (r"special_\w+_enemy_ranged_", "ranged"),
+    (r"special_\w+_enemy_powder_", "ranged"),
+    (r"special_\w+_ally_all_", "generic"),
+    (r"special_\w+_ally_melee_", "melee"),
+    (r"special_\w+_ally_ranged_", "ranged"),
+    (r"special_\w+_ally_powder_", "ranged"),
+    (r"special_\w+_ally_cavalry_", "cavalry"),
+]
+
+_FACTION_RULES: Dict[str, List[Tuple[str, str]]] = {
+    "nanu_dynamic_ror_cathay_": [
+        ("_ability_melee_", "cathay_melee"),
+        ("_ability_all_", "cathay_generic"),
+        ("_attribute_all_", "cathay_generic"),
+    ],
+    "nanu_dynamic_ror_chaos_": [
+        ("_ability_melee_", "chaos_melee"),
+        ("_daemon_ability_", "chaos_generic"),
+        ("_contact_", "generic"),
+    ],
+    "nanu_dynamic_ror_chorf_": [
+        ("_ability_melee_", "melee"),
+        ("_ability_all_", "generic"),
+    ],
+    "nanu_dynamic_ror_dwarf_": [
+        ("_ability_melee_", "dwarfs_melee"),
+        ("_ability_powder_", "dwarfs_ranged"),
+        ("_ability_ranged_", "dwarfs_ranged"),
+        ("_ability_all_", "dwarfs_generic"),
+    ],
+    "nanu_dynamic_ror_dwarfs_": [
+        ("_ability_melee_", "dwarfs_melee"),
+        ("_ability_powder_", "dwarfs_ranged"),
+        ("_ability_ranged_", "dwarfs_ranged"),
+        ("_ability_all_", "dwarfs_generic"),
+    ],
+    "nanu_dynamic_ror_empire_": [
+        ("_ability_melee_", "empire_melee"),
+        ("_special_melee_", "empire_melee"),
+        ("_ability_swordsmen_", "empire_melee"),
+        ("_basic_knight_", "empire_cavalry"),
+        ("_attribute_all_", "empire_generic"),
+        ("_attribute_ranged_", "empire_generic"),
+        ("_ability_all_", "empire_generic"),
+        ("_special_", "empire_generic"),
+        ("_basic_archer_", "generic"),
+    ],
+    "nanu_dynamic_ror_greenskin_": [
+        ("_ability_melee_", "greenskins_melee"),
+        ("_ability_all_", "greenskins_generic"),
+    ],
+    "nanu_dynamic_ror_high_elf_": [
+        ("_ability_ranged_", "ranged"),
+    ],
+    "nanu_dynamic_ror_khorne_": [
+        ("_ability_melee_", "khorne_melee"),
+        ("_attribute_melee_", "khorne_melee"),
+        ("_ability_monster_", "khorne_monster"),
+        ("_ability_bloodthirster_", "khorne_monster"),
+        ("_ability_all_", "khorne_generic"),
+    ],
+    "nanu_dynamic_ror_kislev_": [
+        ("_ability_melee_", "kislev_melee"),
+        ("_ability_ranged_", "kislev_ranged"),
+    ],
+    "nanu_dynamic_ror_nurgle_": [
+        ("_ability_melee_", "nurgle_melee"),
+        ("_ability_monster_", "nurgle_monster"),
+        ("_ability_single_entity_", "nurgle_generic"),
+        ("_ability_all_", "nurgle_generic"),
+        ("_special_death_explosion_", "nurgle_generic"),
+        ("_basic_", "nurgle_generic"),
+    ],
+    "nanu_dynamic_ror_ogre_": [
+        ("_ability_melee_", "ogre_melee"),
+    ],
+    "nanu_dynamic_ror_skaven_": [
+        ("_ability_melee_", "skaven_melee"),
+        ("_ability_all_", "skaven_generic"),
+        ("_contact_all_", "skaven_generic"),
+        ("_death_explosion_", "skaven_generic"),
+    ],
+    "nanu_dynamic_ror_slaanesh_": [
+        ("_ability_melee_", "slaanesh_melee"),
+        ("_basic_", "generic"),
+    ],
+    "nanu_dynamic_ror_tzeentch_": [
+        ("_ability_melee_", "tzeentch_melee"),
+        ("_ability_all_", "tzeentch_generic"),
+        ("_attribute_all_", "tzeentch_generic"),
+        ("_ability_lord_of_change_", "tzeentch_generic"),
+    ],
+}
+
+_LEGACY_FACTION_RULES: Dict[str, List[Tuple[str, str]]] = {
+    "ability_cathay_": [("_melee_", "cathay_melee"), ("", "cathay_generic")],
+    "ability_dwarf_": [("_melee_", "dwarfs_melee"), ("_ranged_", "dwarfs_ranged"), ("powder_", "dwarfs_ranged"), ("", "dwarfs_generic")],
+    "ability_empire_": [("_melee_", "empire_melee"), ("_cavalry_", "empire_cavalry"), ("", "empire_generic")],
+    "ability_greenskin_": [("_melee_", "greenskins_melee"), ("", "greenskins_generic")],
+    "ability_khorne_": [("_melee_", "khorne_melee"), ("_monster_", "khorne_monster"), ("", "khorne_generic")],
+    "ability_kislev_": [("_melee_", "kislev_melee"), ("_ranged_", "kislev_ranged")],
+    "ability_nurgle_": [("_melee_", "nurgle_melee"), ("_monster_", "nurgle_monster"), ("", "nurgle_generic")],
+    "ability_ogre_": [("_melee_", "ogre_melee")],
+    "ability_skaven_": [("_melee_", "skaven_melee"), ("", "skaven_generic")],
+    "ability_slaanesh_": [("_melee_", "slaanesh_melee")],
+    "ability_tzeentch_": [("_melee_", "tzeentch_melee"), ("", "tzeentch_generic")],
+}
 
 
 def categorize_effect(effect_key: str) -> str:
@@ -38,290 +198,61 @@ def categorize_effect(effect_key: str) -> str:
     Returns:
         The category name, or "misc" if no pattern matches.
     """
-    # Basic patterns
-    if effect_key.startswith("nanu_dynamic_ror_basic_all_"):
-        return "generic"
-    if effect_key.startswith("nanu_dynamic_ror_basic_artillery_"):
-        return "artillery"
-    if effect_key.startswith("nanu_dynamic_ror_basic_cavalry_"):
-        return "cavalry"
-    if effect_key.startswith("nanu_dynamic_ror_basic_elite_"):
-        return "generic"
-    if effect_key.startswith("nanu_dynamic_ror_basic_melee_"):
-        return "melee"
-    if effect_key.startswith("nanu_dynamic_ror_basic_monster_"):
-        return "monster"
-    if effect_key.startswith("nanu_dynamic_ror_basic_ranged_"):
-        return "ranged"
-    if effect_key.startswith("nanu_dynamic_ror_basic_single_entity_"):
-        return "generic"
+    # Check against patterns.
+    for prefix, category in _PREFIX_PATTERNS:
+        if effect_key.startswith(prefix):
+            return category
 
-    # Ability patterns
-    if effect_key.startswith("nanu_dynamic_ror_ability_all_"):
-        return "generic"
-    if effect_key.startswith("nanu_dynamic_ror_ability_melee_"):
-        return "melee"
-    if effect_key.startswith("nanu_dynamic_ror_ability_powder_"):
-        return "ranged"
-    if effect_key.startswith("nanu_dynamic_ror_ability_ranged_"):
-        return "ranged"
-    if effect_key.startswith("nanu_dynamic_ror_ability_single_entity_"):
-        return "generic"
+    for pattern, category in _CONTAINS_PATTERNS:
+        if pattern in effect_key:
+            return category
 
-    # Attribute patterns
-    if effect_key.startswith("nanu_dynamic_ror_attribute_all_"):
-        return "generic"
-    if effect_key.startswith("nanu_dynamic_ror_attribute_melee_"):
-        return "melee"
-    if effect_key.startswith("nanu_dynamic_ror_attribute_ranged_"):
-        return "ranged"
+    for pattern, category in _REGEX_PATTERNS:
+        if re.search(pattern, effect_key):
+            return category
 
-    # Contact patterns
-    if effect_key.startswith("nanu_dynamic_ror_contact_all_"):
-        return "generic"
-    if effect_key.startswith("nanu_dynamic_ror_contact_ranged_"):
-        return "ranged"
+    # Check faction-specific rules.
+    for prefix, rules in _FACTION_RULES.items():
+        if effect_key.startswith(prefix):
+            for pattern, category in rules:
+                if pattern in effect_key:
+                    # Special handling for nurgle monster vs generic.
+                    if prefix == "nanu_dynamic_ror_nurgle_" and category == "nurgle_generic" and "_monster_" in effect_key:
+                        return "nurgle_monster"
+                    return category
 
-    # Ranged ammo type patterns
-    if effect_key.startswith("nanu_dynamic_ror_ranged_ammo_type_"):
-        return "ranged"
-    if effect_key.startswith("nanu_dynamic_ror_scripted_ammo_type_"):
-        return "ranged"
+    # Check legacy faction patterns.
+    for pattern, rules in _LEGACY_FACTION_RULES.items():
+        if pattern in effect_key:
+            for subpattern, category in rules:
+                if subpattern == "" or subpattern in effect_key:
+                    return category
 
-    # Climate patterns
-    if effect_key.startswith("nanu_dynamic_ror_climate_"):
-        return "generic"
+    # Check specifically for Lizardmen patterns.
+    if any(x in effect_key for x in ["lizard_ability_", "lizard_contact_", "lizard_attribute_"]):
+        return "lizardmen_melee" if "_melee_" in effect_key else "lizardmen_generic"
 
-    # Special patterns - forces of order
-    if "special_forces_of_order_enemy_ability_all_" in effect_key:
-        return "anti_order_generic"
-    if "special_forces_of_order_enemy_ability_melee_" in effect_key:
-        return "anti_order_melee"
-    if "special_forces_of_order_enemy_ability_ranged_" in effect_key:
-        return "anti_order_ranged"
-    if "special_forces_of_order_enemy_contact_all_" in effect_key:
-        return "anti_order_generic"
-    if "special_forces_of_order_enemy_attribute_melee_" in effect_key:
-        return "anti_order_melee"
-
-    # Special patterns - forces of destruction
-    if "special_forces_of_destruction_enemy_ranged_ability_" in effect_key:
-        return "anti_destruction_ranged"
-
-    # Special patterns - chaos
-    if "special_chaos_enemy_melee_" in effect_key:
-        return "anti_destruction_melee"
-    if "special_chaos_enemy_ranged_" in effect_key:
-        return "anti_destruction_ranged"
-    if "special_chaos_enemy_powder_" in effect_key:
-        return "anti_destruction_ranged"
-
-    # Special patterns - enemy types (generic)
-    if re.search(r"special_\w+_enemy_all_", effect_key):
-        return "generic"
-    if re.search(r"special_\w+_enemy_melee_", effect_key):
-        return "melee"
-    if re.search(r"special_\w+_enemy_ranged_", effect_key):
-        return "ranged"
-    if re.search(r"special_\w+_enemy_powder_", effect_key):
-        return "ranged"
-
-    # Special patterns - ally types
-    if re.search(r"special_\w+_ally_all_", effect_key):
-        return "generic"
-    if re.search(r"special_\w+_ally_melee_", effect_key):
-        return "melee"
-    if re.search(r"special_\w+_ally_ranged_", effect_key):
-        return "ranged"
-    if re.search(r"special_\w+_ally_powder_", effect_key):
-        return "ranged"
-    if re.search(r"special_\w+_ally_cavalry_", effect_key):
-        return "cavalry"
-
-    # Faction-specific patterns - check for direct faction prefixes first
-    if effect_key.startswith("nanu_dynamic_ror_cathay_"):
-        if "_ability_melee_" in effect_key or "_ability_all_" in effect_key or "_attribute_all_" in effect_key:
-            if "_melee_" in effect_key:
-                return "cathay_melee"
-            return "cathay_generic"
-    # Special cathay patterns
-    if "special_cathay_ally_ability_melee_" in effect_key:
-        return "cathay_melee"
-    if "special_cathay_ally_ability_ranged_" in effect_key:
-        return "ranged"  # Generic ranged category
-    if "special_cathay_enemy_ability_melee_" in effect_key:
-        return "melee"  # Generic melee category
-    if "special_cathay_enemy_contact_all_" in effect_key:
-        return "generic"
-    if effect_key.startswith("nanu_dynamic_ror_chaos_"):
-        if "_ability_melee_" in effect_key:
-            return "chaos_melee"
-        if "_daemon_ability_" in effect_key:
-            return "chaos_generic"
-        if "_contact_" in effect_key:
-            return "generic"
-    if effect_key.startswith("nanu_dynamic_ror_chorf_"):
-        if "_ability_melee_" in effect_key:
-            return "melee"  # chorf melee effects go to generic melee
-        if "_ability_all_" in effect_key:
-            return "generic"
-    if effect_key.startswith("nanu_dynamic_ror_dwarf_") or effect_key.startswith("nanu_dynamic_ror_dwarfs_"):
-        if "_ability_melee_" in effect_key:
-            return "dwarfs_melee"
-        if "_ability_powder_" in effect_key or "_ability_ranged_" in effect_key:
-            return "dwarfs_ranged"
-        if "_ability_all_" in effect_key:
-            return "dwarfs_generic"
-    if effect_key.startswith("nanu_dynamic_ror_empire_"):
-        if "_ability_melee_" in effect_key or "_special_melee_" in effect_key:
-            return "empire_melee"
-        if "_ability_swordsmen_" in effect_key:  # Swordsmen are melee units
-            return "empire_melee"
-        if "_basic_knight_" in effect_key:
-            return "empire_cavalry"
-        if "_attribute_all_" in effect_key or "_attribute_ranged_" in effect_key or "_ability_all_" in effect_key:
-            return "empire_generic"
-        if "_basic_archer_" in effect_key:
-            return "generic"  # Basic archer effects go to generic
-        if "_special_" in effect_key:
-            return "empire_generic"
-    if effect_key.startswith("nanu_dynamic_ror_greenskin_"):
-        if "_ability_melee_" in effect_key:
-            return "greenskins_melee"
-        if "_ability_all_" in effect_key:
-            return "greenskins_generic"
-    if effect_key.startswith("nanu_dynamic_ror_high_elf_"):
-        if "_ability_ranged_" in effect_key:
-            return "ranged"  # High elf ranged effects go to generic ranged
-    if effect_key.startswith("nanu_dynamic_ror_khorne_"):
-        if "_ability_melee_" in effect_key:
-            return "khorne_melee"
-        if "_ability_monster_" in effect_key or "_ability_bloodthirster_" in effect_key:
-            return "khorne_monster"
-        if "_ability_all_" in effect_key:
-            return "khorne_generic"
-        if "_attribute_melee_" in effect_key:
-            return "khorne_melee"
-    if effect_key.startswith("nanu_dynamic_ror_kislev_"):
-        if "_ability_melee_" in effect_key:
-            return "kislev_melee"
-        if "_ability_ranged_" in effect_key:
-            return "kislev_ranged"
-    if effect_key.startswith("nanu_dynamic_ror_nurgle_"):
-        if "_ability_melee_" in effect_key:
-            return "nurgle_melee"
-        if "_ability_monster_" in effect_key or "_ability_single_entity_" in effect_key:
-            if "_monster_" in effect_key:
-                return "nurgle_monster"
-            return "nurgle_generic"
-        if "_ability_all_" in effect_key:
-            return "nurgle_generic"
-        if "_special_death_explosion_" in effect_key:
-            return "nurgle_generic"
-        if "_basic_" in effect_key:
-            return "nurgle_generic"
-    if effect_key.startswith("nanu_dynamic_ror_ogre_"):
-        if "_ability_melee_" in effect_key:
-            return "ogre_melee"
-    if effect_key.startswith("nanu_dynamic_ror_skaven_"):
-        if "_ability_melee_" in effect_key:
-            return "skaven_melee"
-        if "_ability_all_" in effect_key or "_contact_all_" in effect_key:
-            return "skaven_generic"
-        if "_death_explosion_" in effect_key:
-            return "skaven_generic"
-    if effect_key.startswith("nanu_dynamic_ror_slaanesh_"):
-        if "_ability_melee_" in effect_key:
-            return "slaanesh_melee"
-        if "_basic_" in effect_key:
-            return "generic"  # Basic slaanesh effects go to generic
-    if effect_key.startswith("nanu_dynamic_ror_tzeentch_"):
-        if "_ability_melee_" in effect_key:
-            return "tzeentch_melee"
-        if "_ability_all_" in effect_key or "_attribute_all_" in effect_key:
-            return "tzeentch_generic"
-        if "_ability_lord_of_change_" in effect_key:
-            return "tzeentch_generic"
-    
-    # Legacy faction-specific patterns (for backward compatibility)
-    if "ability_cathay_" in effect_key:
-        if "_melee_" in effect_key:
-            return "cathay_melee"
-        return "cathay_generic"
-    if "ability_dwarf_" in effect_key:
-        if "_melee_" in effect_key:
-            return "dwarfs_melee"
-        if "_ranged_" in effect_key or "powder_" in effect_key:
-            return "dwarfs_ranged"
-        return "dwarfs_generic"
-    if "ability_empire_" in effect_key:
-        if "_melee_" in effect_key:
-            return "empire_melee"
-        if "_cavalry_" in effect_key:
-            return "empire_cavalry"
-        return "empire_generic"
-    if "ability_greenskin_" in effect_key:
-        if "_melee_" in effect_key:
-            return "greenskins_melee"
-        return "greenskins_generic"
-    if "ability_khorne_" in effect_key:
-        if "_melee_" in effect_key:
-            return "khorne_melee"
-        if "_monster_" in effect_key:
-            return "khorne_monster"
-        return "khorne_generic"
-    if "ability_kislev_" in effect_key:
-        if "_melee_" in effect_key:
-            return "kislev_melee"
-        if "_ranged_" in effect_key:
-            return "kislev_ranged"
-    if "ability_nurgle_" in effect_key:
-        if "_melee_" in effect_key:
-            return "nurgle_melee"
-        if "_monster_" in effect_key:
-            return "nurgle_monster"
-        return "nurgle_generic"
-    if "ability_ogre_" in effect_key:
-        if "_melee_" in effect_key:
-            return "ogre_melee"
-    if "ability_skaven_" in effect_key:
-        if "_melee_" in effect_key:
-            return "skaven_melee"
-        return "skaven_generic"
-    if "ability_slaanesh_" in effect_key:
-        if "_melee_" in effect_key:
-            return "slaanesh_melee"
-    if "ability_tzeentch_" in effect_key:
-        if "_melee_" in effect_key:
-            return "tzeentch_melee"
-        return "tzeentch_generic"
-
-    # Lizardmen patterns
-    if "lizard_ability_" in effect_key or "lizard_contact_" in effect_key or "lizard_attribute_" in effect_key:
-        if "_melee_" in effect_key:
-            return "lizardmen_melee"
-        return "lizardmen_generic"
-
-    # Bretonnia patterns
-    if "contact_bretonnia_" in effect_key or "bretonnia_special_" in effect_key:
-        return "bretonnia_artillery"
-    
-    # Death explosion patterns - these are generic effects
-    if "death_explosion_all_" in effect_key:
-        return "generic"
-    
-    # Special nurgle patterns
-    if "special_nurgle_all_" in effect_key:
-        return "nurgle_generic"
-    
-    # If no pattern matches, return misc
     return "misc"
 
 
 def read_dynamic_rors_effects_file() -> str:
-    """Read the dynamic_rors_effects.py file as text."""
+    """Read the dynamic_rors_effects.py file as text.
+
+    Returns:
+        The complete file content as a string.
+    """
     with open(DYNAMIC_RORS_EFFECTS_FILE, "r", encoding="utf-8") as f:
         return f.read()
+
+
+def write_dynamic_rors_effects_file(content: str):
+    """Write the updated content to dynamic_rors_effects.py.
+
+    Args:
+        content: The file content to write.
+    """
+    with open(DYNAMIC_RORS_EFFECTS_FILE, "w", encoding="utf-8") as f:
+        f.write(content)
 
 
 def insert_effects_into_category(file_content: str, category: str, effects: List[str]) -> str:
@@ -338,38 +269,23 @@ def insert_effects_into_category(file_content: str, category: str, effects: List
     if not effects:
         return file_content
 
-    # Find the category section - look for the category key and its list
-    # Pattern: "category": [ ... ]
-    category_start_pattern = rf'    "{re.escape(category)}": \['
-    match = re.search(category_start_pattern, file_content)
+    category_pattern = rf'    "{re.escape(category)}": \['
+    match = re.search(category_pattern, file_content)
 
     if not match:
-        # Category doesn't exist, need to add it before the closing brace
-        # Find the last closing bracket before the final }
-        last_bracket_pos = file_content.rfind("    ],")
-        if last_bracket_pos != -1:
-            # Insert new category after the last category
-            insert_pos = file_content.find("\n", last_bracket_pos) + 1
-            indented_effects = [f'        "{e}",' for e in sorted(effects)]
-            new_category = f'    "{category}": [\n' + "\n".join(indented_effects) + "\n    ],\n"
-            file_content = file_content[:insert_pos] + new_category + file_content[insert_pos:]
-        else:
-            # Fallback: insert before final }
-            insert_pos = file_content.rfind("}")
-            indented_effects = [f'        "{e}",' for e in sorted(effects)]
-            new_category = f'    "{category}": [\n' + "\n".join(indented_effects) + "\n    ],\n"
-            file_content = file_content[:insert_pos] + new_category + file_content[insert_pos:]
-        return file_content
+        # Add new category.
+        last_bracket = file_content.rfind("    ],")
+        insert_pos = file_content.find("\n", last_bracket) + 1 if last_bracket != -1 else file_content.rfind("}")
+        indented = [f'        "{e}",' for e in sorted(effects)]
+        new_category = f'    "{category}": [\n' + "\n".join(indented) + "\n    ],\n"
+        return file_content[:insert_pos] + new_category + file_content[insert_pos:]
 
-    # Find the start of the list content (after the opening bracket)
+    # Find the matching closing bracket for the category's list.
+    # Uses bracket counting to handle nested brackets correctly.
     list_start = match.end()
-
-    # Find the end of this category's list (the closing bracket and comma)
-    # We need to find the matching closing bracket, accounting for nested brackets
     bracket_count = 1
     pos = list_start
     list_end = -1
-
     while pos < len(file_content) and bracket_count > 0:
         if file_content[pos] == "[":
             bracket_count += 1
@@ -381,177 +297,124 @@ def insert_effects_into_category(file_content: str, category: str, effects: List
         pos += 1
 
     if list_end == -1:
-        logging.warning(f"Could not find end of category {category}, skipping insertion")
+        logging.warning(f"Could not find end of category {category}, skipping insertion.")
         return file_content
 
-    # Extract the list content
-    list_content = file_content[list_start:list_end]
+    # Extract existing effects and add new ones, then sort and return the updated content.
+    existing = re.findall(r'"([^"]+)"', file_content[list_start:list_end])
+    all_effects = sorted(set(existing) | set(effects))
+    indented = [f'        "{e}",' for e in all_effects]
 
-    # Extract all existing effects in this category
-    effect_pattern = r'"([^"]+)"'
-    existing_effects = re.findall(effect_pattern, list_content)
-
-    # Add the new effects and sort
-    for effect in effects:
-        if effect not in existing_effects:
-            existing_effects.append(effect)
-    existing_effects.sort()
-
-    # Rebuild the category content with proper indentation
-    indented_effects = [f'        "{e}",' for e in existing_effects]
-    new_list_content = "\n".join(indented_effects)
-
-    # Replace the list content
-    new_file_content = file_content[:list_start] + "\n" + new_list_content + "\n" + file_content[list_end:]
-
-    return new_file_content
+    return file_content[:list_start] + "\n" + "\n".join(indented) + "\n" + file_content[list_end:]
 
 
-def write_dynamic_rors_effects_file(content: str):
-    """Write the updated content to dynamic_rors_effects.py."""
-    with open(DYNAMIC_RORS_EFFECTS_FILE, "w", encoding="utf-8") as f:
-        f.write(content)
+def _recategorize_misc_effects(file_content: str) -> str:
+    """Recategorize effects in the misc category.
+
+    Attempts to recategorize effects that were previously placed in the misc category
+    by running them through the categorization logic again. Effects that can be
+    properly categorized are moved to their appropriate categories, while effects
+    that still cannot be categorized remain in misc.
+
+    Args:
+        file_content: The file content as a string.
+
+    Returns:
+        Updated file content with misc effects recategorized where possible.
+    """
+    misc_pattern = r'    "misc": \[(.*?)(?=\n    "[^"]+": \[|\n\})'
+    misc_match = re.search(misc_pattern, file_content, re.DOTALL)
+
+    if not misc_match:
+        return file_content
+
+    misc_effects = re.findall(r'"([^"]+)"', misc_match.group(1))
+    if not misc_effects:
+        return re.sub(r'    "misc": \[.*?\],\n', "", file_content, flags=re.DOTALL)
+
+    recategorized: Dict[str, List[str]] = {}
+    still_misc: List[str] = []
+
+    for effect in misc_effects:
+        category = categorize_effect(effect)
+        if category == "misc":
+            still_misc.append(effect)
+        else:
+            recategorized.setdefault(category, []).append(effect)
+
+    if not recategorized:
+        return file_content
+
+    # Update or remove misc category.
+    if still_misc:
+        indented = [f'        "{e}",' for e in sorted(still_misc)]
+        new_misc = "\n" + "\n".join(indented) + "\n"
+        file_content = file_content[: misc_match.start(1)] + new_misc + file_content[misc_match.end(1) :]
+    else:
+        file_content = re.sub(r'    "misc": \[.*?\],\n', "", file_content, flags=re.DOTALL)
+
+    # Add recategorized effects.
+    for category, effects in recategorized.items():
+        file_content = insert_effects_into_category(file_content, category, effects)
+        logging.info(f"  Recategorized {len(effects)} effects from misc to {category}.")
+
+    return file_content
 
 
-def main():
-    """Main function to extract, compare, and add missing effects."""
+if __name__ == "__main__":
     logging.info("Starting missing effects detection and addition process.")
+    start_time = time.time()
 
-    # Step 1: Extract effect bundles from mod packfile
-    logging.info(f"Extracting {TABLE_NAME} from mod packfile...")
     extract_modded_tsv_data(TABLE_NAME, MOD_PACKFILE_PATH, TEMP_EXTRACT_PATH)
-
-    # Step 2: Load and merge all TSV files
     tsv_folder_path = os.path.join(TEMP_EXTRACT_PATH, f"db/{TABLE_NAME}")
+
     if not os.path.exists(tsv_folder_path):
-        logging.error(f"Extracted folder not found: {tsv_folder_path}")
-        return
+        logging.error(f"Extracted folder not found: {tsv_folder_path}.")
+        cleanup_folders([TEMP_EXTRACT_PATH])
+        exit()
 
-    logging.info(f"Loading and merging TSV files from {tsv_folder_path}...")
-    merged_data, headers, version_info = load_multiple_tsv_data(tsv_folder_path)
-
-    # Step 3: Filter for relevant effects and compare
-    logging.info("Filtering and comparing effects...")
-
-    # Check what the actual key column name is (case-insensitive)
-    key_column = None
-    for h in headers:
-        if h.lower() == "key":
-            key_column = h
-            break
+    merged_data, headers, _ = load_multiple_tsv_data(tsv_folder_path)
+    key_column = next((h for h in headers if h.lower() == "key"), None)
 
     if not key_column:
-        logging.error(f"Could not find 'Key' column. Available columns: {headers}")
+        logging.error(f"Could not find 'Key' column. Available columns: {headers}.")
         cleanup_folders([TEMP_EXTRACT_PATH])
-        return
+        exit()
 
-    mod_effects = set()
-    for row in merged_data:
-        key = row.get(key_column, "")
-        if key.startswith("nanu_dynamic_ror_"):
-            mod_effects.add(key)
-
-    existing_effects = get_all_existing_effects()
-    missing_effects = mod_effects - existing_effects
+    mod_effects = {row.get(key_column, "") for row in merged_data if row.get(key_column, "").startswith("nanu_dynamic_ror_")}
+    missing_effects = mod_effects - {effect for effects in SUPPORTED_EFFECTS.values() for effect in effects}
 
     logging.info(f"Found {len(mod_effects)} total nanu_dynamic_ror_* effects in mod.")
-    logging.info(f"Found {len(existing_effects)} existing effects in SUPPORTED_EFFECTS.")
     logging.info(f"Found {len(missing_effects)} missing effects to add.")
 
     if not missing_effects:
         logging.info("No missing effects found. Nothing to add.")
         cleanup_folders([TEMP_EXTRACT_PATH])
-        return
+        exit()
 
-    # Step 4: Categorize missing effects
-    logging.info("Categorizing missing effects...")
-    categorized_effects: Dict[str, List[str]] = {}
+    # Categorize and add missing effects.
+    categorized: Dict[str, List[str]] = {}
     for effect in missing_effects:
-        category = categorize_effect(effect)
-        if category not in categorized_effects:
-            categorized_effects[category] = []
-        categorized_effects[category].append(effect)
+        categorized.setdefault(categorize_effect(effect), []).append(effect)
 
-    # Log categorization results
-    for category, effects in sorted(categorized_effects.items()):
+    for category, effects in sorted(categorized.items()):
         logging.info(f"  {category}: {len(effects)} effects")
 
-    # Step 5: Add missing effects to file
-    logging.info("Adding missing effects to dynamic_rors_effects.py...")
     file_content = read_dynamic_rors_effects_file()
-
-    # Insert all effects for each category at once
-    for category, effects in categorized_effects.items():
+    for category, effects in categorized.items():
         file_content = insert_effects_into_category(file_content, category, effects)
-        logging.info(f"  Added {len(effects)} effects to {category}")
+        logging.info(f"  Added {len(effects)} effects to {category}.")
 
     write_dynamic_rors_effects_file(file_content)
-    logging.info("Successfully updated dynamic_rors_effects.py")
+    logging.info("Successfully updated dynamic_rors_effects.py.")
 
-    # Step 6: Recategorize any misc effects
+    # Recategorize misc effects.
     logging.info("Recategorizing misc effects...")
-    file_content = read_dynamic_rors_effects_file()
-    
-    # Check if misc category exists
-    misc_pattern = r'    "misc": \[(.*?)(?=\n    "[^"]+": \[|\n\})'
-    misc_match = re.search(misc_pattern, file_content, re.DOTALL)
-    
-    if misc_match:
-        misc_content = misc_match.group(1)
-        effect_pattern = r'"([^"]+)"'
-        misc_effects = re.findall(effect_pattern, misc_content)
-        
-        if misc_effects:
-            logging.info(f"Found {len(misc_effects)} effects in misc category to recategorize.")
-            recategorized: Dict[str, List[str]] = {}
-            still_misc: List[str] = []
-            
-            for effect in misc_effects:
-                new_category = categorize_effect(effect)
-                if new_category == "misc":
-                    still_misc.append(effect)
-                else:
-                    if new_category not in recategorized:
-                        recategorized[new_category] = []
-                    recategorized[new_category].append(effect)
-            
-            if recategorized:
-                # Remove effects from misc category
-                if still_misc:
-                    # Update misc category with remaining effects
-                    indented_effects = [f'        "{e}",' for e in sorted(still_misc)]
-                    new_misc_content = "\n".join(indented_effects)
-                    file_content = (
-                        file_content[:misc_match.start(1)]
-                        + "\n" + new_misc_content + "\n"
-                        + file_content[misc_match.end(1):]
-                    )
-                else:
-                    # Remove misc category entirely
-                    full_misc_pattern = r'    "misc": \[.*?\],\n'
-                    file_content = re.sub(full_misc_pattern, "", file_content, flags=re.DOTALL)
-                
-                # Add effects to their new categories
-                for category, effects in recategorized.items():
-                    file_content = insert_effects_into_category(file_content, category, effects)
-                    logging.info(f"  Recategorized {len(effects)} effects from misc to {category}")
-                
-                write_dynamic_rors_effects_file(file_content)
-                logging.info("Successfully recategorized misc effects.")
-            else:
-                logging.info("No misc effects needed recategorization.")
-        else:
-            logging.info("Misc category is empty, removing it.")
-            # Remove empty misc category
-            full_misc_pattern = r'    "misc": \[.*?\],\n'
-            file_content = re.sub(full_misc_pattern, "", file_content, flags=re.DOTALL)
-            write_dynamic_rors_effects_file(file_content)
+    file_content = _recategorize_misc_effects(read_dynamic_rors_effects_file())
+    write_dynamic_rors_effects_file(file_content)
+    logging.info("Successfully recategorized misc effects.")
 
-    # Step 7: Cleanup
-    logging.info("Cleaning up temporary files...")
     cleanup_folders([TEMP_EXTRACT_PATH])
-    logging.info("Process completed successfully.")
 
-
-if __name__ == "__main__":
-    main()
+    end_time = round(time.time() - start_time, 2)
+    logging.info(f"Total time for updating dynamic_rors_effects.py: {end_time} seconds or {round(end_time / 60, 2)} minutes.")
