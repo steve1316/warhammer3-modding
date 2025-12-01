@@ -223,6 +223,7 @@ return {
                     {land_unit="str_skully_gutter_runner_slings_ror", origin="str_skaven_clans", recruitment_cost=1050, multiplayer_cost=1050},
                     {land_unit="str_skully_gutter_runner_ror", origin="str_skaven_clans", recruitment_cost=1050, multiplayer_cost=1050},
                     {land_unit="warp_runners", origin="str_toro_skaven", recruitment_cost=825, multiplayer_cost=825},
+                    {land_unit="singe_skv_plague_hurlers", origin="singe_units_wh_all", recruitment_cost=725, multiplayer_cost=825},
                 },
                 ["melee_cavalry"] = {
                     {land_unit="str_garbag_squig_rider", origin="str_skaven_clans", recruitment_cost=950, multiplayer_cost=950},
@@ -313,6 +314,7 @@ return {
                     {land_unit="warp_forged", origin="str_toro_skaven", recruitment_cost=2500, multiplayer_cost=1200},
                     {land_unit="krakback_kill_squad", origin="str_toro_skaven", recruitment_cost=1450, multiplayer_cost=950},
                     {land_unit="krakback_kill_squad_spears", origin="str_toro_skaven", recruitment_cost=1450, multiplayer_cost=950},
+                    {land_unit="singe_skv_plague_staves", origin="singe_units_wh_all", recruitment_cost=700, multiplayer_cost=800},
                 },
                 ["missile_infantry"] = {
                     {land_unit="wh2_dlc12_skv_art_warplock_jezzails_ror_tech_lab_0", origin="vanilla", recruitment_cost=1400, multiplayer_cost=1400},
@@ -449,6 +451,8 @@ return {
                     {land_unit="hcs_ror_blackarc", origin="str_skaven_clans", recruitment_cost=1400, multiplayer_cost=1400},
                     {land_unit="clan_vrrtkin_gasthrower", origin="str_skaven_clans", recruitment_cost=1000, multiplayer_cost=1000},
                     {land_unit="clan_vrrtkin_veh_doomwheel", origin="str_skaven_clans", recruitment_cost=1400, multiplayer_cost=1450},
+                    {land_unit="singe_skv_screaming_bell", origin="singe_units_wh_all", recruitment_cost=1150, multiplayer_cost=1150},
+                    {land_unit="singe_skv_plague_furnace", origin="singe_units_wh_all", recruitment_cost=1400, multiplayer_cost=1400},
                 },
                 ["war_beast"] = {},
                 ["monster"] = {
@@ -635,6 +639,7 @@ return {
                     {land_unit="tmb_asp", origin="!xou_age_TKExtended", recruitment_cost=0, multiplayer_cost=475},
                     {land_unit="agemo_nehekhara_archers", origin="!xou_age_TKExtended", recruitment_cost=0, multiplayer_cost=600},
                     {land_unit="ark_zombie_gunnery_rifle", origin="!xou_age_TKExtended", recruitment_cost=0, multiplayer_cost=550},
+                    {land_unit="singe_tmb_nehek_archers", origin="singe_units_wh_all", recruitment_cost=0, multiplayer_cost=575},
                 },
                 ["melee_cavalry"] = {
                     {land_unit="wh2_dlc09_tmb_cav_nehekhara_horsemen_0", origin="vanilla", recruitment_cost=0, multiplayer_cost=650},
@@ -642,6 +647,7 @@ return {
                     {land_unit="TMB_Cav_Teir2_Spear", origin="!xou_age_TKExtended", recruitment_cost=0, multiplayer_cost=700},
                     {land_unit="TMB_Cav_Teir1_Sword", origin="!xou_age_TKExtended", recruitment_cost=0, multiplayer_cost=600},
                     {land_unit="lsh_nehekwight_knight", origin="A_VampiresofNehekhara", recruitment_cost=750, multiplayer_cost=1000},
+                    {land_unit="singe_tmb_skelly_swordhorse", origin="singe_units_wh_all", recruitment_cost=0, multiplayer_cost=400},
                 },
                 ["missile_cavalry"] = {
                     {land_unit="TMB_Cav_Teir2_Bow", origin="!xou_age_TKExtended", recruitment_cost=0, multiplayer_cost=800},
@@ -697,6 +703,7 @@ return {
                     {land_unit="MC_L", origin="!xou_age_TKExtended", recruitment_cost=0, multiplayer_cost=700},
                     {land_unit="ark_zombie_gunnery_hand_cannon", origin="!xou_age_TKExtended", recruitment_cost=0, multiplayer_cost=550},
                     {land_unit="wh2_dlc09_tmb_inf_tomb_guard_jav", origin="!xou_age_TKExtended", recruitment_cost=0, multiplayer_cost=850},
+                    {land_unit="singe_tmb_tmbguard_archers", origin="singe_units_wh_all", recruitment_cost=0, multiplayer_cost=700},
                 },
                 ["melee_cavalry"] = {
                     {land_unit="wh2_dlc09_tmb_cav_hexwraiths", origin="vanilla", recruitment_cost=0, multiplayer_cost=1475},
@@ -713,11 +720,13 @@ return {
                     {land_unit="lsh_nehekwight_knight_lance", origin="A_VampiresofNehekhara", recruitment_cost=1045, multiplayer_cost=1100},
                     {land_unit="ghs_main_tmb_cav_ostrich_rider", origin="ghs_great_harmony", recruitment_cost=0, multiplayer_cost=600},
                     {land_unit="ghs_main_tmb_cav_ostrich_rider_summon", origin="ghs_great_harmony", recruitment_cost=0, multiplayer_cost=1000},
+                    {land_unit="singe_tmb_nehek_spearhorse", origin="singe_units_wh_all", recruitment_cost=0, multiplayer_cost=650},
                 },
                 ["missile_cavalry"] = {
                     {land_unit="MC_LPtra", origin="!xou_age_TKExtended", recruitment_cost=0, multiplayer_cost=1800},
                     {land_unit="MC_LAsaph", origin="!xou_age_TKExtended", recruitment_cost=0, multiplayer_cost=1800},
                     {land_unit="MC_LDjaf", origin="!xou_age_TKExtended", recruitment_cost=0, multiplayer_cost=1800},
+                    {land_unit="singe_tmb_nehek_bowhorse", origin="singe_units_wh_all", recruitment_cost=0, multiplayer_cost=750},
                 },
                 ["monstrous_infantry"] = {
                     {land_unit="wh2_dlc09_tmb_mon_sepulchral_stalkers_0", origin="vanilla", recruitment_cost=0, multiplayer_cost=1200},
@@ -785,7 +794,10 @@ return {
             ["tier_4"] = {
                 ["melee_infantry"] = {},
                 ["missile_infantry"] = {},
-                ["melee_cavalry"] = {},
+                ["melee_cavalry"] = {
+                    {land_unit="singe_tmb_nehek_swordknights", origin="singe_units_wh_all", recruitment_cost=0, multiplayer_cost=900},
+                    {land_unit="singe_tmb_nehek_spearknights", origin="singe_units_wh_all", recruitment_cost=0, multiplayer_cost=900},
+                },
                 ["missile_cavalry"] = {},
                 ["monstrous_infantry"] = {
                     {land_unit="ghs_main_tmb_mon_sandstalker", origin="ghs_great_harmony", recruitment_cost=0, multiplayer_cost=1400},
@@ -920,6 +932,7 @@ return {
                     {land_unit="wh2_main_def_inf_black_ark_corsairs_0", origin="vanilla", recruitment_cost=650, multiplayer_cost=650},
                     {land_unit="wh2_main_def_inf_witch_elves_0", origin="vanilla", recruitment_cost=800, multiplayer_cost=750},
                     {land_unit="def_witch_knights", origin="unitsofnaggarothsamarai", recruitment_cost=750, multiplayer_cost=750},
+                    {land_unit="singe_def_darkstriders", origin="singe_units_wh_all", recruitment_cost=500, multiplayer_cost=500},
                 },
                 ["missile_infantry"] = {
                     {land_unit="wh2_dlc10_def_inf_the_bolt_fiends_ror_0", origin="vanilla", recruitment_cost=850, multiplayer_cost=850},
@@ -981,6 +994,9 @@ return {
                     {land_unit="wh2_dlc10_def_cav_slaanesh_harvesters_ror_0", origin="vanilla", recruitment_cost=1450, multiplayer_cost=1450},
                     {land_unit="wh2_main_def_cav_cold_one_knights_0", origin="vanilla", recruitment_cost=1000, multiplayer_cost=1050},
                     {land_unit="wh2_main_def_cav_cold_one_knights_1", origin="vanilla", recruitment_cost=1300, multiplayer_cost=1350},
+                    {land_unit="singe_def_pegasilancers", origin="singe_units_wh_all", recruitment_cost=950, multiplayer_cost=950},
+                    {land_unit="singe_def_dreadlancers", origin="singe_units_wh_all", recruitment_cost=800, multiplayer_cost=800},
+                    {land_unit="singe_def_harridan", origin="singe_units_wh_all", recruitment_cost=900, multiplayer_cost=900},
                 },
                 ["missile_cavalry"] = {},
                 ["monstrous_infantry"] = {
@@ -1027,6 +1043,7 @@ return {
                 ["warmachine"] = {
                     {land_unit="wh2_dlc14_def_veh_bloodwrack_shrine_0", origin="vanilla", recruitment_cost=1600, multiplayer_cost=1600},
                     {land_unit="death_rain", origin="Elven_Artillery", recruitment_cost=1200, multiplayer_cost=1100},
+                    {land_unit="singe_def_cauldron", origin="singe_units_wh_all", recruitment_cost=1400, multiplayer_cost=1150},
                 },
                 ["war_beast"] = {},
                 ["monster"] = {
@@ -1045,12 +1062,16 @@ return {
             ["tier_5"] = {
                 ["melee_infantry"] = {
                     {land_unit="mixu_def_inf_ossian_guard", origin="ab_mixu_legendary_lords", recruitment_cost=1650, multiplayer_cost=1650},
+                    {land_unit="singe_def_dreadfoot", origin="singe_units_wh_all", recruitment_cost=1250, multiplayer_cost=1250},
+                    {land_unit="singe_def_witchspears", origin="singe_units_wh_all", recruitment_cost=800, multiplayer_cost=800},
                 },
                 ["missile_infantry"] = {},
                 ["melee_cavalry"] = {},
                 ["missile_cavalry"] = {},
                 ["monstrous_infantry"] = {},
-                ["monstrous_cavalry"] = {},
+                ["monstrous_cavalry"] = {
+                    {land_unit="singe_def_nightwitches", origin="singe_units_wh_all", recruitment_cost=2000, multiplayer_cost=2000},
+                },
                 ["chariot"] = {},
                 ["warmachine"] = {},
                 ["war_beast"] = {},
@@ -1181,6 +1202,7 @@ return {
                 },
                 ["missile_infantry"] = {
                     {land_unit="wh_main_dwf_inf_dwarf_warrior_spear_javelin", origin="derpy_dwf_polearms", recruitment_cost=500, multiplayer_cost=500},
+                    {land_unit="singe_dwf_ranger_gunners", origin="singe_units_wh_all", recruitment_cost=575, multiplayer_cost=575},
                 },
                 ["melee_cavalry"] = {
                     {land_unit="ghs_main_dwf_cav_goat_warrior", origin="ghs_great_harmony", recruitment_cost=625, multiplayer_cost=625},
@@ -1218,6 +1240,7 @@ return {
                     {land_unit="cody_dwf_inf_queens_slayers", origin="!cody_dwf_various_things", recruitment_cost=900, multiplayer_cost=900},
                     {land_unit="wh_main_dwf_inf_longbeards_spear", origin="derpy_dwf_polearms", recruitment_cost=750, multiplayer_cost=750},
                     {land_unit="wh_main_dwf_inf_longbeards_bardiche", origin="derpy_dwf_polearms", recruitment_cost=800, multiplayer_cost=800},
+                    {land_unit="singe_dwf_warriors_thrwaxe", origin="singe_units_wh_all", recruitment_cost=625, multiplayer_cost=600},
                 },
                 ["missile_infantry"] = {
                     {land_unit="wh3_dlc25_dwf_inf_slayer_pirates", origin="vanilla", recruitment_cost=750, multiplayer_cost=750},
@@ -1250,6 +1273,7 @@ return {
                     {land_unit="kraka_pathgrinders", origin="!ak_kraka3", recruitment_cost=700, multiplayer_cost=700},
                     {land_unit="kraka_ror_thunderbows", origin="!ak_kraka3", recruitment_cost=850, multiplayer_cost=850},
                     {land_unit="ghs_main_dwf_veh_flying_irondrakes_01", origin="ghs_great_harmony", recruitment_cost=1000, multiplayer_cost=1000},
+                    {land_unit="singe_dwf_irondrake_drakefire", origin="singe_units_wh_all", recruitment_cost=700, multiplayer_cost=700},
                 },
                 ["melee_cavalry"] = {
                     {land_unit="ghs_main_dwf_cav_goat_slayer", origin="ghs_great_harmony", recruitment_cost=1400, multiplayer_cost=1400},
@@ -1292,6 +1316,7 @@ return {
                     {land_unit="derpy_gp_dwf_mortar", origin="derpy_gunpowder_units", recruitment_cost=1000, multiplayer_cost=1000},
                     {land_unit="snek_dwf_breaker_cannon", origin="!!snek_dawi_thunder", recruitment_cost=800, multiplayer_cost=800},
                     {land_unit="snek_dwf_bombard", origin="!!snek_dawi_thunder", recruitment_cost=700, multiplayer_cost=700},
+                    {land_unit="singe_dwf_bugman_thrower", origin="singe_units_wh_all", recruitment_cost=950, multiplayer_cost=950},
                 },
                 ["war_beast"] = {
                     {land_unit="wh_main_dwf_inf_dwarf_warrior_spear_rider", origin="derpy_dwf_polearms", recruitment_cost=850, multiplayer_cost=850},
@@ -1390,6 +1415,7 @@ return {
                     {land_unit="snek_dwf_gyrodrone", origin="!!snek_dawi_thunder", recruitment_cost=0, multiplayer_cost=1150},
                     {land_unit="snek_dwf_drop_chopper_regiment", origin="!!snek_dawi_thunder", recruitment_cost=1150, multiplayer_cost=1300},
                     {land_unit="snek_dwf_drop_chopper_custom_battle", origin="!!snek_dawi_thunder", recruitment_cost=1150, multiplayer_cost=1150},
+                    {land_unit="singe_dwf_flame_bombard", origin="singe_units_wh_all", recruitment_cost=1100, multiplayer_cost=1100},
                 },
                 ["war_beast"] = {},
                 ["monster"] = {
@@ -1466,6 +1492,7 @@ return {
                     {land_unit="derpy_gp_landship_1_beer", origin="derpy_gunpowder_units", recruitment_cost=1800, multiplayer_cost=1800},
                     {land_unit="derpy_gp_landship_1", origin="derpy_gunpowder_units", recruitment_cost=1800, multiplayer_cost=1800},
                     {land_unit="snek_dwf_gyrocarrier_organ_gun", origin="!!snek_dawi_thunder", recruitment_cost=700, multiplayer_cost=700},
+                    {land_unit="singe_dwf_gyro_flame", origin="singe_units_wh_all", recruitment_cost=850, multiplayer_cost=850},
                 },
                 ["war_beast"] = {
                     {land_unit="wh_main_dwf_inf_ironbreakers_poleaxe_rider", origin="derpy_dwf_polearms", recruitment_cost=1300, multiplayer_cost=1350},
@@ -1576,7 +1603,9 @@ return {
                 ["hero"] = {},
             },
             ["tier_1"] = {
-                ["melee_infantry"] = {},
+                ["melee_infantry"] = {
+                    {land_unit="singe_hef_swordsmen", origin="singe_units_wh_all", recruitment_cost=500, multiplayer_cost=500},
+                },
                 ["missile_infantry"] = {
                     {land_unit="wh2_main_hef_inf_archers_0", origin="vanilla", recruitment_cost=475, multiplayer_cost=450},
                     {land_unit="wh2_main_hef_inf_archers_1", origin="vanilla", recruitment_cost=525, multiplayer_cost=475},
@@ -1673,6 +1702,7 @@ return {
                     {land_unit="hef_inf_guard_of_eternal_03", origin="Zerooz_All_Units", recruitment_cost=1300, multiplayer_cost=1300},
                     {land_unit="hef_inf_dual_axe_of_chrace", origin="Zerooz_All_Units", recruitment_cost=1200, multiplayer_cost=1200},
                     {land_unit="hef_inf_brave_blademen", origin="Zerooz_All_Units", recruitment_cost=1300, multiplayer_cost=1300},
+                    {land_unit="singe_hef_maidenguard", origin="singe_units_wh_all", recruitment_cost=1300, multiplayer_cost=1300},
                 },
                 ["missile_infantry"] = {
                     {land_unit="wh2_dlc10_hef_inf_everqueens_court_guards_ror_0", origin="vanilla", recruitment_cost=1300, multiplayer_cost=1250},
@@ -1759,6 +1789,7 @@ return {
                     {land_unit="loupi_dragon_gate_guard", origin="loupi_ten_kingdoms_IE", recruitment_cost=1500, multiplayer_cost=1500},
                     {land_unit="loupi_mistwalkers", origin="loupi_ten_kingdoms_IE", recruitment_cost=1400, multiplayer_cost=1400},
                     {land_unit="hef_inf_sea_master", origin="Zerooz_All_Units", recruitment_cost=1800, multiplayer_cost=1800},
+                    {land_unit="singe_hef_watchsisters", origin="singe_units_wh_all", recruitment_cost=1200, multiplayer_cost=1200},
                 },
                 ["melee_cavalry"] = {
                     {land_unit="wh2_dlc10_hef_cav_the_fireborn_ror_0", origin="vanilla", recruitment_cost=1850, multiplayer_cost=1850},
@@ -1804,6 +1835,7 @@ return {
                     {land_unit="hef_inf_sword_master_of_phenix", origin="Zerooz_All_Units", recruitment_cost=1800, multiplayer_cost=1800},
                     {land_unit="hef_inf_the_light_of_yvresse", origin="Zerooz_All_Units", recruitment_cost=1800, multiplayer_cost=1800},
                     {land_unit="hef_inf_pride_of_the_white_lions", origin="Zerooz_All_Units", recruitment_cost=1800, multiplayer_cost=1800},
+                    {land_unit="singe_hef_dragonguard", origin="singe_units_wh_all", recruitment_cost=1350, multiplayer_cost=1350},
                 },
                 ["missile_infantry"] = {
                     {land_unit="loupi_sisters_avelorn_ror", origin="loupi_ten_kingdoms_IE", recruitment_cost=1600, multiplayer_cost=1600},
@@ -2175,12 +2207,15 @@ return {
                     {land_unit="obsidian_lzd_inf_spawn_leaders_tepok", origin="!obsidian_lustria_rises", recruitment_cost=0, multiplayer_cost=1240},
                     {land_unit="obsidian_lzd_inf_spawn_leaders_tlazcotl", origin="!obsidian_lustria_rises", recruitment_cost=0, multiplayer_cost=1240},
                     {land_unit="obsidian_lzd_inf_spawn_leaders_tzunki", origin="!obsidian_lustria_rises", recruitment_cost=0, multiplayer_cost=1240},
+                    {land_unit="singe_lzd_temple_cohort", origin="singe_units_wh_all", recruitment_cost=775, multiplayer_cost=775},
+                    {land_unit="singe_lzd_chameleon_slayers", origin="singe_units_wh_all", recruitment_cost=680, multiplayer_cost=680},
                 },
                 ["missile_infantry"] = {
                     {land_unit="wh2_dlc12_lzd_mon_salamander_pack_ror_0", origin="vanilla", recruitment_cost=1100, multiplayer_cost=1100},
                     {land_unit="wh2_dlc13_lzd_mon_razordon_pack_ror_0", origin="vanilla", recruitment_cost=1075, multiplayer_cost=1075},
                     {land_unit="lzd_chameleon_skink_eyes_of_the_canopy_ror", origin="!obsidian_lustria_rises", recruitment_cost=830, multiplayer_cost=830},
                     {land_unit="lzd_salamander_the_fire_lizards_ror", origin="!obsidian_lustria_rises", recruitment_cost=1200, multiplayer_cost=1200},
+                    {land_unit="singe_lzd_redcrest_cohort", origin="singe_units_wh_all", recruitment_cost=500, multiplayer_cost=500},
                 },
                 ["melee_cavalry"] = {
                     {land_unit="wh2_dlc12_lzd_cav_cold_one_spearriders_ror_0", origin="vanilla", recruitment_cost=1300, multiplayer_cost=1300},
@@ -2211,6 +2246,7 @@ return {
                     {land_unit="obsidian_lzd_cav_horned_ones_skinks_tlazcotl", origin="!obsidian_lustria_rises", recruitment_cost=0, multiplayer_cost=1350},
                     {land_unit="roy_lzd_cav_skink_horned_one_riders", origin="!uber_red_host_additional_units", recruitment_cost=1225, multiplayer_cost=1225},
                     {land_unit="roy_lzd_cav_skink_horned_one_riders", origin="!uber_red_host_additional_units", recruitment_cost=1225, multiplayer_cost=1225},
+                    {land_unit="singe_lzd_hornedone_riders", origin="singe_units_wh_all", recruitment_cost=700, multiplayer_cost=700},
                 },
                 ["missile_cavalry"] = {},
                 ["monstrous_infantry"] = {
@@ -2341,9 +2377,15 @@ return {
                 ["hero"] = {},
             },
             ["tier_5"] = {
-                ["melee_infantry"] = {},
+                ["melee_infantry"] = {
+                    {land_unit="singe_lzd_temple_maces", origin="singe_units_wh_all", recruitment_cost=1200, multiplayer_cost=1200},
+                    {land_unit="singe_lzd_temple_maces", origin="singe_units_wh_all", recruitment_cost=1200, multiplayer_cost=1200},
+                },
                 ["missile_infantry"] = {},
-                ["melee_cavalry"] = {},
+                ["melee_cavalry"] = {
+                    {land_unit="singe_lzd_temple_riders", origin="singe_units_wh_all", recruitment_cost=1600, multiplayer_cost=1600},
+                    {land_unit="singe_lzd_temple_riders", origin="singe_units_wh_all", recruitment_cost=1600, multiplayer_cost=1600},
+                },
                 ["missile_cavalry"] = {},
                 ["monstrous_infantry"] = {},
                 ["monstrous_cavalry"] = {},
@@ -2366,6 +2408,7 @@ return {
                     {land_unit="calm_thunder_lizard", origin="!!!lost_calm_nakai_normal", recruitment_cost=5000, multiplayer_cost=5000},
                     {land_unit="calm_quatzelotus", origin="!!!lost_calm_nakai_normal", recruitment_cost=3000, multiplayer_cost=3000},
                     {land_unit="ghs_main_lzd_mon_chief_stegadon", origin="ghs_great_harmony", recruitment_cost=2400, multiplayer_cost=2400},
+                    {land_unit="singe_lzd_ancient_razordon", origin="singe_units_wh_all", recruitment_cost=1200, multiplayer_cost=1200},
                 },
                 ["generic"] = {},
                 ["lord"] = {},
@@ -2465,6 +2508,7 @@ return {
                 },
                 ["melee_cavalry"] = {
                     {land_unit="wh_main_nor_cav_marauder_horsemen_0", origin="vanilla", recruitment_cost=525, multiplayer_cost=550},
+                    {land_unit="singe_nor_marauder_riders", origin="singe_units_wh_all", recruitment_cost=625, multiplayer_cost=625},
                 },
                 ["missile_cavalry"] = {
                     {land_unit="wh_dlc08_nor_cav_marauder_horsemasters_0", origin="vanilla", recruitment_cost=750, multiplayer_cost=800},
@@ -2502,7 +2546,9 @@ return {
                     {land_unit="kraka_nor_ror_truesons", origin="!ak_kraka3", recruitment_cost=1400, multiplayer_cost=1400},
                 },
                 ["missile_infantry"] = {},
-                ["melee_cavalry"] = {},
+                ["melee_cavalry"] = {
+                    {land_unit="singe_nor_coldone_marauders", origin="singe_units_wh_all", recruitment_cost=800, multiplayer_cost=800},
+                },
                 ["missile_cavalry"] = {
                     {land_unit="kraka_nor_ror_carrions", origin="!ak_kraka3", recruitment_cost=1000, multiplayer_cost=1000},
                 },
@@ -2511,6 +2557,7 @@ return {
                     {land_unit="wh_dlc08_nor_mon_fimir_1", origin="vanilla", recruitment_cost=0, multiplayer_cost=1450},
                     {land_unit="wh_dlc08_nor_mon_fimir_0", origin="vanilla", recruitment_cost=1200, multiplayer_cost=1150},
                     {land_unit="wh_dlc08_nor_mon_fimir_1", origin="vanilla", recruitment_cost=1300, multiplayer_cost=1300},
+                    {land_unit="singe_nor_armoured_icetroll", origin="singe_units_wh_all", recruitment_cost=1150, multiplayer_cost=1150},
                 },
                 ["monstrous_cavalry"] = {},
                 ["chariot"] = {},
@@ -2556,7 +2603,9 @@ return {
                 ["melee_cavalry"] = {},
                 ["missile_cavalry"] = {},
                 ["monstrous_infantry"] = {},
-                ["monstrous_cavalry"] = {},
+                ["monstrous_cavalry"] = {
+                    {land_unit="singe_nor_manticore_reavers", origin="singe_units_wh_all", recruitment_cost=1600, multiplayer_cost=1600},
+                },
                 ["chariot"] = {},
                 ["warmachine"] = {
                     {land_unit="wh_dlc08_nor_art_hellcannon_battery", origin="vanilla", recruitment_cost=3200, multiplayer_cost=3200},
@@ -2708,6 +2757,7 @@ return {
                     {land_unit="wh2_dlc11_cst_art_mortar", origin="vanilla", recruitment_cost=600, multiplayer_cost=600},
                     {land_unit="cathay_pirate_bombard", origin="!!_sartosa_overhaul", recruitment_cost=900, multiplayer_cost=900},
                     {land_unit="seggs_dlc11_cst_art_bat_mortar", origin="seggs_cst_expansion", recruitment_cost=700, multiplayer_cost=700},
+                    {land_unit="singe_zpotvc_bat_mortar", origin="singe_units_wh_all", recruitment_cost=700, multiplayer_cost=700},
                 },
                 ["war_beast"] = {
                     {land_unit="wh2_dlc11_cst_cav_deck_droppers_1", origin="vanilla", recruitment_cost=500, multiplayer_cost=500},
@@ -2738,6 +2788,7 @@ return {
                     {land_unit="cst_corsairs", origin="dog", recruitment_cost=1600, multiplayer_cost=750},
                     {land_unit="seggs_dlc11_cst_inf_deck_gunners_1", origin="seggs_cst_expansion", recruitment_cost=700, multiplayer_cost=700},
                     {land_unit="psgo_brinewight_flamethrower", origin="psgo_brinewight", recruitment_cost=625, multiplayer_cost=625},
+                    {land_unit="singe_zpotvc_depth_guard_pistols", origin="singe_units_wh_all", recruitment_cost=1300, multiplayer_cost=1300},
                 },
                 ["melee_cavalry"] = {
                     {land_unit="wh2_dlc11_cst_cav_questing_knights_0", origin="vanilla", recruitment_cost=1400, multiplayer_cost=1100},
@@ -2771,7 +2822,9 @@ return {
                     {land_unit="cst_sartosa_mortar_triple_cannons", origin="doggo", recruitment_cost=0, multiplayer_cost=1600},
                     {land_unit="seggs_cst_art_magic_cannon", origin="seggs_cst_expansion", recruitment_cost=850, multiplayer_cost=850},
                 },
-                ["war_beast"] = {},
+                ["war_beast"] = {
+                    {land_unit="singe_zpotvc_deck_droppers_handcannons", origin="singe_units_wh_all", recruitment_cost=750, multiplayer_cost=750},
+                },
                 ["monster"] = {},
                 ["generic"] = {},
                 ["lord"] = {},
@@ -2785,6 +2838,7 @@ return {
                 ["missile_infantry"] = {
                     {land_unit="sartosa_buccaneer_drakegun_weapon_team", origin="!!_sartosa_overhaul", recruitment_cost=1100, multiplayer_cost=900},
                     {land_unit="seggs_dlc11_cst_inf_ghost_helmsmen", origin="seggs_cst_expansion", recruitment_cost=1100, multiplayer_cost=1100},
+                    {land_unit="singe_zpotvc_deck_burners", origin="singe_units_wh_all", recruitment_cost=800, multiplayer_cost=700},
                 },
                 ["melee_cavalry"] = {},
                 ["missile_cavalry"] = {},
@@ -2806,8 +2860,11 @@ return {
                     {land_unit="cst_ghostship", origin="dog", recruitment_cost=1400, multiplayer_cost=2000},
                     {land_unit="cst_princess_bess_cannon", origin="doggo", recruitment_cost=0, multiplayer_cost=1600},
                     {land_unit="psgo_haunted_vessel", origin="psgo_brinewight", recruitment_cost=1500, multiplayer_cost=1500},
+                    {land_unit="singe_zpotvc_corpse_cannon", origin="singe_units_wh_all", recruitment_cost=800, multiplayer_cost=800},
                 },
-                ["war_beast"] = {},
+                ["war_beast"] = {
+                    {land_unit="singe_zpotvc_deck_snatchers", origin="singe_units_wh_all", recruitment_cost=800, multiplayer_cost=800},
+                },
                 ["monster"] = {
                     {land_unit="wh2_dlc11_cst_mon_necrofex_colossus_0", origin="vanilla", recruitment_cost=1800, multiplayer_cost=1800},
                     {land_unit="sartosa_zombie_dread_saurian", origin="!!_sartosa_overhaul", recruitment_cost=2300, multiplayer_cost=2300},
@@ -2826,7 +2883,9 @@ return {
                 ["melee_cavalry"] = {},
                 ["missile_cavalry"] = {},
                 ["monstrous_infantry"] = {},
-                ["monstrous_cavalry"] = {},
+                ["monstrous_cavalry"] = {
+                    {land_unit="singe_zpotvc_depthknight", origin="singe_units_wh_all", recruitment_cost=1600, multiplayer_cost=1600},
+                },
                 ["chariot"] = {},
                 ["warmachine"] = {
                     {land_unit="sartosa_buccaneer_drakefire_cannon", origin="!!_sartosa_overhaul", recruitment_cost=1000, multiplayer_cost=1000},
@@ -2841,6 +2900,8 @@ return {
                     {land_unit="sartosa_zombie_carnosaur", origin="!!_sartosa_overhaul", recruitment_cost=1600, multiplayer_cost=1600},
                     {land_unit="sartosa_zombie_dragon", origin="!!_sartosa_overhaul", recruitment_cost=2000, multiplayer_cost=2000},
                     {land_unit="sartosa_zombie_kharibdyss", origin="!!_sartosa_overhaul", recruitment_cost=1800, multiplayer_cost=1800},
+                    {land_unit="singe_zpotvc_necrofex_rockets", origin="singe_units_wh_all", recruitment_cost=2100, multiplayer_cost=1800},
+                    {land_unit="singe_zpotvc_necrofex_shrapnel", origin="singe_units_wh_all", recruitment_cost=2100, multiplayer_cost=1800},
                 },
                 ["generic"] = {},
                 ["lord"] = {},
@@ -2907,6 +2968,7 @@ return {
                     {land_unit="wh_main_vmp_inf_skeleton_warriors_1", origin="vanilla", recruitment_cost=325, multiplayer_cost=325},
                     {land_unit="wh_main_vmp_inf_zombie", origin="vanilla", recruitment_cost=100, multiplayer_cost=100},
                     {land_unit="kys_und_necro_zombie", origin="!!from_the_grave_main", recruitment_cost=100, multiplayer_cost=100},
+                    {land_unit="singe_vc_skelly_scythe", origin="singe_units_wh_all", recruitment_cost=300, multiplayer_cost=300},
                 },
                 ["missile_infantry"] = {
                     {land_unit="wh2_dlc11_vmp_inf_crossbowmen", origin="vanilla", recruitment_cost=475, multiplayer_cost=475},
@@ -2971,6 +3033,7 @@ return {
                     {land_unit="cst_lzd_skink_redcrest", origin="!!!!!!Champions_of_undeath_merged_fun_tyme", recruitment_cost=825, multiplayer_cost=825},
                     {land_unit="kys_und_behemoth", origin="!!from_the_grave_main", recruitment_cost=1050, multiplayer_cost=1100},
                     {land_unit="kys_und_bk_foot", origin="!!from_the_grave_main", recruitment_cost=1200, multiplayer_cost=1200},
+                    {land_unit="singe_vc_graveguard_scythe", origin="singe_units_wh_all", recruitment_cost=950, multiplayer_cost=950},
                 },
                 ["missile_infantry"] = {
                     {land_unit="cst_lzd_skink_cohort_1", origin="!!!!!!Champions_of_undeath_merged_fun_tyme", recruitment_cost=400, multiplayer_cost=400},
@@ -2990,8 +3053,11 @@ return {
                     {land_unit="wh_main_vmp_mon_vargheists", origin="vanilla", recruitment_cost=1000, multiplayer_cost=1050},
                     {land_unit="skeleton_kroxigor_enslaved_anicents_summon", origin="!!!!!!Champions_of_undeath_merged_fun_tyme", recruitment_cost=0, multiplayer_cost=1100},
                     {land_unit="cst_lzd_kroxigors", origin="!!!!!!Champions_of_undeath_merged_fun_tyme", recruitment_cost=0, multiplayer_cost=1100},
+                    {land_unit="singe_vc_strigoi_terrors", origin="singe_units_wh_all", recruitment_cost=1100, multiplayer_cost=1100},
                 },
-                ["monstrous_cavalry"] = {},
+                ["monstrous_cavalry"] = {
+                    {land_unit="singe_vc_hell_knights", origin="singe_units_wh_all", recruitment_cost=1100, multiplayer_cost=1100},
+                },
                 ["chariot"] = {
                     {land_unit="wh_dlc04_vmp_veh_mortis_engine_0", origin="vanilla", recruitment_cost=1400, multiplayer_cost=1400},
                     {land_unit="wh_main_vmp_veh_black_coach", origin="vanilla", recruitment_cost=1100, multiplayer_cost=1100},
@@ -3029,6 +3095,9 @@ return {
                     {land_unit="bm_wf_kolsveinn_inf_skullhunters_0", origin="!!!!!!Champions_of_undeath_merged_fun_tyme", recruitment_cost=1200, multiplayer_cost=1200},
                     {land_unit="nom_based_beastfiend_dual_axe", origin="!!!!!!Champions_of_undeath_merged_fun_tyme", recruitment_cost=0, multiplayer_cost=750},
                     {land_unit="bm_wf_obsidian_skink_altar_braves", origin="!!!!!!Champions_of_undeath_merged_fun_tyme", recruitment_cost=740, multiplayer_cost=740},
+                    {land_unit="singe_vc_spirit_host", origin="singe_units_wh_all", recruitment_cost=650, multiplayer_cost=450},
+                    {land_unit="singe_vc_blood_foot_duel", origin="singe_units_wh_all", recruitment_cost=1200, multiplayer_cost=1200},
+                    {land_unit="singe_vc_blood_foot_shield", origin="singe_units_wh_all", recruitment_cost=1300, multiplayer_cost=1300},
                 },
                 ["missile_infantry"] = {
                     {land_unit="bm_db_witch_hunter_kill_squad", origin="!!!!!!Champions_of_undeath_merged_fun_tyme", recruitment_cost=1000, multiplayer_cost=1000},
@@ -3142,6 +3211,7 @@ return {
                     {land_unit="skelly_dragon_ogre_shaggoth", origin="!!!!!!Champions_of_undeath_merged_fun_tyme", recruitment_cost=2000, multiplayer_cost=2000},
                     {land_unit="dread_automata_nightmare", origin="!!!!!!Champions_of_undeath_merged_fun_tyme", recruitment_cost=0, multiplayer_cost=2550},
                     {land_unit="bm_wf_df_spider_thing", origin="!!!!!!Champions_of_undeath_merged_fun_tyme", recruitment_cost=1900, multiplayer_cost=1750},
+                    {land_unit="singe_vc_zombie_dragon", origin="singe_units_wh_all", recruitment_cost=2100, multiplayer_cost=2100},
                 },
                 ["generic"] = {},
                 ["lord"] = {},
@@ -3436,6 +3506,8 @@ return {
                     {land_unit="reb_inf_halberdiers", origin="@xou_emp", recruitment_cost=550, multiplayer_cost=550},
                     {land_unit="cos_inf_greatswords", origin="@xou_emp", recruitment_cost=850, multiplayer_cost=850},
                     {land_unit="cos_inf_halberdiers", origin="@xou_emp", recruitment_cost=550, multiplayer_cost=550},
+                    {land_unit="singe_emp_freecom_dual", origin="singe_units_wh_all", recruitment_cost=470, multiplayer_cost=430},
+                    {land_unit="singe_emp_state_halshield", origin="singe_units_wh_all", recruitment_cost=650, multiplayer_cost=650},
                 },
                 ["missile_infantry"] = {
                     {land_unit="wh2_dlc13_emp_inf_archers_ror_0", origin="vanilla", recruitment_cost=550, multiplayer_cost=550},
@@ -3529,6 +3601,7 @@ return {
                     {land_unit="wh_main_emp_cav_empire_knights", origin="vanilla", recruitment_cost=0, multiplayer_cost=850},
                     {land_unit="wh_main_emp_cav_empire_knights", origin="vanilla", recruitment_cost=850, multiplayer_cost=850},
                     {land_unit="emp_chemlancers_lances", origin="17C_Deithland_Main", recruitment_cost=700, multiplayer_cost=850},
+                    {land_unit="singe_emp_light_lancers", origin="singe_units_wh_all", recruitment_cost=600, multiplayer_cost=600},
                 },
                 ["missile_cavalry"] = {
                     {land_unit="wh_main_emp_cav_outriders_1", origin="vanilla", recruitment_cost=0, multiplayer_cost=800},
@@ -3600,6 +3673,10 @@ return {
                     {land_unit="emp_inf_knight_north_star", origin="@xou_emp", recruitment_cost=1100, multiplayer_cost=1100},
                     {land_unit="wh_main_dwf_inf_hammerers", origin="@xou_emp", recruitment_cost=1200, multiplayer_cost=1200},
                     {land_unit="wh_twm_emp_inf_modern_vanguard_infantry_early", origin="!TW_Millennium_Public", recruitment_cost=675, multiplayer_cost=675},
+                    {land_unit="singe_emp_arm_swords", origin="singe_units_wh_all", recruitment_cost=850, multiplayer_cost=850},
+                    {land_unit="singe_emp_arm_spears", origin="singe_units_wh_all", recruitment_cost=850, multiplayer_cost=850},
+                    {land_unit="singe_emp_arm_halberd", origin="singe_units_wh_all", recruitment_cost=900, multiplayer_cost=900},
+                    {land_unit="singe_emp_arm_halshield", origin="singe_units_wh_all", recruitment_cost=950, multiplayer_cost=950},
                 },
                 ["missile_infantry"] = {
                     {land_unit="wh2_dlc13_emp_inf_huntsmen_0", origin="vanilla", recruitment_cost=650, multiplayer_cost=650},
@@ -3644,6 +3721,7 @@ return {
                     {land_unit="wh_twm_emp_inf_modern_field_pioneers_late", origin="!TW_Millennium_Public", recruitment_cost=500, multiplayer_cost=500},
                     {land_unit="wh_twm_emp_inf_modern_fortress_pioneers", origin="!TW_Millennium_Public", recruitment_cost=700, multiplayer_cost=700},
                     {land_unit="wh_twm_emp_inf_modern_garrison_infantry_mid", origin="!TW_Millennium_Public", recruitment_cost=625, multiplayer_cost=625},
+                    {land_unit="singe_emp_grenadiers", origin="singe_units_wh_all", recruitment_cost=840, multiplayer_cost=840},
                 },
                 ["melee_cavalry"] = {
                     {land_unit="wh2_dlc13_emp_cav_empire_knights_ror_0", origin="vanilla", recruitment_cost=1000, multiplayer_cost=1000},
@@ -3687,6 +3765,7 @@ return {
                     {land_unit="wh_dlc04_emp_cav_zintlers_reiksguard_0", origin="@xou_emp", recruitment_cost=1350, multiplayer_cost=1350},
                     {land_unit="wh_main_emp_cav_reiksguard", origin="@xou_emp", recruitment_cost=1150, multiplayer_cost=1150},
                     {land_unit="emp_cav_knight_north_star", origin="@xou_emp", recruitment_cost=1150, multiplayer_cost=1150},
+                    {land_unit="singe_emp_knight_grtswrd", origin="singe_units_wh_all", recruitment_cost=1000, multiplayer_cost=950},
                 },
                 ["missile_cavalry"] = {
                     {land_unit="wh2_dlc13_emp_cav_outriders_ror_0", origin="vanilla", recruitment_cost=1000, multiplayer_cost=1000},
@@ -3702,6 +3781,8 @@ return {
                 },
                 ["monstrous_cavalry"] = {
                     {land_unit="wh_main_emp_cav_demigryph_knights_0", origin="vanilla", recruitment_cost=0, multiplayer_cost=1450},
+                    {land_unit="singe_emp_griffon_knight", origin="singe_units_wh_all", recruitment_cost=2200, multiplayer_cost=2200},
+                    {land_unit="singe_emp_pegasus_knights", origin="singe_units_wh_all", recruitment_cost=1400, multiplayer_cost=1400},
                 },
                 ["chariot"] = {
                     {land_unit="wh2_dlc13_emp_veh_war_wagon_1", origin="vanilla", recruitment_cost=950, multiplayer_cost=950},
@@ -4182,6 +4263,8 @@ return {
                     {land_unit="brt_chasseurs", origin="Mf_Bertrand_Thieves_Honor", recruitment_cost=750, multiplayer_cost=750},
                     {land_unit="wh_main_brt_cav_mounted_yeomen_1", origin="!!!!!Zayli_Complete_Mod_Compilation", recruitment_cost=500, multiplayer_cost=500},
                     {land_unit="zayli_royal_yeomen_archers", origin="!!!!!Zayli_Complete_Mod_Compilation", recruitment_cost=650, multiplayer_cost=650},
+                    {land_unit="singe_brt_yeomen_pox", origin="singe_units_wh_all", recruitment_cost=650, multiplayer_cost=600},
+                    {land_unit="singe_brt_yeomen_flame", origin="singe_units_wh_all", recruitment_cost=700, multiplayer_cost=650},
                 },
                 ["monstrous_infantry"] = {},
                 ["monstrous_cavalry"] = {},
@@ -4221,6 +4304,10 @@ return {
                     {land_unit="zayli_men_at_arms_ror_6", origin="!!!!!Zayli_Complete_Mod_Compilation", recruitment_cost=800, multiplayer_cost=800},
                     {land_unit="zayli_paladins", origin="!!!!!Zayli_Complete_Mod_Compilation", recruitment_cost=1250, multiplayer_cost=1250},
                     {land_unit="zayli_paladins_great_weapons", origin="!!!!!Zayli_Complete_Mod_Compilation", recruitment_cost=1450, multiplayer_cost=1450},
+                    {land_unit="singe_brt_serjeant_polearm", origin="singe_units_wh_all", recruitment_cost=700, multiplayer_cost=700},
+                    {land_unit="singe_brt_serjeant_shield", origin="singe_units_wh_all", recruitment_cost=700, multiplayer_cost=700},
+                    {land_unit="singe_brt_serjeant_sword", origin="singe_units_wh_all", recruitment_cost=700, multiplayer_cost=700},
+                    {land_unit="singe_brt_menpole_shield", origin="singe_units_wh_all", recruitment_cost=525, multiplayer_cost=525},
                 },
                 ["missile_infantry"] = {
                     {land_unit="BTCGS", origin="@Deer24batuoniya", recruitment_cost=1000, multiplayer_cost=1000},
@@ -4298,6 +4385,7 @@ return {
                     {land_unit="haven_paladin", origin="Zerooz_All_Units", recruitment_cost=1600, multiplayer_cost=1600},
                     {land_unit="wh_dlc07_brt_cav_grail_guardians_0", origin="!!!!!Zayli_Complete_Mod_Compilation", recruitment_cost=1800, multiplayer_cost=1800},
                     {land_unit="wh_main_brt_cav_grail_knights", origin="!!!!!Zayli_Complete_Mod_Compilation", recruitment_cost=1600, multiplayer_cost=1600},
+                    {land_unit="singe_brt_unicorn_knights", origin="singe_units_wh_all", recruitment_cost=1800, multiplayer_cost=1800},
                 },
                 ["missile_cavalry"] = {},
                 ["monstrous_infantry"] = {},
@@ -4443,12 +4531,15 @@ return {
                 },
                 ["monstrous_infantry"] = {},
                 ["monstrous_cavalry"] = {},
-                ["chariot"] = {},
+                ["chariot"] = {
+                    {land_unit="singe_grn_spider_chariot", origin="singe_units_wh_all", recruitment_cost=600, multiplayer_cost=600},
+                },
                 ["warmachine"] = {},
                 ["war_beast"] = {
                     {land_unit="wh_dlc06_grn_inf_squig_explosive_0", origin="vanilla", recruitment_cost=425, multiplayer_cost=425},
                     {land_unit="wh_dlc06_grn_inf_squig_herd_0", origin="vanilla", recruitment_cost=300, multiplayer_cost=400},
                     {land_unit="wh_dlc06_grn_mon_spider_hatchlings_0", origin="vanilla", recruitment_cost=250, multiplayer_cost=250},
+                    {land_unit="singe_grn_giant_spiders", origin="singe_units_wh_all", recruitment_cost=550, multiplayer_cost=550},
                 },
                 ["monster"] = {},
                 ["generic"] = {},
@@ -4511,6 +4602,7 @@ return {
                     {land_unit="wh3_dlc26_grn_art_bolt_throwa_ror", origin="vanilla", recruitment_cost=800, multiplayer_cost=800},
                     {land_unit="wh_dlc06_grn_art_hammer_of_gork_0", origin="vanilla", recruitment_cost=800, multiplayer_cost=800},
                     {land_unit="wh_main_grn_art_goblin_rock_lobber", origin="vanilla", recruitment_cost=600, multiplayer_cost=550},
+                    {land_unit="singe_grn_dung_flinga", origin="singe_units_wh_all", recruitment_cost=600, multiplayer_cost=600},
                 },
                 ["war_beast"] = {
                     {land_unit="als_squig_flappy", origin="!alshua_go_squig_or_go_home", recruitment_cost=550, multiplayer_cost=550},
@@ -4529,6 +4621,7 @@ return {
                     {land_unit="wh_main_grn_inf_black_orcs", origin="vanilla", recruitment_cost=1100, multiplayer_cost=1100},
                     {land_unit="als_squig_great_cave", origin="!alshua_go_squig_or_go_home", recruitment_cost=1050, multiplayer_cost=1050},
                     {land_unit="frb_dark_land_orc_boyz_big_uns", origin="froeb_dark_land_orcs", recruitment_cost=900, multiplayer_cost=900},
+                    {land_unit="singe_grn_night_ladz", origin="singe_units_wh_all", recruitment_cost=700, multiplayer_cost=700},
                 },
                 ["missile_infantry"] = {
                     {land_unit="frb_scrap_shooters", origin="froeb_dark_land_orcs", recruitment_cost=1000, multiplayer_cost=1000},
@@ -4547,7 +4640,9 @@ return {
                 ["warmachine"] = {
                     {land_unit="wh_main_grn_art_doom_diver_catapult", origin="vanilla", recruitment_cost=1000, multiplayer_cost=1000},
                 },
-                ["war_beast"] = {},
+                ["war_beast"] = {
+                    {land_unit="singe_grn_wolf_pack", origin="singe_units_wh_all", recruitment_cost=650, multiplayer_cost=650},
+                },
                 ["monster"] = {
                     {land_unit="wh_main_grn_mon_giant", origin="vanilla", recruitment_cost=1500, multiplayer_cost=1400},
                     {land_unit="frb_dark_land_drake", origin="froeb_dark_land_orcs", recruitment_cost=1400, multiplayer_cost=1400},
@@ -4565,12 +4660,16 @@ return {
                     {land_unit="derpy_grn_looted_rune_boyz", origin="derpy_grn_looted", recruitment_cost=1150, multiplayer_cost=1150},
                     {land_unit="frb_scrap_shooters_ror", origin="froeb_dark_land_orcs", recruitment_cost=1600, multiplayer_cost=1600},
                 },
-                ["melee_cavalry"] = {},
+                ["melee_cavalry"] = {
+                    {land_unit="singe_grn_gore_grunta", origin="singe_units_wh_all", recruitment_cost=1100, multiplayer_cost=1100},
+                },
                 ["missile_cavalry"] = {},
                 ["monstrous_infantry"] = {},
                 ["monstrous_cavalry"] = {},
                 ["chariot"] = {},
-                ["warmachine"] = {},
+                ["warmachine"] = {
+                    {land_unit="singe_grn_idol_hurla", origin="singe_units_wh_all", recruitment_cost=1200, multiplayer_cost=1200},
+                },
                 ["war_beast"] = {
                     {land_unit="wh_dlc06_grn_inf_squig_herd_0", origin="!alshua_go_squig_or_go_home", recruitment_cost=1200, multiplayer_cost=1200},
                 },
@@ -4596,7 +4695,10 @@ return {
                 ["melee_cavalry"] = {},
                 ["missile_cavalry"] = {},
                 ["monstrous_infantry"] = {},
-                ["monstrous_cavalry"] = {},
+                ["monstrous_cavalry"] = {
+                    {land_unit="singe_grn_wyvern_black", origin="singe_units_wh_all", recruitment_cost=2000, multiplayer_cost=2000},
+                    {land_unit="singe_grn_wyvern_savage", origin="singe_units_wh_all", recruitment_cost=1800, multiplayer_cost=1800},
+                },
                 ["chariot"] = {
                     {land_unit="derpy_grn_looted_chd_tank", origin="derpy_grn_looted", recruitment_cost=2900, multiplayer_cost=3000},
                     {land_unit="derpy_grn_looted_dwf_tank", origin="derpy_grn_looted", recruitment_cost=2700, multiplayer_cost=2700},
@@ -4792,6 +4894,7 @@ return {
                 ["monstrous_cavalry"] = {
                     {land_unit="ghs_main_wef_mon_zoat_rider_thorn_sister", origin="ghs_great_harmony", recruitment_cost=2000, multiplayer_cost=2000},
                     {land_unit="ghs_main_wef_cav_wild_hunter_knight", origin="ghs_great_harmony", recruitment_cost=2000, multiplayer_cost=2000},
+                    {land_unit="singe_we_huntsmen_parravon", origin="singe_units_wh_all", recruitment_cost=1100, multiplayer_cost=1100},
                 },
                 ["chariot"] = {},
                 ["warmachine"] = {
@@ -4825,12 +4928,17 @@ return {
                 ["melee_infantry"] = {
                     {land_unit="c_asrai_blademasters", origin="cipher_wef_units", recruitment_cost=1310, multiplayer_cost=1310},
                     {land_unit="c_asrai_shieldmaidens", origin="cipher_wef_units", recruitment_cost=1305, multiplayer_cost=1305},
+                    {land_unit="singe_we_huntsmen_glaive", origin="singe_units_wh_all", recruitment_cost=1000, multiplayer_cost=1000},
+                    {land_unit="singe_we_huntsmen_sword", origin="singe_units_wh_all", recruitment_cost=1000, multiplayer_cost=1000},
+                    {land_unit="singe_we_huntsmen_spear", origin="singe_units_wh_all", recruitment_cost=1000, multiplayer_cost=1000},
                 },
                 ["missile_infantry"] = {
                     {land_unit="wh_pro04_wef_inf_waywatchers_ror_0", origin="vanilla", recruitment_cost=1450, multiplayer_cost=1450},
+                    {land_unit="singe_we_sisters_oak", origin="singe_units_wh_all", recruitment_cost=1100, multiplayer_cost=1100},
                 },
                 ["melee_cavalry"] = {
                     {land_unit="wh_pro04_wef_cav_wild_riders_ror_0", origin="vanilla", recruitment_cost=1550, multiplayer_cost=1550},
+                    {land_unit="singe_we_sky_riders", origin="singe_units_wh_all", recruitment_cost=1050, multiplayer_cost=1050},
                 },
                 ["missile_cavalry"] = {},
                 ["monstrous_infantry"] = {
@@ -4992,7 +5100,10 @@ return {
                     {land_unit="wh_pro04_bst_inf_gor_herd_ror_0", origin="vanilla", recruitment_cost=0, multiplayer_cost=750},
                     {land_unit="wh_pro04_bst_inf_ungor_spearmen_ror_0", origin="vanilla", recruitment_cost=0, multiplayer_cost=575},
                 },
-                ["missile_infantry"] = {},
+                ["missile_infantry"] = {
+                    {land_unit="singe_bm_ungor_vile", origin="singe_units_wh_all", recruitment_cost=0, multiplayer_cost=550},
+                    {land_unit="singe_bm_ungor_shard", origin="singe_units_wh_all", recruitment_cost=0, multiplayer_cost=650},
+                },
                 ["melee_cavalry"] = {
                     {land_unit="wh_dlc03_bst_inf_centigors_1", origin="vanilla", recruitment_cost=0, multiplayer_cost=825},
                     {land_unit="wh_dlc03_bst_inf_centigors_0", origin="vanilla", recruitment_cost=0, multiplayer_cost=800},
@@ -5081,7 +5192,10 @@ return {
                 ["hero"] = {},
             },
             ["tier_4"] = {
-                ["melee_infantry"] = {},
+                ["melee_infantry"] = {
+                    {land_unit="singe_bm_bestigor_shield", origin="singe_units_wh_all", recruitment_cost=0, multiplayer_cost=1100},
+                    {land_unit="singe_bm_bestigor_spear", origin="singe_units_wh_all", recruitment_cost=0, multiplayer_cost=1100},
+                },
                 ["missile_infantry"] = {
                     {land_unit="wh_dlc03_bst_inf_cygor_0", origin="vanilla", recruitment_cost=0, multiplayer_cost=1550},
                     {land_unit="wh_pro04_bst_inf_cygor_ror_0", origin="vanilla", recruitment_cost=0, multiplayer_cost=1900},
@@ -5091,12 +5205,16 @@ return {
                 ["monstrous_infantry"] = {
                     {land_unit="wh_pro04_bst_inf_minotaurs_ror_0", origin="vanilla", recruitment_cost=0, multiplayer_cost=1600},
                 },
-                ["monstrous_cavalry"] = {},
+                ["monstrous_cavalry"] = {
+                    {land_unit="singe_bm_tuskgor_herd", origin="singe_units_wh_all", recruitment_cost=0, multiplayer_cost=500},
+                },
                 ["chariot"] = {},
                 ["warmachine"] = {},
                 ["war_beast"] = {},
                 ["monster"] = {
                     {land_unit="wh2_dlc17_bst_mon_jabberslythe_0", origin="vanilla", recruitment_cost=0, multiplayer_cost=1700},
+                    {land_unit="singe_bm_vile_manticore", origin="singe_units_wh_all", recruitment_cost=0, multiplayer_cost=1550},
+                    {land_unit="singe_bm_razorgor_behemoth", origin="singe_units_wh_all", recruitment_cost=0, multiplayer_cost=1525},
                 },
                 ["generic"] = {},
                 ["lord"] = {},
@@ -5287,6 +5405,7 @@ return {
                     {land_unit="wh_main_chs_inf_chosen_1", origin="vanilla", recruitment_cost=1350, multiplayer_cost=1350},
                     {land_unit="wh_pro04_chs_inf_chaos_warriors_ror_0", origin="vanilla", recruitment_cost=1000, multiplayer_cost=1000},
                     {land_unit="wh_pro04_chs_inf_forsaken_ror_0", origin="vanilla", recruitment_cost=1000, multiplayer_cost=1000},
+                    {land_unit="singe_chs_dual_warrior", origin="singe_units_wh_all", recruitment_cost=800, multiplayer_cost=750},
                 },
                 ["missile_infantry"] = {},
                 ["melee_cavalry"] = {
@@ -5302,7 +5421,10 @@ return {
                     {land_unit="wh_pro04_chs_mon_chaos_spawn_ror_0", origin="vanilla", recruitment_cost=1300, multiplayer_cost=1250},
                     {land_unit="kou_ace_km_spittin_naja", origin="!!khuresh_mercs1", recruitment_cost=1100, multiplayer_cost=1100},
                 },
-                ["monstrous_cavalry"] = {},
+                ["monstrous_cavalry"] = {
+                    {land_unit="singe_chs_gorebeasts", origin="singe_units_wh_all", recruitment_cost=700, multiplayer_cost=700},
+                    {land_unit="singe_dae_chaos_bears", origin="singe_units_wh_all", recruitment_cost=1600, multiplayer_cost=1600},
+                },
                 ["chariot"] = {
                     {land_unit="wh3_dlc20_chs_cav_chaos_chariot_msla_ror", origin="vanilla", recruitment_cost=1000, multiplayer_cost=1000},
                     {land_unit="wh_dlc01_chs_cav_gorebeast_chariot", origin="vanilla", recruitment_cost=1200, multiplayer_cost=1150},
@@ -5331,6 +5453,7 @@ return {
                     {land_unit="wh3_dlc20_chs_inf_chosen_mnur_greatweapons", origin="vanilla", recruitment_cost=1450, multiplayer_cost=1450},
                     {land_unit="wh3_dlc20_chs_inf_chosen_mtze_halberds", origin="vanilla", recruitment_cost=1500, multiplayer_cost=1500},
                     {land_unit="wh3_dlc26_chs_inf_chosen_mkho_ror", origin="vanilla", recruitment_cost=1800, multiplayer_cost=1800},
+                    {land_unit="singe_chs_dual_chosen", origin="singe_units_wh_all", recruitment_cost=1300, multiplayer_cost=1250},
                 },
                 ["missile_infantry"] = {},
                 ["melee_cavalry"] = {
@@ -5339,6 +5462,7 @@ return {
                     {land_unit="wh3_dlc20_chs_cav_chaos_knights_msla_lances", origin="vanilla", recruitment_cost=1600, multiplayer_cost=1400},
                     {land_unit="wh3_dlc20_chs_cav_chaos_knights_mtze_lances", origin="vanilla", recruitment_cost=1600, multiplayer_cost=1400},
                     {land_unit="wh_pro04_chs_cav_chaos_knights_ror_0", origin="vanilla", recruitment_cost=1500, multiplayer_cost=1500},
+                    {land_unit="singe_chs_chosen_knights", origin="singe_units_wh_all", recruitment_cost=1950, multiplayer_cost=1800},
                 },
                 ["missile_cavalry"] = {},
                 ["monstrous_infantry"] = {
@@ -5362,7 +5486,9 @@ return {
                 ["melee_cavalry"] = {},
                 ["missile_cavalry"] = {},
                 ["monstrous_infantry"] = {},
-                ["monstrous_cavalry"] = {},
+                ["monstrous_cavalry"] = {
+                    {land_unit="singe_chs_manticore_knights", origin="singe_units_wh_all", recruitment_cost=2000, multiplayer_cost=2000},
+                },
                 ["chariot"] = {},
                 ["warmachine"] = {},
                 ["war_beast"] = {},
@@ -5374,6 +5500,7 @@ return {
                     {land_unit="wh_dlc08_chs_mon_dragon_ogre_shaggoth_minor_boss", origin="vanilla", recruitment_cost=2000, multiplayer_cost=2400},
                     {land_unit="kou_ace_km_pyrenaga", origin="!!khuresh_mercs1", recruitment_cost=2200, multiplayer_cost=2200},
                     {land_unit="kou_ace_km_dread_maw", origin="!!khuresh_mercs1", recruitment_cost=2200, multiplayer_cost=2200},
+                    {land_unit="cf_chs_dragon", origin="CF-Chaos_Dragon", recruitment_cost=2400, multiplayer_cost=2200},
                 },
                 ["generic"] = {},
                 ["lord"] = {},
@@ -5553,8 +5680,11 @@ return {
                     {land_unit="stg_ch_cult_nur_children_doom_kholek", origin="stg_unq_mutants", recruitment_cost=350, multiplayer_cost=350},
                     {land_unit="stg_ch_cult_nur_maggot_king_chosen_kholek", origin="stg_unq_mutants", recruitment_cost=2800, multiplayer_cost=2800},
                     {land_unit="stg_ch_cult_sla_jade_spectre_kholek", origin="stg_unq_mutants", recruitment_cost=350, multiplayer_cost=350},
+                    {land_unit="singe_kho_cult_blades", origin="singe_units_wh_all", recruitment_cost=550, multiplayer_cost=375},
                 },
-                ["missile_infantry"] = {},
+                ["missile_infantry"] = {
+                    {land_unit="singe_kho_cult_hunters", origin="singe_units_wh_all", recruitment_cost=600, multiplayer_cost=550},
+                },
                 ["melee_cavalry"] = {},
                 ["missile_cavalry"] = {},
                 ["monstrous_infantry"] = {},
@@ -5610,6 +5740,7 @@ return {
                     {land_unit="traj_kho_skink_riders", origin="Trajanns_Khorne_Compilation", recruitment_cost=800, multiplayer_cost=800},
                     {land_unit="traj_kho_forsaken_rider", origin="Trajanns_Khorne_Compilation", recruitment_cost=900, multiplayer_cost=900},
                     {land_unit="traj_kho_cold_one", origin="Trajanns_Khorne_Compilation", recruitment_cost=600, multiplayer_cost=600},
+                    {land_unit="singe_kho_cult_reavers", origin="singe_units_wh_all", recruitment_cost=850, multiplayer_cost=750},
                 },
                 ["missile_cavalry"] = {},
                 ["monstrous_infantry"] = {
@@ -5625,6 +5756,7 @@ return {
                 ["warmachine"] = {},
                 ["war_beast"] = {
                     {land_unit="wh3_main_kho_inf_flesh_hounds_of_khorne_0", origin="vanilla", recruitment_cost=750, multiplayer_cost=750},
+                    {land_unit="singe_kho_exalted_doggo", origin="singe_units_wh_all", recruitment_cost=1400, multiplayer_cost=1400},
                 },
                 ["monster"] = {
                     {land_unit="traj_kho_terradon", origin="Trajanns_Khorne_Compilation", recruitment_cost=900, multiplayer_cost=900},
@@ -5716,6 +5848,7 @@ return {
                 ["monstrous_cavalry"] = {
                     {land_unit="traj_kho_ripperdactyl", origin="Trajanns_Khorne_Compilation", recruitment_cost=1400, multiplayer_cost=1400},
                     {land_unit="traj_kho_cav_longma", origin="Trajanns_Khorne_Compilation", recruitment_cost=1450, multiplayer_cost=1450},
+                    {land_unit="singe_kho_flesh_seekers", origin="singe_units_wh_all", recruitment_cost=1300, multiplayer_cost=1500},
                 },
                 ["chariot"] = {
                     {land_unit="wh3_dlc26_kho_veh_skullcannon_ror", origin="vanilla", recruitment_cost=1600, multiplayer_cost=1600},
@@ -5916,6 +6049,7 @@ return {
                     {land_unit="eku_arachnarok_spider", origin="Trajanns_Khorne_Compilation", recruitment_cost=2000, multiplayer_cost=2000},
                     {land_unit="eku_rotting_leviathan", origin="Trajanns_Khorne_Compilation", recruitment_cost=2100, multiplayer_cost=2100},
                     {land_unit="eku_thundertusk", origin="Trajanns_Khorne_Compilation", recruitment_cost=2400, multiplayer_cost=2400},
+                    {land_unit="cf_kho_chs_dragon", origin="CF-Chaos_Dragon", recruitment_cost=2400, multiplayer_cost=2200},
                 },
                 ["generic"] = {},
                 ["lord"] = {},
@@ -5968,8 +6102,12 @@ return {
                     {land_unit="stg_ch_cult_nur_maggot_king_chosen", origin="stg_unq_mutants", recruitment_cost=2800, multiplayer_cost=2800},
                     {land_unit="stg_ch_cult_nur_maggot_king_chosen_belakor", origin="stg_unq_mutants", recruitment_cost=2800, multiplayer_cost=2800},
                     {land_unit="stg_ch_cult_nur_maggot_king_chosen_festus", origin="stg_unq_mutants", recruitment_cost=2800, multiplayer_cost=2800},
+                    {land_unit="singe_nur_plague_walkers", origin="singe_units_wh_all", recruitment_cost=300, multiplayer_cost=300},
+                    {land_unit="singe_nur_monstrous_toad", origin="singe_units_wh_all", recruitment_cost=1500, multiplayer_cost=1500},
                 },
-                ["missile_infantry"] = {},
+                ["missile_infantry"] = {
+                    {land_unit="singe_nur_plague_spewers", origin="singe_units_wh_all", recruitment_cost=450, multiplayer_cost=450},
+                },
                 ["melee_cavalry"] = {
                     {land_unit="nur_cav_plague_cultist", origin="Zerooz_All_Units", recruitment_cost=450, multiplayer_cost=450},
                 },
@@ -6048,6 +6186,8 @@ return {
                     {land_unit="nur_inf_centigors_throwing_axes", origin="Zerooz_All_Units", recruitment_cost=1100, multiplayer_cost=1100},
                     {land_unit="nur_inf_centigors_great_axe", origin="Zerooz_All_Units", recruitment_cost=0, multiplayer_cost=1400},
                     {land_unit="nur_inf_centigors_great_axe", origin="Zerooz_All_Units", recruitment_cost=1400, multiplayer_cost=1400},
+                    {land_unit="singe_nur_plague_riders", origin="singe_units_wh_all", recruitment_cost=2200, multiplayer_cost=2200},
+                    {land_unit="singe_nur_plague_palanquin", origin="singe_units_wh_all", recruitment_cost=1650, multiplayer_cost=1650},
                 },
                 ["missile_cavalry"] = {},
                 ["monstrous_infantry"] = {
@@ -6063,6 +6203,7 @@ return {
                     {land_unit="wh3_main_nur_cav_plague_drones_0", origin="vanilla", recruitment_cost=1200, multiplayer_cost=1100},
                     {land_unit="wh3_main_nur_cav_pox_riders_of_nurgle_0", origin="vanilla", recruitment_cost=1050, multiplayer_cost=1000},
                     {land_unit="wh3_twa07_nur_cav_pox_riders_of_nurgle_ror_0", origin="vanilla", recruitment_cost=1250, multiplayer_cost=1250},
+                    {land_unit="singe_nur_blight_knights", origin="singe_units_wh_all", recruitment_cost=1300, multiplayer_cost=1300},
                 },
                 ["chariot"] = {},
                 ["warmachine"] = {},
@@ -6141,6 +6282,7 @@ return {
                     {land_unit="rot_idol", origin="Nurgle_Abomination", recruitment_cost=2000, multiplayer_cost=2000},
                     {land_unit="kou_ace_km_pyrenaga", origin="!!khuresh_mercs1", recruitment_cost=2200, multiplayer_cost=2200},
                     {land_unit="kou_ace_km_dread_maw", origin="!!khuresh_mercs1", recruitment_cost=2200, multiplayer_cost=2200},
+                    {land_unit="cf_nur_chs_dragon", origin="CF-Chaos_Dragon", recruitment_cost=2400, multiplayer_cost=2200},
                 },
                 ["generic"] = {},
                 ["lord"] = {},
@@ -6221,8 +6363,11 @@ return {
                     {land_unit="str_cw_slaanesh_halberd_ror", origin="str_cw_slaanesh", recruitment_cost=1200, multiplayer_cost=1200},
                     {land_unit="str_cw_slaanesh_gw_ror", origin="str_cw_slaanesh", recruitment_cost=1200, multiplayer_cost=1200},
                     {land_unit="chaos_warriors_of_slaanesh_1", origin="AAA_Theak_Patron_Gods", recruitment_cost=950, multiplayer_cost=950},
+                    {land_unit="singe_sla_cultist_hedonites", origin="singe_units_wh_all", recruitment_cost=700, multiplayer_cost=700},
                 },
-                ["missile_infantry"] = {},
+                ["missile_infantry"] = {
+                    {land_unit="singe_sla_blissbarb_archers", origin="singe_units_wh_all", recruitment_cost=800, multiplayer_cost=800},
+                },
                 ["melee_cavalry"] = {
                     {land_unit="wh3_main_sla_cav_hellstriders_0", origin="vanilla", recruitment_cost=675, multiplayer_cost=675},
                     {land_unit="wh3_main_sla_cav_hellstriders_1", origin="vanilla", recruitment_cost=725, multiplayer_cost=725},
@@ -6288,6 +6433,7 @@ return {
                 ["war_beast"] = {},
                 ["monster"] = {
                     {land_unit="ghs_main_sla_mon_titan", origin="ghs_great_harmony", recruitment_cost=2500, multiplayer_cost=2500},
+                    {land_unit="singe_sla_exalted_fiend", origin="singe_units_wh_all", recruitment_cost=1600, multiplayer_cost=1600},
                 },
                 ["generic"] = {},
                 ["lord"] = {},
@@ -6362,6 +6508,7 @@ return {
                     {land_unit="tros", origin="trojan_archer", recruitment_cost=5700, multiplayer_cost=2500},
                     {land_unit="kou_ace_km_pyrenaga", origin="!!khuresh_mercs1", recruitment_cost=2200, multiplayer_cost=2200},
                     {land_unit="kou_ace_km_dread_maw", origin="!!khuresh_mercs1", recruitment_cost=2200, multiplayer_cost=2200},
+                    {land_unit="cf_sla_chs_dragon", origin="CF-Chaos_Dragon", recruitment_cost=2400, multiplayer_cost=2200},
                 },
                 ["generic"] = {},
                 ["lord"] = {},
@@ -6418,6 +6565,7 @@ return {
                     {land_unit="stg_ch_cult_tze_purple_hand", origin="stg_unq_mutants", recruitment_cost=350, multiplayer_cost=350},
                     {land_unit="stg_ch_cult_tze_purple_hand_belakor", origin="stg_unq_mutants", recruitment_cost=350, multiplayer_cost=350},
                     {land_unit="stg_ch_cult_tze_purple_hand_vilitch", origin="stg_unq_mutants", recruitment_cost=350, multiplayer_cost=350},
+                    {land_unit="singe_tze_cultists_foot", origin="singe_units_wh_all", recruitment_cost=450, multiplayer_cost=450},
                 },
                 ["missile_infantry"] = {
                     {land_unit="wh3_main_pro_tze_inf_blue_horrors_0", origin="vanilla", recruitment_cost=400, multiplayer_cost=400},
@@ -6460,6 +6608,7 @@ return {
                 ["melee_cavalry"] = {
                     {land_unit="wh3_dlc24_tze_inf_centigors_great_weapons", origin="vanilla", recruitment_cost=0, multiplayer_cost=1200},
                     {land_unit="wh3_dlc24_tze_inf_centigors_great_weapons", origin="vanilla", recruitment_cost=1200, multiplayer_cost=1200},
+                    {land_unit="singe_tze_cultists_horse", origin="singe_units_wh_all", recruitment_cost=550, multiplayer_cost=550},
                 },
                 ["missile_cavalry"] = {},
                 ["monstrous_infantry"] = {
@@ -6470,6 +6619,7 @@ return {
                     {land_unit="wh3_main_tze_mon_flamers_0", origin="vanilla", recruitment_cost=850, multiplayer_cost=850},
                     {land_unit="wh3_main_tze_mon_screamers_0", origin="vanilla", recruitment_cost=700, multiplayer_cost=700},
                     {land_unit="mixu_tze_mon_trolls", origin="ab_mixu_legendary_lords", recruitment_cost=950, multiplayer_cost=950},
+                    {land_unit="singe_tze_exalted_screamer", origin="singe_units_wh_all", recruitment_cost=950, multiplayer_cost=950},
                 },
                 ["monstrous_cavalry"] = {
                     {land_unit="kou_ace_km_orobagor", origin="!!khuresh_mercs1", recruitment_cost=700, multiplayer_cost=700},
@@ -6502,13 +6652,16 @@ return {
                 ["missile_cavalry"] = {
                     {land_unit="tza_cav_doom_tzaangors_archer", origin="Zerooz_All_Units", recruitment_cost=0, multiplayer_cost=1400},
                     {land_unit="tza_cav_doom_tzaangors_archer", origin="Zerooz_All_Units", recruitment_cost=1400, multiplayer_cost=1400},
+                    {land_unit="singe_tze_horror_knights", origin="singe_units_wh_all", recruitment_cost=1400, multiplayer_cost=1400},
                 },
                 ["monstrous_infantry"] = {
                     {land_unit="wh3_main_tze_mon_spawn_of_tzeentch_0", origin="vanilla", recruitment_cost=1000, multiplayer_cost=1050},
                     {land_unit="kou_ace_km_spittin_naja", origin="!!khuresh_mercs1", recruitment_cost=1100, multiplayer_cost=1100},
                 },
                 ["monstrous_cavalry"] = {},
-                ["chariot"] = {},
+                ["chariot"] = {
+                    {land_unit="singe_tze_screaming_chariot", origin="singe_units_wh_all", recruitment_cost=1500, multiplayer_cost=1500},
+                },
                 ["warmachine"] = {},
                 ["war_beast"] = {},
                 ["monster"] = {
@@ -6545,6 +6698,7 @@ return {
                 ["monstrous_cavalry"] = {
                     {land_unit="wh3_main_tze_cav_doom_knights_0", origin="vanilla", recruitment_cost=1600, multiplayer_cost=1500},
                     {land_unit="wh3_twa07_tze_cav_doom_knights_ror_0", origin="vanilla", recruitment_cost=1700, multiplayer_cost=1700},
+                    {land_unit="singe_tze_doomsayer", origin="singe_units_wh_all", recruitment_cost=1600, multiplayer_cost=1500},
                 },
                 ["chariot"] = {
                     {land_unit="wh3_main_tze_veh_burning_chariot_0", origin="vanilla", recruitment_cost=1600, multiplayer_cost=1600},
@@ -6587,6 +6741,7 @@ return {
                     {land_unit="wh3_dlc24_tze_mon_mutalith_vortex_beast_ror", origin="vanilla", recruitment_cost=2600, multiplayer_cost=2500},
                     {land_unit="kou_ace_km_pyrenaga", origin="!!khuresh_mercs1", recruitment_cost=2200, multiplayer_cost=2200},
                     {land_unit="kou_ace_km_dread_maw", origin="!!khuresh_mercs1", recruitment_cost=2200, multiplayer_cost=2200},
+                    {land_unit="cf_tze_chs_dragon", origin="CF-Chaos_Dragon", recruitment_cost=2400, multiplayer_cost=2200},
                 },
                 ["generic"] = {},
                 ["lord"] = {},
@@ -6664,6 +6819,8 @@ return {
                     {land_unit="wh3_dlc23_chd_inf_chaos_dwarf_blunderbusses", origin="vanilla", recruitment_cost=900, multiplayer_cost=900},
                     {land_unit="wh3_dlc23_chd_inf_hobgoblin_archers", origin="vanilla", recruitment_cost=500, multiplayer_cost=500},
                     {land_unit="wh3_dlc23_chd_inf_chaos_dwarf_blunderbusses", origin="vanilla", recruitment_cost=0, multiplayer_cost=900},
+                    {land_unit="singe_chd_rifles", origin="singe_units_wh_all", recruitment_cost=700, multiplayer_cost=700},
+                    {land_unit="singe_chd_trackers", origin="singe_units_wh_all", recruitment_cost=525, multiplayer_cost=525},
                 },
                 ["melee_cavalry"] = {
                     {land_unit="wh3_dlc23_chd_cav_hobgoblin_wolf_raiders_bows", origin="vanilla", recruitment_cost=575, multiplayer_cost=575},
@@ -6693,11 +6850,14 @@ return {
                     {land_unit="wh3_dlc23_chd_inf_infernal_ironsworn", origin="vanilla", recruitment_cost=1400, multiplayer_cost=1400},
                     {land_unit="chd_inf_infernal_guard_spears", origin="derpy_hashuts_polearm", recruitment_cost=1000, multiplayer_cost=1000},
                     {land_unit="chd_inf_infernal_guard_bardiche", origin="derpy_hashuts_polearm", recruitment_cost=1150, multiplayer_cost=1150},
+                    {land_unit="singe_chd_zealot_berzerker", origin="singe_units_wh_all", recruitment_cost=900, multiplayer_cost=900},
                 },
                 ["missile_infantry"] = {
                     {land_unit="wh3_dlc23_chd_inf_chaos_dwarf_blunderbusses_ror", origin="vanilla", recruitment_cost=1200, multiplayer_cost=1200},
                     {land_unit="wh3_dlc23_chd_inf_infernal_guard_fireglaives", origin="vanilla", recruitment_cost=1200, multiplayer_cost=1200},
                     {land_unit="wh3_dlc23_chd_inf_infernal_guard_fireglaives", origin="vanilla", recruitment_cost=0, multiplayer_cost=1200},
+                    {land_unit="singe_chd_infernal_bazuka", origin="singe_units_wh_all", recruitment_cost=900, multiplayer_cost=900},
+                    {land_unit="singe_chd_infernal_magma", origin="singe_units_wh_all", recruitment_cost=700, multiplayer_cost=700},
                 },
                 ["melee_cavalry"] = {
                     {land_unit="wh3_dlc23_chd_cav_bull_centaurs_axe", origin="vanilla", recruitment_cost=1500, multiplayer_cost=1500},
@@ -6869,6 +7029,8 @@ return {
                     {land_unit="wh3_dlc24_ksl_inf_kislevite_warriors", origin="cf-Ksl-units", recruitment_cost=500, multiplayer_cost=500},
                     {land_unit="cf_ungol_warrior_drunk", origin="cf-Ksl-units", recruitment_cost=500, multiplayer_cost=500},
                     {land_unit="cf_ungol_warrior_shield", origin="cf-Ksl-units", recruitment_cost=500, multiplayer_cost=500},
+                    {land_unit="singe_ksl_warriors_shields", origin="singe_units_wh_all", recruitment_cost=500, multiplayer_cost=500},
+                    {land_unit="calm_ryadniks", origin="!!!!calm_kislev_erengrad", recruitment_cost=350, multiplayer_cost=350},
                 },
                 ["missile_infantry"] = {
                     {land_unit="wh3_main_ksl_inf_kossars_0", origin="vanilla", recruitment_cost=450, multiplayer_cost=450},
@@ -6928,6 +7090,10 @@ return {
                     {land_unit="ksl_salyak_healer_ly", origin="KslUni", recruitment_cost=800, multiplayer_cost=800},
                     {land_unit="cf_streltsi_pistol_bardiche", origin="cf-Ksl-units", recruitment_cost=700, multiplayer_cost=750},
                     {land_unit="cf_kvaskrovka_infantry", origin="cf-Ksl-units", recruitment_cost=700, multiplayer_cost=700},
+                    {land_unit="singe_ksl_frost_wyrmlings", origin="singe_units_wh_all", recruitment_cost=850, multiplayer_cost=850},
+                    {land_unit="wh3_main_ksl_inf_streltsi_0", origin="!!!!calm_kislev_erengrad", recruitment_cost=850, multiplayer_cost=850},
+                    {land_unit="calm_sarmatyrs", origin="!!!!calm_kislev_erengrad", recruitment_cost=500, multiplayer_cost=500},
+                    {land_unit="calm_kvassniks", origin="!!!!calm_kislev_erengrad", recruitment_cost=500, multiplayer_cost=500},
                 },
                 ["melee_cavalry"] = {
                     {land_unit="wh3_main_ksl_cav_winged_lancers_0", origin="vanilla", recruitment_cost=1000, multiplayer_cost=1000},
@@ -6937,6 +7103,7 @@ return {
                     {land_unit="wh3_main_ksl_cav_horse_archers_0", origin="vanilla", recruitment_cost=550, multiplayer_cost=600},
                     {land_unit="ghs_main_ksl_cav_flying_eagle_rider", origin="ghs_great_harmony", recruitment_cost=1200, multiplayer_cost=1200},
                     {land_unit="wh3_main_ksl_cav_horse_archers_0", origin="cf-Ksl-units", recruitment_cost=600, multiplayer_cost=600},
+                    {land_unit="calm_hajduks", origin="!!!!calm_kislev_erengrad", recruitment_cost=650, multiplayer_cost=650},
                 },
                 ["monstrous_infantry"] = {},
                 ["monstrous_cavalry"] = {
@@ -6949,6 +7116,8 @@ return {
                 },
                 ["warmachine"] = {
                     {land_unit="cf_praag_cannons", origin="cf-Ksl-units", recruitment_cost=1000, multiplayer_cost=1000},
+                    {land_unit="calm_erengrad_mortar", origin="!!!!calm_kislev_erengrad", recruitment_cost=600, multiplayer_cost=600},
+                    {land_unit="calm_erengrad_cannon", origin="!!!!calm_kislev_erengrad", recruitment_cost=800, multiplayer_cost=800},
                 },
                 ["war_beast"] = {
                     {land_unit="ksl_war_bear_02_ly", origin="KslUni", recruitment_cost=900, multiplayer_cost=900},
@@ -6991,6 +7160,7 @@ return {
                     {land_unit="cf_chekist", origin="cf-Ksl-units", recruitment_cost=1100, multiplayer_cost=1100},
                     {land_unit="cf_kurgan_brute", origin="cf-Ksl-units", recruitment_cost=1100, multiplayer_cost=1100},
                     {land_unit="wh3_twa10_ksl_inf_armoured_kossars_ror", origin="cf-Ksl-units", recruitment_cost=1100, multiplayer_cost=1100},
+                    {land_unit="singe_ksl_tzar_halberds", origin="singe_units_wh_all", recruitment_cost=1000, multiplayer_cost=1000},
                 },
                 ["missile_infantry"] = {
                     {land_unit="wh3_dlc24_ksl_inf_akshina_ambushers_ror", origin="vanilla", recruitment_cost=1150, multiplayer_cost=1150},
@@ -7009,12 +7179,16 @@ return {
                     {land_unit="cf_streltsi_snipers", origin="cf-Ksl-units", recruitment_cost=900, multiplayer_cost=900},
                     {land_unit="cf_streltsi_blunderbuss", origin="cf-Ksl-units", recruitment_cost=1300, multiplayer_cost=1300},
                     {land_unit="cf_akshina_ambushers_javelins", origin="cf-Ksl-units", recruitment_cost=1100, multiplayer_cost=1100},
+                    {land_unit="calm_kreml_guard", origin="!!!!calm_kislev_erengrad", recruitment_cost=1150, multiplayer_cost=1150},
+                    {land_unit="calm_straznik_blunderbuss", origin="!!!!calm_kislev_erengrad", recruitment_cost=850, multiplayer_cost=850},
+                    {land_unit="calm_storozhi", origin="!!!!calm_kislev_erengrad", recruitment_cost=1150, multiplayer_cost=1150},
                 },
                 ["melee_cavalry"] = {
                     {land_unit="wh3_main_ksl_cav_gryphon_legion_0", origin="vanilla", recruitment_cost=1250, multiplayer_cost=1250},
                     {land_unit="wh3_main_ksl_cav_gryphon_legion_0", origin="vanilla", recruitment_cost=1200, multiplayer_cost=1200},
                     {land_unit="cf_tzar_guard_cav", origin="cf-Ksl-units", recruitment_cost=1200, multiplayer_cost=1200},
                     {land_unit="wh3_main_ksl_cav_gryphon_legion_0", origin="cf-Ksl-units", recruitment_cost=1200, multiplayer_cost=1200},
+                    {land_unit="calm_mounted_kirasirs", origin="!!!!calm_kislev_erengrad", recruitment_cost=1250, multiplayer_cost=1250},
                 },
                 ["missile_cavalry"] = {
                     {land_unit="wh3_main_ksl_cav_ice_lancer_ly", origin="KslUni", recruitment_cost=1200, multiplayer_cost=1200},
@@ -7024,6 +7198,7 @@ return {
                     {land_unit="cf_ice_guard_missile_cav", origin="cf-Ksl-units", recruitment_cost=1100, multiplayer_cost=1100},
                     {land_unit="cf_kvaskrovka_cavalry", origin="cf-Ksl-units", recruitment_cost=1200, multiplayer_cost=1200},
                     {land_unit="cf_horseback_streltsi_blunderbuss", origin="cf-Ksl-units", recruitment_cost=900, multiplayer_cost=900},
+                    {land_unit="singe_ksl_ice_riders", origin="singe_units_wh_all", recruitment_cost=1350, multiplayer_cost=1350},
                 },
                 ["monstrous_infantry"] = {
                     {land_unit="cf_giant_spider_frost", origin="cf-Ksl-units", recruitment_cost=550, multiplayer_cost=550},
@@ -7058,6 +7233,7 @@ return {
                     {land_unit="derpy_ksl_warshed_infantry", origin="derpy_ksl_tanks", recruitment_cost=1200, multiplayer_cost=1200},
                     {land_unit="cf_erengrad_cannon", origin="cf-Ksl-units", recruitment_cost=1000, multiplayer_cost=1000},
                     {land_unit="cf_ksl_axe_thrower", origin="cf-Ksl-units", recruitment_cost=1100, multiplayer_cost=1000},
+                    {land_unit="calm_urugan_cannon", origin="!!!!calm_kislev_erengrad", recruitment_cost=1050, multiplayer_cost=1000},
                 },
                 ["war_beast"] = {
                     {land_unit="ghs_main_ksl_mon_alces", origin="ghs_great_harmony", recruitment_cost=900, multiplayer_cost=900},
@@ -7201,6 +7377,9 @@ return {
             {land_unit="wh3_main_ksl_cha_ice_witch_tempest_0", agent_subtype="wh3_main_ksl_ice_witch_tempest", agent_type="general", origin="vanilla", skill_overrides={ "wh2_main_skill_all_immortality_lord", "wh3_main_skill_all_mentor_lord", "wh3_main_skill_agent_action_success_scaling", "wh_main_skill_all_lord_battle_inspiring_presence", "wh3_main_skill_ksl_army_buff_kossars_streltsi", "wh3_main_skill_ksl_army_buff_elite_infantry", "wh3_main_skill_ksl_army_buff_heavy_cavalry", "wh3_main_skill_ksl_army_buff_monsters", "wh3_main_skill_ksl_army_buff_war_machines", "wh_main_skill_all_lord_battle_rally", "wh3_main_skill_ksl_army_buff_kossars_streltsi_ice_guard_rank_7", "wh3_main_skill_ksl_army_buff_cavalry_rank_7", "wh3_main_skill_ksl_army_buff_bears_tsar_guard_rank_7", "wh3_main_skill_ksl_army_buff_war_machines_rank_7", "wh_main_skill_all_lord_battle_stand_your_ground", "wh_main_skill_all_lord_campaign_route_marcher", "wh_main_skill_emp_lord_campaign_iron_disciplinarian", "wh_main_skill_emp_lord_campaign_leader_of_renown", "wh_main_skill_lord_all_campaign_reassuring_presence", "wh_main_skill_emp_lord_campaign_fervent", "wh2_main_skill_def_campaign_draftmaster", "wh_main_skill_all_lord_campaign_lightning_strike", "wh_main_skill_emp_lord_campaign_quartermaster", "wh_main_skill_emp_lord_campaign_logistician", "wh_main_skill_all_lord_campaign_alert", "wh2_main_skill_ll_self_defense", "wh3_main_skill_ksl_magic_tempest_01_hailstorm_lord", "wh3_main_skill_ksl_magic_tempest_05_freezing_winds", "wh3_main_skill_ksl_magic_tempest_02_gust_of_true_flight_lord", "wh3_main_skill_ksl_magic_tempest_03_swiftwing_lord", "wh3_main_skill_ksl_magic_tempest_04_biting_wind_lord", "wh_main_skill_all_magic_all_06_evasion", "wh_main_skill_all_magic_all_07_earthing", "wh_main_skill_all_magic_all_08_power_drain", "wh3_main_skill_ksl_magic_tempest_07_blizzard_lord", "wh3_main_skill_ksl_magic_tempest_07_hawks_of_miska_lord", "wh_main_skill_all_magic_all_11_arcane_conduit", "wh3_main_skill_ksl_ice_witch_tempest_unique_warhorse", "wh3_main_skill_ksl_ice_witch_tempest_unique_war_bear", "wh3_main_skill_ksl_all_unique_missile_resist", "wh3_main_skill_ksl_wizard_unique_guardian_call", "wh3_dlc24_skill_ksl_ice_witch_tempest_unique_frost_wyrm" }},
             {land_unit="wh3_main_ksl_cha_ice_witch_tempest_1", agent_subtype="wh3_main_ksl_ice_witch_tempest", agent_type="general", origin="vanilla", skill_overrides={ "wh2_main_skill_all_immortality_lord", "wh3_main_skill_all_mentor_lord", "wh3_main_skill_agent_action_success_scaling", "wh_main_skill_all_lord_battle_inspiring_presence", "wh3_main_skill_ksl_army_buff_kossars_streltsi", "wh3_main_skill_ksl_army_buff_elite_infantry", "wh3_main_skill_ksl_army_buff_heavy_cavalry", "wh3_main_skill_ksl_army_buff_monsters", "wh3_main_skill_ksl_army_buff_war_machines", "wh_main_skill_all_lord_battle_rally", "wh3_main_skill_ksl_army_buff_kossars_streltsi_ice_guard_rank_7", "wh3_main_skill_ksl_army_buff_cavalry_rank_7", "wh3_main_skill_ksl_army_buff_bears_tsar_guard_rank_7", "wh3_main_skill_ksl_army_buff_war_machines_rank_7", "wh_main_skill_all_lord_battle_stand_your_ground", "wh_main_skill_all_lord_campaign_route_marcher", "wh_main_skill_emp_lord_campaign_iron_disciplinarian", "wh_main_skill_emp_lord_campaign_leader_of_renown", "wh_main_skill_lord_all_campaign_reassuring_presence", "wh_main_skill_emp_lord_campaign_fervent", "wh2_main_skill_def_campaign_draftmaster", "wh_main_skill_all_lord_campaign_lightning_strike", "wh_main_skill_emp_lord_campaign_quartermaster", "wh_main_skill_emp_lord_campaign_logistician", "wh_main_skill_all_lord_campaign_alert", "wh2_main_skill_ll_self_defense", "wh3_main_skill_ksl_magic_tempest_01_hailstorm_lord", "wh3_main_skill_ksl_magic_tempest_05_freezing_winds", "wh3_main_skill_ksl_magic_tempest_02_gust_of_true_flight_lord", "wh3_main_skill_ksl_magic_tempest_03_swiftwing_lord", "wh3_main_skill_ksl_magic_tempest_04_biting_wind_lord", "wh_main_skill_all_magic_all_06_evasion", "wh_main_skill_all_magic_all_07_earthing", "wh_main_skill_all_magic_all_08_power_drain", "wh3_main_skill_ksl_magic_tempest_07_blizzard_lord", "wh3_main_skill_ksl_magic_tempest_07_hawks_of_miska_lord", "wh_main_skill_all_magic_all_11_arcane_conduit", "wh3_main_skill_ksl_ice_witch_tempest_unique_warhorse", "wh3_main_skill_ksl_ice_witch_tempest_unique_war_bear", "wh3_main_skill_ksl_all_unique_missile_resist", "wh3_main_skill_ksl_wizard_unique_guardian_call", "wh3_dlc24_skill_ksl_ice_witch_tempest_unique_frost_wyrm" }},
             {land_unit="wh3_main_ksl_cha_ice_witch_tempest_2", agent_subtype="wh3_main_ksl_ice_witch_tempest", agent_type="general", origin="vanilla", skill_overrides={ "wh2_main_skill_all_immortality_lord", "wh3_main_skill_all_mentor_lord", "wh3_main_skill_agent_action_success_scaling", "wh_main_skill_all_lord_battle_inspiring_presence", "wh3_main_skill_ksl_army_buff_kossars_streltsi", "wh3_main_skill_ksl_army_buff_elite_infantry", "wh3_main_skill_ksl_army_buff_heavy_cavalry", "wh3_main_skill_ksl_army_buff_monsters", "wh3_main_skill_ksl_army_buff_war_machines", "wh_main_skill_all_lord_battle_rally", "wh3_main_skill_ksl_army_buff_kossars_streltsi_ice_guard_rank_7", "wh3_main_skill_ksl_army_buff_cavalry_rank_7", "wh3_main_skill_ksl_army_buff_bears_tsar_guard_rank_7", "wh3_main_skill_ksl_army_buff_war_machines_rank_7", "wh_main_skill_all_lord_battle_stand_your_ground", "wh_main_skill_all_lord_campaign_route_marcher", "wh_main_skill_emp_lord_campaign_iron_disciplinarian", "wh_main_skill_emp_lord_campaign_leader_of_renown", "wh_main_skill_lord_all_campaign_reassuring_presence", "wh_main_skill_emp_lord_campaign_fervent", "wh2_main_skill_def_campaign_draftmaster", "wh_main_skill_all_lord_campaign_lightning_strike", "wh_main_skill_emp_lord_campaign_quartermaster", "wh_main_skill_emp_lord_campaign_logistician", "wh_main_skill_all_lord_campaign_alert", "wh2_main_skill_ll_self_defense", "wh3_main_skill_ksl_magic_tempest_01_hailstorm_lord", "wh3_main_skill_ksl_magic_tempest_05_freezing_winds", "wh3_main_skill_ksl_magic_tempest_02_gust_of_true_flight_lord", "wh3_main_skill_ksl_magic_tempest_03_swiftwing_lord", "wh3_main_skill_ksl_magic_tempest_04_biting_wind_lord", "wh_main_skill_all_magic_all_06_evasion", "wh_main_skill_all_magic_all_07_earthing", "wh_main_skill_all_magic_all_08_power_drain", "wh3_main_skill_ksl_magic_tempest_07_blizzard_lord", "wh3_main_skill_ksl_magic_tempest_07_hawks_of_miska_lord", "wh_main_skill_all_magic_all_11_arcane_conduit", "wh3_main_skill_ksl_ice_witch_tempest_unique_warhorse", "wh3_main_skill_ksl_ice_witch_tempest_unique_war_bear", "wh3_main_skill_ksl_all_unique_missile_resist", "wh3_main_skill_ksl_wizard_unique_guardian_call", "wh3_dlc24_skill_ksl_ice_witch_tempest_unique_frost_wyrm" }},
+            {land_unit="calm_ksl_voivoda", agent_subtype="calm_ksl_voivoda", agent_type="general", origin="!!!!calm_kislev_erengrad", skill_overrides={ "voivoda_restock_upgrade", "voivoda_first_rank_fire", "voivoda_bring_it_down", "voivoda_blackpowder", "voivoda_army_ryadniks", "voivoda_army_warmachines", "voivoda_army_ammo", "voivoda_vanguard_army", "calm_voivoda_quickdraw", "wh2_dlc11_skill_all_lord_self_deadeye", "wh2_dlc11_skill_all_lord_self_full_plate_armour", "wh2_dlc11_skill_all_lord_self_scarred_veteran", "wh2_dlc11_skill_all_lord_self_blade_master", "wh3_dlc25_skill_all_blackpowder_discipline_enable", "wh2_dlc11_skill_all_lord_self_wound-maker", "wh2_dlc11_skill_all_lord_self_blade_shield", "wh2_dlc11_skill_all_lord_self_self_indomitable", "wh2_dlc11_skill_cst_ranged_4_fem_admiral", "calm_voivoda_improved_quickdraw", "voivoda_inspiring_orator", "wh3_main_skill_ksl_army_buff_kossars_streltsi", "wh3_main_skill_ksl_army_buff_elite_infantry", "wh3_main_skill_ksl_army_buff_heavy_cavalry", "wh3_main_skill_ksl_army_buff_monsters", "wh3_main_skill_ksl_army_buff_war_machines", "voivoda_rally_1", "wh3_main_skill_ksl_army_buff_kossars_streltsi_ice_guard_rank_7", "wh3_main_skill_ksl_army_buff_cavalry_rank_7", "wh3_main_skill_ksl_army_buff_bears_tsar_guard_rank_7", "wh3_main_skill_ksl_army_buff_war_machines_rank_7", "voivoda_rally_2" }},
+            {land_unit="calm_ksl_voivoda_warhorse", agent_subtype="calm_ksl_voivoda", agent_type="general", origin="!!!!calm_kislev_erengrad", skill_overrides={ "voivoda_restock_upgrade", "voivoda_first_rank_fire", "voivoda_bring_it_down", "voivoda_blackpowder", "voivoda_army_ryadniks", "voivoda_army_warmachines", "voivoda_army_ammo", "voivoda_vanguard_army", "calm_voivoda_quickdraw", "wh2_dlc11_skill_all_lord_self_deadeye", "wh2_dlc11_skill_all_lord_self_full_plate_armour", "wh2_dlc11_skill_all_lord_self_scarred_veteran", "wh2_dlc11_skill_all_lord_self_blade_master", "wh3_dlc25_skill_all_blackpowder_discipline_enable", "wh2_dlc11_skill_all_lord_self_wound-maker", "wh2_dlc11_skill_all_lord_self_blade_shield", "wh2_dlc11_skill_all_lord_self_self_indomitable", "wh2_dlc11_skill_cst_ranged_4_fem_admiral", "calm_voivoda_improved_quickdraw", "voivoda_inspiring_orator", "wh3_main_skill_ksl_army_buff_kossars_streltsi", "wh3_main_skill_ksl_army_buff_elite_infantry", "wh3_main_skill_ksl_army_buff_heavy_cavalry", "wh3_main_skill_ksl_army_buff_monsters", "wh3_main_skill_ksl_army_buff_war_machines", "voivoda_rally_1", "wh3_main_skill_ksl_army_buff_kossars_streltsi_ice_guard_rank_7", "wh3_main_skill_ksl_army_buff_cavalry_rank_7", "wh3_main_skill_ksl_army_buff_bears_tsar_guard_rank_7", "wh3_main_skill_ksl_army_buff_war_machines_rank_7", "voivoda_rally_2" }},
+            {land_unit="calm_ksl_voivoda_staff_sled", agent_subtype="calm_ksl_voivoda", agent_type="general", origin="!!!!calm_kislev_erengrad", skill_overrides={ "voivoda_restock_upgrade", "voivoda_first_rank_fire", "voivoda_bring_it_down", "voivoda_blackpowder", "voivoda_army_ryadniks", "voivoda_army_warmachines", "voivoda_army_ammo", "voivoda_vanguard_army", "calm_voivoda_quickdraw", "wh2_dlc11_skill_all_lord_self_deadeye", "wh2_dlc11_skill_all_lord_self_full_plate_armour", "wh2_dlc11_skill_all_lord_self_scarred_veteran", "wh2_dlc11_skill_all_lord_self_blade_master", "wh3_dlc25_skill_all_blackpowder_discipline_enable", "wh2_dlc11_skill_all_lord_self_wound-maker", "wh2_dlc11_skill_all_lord_self_blade_shield", "wh2_dlc11_skill_all_lord_self_self_indomitable", "wh2_dlc11_skill_cst_ranged_4_fem_admiral", "calm_voivoda_improved_quickdraw", "voivoda_inspiring_orator", "wh3_main_skill_ksl_army_buff_kossars_streltsi", "wh3_main_skill_ksl_army_buff_elite_infantry", "wh3_main_skill_ksl_army_buff_heavy_cavalry", "wh3_main_skill_ksl_army_buff_monsters", "wh3_main_skill_ksl_army_buff_war_machines", "voivoda_rally_1", "wh3_main_skill_ksl_army_buff_kossars_streltsi_ice_guard_rank_7", "wh3_main_skill_ksl_army_buff_cavalry_rank_7", "wh3_main_skill_ksl_army_buff_bears_tsar_guard_rank_7", "wh3_main_skill_ksl_army_buff_war_machines_rank_7", "voivoda_rally_2" }},
         },
         ["allowed_heroes"] = {
             {land_unit="wh3_dlc24_ksl_cha_hag_witch_beast", agent_subtype="wh3_dlc24_ksl_hag_witch_beasts", agent_type="runesmith", origin="vanilla", skill_overrides={ "wh2_main_skill_innate_all_aggressive", "wh2_main_skill_innate_all_confident", "wh2_main_skill_innate_all_cunning", "wh2_main_skill_innate_all_determined", "wh2_main_skill_innate_all_disciplined", "wh2_main_skill_innate_all_fleet_footed", "wh2_main_skill_innate_all_intelligent", "wh2_main_skill_innate_all_knowledgeable", "wh2_main_skill_innate_all_strategist", "wh2_main_skill_innate_all_strong", "wh2_main_skill_innate_all_tactician", "wh2_main_skill_innate_all_tough", "wh2_main_skill_innate_all_weapon_master", "wh2_main_skill_all_immortality_hero", "wh3_main_skill_all_mentor_hero", "wh3_dlc24_skill_node_set_ksl_hag_witch_action_protective_charm", "wh2_main_skill_all_hero_passive_spread_public_order", "wh2_main_skill_all_hero_hinder_settlement_steal_technology", "wh2_main_skill_all_hero_hinder_agent_wound", "wh3_dlc24_skill_node_set_ksl_hag_witch_action_cursemark", "wh2_main_skill_all_hero_reduce_action_cost", "wh_dlc03_skill_magic_beasts_wyssans_wildform", "wh_dlc03_skill_magic_beasts_wild_heart", "wh_dlc03_skill_magic_beasts_flock_of_doom", "wh_dlc03_skill_magic_beasts_panns_impenetrable_pelt", "wh_dlc03_skill_magic_beasts_the_amber_spear", "wh_main_skill_all_magic_all_06_evasion", "wh_dlc03_skill_magic_beasts_the_curse_of_anraheir", "wh_dlc03_skill_magic_beasts_transformation_of_kadon", "wh_main_skill_all_magic_all_07_earthing", "wh_main_skill_all_magic_all_08_power_drain", "wh_main_skill_all_magic_all_11_arcane_conduit", "wh3_dlc24_skill_node_set_ksl_hag_witch_top_1", "wh3_dlc24_skill_node_set_ksl_hag_witch_top_2", "wh3_dlc24_skill_node_set_ksl_hag_witch_top_3", "wh3_dlc24_skill_node_set_ksl_hag_witch_top_4", "wh3_dlc24_skill_node_set_ksl_hag_witch_unique_1", "wh3_dlc24_skill_node_set_ksl_hag_witch_unique_2", "wh3_dlc24_skill_node_set_ksl_hag_witch_unique_3", "wh3_dlc24_skill_node_set_ksl_hag_witch_unique_4", "wh3_main_skill_agent_action_success_scaling" }},
@@ -7216,6 +7395,9 @@ return {
             {land_unit="wh3_main_ksl_cha_patriarch_0", agent_subtype="wh3_main_ksl_patriarch", agent_type="dignitary", origin="vanilla", skill_overrides={ "wh2_main_skill_all_immortality_hero", "wh3_main_skill_all_mentor_hero", "wh3_main_skill_agent_action_success_scaling", "wh3_main_skill_ksl_dignitary_unique_patriarch_ursuns_roar", "wh3_main_skill_ksl_dignitary_unique_patriarch_dazs_song_of_winter_sunlight", "wh3_main_skill_ksl_dignitary_unique_patriarch_tors_battle_hymn", "wh3_main_skill_ksl_dignitary_unique_patriarch_tors_salyaks_lullaby", "wh2_main_skill_all_hero_assist_army_replenish_troops", "wh2_main_skill_all_hero_passive_spread_corruption", "wh2_main_skill_all_hero_hinder_settlement_damage_building", "wh2_main_skill_all_hero_hinder_agent_wound", "wh2_main_skill_all_hero_hinder_army_hinder_replenishment", "wh2_main_skill_all_hero_reduce_action_cost", "wh3_main_skill_ksl_patriarch_unique_warhorse", "wh3_main_skill_ksl_patriarch_unique_war_bear", "wh3_main_skill_ksl_all_unique_missile_resist", "wh2_main_skill_innate_all_aggressive", "wh2_main_skill_innate_all_confident", "wh2_main_skill_innate_all_cunning", "wh2_main_skill_innate_all_determined", "wh2_main_skill_innate_all_disciplined", "wh2_main_skill_innate_all_fleet_footed", "wh2_main_skill_innate_all_intelligent", "wh2_main_skill_innate_all_knowledgeable", "wh2_main_skill_innate_all_strategist", "wh2_main_skill_innate_all_strong", "wh2_main_skill_innate_all_tactician", "wh2_main_skill_innate_all_tough", "wh2_main_skill_innate_all_weapon_master", "wh3_main_skill_innate_kislev_1", "wh3_main_skill_innate_kislev_2", "wh3_main_skill_innate_kislev_3", "wh3_main_skill_innate_kislev_4", "wh3_main_skill_ksl_patriarch_self_01", "wh_main_skill_all_dignitary_self_impassioned", "wh_main_skill_all_dignitary_self_wild-eyed", "wh_main_skill_all_dignitary_self_conviction", "wh_main_skill_all_dignitary_self_soothsaying", "wh3_main_skill_ksl_patriarch_self_06", "wh_main_skill_all_dignitary_self_tenacity", "wh_main_skill_all_all_self_devastating_charge", "wh_main_skill_all_dignitary_self_inviolable", "wh_main_skill_all_dignitary_self_fervour", "wh3_main_skill_ksl_patriarch_self_11", "wh3_main_skill_ksl_patriarch_unique_01", "wh3_main_skill_ksl_patriarch_unique_02", "wh3_main_skill_ksl_patriarch_unique_03", "wh3_main_skill_ksl_patriarch_unique_04", "wh3_main_skill_ksl_patriarch_unique_05" }},
             {land_unit="wh3_main_ksl_cha_patriarch_1", agent_subtype="wh3_main_ksl_patriarch", agent_type="dignitary", origin="vanilla", skill_overrides={ "wh2_main_skill_all_immortality_hero", "wh3_main_skill_all_mentor_hero", "wh3_main_skill_agent_action_success_scaling", "wh3_main_skill_ksl_dignitary_unique_patriarch_ursuns_roar", "wh3_main_skill_ksl_dignitary_unique_patriarch_dazs_song_of_winter_sunlight", "wh3_main_skill_ksl_dignitary_unique_patriarch_tors_battle_hymn", "wh3_main_skill_ksl_dignitary_unique_patriarch_tors_salyaks_lullaby", "wh2_main_skill_all_hero_assist_army_replenish_troops", "wh2_main_skill_all_hero_passive_spread_corruption", "wh2_main_skill_all_hero_hinder_settlement_damage_building", "wh2_main_skill_all_hero_hinder_agent_wound", "wh2_main_skill_all_hero_hinder_army_hinder_replenishment", "wh2_main_skill_all_hero_reduce_action_cost", "wh3_main_skill_ksl_patriarch_unique_warhorse", "wh3_main_skill_ksl_patriarch_unique_war_bear", "wh3_main_skill_ksl_all_unique_missile_resist", "wh2_main_skill_innate_all_aggressive", "wh2_main_skill_innate_all_confident", "wh2_main_skill_innate_all_cunning", "wh2_main_skill_innate_all_determined", "wh2_main_skill_innate_all_disciplined", "wh2_main_skill_innate_all_fleet_footed", "wh2_main_skill_innate_all_intelligent", "wh2_main_skill_innate_all_knowledgeable", "wh2_main_skill_innate_all_strategist", "wh2_main_skill_innate_all_strong", "wh2_main_skill_innate_all_tactician", "wh2_main_skill_innate_all_tough", "wh2_main_skill_innate_all_weapon_master", "wh3_main_skill_innate_kislev_1", "wh3_main_skill_innate_kislev_2", "wh3_main_skill_innate_kislev_3", "wh3_main_skill_innate_kislev_4", "wh3_main_skill_ksl_patriarch_self_01", "wh_main_skill_all_dignitary_self_impassioned", "wh_main_skill_all_dignitary_self_wild-eyed", "wh_main_skill_all_dignitary_self_conviction", "wh_main_skill_all_dignitary_self_soothsaying", "wh3_main_skill_ksl_patriarch_self_06", "wh_main_skill_all_dignitary_self_tenacity", "wh_main_skill_all_all_self_devastating_charge", "wh_main_skill_all_dignitary_self_inviolable", "wh_main_skill_all_dignitary_self_fervour", "wh3_main_skill_ksl_patriarch_self_11", "wh3_main_skill_ksl_patriarch_unique_01", "wh3_main_skill_ksl_patriarch_unique_02", "wh3_main_skill_ksl_patriarch_unique_03", "wh3_main_skill_ksl_patriarch_unique_04", "wh3_main_skill_ksl_patriarch_unique_05" }},
             {land_unit="wh3_main_ksl_cha_patriarch_2", agent_subtype="wh3_main_ksl_patriarch", agent_type="dignitary", origin="vanilla", skill_overrides={ "wh2_main_skill_all_immortality_hero", "wh3_main_skill_all_mentor_hero", "wh3_main_skill_agent_action_success_scaling", "wh3_main_skill_ksl_dignitary_unique_patriarch_ursuns_roar", "wh3_main_skill_ksl_dignitary_unique_patriarch_dazs_song_of_winter_sunlight", "wh3_main_skill_ksl_dignitary_unique_patriarch_tors_battle_hymn", "wh3_main_skill_ksl_dignitary_unique_patriarch_tors_salyaks_lullaby", "wh2_main_skill_all_hero_assist_army_replenish_troops", "wh2_main_skill_all_hero_passive_spread_corruption", "wh2_main_skill_all_hero_hinder_settlement_damage_building", "wh2_main_skill_all_hero_hinder_agent_wound", "wh2_main_skill_all_hero_hinder_army_hinder_replenishment", "wh2_main_skill_all_hero_reduce_action_cost", "wh3_main_skill_ksl_patriarch_unique_warhorse", "wh3_main_skill_ksl_patriarch_unique_war_bear", "wh3_main_skill_ksl_all_unique_missile_resist", "wh2_main_skill_innate_all_aggressive", "wh2_main_skill_innate_all_confident", "wh2_main_skill_innate_all_cunning", "wh2_main_skill_innate_all_determined", "wh2_main_skill_innate_all_disciplined", "wh2_main_skill_innate_all_fleet_footed", "wh2_main_skill_innate_all_intelligent", "wh2_main_skill_innate_all_knowledgeable", "wh2_main_skill_innate_all_strategist", "wh2_main_skill_innate_all_strong", "wh2_main_skill_innate_all_tactician", "wh2_main_skill_innate_all_tough", "wh2_main_skill_innate_all_weapon_master", "wh3_main_skill_innate_kislev_1", "wh3_main_skill_innate_kislev_2", "wh3_main_skill_innate_kislev_3", "wh3_main_skill_innate_kislev_4", "wh3_main_skill_ksl_patriarch_self_01", "wh_main_skill_all_dignitary_self_impassioned", "wh_main_skill_all_dignitary_self_wild-eyed", "wh_main_skill_all_dignitary_self_conviction", "wh_main_skill_all_dignitary_self_soothsaying", "wh3_main_skill_ksl_patriarch_self_06", "wh_main_skill_all_dignitary_self_tenacity", "wh_main_skill_all_all_self_devastating_charge", "wh_main_skill_all_dignitary_self_inviolable", "wh_main_skill_all_dignitary_self_fervour", "wh3_main_skill_ksl_patriarch_self_11", "wh3_main_skill_ksl_patriarch_unique_01", "wh3_main_skill_ksl_patriarch_unique_02", "wh3_main_skill_ksl_patriarch_unique_03", "wh3_main_skill_ksl_patriarch_unique_04", "wh3_main_skill_ksl_patriarch_unique_05" }},
+            {land_unit="calm_ksl_voyin", agent_subtype="calm_ksl_voyin", agent_type="champion", origin="!!!!calm_kislev_erengrad", skill_overrides={ "wh_main_skill_all_all_self_blade_master_starter", "wh_main_skill_all_all_self_devastating_charge", "wh_main_skill_all_all_self_thick-skinned_2", "wh_main_skill_all_all_self_hard_to_hit", "wh_main_skill_all_all_self_deadly_blade", "wh2_main_skill_hef_alastar_unique_heroic_killing_blow", "wh_main_skill_all_all_self_wound-maker", "wh_main_skill_all_all_self_scarred_veteran_2", "wh_main_skill_all_all_self_indomitable", "wh_main_skill_all_all_self_blade_shield", "wh_main_skill_all_all_self_deadly_onslaught" }},
+            {land_unit="calm_ksl_voyin_warhorse", agent_subtype="calm_ksl_voyin", agent_type="champion", origin="!!!!calm_kislev_erengrad", skill_overrides={ "wh_main_skill_all_all_self_blade_master_starter", "wh_main_skill_all_all_self_devastating_charge", "wh_main_skill_all_all_self_thick-skinned_2", "wh_main_skill_all_all_self_hard_to_hit", "wh_main_skill_all_all_self_deadly_blade", "wh2_main_skill_hef_alastar_unique_heroic_killing_blow", "wh_main_skill_all_all_self_wound-maker", "wh_main_skill_all_all_self_scarred_veteran_2", "wh_main_skill_all_all_self_indomitable", "wh_main_skill_all_all_self_blade_shield", "wh_main_skill_all_all_self_deadly_onslaught" }},
+            {land_unit="calm_ksl_kovnik", agent_subtype="calm_ksl_kovnik", agent_type="spy", origin="!!!!calm_kislev_erengrad", skill_overrides={ "skill_node_kovnik_ranged_01", "wh3_dlc23_skill_chd_hero_self_bandolier", "wh3_dlc23_skill_chd_hero_self_always_ready", "skill_node_kovnik_ranged_04", "wh_dlc05_skill_wef_general_personal_buff_battle_speed", "skill_node_kovnik_ranged_06" }},
         },
     },
     ["cth"] = {
@@ -7263,6 +7445,7 @@ return {
                     {land_unit="cth_inf_pioneer_scouts", origin="Zerooz_All_Units", recruitment_cost=600, multiplayer_cost=600},
                     {land_unit="wh3_main_cth_inf_peasant_huochong_0", origin="The Gunpowder Road2.0", recruitment_cost=450, multiplayer_cost=450},
                     {land_unit="wh3_main_cth_inf_peasant_archers_0", origin="!Zayli_Cathay_DE", recruitment_cost=300, multiplayer_cost=300},
+                    {land_unit="singe_cth_burningthunder_gunners", origin="singe_units_wh_all", recruitment_cost=650, multiplayer_cost=650},
                 },
                 ["melee_cavalry"] = {
                     {land_unit="wh3_main_cth_cav_peasant_horsemen_0", origin="vanilla", recruitment_cost=400, multiplayer_cost=400},
@@ -7439,6 +7622,7 @@ return {
                     {land_unit="shun_jade_warriors_ror", origin="shun_cth_unitpack", recruitment_cost=650, multiplayer_cost=645},
                     {land_unit="cth_samurai_shun", origin="shun_cth_unitpack", recruitment_cost=900, multiplayer_cost=900},
                     {land_unit="bannerman", origin="dead_cathay_units", recruitment_cost=1200, multiplayer_cost=1200},
+                    {land_unit="singe_cth_celestial_swords", origin="singe_units_wh_all", recruitment_cost=900, multiplayer_cost=900},
                 },
                 ["missile_infantry"] = {
                     {land_unit="wh3_dlc24_cth_inf_dragon_guard_crossbowmen_ror", origin="vanilla", recruitment_cost=1300, multiplayer_cost=1250},
@@ -7477,6 +7661,7 @@ return {
                     {land_unit="cth_murenhuoma", origin="The Gunpowder Road2.0", recruitment_cost=400, multiplayer_cost=400},
                     {land_unit="cth_inf_onna_bushi", origin="shun_cth_unitpack", recruitment_cost=1250, multiplayer_cost=1250},
                     {land_unit="dead_firelancers", origin="dead_cathay_units", recruitment_cost=1300, multiplayer_cost=1300},
+                    {land_unit="singe_cth_celestial_lancers", origin="singe_units_wh_all", recruitment_cost=1200, multiplayer_cost=1200},
                 },
                 ["missile_cavalry"] = {
                     {land_unit="YL_zyxj", origin="!!YL_binzhong", recruitment_cost=1000, multiplayer_cost=1000},
@@ -7542,6 +7727,7 @@ return {
                     {land_unit="ghs_main_cth_mon_dragon_titan", origin="ghs_great_harmony", recruitment_cost=2500, multiplayer_cost=2500},
                     {land_unit="cth_war_elephant", origin="dead_cathay_units", recruitment_cost=1600, multiplayer_cost=1600},
                     {land_unit="battle_turtle", origin="dead_cathay_units", recruitment_cost=1550, multiplayer_cost=1550},
+                    {land_unit="singe_cth_celestial_ox", origin="singe_units_wh_all", recruitment_cost=1100, multiplayer_cost=1100},
                 },
                 ["generic"] = {},
                 ["lord"] = {},
@@ -7840,6 +8026,9 @@ return {
                     {land_unit="lab_skv_rat_ogre", origin="!!scm_motm", recruitment_cost=800, multiplayer_cost=700},
                     {land_unit="ogr_flamewarrior", origin="!!scm_motm", recruitment_cost=600, multiplayer_cost=550},
                     {land_unit="um_ogr_old_funders_boys", origin="!!scm_motm", recruitment_cost=1240, multiplayer_cost=650},
+                    {land_unit="singe_ogk_irongut_ironfists", origin="singe_units_wh_all", recruitment_cost=1000, multiplayer_cost=1000},
+                    {land_unit="singe_ogk_irongut_dual", origin="singe_units_wh_all", recruitment_cost=1000, multiplayer_cost=1000},
+                    {land_unit="singe_ogk_rocketspitters", origin="singe_units_wh_all", recruitment_cost=1000, multiplayer_cost=1000},
                 },
                 ["monstrous_cavalry"] = {},
                 ["chariot"] = {
@@ -7944,6 +8133,8 @@ return {
                     {land_unit="wh2_main_lzd_mon_stegadon_0", origin="!!scm_motm", recruitment_cost=1100, multiplayer_cost=1050},
                     {land_unit="um_ogr_blu", origin="!!scm_motm", recruitment_cost=2400, multiplayer_cost=1400},
                     {land_unit="motm_cyclop", origin="!!scm_motm", recruitment_cost=1500, multiplayer_cost=1400},
+                    {land_unit="singe_ogk_rhinox_herd", origin="singe_units_wh_all", recruitment_cost=1600, multiplayer_cost=1600},
+                    {land_unit="singe_ogk_mournfang_pack", origin="singe_units_wh_all", recruitment_cost=1100, multiplayer_cost=1100},
                 },
                 ["generic"] = {},
                 ["lord"] = {},
