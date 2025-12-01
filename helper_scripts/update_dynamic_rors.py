@@ -179,6 +179,34 @@ ANTI_DESTRUCTION_FACTIONS = [
     "wh3_dlc25_group_elspeth",
 ]
 
+FACTION_SHORTHAND_KEY_MAPPING = {
+    "bst": "wh_dlc03_group_beastmen",
+    "brt": "wh_main_group_bretonnia",
+    "chd": "wh3_dlc23_group_chaos_dwarfs",
+    "chs": "wh_main_group_chaos",
+    "dae": "wh3_main_dae",
+    "def": "wh2_main_def",
+    "dwf": "wh_main_group_dwarfs",
+    "emp": "wh_main_group_empire",
+    "cth": "wh3_main_cth",
+    "grn": "wh_main_group_greenskins",
+    "hef": "wh2_main_hef",
+    "kho": "wh3_main_kho",
+    "ksl": "wh3_main_ksl",
+    "lzd": "wh2_main_lzd",
+    "nor": "wh_main_group_norsca",
+    "nur": "wh3_main_nur",
+    "ogr": "wh3_main_ogr",
+    "skv": "wh2_main_skv",
+    "sla": "wh3_main_sla",
+    "tmb": "wh2_dlc09_tomb_kings",
+    "tze": "wh3_main_tze",
+    "cst": "wh2_dlc11_group_vampire_coast",
+    "vmp": "wh_main_group_vampire_counts",
+    "chs": "wh_main_group_chaos",
+    "wef": "wh_dlc05_group_wood_elves",
+}
+
 def add_anti_order_generic_effects(faction: str):
     """Add anti-order generic effects based on faction.
 
@@ -474,9 +502,10 @@ if __name__ == "__main__":
     logging.basicConfig(format="%(asctime)s - %(levelname)s - %(message)s", level=logging.INFO)
     start_time = time.time()
 
-    # Get argument for --reset from argparse.
+    # Get arguments from argparse.
     parser = argparse.ArgumentParser()
     parser.add_argument("--reset", action="store_true", help="Reset the script.")
+    parser.add_argument("--vanilla", action="store_true", help="Process vanilla units only.")
     args = parser.parse_args()
     if args.reset:
         logging.info("Will reset folders in the packfile before writing.")
@@ -490,6 +519,11 @@ if __name__ == "__main__":
     cleanup_folders([
         "./vanilla_unit_purchasable_effect_sets_tables",
         "./vanilla_mounts_tables",
+        "./!!!!!!!_nanu_dynamic_rors_leftover_vanilla"
+        "./vanilla_main_units_tables",
+        "./vanilla_land_units_tables",
+        "./vanilla_units_to_groupings_military_permissions_tables",
+        "./nanu_unit_purchasable_effect_sets_tables",
         "./modded_units_to_groupings_military_permissions_tables",
         "./modded_land_units_tables",
         "./modded_main_units_tables",
@@ -522,6 +556,116 @@ if __name__ == "__main__":
         extract_tsv_data("mounts_tables")
         vanilla_mounts_tables_dataframe = read_and_clean_tsv("vanilla_mounts_tables/db/mounts_tables/data__.tsv", "mounts_tables")
 
+        # Secondary mode: Process vanilla units only.
+        if args.vanilla:
+            # Extract the vanilla main_units_tables, land_units_tables and units_to_groupings_military_permissions_tables data.
+            extract_tsv_data("main_units_tables")
+            vanilla_main_units_tables_dataframe = read_and_clean_tsv("vanilla_main_units_tables/db/main_units_tables/data__.tsv", "main_units_tables")
+            extract_tsv_data("land_units_tables")
+            vanilla_land_units_tables_dataframe = read_and_clean_tsv("vanilla_land_units_tables/db/land_units_tables/data__.tsv", "land_units_tables")
+            extract_tsv_data("units_to_groupings_military_permissions_tables")
+            vanilla_units_to_groupings_military_permissions_tables_dataframe = read_and_clean_tsv("vanilla_units_to_groupings_military_permissions_tables/db/units_to_groupings_military_permissions_tables/data__.tsv", "units_to_groupings_military_permissions_tables")
+
+            # Extract Nanu's unit_purchasable_effect_sets_tables data.
+            extract_modded_tsv_data("unit_purchasable_effect_sets_tables", f"{STEAM_LIBRARY_DRIVE}\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\3278112051\\!!_nanu_dynamic_rors.pack", "./nanu_unit_purchasable_effect_sets_tables")
+
+            processed_unit_keys = set()
+            for faction in FACTION_SHORTHAND_KEY_MAPPING.keys():
+                list_of_vanilla_data_to_add = []
+                try:
+                    nanu_faction_data, _, _ = load_tsv_data(f"./nanu_unit_purchasable_effect_sets_tables/db/unit_purchasable_effect_sets_tables/nanu_dynamic_rors_{faction}.tsv")
+                except FileNotFoundError:
+                    nanu_faction_data = []
+                nanu_main_unit_keys = set(data["unit"] for data in nanu_faction_data)
+                units_not_supported_by_nanu = set()
+                for vanilla_main_unit_key in vanilla_units_to_groupings_military_permissions_tables_dataframe["unit"].values:
+                    # Get all military groups for this unit.
+                    military_groups = vanilla_units_to_groupings_military_permissions_tables_dataframe.loc[
+                        vanilla_units_to_groupings_military_permissions_tables_dataframe["unit"] == vanilla_main_unit_key, 
+                        "military_group"
+                    ].values
+                    
+                    # Check if any of the military groups match the current faction.
+                    if vanilla_main_unit_key not in nanu_main_unit_keys and FACTION_SHORTHAND_KEY_MAPPING[faction] in military_groups and vanilla_main_unit_key not in processed_unit_keys:
+                        units_not_supported_by_nanu.add(vanilla_main_unit_key)
+                        processed_unit_keys.add(vanilla_main_unit_key)
+
+                logging.info(f"{faction} - {len(units_not_supported_by_nanu)} units not supported by Nanu's Dynamic Regiment of Renown units.")
+
+                for vanilla_main_unit_key in units_not_supported_by_nanu:
+                    try:
+                        vanilla_main_unit = vanilla_main_units_tables_dataframe.loc[vanilla_main_units_tables_dataframe["unit"] == vanilla_main_unit_key].iloc[0].to_dict()
+                        vanilla_land_unit = vanilla_land_units_tables_dataframe.loc[vanilla_land_units_tables_dataframe["key"] == vanilla_main_unit_key].iloc[0].to_dict()
+                    except IndexError:
+                        logging.info(f"Skipping {vanilla_main_unit_key} because it is not in the main_units_tables or land_units_tables.")
+                        continue
+                    for effect in process_unit_by_category(vanilla_land_unit, vanilla_main_unit, FACTION_SHORTHAND_KEY_MAPPING[faction]):
+                        if effect:
+                            list_of_vanilla_data_to_add.append(
+                                {
+                                    "unit": vanilla_land_unit["key"],
+                                    "purchasable_effect": effect,
+                                    "is_exclusive": "False",
+                                }
+                            )
+
+                if len(list_of_vanilla_data_to_add) > 0:
+                    logging.info(f"There are {len(list_of_vanilla_data_to_add)} effects to add for {faction}.")
+                    unit_purchasable_effect_sets_tables_version_info = vanilla_unit_purchasable_effect_sets_tables_version_info.replace("data__", f"!!!nanu_dynamic_rors_{faction}")
+                    write_updated_tsv_file(
+                        list_of_vanilla_data_to_add,
+                        vanilla_unit_purchasable_effect_sets_tables_headers,
+                        unit_purchasable_effect_sets_tables_version_info,
+                        "./!!!!!!!_nanu_dynamic_rors_leftover_vanilla/db/unit_purchasable_effect_sets_tables",
+                        f"!!!nanu_dynamic_rors_{faction}",
+                        allow_duplicates=True,
+                    )
+                    nanu_main_unit_keys.clear()
+                    list_of_vanilla_data_to_add.clear()
+                    units_not_supported_by_nanu.clear()
+                    gc.collect()
+
+                    sort_tsv_data(
+                        "./!!!!!!!_nanu_dynamic_rors_leftover_vanilla/db/unit_purchasable_effect_sets_tables",
+                        f"!!!nanu_dynamic_rors_{faction}",
+                    )
+
+            # After processing all mods, move the mod folder to the destination folder.
+            if os.path.exists("./!!!!!!!_nanu_dynamic_rors_leftover_vanilla"):
+                logging.info(f"Moving !!!!!!!_nanu_dynamic_rors_leftover_vanilla to ../mods/.")
+                merge_move("./!!!!!!!_nanu_dynamic_rors_leftover_vanilla", "../mods/")
+
+            if args.reset:
+                # Use the RPFM CLI to delete all files from the required folders.
+                subprocess.run([
+                    "./rpfm_cli.exe",
+                    "--game",
+                    "warhammer_3",
+                    "pack",
+                    "delete",
+                    "--pack-path",
+                    f"{STEAM_LIBRARY_DRIVE}\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\3532864014\\!!!!!!!_nanu_dynamic_rors_leftover_vanilla.pack",
+                    "--folder-path",
+                    "db",
+                ], capture_output=True)
+
+            subprocess.run([
+                "./rpfm_cli.exe",
+                "--game",
+                "warhammer_3",
+                "pack",
+                "add",
+                "--pack-path",
+                f"{STEAM_LIBRARY_DRIVE}\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\3532864014\\!!!!!!!_nanu_dynamic_rors_leftover_vanilla.pack",
+                "--tsv-to-binary",
+                "./schemas/schema_wh3.ron",
+                "--folder-path",
+                f"../mods/!!!!!!!_nanu_dynamic_rors_leftover_vanilla/db/unit_purchasable_effect_sets_tables;db/unit_purchasable_effect_sets_tables"
+            ], capture_output=True)
+            
+            exit(0)
+
+        # Primary mode: Process modded units.
         # Define table configurations for extraction.
         table_configs = [
             {"table_name": "units_to_groupings_military_permissions_tables", "folder_name": "units_to_groupings_military_permissions_tables", "key_field": "unit", "required": True},
