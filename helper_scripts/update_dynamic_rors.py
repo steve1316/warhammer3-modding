@@ -692,6 +692,60 @@ if __name__ == "__main__":
             {"table_name": "variants_tables", "folder_name": "variants_tables", "key_field": "variant_name"},
         ]
 
+        # Track processed unit+effect combinations across all mods to prevent duplicates.
+        processed_unit_effects = set()
+        
+        # Track processed keys for each table type to prevent duplicates.
+        # Map table names to their key field names.
+        table_key_fields = {
+            "unit_description_historical_texts_tables": "key",
+            "battle_animations_table_tables": "key",
+            "battle_entities_tables": "key",
+            "mounts_tables": "key",
+            "melee_weapons_tables": "key",
+            "missile_weapons_tables": "key",
+            "unit_description_short_texts_tables": "key",
+            "unit_attributes_groups_tables": "group_name",
+            "battlefield_engines_tables": "key",
+            "projectiles_tables": "key",
+            "battle_vortexs_tables": "vortex_key",
+            "projectiles_scaling_damages_tables": "key",
+            "projectile_shot_type_displays_tables": "key",
+            "unit_spacings_tables": "key",
+            "first_person_engines_tables": "key",
+            "land_unit_articulated_vehicles_tables": "key",
+            "ui_unit_groupings_tables": "key",
+            "ui_unit_group_parents_tables": "key",
+            "variants_tables": "variant_name",
+            "land_units_tables": "key",
+            "main_units_tables": "unit",
+        }
+        
+        # Initialize tracking sets for each table.
+        processed_table_keys = {table_name: set() for table_name in table_key_fields.keys()}
+        
+        def should_add_table_entry(table_name: str, entry_data: Dict[str, Any]) -> bool:
+            """Check if a table entry should be added (not a duplicate).
+            
+            Args:
+                table_name: Name of the table.
+                entry_data: Dictionary containing the entry data.
+            
+            Returns:
+                True if the entry should be added, False if it's a duplicate.
+            """
+            if table_name not in table_key_fields:
+                return True  # Unknown table, allow it.
+            key_field = table_key_fields[table_name]
+            entry_key = entry_data.get(key_field)
+            if entry_key is None:
+                return True  # No key field, allow it.
+            if entry_key in processed_table_keys[table_name]:
+                logging.debug(f"Skipping duplicate entry {entry_key} for table {table_name}.")
+                return False
+            processed_table_keys[table_name].add(entry_key)
+            return True
+
         for mod in SUPPORTED_MODS:
             # Check if the mod is installed.
             if mod["path"] and not os.path.exists(mod["path"]):
@@ -782,6 +836,13 @@ if __name__ == "__main__":
                 # Collect all possible effects for the unit.
                 for effect in process_unit_by_category(data, main_units_mapping, faction):
                     if effect:
+                        # Check if this unit+effect combination has already been processed.
+                        unit_effect_key = (data["key"], effect)
+                        if unit_effect_key in processed_unit_effects:
+                            logging.debug(f"Skipping duplicate effect {effect} for unit {data['key']}.")
+                            continue
+                        # Mark this combination as processed.
+                        processed_unit_effects.add(unit_effect_key)
                         new_data["unit_purchasable_effect_sets"].append(
                             {
                                 "unit": data["key"],
@@ -795,79 +856,120 @@ if __name__ == "__main__":
                         # This will raise the KeyError.
                         if data["key"] in main_units_mapping:
                             main_unit_data = main_units_mapping[data["key"]]
-                            new_data["main_units"].append(main_unit_data)
-                            new_data["land_units"].append(data)
+                            if should_add_table_entry("main_units_tables", main_unit_data):
+                                new_data["main_units"].append(main_unit_data)
+                            if should_add_table_entry("land_units_tables", data):
+                                new_data["land_units"].append(data)
 
                             # Use the entry from land_units_tables to get the entries from the following tables.
                             # This is to make the mod standalone while keeping it as trimmed down as possible without crashing.
                             if data.get("historical_description_text") and data["historical_description_text"] in table_data["unit_description_historical_texts_tables"]:
-                                new_data["unit_description_historical_texts"].append(table_data["unit_description_historical_texts_tables"][data["historical_description_text"]])
+                                entry = table_data["unit_description_historical_texts_tables"][data["historical_description_text"]]
+                                if should_add_table_entry("unit_description_historical_texts_tables", entry):
+                                    new_data["unit_description_historical_texts"].append(entry)
                             if data.get("man_animation") and data["man_animation"] in table_data["battle_animations_table_tables"]:
-                                new_data["battle_animations"].append(table_data["battle_animations_table_tables"][data["man_animation"]])
+                                entry = table_data["battle_animations_table_tables"][data["man_animation"]]
+                                if should_add_table_entry("battle_animations_table_tables", entry):
+                                    new_data["battle_animations"].append(entry)
                             if data.get("man_entity") and data["man_entity"] in table_data["battle_entities_tables"]:
-                                new_data["battle_entities"].append(table_data["battle_entities_tables"][data["man_entity"]])
+                                entry = table_data["battle_entities_tables"][data["man_entity"]]
+                                if should_add_table_entry("battle_entities_tables", entry):
+                                    new_data["battle_entities"].append(entry)
                             if data.get("mount") and data["mount"] in table_data["mounts_tables"]:
                                 mount_data = table_data["mounts_tables"][data["mount"]]
-                                new_data["mounts"].append(mount_data)
+                                if should_add_table_entry("mounts_tables", mount_data):
+                                    new_data["mounts"].append(mount_data)
                                 mount_battle_entity = mount_data.get("entity")
                                 if mount_battle_entity and mount_battle_entity in table_data["battle_entities_tables"]:
-                                    new_data["battle_entities"].append(table_data["battle_entities_tables"][mount_battle_entity])
+                                    entry = table_data["battle_entities_tables"][mount_battle_entity]
+                                    if should_add_table_entry("battle_entities_tables", entry):
+                                        new_data["battle_entities"].append(entry)
                                 if mount_data.get("variant") and mount_data["variant"] in table_data["variants_tables"]:
                                     variant_data = table_data["variants_tables"][mount_data["variant"]]
-                                    new_data["variants"].append(variant_data)
+                                    if should_add_table_entry("variants_tables", variant_data):
+                                        new_data["variants"].append(variant_data)
 
                                     # Add the variantmeshdefinition for this mount if it exists. This applies to vanilla mounts only.
                                     if mount_data.get("key") in vanilla_mounts_tables_dataframe.key.values and variant_data.get("variant_filename") and os.path.exists(f"./modded_variantmeshes/variantmeshes/variantmeshdefinitions/{variant_data['variant_filename']}.variantmeshdefinition"):
                                         variant_mesh_definitions_to_add.append(f"./modded_variantmeshes/variantmeshes/variantmeshdefinitions/{variant_data['variant_filename']}.variantmeshdefinition")
                             if data.get("primary_melee_weapon") and data["primary_melee_weapon"] in table_data["melee_weapons_tables"]:
                                 melee_weapon_data = table_data["melee_weapons_tables"][data["primary_melee_weapon"]]
-                                new_data["melee_weapons"].append(melee_weapon_data)
+                                if should_add_table_entry("melee_weapons_tables", melee_weapon_data):
+                                    new_data["melee_weapons"].append(melee_weapon_data)
 
                                 # Use the entry from melee_weapons_tables if available to get the entry from projectiles_scaling_damages_tables.
                                 if melee_weapon_data.get("scaling_damage"):
-                                    new_data["projectiles_scaling_damages"].append(table_data["projectiles_scaling_damages_tables"][melee_weapon_data["scaling_damage"]])
+                                    entry = table_data["projectiles_scaling_damages_tables"][melee_weapon_data["scaling_damage"]]
+                                    if should_add_table_entry("projectiles_scaling_damages_tables", entry):
+                                        new_data["projectiles_scaling_damages"].append(entry)
 
                             if data.get("primary_missile_weapon") and data["primary_missile_weapon"] in table_data["missile_weapons_tables"]:
                                 missile_weapon_data = table_data["missile_weapons_tables"][data["primary_missile_weapon"]]
-                                new_data["missile_weapons"].append(missile_weapon_data)
+                                if should_add_table_entry("missile_weapons_tables", missile_weapon_data):
+                                    new_data["missile_weapons"].append(missile_weapon_data)
 
                                 # Use the entry from missile_weapons_tables if available to get the entries from the following tables.
                                 if missile_weapon_data.get("default_projectile") and missile_weapon_data["default_projectile"] in table_data["projectiles_tables"]:
-                                    new_data["projectiles"].append(table_data["projectiles_tables"][missile_weapon_data["default_projectile"]])
-                                    if table_data["projectiles_tables"][missile_weapon_data["default_projectile"]].get("spawned_vortex") and table_data["projectiles_tables"][missile_weapon_data["default_projectile"]]["spawned_vortex"] in table_data["battle_vortexs_tables"]:
-                                        new_data["battle_vortexs"].append(table_data["battle_vortexs_tables"][table_data["projectiles_tables"][missile_weapon_data["default_projectile"]]["spawned_vortex"]])
-                                    if table_data["projectiles_tables"][missile_weapon_data["default_projectile"]].get("projectile_shot_type_display") and table_data["projectiles_tables"][missile_weapon_data["default_projectile"]]["projectile_shot_type_display"] in table_data["projectile_shot_type_displays_tables"]:
-                                        new_data["projectile_shot_type_displays"].append(table_data["projectile_shot_type_displays_tables"][table_data["projectiles_tables"][missile_weapon_data["default_projectile"]]["projectile_shot_type_display"]])
+                                    entry = table_data["projectiles_tables"][missile_weapon_data["default_projectile"]]
+                                    if should_add_table_entry("projectiles_tables", entry):
+                                        new_data["projectiles"].append(entry)
+                                    if entry.get("spawned_vortex") and entry["spawned_vortex"] in table_data["battle_vortexs_tables"]:
+                                        vortex_entry = table_data["battle_vortexs_tables"][entry["spawned_vortex"]]
+                                        if should_add_table_entry("battle_vortexs_tables", vortex_entry):
+                                            new_data["battle_vortexs"].append(vortex_entry)
+                                    if entry.get("projectile_shot_type_display") and entry["projectile_shot_type_display"] in table_data["projectile_shot_type_displays_tables"]:
+                                        display_entry = table_data["projectile_shot_type_displays_tables"][entry["projectile_shot_type_display"]]
+                                        if should_add_table_entry("projectile_shot_type_displays_tables", display_entry):
+                                            new_data["projectile_shot_type_displays"].append(display_entry)
                                 if missile_weapon_data.get("scaling_damage") and missile_weapon_data["scaling_damage"] in table_data["projectiles_scaling_damages_tables"]:
-                                    new_data["projectiles_scaling_damages"].append(table_data["projectiles_scaling_damages_tables"][missile_weapon_data["scaling_damage"]])
+                                    entry = table_data["projectiles_scaling_damages_tables"][missile_weapon_data["scaling_damage"]]
+                                    if should_add_table_entry("projectiles_scaling_damages_tables", entry):
+                                        new_data["projectiles_scaling_damages"].append(entry)
 
                             if data.get("short_description_text") and data["short_description_text"] in table_data["unit_description_short_texts_tables"]:
-                                new_data["unit_description_short_texts"].append(table_data["unit_description_short_texts_tables"][data["short_description_text"]])
+                                entry = table_data["unit_description_short_texts_tables"][data["short_description_text"]]
+                                if should_add_table_entry("unit_description_short_texts_tables", entry):
+                                    new_data["unit_description_short_texts"].append(entry)
                             if data.get("attribute_group") and data["attribute_group"] in table_data["unit_attributes_groups_tables"]:
-                                new_data["unit_attributes_groups"].append(table_data["unit_attributes_groups_tables"][data["attribute_group"]])
+                                entry = table_data["unit_attributes_groups_tables"][data["attribute_group"]]
+                                if should_add_table_entry("unit_attributes_groups_tables", entry):
+                                    new_data["unit_attributes_groups"].append(entry)
                             if data.get("engine") and data["engine"] in table_data["battlefield_engines_tables"]:
                                 engine_data = table_data["battlefield_engines_tables"][data["engine"]]
-                                new_data["battlefield_engines"].append(engine_data)
+                                if should_add_table_entry("battlefield_engines_tables", engine_data):
+                                    new_data["battlefield_engines"].append(engine_data)
 
                                 if engine_data.get("battle_entity") and engine_data["battle_entity"] in table_data["battle_entities_tables"]:
-                                    new_data["battle_entities"].append(table_data["battle_entities_tables"][engine_data["battle_entity"]])
+                                    entry = table_data["battle_entities_tables"][engine_data["battle_entity"]]
+                                    if should_add_table_entry("battle_entities_tables", entry):
+                                        new_data["battle_entities"].append(entry)
                             if data.get("spacing") and data["spacing"] in table_data["unit_spacings_tables"]:
-                                new_data["unit_spacings"].append(table_data["unit_spacings_tables"][data["spacing"]])
+                                entry = table_data["unit_spacings_tables"][data["spacing"]]
+                                if should_add_table_entry("unit_spacings_tables", entry):
+                                    new_data["unit_spacings"].append(entry)
                             if data.get("first_person") and data["first_person"] in table_data["first_person_engines_tables"]:
-                                new_data["first_person_engines"].append(table_data["first_person_engines_tables"][data["first_person"]])
+                                entry = table_data["first_person_engines_tables"][data["first_person"]]
+                                if should_add_table_entry("first_person_engines_tables", entry):
+                                    new_data["first_person_engines"].append(entry)
                             if data.get("articulated_record") and data["articulated_record"] in table_data["land_unit_articulated_vehicles_tables"]:
                                 articulated_vehicle_data = table_data["land_unit_articulated_vehicles_tables"][data["articulated_record"]]
-                                new_data["land_unit_articulated_vehicles"].append(articulated_vehicle_data)
+                                if should_add_table_entry("land_unit_articulated_vehicles_tables", articulated_vehicle_data):
+                                    new_data["land_unit_articulated_vehicles"].append(articulated_vehicle_data)
 
                                 # Use the entry from land_unit_articulated_vehicles_tables if available to get the entry from battle_entities_tables.
                                 if articulated_vehicle_data.get("articulated_entity") and articulated_vehicle_data["articulated_entity"] in table_data["battle_entities_tables"]:
-                                    new_data["battle_entities"].append(table_data["battle_entities_tables"][articulated_vehicle_data["articulated_entity"]])
+                                    entry = table_data["battle_entities_tables"][articulated_vehicle_data["articulated_entity"]]
+                                    if should_add_table_entry("battle_entities_tables", entry):
+                                        new_data["battle_entities"].append(entry)
                             if main_unit_data.get("ui_unit_group_land") and main_unit_data["ui_unit_group_land"] in table_data["ui_unit_groupings_tables"]:
                                 ui_unit_grouping_data = table_data["ui_unit_groupings_tables"][main_unit_data["ui_unit_group_land"]]
-                                new_data["ui_unit_groupings"].append(ui_unit_grouping_data)
+                                if should_add_table_entry("ui_unit_groupings_tables", ui_unit_grouping_data):
+                                    new_data["ui_unit_groupings"].append(ui_unit_grouping_data)
 
                                 if ui_unit_grouping_data.get("parent_group") and ui_unit_grouping_data["parent_group"] in table_data["ui_unit_group_parents_tables"]:
-                                    new_data["ui_unit_group_parents"].append(table_data["ui_unit_group_parents_tables"][ui_unit_grouping_data["parent_group"]])
+                                    entry = table_data["ui_unit_group_parents_tables"][ui_unit_grouping_data["parent_group"]]
+                                    if should_add_table_entry("ui_unit_group_parents_tables", entry):
+                                        new_data["ui_unit_group_parents"].append(entry)
 
                         list_of_data_to_add.append(new_data)
                     except KeyError as e:
@@ -891,13 +993,14 @@ if __name__ == "__main__":
                     logging.debug(f"Writing {len(data_to_add['unit_purchasable_effect_sets'])} unit purchasable effect sets for {data_to_add['key']}.")
 
                     # Write to the required tables first.
+                    # Set allow_duplicates=False so write_updated_tsv_file checks for duplicates using composite key (unit + purchasable_effect).
                     write_updated_tsv_file(
                         data_to_add["unit_purchasable_effect_sets"],
                         vanilla_unit_purchasable_effect_sets_tables_headers,
                         unit_purchasable_effect_sets_tables_version_info,
                         "./!!!!!!!_nanu_dynamic_rors_compat/db/unit_purchasable_effect_sets_tables",
                         f"!!!{folder_name}",
-                        allow_duplicates=True,
+                        allow_duplicates=False,
                     )
                     write_updated_tsv_file(
                         data_to_add["land_units"],
@@ -998,6 +1101,8 @@ if __name__ == "__main__":
                 "./modded_variantmeshes",
             ])
 
+            logging.info(f"Processed {len(list_of_data_to_add)} units for {mod['package_name']}.")
+
             # Clear the data list from memory to avoid accessing old data in the next iteration.
             list_of_data_to_add.clear()
             main_units_mapping.clear()
@@ -1094,7 +1199,14 @@ if __name__ == "__main__":
                 ], capture_output=True)
 
     # Perform final cleanup of vanilla folders.
-    cleanup_folders(["./vanilla_unit_purchasable_effect_sets_tables", "./vanilla_mounts_tables"])
+    cleanup_folders([
+        "./vanilla_unit_purchasable_effect_sets_tables", 
+        "./vanilla_mounts_tables", 
+        "./vanilla_main_units_tables", 
+        "./vanilla_land_units_tables", 
+        "./vanilla_units_to_groupings_military_permissions_tables",
+        "./nanu_unit_purchasable_effect_sets_tables"
+    ])
 
     if MISSING_MODS:
         logging.info(f"Missing mods: {MISSING_MODS}")

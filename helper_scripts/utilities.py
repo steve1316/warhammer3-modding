@@ -174,22 +174,34 @@ def write_updated_tsv_file(data: List[Dict], headers: List[str], version_info: s
             f.write("\t".join(headers) + "\n")
             f.write(version_info + "\n")
     
-    # Read existing data to check for duplicates if needed
+    # Read existing data to check for duplicates if needed.
+    # For unit_purchasable_effect_sets_tables, use a composite key (unit + purchasable_effect).
     existing_keys = set()
     if not allow_duplicates and file_exists:
         try:
             existing_data, _, _ = load_tsv_data(file_path)
-            existing_keys = {row[headers[0]] for row in existing_data}
+            # Check if this is unit_purchasable_effect_sets_tables which uses a composite key.
+            if "unit" in headers and "purchasable_effect" in headers:
+                existing_keys = {(row["unit"], row["purchasable_effect"]) for row in existing_data}
+            else:
+                existing_keys = {row[headers[0]] for row in existing_data}
         except:
             pass
     
-    # Append new data to the file
+    # Append new data to the file.
     with open(file_path, "a", encoding="utf-8") as f:
         for row in data:
-            key_column = headers[0]
-            if not allow_duplicates and row[key_column] in existing_keys:
-                continue
-            existing_keys.add(row[key_column])
+            # For unit_purchasable_effect_sets_tables, use a composite key.
+            if not allow_duplicates and "unit" in headers and "purchasable_effect" in headers:
+                composite_key = (row["unit"], row["purchasable_effect"])
+                if composite_key in existing_keys:
+                    continue
+                existing_keys.add(composite_key)
+            else:
+                key_column = headers[0]
+                if not allow_duplicates and row[key_column] in existing_keys:
+                    continue
+                existing_keys.add(row[key_column])
             # Sometimes the mod's table is outdated. The provided headers is always the latest so it may have new columns that these old tables do not have.
             # In that case, we set the cell to an empty string.
             ordered_values = [row[header] if row.get(header) else "" for header in headers]
