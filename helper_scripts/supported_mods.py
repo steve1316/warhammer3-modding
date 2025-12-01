@@ -1359,8 +1359,8 @@ SUPPORTED_MODS = [
     },
     {
         "name": "Legendary Characters",
-        "package_name": "!str_legendary.pack",
-        "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/2826930183/!str_legendary.pack",
+        "package_name": "!scm_legendary.pack",
+        "path": f"{STEAM_LIBRARY_DRIVE}/SteamLibrary/steamapps/workshop/content/1142710/3305404052/!scm_legendary.pack",
         "modified_attributes": ["melee", "ranged_arc", "velocity"],
         "ignore_generation": True,
     },
