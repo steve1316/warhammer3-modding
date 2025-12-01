@@ -265,8 +265,12 @@ end
 
 --- Function to check if a unit's origin is enabled.
 local function is_origin_enabled(origin)
-    -- Vanilla units are always enabled.
-    if origin == "vanilla" then
+    -- Check if we should only use modded units. If so, exclude vanilla units.
+    if get_mct_settings().enable_compatibility_with_supported_mods and get_mct_settings().use_only_modded_units then
+        if origin == "vanilla" then
+            return false
+        end
+    elseif origin == "vanilla" then
         return true
     end
 
@@ -579,6 +583,12 @@ local function generate_random_force_makeup(difficulty_key, faction_shorthand_ke
             force_makeup.lord = lord
             break
         end
+    end
+
+    -- If a lord was not able to be selected, then select a random vanilla lord instead.
+    if not force_makeup.lord then
+        out("DEBUG - A lord was not able to be selected. Selecting a random vanilla lord instead.")
+        force_makeup.lord = select_random_value(list_of_allowed_lord_objects)
     end
 
     -- Select a random amount of heroes if their origin is enabled. Save the skill overrides for the heroes.

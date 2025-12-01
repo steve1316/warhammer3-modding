@@ -122,6 +122,14 @@ enable_compatibility_with_supported_mods_checkbox:set_is_global(true)
 enable_compatibility_with_supported_mods_checkbox:set_default_value(false)
 enable_compatibility_with_supported_mods_checkbox:set_assigned_section("randomized_encounter_force_generation_section")
 
+-- Create the checkbox to restrict encounter force generation to only use modded units.
+local use_only_modded_units_checkbox = mct_mod:add_new_option("use_only_modded_units", "checkbox")
+use_only_modded_units_checkbox:set_text("Use only modded units for encounter forces", true)
+use_only_modded_units_checkbox:set_tooltip_text("When enabled, the new randomized encounter force generation will only use modded units (vanilla units may be added if any of the supported mods overrode them).", true)
+use_only_modded_units_checkbox:set_is_global(true)
+use_only_modded_units_checkbox:set_default_value(false)
+use_only_modded_units_checkbox:set_assigned_section("randomized_encounter_force_generation_section")
+
 -- There are 3 difficulties. Create a dropdown to select the difficulty.
 local difficulty_dropdown = mct_mod:add_new_option("difficulty_dropdown", "dropdown")
 difficulty_dropdown:set_text("Select randomization difficulty", true)
