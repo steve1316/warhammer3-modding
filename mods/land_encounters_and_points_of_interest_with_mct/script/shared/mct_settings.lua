@@ -269,6 +269,9 @@ local supported_mods = {
     "!!khuresh_mercs1",
     "!!AM_HelfuryMachinegunsFIXED",
     "!!!!!Zayli_Complete_Mod_Compilation",
+    "CF-Chaos_Dragon",
+    "singe_units_wh_all",
+    "!!!!calm_kislev_erengrad",
 }
 
 local faction_mapping = {
