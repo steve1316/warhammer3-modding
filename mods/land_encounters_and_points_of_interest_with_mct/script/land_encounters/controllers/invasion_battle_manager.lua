@@ -212,12 +212,14 @@ function InvasionBattleManager:main_attacker_attacks_player_and_allies(player_ch
                     local faction_being_declared_war_to = local_context:character():faction():name()
                     if faction_being_declared_war_to == self.event_army.faction then
                         if self.event_army.intervention_type == AMBUSH_TYPE then
+                            out("DEBUG - AMBUSH_TYPE called.")
                             cm:force_attack_of_opportunity(invasion_force:get_general():military_force():command_queue_index(), player_force_cqi, true)                        
                         elseif self.event_army.intervention_type == INTERCEPTION_TYPE then
-                            out("DEBUG - INTERCEPTION_TYPE called. Now attacking")
+                            out("DEBUG - INTERCEPTION_TYPE called.")
 
                             cm:force_attack_of_opportunity(invasion_force:get_general():military_force():command_queue_index(), player_force_cqi, false)
                         else -- ALLIED_REINFORCEMENTS_PERMITTED_TYPE
+                            out("DEBUG - ALLIED_REINFORCEMENTS_PERMITTED_TYPE called.")
                             cm:force_attack_of_opportunity(player_force_cqi, invasion_force:get_general():military_force():command_queue_index(), false)
                         end
                     end
