@@ -5,6 +5,7 @@ cth_feimengpao	false	cth_feimengpao	grenade_launcher	false
 cth_huolongchushui	false	cth_huolongchushui	rocket_battery	false
 cth_huonuliuxingjian	false	cth_huonuliuxingjian	rocket_battery	false
 cth_pianxiangche_cannon	false	cth_pianxiangche_cannon	great_cannon	false
+cth_qijiajun	false	cth_qijiajun	repeater_gun	false
 wh3_cth_niaochong	false	wh3_cth_niaochong_bullet	repeater_gun	false
 wh3_cth_rocket_battery_small	false	wh3_cth_rocket_small	rocket_battery	false
 wh3_cth_sanjieshenji	false	wh3_cth_sanjieshenji_bullet	repeater_gun	false

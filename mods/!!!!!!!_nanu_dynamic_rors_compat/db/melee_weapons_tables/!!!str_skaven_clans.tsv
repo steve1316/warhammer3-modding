@@ -11,7 +11,6 @@ clan_vrrtkin_skv_halberd	17	0	8	20	1.0000	spear	halberd		5	1.0000	0.7500	0.0000	
 clan_vrrtkin_skv_spear	9	0	18	5	1.0000	spear	spear		5	1.0000	1.0000	0.0000	false	clan_vrrtkin_unit_contact_globe_residue	0	10	4.3000		false
 clan_vrrtkin_skv_sword	0	0	20	6	1.0000	sword	sword		5	1.0000	1.0000	0.0000	false	clan_vrrtkin_unit_contact_globe_residue	0	10	4.3000		false
 clan_vrrtkin_skv_sword_stormvermin	0	0	25	9	1.0000	sword	sword		5	1.0000	1.0000	0.0000	true	str_vrrtkin_poisoned_wind_melee_contact	0	10	4.6000		false
-cr_skv_giant_rat	0	0	7	3	1.0000	sword	creatures_claws		1	1.0000	1.0000	0.0000	false		0	10	4.3000		false
 liger_steamtank	0	25	200	140	8.0000	axe	unarmed	very_large	30	3.0000	1.0000	0.0000	false		35	4	4.0000		false
 rathan_inf_beast_whitewolf	10	0	80	220	4.0000	axe	creatures_claws	large	3	1.1000	0.7500	0.0000	true	wh3_main_unit_contact_soporific_musk	0	10	3.7000		false
 rathan_inf_chanters_melee_wep	0	3	10	35	2.0000	axe	flail		5	1.0000	1.0000	0.0000	true		0	10	4.4000		false

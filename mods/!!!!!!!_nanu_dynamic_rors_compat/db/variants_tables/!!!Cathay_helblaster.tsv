@@ -1,0 +1,4 @@
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/!!!Cathay_helblaster
+veh_cth_monitor	warmachines/aircraft/cth_sky_junk/tech	cth_monitor		1.0000	1.0000	0.0000	
+veh_cth_tank	warmachines/aircraft/cth_monitor/tech	cth_monitor		1.0000	1.0000	0.0000	

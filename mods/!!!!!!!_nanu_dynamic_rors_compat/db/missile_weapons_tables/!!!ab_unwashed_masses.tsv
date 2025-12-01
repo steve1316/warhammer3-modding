@@ -3,3 +3,4 @@ key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
 gnob_pigback_riders_javelin	false	gnob_pigback_riders_javelin		false
 gnob_powder_sniffers_grenade	false	gnob_powder_sniffers_grenade		false
 gnob_rustbucket_crossbow	false	gnob_rustbucket_crossbow_bolt	crossbow_LH	false
+gnob_sabretusk_riders_throwing_dagger	true	gnob_sabretusk_riders_throwing_dagger		false

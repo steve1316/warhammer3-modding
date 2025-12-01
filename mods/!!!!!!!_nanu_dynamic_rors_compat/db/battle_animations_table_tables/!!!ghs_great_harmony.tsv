@@ -7,9 +7,6 @@ chd_kdaai_fireborn_halberd	snake01
 cth_secret_follower_blade	humanoid01e
 cth_terracotta_glaive_and_bow	humanoid01
 cth_terracotta_great_axe	humanoid01e
-dwf_dwfling_mecha	humanoid18b
-dwf_melee_mecha	humanoid18b
-dwf_melee_mecha_fist	humanoid18b
 dwf_runeguard_catling	humanoid13
 ghs_cav_wef_wild_hunter_knight	humanoid01d
 ghs_cav_wef_zoat_rider_thorn_sister	humanoid01b
@@ -29,6 +26,7 @@ ghs_inf_skv_tesla_trooper	humanoid17
 ghs_inf_wef_moonfire_bow	humanoid01b
 ghs_inf_wef_wild_hunter	humanoid01d
 ghs_ksl_cav_alces_rider	humanoid01c
+ghs_lzd_vulcan_salamander	lizard02
 ghs_mon_hef_tree_man_archer	humanoid06e
 ghs_mon_hef_tree_man_dual_sword	humanoid06e
 hu10_eighth_legion_axe_and_whip	humanoid10
@@ -59,13 +57,9 @@ lzd_pyramid_tzunki_01	gyrobomber01
 ogr_crossbow	humanoid03
 ogr_fireman	humanoid03
 ogr_lioneater	humanoid13
-skv_hellpit_ratling_01	hybridcreature05
-skv_hellpit_warpdrill_01	hybridcreature05
-skv_hellpit_warpflame_01	hybridcreature05
-sn1_sea_dragon	snake01
 tmb_heavy_ostrich_rider_spear_and_shield_ghs	humanoid01
 tmb_ostrich_rider_spear_and_shield_ghs	humanoid01
-tmb_scarab_flying_01	insect01
+tmb_secret_sandstalker	snake02b
 wef_treeman_guard_autumn	giant01
 wef_treeman_guard_spring	humanoid04
 wef_treeman_guard_summer	giant01

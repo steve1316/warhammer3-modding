@@ -2,20 +2,16 @@ key	skeleton
 #battle_animations_table_tables;0;db/battle_animations_table_tables/!!!jade_vamp_pol
 ap1_yaoguai	ape01
 gh4_pale_lady	ghost04
-gh4_starved	ghost04
 hc3_jbv_yurei	hybridcreature03
 hu1_faithfuls	humanoid01
 hu1_faithfuls_ancient	humanoid01
 hu1_faithfuls_dagger	humanoid01
 hu1_gh_sinful_monk	humanoid01
 hu1_gh_vengeful	humanoid01
-hu1_jiangshi	humanoid01
 hu1_newbloods	humanoid01
 hu1_revenant_halberd	humanoid01
 hu1_revenant_sns	humanoid01
-hu1_skeleton_returned	humanoid01
 hu1_skeleton_returned_spear	humanoid01
-hu1_undead_worker	humanoid01
 hu1_youxia_gs	humanoid01
 hu1d_blood_lions	humanoid01d
 hu1d_youxia_guandao	humanoid01d

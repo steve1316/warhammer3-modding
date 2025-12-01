@@ -30,6 +30,7 @@ traj_kho_salamander	false	traj_kho_salamander		false
 traj_kho_salamander_small	false	traj_kho_salamander_small		false
 traj_kho_skink_cohort	false	traj_kho_skink_cohort	javelin	false
 traj_kho_skink_skirmish	false	traj_kho_skink_skirmish	blowpipe	false
+traj_kho_skink_stalker	true	traj_kho_skink_stalker	blowpipe	false
 traj_kho_steam_tank_cannon	false	traj_kho_steam_tank_cannon	gatling_gun	false
 traj_kho_stegadon_blowpipe	false	traj_kho_stegadon_blowpipe		false
 traj_kho_stegadon_cannon	false	traj_kho_stegadon_cannon		false

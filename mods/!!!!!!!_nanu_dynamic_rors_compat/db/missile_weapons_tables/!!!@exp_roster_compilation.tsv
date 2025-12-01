@@ -6,6 +6,8 @@ deco_chd_gnoblar_missile	false	deco_chd_gnoblar_missile		false
 deco_chd_naptha_bombs	false	deco_chd_naptha_bombs	globe	false
 deco_irondrakes_missile	false	deco_irondrakes_missile	pistol	false
 deco_ironside_rifle	false	deco_ironside_rifle	repeater_rifle	false
+deco_meadow_chariots	false	deco_meadow_chariots	bow	false
 deco_nor_reavers_throw	false	deco_nor_reavers_throw	none	false
 deco_prospectors_charges	false	deco_prospectors_charges		false
+deco_skywardens_bow	false	deco_skywardens_arrow	bow	false
 dwf_kou_dreadnaught	false	dwf_kou_dreadnaught		false

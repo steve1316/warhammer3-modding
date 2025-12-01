@@ -2,6 +2,5 @@ key	skeleton
 #battle_animations_table_tables;0;db/battle_animations_table_tables/!!!cf-Ksl-units
 cf_ancient_widow	ghost01
 cf_hu1_kislev_ice_guard_hr1_warhorse_sword_and_bow	humanoid01
-cf_hu1_wh3_kislev_mace_and_satchel	humanoid01
 cf_hu1c_wh3_kislev_be1_warbear_glaive	bear01
 cf_sp1_giant_spider_frost	spider01

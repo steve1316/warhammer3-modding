@@ -10,3 +10,4 @@ gnob_powder_sniffers_sword	0	0	17	4	1.0000	sword	sword		1	1.0000	0.7500	10.0000	
 gnob_rhinox_riders	0	20	55	125	5.0000	axe	axe	very_large	6	1.0000	1.0000	0.0000	false		4	2	3.8000		false
 gnob_rustbucket_great_weapon	0	0	9	25	1.0000	axe	axe		1	1.0000	1.0000	0.0000	false		0	10	4.3000		false
 gnob_rustbucket_handweapon	0	0	25	7	1.0000	axe	axe		1	1.0000	0.7500	0.0000	false		0	10	4.3000		false
+gnob_sabretusk_riders	0	0	35	15	2.0000	sword	creatures_claws	small	2	1.0000	0.7500	0.0000	false		0	10	4.0000		false

@@ -11,4 +11,4 @@ cou_sla_vamps_cav	0	0	50	25	3.0000	sword	sword	medium	7	1.8000	0.7500	0.0000	tru
 cou_sla_vamps_inf	0	0	40	25	3.0000	sword	sword	medium	7	1.8000	0.7500	0.0000	true	wh3_main_unit_contact_soporific_musk	0	10	4.0000		false
 cou_tze_vamps_cav	0	0	35	45	7.0000	sword	sword	medium	5	1.0000	0.7500	1.0000	true	wh3_main_unit_contact_warpflame	0	10	4.0000		false
 cou_tze_vamps_inf	0	0	25	45	7.0000	sword	sword	medium	5	1.0000	0.7500	1.0000	true	wh3_main_unit_contact_warpflame	0	10	4.0000		false
-cou_tze_vamps_manitoce	0	25	40	65	8.0000	axe	creatures_claws	large	12	1.0000	0.7500	0.0000	true	wh3_main_unit_contact_warpflame	0	10	3.8000		false
+cou_tze_vamps_manitoce	0	25	40	65	8.0000	axe	creatures_claws	large	12	1.0000	0.7500	1.0000	true	wh3_main_unit_contact_warpflame	0	10	3.8000		false
