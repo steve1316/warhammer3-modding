@@ -61,5 +61,8 @@ INSERT_LIST_HERE
     with open("missing_mods.txt", "w", encoding="utf-8") as f:
         f.write("\n".join(missing_mods))
 
+    logging.info(f"Total mods: {len(SUPPORTED_MODS)}")
+    logging.info(f"There are {len(missing_mods)} mods that are missing.")
+
     end_time = round(time.time() - start_time, 2)
     logging.info(f"Total time for generating updated lists of supported mods: {end_time} seconds or {round(end_time / 60, 2)} minutes.")
