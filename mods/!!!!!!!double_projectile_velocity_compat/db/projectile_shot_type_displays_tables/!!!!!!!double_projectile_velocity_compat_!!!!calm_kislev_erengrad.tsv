@@ -1,0 +1,4 @@
+key	ui_sound_event	icon_name
+#projectile_shot_type_displays_tables;1;db/projectile_shot_type_displays_tables/!!!!!!!double_projectile_velocity_compat_!!!!calm_kislev_erengrad
+calm_kovnik_sniper_rifle_anti_infantry	UI_BAT_SABL_Generic_Enable	kovnik_ammo_1
+calm_kovnik_sniper_rifle_anti_large	UI_BAT_SABL_Generic_Enable	kovnik_ammo_2
