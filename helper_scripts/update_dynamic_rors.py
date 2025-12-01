@@ -11,6 +11,7 @@ from utilities import (
     merge_move,
     cleanup_folders,
     extract_model_paths_from_variantmeshdefinition,
+    STEAM_LIBRARY_DRIVE,
 )
 from supported_mods import SUPPORTED_MODS
 from dynamic_rors_effects import SUPPORTED_EFFECTS
@@ -878,7 +879,7 @@ if __name__ == "__main__":
             "pack",
             "delete",
             "--pack-path",
-            r"C:\SteamLibrary\steamapps\workshop\content\1142710\3513364573\!!!!!!!_nanu_dynamic_rors_compat.pack",
+            f"{STEAM_LIBRARY_DRIVE}\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\3513364573\\!!!!!!!_nanu_dynamic_rors_compat.pack",
             "--folder-path",
             "db",
         ], capture_output=True)
@@ -889,7 +890,7 @@ if __name__ == "__main__":
             "pack",
             "delete",
             "--pack-path",
-            r"C:\SteamLibrary\steamapps\workshop\content\1142710\3513364573\!!!!!!!_nanu_dynamic_rors_compat.pack",
+            f"{STEAM_LIBRARY_DRIVE}\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\3513364573\\!!!!!!!_nanu_dynamic_rors_compat.pack",
             "--folder-path",
             "variantmeshes",
         ], capture_output=True)
@@ -927,7 +928,7 @@ if __name__ == "__main__":
                 "pack",
                 "add",
                 "--pack-path",
-                r"C:\SteamLibrary\steamapps\workshop\content\1142710\3513364573\!!!!!!!_nanu_dynamic_rors_compat.pack",
+                f"{STEAM_LIBRARY_DRIVE}\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\3513364573\\!!!!!!!_nanu_dynamic_rors_compat.pack",
                 "--tsv-to-binary",
                 "./schemas/schema_wh3.ron",
                 "--folder-path",
@@ -941,7 +942,7 @@ if __name__ == "__main__":
                     "pack",
                     "add",
                     "--pack-path",
-                    r"C:\SteamLibrary\steamapps\workshop\content\1142710\3513364573\!!!!!!!_nanu_dynamic_rors_compat.pack",
+                    f"{STEAM_LIBRARY_DRIVE}\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\3513364573\\!!!!!!!_nanu_dynamic_rors_compat.pack",
                     "--tsv-to-binary",
                     "./schemas/schema_wh3.ron",
                     "--folder-path",

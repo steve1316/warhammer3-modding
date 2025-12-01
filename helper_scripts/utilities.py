@@ -9,7 +9,8 @@ import logging
 from typing import List, Dict
 
 
-FILEPATH_TO_VANILLA_DATA_TABLES = r"C:\SteamLibrary\steamapps\common\Total War WARHAMMER III\data\db.pack"
+STEAM_LIBRARY_DRIVE = "F:"
+FILEPATH_TO_VANILLA_DATA_TABLES = f"{STEAM_LIBRARY_DRIVE}\\SteamLibrary\\steamapps\\common\\Total War WARHAMMER III\\data\\db.pack"
 
 # TSV file structure constants
 HEADER_ROW_INDEX = 0

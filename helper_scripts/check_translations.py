@@ -11,48 +11,49 @@ import gc
 import shutil
 import time
 from typing import List
+from utilities import STEAM_LIBRARY_DRIVE
 
 
 mod_paths_to_be_translated = [
     {
-        "mod_path": r"C:\SteamLibrary\steamapps\workshop\content\1142710\3297754796\@whc_cth_unit_wuh_7.pack",
-        "translation_path": r"C:\SteamLibrary\steamapps\workshop\content\1142710\3392058226\zzz_@whc_cth_unit_wuh_Alternative_English_Translation.pack",
+        "mod_path": f"{STEAM_LIBRARY_DRIVE}\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\3297754796\\@whc_cth_unit_wuh_7.pack",
+        "translation_path": f"{STEAM_LIBRARY_DRIVE}\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\3392058226\\zzz_@whc_cth_unit_wuh_Alternative_English_Translation.pack",
     },
     {
-        "mod_path": r"C:\SteamLibrary\steamapps\workshop\content\1142710\2901237965\Zerooz_All_Units.pack",
-        "translation_path": r"C:\SteamLibrary\steamapps\workshop\content\1142710\3315737452\Zerooz_English_Translation_corrections.pack",
+        "mod_path": f"{STEAM_LIBRARY_DRIVE}\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\2901237965\\Zerooz_All_Units.pack",
+        "translation_path": f"{STEAM_LIBRARY_DRIVE}\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\3315737452\\Zerooz_English_Translation_corrections.pack",
     },
     {
-        "mod_path": r"C:\SteamLibrary\steamapps\workshop\content\1142710\3316985957\archer_fuyuanshan_faction.pack",
-        "translation_path": r"C:\SteamLibrary\steamapps\workshop\content\1142710\3317696617\zzz_cth_fuyuanshan_faction_Alternative_English_Translation.pack",
+        "mod_path": f"{STEAM_LIBRARY_DRIVE}\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\3316985957\\archer_fuyuanshan_faction.pack",
+        "translation_path": f"{STEAM_LIBRARY_DRIVE}\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\3317696617\\zzz_cth_fuyuanshan_faction_Alternative_English_Translation.pack",
     },
     {
-        "mod_path": r"C:\SteamLibrary\steamapps\workshop\content\1142710\3442971928\ghs_great_harmony.pack",
-        "translation_path": r"C:\SteamLibrary\steamapps\workshop\content\1142710\3393724734\zzz_Great_Harmony_Sentinel_Alternative_English_Translation.pack",
+        "mod_path": f"{STEAM_LIBRARY_DRIVE}\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\3442971928\\ghs_great_harmony.pack",
+        "translation_path": f"{STEAM_LIBRARY_DRIVE}\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\3393724734\\zzz_Great_Harmony_Sentinel_Alternative_English_Translation.pack",
     },
     {
-        "mod_path": r"C:\SteamLibrary\steamapps\workshop\content\1142710\3061752415\!!YL_binzhong.pack",
-        "translation_path": r"C:\SteamLibrary\steamapps\workshop\content\1142710\3318753302\zzz_YL_binzhong_Alternative_English_Translation.pack",
+        "mod_path": f"{STEAM_LIBRARY_DRIVE}\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\3061752415\\!!YL_binzhong.pack",
+        "translation_path": f"{STEAM_LIBRARY_DRIVE}\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\3318753302\\zzz_YL_binzhong_Alternative_English_Translation.pack",
     },
     {
-        "mod_path": r"C:\SteamLibrary\steamapps\workshop\content\1142710\2872222879\@Deer24batuoniya.pack",
-        "translation_path": r"C:\SteamLibrary\steamapps\workshop\content\1142710\3393724674\zzz_DEER24_Alternative_English_Translation.pack",
+        "mod_path": f"{STEAM_LIBRARY_DRIVE}\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\2872222879\\@Deer24batuoniya.pack",
+        "translation_path": f"{STEAM_LIBRARY_DRIVE}\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\3393724674\\zzz_DEER24_Alternative_English_Translation.pack",
     },
     {
-        "mod_path": r"C:\SteamLibrary\steamapps\workshop\content\1142710\2859396310\@Deer24diguochuanqi.pack",
-        "translation_path": r"C:\SteamLibrary\steamapps\workshop\content\1142710\3393724674\zzz_DEER24_Alternative_English_Translation.pack",
+        "mod_path": f"{STEAM_LIBRARY_DRIVE}\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\2859396310\\@Deer24diguochuanqi.pack",
+        "translation_path": f"{STEAM_LIBRARY_DRIVE}\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\3393724674\\zzz_DEER24_Alternative_English_Translation.pack",
     },
     {
-        "mod_path": r"C:\SteamLibrary\steamapps\workshop\content\1142710\2908711955\@Deer24HEF.pack",
-        "translation_path": r"C:\SteamLibrary\steamapps\workshop\content\1142710\3393724674\zzz_DEER24_Alternative_English_Translation.pack",
+        "mod_path": f"{STEAM_LIBRARY_DRIVE}\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\2908711955\\@Deer24HEF.pack",
+        "translation_path": f"{STEAM_LIBRARY_DRIVE}\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\3393724674\\zzz_DEER24_Alternative_English_Translation.pack",
     },
     {
-        "mod_path": r"C:\SteamLibrary\steamapps\workshop\content\1142710\2804084630\@DEERKSL.pack",
-        "translation_path": r"C:\SteamLibrary\steamapps\workshop\content\1142710\3393724674\zzz_DEER24_Alternative_English_Translation.pack",
+        "mod_path": f"{STEAM_LIBRARY_DRIVE}\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\2804084630\\@DEERKSL.pack",
+        "translation_path": f"{STEAM_LIBRARY_DRIVE}\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\3393724674\\zzz_DEER24_Alternative_English_Translation.pack",
     },
     {
-        "mod_path": r"C:\SteamLibrary\steamapps\workshop\content\1142710\2789903784\DEER24Cathay.pack",
-        "translation_path": r"C:\SteamLibrary\steamapps\workshop\content\1142710\3393724674\zzz_DEER24_Alternative_English_Translation.pack",
+        "mod_path": f"{STEAM_LIBRARY_DRIVE}\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\2789903784\\DEER24Cathay.pack",
+        "translation_path": f"{STEAM_LIBRARY_DRIVE}\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\3393724674\\zzz_DEER24_Alternative_English_Translation.pack",
     },
 ]
 
