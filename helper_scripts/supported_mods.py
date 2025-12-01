@@ -2082,13 +2082,6 @@ SUPPORTED_MODS = [
         "pattern_overrides": {"*": "hef"},
     },
     {
-        "name": "MAMMOTH MODS",
-        "package_name": "MAMMOTH_Mods.pack",
-        "path": "C:/SteamLibrary/steamapps/workshop/content/1142710/3243507897/MAMMOTH_Mods.pack",
-        "modified_attributes": ["melee", "ranged_arc", "velocity"],
-        "pattern_overrides": {"*": "nor"},
-    },
-    {
         "name": "Highborn Elves - Unit Pack",
         "package_name": "MOD_red_hef_highborn_elves.pack",
         "path": f"{STEAM_LIBRARY_DRIVE}/SteamLibrary/steamapps/workshop/content/1142710/2853320471/MOD_red_hef_highborn_elves.pack",
