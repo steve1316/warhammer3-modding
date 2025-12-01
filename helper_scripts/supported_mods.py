@@ -1756,9 +1756,9 @@ SUPPORTED_MODS = [
         "pattern_overrides": {"*": "wef"},
     },
     {
-        "name": "Crys Leaders Updated",
-        "package_name": "Updated_crys_leaders.pack",
-        "path": f"{STEAM_LIBRARY_DRIVE}/SteamLibrary/steamapps/workshop/content/1142710/3402373331/Updated_crys_leaders.pack",
+        "name": "Cryswar's Leaders of Legends",
+        "package_name": "crys_leaders.pack",
+        "path": f"{STEAM_LIBRARY_DRIVE}/SteamLibrary/steamapps/workshop/content/1142710/2880244265/crys_leaders.pack",
         "modified_attributes": ["melee", "ranged_arc", "velocity"],
         "ignore_generation": True,
     },
