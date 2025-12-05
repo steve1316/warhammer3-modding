@@ -55,6 +55,10 @@ mod_paths_to_be_translated = [
         "mod_path": f"{STEAM_LIBRARY_DRIVE}\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\2789903784\\DEER24Cathay.pack",
         "translation_path": f"{STEAM_LIBRARY_DRIVE}\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\3393724674\\zzz_DEER24_Alternative_English_Translation.pack",
     },
+    {
+        "mod_path": f"{STEAM_LIBRARY_DRIVE}\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\2901237965\\Zerooz_All_Units.pack",
+        "translation_path": f"{STEAM_LIBRARY_DRIVE}\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\3315737452\\Zerooz_English_Translation_corrections.pack",
+    },
 ]
 
 if os.path.exists("./text_original"):
