@@ -23,6 +23,11 @@ local caps = {
     {"cth_north_suitang_cav_longma", "special", 3},
     {"cth_north_suitang_jade_shuwei_3", "special", 1},
     {"cth_central_tianting_ogr_swordsmaster", "special", 2},
+    {"cth_inf_onna_bushi", "special", 1},
+    {"cth_samurai_shun", "special", 1},
+    {"cth_matchlock_samurai", "special", 1},
+    {"cth_inf_onna_bushi_archers", "special", 1},
+    {"cth_inf_heralds_bwinds", "rare", 1},
 }
 
 local ttc = core:get_static_object("tabletopcaps")

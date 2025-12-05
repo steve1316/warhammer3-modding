@@ -15,6 +15,20 @@ local caps = {
     {"emp_hellbores", "special", 1},
     {"emp_fumecorps_bayos", "core", 1},
     {"emp_deithguard_shields", "special", 1},
+    {"emp_cinderbell", "rare", 2},
+    {"emp_vinderbane_armored", "special", 3},
+    {"emp_vinderbane", "special", 2},
+    {"emp_engelspeers", "special", 1},
+    {"emp_gottzorn", "rare", 3},
+    {"emp_drakebiter", "special", 2},
+    {"emp_knellgun", "special", 2},
+    {"emp_culverin", "special", 2},
+    {"emp_autofalcon_armored", "special", 3},
+    {"emp_gottzorn_knellgun", "rare", 3},
+    {"emp_mountain_gun", "special", 2},
+    {"emp_gottzorn_flame", "rare", 3},
+    {"emp_cofferglare", "rare", 2},
+    {"emp_autofalcon", "special", 3},
 }
 
 local ttc = core:get_static_object("tabletopcaps")

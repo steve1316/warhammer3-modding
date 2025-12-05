@@ -82,6 +82,7 @@ local caps = {
     {"kho_skaven_warpfire_thrower", "special", 2},
     {"kho_skaven_plague_monk", "special", 1},
     {"kho_skaven_globadiers", "special", 2},
+    {"traj_kho_skink_stalker", "core", 1},
     -- Beastmen
     {"traj_khorgoth_minotaur_ror", "special", 2},
 }

@@ -2,6 +2,12 @@
 local caps = {
     -- Beastmen
     {"wh3_dlc26_bst_inf_khorngors", "special", 1},
+    {"wh3_dlc27_bst_inf_slaangors", "special", 1},
+    {"wh3_dlc27_bst_mon_chimera", "rare", 2},
+    {"wh3_dlc27_bst_mon_cockatrice", "rare", 1},
+    {"wh3_dlc27_bst_mon_preyton_ror", "rare", 3},
+    {"wh3_dlc27_bst_mon_chimera_ror", "rare", 2},
+    {"wh3_dlc27_bst_mon_preyton", "rare", 3},
     -- Chaos Dwarfs
     {"wh3_dlc23_chd_veh_iron_daemon_3payload_qb", "special", 2},
     {"wh3_main_chd_art_hobgob_bolt_thrower", "rare", 1},
@@ -19,6 +25,16 @@ local caps = {
     {"wh3_dlc26_grn_inf_black_orcs_shield", "special", 2},
     {"wh3_dlc26_grn_mon_colossal_squig", "rare", 2},
     {"wh3_dlc26_grn_art_bolt_throwa_ror", "special", 2},
+    -- High Elves
+    {"wh3_dlc27_hef_inf_swordmasters_of_hoeth_ror", "special", 2},
+    {"wh3_dlc27_hef_inf_oceanids", "special", 1},
+    {"wh3_dlc27_hef_mon_sea_elemental", "rare", 2},
+    {"wh3_dlc27_hef_mon_merwyrm", "rare", 3},
+    {"wh3_dlc27_hef_inf_ships_company_ror", "core", 1},
+    {"wh3_dlc27_hef_mon_merwyrm_ror", "rare", 3},
+    {"wh3_dlc27_hef_inf_ships_company", "core", 1},
+    {"wh3_dlc27_hef_veh_skycutter_bolt_thrower", "special", 2},
+    {"wh3_dlc27_hef_veh_skycutter_bows", "special", 2},
     -- Khorne
     {"wh3_dlc26_kho_inf_wrathmongers", "special", 3},
     {"wh3_dlc26_kho_mon_bloodbeast_of_khorne", "special", 2},
@@ -54,8 +70,36 @@ local caps = {
     {"wh2_dlc10_skv_mon_hell_pit_abomination_boss", "rare", 3},
     {"wh2_dlc10_lzd_mon_carnosaur_boss", "rare", 3},
     {"wh2_dlc10_def_mon_war_hydra_boss", "rare", 3},
+    {"wh3_dlc27_nor_mon_chimera", "special", 2},
+    {"wh3_dlc27_nor_cav_kurgan_horsemen_greatweapons", "core", 1},
+    {"wh3_dlc27_nor_inf_chaos_marauders_great_weapons_ror", "core", 1},
+    {"wh3_dlc27_throgg_mon_stone_trolls_0", "special", 2},
+    {"wh3_dlc27_throgg_mon_bile_trolls", "special", 2},
+    {"wh3_dlc27_nor_mon_chimera_ror", "special", 2},
+    {"wh3_dlc27_nor_cav_marauder_horsemen_ror", "core", 1},
+    {"wh3_dlc27_nor_mon_cursd_ettin", "special", 3},
+    {"wh3_dlc27_throgg_mon_river_trolls_0", "special", 2},
+    {"wh3_dlc27_nor_mon_cursd_ettin_runecaller", "special", 3},
+    {"wh3_dlc27_nor_cav_chaos_chariot_ror", "core", 1},
+    {"wh3_dlc27_nor_mon_dread_maw_underground", "special", 2},
+    {"wh3_dlc27_throgg_mon_chs_trolls_1", "special", 2},
+    {"wh3_dlc27_nor_cav_kurgan_horsemen_dualweapons", "core", 1},
+    {"wh3_dlc27_throgg_mon_chs_trolls_0", "special", 2},
+    {"wh3_dlc27_nor_inf_marauder_bearmen", "core", 1},
+    {"wh3_dlc27_nor_inf_marauder_bearmen_greatweapons", "core", 1},
     -- Grand Cathay
     {"wh3_main_cth_inf_grenadiers", "core", 1},
+    -- Slaanesh
+    {"wh3_dlc27_sla_veh_seeker_chariot_ror", "special", 1},
+    {"wh3_dlc27_sla_inf_devotees_of_slaanesh", "special", 1},
+    {"wh3_dlc27_sla_inf_slaangors", "core", 1},
+    {"wh3_dlc27_sla_inf_devotees_of_slaanesh_crossbows", "special", 1},
+    {"wh3_dlc27_sla_cav_pleasureseekers", "special", 3},
+    {"wh3_dlc27_sla_mon_preyton", "special", 2},
+    {"wh3_dlc27_sla_cav_pleasureseekers", "special", 3},
+    {"wh3_dlc27_sla_mon_champions_of_slaanesh_ror", "special", 2},
+    {"wh3_dlc27_sla_mon_champions_of_slaanesh", "special", 2},
+    {"wh3_dlc27_sla_mon_preyton_ror", "special", 2},
 }
 
 local ttc = core:get_static_object("tabletopcaps")

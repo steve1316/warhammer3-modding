@@ -6,6 +6,7 @@ local caps = {
     {"bst_inf_centigors_great_axe_mnur", "rare", 1},
     {"bst_inf_centigors_great_sword", "rare", 1},
     {"bst_inf_centigors_throwing_axes_mnur", "rare", 1},
+    {"bst_inf_khorngors_dule_axe", "special", 1},
     -- Bretonnia
     {"haven_praetorian", "special", 1},
     {"haven_squire", "special", 1},
@@ -78,6 +79,12 @@ local caps = {
     {"hef_inf_brave_guardians", "special", 2},
     {"hef_inf_brave_blademen", "special", 3},
     {"hef_inf_brave_acher", "special", 2},
+    -- Khorne
+    {"kho_inf_khorngors_dule_axe", "special", 1},
+    {"kho_inf_exalted_eightbound", "special", 3},
+    {"kho_flesh_hound_knight", "special", 1},
+    {"kho_inf_the_red_revelation", "special", 2},
+    {"kho_blood_maiden", "special", 2},
     -- Ogres
     {"ogr_gnoblar_dual_sword", "core"},
     {"ogr_inf_ironguts_cth_0", "core"},
