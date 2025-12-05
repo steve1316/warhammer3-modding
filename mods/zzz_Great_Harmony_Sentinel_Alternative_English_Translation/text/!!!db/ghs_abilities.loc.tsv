@@ -43,16 +43,8 @@ unit_abilities_onscreen_name_ghs_ability_dwf_powder_morgrim	Morgrim's Powder	tru
 unit_abilities_tooltip_text_ghs_ability_dwf_powder_morgrim	"The cannons roar, the smoke clears, the mountains tremble in triumphant song!"	true
 unit_abilities_onscreen_name_ghs_ability_dwf_rage_grimnir	Grimnir's Wrathful Axe	true
 unit_abilities_tooltip_text_ghs_ability_dwf_rage_grimnir	"Slay dragons, scour the wastes, and annihilate the Chaos hordes!"	true
-unit_abilities_onscreen_name_ghs_ability_ogr_gbnoblar_food	Overpowering Stew	true
-unit_abilities_tooltip_text_ghs_ability_ogr_gbnoblar_food	Ugh, whatever this concoction is, it seems to invigorate the Gnoblars who drink it, making them unnervingly energetic!	true
-unit_abilities_onscreen_name_ghs_ability_ogr_gbnoblar_iron	Prickly Spikes	true
-unit_abilities_tooltip_text_ghs_ability_ogr_gbnoblar_iron	Hey boss, be careful with this snack! Last time I got poked handling it!	false
 unit_abilities_onscreen_name_ghs_ability_ogr_hunter_of_champions	Hunter's Cunning	true
 unit_abilities_tooltip_text_ghs_ability_ogr_hunter_of_champions	Most ogre prey is quite dim, but careless hunters may find the roles reversed!	true
-unit_abilities_onscreen_name_ghs_ability_ogr_ice_mammoth_breath	Fresh Meat Feast	true
-unit_abilities_tooltip_text_ghs_ability_ogr_ice_mammoth_breath	The butcher tosses chilled meat into a boiling cauldron. The resulting broth grants the surrounding ogres extraordinary regenerative powers.	true
-unit_abilities_onscreen_name_ghs_ability_ogr_lioneater_ammo	Shrapnel Throw	true
-unit_abilities_tooltip_text_ghs_ability_ogr_lioneater_ammo	If we run out of proper ammunition, just break off bits of scrap and fire them!	true
 unit_abilities_onscreen_name_lzd_god_of_quetzl	"Quetzl's Guard"	true
 unit_abilities_tooltip_text_lzd_god_of_quetzl	A great flood once swept the world, devouring all. Heroes arise so that no more heroes are needed.	true
 unit_abilities_onscreen_name_lzd_god_punish	"Punishment for Blasphemy"	true
@@ -72,16 +64,12 @@ unit_abilities_tooltip_text_lzd_temple_destrut_i	Even the greatest works can gat
 unit_abilities_onscreen_name_lzd_temple_destrut_ii	Creation's Demise	true
 unit_abilities_tooltip_text_lzd_temple_destrut_ii	While there is still breath, do not relent.	true
 unit_abilities_onscreen_name_ghs_ability_cth_summon_soul_flood_dragon	Spirit Dragon Ascension	true
-unit_abilities_tooltip_text_cth_summon_soul_flood_dragon	The spirit ascends from the spirit platform, crossing the river of the afterlife under the banners of ten thousand troops.	true
 unit_abilities_onscreen_name_ghs_ability_cth_soul_focus	Power of Spirits	true
 unit_abilities_tooltip_text_ghs_ability_cth_soul_focus	Tiny streams of effort merge into a vast tide, culminating in an unparalleled storm of magic.	true
 unit_abilities_onscreen_name_ghs_ability_cth_soul_flood_dragon_break	Dissipation	true
 unit_abilities_tooltip_text_ghs_ability_cth_soul_flood_dragon_break	The summoned spirits gracefully vanish from the warriors' sight, as if fading into the mists.	true
-unit_abilities_onscreen_name_ghs_ability_cth_jade_lion_magic_eater	Jade Magic-Eating Lion	true
-unit_abilities_tooltip_text_ghs_ability_cth_jade_lion_magic_eater	The best way to counter spellcasters is to sever their connection to the Winds of Magic.	true
 unit_abilities_onscreen_name_ghs_ability_cth_iron_eater	Iron Devourer Beast	true
 unit_abilities_tooltip_text_ghs_ability_cth_iron_eater	In Cathay, there is a beast, resembling a water buffalo, black as lacquer, that chews iron and swallows copper.	true
-unit_abilities_onscreen_name_ghs_ability_cth_harmony_yin_melee	Martial Harmony: Yin	true
 unit_abilities_tooltip_text_ghs_ability_cth_harmony_yin_melee	All things must balance, like dark and light, moon and sun, male and female.	true
 unit_abilities_onscreen_name_ghs_ability_cth_dragon_art3	Heaven's Collapse	true
 unit_abilities_tooltip_text_ghs_ability_cth_dragon_art3	The winds of Heaven abandon these forms, returning to the grasp of the Dragon Emperor—it's too late...	true
@@ -113,8 +101,6 @@ unit_abilities_onscreen_name_kho_army_bronze_body	Bronze Flesh	true
 unit_abilities_tooltip_text_kho_army_bronze_body	Molten bronze perpetually flows to seal wounds, a blessing reserved for the most devout servants of Khorne. As for that mad bull? A flawed creation.	true
 unit_abilities_onscreen_name_arkhan_abilities_death_storm	Scorpion Deathstorm	false
 unit_abilities_tooltip_text_arkhan_abilities_death_storm	The Liche King conjures dark magic amidst a desert storm, leaving torn limbs and dying foes in its wake.	false
-unit_abilities_onscreen_name_ghs_tmb_flying_necrosphinx	Wings of Death	false
-unit_abilities_tooltip_text_ghs_tmb_flying_necrosphinx	Wings woven from tormented souls spread wide, scattering the Grim Reaper's gift from above!	false
 unit_abilities_onscreen_name_ghs_tmb_landing_necrosphinx	Soul Harvest	false
 unit_abilities_tooltip_text_ghs_tmb_landing_necrosphinx	Listen closely to the whispers from the underworld; the god of the afterlife craves the souls of the living.	false
 unit_abilities_onscreen_name_heriotitan_settra	Blessed by the Gods: Settra's Divine Avatar	false
@@ -300,8 +286,6 @@ unit_abilities_onscreen_name_snek_dwf_refill_ammo	Refill Ammunition	false
 special_ability_phases_onscreen_name_snek_dwf_sappers_repair_tank	Repair Mechanical Construct	false
 unit_abilities_tooltip_text_snek_dwf_sappers_repair_tank	Repair Mechanical Construct	false
 unit_abilities_onscreen_name_snek_dwf_sappers_repair_tank	Repair Mechanical Construct	false
-unit_abilities_onscreen_name_gouxiangtuirang	Hook and Push	true
-unit_abilities_onscreen_name_jiujiuhuanyang	Ninefold Rebirth Art	true
 unit_abilities_onscreen_name_unit_ability_against_ten_thousand	Unstoppable Warrior	false
 unit_abilities_onscreen_name_unit_ability_dragons_agility	Dragon's Insight	false
 unit_abilities_onscreen_name_unit_ability_dragons_bravery	Dragon's Valor	false
@@ -310,9 +294,6 @@ unit_abilities_onscreen_name_unit_ability_dragons_tenacity	Dragon's Resolve	fals
 unit_abilities_onscreen_name_unit_ability_enable_volley_of_fire_lance	Volley of Fire Lances	false
 unit_abilities_onscreen_name_unit_ability_three_axe_strokes	Three Axe Blows	false
 unit_abilities_onscreen_name_wuxing_compass_cast_up	Power of the Five Elements Compass	true
-unit_abilities_tooltip_text_gouxiangtuirang	Hooks and clasps: the ends are hooks, the middle clasps; used appropriately, they either pull or push with precision.	true
-unit_abilities_tooltip_text_jiujiuhuanyang	Harness the spiritual energy of heaven and earth to restore the essence of yang.	true
-unit_abilities_tooltip_text_unit_ability_against_ten_thousand	Facing thousands in battle, they grow stronger, carving a path as if no one could stand before them—a paragon of invincible courage.	false
 unit_abilities_tooltip_text_unit_ability_dragons_agility	Dragon's Insight illuminates all, penetrating and understanding everything.	false
 unit_abilities_tooltip_text_unit_ability_dragons_bravery	Dragon's Valor stands fearless and firm, unyielding in the face of adversity.	false
 unit_abilities_tooltip_text_unit_ability_dragons_fierceness	Dragon's Ferocity burns like a blazing flame, exuding an indomitable aura.	false
@@ -320,7 +301,6 @@ unit_abilities_tooltip_text_unit_ability_dragons_tenacity	Dragon's Resolve is li
 unit_abilities_tooltip_text_unit_ability_enable_volley_of_fire_lance	The deafening roar of fire lances fills the air, laying waste to everything.	false
 unit_abilities_tooltip_text_unit_ability_three_axe_strokes	Three mighty axe blows of tremendous power, yet exhausting their use leaves the wielder defenseless.	false
 unit_abilities_tooltip_text_wuxing_compass_cast_up	Harness the power of the Five Elements Compass for the mage's use.	true
-unit_abilities_onscreen_name_cth_zhaowang_battle_master	Blood of the Flood Dragon	true
 unit_abilities_onscreen_name_cth_zhaowang_flooddragon	Flood Dragon Technique	true
 unit_abilities_onscreen_name_cth_zhaowang_flooddragon_1	Flood Dragon Technique	true
 unit_abilities_onscreen_name_cth_zhaowang_steel	Might of the Flood Dragon	true
@@ -347,3 +327,17 @@ unit_abilities_onscreen_name_skv_mon_hellpit_lightling	Dimensional Lightning	tru
 unit_abilities_onscreen_name_wh2_main_unit_passive_the_warpflame_explosion	Surge of Warpflame	true
 unit_abilities_tooltip_text_skv_mon_hellpit_lightling	Within the twisted flesh brews devastating dimensional lightning, potent enough to pierce the toughest armor.	true
 unit_abilities_tooltip_text_wh2_main_unit_passive_the_warpflame_explosion	When the warpstone runs dry, the fire dies down... but these hairless wretches will feel the *real* explosion, yes-yes!	true
+unit_abilities_onscreen_name_ghs_ability_ghs_ogr_gbnoblar_food	Smoky Meat Broth	true
+unit_abilities_tooltip_text_ghs_ability_ghs_ogr_gbnoblar_food	Ugh… however they made this stuff, the Gnoblars really do perk up after drinking it!	true
+unit_abilities_onscreen_name_ghs_ability_ghs_ogr_gbnoblar_iron	Stabby Spikes	true
+unit_abilities_tooltip_text_ghs_ability_ghs_ogr_gbnoblar_iron	Hey boss, be careful when pickin’ up these little bits—last time I got myself poked!	false
+unit_abilities_onscreen_name_ghs_ability_ghs_ogr_ice_mammoth_breath	Feast of Fresh Meat	true
+unit_abilities_tooltip_text_ghs_ability_ghs_ogr_ice_mammoth_breath	The Butcher tosses chilled fresh meat into a boiling cauldron. As the rich broth goes down their gullets, nearby Ogres gain extraordinary regeneration.	true
+unit_abilities_onscreen_name_ghs_ability_ghs_ogr_lioneater_ammo	Iron-Break	true
+unit_abilities_tooltip_text_ghs_ability_ghs_ogr_lioneater_ammo	If we’re out of proper iron lumps, then just snap the scrap metal off your armor and shove it into the barrel!	true
+unit_abilities_tooltip_text_ghs_ability_cth_summon_soul_flood_dragon	Depart to the Dragon River with the guiding souls; the banners stir as tens of thousands cross to the Far Shore.	true
+unit_abilities_onscreen_name_ghs_tmb_flying_necrosphinx1	Wings of the Reaper	false
+unit_abilities_tooltip_text_ghs_tmb_flying_necrosphinx1	Unfurl colossal wings woven from tormented souls, spreading the Reaper’s benediction from the sky!	false
+unit_abilities_onscreen_name_ghs_tmb_sandstalker_storm	Sandstorm	false
+unit_abilities_tooltip_text_ghs_tmb_sandstalker_storm	The domain of Goddess Asaph shall not be defied—the sandstorm is her punishment for those who trespass!	false
+unit_abilities_onscreen_name_ghs_cth_xuanwu	Xuanwu’s Aegis	false

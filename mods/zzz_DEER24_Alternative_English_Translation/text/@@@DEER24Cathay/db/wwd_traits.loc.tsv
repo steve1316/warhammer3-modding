@@ -34,8 +34,6 @@ character_trait_levels_onscreen_name_defeated_trait_qinqiong	Fate Sealed.	false
 character_trait_levels_explanation_text_defeated_trait_qinqiong	Your fate is not decided by the heavens... but by me.	false
 character_trait_levels_colour_text_wwd_trait_kehan	The kings of the northern deserts bow at His feet, for the destruction of Cathay is His destined path.	false
 character_trait_levels_onscreen_name_wwd_trait_kehan	"Scourge of the Gods"	false
-character_trait_levels_colour_text_wwd_trait_feijiangjun	Huo Su participated in quelling the Six Counties Rebellion during the civil war, serving as governor of the three gates of the Great Bastion. Later, Yuan Bo appointed him "Flying Cavalry General". Renowned for his archery and horsemanship, he frequently led northern expeditions with Yi Qing, earning the fear of the Zhag tribes.	false
-character_trait_levels_onscreen_name_wwd_trait_feijiangjun	"Flying Cavalry General"	false
 character_trait_levels_colour_text_wwd_trait_yiyongjun	This commander is one of the leaders of the Hedong Volunteer Army, who rose up alongside the peasant army and continues to fight to this day.	false
 character_trait_levels_onscreen_name_wwd_trait_yiyongjun	Volunteer Army Leader	false
 character_trait_levels_colour_text_wwd_trait_bianjun	To the people of Cathay, the lands north of the Great Bastion represent chaos and death. But for the frontier army stationed beyond, the endless wars have forged chaos and death into a way of life.	false
@@ -44,8 +42,6 @@ character_trait_levels_colour_text_wwd_trait_tianzhou	Vast fleets of Celestial S
 character_trait_levels_onscreen_name_wwd_trait_tianzhou	Celestial Ship Commander	false
 character_trait_levels_colour_text_wwd_trait_dafo	When you see the Lord of the Heavenly Palace, why do you not bow?	false
 character_trait_levels_onscreen_name_wwd_trait_dafo	"Great Buddha of the Setting Sun"	false
-character_trait_levels_colour_text_wwd_trait_longma	Taming a Longma is a rare honor, but to use it for personal gain indebts one to the Dragon Emperor.	false
-character_trait_levels_onscreen_name_wwd_trait_longma	Longma Whisperer	false
 character_trait_levels_colour_text_wwd_trait_feijiang	Feng Yaochu served under Zhao Ming the Iron Dragon as a cavalry commander. Renowned for his unmatched bravery, he was later promoted to General of the Middle Army and titled Marquis of Taizi, earning the moniker "Flying General".	false
 character_trait_levels_onscreen_name_wwd_trait_feijiang	Flying General	false
 character_trait_levels_colour_text_wwd_trait_ershibajiangxing	"During the Southern Peace, the rulers of the mountains hosted a grand feast for the army. Twenty-eight star generals were named, their resolve towering like mountains, their followers as countless as the stars. These generals achieved unparalleled feats, becoming the backbone of the empire, whether at court or on the battlefield."	false
@@ -98,3 +94,16 @@ character_trait_levels_explanation_text_wwd_trait_yuanbo_dip	Acquired by: Pursui
 character_trait_levels_onscreen_name_wwd_trait_yuanbo_tianting_war	[[col:yellow]]The Burning of Weijing[[/col]]	false
 character_trait_levels_colour_text_wwd_trait_yuanbo_tianting_war	What seems a trifle may break the tune; a string retuned may not resound.	false
 character_trait_levels_explanation_text_wwd_trait_yuanbo_tianting_war	Acquired by: Declaring war on the Celestial Court and seizing Weijing in Yuan Bo’s storyline	false
+character_trait_levels_explanation_text_wwd_trait_fangwenzi_I	Acquisition: Opened a new path for fate	false
+character_trait_levels_explanation_text_wwd_trait_fangwenzi_II	Acquisition: Witness the miracles created by Fang Wenzi and follow the path he forged	false
+character_trait_levels_colour_text_defeated_trait_liguang	So many youthful exploits across the vast desert, heroic and vigorous, yet hard to recall; only regret that old age comes before ambitions are fulfilled, life flows too swiftly	false
+character_trait_levels_onscreen_name_defeated_trait_liguang	Lost Old Steed	false
+character_trait_levels_explanation_text_defeated_trait_liguang	Acquisition: Defeat Li Su	false
+character_trait_levels_colour_text_defeated_trait_longnv	The sound of wings? The wind is too loud, I heard nothing	false
+character_trait_levels_onscreen_name_defeated_trait_longnv	Wind Listener	false
+character_trait_levels_explanation_text_defeated_trait_longnv	Acquisition: Defeat Yun Lan	false
+character_trait_levels_onscreen_name_wwd_chd_buff_trait	Despiser of Others	false
+character_trait_levels_onscreen_name_wwd_trait_mizong	Master of Mizong	false
+character_trait_levels_colour_text_wwd_trait_mizong	The most powerful alchemist, true ruler of the dark side of Shangyang	false
+character_trait_levels_onscreen_name_wwd_trait_anyang	Dark Crow	false
+character_trait_levels_colour_text_wwd_trait_anyang	Leader of Shangyang Hongwu Supervision, seventh seat of the Imperial Secretariat, the supreme expert who ultimately beheaded the leader of the Crow Feather Army	false

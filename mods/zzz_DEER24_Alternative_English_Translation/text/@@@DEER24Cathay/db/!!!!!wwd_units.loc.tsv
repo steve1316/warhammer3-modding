@@ -632,3 +632,26 @@ ui_unit_bullet_point_enums_onscreen_name_deer_CEXIANKAIHUO	Broadsides	false
 ui_unit_bullet_point_enums_tooltip_deer_CEXIANKAIHUO	This unit’s broadsides are equipped with various cannons capable of devastating flanking enemies	false
 land_units_onscreen_name_wwd_jinjun_longdijinjun_campaign	Dragon Emperor’s Guard—Last Stand	false
 unit_description_short_texts_text_wwd_jinjun_longdijinjun_campaign	This is the true might of the Guard...	true
+effects_description_wwd_qishe_hawkish_precision	Passive Skill: Mounted Archers gain "Hawkeye Precision"	true
+effects_description_wwd_qishe_damage	Ranged Armor-Piercing Damage: Mounted Archers %+n%	true
+effects_description_wwd_qishe_ammo	Ammunition: Mounted Archers %+n%	true
+effects_description_wwd_qishe_reload	Reload Time Reduction: Mounted Archers %+n%	true
+land_units_onscreen_name_wh3_deer24_fubing_guard	Nanyang Elite Guard	false
+unit_abilities_onscreen_name_wh3_deer24_abilities_fubing_rebel	Defy Heaven	true
+unit_abilities_tooltip_text_wh3_deer24_abilities_fubing_rebel	"When the eighth day of the ninth month arrives, after my flowers bloom, all others shall perish..."	true
+unit_description_short_texts_text_wh3_deer24_short_fubing_guard	[[img:icon_yang]][[col:white]]Unlock: Start the game with the Nanyang Rebel faction or recruit the King of Nanyang[[/col]]\\n\\nThe most elite bodyguards under Han Cheng, comrades who have fought alongside him for over a decade, trusted brothers-in-arms, blades raised together against the Celestial Mandate	false
+effects_description_wwd_longma_level	Newly Recruited Unit Level: Dragon Cavalry %+n	true
+effects_description_wwd_longma_piercing_mult	Weapon Armor-Piercing Damage: Dragon Cavalry %+n%	true
+effects_description_wwd_longma_piercing_add	Weapon Armor-Piercing Damage: Dragon Cavalry %+n	true
+effects_description_wwd_longma_recruit_time	Local Recruitment Duration: Dragon Cavalry %+n turns (minimum 1 turn)	true
+effects_description_wwd_longma_barrier_health_add	Magical Shield Health: Dragon Cavalry %+n	true
+effects_description_wwd_longma_devastating_flanker	Unlock Attribute: Unlock "Deadly Flanker" for Dragon Cavalry	true
+effects_description_wwd_longma_vanguard_deployment	Unlock Attribute: Unlock "Vanguard Deployment" for Dragon Cavalry	true
+effects_description_wwd_longma_glorious_charge	Unlock Attribute: Unlock "Glorious Charge" for Dragon Cavalry	true
+effects_description_deer_hailong_attack	Melee Attack: Wash Sea Court %+n	true
+effects_description_deer_hailong_defence	Melee Defense: Wash Sea Court %+n	true
+effects_description_deer_hailong_cap	Unit Capacity: %+n\\nWash Sea Court	true
+effects_description_deer_bianjun_level	Newly Recruited Unit Level: Border Army %+n	true
+effects_description_deer_bianjun_attack	Melee Attack: Border Army %+n%	true
+effects_description_deer_bianjun_defence	Melee Defense: Border Army %+n%	true
+special_ability_phases_onscreen_name_wh3_deer24_abilities_POZHEN	Break Formation	false

@@ -127,7 +127,6 @@ character_skills_localised_name_wh3_main_skill_node_cth_guanshanARMY_self_0	Cran
 character_skills_localised_description_wh3_main_skill_node_cth_guanshanARMY_self_1	When her blade gleams, fear overtakes all who see it, for they know what comes next.	true
 character_skills_localised_name_wh3_main_skill_node_cth_guanshanARMY_self_1	Bone Shatterer	true
 names_name_624400003	"Scourge of the North" Yi Qing	true
-names_name_624400004	"Scourge of the North" Yi Qing	true
 effects_description_wh3_main_effect_ability_enable_shizihuaji	Unlock Skill: "Steps That Shake the Sky"	true
 unit_abilities_onscreen_name_wh3_main_effect_ability_enable_shizihuaji	Steps That Shake the Sky	true
 unit_abilities_tooltip_text_wh3_main_effect_ability_enable_shizihuaji	Though countless enemies stand before him, Yi Qing advances unshaken.	true
@@ -211,7 +210,6 @@ effects_description_yuenv_banner	This battle standard can only be used by peasan
 land_units_onscreen_name_wh3_deer24_lvqiling1	"New Warlord" Xin Qi	true
 land_units_onscreen_name_wh3_deer24_lvqiling	"New Warlord" Xin Qi	true
 names_name_624400012	"New Warlord" Xin Qi	true
-names_name_624400011	"New Warlord" Xin Qi	true
 character_skills_localised_name_wh3_main_skill_innate_lvqiling	Descendant of the New Warlord	true
 character_skills_localised_description_wh3_main_skill_innate_lvqiling	Xin Qi is the descendant of the legendary Cathayan figure Xin Wu, whose martial prowess she has not only inherited but surpassed.	true
 character_skills_localised_name_wh3_main_skill_innate_lvqiling_innate_1	Spirit of the Warlord	true
@@ -1684,3 +1682,144 @@ unit_abilities_onscreen_name_deer_taishi_qihe	Breath United Without Bounds	true
 ancillaries_onscreen_name_deer_cth_taishi_mount2	Qing Qilin	false
 character_skills_localised_description_deer_cth_taishi_mount2	A mythical beast of the Tianshan—azure as condensed cloudlight, luminous with inner essence. Eyes like moonlit pools, its gaze dims mountains and rivers.\\n\\nIts mane rides the wind, its breath coils in mist. When it roars, fog and frost form jeweled shapes; when it shakes, rainbows shatter from its mane.\\n\\nIt is the essence of heaven and earth, a sign of divine blessing across the myriad realms.	false
 effects_description_wh3_main_skill_node_cth_yushihujun_additional_1	Ability: "Jade Essence Shared"	true
+effects_description_deer_liguang_shejian	Skill: "Flying General"	true
+unit_abilities_onscreen_name_deer_liguang_shejian	Flying General	true
+unit_abilities_tooltip_text_deer_liguang_shejian	Li Su excels at mounted archery; even against thousands, his foes fall before him	true
+unit_abilities_onscreen_name_wwd_liguang_zhi	Linked Arrows	true
+unit_abilities_tooltip_text_wwd_liguang_zhi	When the arrow rain falls, you better pray your armor is strong enough	true
+effects_description_wwd_liguang_zhi	Skill: "Linked Arrows"	true
+unit_abilities_onscreen_name_wwd_liguang_qun	Nine Heavens	true
+unit_abilities_tooltip_text_wwd_liguang_qun	Where do you think you can hide?	true
+effects_description_wwd_liguang_qun	Skill: "Nine Heavens"	true
+unit_abilities_onscreen_name_wwd_liguang_dan	Sunset	true
+unit_abilities_tooltip_text_wwd_liguang_dan	This life-or-death arrow leaves you nowhere to run	true
+effects_description_wwd_liguang_dan	Skill: "Sunset"	true
+effects_description_deer_liguang_use_mod_qun	Uses: "Nine Heavens" %+n	true
+effects_description_deer_liguang_use_mod_zhi	Uses: "Linked Arrows" %+n	true
+effects_description_deer_liguang_cooldown_qun	Cooldown Rate: "Nine Heavens" %+n%	true
+effects_description_deer_liguang_cooldown_zhi	Cooldown Rate: "Linked Arrows" %+n%	true
+agent_subtypes_onscreen_name_override_liguang	Legendary Lord	true
+agent_subtypes_description_text_override_liguang	Li Su has served in the army for over forty years, participating in the pacification of the Six Prefectures, serving as Magistrate of the Three Passes of Changyuan, hailed as the Greatest Archer of North Wei. Though over fifty, he remains fully capable, often campaigning north alongside Yi Qing, feared by the Zag tribes	true
+ancillaries_colour_text_deer_cth_liguang_weapon	Li Su's prized bow, hailed as the Greatest Archer of North Wei; legend says he once slew the marauding Da Kui in his youth. Though over fifty, his mounted archery prowess still inspires awe	true
+unit_description_short_texts_text_deer_cth_liguang	Li Su has served in the army for over forty years, participated in pacifying the Six Prefectures, served as Magistrate of the Three Passes of Changyuan, hailed as the Greatest Archer of North Wei. Though over fifty, he remains capable, campaigning north alongside Yi Qing, feared by the Zag tribes	true
+land_units_onscreen_name_deer_cth_liguang3	"Flying General" Li Su	true
+land_units_onscreen_name_deer_cth_liguang2	"Flying General" Li Su	true
+land_units_onscreen_name_deer_cth_liguang	"Flying General" Li Su	true
+names_name_624400066	"Flying General" Li Su	true
+character_skills_localised_name_liguang_skill_texing	Flying General	false
+character_skills_localised_description_liguang_skill_texing	Li Su has served in the army for over forty years, participated in pacifying the Six Prefectures, served as Magistrate of the Three Passes of Changyuan, hailed as the Greatest Archer of North Wei. Though over fifty, he remains capable, campaigning north alongside Yi Qing, feared by the Zag tribes	false
+ancillaries_colour_text_deer_cth_liguang_mount	The general's warhorse is his most trusted and courageous companion; just don't name it "Little Daisy"	false
+character_skills_localised_description_deer_cth_liguang_mount	The general's warhorse is his most trusted and courageous companion; just don't name it "Little Daisy"	false
+ancillaries_onscreen_name_deer_cth_liguang_mount2	Talu	false
+character_skills_localised_name_deer_cth_liguang_mount2	Talu	false
+ancillaries_colour_text_deer_cth_liguang_mount2	Li Su's steed, his most trusted and courageous companion	false
+character_skills_localised_description_deer_cth_liguang_mount2	Li Su's steed, his most trusted and courageous companion	false
+effects_description_deer_cth_liguang_mount2	Mount: Talu	false
+units_custom_battle_mounts_mount_name_deer_cth_liguangdeer_cth_liguang2	Warhorse	false
+ancillaries_onscreen_name_deer_cth_liguang_mount	Warhorse	false
+character_skills_localised_name_deer_cth_liguang_mount	Warhorse	false
+units_custom_battle_mounts_mount_name_deer_cth_liguangdeer_cth_liguang3	Talu	false
+ancillaries_onscreen_name_deer_cth_liguang_weapon	Yaoyang	false
+character_skills_localised_name_deer_cth_liguang_weapon	Yaoyang	false
+character_skills_localised_description_deer_cth_liguang_weapon	Li Su's prized bow, hailed as the Greatest Archer of North Wei; legend says he once slew the marauding Da Kui in his youth. Though over fifty, his mounted archery prowess still inspires awe	false
+character_skills_localised_name_cth_liguang_skill_1_0	North Wei Sharpshooter	false
+character_skills_localised_description_cth_liguang_skill_1_0	Though now over fifty, Li Su's title as Greatest Archer of North Wei is unshakable. Rarely defeated, he was thrice bested by the "Divine Pet" army in the north, and has sworn to personally take the head of Kundulun Khan	false
+ancillaries_colour_text_deer_cth_liguang_talisman	Hailed as a relic from the depths of the Soul River, it generates endless arrows as long as enemies are slain where the winds of spiritual energy blow strong	true
+ancillaries_onscreen_name_deer_cth_liguang_talisman	Soul Quiver	false
+character_skills_localised_name_deer_cth_liguang_talisman	Soul Quiver	false
+character_skills_localised_description_deer_cth_liguang_talisman	Hailed as a relic from the depths of the Soul River, it generates endless arrows as long as enemies are slain where the winds of spiritual energy blow strong	false
+character_skills_localised_name_cth_liguang_skill_1_2	Divine Arm	false
+character_skills_localised_description_cth_liguang_skill_1_2	Li Su's soldiers tell tales of his legendary strength; it is said he could snap a tribal champion in half with his bare hands. Though no one has witnessed this, those who have seen him shoot are convinced	false
+agent_subtypes_onscreen_name_override_longnv	Legendary Lord	true
+agent_subtypes_description_text_override_longnv	Trusted Dragonborn of Miao Ying, commander of the Dragon Cavalry in the North Wei provinces	true
+ancillaries_colour_text_deer_cth_longnv_weapon	Yun Lan's weapon; despite its massive blade, it moves with the grace of a startled swan and the speed of thunder, leaving a trail of blood, yet its polished steel remains unmarked	true
+unit_description_short_texts_text_deer_cth_longnv	Trusted Dragonborn of Miao Ying, commander of the Dragon Cavalry in the North Wei provinces	true
+land_units_onscreen_name_deer_cth_longnv3	"Chenfeng" Yun Lan	true
+land_units_onscreen_name_deer_cth_longnv2	"Chenfeng" Yun Lan	true
+land_units_onscreen_name_deer_cth_longnv	"Chenfeng" Yun Lan	true
+names_name_624400067	"Chenfeng" Yun Lan	true
+character_skills_localised_name_longnv_skill_texing	Wings of Chenfeng	false
+character_skills_localised_description_longnv_skill_texing	Trusted Dragonborn of Miao Ying, commander of the Dragon Cavalry in the North Wei provinces	false
+ancillaries_colour_text_deer_cth_longnv_mount	Jade Dragon Steed	false
+character_skills_localised_description_deer_cth_longnv_mount	Jade Dragon Steed	false
+ancillaries_onscreen_name_deer_cth_longnv_mount2	Xuntian	false
+character_skills_localised_name_deer_cth_longnv_mount2	Xuntian	false
+ancillaries_colour_text_deer_cth_longnv_mount2	The Ink Kirin, a heavenly omen; its color like ink, form like a mountain, revered by all who behold it	false
+character_skills_localised_description_deer_cth_longnv_mount2	The Ink Kirin, a heavenly omen; its color like ink, form like a mountain, revered by all who behold it	false
+effects_description_deer_cth_longnv_mount2	Mount: Xuntian	false
+units_custom_battle_mounts_mount_name_deer_cth_longnvdeer_cth_longnv2	Jade Dragon Steed	false
+ancillaries_onscreen_name_deer_cth_longnv_mount	Jade Dragon Steed	false
+character_skills_localised_name_deer_cth_longnv_mount	Jade Dragon Steed	false
+units_custom_battle_mounts_mount_name_deer_cth_longnvdeer_cth_longnv3	Xuntian	false
+ancillaries_onscreen_name_deer_cth_longnv_weapon	Kuai Yu	false
+character_skills_localised_name_deer_cth_longnv_weapon	Kuai Yu	false
+character_skills_localised_description_deer_cth_longnv_weapon	Yun Lan's weapon; unlike its massive blade, this guandao moves with the grace of a startled swan, the speed of lightning, leaving a trail of blood, yet its polished steel remains unmarked	false
+character_skills_localised_name_cth_longnv_skill_1_0	Dragon Cavalry Strikes the Sky	false
+character_skills_localised_description_cth_longnv_skill_1_0	Yun Lan is one of Miao Ying's most valued Dragonborn, commanding the vast Dragon Cavalry of the North Wei provinces, serving as the prelude to the Storm Dragon Tempest	false
+character_skills_localised_name_cth_longnv_skill_1_1	Storm Vanguard	false
+character_skills_localised_description_cth_longnv_skill_1_1	The sound of massive wings cutting through the air shatters the last calm before the storm	false
+character_skills_localised_name_cth_longnv_skill_1_2	Bloodline of the Heavens	false
+character_skills_localised_description_cth_longnv_skill_1_2	Our perfection, in perfect harmony	false
+character_skills_localised_name_cth_longnv_skill_1_3	Sky Whisperer	false
+character_skills_localised_description_cth_longnv_skill_1_3	Taming a Dragon Steed? You've come to the right person	false
+character_skills_localised_name_cth_longnv_skill_1_4	Zong Ji's Pride	false
+character_skills_localised_description_cth_longnv_skill_1_4	Miao Ying is notoriously picky; if you wish to earn her favor, you must at least match half of Yun Lan's skill	false
+effects_description_wwd_disable_greater_gate_of_tzeentch	Disable Spell: "Treachery of Tzeentch"	false
+effects_description_wwd_disable_gate_of_tzeentch	Disable Ability: "Gate of Tzeentch"	false
+effects_description_wwd_disable_tzeentch_treason_of_tzeentch	Disable Ability: "Greater Gate of Tzeentch"	false
+character_skills_localised_name_wh3_main_skill_node_cth_longnv_additional_1	Heavenly Cavalry	true
+character_skills_localised_description_wh3_main_skill_node_cth_longnv_additional_1	The Dragon Cavalry of the Heavenly Army are all Dragonborn; their presence alone in the skies can secure victory for the Zhendan army	true
+character_skills_localised_name_wh3_main_skill_node_cth_longnv_additional_2	Unbridled	true
+character_skills_localised_description_wh3_main_skill_node_cth_longnv_additional_2	Once you see Xuntian charging at full speed, there's no point in trying to escape	true
+unit_abilities_onscreen_name_wwd_longnv_chong	Unbridled	true
+unit_abilities_tooltip_text_wwd_longnv_chong	Once you see Xuntian charging at full speed, there's no point in trying to escape	true
+effects_description_wwd_longnv_chong	Skill: "Unbridled"	true
+effects_description_wwd_qijiguang_bingfa	Skill: "Tao Ling Pacifies the Sea"	true
+unit_abilities_onscreen_name_wwd_qijiguang_bingfa	Tao Ling Pacifies the Sea	true
+unit_abilities_tooltip_text_wwd_qijiguang_bingfa	The coordination of ranged and melee troops in Hedong reaches its peak under Qi Yan; his mixed-weapon squads strike the battlefield like unstoppable tides	true
+agent_subtypes_onscreen_name_override_qijiguang	Legendary Lord	true
+agent_subtypes_description_text_override_qijiguang	Qi Yan administered thirty-six ports in Hedong, one of the three Dragon Fleet Admirals, founder of the Washed Sea Court, a steadfast wall in the raging eastern seas	true
+unit_description_short_texts_text_deer_cth_qijiguang	Qi Yan administered thirty-six ports in Hedong, one of the three Dragon Fleet Admirals, founder of the Washed Sea Court, a steadfast wall in the raging eastern seas	true
+land_units_onscreen_name_deer_cth_qijiguang3	"Grand Admiral of Calm Waves" Qi Yan	true
+land_units_onscreen_name_deer_cth_qijiguang2	"Grand Admiral of Calm Waves" Qi Yan	true
+land_units_onscreen_name_deer_cth_qijiguang	"Grand Admiral of Calm Waves" Qi Yan	true
+names_name_624400068	"Grand Admiral of Calm Waves" Qi Yan	true
+character_skills_localised_name_qijiguang_skill_texing	Grand Admiral	false
+character_skills_localised_description_qijiguang_skill_texing	Qi Yan administered thirty-six ports in Hedong, one of the three Dragon Fleet Admirals, founder of the Washed Sea Court, a steadfast wall in the raging eastern seas	false
+ancillaries_colour_text_deer_cth_qijiguang_mount	The general's warhorse is his most trusted and courageous companion; just don't name it "Little Daisy"	false
+character_skills_localised_description_deer_cth_qijiguang_mount	The general's warhorse is his most trusted and courageous companion; just don't name it "Little Daisy"	false
+ancillaries_onscreen_name_deer_cth_qijiguang_mount2	Jade Dragon Steed	false
+character_skills_localised_name_deer_cth_qijiguang_mount2	Jade Dragon Steed	false
+ancillaries_colour_text_deer_cth_qijiguang_mount2	The Jade Dragon Steed is rare and majestic, only for riders of true merit	false
+character_skills_localised_description_deer_cth_qijiguang_mount2	The Jade Dragon Steed is rare and majestic, only for riders of true merit	false
+effects_description_deer_cth_qijiguang_mount2	Mount: Jade Dragon Steed	false
+units_custom_battle_mounts_mount_name_deer_cth_qijiguangdeer_cth_qijiguang2	Warhorse	false
+ancillaries_onscreen_name_deer_cth_qijiguang_mount	Warhorse	false
+character_skills_localised_name_deer_cth_qijiguang_mount	Warhorse	false
+units_custom_battle_mounts_mount_name_deer_cth_qijiguangdeer_cth_qijiguang3	Jade Dragon Steed	false
+character_skills_localised_name_cth_qijiguang_skill_1_0	Tao Ling Pacifies the Sea	false
+character_skills_localised_description_cth_qijiguang_skill_1_0	Qi Yan is the top contributor to defending the eastern seas under the Dragon Lord, a steadfast wall amid the raging waters	false
+character_skills_localised_name_cth_qijiguang_skill_1_1	Dragon Might Over Tides	false
+character_skills_localised_description_cth_qijiguang_skill_1_1	Qi Yan is one of the four commanders of the Dragon Fleet, a pioneer carrying Zhendan's might into the far seas in the name of the Abyss Dragon	false
+character_skills_localised_name_cth_qijiguang_skill_1_2	Naval Regulations	false
+character_skills_localised_description_cth_qijiguang_skill_1_2	The coordination of ranged and melee troops in Hedong reaches its peak under Qi Yan; his mixed-weapon squads strike the battlefield like unstoppable tides	false
+character_skills_localised_name_cth_qijiguang_skill_1_3	Discipline the Troops	false
+character_skills_localised_description_cth_qijiguang_skill_1_3	Hedong's army once fractured under pirate assaults; Qi Yan, under the Abyss Dragon's guidance, established the Washed Sea Court, a young, agile elite force mastering deadly coordination of ranged and melee combat	false
+effects_description_wwd_qijiguang_yuanyangzheng_melee	Unlock for melee troops: "Mandarin Duck Formation – Front"	true
+effects_description_wwd_qijiguang_yuanyangzheng_missile	Unlock for ranged troops: "Mandarin Duck Formation – Rear"	true
+unit_abilities_onscreen_name_wwd_qijiguang_yuanyangzheng_melee	Mandarin Duck Formation – Front	true
+unit_abilities_tooltip_text_wwd_qijiguang_yuanyangzheng_melee	The rattan shields spread like twin wings, the wolf halberds strike like a hundred-legged legion	true
+unit_abilities_onscreen_name_wwd_qijiguang_yuanyangzheng_missile	Mandarin Duck Formation – Rear	true
+unit_abilities_tooltip_text_wwd_qijiguang_yuanyangzheng_missile	Rain of long spears chills the enemy, short blades cleave the skies	true
+character_skills_localised_name_cth_qijiguang_combat_inspiration_3_0	Mandarin Duck Formation	false
+character_skills_localised_description_cth_qijiguang_combat_inspiration_3_0	The eastern seas rage, Commander Qi arranges the front lines\\n\\nTwelve warriors move as one, a thousand pirates struck with dread\\n\\nWolf halberds block, long spears pierce light armor\\n\\nShort blades fill gaps, the whale waves shall never rise again	false
+ancillaries_onscreen_name_deer_cth_qijiguang_talisman	"New Book of Pacifying the Sea"	false
+character_skills_localised_name_deer_cth_qijiguang_talisman	"New Book of Pacifying the Sea"	false
+character_skills_localised_description_deer_cth_qijiguang_talisman	Qi Yan authored this military manual during reforms of the Hedong army, covering training, troop selection, formation drills, discipline, and amphibious tactics; it records tactics like the famed "Mandarin Duck Formation"	false
+ancillaries_colour_text_deer_cth_qijiguang_talisman	Qi Yan authored this military manual during reforms of the Hedong army, covering training, troop selection, formation drills, discipline, and amphibious tactics; it records tactics like the famed "Mandarin Duck Formation"	true
+ancillaries_onscreen_name_wwd_ll_miaoyin_story_bastion_revival_reward_banner	Guardian Banner	true
+ancillaries_colour_text_wwd_ll_miaoyin_story_bastion_revival_reward_banner	The border army's banner, symbolizing the indestructible strength of the Celestial Empire	true
+effect_bundles_localised_description_wwd_ll_miaoyin_story_bastion_revival_reward_banner	The border army's banner, symbolizing the indestructible strength of the Celestial Empire	false
+effect_bundles_localised_title_wwd_ll_miaoyin_story_bastion_revival_reward_banner	Guardian Banner	false
+ancillaries_onscreen_name_wwd_ll_miaoyin_story_bastion_revival_reward_follower	Border Squad Leader	true
+ancillaries_colour_text_wwd_ll_miaoyin_story_bastion_revival_reward_follower	"Take that gap! Push forward!"	true

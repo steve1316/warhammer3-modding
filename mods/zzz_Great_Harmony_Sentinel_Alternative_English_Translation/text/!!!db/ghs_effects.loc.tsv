@@ -182,7 +182,6 @@ effects_description_guild_support	Peasant Laborers, Jade Warriors, and Celestial
 effects_description_guild_support_speed	Celestial Dragon Guard movement speed: +%n%	true
 effects_description_weapon_strength_vs_chaos	Weapon strength when fighting Beastmen, Daemons of Chaos, Norsca, and Chaos Warriors: +%n%	true
 effects_description_zhaowang_thunder_skill	Unlocks skill: "Thunderous Dragon Annihilation"	true
-effects_description_dwf_missile_mecha	Repairs: Grudgebreaker Mech (Multi-Barrel Rune Cannon)	true
 effects_description_ghs_ksl_thor_weapon	Unlocks skill: "Thor's Thunderstorm"	true
 effects_description_ghs_ksl_thor_arcane_item	Unlocks skill: "Storm Aura"	true
 effects_description_wh3_main_effect_thor_stat_upkeep_tsar_guard	Upkeep cost for Armored Kossars and Tsar Guard: %n%	true
@@ -193,3 +192,23 @@ effects_description_wh3_main_effect_thor_stat_melee_ap_tsar_guard	Armor-piercing
 effects_description_wh3_main_effect_thor_tsar_guard_xp_bonus	Armor-piercing melee damage for Tsar Guard: +%n	true
 effects_description_wh_dlc08_effect_enable_mount_kho_mammoth	Mount: War Mammoth (Khorne Warshrine)	true
 effects_description_ghs_ksl_unit_cap	Unit capacity: Gilded Warbear Knights and Frosthorn Riders +%n	false
+effects_description_ghs_cth_dragon_guard_melee_weapon	Enables contact effect: "Dragon’s Roar"	false
+effects_description_ghs_dwf_missile_mecha	Repair: Grudge-Settler Mech (Multi-Rune Gun)	true
+effects_description_unit_cap_ghs_main_tmb_cav_ostrich_rider	Unit capacity: Bone Ostrich Riders +%n	false
+effects_description_unit_cap_ghs_main_tmb_cav_heavy_ostrich_rider	Unit capacity: Bone Ostrich Guard +%n	false
+effects_description_unit_cap_ghs_main_tmb_mon_sandstalker	Unit capacity: Sandstalkers +%n	false
+effects_description_unit_cap_ghs_main_tmb_cav_scarab_flying_01	Unit capacity: Scarab Hunting Swarm +%n	false
+effects_description_unit_cap_ghs_main_tmb_cav_scarab_flying_02	Unit capacity: Golden Scarab Riders +%n	false
+effects_description_unit_cap_ghs_main_tmb_mon_necrosphinx_usirian	Unit capacity: Usirian’s Whisper +%n	false
+effects_description_unit_cap_ghs_main_tmb_mon_bone_elephant	Unit capacity: Bone War Elephants +%n	false
+effects_description_unit_cap_ghs_main_tmb_mon_ushabti_dual_weapon	Unit capacity: Jackal Ushabti +%n	false
+effects_description_unit_cap_ghs_main_tmb_mon_ushabti_eagle_cannon	Unit capacity: Sky-Eagle Ushabti +%n	false
+effects_description_unit_cap_ghs_main_tmb_mon_ushabti_great_weapon	Unit capacity: Leviathan Ushabti +%n	false
+effects_description_unit_cap_ghs_main_tmb_mon_scorpion_monster	Unit capacity: Nagash Scorpion Titan +%n	false
+effects_description_lzd_kroxigor_bro_01_weapon	Skill: "Fist of Quiji"	false
+effects_description_lzd_kroxigor_bro_02_weapon	Skill: "Edge of Iqi"	false
+effects_description_lzd_kroxigor_bro_02_armour	Skill: "Golden Panoply"	false
+effects_description_ghs_main_wm_def_veh_black_ark_cap	Unit capacity: Black Ark +%n	false
+effects_description_ghs_effect_loongboat_upgrade_ammotype_grapeshot	Upgrade Dragon Cloud-Ship Cannon Ammunition	false
+effects_description_ghs_effect_loongboat_upgrade_ammotype_flaming	Upgrade Dragon Cloud-Ship Flaming Cannon Ammunition	false
+effects_description_ghs_effect_loongboat_upgrade_ammotype_sharpenel	Upgrade Dragon Cloud-Ship Rocket Ammunition	false

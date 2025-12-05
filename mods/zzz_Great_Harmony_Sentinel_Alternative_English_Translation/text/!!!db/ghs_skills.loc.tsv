@@ -120,8 +120,6 @@ character_skills_localised_name_cth_zhaowang_unique_3	Chaos’s End	true
 character_skills_localised_name_cth_zhaowang_unique_4	Might of the Flood Dragon	true
 character_skills_localised_name_cth_zhaowang_unique_5	Ode of the Bronze Dragon	true
 character_skills_localised_name_cth_zhaowang_weapon	War-Drum Golden Hammer	true
-character_skills_localised_description_dwf_missile_mecha	The prototype of these machines dates back to the Gold Age’s great mining rush. Buried beneath rubble after countless engineers and miners were lost to the green tide, they were only recently unearthed. Now, restored and mass-produced, the survivors of that long-ago tragedy ride them into battle to finally settle the score with the Greenskins and Skaven filth.	true
-character_skills_localised_name_dwf_missile_mecha	Hatred Reckoner Mech (Multi-Barreled Rune Gun)	true
 character_skills_localised_description_ghs_ksl_thor_arcane_item	"When Hafdan won the Dwarfen drinking contest, he met Grelid. As they escaped from a Dark Elf Black Ark, a storm swept Grelid away—leaving only his heirloom rune helm behind."	true
 character_skills_localised_description_ghs_ksl_thor_armour	"This armor, forged by a renowned Dwarf master, is etched with lost runes of thunder. It channels Hafdan’s inner lightning and repels surrounding Chaos energies."	true
 character_skills_localised_description_ghs_ksl_thor_enchanted_item	"After defeating the Bonegrinder chieftain in single combat, Hafdan seized a golden rune from the giants’ treasure hoard. With it comes an irresistible charisma that draws warriors to his cause."	true
@@ -186,3 +184,7 @@ character_skills_localised_description_kho_war_mammoth_warshrine_hero	A towering
 character_skills_localised_description_kho_war_mammoth_warshrine_lord	A towering beast of bone and flame, bearing Khorne’s warshrine upon its back, trudging through blood and mud while leaving behind scorched limbs and charred remains.	true
 character_skills_localised_name_kho_war_mammoth_warshrine_hero	War Mammoth (Khorne Warshrine)	true
 character_skills_localised_name_kho_war_mammoth_warshrine_lord	War Mammoth (Khorne Warshrine)	true
+character_skills_localised_description_ghs_cth_ll_shugengan_demidragon	When the dragon soars across the heavens, its majesty terrifies all; when the dragon battles upon the wilds, its blood stains the earth in black and gold.	false
+character_skills_localised_description_ghs_dwf_missile_mecha	The prototypes of these engines date back to the prospecting boom of the Golden Age. When waves of Engineers and Miners were swallowed by the green tide, the machines were buried beneath rubble—until recent excavations brought them back into the light. Now, the survivors of that calamity mount these refurbished, mass-produced engines to settle old scores with the Greenskins and the verminous rat-kind.	true
+character_skills_localised_name_ghs_dwf_missile_mecha	Hate-Reckoner Mecha (Multi-Rune Gun)	true
+character_skills_localised_name_ghs_cth_anc_magistrate_mount_boat	Dragon-Emperor Cloud Barge	false
