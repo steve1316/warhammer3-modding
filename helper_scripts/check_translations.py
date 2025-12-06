@@ -136,9 +136,22 @@ def compare_translation_entries(table_name: str, df_original: pd.DataFrame, df_t
     # Always check for missing keys in translation (original has more entries).
     missing_in_translation = original_keys - translation_keys
     if missing_in_translation:
-        explanation = f"The number of strings is higher than the translation."
-        messages, keys = process_key_differences(missing_in_translation, mod_name, table_name, messages, explanation, is_missing_in_translation=True)
-        collected_keys.update(keys)
+        # Filter out keys where the original text is empty/placeholder.
+        missing_with_valid_text = set()
+        for key in missing_in_translation:
+            try:
+                original_text = str(df_original[df_original["key"] == key]["text"].iloc[0]).strip().lower()
+                # Only include keys where original text is valid (non-empty and non-placeholder).
+                if original_text not in ["", "placeholder", "nan"]:
+                    missing_with_valid_text.add(key)
+            except (IndexError, KeyError):
+                # If we can't find the text, skip this key.
+                continue
+        
+        if missing_with_valid_text:
+            explanation = f"The number of strings is higher than the translation."
+            messages, keys = process_key_differences(missing_with_valid_text, mod_name, table_name, messages, explanation, is_missing_in_translation=True)
+            collected_keys.update(keys)
     
     # Always check for discarded keys in translation (translation has more entries).
     discarded_in_translation = translation_keys - original_keys
