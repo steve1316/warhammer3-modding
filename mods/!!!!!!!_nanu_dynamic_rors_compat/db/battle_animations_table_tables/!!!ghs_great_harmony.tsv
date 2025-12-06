@@ -7,10 +7,12 @@ chd_kdaai_fireborn_halberd	snake01
 cth_secret_follower_blade	humanoid01e
 cth_terracotta_glaive_and_bow	humanoid01
 cth_terracotta_great_axe	humanoid01e
+dr04_flood_dragon	dragon04
 dwf_runeguard_catling	humanoid13
 ghs_cav_wef_wild_hunter_knight	humanoid01d
 ghs_cav_wef_zoat_rider_thorn_sister	humanoid01b
 ghs_cth_cav_moxue_crossbow_longma	humanoid01d
+ghs_cth_inf_eagle_rifle	humanoid01
 ghs_cth_jade_lion_rider	humanoid01c
 ghs_cth_jet_lion_rider	humanoid01c
 ghs_def_flying_medusa	bird04
@@ -39,8 +41,8 @@ hu1_jade_blood_dual_swords1	humanoid01b
 hu1_modao	humanoid01
 hu1c_panda_glaive	humanoid01c
 hu1c_wh3_kislev_halberd_and_bomb	humanoid01c
+hu1d_cth_lidao_guandao	humanoid01d
 hu1d_cth_miaodao	humanoid01d
-hu1d_cth_moxue_guandao	humanoid01d
 hu1d_cth_moxue_shield	humanoid01d
 hu3_dwarf_fly_drakegun	humanoid03
 hu3_dwf_crank_gun	humanoid03

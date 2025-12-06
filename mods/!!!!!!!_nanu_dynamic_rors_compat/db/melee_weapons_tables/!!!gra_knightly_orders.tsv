@@ -13,6 +13,7 @@ wh_main_emp_hammer_fiery_heart	0	10	7	23	1.0000	axe	hammer		1	1.0000	0.7500	0.00
 wh_main_emp_hammer_great_white_wolf	0	10	12	26	1.0000	axe	hammer		1	1.0000	0.7500	0.0000	false		0	10	4.3000		false
 wh_main_emp_hammer_hammers_sigmar	0	10	9	23	1.0000	axe	hammer		1	1.0000	0.7500	0.0000	false		0	10	4.3000		false
 wh_main_emp_hammer_white_wolf	0	10	9	23	1.0000	axe	hammer		1	1.0000	0.7500	0.0000	false		0	10	4.3000		false
+wh_main_emp_lance_blazing_sun	0	0	28	12	1.0000	lance	spear		1	1.0000	0.5000	10.0000	false		0	10	5.1000		false
 wh_main_emp_lance_everlasting_light	0	0	21	9	1.0000	lance	spear		1	1.0000	0.5000	0.0000	true		0	10	5.1000		false
 wh_main_emp_lance_knights_griffon	0	7	28	12	1.0000	lance	spear		1	1.0000	0.5000	0.0000	false		0	10	5.1000		false
 wh_main_emp_lance_knights_panther	10	0	28	12	1.0000	lance	spear		1	1.0000	0.5000	0.0000	false	wh_main_unit_contact_magic_debuff	0	10	5.1000		false

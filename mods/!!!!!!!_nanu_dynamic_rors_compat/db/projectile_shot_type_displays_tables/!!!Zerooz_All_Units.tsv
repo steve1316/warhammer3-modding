@@ -1,4 +1,5 @@
 key	ui_sound_event	icon_name
 #projectile_shot_type_displays_tables;1;db/projectile_shot_type_displays_tables/!!!Zerooz_All_Units
 bolt_mage_of_hoeth_magic_arrow	UI_BAT_SABL_Generic_Enable	bolt_mage_of_hoeth_magic_arrow
+bolt_shore_watcher_bow_vortex	UI_BAT_SABL_Generic_Enable	artillery_default
 small_arm_yang	UI_BAT_SABL_Generic_Enable	small_arm_heavy
