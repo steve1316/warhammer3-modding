@@ -153,13 +153,7 @@ effects_description_effect_celestial_guard_skill	Skill: Celestial Dragon Guards 
 effects_description_effect_celestial_range_skill	Skill: Thunderbolt Gunners, Jinwu Gunners, and Celestial Mounted Archers gain "Dragon's Keen Sight"	false
 effects_description_effect_rite_cth_warcompass_skill	Skill: The Five Elements War Compass gains "Power of the Five Elements Compass"	true
 effects_description_effect_unit_cap_cth_cav_jade_longma_crassbow_rider	Unit cap: Jade Longma Crossbowmen %+n	true
-effects_description_effect_unit_cap_cth_cav_xiaoguojun	Unit cap: Xiaoguojun Guards %+n	true
-effects_description_effect_unit_cap_cth_inf_bian	Unit cap: Celestial Shen Ce Army %+n	true
-effects_description_effect_unit_cap_cth_inf_dragon_tiger_guard	Unit cap: Celestial Jinwu Guards %+n	true
-effects_description_effect_unit_cap_cth_inf_god_guard_fighter	Unit cap: Celestial Longxiang Army %+n	true
-effects_description_effect_unit_cap_cth_inf_moon_yinyang_maiden	Unit cap: Twin Moon Yin-Yang Maidens %+n	true
 effects_description_effect_unit_cap_cth_inf_thunderbolt_gunners	Unit cap: Thunderbolt Gunners %+n	true
-effects_description_effect_unit_cap_cth_jade_warrior_halberd_shield_0	Unit cap: Jade Warrior Halberdiers %+n	true
 effects_description_wh3_main_effect_agent_action_cost_mod_kdaai	Hero Action Cost: K'daai Conqueror %+n%	false
 effects_description_wh3_main_effect_agent_action_success_chance_kdaai	Hero Action Success Chance: K'daai Conqueror %+n%	false
 effects_description_wh3_main_effect_agent_cap_increase_kdaai	Hero Recruitment Cap: K'daai Conqueror %+n	false

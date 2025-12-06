@@ -65,3 +65,7 @@ unit_abilities_onscreen_name_hef_unit_abilities_flurry_of_blows	Flurry of Blows	
 unit_abilities_tooltip_text_hef_unit_abilities_flurry_of_blows	The Brave Blademen abandon traditional swordsmanship, instead relying on sweeping strikes and wide, powerful slashes to overwhelm their foes.	false
 unit_abilities_onscreen_name_hef_unit_abilities_wall_of_shield	Shield Wall	false
 unit_abilities_tooltip_text_hef_unit_abilities_wall_of_shield	The Brave Guardians can form a defensive stance after halting their movement, creating a shield wall that makes them even more indestructible.	false
+projectile_shot_type_displays_tooltip_text_bolt_shore_watcher_bow_shot	Looses multiple wide-area arrows, ideal for striking large formations	false
+projectile_shot_type_displays_onscreen_name_bolt_shore_watcher_bow_shot	Abyssal Scattershot	false
+projectile_shot_type_displays_tooltip_text_bolt_shore_watcher_bow_vortex	The arrows carry Mathlann’s wrath, conjuring a vortex at the point of impact	false
+projectile_shot_type_displays_onscreen_name_bolt_shore_watcher_bow_vortex	Arrow of Raging Tides	false

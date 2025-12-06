@@ -55,3 +55,11 @@ ui_unit_bullet_point_enums_onscreen_name_stationary	Stationary Artillery	true
 ui_unit_bullet_point_enums_tooltip_stationary	Once deployed, the Thunder Cannon remains stationary for the duration of the battle.	true
 ui_unit_bullet_point_enums_onscreen_name_ghs_ksl_thor_weapon	Thunder God’s Hammer	false
 ui_unit_bullet_point_enums_tooltip_ghs_ksl_thor_weapon	Mjolnir, the divine hammer gifted to Hafdan by Thor, can be hurled with lightning force to shatter enemies—then instantly returns to his hand.	false
+ui_unit_bullet_point_enums_onscreen_name_ghs_dual_shot	Double-Barrel Hawkgun	false
+ui_unit_bullet_point_enums_tooltip_ghs_dual_shot	Forged in the Nan-Gau Foundry with exquisite craftsmanship, these advanced double-barrel firearms are paired with the finest black-powder techniques— even Engineering Masters praise such top-tier weapons	false
+ui_unit_bullet_point_enums_onscreen_name_ghs_war_drum	Heavenly War-Drum	false
+ui_unit_bullet_point_enums_tooltip_ghs_war_drum	Two wheels through the mists, four steeds restrained— raise the jade mallets and strike the roaring drums!	false
+ui_unit_bullet_point_enums_onscreen_name_ghs_war_painting	Tribal War-Paint	false
+ui_unit_bullet_point_enums_tooltip_ghs_war_painting	The many mountain tribes under Lidao’s dominion form the stoutest defense of southern Cathay; the secrets of their war-paint are the key to their victories	false
+ui_unit_bullet_point_enums_onscreen_name_ghs_vine_armour	Vine-Woven Armour	false
+ui_unit_bullet_point_enums_tooltip_ghs_vine_armour	Uniquely southern vines are repeatedly soaked, dried, and treated before being woven into a light yet sturdy armour— though its material bears one fatal flaw: it is highly flammable	false

@@ -55,14 +55,11 @@ unit_description_short_texts_text_ghs_main_cth_veh_warchariot	Azure iron rides t
 unit_description_short_texts_text_ghs_main_cth_veh_long_boat	Shrouded in clouds, the dragon’s wrath descends. Sails rise with the wind, and the vessel glides a thousand miles in one stroke.	true
 unit_description_short_texts_text_ghs_cth_mon_dragon_titan	The Four Gods are but jesters! Zhao Ming, let the Dragon Transformation Technique bring their end!	true
 unit_description_short_texts_text_ghs_main_cth_mon_terracotta_night_keeper	A dim blue lantern guides spirits, and none dare disturb the serenity of the Great Bastion, for where the soul banner passes, no living thing remains.	true
-unit_description_short_texts_text_ghs_main_cth_mon_terracotta_sashoujian	Forged of jade and armed with mace, this terracotta sentinel patrols, killing all intruders.	true
 unit_description_short_texts_text_ghs_main_cth_mon_terracotta_great_cannon	The iron colossus from Nan-Gau protects the frontier. Its thunderous roar shakes the heavens and earth.	true
 unit_description_short_texts_text_ghs_main_cth_mon_terracotta_giant_axe	With golden axe and halberd, it reaps enemy heads, serving the Dragon God for millennia, guarding the impenetrable Heavenly Gates.	true
 unit_description_short_texts_text_ghs_main_cth_mon_terracotta_archer	Forged of black jade, its iron arms draw the bow, striking foes from a hundred yards away.	true
 unit_description_short_texts_text_ghs_main_cth_mon_stone_lion_ror	The jade lion stares fiercely to ward off evil spirits, standing proud at the front lines, deterring all vile creatures.	true
-unit_description_short_texts_text_ghs_main_cth_mon_stone_lion	The stone beast guards the mountain gate, but with chaos rising and disrupting serenity, it follows the monks to purge evil.	true
 unit_description_short_texts_text_ghs_main_cth_mon_soul_long	Legends speak of this dragon ferrying Cathayan souls between realms. If the Great Bastion is in peril, it descends from the Soul River to join the fray.	true
-unit_description_short_texts_text_ghs_main_cth_mon_moxue_rider	Clad in cold black armor, with a stoic face and piercing gaze that shatters enemy morale, its blade cuts life from death in an instant.	true
 unit_description_short_texts_text_ghs_main_cth_mon_long_turtle	The Jade Sea’s colossal turtle bears a fortress on its back. Though slow-moving, its rain of rockets and heavy cannon fire renders it impervious to all but the mightiest armies.	true
 unit_description_short_texts_text_ghs_main_cth_inf_modao	Armour black as ink, blades sharp as snow, their guandao cleaves horse and rider alike, advancing as an unstoppable wall.	true
 unit_description_short_texts_text_ghs_main_cth_inf_mis_rifle	Eagle-eyed with piercing vision, they strike enemies from a hundred steps away or beyond.	true
@@ -174,13 +171,6 @@ unit_description_short_texts_text_ghs_dwf_veh_dreadquake_mortar	Big caliber—br
 unit_description_short_texts_text_ghs_dwf_veh_iron_train	Steam hisses, the engine roars—this cannon-mounted locomotive excels in both power and firepower.	false
 unit_description_short_texts_text_ghs_dwf_veh_iron_train_1dreadquake	Big caliber—brace yourself.	false
 unit_description_short_texts_text_ghs_dwf_chd_veh_goblin_crusher	Thanks to Grungron’s wild imagination, more bizarre contraptions hit the battlefield, leaving trails of dust or gore wherever they roll.	false
-unit_description_short_texts_text_cth_cav_celestial_mighty_axe_guard	The Celestial Dragon Guard wielding mighty axes are stalwart defenders of Cathay, charged by the Dragon Emperor, though their skills barely extend beyond three strikes.	false
-unit_description_short_texts_text_cth_cav_naogao_fire_lance	Weapons forged by the artisans of Nan-Gau that make even demons retreat in fear.	false
-unit_description_short_texts_text_cth_cav_xiaoguojun	The Xiaoguojun are the elite guards of Weijing, skilled in lance combat and horseback fighting, able to hold off ten enemies at once.	false
-unit_description_short_texts_text_cth_inf_moon_yinyang_maiden	Skilled dual-sword users who imbue their arrows with Yin and Yang energies, striking foes unseen.	false
-unit_description_short_texts_text_cth_inf_nangao_firework_trops	Equally adept at range and melee, these Nan-Gau elites have fought Chaos alongside the Storm Dragon herself.	false
-unit_description_short_texts_text_cth_jade_warrior_halberd_shield	These halberdiers embody the soul of the Great Bastion, forming unyielding walls of shields and spears.	false
-unit_description_short_texts_text_cth_jade_warrior_stick	Among the Jade Warriors, the fiercest wield spiked maces.	false
 unit_description_short_texts_text_ghs_chd_mon_kdaai_firestirke	Flame demons wielding long halberds, incinerating all who dare approach.	false
 unit_description_short_texts_text_ghs_chd_mon_kdaai_destroyer_beasts	The K'daai Destroyer towers over its foes, using blazing claws to crush fortifications and beasts, leaving only ashes in its wake.	false
 unit_description_short_texts_text_ghs_chd_mon_kdaai_destroyer_doombull	Infused with hatred of the world, the K'daai takes the form of a massive bull, flattening hills with its charge.	false
@@ -218,3 +208,6 @@ unit_description_historical_texts_text_ghs_skv_mon_hellpit_ratling	Born of twist
 unit_description_short_texts_text_ghs_skv_mon_hellpit_ratling	The apex creation of Clan Moulder and Clan Skryre—flesh packed with far more warpstone and killing-machinery than any sane abomination could endure.	true
 unit_description_short_texts_text_ghs_skv_mon_hellpit_warpdrill	Clan Skryre has studded this twisted heap of flesh with endlessly spinning drills; as they bore through the stoutest gates, warp-charged fragments scatter into the air.	true
 unit_description_short_texts_text_ghs_skv_mon_hellpit_warpflame	This monster, saturated with warpstone fuel, spews vast torrents of viridian warpfire; warpstone is its lifeblood, a never-dying heart of flame.	true
+unit_description_short_texts_text_ghs_main_cth_cav_fire_dragon_rider	Burnished red scales and gilded armour speak without words; glaring in wrath to shatter foe’s courage, a single cold flash of the blade severs life from death	true
+unit_description_short_texts_text_ghs_chd_siege_armour_giant	Encased in several inches of steel plate, the Chaos Giant becomes slower and more cumbersome than ever, yet ordinary missile fire can scarcely trouble this half-mad living engine of war	false
+unit_description_short_texts_text_ghs_main_cth_mon_soul_turtle	It is said that beneath the Soul River lie the mysterious Ten Courts of Shā Xu, guarded by a colossal turtle. When its dark shell braces, it becomes utterly unbreakable	false

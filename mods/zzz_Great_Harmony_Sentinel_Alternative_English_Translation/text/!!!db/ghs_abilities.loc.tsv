@@ -340,4 +340,7 @@ unit_abilities_onscreen_name_ghs_tmb_flying_necrosphinx1	Wings of the Reaper	fal
 unit_abilities_tooltip_text_ghs_tmb_flying_necrosphinx1	Unfurl colossal wings woven from tormented souls, spreading the Reaper’s benediction from the sky!	false
 unit_abilities_onscreen_name_ghs_tmb_sandstalker_storm	Sandstorm	false
 unit_abilities_tooltip_text_ghs_tmb_sandstalker_storm	The domain of Goddess Asaph shall not be defied—the sandstorm is her punishment for those who trespass!	false
-unit_abilities_onscreen_name_ghs_cth_xuanwu	Xuanwu’s Aegis	false
+unit_abilities_onscreen_name_ghs_cth_soul_turtle	Shell of the Black Tortoise	false
+unit_abilities_tooltip_text_ghs_cth_soul_turtle	The Soul-River Great Turtle guards the resting place of Cathay’s heroic spirits; when its mystic shell braces, it becomes utterly unbreakable	true
+unit_abilities_onscreen_name_ghs_cth_terracotta_guardian_axe	Heavenwatch Guardians	false
+unit_abilities_tooltip_text_ghs_cth_terracotta_guardian_axe	For a thousand years they have stood guard over the Dragon Gods; the mighty Gates of Heaven shall not open	true
