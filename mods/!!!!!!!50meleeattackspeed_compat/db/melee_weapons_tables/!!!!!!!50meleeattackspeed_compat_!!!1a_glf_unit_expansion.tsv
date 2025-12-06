@@ -29,10 +29,8 @@ glf_emp_knights_panther	12	0	28	10	1.0000	lance	spear		1	1.0000	0.7500	0.0000	fa
 glf_emp_reiksguard_walk	0	0	26	10	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	10	2.15		false
 glf_emp_teutogen_guard	0	0	8	28	1.0000	axe	hammer		1	1.0000	1.2500	0.0000	false		0	10	2.15		false
 glf_hef_caledor_sentinel	0	0	20	12	1.0000	sword	sword		0	1.0000	1.0000	0.0000	false		0	10	2.15		false
-glf_hef_sentinel	0	0	25	7	1.0000	sword	sword		4	1.0000	1.0000	0.0000	false		0	10	2.2		false
 glf_hef_silver_helms_greatsword	0	10	10	25	1.0000	sword	sword		4	1.0000	10.0000	0.0000	false		0	10	2.15		false
 glf_hef_spears_of_dabbarloc_ror	16	0	16	12	1.0000	spear	spear		4	1.0000	0.7500	0.0000	false		0	10	2.1		false
-glf_hef_sword_of_hoeth_ror	0	14	12	28	1.0000	sword	sword		1	1.0000	0.7500	0.0000	true		0	10	2.15		false
 glf_hef_the_knights_of_dusk_ror	0	8	28	12	1.0000	sword	sword		1	1.0000	0.7500	0.0000	false		0	10	2.15		false
 glf_hef_white_lion_riders	0	10	30	50	1.0000	axe	creatures_claws	medium	3	1.0000	1.0000	0.0000	false		0	3	2.0		false
 glf_ksl_armoured_kossar_spear	15	0	21	7	1.0000	spear	spear		1	1.0000	0.7500	0.0000	false		0	10	2.85		false

@@ -405,8 +405,8 @@ tcg_sla_bodyguard_1_hero	0	0	25	65	3.0000	sword	creatures_claws	medium	3	0.5000	
 tcg_sla_bodyguard_1_lord	0	0	25	65	3.0000	sword	creatures_claws	medium	3	0.5000	1.0000	0.0000	true	wh2_dlc11_unit_contact_charmed	0	10	2.0		false
 tcg_sla_bodyguard_2_hero	0	0	20	60	3.0000	sword	creatures_claws	medium	3	0.5000	1.0000	0.0000	true	wh_main_unit_contact_poison	0	10	2.0		false
 tcg_sla_bodyguard_2_lord	0	0	20	60	3.0000	sword	creatures_claws	medium	3	0.5000	1.0000	0.0000	true	wh_main_unit_contact_poison	0	10	2.0		false
-tcg_sla_bodyguard_3_hero	0	0	35	70	3.0000	sword	creatures_claws	medium	4	0.5000	1.0000	0.0000	true	wh_main_unit_contact_poison	0	10	2.0		false
-tcg_sla_bodyguard_3_lord	0	0	35	70	3.0000	sword	creatures_claws	medium	4	0.5000	1.0000	0.0000	true	wh_main_unit_contact_poison	0	10	2.0		false
+tcg_sla_bodyguard_3_hero	0	0	20	60	3.0000	axe	creatures_claws	medium	4	1.0000	1.0000	0.0000	true	wh_main_unit_contact_poison	0	10	2.0		false
+tcg_sla_bodyguard_3_lord	0	0	20	60	3.0000	axe	creatures_claws	medium	4	1.0000	1.0000	0.0000	true	wh_main_unit_contact_poison	0	10	2.0		false
 tcg_tze_bodyguard_1_hero	0	0	50	25	1.0000	sword	sword		1	1.0000	1.0000	1.0000	true	wh3_main_unit_contact_warpflame	0	10	1.75		false
 tcg_tze_bodyguard_1_lord	0	0	50	25	1.0000	sword	sword		1	1.0000	1.0000	1.0000	true	wh3_main_unit_contact_warpflame	0	10	1.75		false
 tcg_tze_bodyguard_2_hero	0	0	70	35	3.0000	sword	staff	medium	3	0.5000	1.0000	1.0000	true	wh3_main_unit_contact_warpflame	0	10	2.0		false

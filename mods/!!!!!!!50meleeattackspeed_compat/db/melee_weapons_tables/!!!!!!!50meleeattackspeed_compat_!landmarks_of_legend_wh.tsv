@@ -1,5 +1,6 @@
 key	bonus_v_large	bonus_v_infantry	damage	ap_damage	weapon_length	melee_weapon_type	audio_type	splash_attack_target_size	splash_attack_max_attacks	splash_attack_power_multiplier	building_damage_multiplier	ignition_amount	is_magical	contact_phase	collision_attack_max_targets	collision_attack_max_targets_cooldown	melee_attack_interval	scaling_damage	is_spell
 #melee_weapons_tables;25;db/melee_weapons_tables/!!!!!!!50meleeattackspeed_compat_!landmarks_of_legend_wh
+azul_guard_axe	0	0	35	21	1.0000	axe	axe		1	1.0000	1.0000	0.0000	true		0	10	2.15		false
 bearded_skull_miner_pickaxes	0	0	0	32	1.0000	axe	axe		1	1.0000	3.0000	0.0000	true	wh_dlc08_unit_contact_frostbite	0	10	2.15		false
 blorgar_club	0	0	140	305	5.0000	axe	club_huge	large	30	2.4000	800.0000	0.0000	false		0	10	1.9		false
 blue_orc_axes	0	0	22	26	7.0000	axe	creatures_claws	large	8	1.5000	400.0000	0.0000	false		0	10	1.8		false
@@ -7,6 +8,7 @@ brotherhood_ranger_templar_swords	0	10	25	15	1.0000	sword	sword		1	1.0000	1.0000
 brt_jacometta_knights_trident	28	0	120	280	3.0000	axe	creatures_claws	medium	5	1.0000	1.2500	0.0000	true		0	10	1.9		false
 brt_mounted_braconnier_sword	20	0	25	11	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	10	2.55		false
 brt_short_sword	15	0	22	8	0.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	10	2.15		false
+children_of_doom_hammers	0	0	14	41	1.0000	axe	hammer_dwarf		1	1.0000	0.7500	0.0000	true	wh_main_unit_contact_poison	0	10	2.1		false
 dec_lahmian	0	8	25	9	1.0000	sword	sword	small	1	1.0000	10.0000	0.0000	false		0	10	1.9		false
 dragonling_claws	5	0	21	35	3.0000	axe	creatures_claws	large	4	1.0000	50.0000	0.0000	true	wh_main_unit_contact_poison	0	3	1.9		false
 ethereal_tsar_guard_swords	0	0	0	45	1.0000	sword	sword		1	1.0000	1.0000	0.0000	true	wh_dlc08_unit_contact_frostbite	0	10	2.0		false
@@ -23,6 +25,9 @@ inq_hammer	0	0	22	8	1.0000	axe	hammer	small	1	1.0000	10.0000	0.0000	false		0	10	
 lakemen_axe	0	0	8	12	2.0000	axe	club_saurus	small	1	1.0000	10.0000	0.0000	false		0	10	1.5		false
 le_grande_knights_sword	0	35	30	12	1.0000	sword	sword		1	1.0000	0.7500	0.0000	true		0	10	2.55		false
 mother_of_flame_talons	0	0	190	230	7.0000	axe	creatures_claws	large	8	2.0000	400.0000	1.0000	true		0	10	2.0		false
+nur_lepers_maces	0	12	35	20	1.0000	axe	hammer		1	0.2000	0.7500	0.0000	false	wh_main_unit_contact_poison	0	10	2.25		false
+nur_nurgle_devotees_maces	0	0	25	8	1.0000	axe	hammer		1	0.2000	0.7500	0.0000	false	wh_main_unit_contact_poison	0	10	2.25		false
+nur_pox_bowmen_short_swords	0	0	19	3	0.0000	sword	sword		1	1.0000	0.7500	0.0000	false	wh_main_unit_contact_poison	0	10	2.15		false
 orthodoxy_sworn_maces	0	0	28	35	1.0000	axe	hammer		1	0.2000	0.7500	1.0000	true		0	10	2.25		false
 phoenix_rider_weapons	0	5	35	50	7.0000	axe	creatures_claws	medium	4	1.0000	60.0000	1.0000	true		0	10	2.0		false
 rackspire_dead_sword	0	10	24	11	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	10	2.15		false
