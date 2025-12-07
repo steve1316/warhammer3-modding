@@ -15,11 +15,11 @@ from typing import List, Dict
 
 def correct_quotation_marks(mod_data: List[Dict[str, str]], game_data: List[Dict[str, str]]):
     """Normalize quotation marks in localization text entries.
-    
+
     Args:
         mod_data (List[Dict[str, str]]): Modded localization entries to correct.
         game_data (List[Dict[str, str]]): Original game localization entries for reference.
-        
+
     Returns:
         List of corrected mod entries.
     """
@@ -28,7 +28,7 @@ def correct_quotation_marks(mod_data: List[Dict[str, str]], game_data: List[Dict
     # 2. Convert Chinese quotation marks (『』) to Western quotes ("") when present in original.
     # 3. Remove unnecessary Western quotes when not present in original Chinese text.
     corrected_data = []
-    
+
     for idx, mod_row in enumerate(mod_data):
         try:
             original_row = game_data[idx]
@@ -58,35 +58,36 @@ def correct_quotation_marks(mod_data: List[Dict[str, str]], game_data: List[Dict
         except (IndexError, KeyError) as e:
             logging.warning(f"Skipping row {idx} due to error: {str(e)}")
             corrected_data.append(mod_row)
-    
+
     return corrected_data
+
 
 if __name__ == "__main__":
     logging.basicConfig(format="%(asctime)s - %(levelname)s - %(message)s", level=logging.INFO)
     start_time = time.time()
-    
+
     try:
         # Load TSV data.
         # ------------------------------------------------------------------
         game_data, game_headers, game_version = load_tsv_data("original.tsv")
         mod_data, _, _ = load_tsv_data("modded.tsv")
-        
+
         # Perform corrections.
         # ------------------------------------------------------------------
         corrected_data = correct_quotation_marks(mod_data, game_data)
-        
+
         # Write output file.
         # ------------------------------------------------------------------
         os.makedirs(os.path.dirname("corrected.tsv"), exist_ok=True)
-        
+
         with open("corrected.tsv", "w", encoding="utf-8") as f:
             f.write("\t".join(game_headers) + "\n")
             f.write(game_version + "\n")
-            
+
             for row in corrected_data:
                 ordered_values = [row[header] for header in game_headers]
                 f.write("\t".join(ordered_values) + "\n")
-                
+
         logging.info("Successfully created corrected.tsv")
 
     except FileNotFoundError as e:

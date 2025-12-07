@@ -14,11 +14,13 @@ if __name__ == "__main__":
     logging.basicConfig(format="%(asctime)s - %(levelname)s - %(message)s", level=logging.INFO)
     start_time = time.time()
 
-    list_of_mods_for_melee = []
-    list_of_mods_for_ranged_arc = []
-    list_of_mods_for_velocity = []
-    list_of_mods_for_land_encounters = []
-    list_of_mods_for_dynamic_rors = []
+    mods_map = {
+        "melee": [],
+        "ranged_arc": [],
+        "velocity": [],
+        "land_encounters": [],
+        "dynamic_rors": [],
+    }
     missing_mods = []
 
     for mod in SUPPORTED_MODS:
@@ -27,15 +29,15 @@ if __name__ == "__main__":
         mod_id = mod["path"].split("/")[-2]
         list_item = f"[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id={mod_id}]{mod['name']}[/url]"
         if "melee" in mod["modified_attributes"]:
-            list_of_mods_for_melee.append(list_item)
+            mods_map["melee"].append(list_item)
         if "ranged_arc" in mod["modified_attributes"]:
-            list_of_mods_for_ranged_arc.append(list_item)
+            mods_map["ranged_arc"].append(list_item)
         if "velocity" in mod["modified_attributes"]:
-            list_of_mods_for_velocity.append(list_item)
+            mods_map["velocity"].append(list_item)
         if "ignore_generation" not in mod or not mod["ignore_generation"]:
-            list_of_mods_for_land_encounters.append(list_item)
+            mods_map["land_encounters"].append(list_item)
         if not re.search(r"ror_|_ror_|_ror", mod["package_name"]):
-            list_of_mods_for_dynamic_rors.append(list_item)
+            mods_map["dynamic_rors"].append(list_item)
 
         # Check if the mod is installed in the file system.
         if not os.path.exists(mod["path"]):
@@ -52,7 +54,8 @@ INSERT_LIST_HERE
 [/list]
 """
 
-        list_of_mods = list_of_mods_for_melee if type == "melee" else list_of_mods_for_ranged_arc if type == "ranged_arc" else list_of_mods_for_velocity if type == "velocity" else list_of_mods_for_land_encounters if type == "land_encounters" else list_of_mods_for_dynamic_rors
+        list_of_mods = mods_map.get(type)
+
         text_body = text_body.replace(f"INSERT_LIST_HERE", "\n".join(list_of_mods))
         with open(f"supported_mods_list_to_update_{type}.txt", "w", encoding="utf-8") as f:
             f.write(text_body)

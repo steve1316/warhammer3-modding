@@ -207,6 +207,7 @@ FACTION_SHORTHAND_KEY_MAPPING = {
     "wef": "wh_dlc05_group_wood_elves",
 }
 
+
 def add_anti_order_generic_effects(faction: str):
     """Add anti-order generic effects based on faction.
 
@@ -229,8 +230,9 @@ def add_anti_order_generic_effects(faction: str):
                 unit_effects += SUPPORTED_EFFECTS["nurgle_generic"]
             elif faction in TZEENTCH_SPECIFIC_FACTIONS:
                 unit_effects += SUPPORTED_EFFECTS["tzeentch_generic"]
-    
+
     return unit_effects
+
 
 def add_anti_destruction_generic_effects(faction: str):
     """Add anti-destruction generic effects based on faction.
@@ -250,6 +252,7 @@ def add_anti_destruction_generic_effects(faction: str):
             unit_effects += SUPPORTED_EFFECTS["lizardmen_generic"]
 
     return unit_effects
+
 
 def add_melee_effects(faction: str):
     """Add melee effects.
@@ -296,6 +299,7 @@ def add_melee_effects(faction: str):
 
     return unit_effects
 
+
 def add_ranged_effects(faction: str):
     """Add ranged effects.
 
@@ -317,6 +321,7 @@ def add_ranged_effects(faction: str):
 
     return unit_effects
 
+
 def add_artillery_effects(faction: str):
     """Add artillery effects.
 
@@ -331,6 +336,7 @@ def add_artillery_effects(faction: str):
 
     return unit_effects
 
+
 def add_cavalry_effects(faction: str):
     """Add cavalry effects.
 
@@ -344,6 +350,7 @@ def add_cavalry_effects(faction: str):
         unit_effects += SUPPORTED_EFFECTS["empire_cavalry"]
 
     return unit_effects
+
 
 def add_monster_effects(faction: str):
     """Add monster effects.
@@ -360,6 +367,7 @@ def add_monster_effects(faction: str):
         unit_effects += SUPPORTED_EFFECTS["nurgle_monster"]
 
     return unit_effects
+
 
 def check_if_unit_is_ror(unit_data: Dict[str, Any], main_units_mapping: Dict[str, Any]):
     """Check if the unit is already a Regiment of Renown unit.
@@ -378,6 +386,7 @@ def check_if_unit_is_ror(unit_data: Dict[str, Any], main_units_mapping: Dict[str
         if pattern in key:
             return True
     return False
+
 
 def process_unit_by_category(unit_data: Dict[str, Any], main_units_mapping: Dict[str, Any], faction: str):
     """Process a unit based on its category and assign appropriate effects.
@@ -452,6 +461,7 @@ def process_unit_by_category(unit_data: Dict[str, Any], main_units_mapping: Dict
 
     return unit_effects
 
+
 def extract_and_load_table_data(mod_path: str, table_configs: List[Dict[str, Any]]):
     """Extract and load multiple tables for a mod based on the provided configs.
 
@@ -498,6 +508,7 @@ def extract_and_load_table_data(mod_path: str, table_configs: List[Dict[str, Any
 
     return mappings
 
+
 if __name__ == "__main__":
     logging.basicConfig(format="%(asctime)s - %(levelname)s - %(message)s", level=logging.INFO)
     start_time = time.time()
@@ -516,43 +527,46 @@ if __name__ == "__main__":
                 pass
 
     # Ensure all folders are cleaned up before the script starts if they exist.
-    cleanup_folders([
-        "./vanilla_unit_purchasable_effect_sets_tables",
-        "./vanilla_mounts_tables",
-        "./!!!!!!!_nanu_dynamic_rors_leftover_vanilla"
-        "./vanilla_main_units_tables",
-        "./vanilla_land_units_tables",
-        "./vanilla_units_to_groupings_military_permissions_tables",
-        "./nanu_unit_purchasable_effect_sets_tables",
-        "./modded_units_to_groupings_military_permissions_tables",
-        "./modded_land_units_tables",
-        "./modded_main_units_tables",
-        "./modded_unit_description_historical_texts_tables",
-        "./modded_battle_animations_table_tables",
-        "./modded_battle_entities_tables",
-        "./modded_mounts_tables",
-        "./modded_melee_weapons_tables",
-        "./modded_missile_weapons_tables",
-        "./modded_unit_description_short_texts_tables",
-        "./modded_unit_attributes_groups_tables",
-        "./modded_battlefield_engines_tables",
-        "./modded_projectiles_tables",
-        "./modded_battle_vortexs_tables",
-        "./modded_projectiles_scaling_damages_tables",
-        "./modded_projectile_shot_type_displays_tables",
-        "./modded_unit_spacings_tables",
-        "./modded_first_person_engines_tables",
-        "./modded_land_unit_articulated_vehicles_tables",
-        "./modded_ui_unit_groupings_tables",
-        "./modded_ui_unit_group_parents_tables",
-        "./modded_variants_tables",
-        "./modded_variantmeshes",
-    ])
+    cleanup_folders(
+        [
+            "./vanilla_unit_purchasable_effect_sets_tables",
+            "./vanilla_mounts_tables",
+            "./!!!!!!!_nanu_dynamic_rors_leftover_vanilla" "./vanilla_main_units_tables",
+            "./vanilla_land_units_tables",
+            "./vanilla_units_to_groupings_military_permissions_tables",
+            "./nanu_unit_purchasable_effect_sets_tables",
+            "./modded_units_to_groupings_military_permissions_tables",
+            "./modded_land_units_tables",
+            "./modded_main_units_tables",
+            "./modded_unit_description_historical_texts_tables",
+            "./modded_battle_animations_table_tables",
+            "./modded_battle_entities_tables",
+            "./modded_mounts_tables",
+            "./modded_melee_weapons_tables",
+            "./modded_missile_weapons_tables",
+            "./modded_unit_description_short_texts_tables",
+            "./modded_unit_attributes_groups_tables",
+            "./modded_battlefield_engines_tables",
+            "./modded_projectiles_tables",
+            "./modded_battle_vortexs_tables",
+            "./modded_projectiles_scaling_damages_tables",
+            "./modded_projectile_shot_type_displays_tables",
+            "./modded_unit_spacings_tables",
+            "./modded_first_person_engines_tables",
+            "./modded_land_unit_articulated_vehicles_tables",
+            "./modded_ui_unit_groupings_tables",
+            "./modded_ui_unit_group_parents_tables",
+            "./modded_variants_tables",
+            "./modded_variantmeshes",
+        ]
+    )
 
     try:
         # Extract the vanilla unit_purchasable_effect_sets_tables and mounts_tables data.
         extract_tsv_data("unit_purchasable_effect_sets_tables")
-        _, vanilla_unit_purchasable_effect_sets_tables_headers, vanilla_unit_purchasable_effect_sets_tables_version_info = load_tsv_data("vanilla_unit_purchasable_effect_sets_tables/db/unit_purchasable_effect_sets_tables/data__.tsv")
+        _, vanilla_unit_purchasable_effect_sets_tables_headers, vanilla_unit_purchasable_effect_sets_tables_version_info = load_tsv_data(
+            "vanilla_unit_purchasable_effect_sets_tables/db/unit_purchasable_effect_sets_tables/data__.tsv"
+        )
         extract_tsv_data("mounts_tables")
         vanilla_mounts_tables_dataframe = read_and_clean_tsv("vanilla_mounts_tables/db/mounts_tables/data__.tsv", "mounts_tables")
 
@@ -564,16 +578,25 @@ if __name__ == "__main__":
             extract_tsv_data("land_units_tables")
             vanilla_land_units_tables_dataframe = read_and_clean_tsv("vanilla_land_units_tables/db/land_units_tables/data__.tsv", "land_units_tables")
             extract_tsv_data("units_to_groupings_military_permissions_tables")
-            vanilla_units_to_groupings_military_permissions_tables_dataframe = read_and_clean_tsv("vanilla_units_to_groupings_military_permissions_tables/db/units_to_groupings_military_permissions_tables/data__.tsv", "units_to_groupings_military_permissions_tables")
+            vanilla_units_to_groupings_military_permissions_tables_dataframe = read_and_clean_tsv(
+                "vanilla_units_to_groupings_military_permissions_tables/db/units_to_groupings_military_permissions_tables/data__.tsv",
+                "units_to_groupings_military_permissions_tables",
+            )
 
             # Extract Nanu's unit_purchasable_effect_sets_tables data.
-            extract_modded_tsv_data("unit_purchasable_effect_sets_tables", f"{STEAM_LIBRARY_DRIVE}\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\3278112051\\!!_nanu_dynamic_rors.pack", "./nanu_unit_purchasable_effect_sets_tables")
+            extract_modded_tsv_data(
+                "unit_purchasable_effect_sets_tables",
+                f"{STEAM_LIBRARY_DRIVE}\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\3278112051\\!!_nanu_dynamic_rors.pack",
+                "./nanu_unit_purchasable_effect_sets_tables",
+            )
 
             processed_unit_keys = set()
             for faction in FACTION_SHORTHAND_KEY_MAPPING.keys():
                 list_of_vanilla_data_to_add = []
                 try:
-                    nanu_faction_data, _, _ = load_tsv_data(f"./nanu_unit_purchasable_effect_sets_tables/db/unit_purchasable_effect_sets_tables/nanu_dynamic_rors_{faction}.tsv")
+                    nanu_faction_data, _, _ = load_tsv_data(
+                        f"./nanu_unit_purchasable_effect_sets_tables/db/unit_purchasable_effect_sets_tables/nanu_dynamic_rors_{faction}.tsv"
+                    )
                 except FileNotFoundError:
                     nanu_faction_data = []
                 nanu_main_unit_keys = set(data["unit"] for data in nanu_faction_data)
@@ -581,12 +604,15 @@ if __name__ == "__main__":
                 for vanilla_main_unit_key in vanilla_units_to_groupings_military_permissions_tables_dataframe["unit"].values:
                     # Get all military groups for this unit.
                     military_groups = vanilla_units_to_groupings_military_permissions_tables_dataframe.loc[
-                        vanilla_units_to_groupings_military_permissions_tables_dataframe["unit"] == vanilla_main_unit_key, 
-                        "military_group"
+                        vanilla_units_to_groupings_military_permissions_tables_dataframe["unit"] == vanilla_main_unit_key, "military_group"
                     ].values
-                    
+
                     # Check if any of the military groups match the current faction.
-                    if vanilla_main_unit_key not in nanu_main_unit_keys and FACTION_SHORTHAND_KEY_MAPPING[faction] in military_groups and vanilla_main_unit_key not in processed_unit_keys:
+                    if (
+                        vanilla_main_unit_key not in nanu_main_unit_keys
+                        and FACTION_SHORTHAND_KEY_MAPPING[faction] in military_groups
+                        and vanilla_main_unit_key not in processed_unit_keys
+                    ):
                         units_not_supported_by_nanu.add(vanilla_main_unit_key)
                         processed_unit_keys.add(vanilla_main_unit_key)
 
@@ -594,8 +620,16 @@ if __name__ == "__main__":
 
                 for vanilla_main_unit_key in units_not_supported_by_nanu:
                     try:
-                        vanilla_main_unit = vanilla_main_units_tables_dataframe.loc[vanilla_main_units_tables_dataframe["unit"] == vanilla_main_unit_key].iloc[0].to_dict()
-                        vanilla_land_unit = vanilla_land_units_tables_dataframe.loc[vanilla_land_units_tables_dataframe["key"] == vanilla_main_unit_key].iloc[0].to_dict()
+                        vanilla_main_unit = (
+                            vanilla_main_units_tables_dataframe.loc[vanilla_main_units_tables_dataframe["unit"] == vanilla_main_unit_key]
+                            .iloc[0]
+                            .to_dict()
+                        )
+                        vanilla_land_unit = (
+                            vanilla_land_units_tables_dataframe.loc[vanilla_land_units_tables_dataframe["key"] == vanilla_main_unit_key]
+                            .iloc[0]
+                            .to_dict()
+                        )
                     except IndexError:
                         logging.info(f"Skipping {vanilla_main_unit_key} because it is not in the main_units_tables or land_units_tables.")
                         continue
@@ -611,7 +645,9 @@ if __name__ == "__main__":
 
                 if len(list_of_vanilla_data_to_add) > 0:
                     logging.info(f"There are {len(list_of_vanilla_data_to_add)} effects to add for {faction}.")
-                    unit_purchasable_effect_sets_tables_version_info = vanilla_unit_purchasable_effect_sets_tables_version_info.replace("data__", f"!!!nanu_dynamic_rors_{faction}")
+                    unit_purchasable_effect_sets_tables_version_info = vanilla_unit_purchasable_effect_sets_tables_version_info.replace(
+                        "data__", f"!!!nanu_dynamic_rors_{faction}"
+                    )
                     write_updated_tsv_file(
                         list_of_vanilla_data_to_add,
                         vanilla_unit_purchasable_effect_sets_tables_headers,
@@ -637,38 +673,49 @@ if __name__ == "__main__":
 
             if args.reset:
                 # Use the RPFM CLI to delete all files from the required folders.
-                subprocess.run([
+                subprocess.run(
+                    [
+                        "./rpfm_cli.exe",
+                        "--game",
+                        "warhammer_3",
+                        "pack",
+                        "delete",
+                        "--pack-path",
+                        f"{STEAM_LIBRARY_DRIVE}\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\3532864014\\!!!!!!!_nanu_dynamic_rors_leftover_vanilla.pack",
+                        "--folder-path",
+                        "db",
+                    ],
+                    capture_output=True,
+                )
+
+            subprocess.run(
+                [
                     "./rpfm_cli.exe",
                     "--game",
                     "warhammer_3",
                     "pack",
-                    "delete",
+                    "add",
                     "--pack-path",
                     f"{STEAM_LIBRARY_DRIVE}\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\3532864014\\!!!!!!!_nanu_dynamic_rors_leftover_vanilla.pack",
+                    "--tsv-to-binary",
+                    "./schemas/schema_wh3.ron",
                     "--folder-path",
-                    "db",
-                ], capture_output=True)
+                    f"../mods/!!!!!!!_nanu_dynamic_rors_leftover_vanilla/db/unit_purchasable_effect_sets_tables;db/unit_purchasable_effect_sets_tables",
+                ],
+                capture_output=True,
+            )
 
-            subprocess.run([
-                "./rpfm_cli.exe",
-                "--game",
-                "warhammer_3",
-                "pack",
-                "add",
-                "--pack-path",
-                f"{STEAM_LIBRARY_DRIVE}\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\3532864014\\!!!!!!!_nanu_dynamic_rors_leftover_vanilla.pack",
-                "--tsv-to-binary",
-                "./schemas/schema_wh3.ron",
-                "--folder-path",
-                f"../mods/!!!!!!!_nanu_dynamic_rors_leftover_vanilla/db/unit_purchasable_effect_sets_tables;db/unit_purchasable_effect_sets_tables"
-            ], capture_output=True)
-            
             exit(0)
 
         # Primary mode: Process modded units.
         # Define table configurations for extraction.
         table_configs = [
-            {"table_name": "units_to_groupings_military_permissions_tables", "folder_name": "units_to_groupings_military_permissions_tables", "key_field": "unit", "required": True},
+            {
+                "table_name": "units_to_groupings_military_permissions_tables",
+                "folder_name": "units_to_groupings_military_permissions_tables",
+                "key_field": "unit",
+                "required": True,
+            },
             {"table_name": "main_units_tables", "folder_name": "main_units_tables", "key_field": "unit", "required": True},
             {"table_name": "land_units_tables", "folder_name": "land_units_tables", "key_field": "key", "required": True},
             {"table_name": "unit_description_historical_texts_tables", "folder_name": "unit_description_historical_texts_tables", "key_field": "key"},
@@ -694,7 +741,7 @@ if __name__ == "__main__":
 
         # Track processed unit+effect combinations across all mods to prevent duplicates.
         processed_unit_effects = set()
-        
+
         # Track processed keys for each table type to prevent duplicates.
         # Map table names to their key field names.
         table_key_fields = {
@@ -720,17 +767,17 @@ if __name__ == "__main__":
             "land_units_tables": "key",
             "main_units_tables": "unit",
         }
-        
+
         # Initialize tracking sets for each table.
         processed_table_keys = {table_name: set() for table_name in table_key_fields.keys()}
-        
-        def should_add_table_entry(table_name: str, entry_data: Dict[str, Any]) -> bool:
+
+        def should_add_table_entry(table_name: str, entry_data: Dict[str, Any]):
             """Check if a table entry should be added (not a duplicate).
-            
+
             Args:
                 table_name: Name of the table.
                 entry_data: Dictionary containing the entry data.
-            
+
             Returns:
                 True if the entry should be added, False if it's a duplicate.
             """
@@ -774,17 +821,20 @@ if __name__ == "__main__":
             # Extract the variantmeshes/variantmeshdefinitions folder if it exists.
             variant_mesh_definitions_to_add = []
             variant_mesh_models_to_add = []
-            subprocess.run([
-                "./rpfm_cli.exe",
-                "--game",
-                "warhammer_3",
-                "pack",
-                "extract",
-                "--pack-path",
-                mod["path"],
-                "--folder-path",
-                "variantmeshes;./modded_variantmeshes",
-            ], capture_output=True)
+            subprocess.run(
+                [
+                    "./rpfm_cli.exe",
+                    "--game",
+                    "warhammer_3",
+                    "pack",
+                    "extract",
+                    "--pack-path",
+                    mod["path"],
+                    "--folder-path",
+                    "variantmeshes;./modded_variantmeshes",
+                ],
+                capture_output=True,
+            )
 
             # Load required tables into separate mappings.
             units_to_factions_mapping = {}
@@ -862,7 +912,10 @@ if __name__ == "__main__":
 
                             # Use the entry from land_units_tables to get the entries from the following tables.
                             # This is to make the mod standalone while keeping it as trimmed down as possible without crashing.
-                            if data.get("historical_description_text") and data["historical_description_text"] in table_data["unit_description_historical_texts_tables"]:
+                            if (
+                                data.get("historical_description_text")
+                                and data["historical_description_text"] in table_data["unit_description_historical_texts_tables"]
+                            ):
                                 entry = table_data["unit_description_historical_texts_tables"][data["historical_description_text"]]
                                 if should_add_table_entry("unit_description_historical_texts_tables", entry):
                                     new_data["unit_description_historical_texts"].append(entry)
@@ -889,8 +942,16 @@ if __name__ == "__main__":
                                         new_data["variants"].append(variant_data)
 
                                     # Add the variantmeshdefinition for this mount if it exists. This applies to vanilla mounts only.
-                                    if mount_data.get("key") in vanilla_mounts_tables_dataframe.key.values and variant_data.get("variant_filename") and os.path.exists(f"./modded_variantmeshes/variantmeshes/variantmeshdefinitions/{variant_data['variant_filename']}.variantmeshdefinition"):
-                                        variant_mesh_definitions_to_add.append(f"./modded_variantmeshes/variantmeshes/variantmeshdefinitions/{variant_data['variant_filename']}.variantmeshdefinition")
+                                    if (
+                                        mount_data.get("key") in vanilla_mounts_tables_dataframe.key.values
+                                        and variant_data.get("variant_filename")
+                                        and os.path.exists(
+                                            f"./modded_variantmeshes/variantmeshes/variantmeshdefinitions/{variant_data['variant_filename']}.variantmeshdefinition"
+                                        )
+                                    ):
+                                        variant_mesh_definitions_to_add.append(
+                                            f"./modded_variantmeshes/variantmeshes/variantmeshdefinitions/{variant_data['variant_filename']}.variantmeshdefinition"
+                                        )
                             if data.get("primary_melee_weapon") and data["primary_melee_weapon"] in table_data["melee_weapons_tables"]:
                                 melee_weapon_data = table_data["melee_weapons_tables"][data["primary_melee_weapon"]]
                                 if should_add_table_entry("melee_weapons_tables", melee_weapon_data):
@@ -908,7 +969,10 @@ if __name__ == "__main__":
                                     new_data["missile_weapons"].append(missile_weapon_data)
 
                                 # Use the entry from missile_weapons_tables if available to get the entries from the following tables.
-                                if missile_weapon_data.get("default_projectile") and missile_weapon_data["default_projectile"] in table_data["projectiles_tables"]:
+                                if (
+                                    missile_weapon_data.get("default_projectile")
+                                    and missile_weapon_data["default_projectile"] in table_data["projectiles_tables"]
+                                ):
                                     entry = table_data["projectiles_tables"][missile_weapon_data["default_projectile"]]
                                     if should_add_table_entry("projectiles_tables", entry):
                                         new_data["projectiles"].append(entry)
@@ -916,16 +980,25 @@ if __name__ == "__main__":
                                         vortex_entry = table_data["battle_vortexs_tables"][entry["spawned_vortex"]]
                                         if should_add_table_entry("battle_vortexs_tables", vortex_entry):
                                             new_data["battle_vortexs"].append(vortex_entry)
-                                    if entry.get("projectile_shot_type_display") and entry["projectile_shot_type_display"] in table_data["projectile_shot_type_displays_tables"]:
+                                    if (
+                                        entry.get("projectile_shot_type_display")
+                                        and entry["projectile_shot_type_display"] in table_data["projectile_shot_type_displays_tables"]
+                                    ):
                                         display_entry = table_data["projectile_shot_type_displays_tables"][entry["projectile_shot_type_display"]]
                                         if should_add_table_entry("projectile_shot_type_displays_tables", display_entry):
                                             new_data["projectile_shot_type_displays"].append(display_entry)
-                                if missile_weapon_data.get("scaling_damage") and missile_weapon_data["scaling_damage"] in table_data["projectiles_scaling_damages_tables"]:
+                                if (
+                                    missile_weapon_data.get("scaling_damage")
+                                    and missile_weapon_data["scaling_damage"] in table_data["projectiles_scaling_damages_tables"]
+                                ):
                                     entry = table_data["projectiles_scaling_damages_tables"][missile_weapon_data["scaling_damage"]]
                                     if should_add_table_entry("projectiles_scaling_damages_tables", entry):
                                         new_data["projectiles_scaling_damages"].append(entry)
 
-                            if data.get("short_description_text") and data["short_description_text"] in table_data["unit_description_short_texts_tables"]:
+                            if (
+                                data.get("short_description_text")
+                                and data["short_description_text"] in table_data["unit_description_short_texts_tables"]
+                            ):
                                 entry = table_data["unit_description_short_texts_tables"][data["short_description_text"]]
                                 if should_add_table_entry("unit_description_short_texts_tables", entry):
                                     new_data["unit_description_short_texts"].append(entry)
@@ -956,16 +1029,25 @@ if __name__ == "__main__":
                                     new_data["land_unit_articulated_vehicles"].append(articulated_vehicle_data)
 
                                 # Use the entry from land_unit_articulated_vehicles_tables if available to get the entry from battle_entities_tables.
-                                if articulated_vehicle_data.get("articulated_entity") and articulated_vehicle_data["articulated_entity"] in table_data["battle_entities_tables"]:
+                                if (
+                                    articulated_vehicle_data.get("articulated_entity")
+                                    and articulated_vehicle_data["articulated_entity"] in table_data["battle_entities_tables"]
+                                ):
                                     entry = table_data["battle_entities_tables"][articulated_vehicle_data["articulated_entity"]]
                                     if should_add_table_entry("battle_entities_tables", entry):
                                         new_data["battle_entities"].append(entry)
-                            if main_unit_data.get("ui_unit_group_land") and main_unit_data["ui_unit_group_land"] in table_data["ui_unit_groupings_tables"]:
+                            if (
+                                main_unit_data.get("ui_unit_group_land")
+                                and main_unit_data["ui_unit_group_land"] in table_data["ui_unit_groupings_tables"]
+                            ):
                                 ui_unit_grouping_data = table_data["ui_unit_groupings_tables"][main_unit_data["ui_unit_group_land"]]
                                 if should_add_table_entry("ui_unit_groupings_tables", ui_unit_grouping_data):
                                     new_data["ui_unit_groupings"].append(ui_unit_grouping_data)
 
-                                if ui_unit_grouping_data.get("parent_group") and ui_unit_grouping_data["parent_group"] in table_data["ui_unit_group_parents_tables"]:
+                                if (
+                                    ui_unit_grouping_data.get("parent_group")
+                                    and ui_unit_grouping_data["parent_group"] in table_data["ui_unit_group_parents_tables"]
+                                ):
                                     entry = table_data["ui_unit_group_parents_tables"][ui_unit_grouping_data["parent_group"]]
                                     if should_add_table_entry("ui_unit_group_parents_tables", entry):
                                         new_data["ui_unit_group_parents"].append(entry)
@@ -977,7 +1059,9 @@ if __name__ == "__main__":
 
             if len(list_of_data_to_add) > 0:
                 # Write the updated data tables to the required TSV files.
-                unit_purchasable_effect_sets_tables_version_info = vanilla_unit_purchasable_effect_sets_tables_version_info.replace("data__", f"!!!{folder_name}")
+                unit_purchasable_effect_sets_tables_version_info = vanilla_unit_purchasable_effect_sets_tables_version_info.replace(
+                    "data__", f"!!!{folder_name}"
+                )
                 land_units_version_info = modded_land_units_version_info.replace(modded_land_units_version_info.split("/")[-1], f"!!!{folder_name}")
                 main_units_version_info = modded_main_units_version_info.replace(modded_main_units_version_info.split("/")[-1], f"!!!{folder_name}")
 
@@ -989,7 +1073,9 @@ if __name__ == "__main__":
 
                 # Write the data to required and optional tables.
                 for data_to_add in list_of_data_to_add:
-                    logging.debug(f"Writing {len(data_to_add['unit_purchasable_effect_sets'])} unit purchasable effect sets for {data_to_add['key']}.")
+                    logging.debug(
+                        f"Writing {len(data_to_add['unit_purchasable_effect_sets'])} unit purchasable effect sets for {data_to_add['key']}."
+                    )
 
                     # Write to the required tables first.
                     # Set allow_duplicates=False so write_updated_tsv_file checks for duplicates using composite key (unit + purchasable_effect).
@@ -1040,7 +1126,9 @@ if __name__ == "__main__":
                     ]
                     for data_key, table_name in optional_tables:
                         if data_to_add[data_key]:
-                            version_info = table_data[f"{table_name}_version_info"].replace(table_data[f"{table_name}_version_info"].split("/")[-1], f"!!!{folder_name}")
+                            version_info = table_data[f"{table_name}_version_info"].replace(
+                                table_data[f"{table_name}_version_info"].split("/")[-1], f"!!!{folder_name}"
+                            )
                             write_updated_tsv_file(
                                 data_to_add[data_key],
                                 table_data[f"{table_name}_headers"],
@@ -1055,13 +1143,21 @@ if __name__ == "__main__":
                                 for variant_mesh_definition in variant_mesh_definitions_to_add:
                                     os.makedirs(f"./!!!!!!!_nanu_dynamic_rors_compat/variantmeshes/variantmeshdefinitions", exist_ok=True)
                                     try:
-                                        shutil.move(variant_mesh_definition, f"./!!!!!!!_nanu_dynamic_rors_compat/variantmeshes/variantmeshdefinitions/{os.path.basename(variant_mesh_definition)}")
-                                        mesh_model_paths = extract_model_paths_from_variantmeshdefinition(f"./!!!!!!!_nanu_dynamic_rors_compat/variantmeshes/variantmeshdefinitions/{os.path.basename(variant_mesh_definition)}")
+                                        shutil.move(
+                                            variant_mesh_definition,
+                                            f"./!!!!!!!_nanu_dynamic_rors_compat/variantmeshes/variantmeshdefinitions/{os.path.basename(variant_mesh_definition)}",
+                                        )
+                                        mesh_model_paths = extract_model_paths_from_variantmeshdefinition(
+                                            f"./!!!!!!!_nanu_dynamic_rors_compat/variantmeshes/variantmeshdefinitions/{os.path.basename(variant_mesh_definition)}"
+                                        )
                                         for mesh_model_path in mesh_model_paths:
                                             if os.path.exists(f"./!!!!!!!_nanu_dynamic_rors_compat/variantmeshes/wh_variantmodels/{mesh_model_path}"):
                                                 os.remove(f"./!!!!!!!_nanu_dynamic_rors_compat/variantmeshes/wh_variantmodels/{mesh_model_path}")
                                             os.makedirs("./!!!!!!!_nanu_dynamic_rors_compat/variantmeshes/wh_variantmodels", exist_ok=True)
-                                            shutil.move(f"./modded_variantmeshes/variantmeshes/wh_variantmodels/{mesh_model_path}", f"./!!!!!!!_nanu_dynamic_rors_compat/variantmeshes/wh_variantmodels/{mesh_model_path}")
+                                            shutil.move(
+                                                f"./modded_variantmeshes/variantmeshes/wh_variantmodels/{mesh_model_path}",
+                                                f"./!!!!!!!_nanu_dynamic_rors_compat/variantmeshes/wh_variantmodels/{mesh_model_path}",
+                                            )
                                     except FileNotFoundError:
                                         logging.error(f"variantmeshdefinition not found: {variant_mesh_definition}.")
                                         pass
@@ -1074,31 +1170,33 @@ if __name__ == "__main__":
                     )
 
             # Perform cleanup of modded folders.
-            cleanup_folders([
-                "./modded_units_to_groupings_military_permissions_tables",
-                "./modded_land_units_tables",
-                "./modded_main_units_tables",
-                "./modded_unit_description_historical_texts_tables",
-                "./modded_battle_animations_table_tables",
-                "./modded_battle_entities_tables",
-                "./modded_mounts_tables",
-                "./modded_melee_weapons_tables",
-                "./modded_missile_weapons_tables",
-                "./modded_unit_description_short_texts_tables",
-                "./modded_unit_attributes_groups_tables",
-                "./modded_battlefield_engines_tables",
-                "./modded_projectiles_tables",
-                "./modded_battle_vortexs_tables",
-                "./modded_projectiles_scaling_damages_tables",
-                "./modded_projectile_shot_type_displays_tables",
-                "./modded_unit_spacings_tables",
-                "./modded_first_person_engines_tables",
-                "./modded_land_unit_articulated_vehicles_tables",
-                "./modded_ui_unit_groupings_tables",
-                "./modded_ui_unit_group_parents_tables",
-                "./modded_variants_tables",
-                "./modded_variantmeshes",
-            ])
+            cleanup_folders(
+                [
+                    "./modded_units_to_groupings_military_permissions_tables",
+                    "./modded_land_units_tables",
+                    "./modded_main_units_tables",
+                    "./modded_unit_description_historical_texts_tables",
+                    "./modded_battle_animations_table_tables",
+                    "./modded_battle_entities_tables",
+                    "./modded_mounts_tables",
+                    "./modded_melee_weapons_tables",
+                    "./modded_missile_weapons_tables",
+                    "./modded_unit_description_short_texts_tables",
+                    "./modded_unit_attributes_groups_tables",
+                    "./modded_battlefield_engines_tables",
+                    "./modded_projectiles_tables",
+                    "./modded_battle_vortexs_tables",
+                    "./modded_projectiles_scaling_damages_tables",
+                    "./modded_projectile_shot_type_displays_tables",
+                    "./modded_unit_spacings_tables",
+                    "./modded_first_person_engines_tables",
+                    "./modded_land_unit_articulated_vehicles_tables",
+                    "./modded_ui_unit_groupings_tables",
+                    "./modded_ui_unit_group_parents_tables",
+                    "./modded_variants_tables",
+                    "./modded_variantmeshes",
+                ]
+            )
 
             logging.info(f"Processed {len(list_of_data_to_add)} units for {mod['package_name']}.")
 
@@ -1120,28 +1218,34 @@ if __name__ == "__main__":
     # Reset if necessary.
     if args.reset:
         # Use the RPFM CLI to delete all files from the required folders.
-        subprocess.run([
-            "./rpfm_cli.exe",
-            "--game",
-            "warhammer_3",
-            "pack",
-            "delete",
-            "--pack-path",
-            f"{STEAM_LIBRARY_DRIVE}\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\3513364573\\!!!!!!!_nanu_dynamic_rors_compat.pack",
-            "--folder-path",
-            "db",
-        ], capture_output=True)
-        subprocess.run([
-            "./rpfm_cli.exe",
-            "--game",
-            "warhammer_3",
-            "pack",
-            "delete",
-            "--pack-path",
-            f"{STEAM_LIBRARY_DRIVE}\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\3513364573\\!!!!!!!_nanu_dynamic_rors_compat.pack",
-            "--folder-path",
-            "variantmeshes",
-        ], capture_output=True)
+        subprocess.run(
+            [
+                "./rpfm_cli.exe",
+                "--game",
+                "warhammer_3",
+                "pack",
+                "delete",
+                "--pack-path",
+                f"{STEAM_LIBRARY_DRIVE}\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\3513364573\\!!!!!!!_nanu_dynamic_rors_compat.pack",
+                "--folder-path",
+                "db",
+            ],
+            capture_output=True,
+        )
+        subprocess.run(
+            [
+                "./rpfm_cli.exe",
+                "--game",
+                "warhammer_3",
+                "pack",
+                "delete",
+                "--pack-path",
+                f"{STEAM_LIBRARY_DRIVE}\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\3513364573\\!!!!!!!_nanu_dynamic_rors_compat.pack",
+                "--folder-path",
+                "variantmeshes",
+            ],
+            capture_output=True,
+        )
     # Use the RPFM CLI to delete all files from the required folders.
     for folder_name in [
         "unit_purchasable_effect_sets_tables",
@@ -1169,21 +1273,8 @@ if __name__ == "__main__":
     ]:
         if os.path.exists(f"../mods/!!!!!!!_nanu_dynamic_rors_compat/db/{folder_name}"):
             # Then merge the updated mod files into the packfile.
-            subprocess.run([
-                "./rpfm_cli.exe",
-                "--game",
-                "warhammer_3",
-                "pack",
-                "add",
-                "--pack-path",
-                f"{STEAM_LIBRARY_DRIVE}\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\3513364573\\!!!!!!!_nanu_dynamic_rors_compat.pack",
-                "--tsv-to-binary",
-                "./schemas/schema_wh3.ron",
-                "--folder-path",
-                f"../mods/!!!!!!!_nanu_dynamic_rors_compat/db/{folder_name};db/{folder_name}"
-            ], capture_output=True)
-            if folder_name == "mounts_tables" and os.path.exists("../mods/!!!!!!!_nanu_dynamic_rors_compat/variantmeshes/variantmeshdefinitions"):
-                subprocess.run([
+            subprocess.run(
+                [
                     "./rpfm_cli.exe",
                     "--game",
                     "warhammer_3",
@@ -1194,18 +1285,39 @@ if __name__ == "__main__":
                     "--tsv-to-binary",
                     "./schemas/schema_wh3.ron",
                     "--folder-path",
-                    f"../mods/!!!!!!!_nanu_dynamic_rors_compat/variantmeshes;variantmeshes"
-                ], capture_output=True)
+                    f"../mods/!!!!!!!_nanu_dynamic_rors_compat/db/{folder_name};db/{folder_name}",
+                ],
+                capture_output=True,
+            )
+            if folder_name == "mounts_tables" and os.path.exists("../mods/!!!!!!!_nanu_dynamic_rors_compat/variantmeshes/variantmeshdefinitions"):
+                subprocess.run(
+                    [
+                        "./rpfm_cli.exe",
+                        "--game",
+                        "warhammer_3",
+                        "pack",
+                        "add",
+                        "--pack-path",
+                        f"{STEAM_LIBRARY_DRIVE}\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\3513364573\\!!!!!!!_nanu_dynamic_rors_compat.pack",
+                        "--tsv-to-binary",
+                        "./schemas/schema_wh3.ron",
+                        "--folder-path",
+                        f"../mods/!!!!!!!_nanu_dynamic_rors_compat/variantmeshes;variantmeshes",
+                    ],
+                    capture_output=True,
+                )
 
     # Perform final cleanup of vanilla folders.
-    cleanup_folders([
-        "./vanilla_unit_purchasable_effect_sets_tables", 
-        "./vanilla_mounts_tables", 
-        "./vanilla_main_units_tables", 
-        "./vanilla_land_units_tables", 
-        "./vanilla_units_to_groupings_military_permissions_tables",
-        "./nanu_unit_purchasable_effect_sets_tables"
-    ])
+    cleanup_folders(
+        [
+            "./vanilla_unit_purchasable_effect_sets_tables",
+            "./vanilla_mounts_tables",
+            "./vanilla_main_units_tables",
+            "./vanilla_land_units_tables",
+            "./vanilla_units_to_groupings_military_permissions_tables",
+            "./nanu_unit_purchasable_effect_sets_tables",
+        ]
+    )
 
     if MISSING_MODS:
         logging.info(f"Missing mods: {MISSING_MODS}")

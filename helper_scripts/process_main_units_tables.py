@@ -30,26 +30,10 @@ if os.path.exists("./db"):
 # If "./schemas" does not exist, download the schemas.
 if not os.path.exists("./schemas"):
     logging.info("Downloading schemas...")
-    subprocess.run([
-        "./rpfm_cli.exe", 
-        "--game", 
-        "warhammer_3", 
-        "schemas", 
-        "update", 
-        "--schema-path", 
-        "./schemas"
-    ])
+    subprocess.run(["./rpfm_cli.exe", "--game", "warhammer_3", "schemas", "update", "--schema-path", "./schemas"])
 
     # Now convert them to JSON.
-    subprocess.run([
-        "./rpfm_cli.exe", 
-        "--game", 
-        "warhammer_3", 
-        "schemas", 
-        "to-json", 
-        "--schemas-path", 
-        "./schemas"
-    ])
+    subprocess.run(["./rpfm_cli.exe", "--game", "warhammer_3", "schemas", "to-json", "--schemas-path", "./schemas"])
 
 # =====================================================================================
 # Configuration Constants
@@ -58,30 +42,30 @@ if not os.path.exists("./schemas"):
 # These are the faction keys acquired from "db/cultures_subcultures_tables".
 faction_keys = [
     # {"neu": "neu"},
-    {"tmb": "tmb"}, 
-    {"cst": "cst"}, 
-    {"def": "def"}, 
-    {"hef": "hef"}, 
-    {"lzd": "lzd"}, 
-    {"skv": "skv"}, 
-    {"chd": "chd"}, 
-    {"kho": "kho"}, 
-    {"ksl": "ksl"}, 
-    {"tze": "tze"}, 
-    {"cth": "cth"}, 
-    # {"dae": "dae"},  
-    {"nur": "nur"}, 
-    {"ogr": "ogr"}, 
-    {"sla": "sla"}, 
-    {"bst": "bst"}, 
-    {"wef": "wef"}, 
-    {"nor": "nor"}, 
-    {"brt": "brt"}, 
-    {"chs": "chs"}, 
-    {"dwf": "dwf"}, 
-    {"emp": "emp"}, 
-    {"grn": "grn"}, 
-    {"vmp": "vmp"}
+    {"tmb": "tmb"},
+    {"cst": "cst"},
+    {"def": "def"},
+    {"hef": "hef"},
+    {"lzd": "lzd"},
+    {"skv": "skv"},
+    {"chd": "chd"},
+    {"kho": "kho"},
+    {"ksl": "ksl"},
+    {"tze": "tze"},
+    {"cth": "cth"},
+    # {"dae": "dae"},
+    {"nur": "nur"},
+    {"ogr": "ogr"},
+    {"sla": "sla"},
+    {"bst": "bst"},
+    {"wef": "wef"},
+    {"nor": "nor"},
+    {"brt": "brt"},
+    {"chs": "chs"},
+    {"dwf": "dwf"},
+    {"emp": "emp"},
+    {"grn": "grn"},
+    {"vmp": "vmp"},
 ]
 
 allowed_character_skill_key_patterns = [
@@ -102,13 +86,14 @@ allowed_character_skill_key_patterns = [
 # Core Data Processing Functions
 # =====================================================================================
 
+
 def dict_to_lua_table(data_dict: Dict, indent: int = 0):
     """Convert Python dictionary to Warhammer modding-friendly Lua table format.
-    
+
     Args:
         data_dict (Dict): Nested dictionary of faction data.
         indent (int, optional): Current indentation level for pretty-printing. Defaults to 0.
-        
+
     Returns:
         Lua table string ready for file output.
     """
@@ -153,7 +138,7 @@ def dict_to_lua_table(data_dict: Dict, indent: int = 0):
                                 if "multiplayer_cost" in item:
                                     lua_str += f', multiplayer_cost={item["multiplayer_cost"]}'
                                 if "skill_overrides" in item:
-                                    lua_str += ', skill_overrides={ ' + ", ".join(f'"{skill}"' for skill in item["skill_overrides"]) + ' }'
+                                    lua_str += ", skill_overrides={ " + ", ".join(f'"{skill}"' for skill in item["skill_overrides"]) + " }"
                             else:
                                 lua_str += ", ".join(f'{k}="{v}"' for k, v in item.items())
                         else:
@@ -166,14 +151,15 @@ def dict_to_lua_table(data_dict: Dict, indent: int = 0):
     lua_str += " " * indent + "}"
     return lua_str
 
+
 def process_tsv_files(directory: str, table_type: str, allowed_patterns: List[str] = None):
     """Process TSV files in a directory, read, clean, and merge them into a single DataFrame.
-    
+
     Args:
         directory (str): Directory containing TSV files.
         table_type (str): Type of the table to determine cleaning rules.
         allowed_patterns (List[str], optional): Patterns to allow in specific columns.
-        
+
     Returns:
         Merged and cleaned DataFrame.
     """
@@ -185,19 +171,20 @@ def process_tsv_files(directory: str, table_type: str, allowed_patterns: List[st
         merged_df = merged_df.drop_duplicates()
     return merged_df
 
+
 def tsv_to_faction_data(
-    factions_data: Dict, 
-    faction_keys: List[str], 
-    df_main_units_tables: pd.DataFrame, 
-    df_faction_agent_permitted_subtypes: pd.DataFrame, 
-    df_character_skill_node_set_items: pd.DataFrame, 
-    df_character_skill_node_sets: pd.DataFrame, 
-    df_character_skill_nodes: pd.DataFrame, 
-    default_faction: str = None, 
-    do_not_use_underscore_pattern: bool = False
-    ):
+    factions_data: Dict,
+    faction_keys: List[str],
+    df_main_units_tables: pd.DataFrame,
+    df_faction_agent_permitted_subtypes: pd.DataFrame,
+    df_character_skill_node_set_items: pd.DataFrame,
+    df_character_skill_node_sets: pd.DataFrame,
+    df_character_skill_nodes: pd.DataFrame,
+    default_faction: str = None,
+    do_not_use_underscore_pattern: bool = False,
+):
     """Transform TSV data into structured faction data dictionary.
-    
+
     Args:
         factions_data (Dict): Existing data to augment.
         faction_keys (List[str]): Faction detection patterns.
@@ -208,7 +195,7 @@ def tsv_to_faction_data(
         df_character_skill_nodes (pd.DataFrame): Skill nodes data.
         default_faction (str): Fallback faction if none detected. Can be comma-delimited list.
         do_not_use_underscore_pattern (bool): Disable underscore pattern matching.
-        
+
     Returns:
         Updated factions data with new units and skills.
     """
@@ -216,19 +203,19 @@ def tsv_to_faction_data(
         # Usage in the main code
         if mod["package_name"].replace(".pack", "") != "vanilla":
             df_main_units_tables = process_tsv_files("./db/main_units_tables/", "main_units_tables")
-            df_faction_agent_permitted_subtypes = process_tsv_files("./db/faction_agent_permitted_subtypes_tables/", "faction_agent_permitted_subtypes")
+            df_faction_agent_permitted_subtypes = process_tsv_files(
+                "./db/faction_agent_permitted_subtypes_tables/", "faction_agent_permitted_subtypes"
+            )
             df_character_skill_node_set_items = process_tsv_files(
-                "./db/character_skill_node_set_items_tables/", 
-                "character_skill_node_set_items_tables", 
-                allowed_patterns=allowed_character_skill_key_patterns
+                "./db/character_skill_node_set_items_tables/",
+                "character_skill_node_set_items_tables",
+                allowed_patterns=allowed_character_skill_key_patterns,
             )
             df_character_skill_node_sets = process_tsv_files("./db/character_skill_node_sets_tables/", "character_skill_node_sets_tables")
             df_character_skill_nodes = process_tsv_files(
-                "./db/character_skill_nodes_tables/", 
-                "character_skill_nodes_tables", 
-                allowed_patterns=allowed_character_skill_key_patterns
+                "./db/character_skill_nodes_tables/", "character_skill_nodes_tables", allowed_patterns=allowed_character_skill_key_patterns
             )
-        
+
         # Iterate over each unit row in the DataFrame
         for _, row in df_main_units_tables.iterrows():
             if default_faction:
@@ -244,16 +231,11 @@ def tsv_to_faction_data(
                 faction_values = [faction_value] if faction_value else []
             else:
                 faction_key, faction_value = next(
-                    (
-                        (key, faction[key])
-                        for faction in faction_keys
-                        for key in faction
-                        if f"_{key}_" in row["land_unit"]
-                    ),
+                    ((key, faction[key]) for faction in faction_keys for key in faction if f"_{key}_" in row["land_unit"]),
                     (None, None),
                 )
                 faction_values = [faction_value] if faction_value else []
-            
+
             if not faction_values or all(faction_value is None for faction_value in faction_values):
                 logging.warning(f"No valid faction key found for land unit '{row['land_unit']}'")
                 continue
@@ -262,7 +244,7 @@ def tsv_to_faction_data(
             for faction_value in faction_values:
                 if faction_value is None:
                     continue
-                    
+
                 # Check if the extracted faction key is in any of the dictionaries in faction_keys
                 if not any(faction_value in faction_dict for faction_dict in faction_keys):
                     logging.warning(f"Faction key '{faction_value}' not recognized for land unit '{row['land_unit']}'")
@@ -307,14 +289,11 @@ def tsv_to_faction_data(
                         )
 
                     # Check if the unit key is in the allowed_lords field.
-                    if (
-                        "character_overrides" in mod 
-                        and faction_value in mod["character_overrides"] 
-                    ):
+                    if "character_overrides" in mod and faction_value in mod["character_overrides"]:
                         for key_substring in ["lords", "heroes"]:
                             if f"allowed_{key_substring}" not in factions_data[faction_value]:
                                 factions_data[faction_value][f"allowed_{key_substring}"] = []
-                            
+
                             if f"allowed_{key_substring}" in mod["character_overrides"][faction_value]:
                                 for allowed_object in mod["character_overrides"][faction_value][f"allowed_{key_substring}"]:
                                     if row["land_unit"] == allowed_object["land_unit"]:
@@ -325,26 +304,32 @@ def tsv_to_faction_data(
                                             "origin": mod["package_name"].replace(".pack", ""),
                                             "skill_overrides": [],
                                         }
-                                        
+
                                         # Use the character_skill_node_sets_tables to grab key by referencing its agent_subtype_key with the agent_subtype from the allowed_object.
                                         agent_subtype = allowed_object["agent_subtype"]
-                                        df_character_skill_node_sets_key = df_character_skill_node_sets.loc[df_character_skill_node_sets["agent_subtype_key"] == agent_subtype, "key"].values[0]
-                                        
+                                        df_character_skill_node_sets_key = df_character_skill_node_sets.loc[
+                                            df_character_skill_node_sets["agent_subtype_key"] == agent_subtype, "key"
+                                        ].values[0]
+
                                         # Inside character_skill_node_set_items_tables, all skill rows for a character belong to a set which is the key from the previous step.
-                                        df_character_skill_node_set_items_skills = df_character_skill_node_set_items.loc[df_character_skill_node_set_items["set"] == df_character_skill_node_sets_key, "item"].values
-                                        
+                                        df_character_skill_node_set_items_skills = df_character_skill_node_set_items.loc[
+                                            df_character_skill_node_set_items["set"] == df_character_skill_node_sets_key, "item"
+                                        ].values
+
                                         # Now from each skill row, grab all the skill keys from character_skill_nodes_tables by referencing the key column and then grabbing the value from the character_skill_key column.
                                         skills = []
                                         try:
                                             for skill_node in df_character_skill_node_set_items_skills:
-                                                skill_node_skill_key = df_character_skill_nodes.loc[df_character_skill_nodes["key"] == skill_node, "character_skill_key"].values[0]
+                                                skill_node_skill_key = df_character_skill_nodes.loc[
+                                                    df_character_skill_nodes["key"] == skill_node, "character_skill_key"
+                                                ].values[0]
                                                 skills.append(skill_node_skill_key)
                                         except:
                                             pass
-                                        
+
                                         # Save the skills.
                                         new_allowed_object["skill_overrides"] = skills
-                                        
+
                                         # Check if the agent_subtype for heroes is in the df_agent_permitted_subtypes DataFrame.
                                         if new_allowed_object["agent_subtype"] in df_faction_agent_permitted_subtypes["subtype"].values:
                                             # Retrieve the corresponding agent value.
@@ -352,13 +337,14 @@ def tsv_to_faction_data(
                                                 df_faction_agent_permitted_subtypes["subtype"] == new_allowed_object["agent_subtype"], "agent"
                                             ].values[0]
                                             new_allowed_object["agent_type"] = agent_value
-                                        
+
                                         factions_data[faction_value][f"allowed_{key_substring}"].append(new_allowed_object)
     except Exception as e:
         FAILED_MODS.append(mod["package_name"])
         logging.exception(e)
 
     return factions_data
+
 
 # =====================================================================================
 # Main Execution Flow
@@ -372,9 +358,15 @@ if __name__ == "__main__":
     # supported_mods = [mod["package_name"].replace(".pack", "") for mod in SUPPORTED_MODS]
     # print(json.dumps(supported_mods, indent=4))
     # exit()
-    
+
     # If the required vanilla data files are not present, extract them from the game.
-    for table_name in ["main_units_tables", "faction_agent_permitted_subtypes_tables", "character_skill_node_set_items_tables", "character_skill_node_sets_tables", "character_skill_nodes_tables"]:
+    for table_name in [
+        "main_units_tables",
+        "faction_agent_permitted_subtypes_tables",
+        "character_skill_node_set_items_tables",
+        "character_skill_node_sets_tables",
+        "character_skill_nodes_tables",
+    ]:
         if not os.path.exists(f"./vanilla_{table_name}.tsv"):
             extract_tsv_data(table_name)
             # Now move the data__.tsv file to the root and rename it.
@@ -382,40 +374,23 @@ if __name__ == "__main__":
             shutil.rmtree(f"./vanilla_{table_name}")
     try:
         factions_data = {}
-        
+
         # Load vanilla data foundations.
         # ------------------------------------------------------------------
-        df_main_units_tables_vanilla = read_and_clean_tsv(
-            f"./vanilla_main_units_tables.tsv", 
-            "main_units_tables"
-        )
+        df_main_units_tables_vanilla = read_and_clean_tsv(f"./vanilla_main_units_tables.tsv", "main_units_tables")
         df_faction_agent_permitted_subtypes_vanilla = read_and_clean_tsv(
-            f"./vanilla_faction_agent_permitted_subtypes_tables.tsv", 
-            "faction_agent_permitted_subtypes"
+            f"./vanilla_faction_agent_permitted_subtypes_tables.tsv", "faction_agent_permitted_subtypes"
         )
         df_character_skill_node_set_items_vanilla = read_and_clean_tsv(
-            f"./vanilla_character_skill_node_set_items_tables.tsv", 
-            "character_skill_node_set_items_tables"
+            f"./vanilla_character_skill_node_set_items_tables.tsv", "character_skill_node_set_items_tables"
         )
         df_character_skill_node_sets_vanilla = read_and_clean_tsv(
-            f"./vanilla_character_skill_node_sets_tables.tsv", 
-            "character_skill_node_sets_tables"
+            f"./vanilla_character_skill_node_sets_tables.tsv", "character_skill_node_sets_tables"
         )
-        df_character_skill_nodes_vanilla = read_and_clean_tsv(
-            f"./vanilla_character_skill_nodes_tables.tsv", 
-            "character_skill_nodes_tables"
-        )
-        
+        df_character_skill_nodes_vanilla = read_and_clean_tsv(f"./vanilla_character_skill_nodes_tables.tsv", "character_skill_nodes_tables")
+
         # Conver the schemas from Ron to JSON.
-        subprocess.run([
-            "./rpfm_cli.exe",
-            "--game",
-            "warhammer_3",
-            "schemas",
-            "to-json",
-            "--schemas-path",
-            "./schemas"
-        ])
+        subprocess.run(["./rpfm_cli.exe", "--game", "warhammer_3", "schemas", "to-json", "--schemas-path", "./schemas"])
 
         # Load the schema.
         with open("schemas/schema_wh3.json", "r", encoding="utf-8") as schema_file:
@@ -441,42 +416,44 @@ if __name__ == "__main__":
             # ------------------------------------------------------------------
             if mod["package_name"] != "vanilla":
                 logging.info(f"Extracting mod data from {mod['package_name']}...")
-                
+
                 # Loop through each folder path and run the extraction command.
                 folders_to_extract = [
                     "db/main_units_tables",
                     "db/faction_agent_permitted_subtypes_tables",
                     "db/character_skill_node_set_items_tables",
                     "db/character_skill_node_sets_tables",
-                    "db/character_skill_nodes_tables"
+                    "db/character_skill_nodes_tables",
                 ]
                 for folder in folders_to_extract:
-                    subprocess.run([
-                        "./rpfm_cli.exe",
-                        "--game",
-                        "warhammer_3",
-                        "pack",
-                        "extract",
-                        "--pack-path",
-                        mod["path"],
-                        "--tables-as-tsv",
-                        "./schemas/schema_wh3.ron",
-                        "--folder-path",
-                        f"{folder};./"
-                    ])
+                    subprocess.run(
+                        [
+                            "./rpfm_cli.exe",
+                            "--game",
+                            "warhammer_3",
+                            "pack",
+                            "extract",
+                            "--pack-path",
+                            mod["path"],
+                            "--tables-as-tsv",
+                            "./schemas/schema_wh3.ron",
+                            "--folder-path",
+                            f"{folder};./",
+                        ]
+                    )
 
             # Transform data.
             # ------------------------------------------------------------------
             if mod["package_name"] == "vanilla":
                 logging.info(f"Processing vanilla units...")
                 factions_data = tsv_to_faction_data(
-                    factions_data, 
-                    faction_keys, 
-                    df_main_units_tables_vanilla, 
-                    df_faction_agent_permitted_subtypes_vanilla, 
-                    df_character_skill_node_set_items_vanilla, 
-                    df_character_skill_node_sets_vanilla, 
-                    df_character_skill_nodes_vanilla
+                    factions_data,
+                    faction_keys,
+                    df_main_units_tables_vanilla,
+                    df_faction_agent_permitted_subtypes_vanilla,
+                    df_character_skill_node_set_items_vanilla,
+                    df_character_skill_node_sets_vanilla,
+                    df_character_skill_nodes_vanilla,
                 )
             else:
                 logging.info(f"Now processing {mod['package_name']}...")
@@ -504,15 +481,15 @@ if __name__ == "__main__":
                             do_not_use_underscore_pattern = True
 
                 factions_data = tsv_to_faction_data(
-                    factions_data, 
-                    temp_faction_keys, 
-                    df_main_units_tables_vanilla, 
-                    df_faction_agent_permitted_subtypes_vanilla, 
-                    df_character_skill_node_set_items_vanilla, 
-                    df_character_skill_node_sets_vanilla, 
-                    df_character_skill_nodes_vanilla, 
-                    default_faction=default_faction, 
-                    do_not_use_underscore_pattern=do_not_use_underscore_pattern
+                    factions_data,
+                    temp_faction_keys,
+                    df_main_units_tables_vanilla,
+                    df_faction_agent_permitted_subtypes_vanilla,
+                    df_character_skill_node_set_items_vanilla,
+                    df_character_skill_node_sets_vanilla,
+                    df_character_skill_nodes_vanilla,
+                    default_faction=default_faction,
+                    do_not_use_underscore_pattern=do_not_use_underscore_pattern,
                 )
 
             # Delete all folders inside "./db".
@@ -549,7 +526,7 @@ if __name__ == "__main__":
         "vanilla_faction_agent_permitted_subtypes_tables",
         "vanilla_character_skill_node_set_items_tables",
         "vanilla_character_skill_node_sets_tables",
-        "vanilla_character_skill_nodes_tables"
+        "vanilla_character_skill_nodes_tables",
     ]:
         if os.path.exists(cleanup_file):
             os.remove(cleanup_file)
@@ -560,9 +537,9 @@ if __name__ == "__main__":
         logging.info(f"Failed mods: {FAILED_MODS}")
 
     # Output the list of supported mod package names to be updated in mct_settings.lua.
-    print(f"\t\"!cr_immortal_empires_expanded\", -- Immortal Empires Expanded")
+    print(f'\t"!cr_immortal_empires_expanded", -- Immortal Empires Expanded')
     for package_name in list_of_supported_package_names:
-        print(f"\t\"{package_name}\",")
+        print(f'\t"{package_name}",')
 
     end_time = round(time.time() - start_time, 2)
     logging.info(f"Total time for processing all main_units_tables .tsv files: {end_time} seconds or {round(end_time / 60, 2)} minutes.")

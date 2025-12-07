@@ -19,70 +19,77 @@ HEADER_ROW_INDEX = 0
 VERSION_ROW_INDEX = 1
 DATA_START_ROW = 2
 
+
 def extract_tsv_data(table_name: str):
     """Extract the TSV data for a given table name from the vanilla data tables to a folder prepended with \"vanilla_\".
-    
+
     Args:
         table_name (str): The name of the table to extract.
     """
-    subprocess.run([
-        "./rpfm_cli.exe",
-        "--game",
-        "warhammer_3",
-        "pack",
-        "extract",
-        "--pack-path",
-        FILEPATH_TO_VANILLA_DATA_TABLES,
-        "--tables-as-tsv",
-        "./schemas/schema_wh3.ron",
-        "--file-path",
-        f"db/{table_name}/data__;./vanilla_{table_name}"
-    ])
-    
-    logging.info(f"TSV file \"{table_name}\" successfully extracted.")
+    subprocess.run(
+        [
+            "./rpfm_cli.exe",
+            "--game",
+            "warhammer_3",
+            "pack",
+            "extract",
+            "--pack-path",
+            FILEPATH_TO_VANILLA_DATA_TABLES,
+            "--tables-as-tsv",
+            "./schemas/schema_wh3.ron",
+            "--file-path",
+            f"db/{table_name}/data__;./vanilla_{table_name}",
+        ]
+    )
+
+    logging.info(f'TSV file "{table_name}" successfully extracted.')
+
 
 def extract_modded_tsv_data(table_name: str, packfile_path: str, extract_path: str):
     """Extract the TSV data for a given table name from the modded data tables.
-    
+
     Args:
         table_name (str): The name of the table to extract.
         packfile_path (str): The path to the packfile to extract from.
         extract_path (str): The path to extract the TSV data to.
     """
-    subprocess.run([
-        "./rpfm_cli.exe",
-        "--game",
-        "warhammer_3",
-        "pack",
-        "extract",
-        "--pack-path",
-        packfile_path,
-        "--tables-as-tsv",
-        "./schemas/schema_wh3.ron",
-        "--folder-path",
-        f"db/{table_name};{extract_path}"
-    ])
+    subprocess.run(
+        [
+            "./rpfm_cli.exe",
+            "--game",
+            "warhammer_3",
+            "pack",
+            "extract",
+            "--pack-path",
+            packfile_path,
+            "--tables-as-tsv",
+            "./schemas/schema_wh3.ron",
+            "--folder-path",
+            f"db/{table_name};{extract_path}",
+        ]
+    )
 
     if not os.path.exists(extract_path):
         logging.warning(f"No TSV file(s) for \"{table_name}\" found in {extract_path} for the mod \"{packfile_path.split('/')[-1]}\".")
     else:
         logging.info(f"TSV file(s) for \"{table_name}\" successfully extracted to {extract_path} for the mod \"{packfile_path.split('/')[-1]}\".")
 
+
 def load_tsv_data(file_path: str):
     """Load and parse TSV file into structured data.
-    
+
     Args:
         file_path (str): Path to TSV file to load.
-        
+
     Returns:
         A tuple of a list of row dictionaries with header keys, the headers, and version information.
     """
     with open(file_path, "r", encoding="utf-8") as f:
         lines = f.readlines()
-    
+
     headers = lines[HEADER_ROW_INDEX].strip().split("\t")
     version_info = lines[VERSION_ROW_INDEX].strip()
-    
+
     data = []
     for line in lines[DATA_START_ROW:]:
         if not line.strip():
@@ -95,21 +102,22 @@ def load_tsv_data(file_path: str):
         while len(values) < len(headers):
             values.append("")
         # Truncate if there are too many values (shouldn't happen, but be safe).
-        values = values[:len(headers)]
+        values = values[: len(headers)]
         data.append(dict(zip(headers, values)))
-    
+
     return data, headers, version_info
+
 
 def load_multiple_tsv_data(folder_path: str, table_name: str = None, schema_path: str = SCHEMA_PATH):
     """Load all TSV files in a folder and parse them all into a single list of structured data.
-    
+
     If table_name is provided, each TSV file will be updated to the latest schema version before loading.
-    
+
     Args:
         folder_path (str): Path to the folder containing the TSV files.
         table_name (str, optional): Name of the table. If provided, files will be updated to latest version before loading.
         schema_path (str, optional): Path to the schema JSON file. Defaults to SCHEMA_PATH.
-        
+
     Returns:
         A tuple of a list of row dictionaries with header keys, the headers, and version information of which the latter belongs to the first TSV file found.
     """
@@ -117,18 +125,18 @@ def load_multiple_tsv_data(folder_path: str, table_name: str = None, schema_path
     headers = None
     version_info = None
     skipped_count = 0
-    
+
     for file_name in os.listdir(folder_path):
         if file_name.endswith(".tsv"):
             file_path = os.path.join(folder_path, file_name)
-            
+
             # Update file to latest version if table_name is provided.
             if table_name:
                 if not update_single_tsv_file_to_latest_version(file_path, table_name, schema_path):
                     logging.warning(f"Skipping file '{file_name}' due to update failure.")
                     skipped_count += 1
                     continue
-            
+
             temp_data, temp_headers, temp_version_info = load_tsv_data(file_path)
             # Convert each row dict to a tuple of items for set storage.
             logging.info(f"Loaded {len(temp_data)} rows from {file_name}.")
@@ -150,14 +158,15 @@ def load_multiple_tsv_data(folder_path: str, table_name: str = None, schema_path
         logging.info(f"Loaded a total of {len(merged_data)} unique rows for {folder_path}.")
     return merged_data, headers, version_info
 
+
 def read_and_clean_tsv(tsv_file_path: str, table_type: str, allowed_patterns: List[str] = None):
     """Load and clean TSV file based on the table type.
-    
+
     Args:
         tsv_file_path (str): Path to the TSV file.
         table_type (str): Type of the table to determine cleaning rules.
         allowed_patterns (List[str], optional): Patterns to allow in specific columns.
-        
+
     Returns:
         Cleaned DataFrame.
     """
@@ -168,12 +177,12 @@ def read_and_clean_tsv(tsv_file_path: str, table_type: str, allowed_patterns: Li
         df = df[~df["land_unit"].str.contains("_summoned")]
         df = df[~df["land_unit"].str.contains("_dummy")]
         df = df[~((df["multiplayer_cost"] == 0) & ~df["caste"].isin(["lord", "hero", "generic"]))]
-    
+
     elif table_type == "character_skill_node_set_items_tables":
         if allowed_patterns:
             df = df[df["item"].str.contains("|".join(allowed_patterns))]
         df = df[~df["item"].str.contains("dummy")]
-    
+
     elif table_type == "character_skill_nodes_tables":
         if allowed_patterns:
             df = df[df["key"].str.contains("|".join(allowed_patterns))]
@@ -181,6 +190,7 @@ def read_and_clean_tsv(tsv_file_path: str, table_type: str, allowed_patterns: Li
 
     logging.info(f"TSV file '{tsv_file_path}' successfully read and cleaned for table '{table_type}'.")
     return df
+
 
 def write_updated_tsv_file(data: List[Dict], headers: List[str], version_info: str, target_path: str, file_name: str, allow_duplicates: bool = False):
     """Write the updated TSV file to the target path.
@@ -195,16 +205,16 @@ def write_updated_tsv_file(data: List[Dict], headers: List[str], version_info: s
     """
     # Create the target directory if it doesn't exist
     os.makedirs(target_path, exist_ok=True)
-    
+
     file_path = f"{target_path}/{file_name}.tsv"
     file_exists = os.path.exists(file_path)
-    
+
     # If file doesn't exist, we need to write headers and version info
     if not file_exists:
         with open(file_path, "w", encoding="utf-8") as f:
             f.write("\t".join(headers) + "\n")
             f.write(version_info + "\n")
-    
+
     # Read existing data to check for duplicates if needed.
     # For unit_purchasable_effect_sets_tables, use a composite key (unit + purchasable_effect).
     existing_keys = set()
@@ -218,7 +228,7 @@ def write_updated_tsv_file(data: List[Dict], headers: List[str], version_info: s
                 existing_keys = {row[headers[0]] for row in existing_data}
         except:
             pass
-    
+
     # Append new data to the file.
     with open(file_path, "a", encoding="utf-8") as f:
         for row in data:
@@ -237,6 +247,7 @@ def write_updated_tsv_file(data: List[Dict], headers: List[str], version_info: s
             # In that case, we set the cell to an empty string.
             ordered_values = [row[header] if row.get(header) else "" for header in headers]
             f.write("\t".join(ordered_values) + "\n")
+
 
 def sort_tsv_data(target_path: str, file_name: str, sort_key: str = None):
     """Sort the data in a TSV file by a specified column.
@@ -271,9 +282,10 @@ def sort_tsv_data(target_path: str, file_name: str, sort_key: str = None):
             ordered_values = [row.get(header, "") for header in headers]
             f.write("\t".join(ordered_values) + "\n")
 
+
 def merge_move(source_path: str, destination_path: str):
     """Moves a folder to its destination and overwrite any existing files.
-    
+
     Args:
         source_path (str): The path to the source folder.
         destination_path (str): The path to the destination folder.
@@ -298,9 +310,10 @@ def merge_move(source_path: str, destination_path: str):
     # Remove the source folder afterwards.
     shutil.rmtree(source_path)
 
+
 def cleanup_folders(folders_to_cleanup: List[str]):
     """Clean up the folders that were created during the extraction process.
-    
+
     Args:
         folders_to_cleanup (List[str]): List of folders to cleanup.
     """
@@ -308,12 +321,13 @@ def cleanup_folders(folders_to_cleanup: List[str]):
         if os.path.exists(folder):
             shutil.rmtree(folder)
 
+
 def extract_model_paths_from_variantmeshdefinition(file_path):
     """Extract model paths from a variantmeshdefinition file.
-    
+
     Args:
         file_path (str): Path to the variantmeshdefinition file.
-        
+
     Returns:
         List[str]: List of normalized model directory paths.
     """
@@ -323,30 +337,31 @@ def extract_model_paths_from_variantmeshdefinition(file_path):
             content = f.read()
             # Use regex to find all model paths
             matches = re.findall(r'model="([^"]+)"', content)
-            
+
             for match in matches:
                 # Normalize path (convert backslashes to forward slashes).
-                normalized_path = match.replace('\\', '/')
-                
+                normalized_path = match.replace("\\", "/")
+
                 # Remove the variantmeshes/wh_variantmodels/ prefix if present (case insensitive).
-                normalized_path = re.sub(r'^(?:variantmeshes/|VariantMeshes/)?(?:wh_variantmodels/)?', '', normalized_path)
-                
+                normalized_path = re.sub(r"^(?:variantmeshes/|VariantMeshes/)?(?:wh_variantmodels/)?", "", normalized_path)
+
                 # Extract just the directory path without the filename.
                 dir_path = os.path.dirname(normalized_path)
-                
+
                 model_paths.append(dir_path)
     except Exception as e:
         logging.error(f"Error reading {file_path}: {e}")
-    
+
     return model_paths
+
 
 def _load_schema_table_info(schema_path: str, table_name: str):
     """Load schema JSON and find the latest version for a table.
-    
+
     Args:
         schema_path (str): Path to the schema JSON file.
         table_name (str): Name of the table to find.
-        
+
     Returns:
         A tuple of (latest_version, fields_list) or None if table not found.
         Fields are sorted by ca_order.
@@ -354,36 +369,37 @@ def _load_schema_table_info(schema_path: str, table_name: str):
     try:
         with open(schema_path, "r", encoding="utf-8") as f:
             schema = json.load(f)["definitions"]
-        
+
         if table_name not in schema:
             logging.error(f"Table '{table_name}' not found in schema.")
             return None
-        
+
         table_versions = schema[table_name]
         if not isinstance(table_versions, list) or len(table_versions) == 0:
             logging.error(f"No versions found for table '{table_name}' in schema.")
             return None
-        
+
         # Find the version with the highest version number.
         latest_version_entry = max(table_versions, key=lambda x: x.get("version", 0))
         latest_version = latest_version_entry.get("version")
         fields = latest_version_entry.get("fields", [])
-        
+
         # Sort fields by ca_order.
         fields_sorted = sorted(fields, key=lambda x: x.get("ca_order", 0))
-        
+
         logging.info(f"Found latest version {latest_version} for table '{table_name}' with {len(fields_sorted)} fields.")
         return latest_version, fields_sorted
     except Exception as e:
         logging.error(f"Error loading schema from {schema_path}: {e}")
         return None
 
+
 def _parse_version_from_version_info(version_info: str):
     """Parse version number from version_info row.
-    
+
     Args:
         version_info (str): The version_info row string (format: #table_name;version;path).
-        
+
     Returns:
         The version number as an integer, or None if parsing fails.
     """
@@ -398,13 +414,14 @@ def _parse_version_from_version_info(version_info: str):
         logging.warning(f"Failed to parse version from version_info '{version_info}': {e}")
         return None
 
+
 def _update_version_info(version_info: str, new_version: int):
     """Update the version number in version_info row while preserving path.
-    
+
     Args:
         version_info (str): The original version_info row string.
         new_version (int): The new version number to use.
-        
+
     Returns:
         Updated version_info string with new version number.
     """
@@ -424,14 +441,15 @@ def _update_version_info(version_info: str, new_version: int):
         logging.warning(f"Failed to update version_info '{version_info}': {e}")
         return version_info
 
+
 def check_tsv_files_at_latest_version(folder_path: str, table_name: str, schema_path: str = SCHEMA_PATH):
     """Check if all TSV files in a folder are at the latest schema version.
-    
+
     Args:
         folder_path (str): Path to the folder containing TSV files for the table.
         table_name (str): Name of the table (e.g., "battle_entities_tables").
         schema_path (str, optional): Path to the schema JSON file. Defaults to SCHEMA_PATH.
-    
+
     Returns:
         Tuple of (bool, int): (True if all files are at latest version, latest_version_number).
         Returns (False, None) if schema not found or folder doesn't exist.
@@ -440,48 +458,49 @@ def check_tsv_files_at_latest_version(folder_path: str, table_name: str, schema_
     schema_info = _load_schema_table_info(schema_path, table_name)
     if schema_info is None:
         return False, None
-    
+
     latest_version, _ = schema_info
-    
+
     # Check each TSV file in the folder.
     if not os.path.exists(folder_path):
         return False, None
-    
+
     tsv_files = [f for f in os.listdir(folder_path) if f.endswith(".tsv")]
     if len(tsv_files) == 0:
         return True, latest_version  # No files means technically "all" are at latest version.
-    
+
     for file_name in tsv_files:
         file_path = os.path.join(folder_path, file_name)
         try:
             # Load just the version_info row to check version.
             with open(file_path, "r", encoding="utf-8") as f:
                 lines = f.readlines()
-            
+
             if len(lines) <= VERSION_ROW_INDEX:
                 logging.warning(f"File {file_name} does not have a version_info row.")
                 return False, latest_version
-            
+
             version_info = lines[VERSION_ROW_INDEX].strip()
             current_version = _parse_version_from_version_info(version_info)
-            
+
             if current_version is None or current_version < latest_version:
                 logging.debug(f"File {file_name} is at version {current_version}, but latest is {latest_version}.")
                 return False, latest_version
         except Exception as e:
             logging.warning(f"Error checking version for {file_name}: {e}")
             return False, latest_version
-    
+
     return True, latest_version
+
 
 def update_single_tsv_file_to_latest_version(file_path: str, table_name: str, schema_path: str = SCHEMA_PATH):
     """Update a single TSV file to the latest schema version.
-    
+
     Args:
         file_path (str): Path to the TSV file to update.
         table_name (str): Name of the table (e.g., "battle_entities_tables").
         schema_path (str, optional): Path to the schema JSON file. Defaults to SCHEMA_PATH.
-    
+
     Returns:
         True if the file was updated or was already at latest version, False if update failed.
     """
@@ -490,25 +509,27 @@ def update_single_tsv_file_to_latest_version(file_path: str, table_name: str, sc
     if schema_info is None:
         logging.error(f"Cannot update TSV file '{file_path}': schema not found for table '{table_name}'.")
         return False
-    
+
     latest_version, schema_fields = schema_info
-    
+
     try:
         # Load the TSV data.
         data, headers, version_info = load_tsv_data(file_path)
-        
+
         # Parse current version.
         current_version = _parse_version_from_version_info(version_info)
-        
+
         # Check if update is needed.
         if current_version is not None and current_version >= latest_version:
             logging.debug(f"File {os.path.basename(file_path)} is already at version {current_version} (latest is {latest_version}).")
             return True
         elif table_name == "main_units_tables" and current_version < latest_version:
-            logging.info(f"Updating {os.path.basename(file_path)} from version {current_version} to {latest_version} but will keep the current version number as is.")
+            logging.info(
+                f"Updating {os.path.basename(file_path)} from version {current_version} to {latest_version} but will keep the current version number as is."
+            )
         else:
             logging.info(f"Updating {os.path.basename(file_path)} from version {current_version} to {latest_version}.")
-        
+
         # Create a mapping of field names to their default values and ca_order.
         field_defaults = {}
         field_order = {}
@@ -516,15 +537,15 @@ def update_single_tsv_file_to_latest_version(file_path: str, table_name: str, sc
             field_name = field.get("name")
             default_value = field.get("default_value")
             ca_order = field.get("ca_order", 0)
-            
+
             if field_name:
                 # Convert null default values to empty strings.
                 field_defaults[field_name] = "" if default_value is None else str(default_value)
                 field_order[field_name] = ca_order
-        
+
         # Get the correct column order sorted by ca_order.
         ordered_headers = sorted(field_order.keys(), key=lambda x: field_order[x])
-        
+
         # Add missing columns to each data row with default values.
         missing_columns = set(ordered_headers) - set(headers)
         if missing_columns:
@@ -532,7 +553,7 @@ def update_single_tsv_file_to_latest_version(file_path: str, table_name: str, sc
             for row in data:
                 for col in missing_columns:
                     row[col] = field_defaults[col]
-        
+
         # Reorder all columns according to schema order.
         # Also ensure all rows have values for all columns (use defaults for any still missing).
         updated_data = []
@@ -542,19 +563,19 @@ def update_single_tsv_file_to_latest_version(file_path: str, table_name: str, sc
                 # Use existing value if present, otherwise use default.
                 updated_row[col] = row.get(col, field_defaults[col])
             updated_data.append(updated_row)
-        
+
         # Update version_info with new version.
         if table_name == "main_units_tables" and current_version < latest_version:
             updated_version_info = version_info
         else:
             updated_version_info = _update_version_info(version_info, latest_version)
-        
+
         # Write the updated TSV back to file.
         with open(file_path, "w", encoding="utf-8") as f:
             # Write headers in correct order.
             header_line = "\t".join(ordered_headers) + "\n"
             f.write(header_line)
-            
+
             # Write updated version info with the same number of tab-separated columns as headers.
             version_info_columns = [updated_version_info] + [""] * (len(ordered_headers) - 1)
             version_info_line = "\t".join(version_info_columns) + "\n"
@@ -566,7 +587,7 @@ def update_single_tsv_file_to_latest_version(file_path: str, table_name: str, sc
                 version_info_columns = [updated_version_info] + [""] * (len(ordered_headers) - 1)
                 version_info_line = "\t".join(version_info_columns) + "\n"
             f.write(version_info_line)
-            
+
             # Write all data rows.
             for row in updated_data:
                 # Ensure we have exactly the same number of values as headers.
@@ -576,23 +597,24 @@ def update_single_tsv_file_to_latest_version(file_path: str, table_name: str, sc
                     logging.warning(f"Row has {len(ordered_values)} values but expected {len(ordered_headers)} headers. Padding or truncating.")
                     while len(ordered_values) < len(ordered_headers):
                         ordered_values.append("")
-                    ordered_values = ordered_values[:len(ordered_headers)]
+                    ordered_values = ordered_values[: len(ordered_headers)]
                 f.write("\t".join(ordered_values) + "\n")
-        
+
         logging.info(f"Successfully updated {os.path.basename(file_path)}.")
         return True
-        
+
     except Exception as e:
         logging.error(f"Error updating file {os.path.basename(file_path)}: {e}")
         return False
 
+
 def update_tsv_files_to_latest_version(folder_path: str, table_name: str, schema_path: str = SCHEMA_PATH):
     """Update all TSV files in a folder to the latest schema version.
-    
+
     This function processes all TSV files in the given folder, adds missing columns
     with default values, reorders columns according to ca_order, and updates the
     version number in the version_info row.
-    
+
     Args:
         folder_path (str): Path to the folder containing TSV files for the table.
         table_name (str): Name of the table (e.g., "battle_entities_tables").
@@ -601,14 +623,14 @@ def update_tsv_files_to_latest_version(folder_path: str, table_name: str, schema
     if not os.path.exists(folder_path):
         logging.error(f"Folder path does not exist: {folder_path}")
         return
-    
+
     tsv_files = [f for f in os.listdir(folder_path) if f.endswith(".tsv")]
     if len(tsv_files) == 0:
         logging.warning(f"No TSV files found in folder: {folder_path}")
         return
-    
+
     logging.info(f"Processing {len(tsv_files)} TSV file(s) in {folder_path}.")
-    
+
     for file_name in tsv_files:
         file_path = os.path.join(folder_path, file_name)
         update_single_tsv_file_to_latest_version(file_path, table_name, schema_path)
