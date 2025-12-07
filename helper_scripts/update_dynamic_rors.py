@@ -481,7 +481,7 @@ def extract_and_load_table_data(mod_path: str, table_configs: List[Dict[str, Any
         new_mapping = {}
 
         if os.path.exists(f"./modded_{folder_name}"):
-            merged_data, headers, version_info = load_multiple_tsv_data(f"./modded_{folder_name}/db/{table_name}")
+            merged_data, headers, version_info = load_multiple_tsv_data(f"./modded_{folder_name}/db/{table_name}", table_name)
 
             # Save each entry in the table to the new mapping. The column keys in RPFM are what is used as the keys in the new mapping.
             for data in merged_data:
