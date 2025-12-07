@@ -3,3 +3,9 @@ key	bonus_v_large	bonus_v_infantry	damage	ap_damage	weapon_length	melee_weapon_t
 slaanbull_melee	30	0	70	35	4.5000	spear	sword_ogre	very_small	1	1.0000	0.7000	0.0000	false		0	10	4.0000		false
 sladual_melee	0	20	50	55	1.5000	sword	sword_ogre	medium	4	1.0000	1.0000	0.0000	false		0	10	4.0000		false
 slanshield_melee	0	0	50	55	1.5000	sword	sword_ogre	medium	4	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+trod_melee	30	0	100	320	2.0000	mace	sword_ogre	large	10	2.2000	2.0000	0.0000	false		0	10	4.0000		false
+tror_melee	30	0	100	120	2.2000	spear	sword_ogre	large	10	2.0000	1.0000	0.0000	true		0	10	4.0000		false
+tros_melee	0	25	150	190	2.0000	sword	sword_ogre	medium	6	2.0000	1.0000	0.0000	false		0	10	4.0000		false
+troy_melee	0	25	45	50	1.5000	sword	sword_ogre	medium	4	1.0000	1.0000	0.0000	false		0	10	3.5000		false
+troym2_melee	0	0	30	150	2.0000	sword	sword_ogre	medium	4	1.0000	1.5000	0.0000	false		0	10	3.5000		false
+troym_melee	0	0	50	55	1.5000	sword	sword_ogre	medium	3	1.0000	1.0000	0.0000	false	wh2_dlc11_unit_contact_charmed	0	10	4.0000		false

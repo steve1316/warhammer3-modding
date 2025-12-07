@@ -44,7 +44,7 @@ zayli_brt_men_at_arms_halberd_1h	16	0	7	21	1.0000	spear	halberd		1	1.0000	0.5000
 zayli_brt_royal_sword	0	0	20	10	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	10	2.15		false
 zayli_brt_sword_ror	0	8	24	8	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	10	2.15		false
 zayli_carcassonne_greatsword_ror	0	14	10	29	1.0000	sword	sword		1	1.0000	1.2500	1.0000	false		0	10	2.15		false
-zayli_foot_knight_sword	0	12	11	27	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	10	2.1		false
+zayli_foot_knight_sword	0	12	13	28	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	10	2.1		false
 zayli_languille_sword_ror	0	0	19	6	0.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	10	2.15		false
 zayli_lyonesse_mace_ror	0	0	12	36	1.0000	axe	axe		1	1.0000	1.2500	0.0000	false		0	10	2.75		false
 zayli_mob_hand_weapon_ror	8	0	17	4	0.0000	spear	spear		1	1.0000	1.0000	0.0000	false	wh_main_unit_contact_poison	0	10	2.1		false

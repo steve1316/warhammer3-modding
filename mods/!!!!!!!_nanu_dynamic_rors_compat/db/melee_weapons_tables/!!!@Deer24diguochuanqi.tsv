@@ -11,5 +11,6 @@ ruikeqishi	0	12	11	25	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	10	3.8
 shenxue_weapon	22	0	20	25	2.0000	lance	spear		1	1.0000	0.7500	20.0000	false	wh2_pro08_unit_contact_dampen	0	10	5.1000		false
 xiunv_weapon	0	10	10	30	2.0000	sword	sword	small	1	1.0000	1.0000	0.0000	true		0	10	3.8000		false
 youlike_weapon	0	0	9	25	1.0000	sword	sword	small	1	1.0000	1.0000	0.0000	false		0	10	3.8000		false
+yulintiewei_weapon	0	0	50	70	2.0000	spear	halberd	medium	4	2.5000	1.0000	20.0000	true	wh2_dlc12_unit_contact_flammable	0	10	1.5000		false
 zhenqiqishi_weapon	0	18	33	77	2.0000	axe	unarmed	very_large	10	5.0000	1.2500	20.0000	false		15	1	4.0000		false
 zituan_weapon	18	0	11	25	4.0000	spear	halberd	small	2	1.0000	1.0000	0.0000	false		0	10	3.8000		false

@@ -1,7 +1,10 @@
 key	skeleton
 #battle_animations_table_tables;0;db/battle_animations_table_tables/!!!!scm_totn
+be1_phy_white_bear	bear01
+beorgunit	humanoid01c
 birna	humanoid01
 gra_longship	zeppelin01
+hu1c_wm_cold_one_rider	humanoid01c
 hu1cshieldwall	humanoid01c
 sarlarcher	humanoid01c
 totn_longship	zeppelin01

@@ -1,5 +1,5 @@
 key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
-#missile_weapons_tables;10;db/missile_weapons_tables/!!!Guns_of_Bretonnia_III
+#missile_weapons_tables;11;db/missile_weapons_tables/!!!Guns_of_Bretonnia_III
 wh_special_bullet_hell_wagon	false	wh_special_bullet_hell_wagon_bullet	deck_gunner_cannon	false
 wh_special_crossbow_pavisiers	false	wh_special_crossbow_arrow_pavis	bow_large	false
 wh_special_expert	false	wh_emp_rifle_bullet_expert	wh2_dlc12_warplock_jezzails	false

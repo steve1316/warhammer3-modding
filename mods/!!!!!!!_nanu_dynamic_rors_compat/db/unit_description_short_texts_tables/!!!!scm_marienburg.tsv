@@ -2,6 +2,7 @@ key
 #unit_description_short_texts_tables;0;db/unit_description_short_texts_tables/!!!!scm_marienburg
 hkrul_burgher
 hkrul_carriers
+hkrul_klumpf
 hkrul_mar_black_caps
 hkrul_mar_cav_rijders
 hkrul_mar_cav_rijders_crossbow
@@ -12,7 +13,12 @@ hkrul_mar_handguns
 hkrul_mar_inf_goedendagers
 hkrul_mar_knights_griffon
 hkrul_mar_knights_mariner
+hkrul_mar_naval_paixhan
 hkrul_mar_riverwarden
 hkrul_mar_sons_of_manann
+hkrul_mar_talons
+hkrul_mar_teuling
+hkrul_pion
 hkrul_privateers
 hkrul_privateers_dual_swords
+ovn_unit_short_text_mar_knights_mariner_0

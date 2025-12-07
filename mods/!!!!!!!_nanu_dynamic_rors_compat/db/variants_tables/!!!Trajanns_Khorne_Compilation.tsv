@@ -1,5 +1,8 @@
 variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
 #variants_tables;6;db/variants_tables/!!!Trajanns_Khorne_Compilation
+KhoKnightsRORSteed	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	KhoKnightsRORSteed	hr1\chs\chs_steed\low_poly\chs_steed_lowlod	1.1500	1.1500	0.0200	
+KhoShrineRORShrine	warmachines/engines/dae_skullcannon/tech	KhoShrineRORmount		1.0000	1.0000	0.0000	
+bloodsaurian	VariantMeshes/wh_variantmodels/rp4/lzd/lzd_dread_saurian/tech	bloodsaurian		1.0000	1.0000	0.0000	
 bloodsaurian_normal	VariantMeshes/wh_variantmodels/rp4/lzd/lzd_dread_saurian/tech	bloodsaurian_normal		1.0000	1.0000	0.0000	
 eku_arachnarok_spider_mount	VariantMeshes/wh_variantmodels/sp1/grn/grn_arachnorok/tech/	eku_arachnarok_lava		1.0000	4.0000	0.0000	
 eku_dragon_princes_mounted_mount		eku_dragon_steed		1.0000	1.0000	0.0200	
@@ -10,6 +13,7 @@ traj_bloodcharger_mount		traj_bloodcharger_mount		1.5000	1.0000	0.0000
 traj_bloodfeaster_mount	VariantMeshes\wh_variantmodels\bc2\emp\emp_imperial_griffon\tech	traj_bloodfeaster_mount		1.6670	1.0000	0.0000	
 traj_bloodseeker_mount		traj_bloodseeker_mount		1.1000	1.0000	0.0200	
 traj_bloodtracker_mount		traj_bloodtracker_mount		1.0000	1.0000	0.0200	
+traj_castellan_skullcrusher_mount	VariantMeshes\wh_variantmodels\hq4\dae\dae_juggernaut\tech	traj_castellan_skullcrusher_mount		1.1500	1.0000	0.0000	
 traj_kho_bastiladon_engine	VariantMeshes/wh_variantmodels/hq1/lzd/lzd_bastiladon/tech	kho_bastiladon_solar_engine		1.2000	1.0000	0.0000	
 traj_kho_bastiladon_revive	VariantMeshes/wh_variantmodels/hq1/lzd/lzd_bastiladon/tech	kho_bastiladon_healing_platform		1.2000	1.0000	0.0000	
 traj_kho_cav_blood_knight_mount		traj_kho_cav_blood_knight_mount		1.0000	1.0000	0.0200	
@@ -26,3 +30,5 @@ traj_kho_ripperdactyl_mount	VariantMeshes\wh_variantmodels\bi3\lzd\lzd_terradon\
 traj_kho_stegadon_cannon	VariantMeshes\wh_variantmodels\hq1\lzd\lzd_stegadon\tech	traj_kho_stegadon_cannon		1.6000	1.0000	0.0000	
 traj_kho_stegadon_shrine	VariantMeshes\wh_variantmodels\hq1\lzd\lzd_stegadon\tech	traj_kho_stegadon_shrine		1.6000	1.0000	0.0000	
 traj_kho_terradon_mount	VariantMeshes\wh_variantmodels\bi3\lzd\lzd_terradon\tech	kho_terradon		1.0000	1.0000	0.0000	
+traj_kho_thunderbarge	warmachines/aircraft/dwf_thunderbarge/thunderbarge_tech/	traj_kho_thunderbarge		1.0000	1.0000	0.0000	
+traj_slayer_riders_mount		traj_slayer_riders_mount		1.1500	1.0000	0.0000	

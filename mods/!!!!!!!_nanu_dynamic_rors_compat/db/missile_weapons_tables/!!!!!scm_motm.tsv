@@ -1,0 +1,5 @@
+key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
+#missile_weapons_tables;11;db/missile_weapons_tables/!!!!!scm_motm
+um_ogr_blackpowder	false	um_ogr_blackpowder	gatling_gun	false
+um_ogr_blu	false	um_ogr_blu		false
+um_ogr_skullflingers	false	um_ogr_skullflingers		false

@@ -1,7 +1,11 @@
 key	skeleton
 #battle_animations_table_tables;0;db/battle_animations_table_tables/!!!jade_vamp_pol_IotM
+gh1_jbv2_patient_woman	ghost01
 gh1_jbv2_wraith	ghost01
+hu11b_jbv2_lady_yayi	humanoid11b
 hu1_jbv2_nurses	humanoid01
 hu1_jbv2_nurses_2	humanoid01
+hu1_jbv2_patient_mob	humanoid01
 hu1d_jbv2_islanders	humanoid01d
 hu1e_jbv2_doctor	humanoid01e
+hu8d_jbv2_patient_man	humanoid08d

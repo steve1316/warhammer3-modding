@@ -1,12 +1,20 @@
 key	skeleton
 #battle_animations_table_tables;0;db/battle_animations_table_tables/!!!!landmarks_of_legend_wh
+doomed_legion	humanoid01c
+dr1_vmp_imperial_dragon	dragon01
 dwarf_skeletons_01	humanoid03
 ethereal_saurus_clubs_shields	humanoid07b
 ethereal_saurus_spears_shields	humanoid07b
+gleaming_shield_knights	humanoid01
+green_skulls	humanoid01
+hanged_men	humanoid01
+helmuts_own	humanoid01
 hu1_marienburg_spear_shield_pistol	humanoid01
 hu1_vmp_cuileux_knights	humanoid01
 hu1_vmp_ethereal_swordsmen	humanoid01
+hu1_vmp_rackspire_dead	humanoid01
 hu1_vmp_red_abbey_monks	humanoid01
+hu1_vmp_sword_shield_tomb	humanoid01
 hu1c_risen_strelsti_gun	humanoid01c
 hu1c_risen_tzar_guard_greatsword	humanoid01c
 hu1d_eonir_spearmen	humanoid01d
@@ -14,6 +22,8 @@ hu1e_vmp_jade_warrior_crossbow_sword	humanoid01e
 hu1e_vmp_jade_warrior_crossbow_sword_shield	humanoid01e
 hu1e_vmp_jade_warrior_halberd	humanoid01e
 hu1e_vmp_jade_warrior_sword_shield	humanoid01e
+nightmare_legion	humanoid01
 tlax_saurus_clubs_shields	humanoid07b
 tlax_saurus_spears_shields	humanoid07b
 vmp_bearded_skull_miners	humanoid03
+wm_mining_drill01	steamtank23

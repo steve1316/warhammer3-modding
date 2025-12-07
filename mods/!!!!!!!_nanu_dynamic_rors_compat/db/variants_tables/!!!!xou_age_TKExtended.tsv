@@ -1,5 +1,6 @@
 variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
 #variants_tables;6;db/variants_tables/!!!!xou_age_TKExtended
 tmb_heavy_skeleton_ostrich	VariantMeshes/wh_variantmodels/rp1/dae/dae_steed_of_slaanesh/tech	tmb_heavy_skeleton_ostrich		1.0000	1.0000	0.0000	
+tmb_mnt_carrion	VariantMeshes\wh_variantmodels\bi1\hef\hef_great_eagle\tech	tmb_mnt_carrion		1.0000	1.1000	0.0000	
 tmb_scarab_flying_mount	tmb_fly_scarab/tech	tmb_scarab_flying_01		1.0000	1.0000	0.0000	
 tmb_skeleton_ostrich	VariantMeshes/wh_variantmodels/rp1/dae/dae_steed_of_slaanesh/tech	tmb_skeleton_ostrich		1.0000	1.0000	0.0000	

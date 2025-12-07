@@ -2,9 +2,15 @@ key	bonus_v_large	bonus_v_infantry	damage	ap_damage	weapon_length	melee_weapon_t
 #melee_weapons_tables;25;db/melee_weapons_tables/!!!!xou_age_TKExtended
 Bastethi_claws	0	4	17	1	0.0000	sword	creatures_claws		2	1.0000	1.0000	0.0000	true		2	2	4.0000		false
 Great_Bastethi_claws	0	4	25	1	0.0000	sword	creatures_claws		3	1.0000	1.0000	0.0000	true		2	2	4.0000		false
+MC_D_staff	0	12	17	35	2.0000	spear	halberd	very_large	4	2.0000	1.0000	0.0000	true	wh_dlc06_unit_contact_discouraged	3	3	3.8000		false
+MC_L_staff	0	12	17	35	2.0000	spear	halberd	very_large	4	2.0000	1.0000	10.0000	true		3	3	3.8000		false
+MC_N_staff	0	12	17	35	2.0000	spear	halberd	very_large	4	2.0000	1.0000	0.0000	true	wh_main_unit_contact_poison	3	3	3.8000		false
 NecrolithcolossusDW_swords	0	24	170	300	6.0000	sword	sword	large	5	3.0000	1.0000	1.0000	false		4	4	3.8000		false
 Obs_Bastethi_claws	0	0	110	160	2.0000	axe	creatures_claws	medium	3	1.5000	1.0000	0.0000	false	wh_dlc06_unit_contact_discouraged	0	5	3.4000		false
+RORarcher_weapon	0	0	25	12	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false	wh_dlc06_unit_contact_sundered_armour	0	10	3.8000		false
+RORgreatsword	0	8	15	32	2.0000	sword	sword		4	1.7000	1.0000	0.0000	false		0	10	3.8000		false
 Serpentguard_sword	0	12	17	35	2.0000	sword	sword_medium	very_large	4	2.0000	1.0000	0.0000	false	wh_main_unit_contact_poison	3	3	3.8000		false
+Serpentguard_swordRoR	0	12	19	37	2.0000	sword	sword_medium	medium	4	2.0000	1.0000	0.0000	false	wh_main_unit_contact_poison	2	2	3.8000		false
 TK_Unit_Boost_Weapon_TKGW_NWGS	0	6	12	25	1.0000	sword	sword		4	1.0000	1.0000	0.0000	false		0	10	3.8000		false
 TK_Unit_Boost_Weapon_TKGW_SKGS	0	4	7	16	1.0000	sword	sword		4	1.0000	1.0000	0.0000	false		0	10	3.8000		false
 TK_Unit_Boost_Weapon_TKGW_TGGS	0	8	13	32	1.0000	sword	sword		4	1.7000	1.0000	0.0000	false		0	10	3.8000		false
@@ -14,14 +20,33 @@ TMB_Cav_Teir3_Spear_Weaponspear	14	0	26	12	2.0000	lance	spear	medium	2	1.0000	1.
 TMB_Cav_Teir3_Sword_Weaponsword	0	10	9	29	1.0000	sword	sword	medium	2	1.0000	1.0000	0.0000	false		0	10	4.3000		false
 TMB_Cav_Teir4_Lancers_Weaponlance	0	0	19	36	2.0000	lance	spear	medium	2	1.5000	1.0000	0.0000	true		0	10	4.3000		false
 TMB_Nehek_Halberd_WeaponHalberd	12	0	14	18	2.0000	spear	halberd		1	1.0000	1.0000	0.0000	false		0	10	4.3000		false
+agemo_carrion_rider	0	0	60	92	7.0000	axe	creatures_claws	medium	3	1.0000	1.0000	0.0000	false		3	3	3.8000		false
 agemo_great_weapon_ushabti	24	0	26	56	2.0000	sword	sword_medium	medium	3	2.0000	1.0000	0.0000	false	wh_dlc06_unit_contact_sundered_armour	2	2	3.8000		false
 agemo_roy_chariot	0	16	22	32	3.0000	axe	creatures_claws	very_large	3	1.0000	1.0000	0.0000	false		2	2	4.0000		false
 agemo_tmb_royal_archers_weapon	0	0	18	7	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false	wh_main_unit_contact_poison	0	10	4.4000		false
 agemo_tomb_guard_archers_weapon	0	0	18	5	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	10	4.3000		false
+bos_hieroscorpion	0	24	330	420	12.0000	sword	sword_huge	very_large	8	3.0000	1.0000	0.0000	false	wh_main_unit_contact_poison	6	10	3.7000		false
+elo_arkhan_ghouls	0	6	44	5	1.0000	sword	creatures_claws		1	1.0000	1.0000	0.0000	false		0	5	4.0000		false
+elo_arkhan_horror	0	10	30	63	3.0000	sword	sword_medium	medium	3	1.5000	1.0000	0.0000	false		0	5	4.0000		false
+ghs_tmb_flying_necrosphinx	0	0	0	0	9.0000	sword	sword_huge		5	1.0000	1.0000	0.0000	true		0	10	3.6000		false
+ghs_tmb_landing_necrosphinx	35	0	180	460	9.0000	sword	sword_huge	large	7	2.0000	1.0000	0.0000	true		6	6	3.6000		false
 khemric_titan_melee	0	24	350	400	12.0000	sword	sword_huge	very_large	8	3.0000	1.0000	0.0000	false		6	10	3.7000		false
 mum_kin_weapon	0	10	17	45	2.0000	sword	sword_medium		3	1.5000	1.0000	0.0000	true		0	10	3.8000		false
+tmb_asp	0	0	17	3	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	5	4.0000		false
+tmb_black	15	0	22	6	2.0000	spear	spear		1	1.0000	1.0000	0.0000	false		0	5	3.8000		false
 tmb_boardingax	0	10	34	12	2.0000	axe	axe	medium	3	2.0000	1.0000	0.0000	false		0	10	3.8000		false
+tmb_bright	0	0	16	17	1.0000	axe	axe		1	1.0000	1.0000	0.0000	false		0	5	4.0000		false
 tmb_corsairs_dual_sword	0	7	22	7	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	10	3.8000		false
+tmb_corsairs_vanguard_dual_sword	0	10	25	9	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	10	3.8000		false
 tmb_dualax	0	0	22	7	1.0000	axe	axe		4	1.0000	1.0000	0.0000	false		0	10	3.8000		false
+tmb_eliteboardingax	0	10	36	14	2.0000	axe	axe	medium	3	2.0000	1.0000	0.0000	false		0	10	3.8000		false
+tmb_ghouls	0	0	44	5	1.0000	sword	creatures_claws		1	1.0000	1.0000	0.0000	false	wh2_main_unit_contact_plague_monk_censer_morale	0	5	4.0000		false
+tmb_golden_host	0	0	28	6	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	5	3.8000		false
+tmb_hawk_legion	0	5	30	10	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	5	3.8000		false
+tmb_mahrak_guard	20	0	18	23	2.0000	spear	halberd		1	1.0000	1.0000	0.0000	false		0	5	4.0000		false
+tmb_nagashguard	0	6	12	24	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	5	3.8000		false
 tmb_sandborn	0	20	30	68	2.0000	axe	axe	medium	4	1.3000	1.0000	1.0000	true		2	2	4.0000		false
+tmb_sepul	0	10	30	63	2.0000	sword	sword_medium	medium	3	1.0000	1.0000	0.0000	false		0	5	4.0000		false
+tmb_serpent	0	0	17	3	0.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	5	4.0000		false
+tmb_skulls	0	6	33	5	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	5	4.0000		false
 wh2_dlc10_tmb_bone_giant	0	0	100	300	5.0000	axe	club_huge	large	4	1.0000	1.2500	0.0000	false		4	4	4.0000		false

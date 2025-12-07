@@ -1,6 +1,7 @@
 key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
 #missile_weapons_tables;11;db/missile_weapons_tables/!!!!!!lost_calm_jurassic_normal
 calm_cerapod_bola	false	calm_cerapod_bola		false
+calm_elite_terradon	false	calm_elite_terradon	javelin	false
 calm_ictlamimus	false	calm_ictlamimus_barbs	steamgun_copter	false
 calm_nuatl	false	calm_nuatl		false
 calm_solar_beam	false	calm_solar_beam	luminark	false

@@ -1,8 +1,12 @@
 key	skeleton
 #battle_animations_table_tables;0;db/battle_animations_table_tables/!!!nag_nagash
+gh1_nag_revenants	ghost01
 hu12m_morghast_dual_axe	humanoid12m
+hu1_burning_dead	humanoid01
+hu1c_nag_doom_legion	humanoid01c
 hu4b_vmp_troll_h1	humanoid04b
 hu4c_vmp_troll_h2	humanoid04c
+hu4e_nag_bone_colossus	humanoid04e
 vigpro_hu4_giant_club	humanoid04
 vigpro_hu5_goblin_bow	humanoid05
 vigpro_hu5_goblin_dual_sword	humanoid05

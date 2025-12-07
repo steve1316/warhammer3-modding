@@ -1,5 +1,6 @@
 key	skeleton
 #battle_animations_table_tables;0;db/battle_animations_table_tables/!!!!ak_teb
+hu1_birdmen_dual_swords_crossbow	humanoid01
 hu1_hr1_teb_warhorse_sword_and_crossbow	humanoid01
 hu1_hr1_teb_warhorse_sword_and_rifle	humanoid01
 hu1_teb_bow_composite	humanoid01

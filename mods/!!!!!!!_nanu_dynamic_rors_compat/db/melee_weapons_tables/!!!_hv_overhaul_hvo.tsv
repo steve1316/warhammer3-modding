@@ -9,5 +9,6 @@ hv_grn_goblin_dual_sword_poison	0	0	22	9	1.0000	sword	sword		1	1.0000	0.7500	0.0
 hv_ksl_inf_halberd	18	0	12	26	1.0000	spear	halberd		1	1.0000	0.5000	0.0000	false		0	10	4.4000		false
 hv_wef_asrai_1h_spear_weak	15	0	16	9	1.0000	spear	spear		1	1.0000	0.5000	0.0000	false		0	10	4.5000		false
 hv_wef_inf_mournsingers_dual_axe	0	5	7	32	1.0000	axe	axe		1	1.0000	1.0000	0.0000	false		0	10	4.7000		false
+wh2_main_skv_sword	0	0	18	4	1.0000	sword	sword		1	1.0000	0.7500	0.0000	false		0	10	4.3000		false
 wh_dlc02_vmp_blood_knight_lance	22	0	26	20	1.0000	lance	spear		1	1.0000	0.5000	0.0000	false		0	10	5.1000		false
 wh_main_brt_spear_2handed	15	0	15	8	1.0000	spear	spear		1	1.0000	0.5000	0.0000	false		0	10	5.7000		false

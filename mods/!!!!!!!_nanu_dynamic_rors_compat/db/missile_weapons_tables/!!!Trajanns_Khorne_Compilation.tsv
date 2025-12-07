@@ -1,5 +1,6 @@
 key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
 #missile_weapons_tables;11;db/missile_weapons_tables/!!!Trajanns_Khorne_Compilation
+SoulGrinderRORZ	true	SoulGrinderRORZ	cannon	false
 eku_heavy_war_sled	false	eku_heavy_war_sled	repeater_gun	false
 eku_thundertusk_missile	false	eku_thundertusk_missile		false
 kho_skaven_globe	false	kho_skaven_globe		false
@@ -35,6 +36,7 @@ traj_kho_steam_tank_cannon	false	traj_kho_steam_tank_cannon	gatling_gun	false
 traj_kho_stegadon_blowpipe	false	traj_kho_stegadon_blowpipe		false
 traj_kho_stegadon_cannon	false	traj_kho_stegadon_cannon		false
 traj_kho_terradon	false	traj_kho_terradon	javelin	false
+traj_kho_thunderbarge_bomb	false	traj_kho_thunderbarge_bomb		false
 traj_kho_troglodon	false	traj_kho_troglodon		false
 zkc_bone_giant	false	zkc_bone_giant		false
 zkc_sepulchral	false	zkc_sepulchral		false

@@ -2,6 +2,7 @@ key	bonus_v_large	bonus_v_infantry	damage	ap_damage	weapon_length	melee_weapon_t
 #melee_weapons_tables;25;db/melee_weapons_tables/!!!loupi_ten_kingdoms_IE
 loupi_avelorn_sword	0	0	22	6	1.0000	sword	sword		4	1.0000	1.0000	0.0000	true	wh_dlc06_unit_contact_blinded	0	10	4.0000		false
 loupi_chracian_pike	25	0	5	20	3.0000	spear	spear		4	1.0000	1.0000	0.0000	false		0	10	4.4000		false
+loupi_dragon_gate_guard_spear	0	8	30	13	2.0000	spear	spear		4	1.0000	1.0000	0.0000	false		0	10	4.0000		false
 loupi_dragon_prince_foot_sword	0	0	30	13	1.0000	sword	sword		4	1.0000	1.0000	0.0000	false		0	10	4.0000		false
 loupi_eagle_rider_claws	15	0	75	75	7.0000	axe	creatures_claws	large	5	1.0000	1.0000	0.0000	false		0	3	4.0000		false
 loupi_ellyrian_lance	0	0	20	11	2.0000	lance	spear		4	1.0000	1.0000	0.0000	false		0	10	4.0000		false
@@ -10,3 +11,4 @@ loupi_mistwalker_spear	16	0	23	12	1.0000	spear	spear		4	1.0000	1.0000	0.0000	tru
 loupi_saphery_pegasus	0	14	20	30	1.0000	sword	sword		4	1.0000	1.0000	0.0000	false		0	10	4.0000		false
 loupi_sea_ranger_sword	0	5	25	10	1.0000	sword	sword		4	1.0000	1.0000	0.0000	false		0	10	4.0000		false
 loupi_shore_rider_spear	0	0	20	8	1.0000	spear	spear		1	1.0000	1.0000	0.0000	false		0	10	4.5000		false
+loupi_ulthane_sword	0	0	30	65	1.0000	sword	sword	medium	2	1.5000	1.0000	0.0000	true		0	10	3.0000		false

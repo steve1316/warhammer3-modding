@@ -1,6 +1,8 @@
 group_name
 #unit_attributes_groups_tables;0;db/unit_attributes_groups_tables/!!!derpy_gunpowder_units
 dwf_gromril_guard
+dwf_gromril_guard_ror
+dwf_hammerguard
 dwf_landship_heavy
 dwf_landship_support
 dwf_storm_goats

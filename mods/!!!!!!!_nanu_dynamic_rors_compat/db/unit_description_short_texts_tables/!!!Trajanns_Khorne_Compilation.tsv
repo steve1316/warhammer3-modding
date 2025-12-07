@@ -1,6 +1,14 @@
 key
 #unit_description_short_texts_tables;0;db/unit_description_short_texts_tables/!!!Trajanns_Khorne_Compilation
+KhoChosenROR
+KhoHoundROR
+KhoKnightsROR
+KhoMinotaurROR
+KhoShrineROR
+SoulGrinderRORZ
+bloodsaurian
 bloodsaurian_normal
+daeprinceror
 eku_arachnarok_spider
 eku_colossal_squig
 eku_dragon_princes_mounted
@@ -21,6 +29,7 @@ kho_skaven_ratling_gun
 kho_skaven_warlock_unique_summon
 kho_skaven_warpfire_thrower
 kho_skaven_warplock_jezzails
+khorneberzerkersror
 traj_aspiring
 traj_aspiring_gw
 traj_bloodangel
@@ -36,6 +45,8 @@ traj_bloodspiller_halberds
 traj_bloodspiller_swords
 traj_bloodstalker
 traj_bloodtracker
+traj_butcher_chosen
+traj_castellan_skullcrusher
 traj_kho_abomination
 traj_kho_bastiladon_engine
 traj_kho_bastiladon_revive
@@ -127,12 +138,14 @@ traj_kho_stegadon_shrine
 traj_kho_stonehorn
 traj_kho_terradon
 traj_kho_things
+traj_kho_thunderbarge
 traj_kho_toad_dragon
 traj_kho_troglodon
 traj_kho_trolls
 traj_kho_ushabti
 traj_kho_zoats
 traj_khornataur_shield
+traj_slayer_riders
 zkc_bone_giant
 zkc_sepulchral
 zkc_tomb_guard
