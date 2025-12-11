@@ -19,6 +19,10 @@ HEADER_ROW_INDEX = 0
 VERSION_ROW_INDEX = 1
 DATA_START_ROW = 2
 
+# Schema cache: maps schema_path -> schema["definitions"] dictionary.
+_SCHEMA_CACHE: Dict[str, Dict] = {}
+
+
 
 def extract_tsv_data(table_name: str):
     """Extract the TSV data for a given table name from the vanilla data tables to a folder prepended with \"vanilla_\".
@@ -364,8 +368,13 @@ def _load_schema_table_info(schema_path: str, table_name: str):
         Fields are sorted by ca_order.
     """
     try:
-        with open(schema_path, "r", encoding="utf-8") as f:
-            schema = json.load(f)["definitions"]
+        # Check cache first.
+        if schema_path not in _SCHEMA_CACHE:
+            # Load schema from file and cache it.
+            with open(schema_path, "r", encoding="utf-8") as f:
+                _SCHEMA_CACHE[schema_path] = json.load(f)["definitions"]
+
+        schema = _SCHEMA_CACHE[schema_path]
 
         if table_name not in schema:
             logging.error(f"Table '{table_name}' not found in schema.")
