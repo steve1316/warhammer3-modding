@@ -2797,4 +2797,20 @@ SUPPORTED_MODS = [
             }
         }
     },
+    {
+        "name": "ADDvisor",
+        "package_name": "pj_advisor.pack",
+        "path": f"{STEAM_LIBRARY_DRIVE}/SteamLibrary/steamapps/workshop/content/1142710/2795714008/pj_advisor.pack",
+        "modified_attributes": [],
+        "pattern_overrides": {},
+        "ignore_generation": True,
+    },
+    {
+        "name": "Kadons Scrolls of Binding",
+        "package_name": "jvj_kadon_6_0.pack",
+        "path": f"{STEAM_LIBRARY_DRIVE}/SteamLibrary/steamapps/workshop/content/1142710/3398096688/jvj_kadon_6_0.pack",
+        "modified_attributes": [],
+        "pattern_overrides": {},
+        "ignore_generation": True,
+    }
 ]
