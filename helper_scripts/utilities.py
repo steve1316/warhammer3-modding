@@ -139,12 +139,8 @@ def load_multiple_tsv_data(folder_path: str, table_name: str = None, schema_path
 
             temp_data, temp_headers, temp_version_info = load_tsv_data(file_path)
             # Convert each row dict to a tuple of items for set storage.
-            logging.info(f"Loaded {len(temp_data)} rows from {file_name}.")
-            logging.info(f"Version info: {temp_version_info}")
-            logging.info(f"Headers: {temp_headers}")
             for row in temp_data:
                 merged_data_set.add(tuple(row.items()))
-                logging.info(row)
             if headers is None:
                 headers = temp_headers
             if version_info is None:
@@ -387,7 +383,6 @@ def _load_schema_table_info(schema_path: str, table_name: str):
         # Sort fields by ca_order.
         fields_sorted = sorted(fields, key=lambda x: x.get("ca_order", 0))
 
-        logging.info(f"Found latest version {latest_version} for table '{table_name}' with {len(fields_sorted)} fields.")
         return latest_version, fields_sorted
     except Exception as e:
         logging.error(f"Error loading schema from {schema_path}: {e}")
