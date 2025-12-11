@@ -377,7 +377,11 @@ def _load_schema_table_info(schema_path: str, table_name: str):
             return None
 
         # Find the version with the highest version number.
-        latest_version_entry = max(table_versions, key=lambda x: x.get("version", 0))
+        # Note that for main_units_tables, there are multiple versions in the 30s that are missing some fields so we need to use the version number less than 30.
+        if table_name == "main_units_tables":
+            latest_version_entry = max(table_versions, key=lambda x: x.get("version", 0) if x.get("version", 0) < 30 else 0)
+        else:
+            latest_version_entry = max(table_versions, key=lambda x: x.get("version", 0))
         latest_version = latest_version_entry.get("version")
         fields = latest_version_entry.get("fields", [])
 
