@@ -1,5 +1,4 @@
-"""Script to generate a formatted list of supported mods that have their melee, firing arcs and projectile velocity data adjusted.
-The lists are to be updated in their respective Steam Workshop pages whenever a new mod is added or removed.
+"""Script to generate a formatted list of supported mods that all of the mods (modified attributes, double unit size, dynamic RORs, land encounters) are using.
 """
 
 import logging
