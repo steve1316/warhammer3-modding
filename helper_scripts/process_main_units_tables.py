@@ -354,11 +354,6 @@ if __name__ == "__main__":
     logging.basicConfig(format="%(asctime)s - %(levelname)s - %(message)s", level=logging.INFO)
     start_time = time.time()
 
-    # Create a list of all the mods that are supported from SUPPORTED_MODS in the "package_name" field.
-    # supported_mods = [mod["package_name"].replace(".pack", "") for mod in SUPPORTED_MODS]
-    # print(json.dumps(supported_mods, indent=4))
-    # exit()
-
     # If the required vanilla data files are not present, extract them from the game.
     for table_name in [
         "main_units_tables",
