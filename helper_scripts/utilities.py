@@ -23,6 +23,13 @@ DATA_START_ROW = 2
 _SCHEMA_CACHE: Dict[str, Dict] = {}
 
 
+FIELD_TYPE_FIXERS = {
+    "I32": int,
+    "F32": float,
+    "StringU8": str,
+    "Bool": lambda x: str(x).lower() in ("true", "1"),
+}
+
 
 def extract_tsv_data(table_name: str):
     """Extract the TSV data for a given table name from the vanilla data tables to a folder prepended with \"vanilla_\".
@@ -643,3 +650,61 @@ def update_tsv_files_to_latest_version(folder_path: str, table_name: str, schema
     for file_name in tsv_files:
         file_path = os.path.join(folder_path, file_name)
         update_single_tsv_file_to_latest_version(file_path, table_name, schema_path)
+
+
+def validate_and_fix_tsv_types(df: pd.DataFrame, table_name: str, schema_path: str = SCHEMA_PATH):
+    """
+    Validate and fix DataFrame values according to schema field types.
+
+    Args:
+        df (pd.DataFrame): Input DataFrame to validate/fix.
+        table_name (str): Name of table in schema.
+        schema_path (str, optional): Path to the schema JSON file. Defaults to SCHEMA_PATH.
+
+    Returns:
+        A new DataFrame with corrected values.
+    """
+    logging.info(f"Validating and fixing TSV data for table '{table_name}' with df having {len(df)} rows.")
+    schema_info = _load_schema_table_info(schema_path, table_name)
+    if schema_info is None:
+        logging.error(f"Schema not found for table '{table_name}'.")
+        return df
+
+    _, schema_fields = schema_info
+
+    # Build the field type mapping.
+    field_types = {field["name"]: field["field_type"] for field in schema_fields}
+
+    for col in df.columns:
+        expected_type = field_types.get(col)
+        if expected_type is None:
+            continue
+
+        fixer = FIELD_TYPE_FIXERS.get(expected_type, str)
+
+        for idx, value in df[col].items():
+            try:
+                if value == "nan":
+                    df.at[idx, col] = ""
+                    continue
+                if value == "" or value is None:
+                    continue
+
+                if expected_type == "I32":
+                    value = value.split(".")[0]
+                fixed_value = fixer(value)
+
+                # Apply formatting for specific types.
+                if expected_type == "F32":
+                    fixed_value = f"{fixed_value:.4f}"
+                else:
+                    fixed_value = str(fixed_value)
+
+                df.at[idx, col] = fixed_value
+
+            except Exception as e:
+                logging.warning(f"Failed to convert value '{value}' in column '{col}' " f"to {expected_type}. Keeping original. Error: {e}")
+                continue
+
+    logging.info(f"Validation and fixing completed for table '{table_name}' with df having {len(df)} rows.")
+    return df
