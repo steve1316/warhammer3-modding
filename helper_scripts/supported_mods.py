@@ -1784,25 +1784,6 @@ SUPPORTED_MODS = [
         "pattern_overrides": {"*": "cth"},
     },
     {
-        "name": "Dead's Kislev Shaman Lord",
-        "package_name": "dead_kislev_lord_shaman.pack",
-        "path": f"{STEAM_LIBRARY_DRIVE}/SteamLibrary/steamapps/workshop/content/1142710/3036658395/dead_kislev_lord_shaman.pack",
-        "modified_attributes": ["melee"],
-        "pattern_overrides": {},
-        "character_overrides": {
-            "available_lords": {
-                "ksl": [
-                    {"land_unit": "ksl_shaman_foot_amber", "agent_subtype": "ksl_shaman_amber", "skill_overrides": "wh3_dlc24_skill_node_set_ksl_hag_witch_top_1,wh3_dlc24_skill_node_set_ksl_hag_witch_top_2,wh3_dlc24_skill_node_ksl_ostankya_top_line_3,wh3_dlc24_skill_node_set_ksl_hag_witch_unique_3,wh_dlc03_skill_magic_beasts_wyssans_wildform,wh_dlc03_skill_magic_beasts_wild_heart,wh_dlc03_skill_magic_beasts_flock_of_doom,wh_dlc03_skill_magic_beasts_panns_impenetrable_pelt,wh_dlc03_skill_magic_beasts_the_amber_spear,wh_main_skill_all_magic_all_06_evasion,wh_main_skill_all_magic_all_07_earthing,wh_main_skill_all_magic_all_08_power_drain,wh_dlc03_skill_magic_beasts_the_curse_of_anraheir,wh_dlc03_skill_magic_beasts_transformation_of_kadon,wh_main_skill_all_magic_all_11_arcane_conduit"},
-                    {"land_unit": "ksl_shaman_horse_amber", "agent_subtype": "ksl_shaman_amber", "skill_overrides": "wh3_dlc24_skill_node_set_ksl_hag_witch_top_1,wh3_dlc24_skill_node_set_ksl_hag_witch_top_2,wh3_dlc24_skill_node_ksl_ostankya_top_line_3,wh3_dlc24_skill_node_set_ksl_hag_witch_unique_3,wh_dlc03_skill_magic_beasts_wyssans_wildform,wh_dlc03_skill_magic_beasts_wild_heart,wh_dlc03_skill_magic_beasts_flock_of_doom,wh_dlc03_skill_magic_beasts_panns_impenetrable_pelt,wh_dlc03_skill_magic_beasts_the_amber_spear,wh_main_skill_all_magic_all_06_evasion,wh_main_skill_all_magic_all_07_earthing,wh_main_skill_all_magic_all_08_power_drain,wh_dlc03_skill_magic_beasts_the_curse_of_anraheir,wh_dlc03_skill_magic_beasts_transformation_of_kadon,wh_main_skill_all_magic_all_11_arcane_conduit"},
-                    {"land_unit": "ksl_shaman_bear_amber", "agent_subtype": "ksl_shaman_amber", "skill_overrides": "wh3_dlc24_skill_node_set_ksl_hag_witch_top_1,wh3_dlc24_skill_node_set_ksl_hag_witch_top_2,wh3_dlc24_skill_node_ksl_ostankya_top_line_3,wh3_dlc24_skill_node_set_ksl_hag_witch_unique_3,wh_dlc03_skill_magic_beasts_wyssans_wildform,wh_dlc03_skill_magic_beasts_wild_heart,wh_dlc03_skill_magic_beasts_flock_of_doom,wh_dlc03_skill_magic_beasts_panns_impenetrable_pelt,wh_dlc03_skill_magic_beasts_the_amber_spear,wh_main_skill_all_magic_all_06_evasion,wh_main_skill_all_magic_all_07_earthing,wh_main_skill_all_magic_all_08_power_drain,wh_dlc03_skill_magic_beasts_the_curse_of_anraheir,wh_dlc03_skill_magic_beasts_transformation_of_kadon,wh_main_skill_all_magic_all_11_arcane_conduit"},
-                    {"land_unit": "ksl_shaman_foot_jade", "agent_subtype": "ksl_shaman_jade", "skill_overrides": "wh3_dlc24_skill_node_set_ksl_hag_witch_top_1,wh3_dlc24_skill_node_set_ksl_hag_witch_top_2,wh3_dlc24_skill_node_ksl_ostankya_top_line_3,wh3_dlc24_skill_node_set_ksl_hag_witch_unique_3wh_dlc,wh_dlc05_skill_magic_life_wizard_awakening_of_the_wood,wh_dlc05_skill_magic_life_life_bloom,wh2_main_skill_magic_life_wizard_earth_blood_lord,wh2_main_skill_magic_life_wizard_shield_of_thorns_lord,wh2_main_skill_magic_life_wizard_flesh_to_stone_lord,wh_main_skill_all_magic_all_06_evasion,wh_main_skill_all_magic_all_07_earthing,wh_main_skill_all_magic_all_08_power_drain,wh2_main_skill_magic_life_wizard_regrowth_lord,wh2_main_skill_magic_life_wizard_the_dwellers_below_lord,wh_main_skill_all_magic_all_11_arcane_conduit"},
-                    {"land_unit": "ksl_shaman_horse_jade", "agent_subtype": "ksl_shaman_jade", "skill_overrides": "wh3_dlc24_skill_node_set_ksl_hag_witch_top_1,wh3_dlc24_skill_node_set_ksl_hag_witch_top_2,wh3_dlc24_skill_node_ksl_ostankya_top_line_3,wh3_dlc24_skill_node_set_ksl_hag_witch_unique_3wh_dlc,wh_dlc05_skill_magic_life_wizard_awakening_of_the_wood,wh_dlc05_skill_magic_life_life_bloom,wh2_main_skill_magic_life_wizard_earth_blood_lord,wh2_main_skill_magic_life_wizard_shield_of_thorns_lord,wh2_main_skill_magic_life_wizard_flesh_to_stone_lord,wh_main_skill_all_magic_all_06_evasion,wh_main_skill_all_magic_all_07_earthing,wh_main_skill_all_magic_all_08_power_drain,wh2_main_skill_magic_life_wizard_regrowth_lord,wh2_main_skill_magic_life_wizard_the_dwellers_below_lord,wh_main_skill_all_magic_all_11_arcane_conduit"},
-                    {"land_unit": "ksl_shaman_bear_jade", "agent_subtype": "ksl_shaman_jade", "skill_overrides": "wh3_dlc24_skill_node_set_ksl_hag_witch_top_1,wh3_dlc24_skill_node_set_ksl_hag_witch_top_2,wh3_dlc24_skill_node_ksl_ostankya_top_line_3,wh3_dlc24_skill_node_set_ksl_hag_witch_unique_3wh_dlc,wh_dlc05_skill_magic_life_wizard_awakening_of_the_wood,wh_dlc05_skill_magic_life_life_bloom,wh2_main_skill_magic_life_wizard_earth_blood_lord,wh2_main_skill_magic_life_wizard_shield_of_thorns_lord,wh2_main_skill_magic_life_wizard_flesh_to_stone_lord,wh_main_skill_all_magic_all_06_evasion,wh_main_skill_all_magic_all_07_earthing,wh_main_skill_all_magic_all_08_power_drain,wh2_main_skill_magic_life_wizard_regrowth_lord,wh2_main_skill_magic_life_wizard_the_dwellers_below_lord,wh_main_skill_all_magic_all_11_arcane_conduit"},
-                ]
-            }
-        },
-    },
-    {
         "name": "Dawi-Zharr Whirlwinds",
         "package_name": "derpy_chd_aeromachines.pack",
         "path": f"{STEAM_LIBRARY_DRIVE}/SteamLibrary/steamapps/workshop/content/1142710/3352512928/derpy_chd_aeromachines.pack",
@@ -2536,13 +2517,6 @@ SUPPORTED_MODS = [
         "package_name": "!barney_bearhero.pack",
         "path": f"{STEAM_LIBRARY_DRIVE}/SteamLibrary/steamapps/workshop/content/1142710/3205562188/!barney_bearhero.pack",
         "modified_attributes": ["melee", "velocity"],
-        "ignore_generation": True,
-    },
-    {
-        "name": "Hooveric Overhaul (HVO) 2.0c",
-        "package_name": "_hv_overhaul_hvo.pack",
-        "path": f"{STEAM_LIBRARY_DRIVE}/SteamLibrary/steamapps/workshop/content/1142710/2862839667/_hv_overhaul_hvo.pack",
-        "modified_attributes": ["melee", "ranged_arc", "velocity"],
         "ignore_generation": True,
     },
     {
