@@ -155,13 +155,14 @@ def load_multiple_tsv_data(folder_path: str, table_name: str = None, schema_path
     return merged_data, headers, version_info
 
 
-def read_and_clean_tsv(tsv_file_path: str, table_type: str, allowed_patterns: List[str] = None):
+def read_and_clean_tsv(tsv_file_path: str, table_type: str, allowed_patterns: List[str] = None, do_not_clean: bool = False):
     """Load and clean TSV file based on the table type.
 
     Args:
         tsv_file_path (str): Path to the TSV file.
         table_type (str): Type of the table to determine cleaning rules.
         allowed_patterns (List[str], optional): Patterns to allow in specific columns.
+        do_not_clean (bool, optional): Whether to not clean the TSV file. Defaults to False.
 
     Returns:
         Cleaned DataFrame.
@@ -169,17 +170,17 @@ def read_and_clean_tsv(tsv_file_path: str, table_type: str, allowed_patterns: Li
     df = pd.read_csv(tsv_file_path, sep="\t")
     df = df.iloc[1:]  # Remove the first row
 
-    if table_type == "main_units_tables":
+    if not do_not_clean and table_type == "main_units_tables":
         df = df[~df["land_unit"].str.contains("_summoned")]
         df = df[~df["land_unit"].str.contains("_dummy")]
         df = df[~((df["multiplayer_cost"] == 0) & ~df["caste"].isin(["lord", "hero", "generic"]))]
 
-    elif table_type == "character_skill_node_set_items_tables":
+    elif not do_not_clean and table_type == "character_skill_node_set_items_tables":
         if allowed_patterns:
             df = df[df["item"].str.contains("|".join(allowed_patterns))]
         df = df[~df["item"].str.contains("dummy")]
 
-    elif table_type == "character_skill_nodes_tables":
+    elif not do_not_clean and table_type == "character_skill_nodes_tables":
         if allowed_patterns:
             df = df[df["key"].str.contains("|".join(allowed_patterns))]
         df = df[~df["key"].str.contains("dummy")]
