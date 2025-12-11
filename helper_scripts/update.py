@@ -39,10 +39,15 @@ if __name__ == "__main__":
 
     # Update the Dynamic RoR mod.
     logging.info("Updating the Dynamic RoR mod...")
-    run_script(["python", "update_dynamic_rors.py"])
+    run_script(["python", "update_dynamic_rors.py", "--reset"])
 
     # Update the modified attribute mods.
-    run_script(["python", "update_modified_attribute_mods.py"])
+    logging.info("Updating the modified attribute mods...")
+    run_script(["python", "update_modified_attribute_mods.py", "--reset"])
+    
+    # Update the double unit size mod.
+    logging.info("Updating the double unit size mod...")
+    run_script(["python", "update_double_unit_size.py", "--reset"])
 
     end_time = round(time.time() - start_time, 2)
-    logging.info(f"Total time for updating: {end_time} seconds or {round(end_time / 60, 2)} minutes.")
+    logging.info(f"Total time for updating all mods: {end_time} seconds or {round(end_time / 60, 2)} minutes.")
