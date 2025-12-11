@@ -1,0 +1,5 @@
+key	ammo_caisson_entity	ammo_caisson_destruction	ammo_caisson_model	ammo_caisson_destroyed_model	articulated_entity	head_offset	engine_articulation_node_index	draughts_articulation_node_index	is_train
+#land_unit_articulated_vehicles_tables;6;db/land_unit_articulated_vehicles_tables/!!!!!!!2xunitsize_compat_!scm_legendary
+dust_unit_nyletoth_chariot		vmp_black_coach_01			dust_unit_nyletoth_chariot	1.8000	2	0	false
+kou_meadow_chariot		vmp_black_coach_01			wh2_main_hef_tiranoc_chariot_articulation	1.6000	2	0	false
+kou_stag_chariot		hef_tiranoc_chariot_hero_destruct			kou_stag_chariot_articulation	1.6000	2	0	false

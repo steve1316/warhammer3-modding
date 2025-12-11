@@ -1,0 +1,23 @@
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/!!!!!!!2xunitsize_compat_@xou_emp
+emp_cav_knight_north_star_warhorse		xou_nordland/emp_cav_knight_north_star_warhorse	hr1\emp\emp_warhorse_armoured\low_poly\emp_horse_armoured_lowlod	1.0000	1.0000	0.0500	
+emp_cav_knights_higth_helms_mount		xou_reikland/emp_cav_knights_higth_helms_horse	hr1\emp\emp_warhorse_armoured\low_poly\emp_horse_armoured_lowlod	1.0000	1.0000	0.0500	
+emp_gelt_pegasus		emp_cha_gelt_pegasus		1.0000	1.0000	0.0500	
+emp_helborg_warhorse		emp_cha_helborg_warhorse		1.0000	1.1500	0.0500	
+emp_iron_colossus	VariantMeshes\wh_variantmodels\gi2\cst\cst_necrofex_colossus\tech	xou_wissenland\emp_iron_colossus		1.0000	1.0000	0.0000	
+emp_mnt_imp_dragon	VariantMeshes\wh_variantmodels\dr1\hef\hef_sun_dragon\tech	xou_reikland/emp_mnt_imp_dragon		0.7800	1.1500	0.0000	
+emp_schwartzhelm_warhorse		emp_cha_schwartzhelm_warhorse		1.0000	1.1500	0.0500	
+emp_sister_sigmar_bertha_warhorse	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	xou_cults\emp_sister_sigmar_bertha_warhorse	hr1\emp\emp_warhorse_armoured\low_poly\emp_horse_armoured_lowlod	1.0000	1.0000	0.0500	
+emp_zintler_warhorse		emp_warhorse_reiksguard_zintlers		1.0000	1.1500	0.0500	
+hkrul_kant_warhorse		xou_colleges\phy_kant_warhorse		1.0000	1.0000	0.0000	
+hkrul_raphael_warhorse		xou_colleges\phy_raphael_warhorse		1.0000	1.0000	0.0000	
+hkrul_setanta_warhorse		xou_colleges\phy_setanta_warhorse		1.0000	1.0000	0.0000	
+hkrul_starke_warhorse		xou_colleges\phy_starke_warhorse		1.0000	1.0000	0.0000	
+hkrul_tochter_warhorse		xou_colleges\phy_tochter_warhorse		1.0000	1.0000	0.0000	
+hkrul_viggo_warhorse		xou_colleges\phy_viggo_warhorse		1.0000	1.0000	0.0000	
+wax_emp_valten_althandin	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	wax_emp_valten_althandin		1.0000	1.0000	0.0500	
+wax_emp_valten_warhorse	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	wax_emp_valten_warhorse		1.0000	1.0000	0.0500	
+xou_artur_griffon	VariantMeshes\wh_variantmodels\bc2\emp\emp_imperial_griffon\tech	xou_nordland/emp_artur_griffon		1.0000	1.6670	0.0000	
+xou_artur_pegasus		xou_nordland/emp_artur_pegasus		1.0000	1.0000	0.0500	
+xou_artur_warhorse_armoured		xou_nordland/emp_artur_warhorse	hr1\emp\emp_warhorse_armoured\low_poly\emp_horse_armoured_lowlod	1.0000	1.0000	0.0500	
+xou_thyrus_warhorse		xou_colleges\xou_thyrus_warhorse		1.0000	1.0000	0.0000	

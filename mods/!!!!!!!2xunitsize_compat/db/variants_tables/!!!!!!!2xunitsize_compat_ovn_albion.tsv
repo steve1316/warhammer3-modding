@@ -1,0 +1,6 @@
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/!!!!!!!2xunitsize_compat_ovn_albion
+albion_warhorse	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	albion_warhorse		1.1000	1.0000	0.0200	
+albion_warhorse_hu1		albion_warhorse		1.1000	1.0000	0.0200	
+albion_warhorse_lord	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	albion_warhorse		1.1000	1.0000	0.0200	
+morrigan_midnight	VariantMeshes\wh_variantmodels\bi1\wef\wef_great_eagle\body\tech	morrigan_midnight		1.0000	1.0000	0.0000	

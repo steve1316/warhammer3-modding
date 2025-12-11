@@ -1,0 +1,5 @@
+key	animation	entity	audio_armour_type	variant	voiceover
+#mounts_tables;10;db/mounts_tables/!!!!!!!2xunitsize_compat_Cathay_helblaster
+mnt_cth_monitor	junk_cannon	cth_monitor	leather	veh_cth_monitor	wh3_main_vo_culture_Cathay
+mnt_cth_tank	junk_cannon	cth_tank	leather	veh_cth_tank	wh3_main_vo_culture_Cathay
+mnt_cth_tank_ror	sj1_wh3_skyjunk01	cth_tank	leather	veh_cth_tank_ror	wh3_main_vo_culture_Cathay

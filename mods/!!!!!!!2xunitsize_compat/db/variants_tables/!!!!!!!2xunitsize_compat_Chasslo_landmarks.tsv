@@ -1,0 +1,4 @@
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/!!!!!!!2xunitsize_compat_Chasslo_landmarks
+Chasslo_Stompin_Cobb		cle_arachnorok_stompin_cobb		1.0000	4.0000	0.0000	
+cle_irrana_knights_steed		cle_irrana_knights_steed	hr1\vmp\vmp_barded_nightmare\low_lod\vmp_barded_nightmare_lowlod	1.0000	1.0000	0.0500	

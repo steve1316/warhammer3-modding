@@ -1,0 +1,7 @@
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/!!!!!!!2xunitsize_compat_!!!!calm_kislev_erengrad
+calm_erengrad_horse_draught		calm_erengrad_horse_draught		1.0000	1.0000	0.0000	
+calm_horse_light	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	calm_horse_light	hr1/ksl/ksl_horse/ksl_horse_light_01_imposter	1.0000	1.0000	0.0000	
+calm_kirasir_horse	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	calm_kirasir_horse	hr1/ksl/ksl_horse/ksl_horse_heavy_white_01_imposter	1.0000	1.0000	0.0000	
+calm_voivoda_warhorse	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	calm_voivoda_warhorse	hr1/ksl/ksl_horse/ksl_horse_heavy_white_01_imposter	1.1500	1.0000	0.0200	
+staff_sled_horse		calm_erengrad_horse_draught		1.0000	1.0000	0.0000	

@@ -1,0 +1,14 @@
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/!!!!!!!2xunitsize_compat_!scm_marienburg
+hkrul_jk_horse	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	hkrul_jk_horse		1.0000	1.1800	0.0500	
+hkrul_manann_barded_warhorse		mar_manann_mount_horse	hr1\emp\emp_warhorse_armoured\low_poly\emp_horse_armoured_lowlod	1.0000	1.0000	0.0500	
+hkrul_manann_griffon	VariantMeshes\wh_variantmodels\bc2\emp\emp_imperial_griffon\tech	mar_griffon		1.0000	1.6670	0.0000	
+hkrul_mar_knights_cleansing_flame		thm_mar_knights_cleansing_flame_horse		1.0000	1.0000	0.0500	
+hkrul_mar_mnt_knights_griffon	VariantMeshes\wh_variantmodels\bc2\emp\emp_imperial_griffon\tech	mar_griffon		1.0000	1.6670	0.0000	
+hkrul_mar_munvard_mount	VariantMeshes\wh_variantmodels\bi2\vmp\vmp_terrorgheist\tech	mrg_munvard_mount		1.0000	1.0000	0.0000	
+hkrul_mar_sons_of_manann_warhorse		mar_sons_of_manann_warhorse		1.0000	1.0000	0.0500	
+hkrul_solkan_horse	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	hkrul_solkan_horse		1.0000	1.0000	0.0500	
+mrg_egmond_logma		mrg_egmond_logma		1.0000	1.0000	0.0000	
+mrg_egmond_warhorse_armoured	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	mrg_egmond_warhorse_armoured		1.0000	1.1000	0.0500	
+mrg_merchant_warhorse_armoured	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	mrg_merchant_warhorse_armoured		1.0000	1.0000	0.0500	
+ovn_mar_warhorse_armoured_war_altar_of_manann		mar_sons_of_manann_warhorse		1.0000	1.0000	0.0500	

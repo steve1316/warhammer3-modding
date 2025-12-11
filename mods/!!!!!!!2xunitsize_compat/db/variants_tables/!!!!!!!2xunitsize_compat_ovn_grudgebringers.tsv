@@ -1,0 +1,13 @@
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/!!!!!!!2xunitsize_compat_ovn_grudgebringers
+black_grail_knights_horse		black_grail_knights_horse		1.0000	1.0000	0.0500	
+carlsson_cavalry_horse	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	ragnars_wolves_horse	hr1\chs\chs_warhorse\low_poly\chs_warhorse_lowlod	1.0850	1.0850	0.0500	
+grail_knights_tristan_de_la_tourtristan_de_la_tour_horse		grail_knights_tristan_de_la_tourtristan_de_la_tour_horse	hr1\brt\brt_horse\imposter\brt_horse_armoured_imposter	1.0000	1.0000	0.0000	
+knights_of_the_realm_bertrand_le_grande_horse		knights_of_the_realm_bertrand_le_grande_horse	hr1\brt\brt_horse\imposter\brt_horse_armoured_imposter	1.0000	1.0000	0.0000	
+ludwig_uberdorf_mechanical_steed_horse	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	ludwig_uberdorf_mechanical_steed_horse		1.0000	1.1500	0.0000	hu1\imposter\humanoid_imposter
+luther_flamenstrike_horse	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	luther_flamenstrike_horse		1.0000	1.1500	0.0000	hu1\imposter\humanoid_imposter
+morgan_bernhardt_horse	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	morgan_bernhardt_horse	hr1\emp\emp_horse\low_poly\emp_horse_lowlod	1.0000	1.1500	0.0000	
+oath_stone_bearers_dwarf_envoy	variantmeshes\wh_variantmodels\throne01\dwf_shield_bearers\tech	dwarf_envoy_oath_stone		1.0000	1.0000	0.0000	
+ragnars_wolves_horse	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	ragnars_wolves_horse	hr1\chs\chs_warhorse\low_poly\chs_warhorse_lowlod	1.0850	1.0850	0.0500	
+vladimir_stormbringer_mount	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	ksl_vlad_horse	hr1/ksl/ksl_horse/ksl_horse_heavy_white_01_imposter	1.0000	1.0000	0.0000	
+wh_van_warhorse_armoured		wh_van_warhorse_armoured	hr1\emp\emp_warhorse_armoured\low_poly\emp_horse_armoured_lowlod	1.0000	1.0000	0.0500	

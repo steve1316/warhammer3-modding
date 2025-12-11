@@ -2383,6 +2383,7 @@ return {
                     {land_unit="calm_xholadocus", origin="!!!lost_calm_jurassic_normal", recruitment_cost=1650, multiplayer_cost=1650},
                     {land_unit="calm_pleuridon", origin="!!!lost_calm_jurassic_normal", recruitment_cost=1550, multiplayer_cost=1550},
                     {land_unit="obsidian_lzd_coatl_young", origin="!obsidian_lustria_rises", recruitment_cost=1850, multiplayer_cost=1700},
+                    {land_unit="obsidian_lzd_coatl_young_tlatl", origin="!obsidian_lustria_rises", recruitment_cost=1850, multiplayer_cost=1700},
                 },
                 ["generic"] = {},
                 ["lord"] = {},

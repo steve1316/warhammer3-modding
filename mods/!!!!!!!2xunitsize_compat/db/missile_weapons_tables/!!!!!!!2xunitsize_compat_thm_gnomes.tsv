@@ -1,0 +1,5 @@
+key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
+#missile_weapons_tables;11;db/missile_weapons_tables/!!!!!!!2xunitsize_compat_thm_gnomes
+hilldwf_gnome_fox_riders	false	hilldwf_gnome_fox_riders	bow	false
+thm_toad_spit	false	thm_toad_spit		false
+thm_toad_spit_lord	false	thm_toad_spit_lord		false

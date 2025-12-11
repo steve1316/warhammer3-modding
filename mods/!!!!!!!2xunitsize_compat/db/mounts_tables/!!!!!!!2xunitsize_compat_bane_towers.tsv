@@ -1,0 +1,4 @@
+key	animation	entity	audio_armour_type	variant	voiceover
+#mounts_tables;10;db/mounts_tables/!!!!!!!2xunitsize_compat_bane_towers
+tz_bane_tower_mount	wm_flying_tower01	tz_bane_tower	body	tz_bane_tower_mount	vo_culture_Invalid
+tz_bane_tower_ror_mount	wm_flying_tower01	tz_bane_tower	body	tz_bane_tower_ror_mount	vo_culture_Invalid

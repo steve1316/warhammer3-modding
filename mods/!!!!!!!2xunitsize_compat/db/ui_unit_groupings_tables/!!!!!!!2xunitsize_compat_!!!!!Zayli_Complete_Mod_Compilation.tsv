@@ -1,0 +1,5 @@
+key	icon	parent_group
+#ui_unit_groupings_tables;1;db/ui_unit_groupings_tables/!!!!!!!2xunitsize_compat_!!!!!Zayli_Complete_Mod_Compilation
+brt_sergeant_at_arms	zayli_wh_main_brt_sergeant	heroes_agents
+brt_warden_at_arms	zayli_wh_main_brt_warden	commander
+cowtapult	catapult	artillery_war_machines

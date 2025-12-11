@@ -1,0 +1,4 @@
+key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
+#missile_weapons_tables;11;db/missile_weapons_tables/!!!!!!!2xunitsize_compat_Cathay_helblaster
+junk_cannon	false	sky_junk_cannon	cannon	false
+rocket_sky_junk_ror	false	rocket_sky_junk_ror	rocket_battery	false

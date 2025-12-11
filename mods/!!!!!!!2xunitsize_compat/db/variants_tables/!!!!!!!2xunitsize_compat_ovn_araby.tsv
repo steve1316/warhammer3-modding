@@ -1,0 +1,24 @@
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/!!!!!!!2xunitsize_compat_ovn_araby
+ovn_arb_horse	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	arb_horse	hr1\brt\brt_horse\imposter\brt_horse_armoured_imposter	1.0000	1.0000	0.0500	
+ovn_arb_horse_desert_dogs	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	arb_desert_dog_horse	hr1\brt\brt_horse\imposter\brt_horse_armoured_imposter	1.0000	1.0000	0.0500	
+ovn_arb_mnt_camel	variantmeshes/wh_variantmodels/cm1/arb/arb_camel/tech	arb_camel		1.0000	1.0000	0.0000	
+ovn_arb_mnt_camel_armoured	variantmeshes/wh_variantmodels/cm1/arb/arb_camel/tech	arb_camel_armoured		1.0000	1.0000	0.0000	
+ovn_arb_mnt_camel_armoured_ror	variantmeshes/wh_variantmodels/cm1/arb/arb_camel/tech	arb_camel_armoured_ror		1.0000	1.0000	0.0000	
+ovn_arb_mnt_elephant	variantmeshes/wh_variantmodels/el1/arb/arb_new_elephants/arb_base_elephant/tech	arb_elephant		1.0000	1.1500	0.0000	
+ovn_arb_mnt_fatandira_roc	VariantMeshes\wh_variantmodels\bi1\wef\wef_great_eagle\body\tech	arb_fatandira_roc		1.0000	1.0000	0.0000	
+ovn_arb_mnt_fatandira_warhorse	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	arb_fatandira_warhorse	hr1\brt\brt_horse\imposter\brt_horse_armoured_imposter	0.9500	0.9500	0.0000	
+ovn_arb_mnt_flying_carpet	VariantMeshes/wh_variantmodels/fc2/arb/arb_flying_carpet/tech/	arb_flying_carpet		0.6000	1.0000	0.0000	
+ovn_arb_mnt_flying_carpet_ror	VariantMeshes/wh_variantmodels/fc2/arb/arb_flying_carpet/tech/	arb_flying_carpet_ror		0.6000	1.0000	0.0000	
+ovn_arb_mnt_hippo	variantmeshes/wh_variantmodels/bo1/arb/arb_hippo/tech	arb_hippo		1.0000	1.5000	0.0000	
+ovn_arb_mnt_knight_warhorse	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	arb_knight_warhorse	hr1\brt\brt_horse\imposter\brt_horse_armoured_imposter	1.0000	1.0000	0.0500	
+ovn_arb_mnt_royal_war_elephant	variantmeshes/wh_variantmodels/el1/arb/arb_new_elephants/arb_royal_elephant/tech	arb_royal_war_elephant		1.4000	1.4000	0.0000	
+ovn_arb_mnt_sheikh_warhorse	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	arb_sheikh_warhorse	hr1\brt\brt_horse\imposter\brt_horse_armoured_imposter	1.0000	1.0000	0.0500	
+ovn_arb_mnt_sipahis_warhorse	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	arb_sipahis_warhorse	hr1\brt\brt_horse\imposter\brt_horse_armoured_imposter	1.0000	1.0000	0.0500	
+ovn_arb_mnt_sipahis_warhorse_ror	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	arb_sipahis_warhorse_ror	hr1\brt\brt_horse\imposter\brt_horse_armoured_imposter	1.0000	1.0000	0.0500	
+ovn_arb_mnt_war_elephant	variantmeshes/wh_variantmodels/el1/arb/arb_new_elephants/arb_war_elephant/tech	arb_war_elephant		1.3500	1.3500	0.0000	
+ovn_arb_mnt_war_elephant_ror_1	variantmeshes/wh_variantmodels/el1/arb/arb_new_elephants/arb_ravager_elephant/tech	arb_kasabar_elephant		1.3000	3.2000	0.0000	
+ovn_arb_mnt_war_elephant_ror_2	variantmeshes/wh_variantmodels/el1/arb/arb_new_elephants/arb_war_elephant/tech_ror	arb_cannon_elephant		1.3500	1.3500	0.0000	
+ovn_arb_veh_air_skiff	warmachines/aircraft/arb_air_skiff/tech/	arb_air_skiff		1.0000	1.0000	0.0000	
+ovn_radiant_pegasus_emir	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	ovn_radiant_pegasus_emir		1.0000	1.0000	0.0500	
+ovn_radiant_pegasus_sheikh	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	ovn_radiant_pegasus_sheikh		1.0000	1.0000	0.0500	

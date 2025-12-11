@@ -1,0 +1,4 @@
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/!!!!!!!2xunitsize_compat_@ror_series_compilation
+deco_burning_dark_mount		deco_burning_dark_mount	rp3\def\def_cold_one\imposter\def_armoured_cold_one_imposter	1.0000	1.0000	0.0000	
+deco_grof_riders_warhorse		deco_grof_riders_warhorse	hr1\emp\emp_warhorse_armoured\low_poly\emp_horse_armoured_lowlod	1.0000	1.0000	0.0000	

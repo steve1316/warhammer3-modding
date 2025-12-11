@@ -7,7 +7,6 @@ dwf_autocannon_2handed	humanoid03
 dwf_flame_turret	steamtank01turret01
 dwf_gatling_turret	steamtank01turret01
 dwf_gunaxe_2handed_chd	humanoid03
-dwf_hu3_multishot_4shots	humanoid03
 dwf_landship_boar_roast	dreadquakemortar01
 dwf_landship_huge	dreadquakemortar01
 dwf_landship_with_tracks	dreadquakemortar01
@@ -21,4 +20,3 @@ dwf_rocket_barrage	humanoid03
 dwf_tankard_riders	humanoid03
 dwf_triplecannon_turret	steamtank01turret01
 dwf_truck_tracks	dreadquakemortar01
-dwf_volleygun_dual	humanoid03

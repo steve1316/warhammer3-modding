@@ -1,0 +1,4 @@
+key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
+#missile_weapons_tables;11;db/missile_weapons_tables/!!!!!!!2xunitsize_compat_dead_jade_army_pack
+jade_bow_arrow	false	jade_bow_arrow	bow	false
+repeater_bolt	false	repeater_bolt	crossbow	false

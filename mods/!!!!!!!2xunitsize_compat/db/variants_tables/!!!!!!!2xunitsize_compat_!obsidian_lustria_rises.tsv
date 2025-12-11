@@ -1,0 +1,10 @@
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/!!!!!!!2xunitsize_compat_!obsidian_lustria_rises
+lzd_cold_ones_riders_blessed_mount		lzd_cold_one_blessed_spawn_mount		1.1500	1.0000	0.0000	
+lzd_horned_ones_riders_blessed_mount		lzd_horned_one_blessed_spawn_mount		1.1500	1.0000	0.0000	
+lzd_ripperdactyl_riders_the_wind_that_hungers_ror_mount		lzd_ripperdactyl_the_wind_that_hungers_mount		1.0000	1.0000	0.0000	
+lzd_skink_culchan_riders_mount		lzd_culchan_mount		1.1500	1.1500	0.0000	
+lzd_skink_horned_ones_riders_blessed_mount		lzd_horned_one_skink_blessed_spawn_mount		1.1000	1.1000	0.0000	
+lzd_skink_horned_ones_riders_mount		lzd_horned_one_skink_mount		1.1000	1.1000	0.0000	
+lzd_terradon_riders_wing_of_sotek_ror_mount		lzd_terradon_wing_of_sotek_mount		1.0000	1.0000	0.0000	
+obsidian_lzd_mnt_troglodon_tehenhauin	VariantMeshes\wh_variantmodels\rp3b\lzd\lzd_troglodon\tech	lzd_troglodon_tehenhauin		1.3000	1.0000	0.0000	

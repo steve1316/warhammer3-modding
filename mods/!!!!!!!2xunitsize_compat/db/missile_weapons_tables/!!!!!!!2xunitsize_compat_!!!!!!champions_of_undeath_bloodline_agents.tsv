@@ -1,0 +1,5 @@
+key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
+#missile_weapons_tables;11;db/missile_weapons_tables/!!!!!!!2xunitsize_compat_!!!!!!champions_of_undeath_bloodline_agents
+cou_lahmian_enclave_assassin_arrow	false	cou_lahmian_enclave_assassin_arrow	bow_LH	false
+cou_lahmian_enclave_assassin_misdirection_mirror_arrow	false	cou_lahmian_enclave_assassin_misdirection_mirror_arrow	bow_LH	false
+disc_rider_fire_bolt	false	disc_rider_fire_bolt		false

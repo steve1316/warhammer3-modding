@@ -1,0 +1,3 @@
+key	ammo_caisson_entity	ammo_caisson_destruction	ammo_caisson_model	ammo_caisson_destroyed_model	articulated_entity	head_offset	engine_articulation_node_index	draughts_articulation_node_index	is_train
+#land_unit_articulated_vehicles_tables;6;db/land_unit_articulated_vehicles_tables/!!!!!!!2xunitsize_compat_laf_hag_mothers
+laf_ksl_cha_hag_mother_sled		vmp_black_coach_01			laf_ksl_cha_hag_mother_sled_articulation	2.0000	2	0	false

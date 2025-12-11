@@ -1,0 +1,10 @@
+key	bonus_v_large	bonus_v_infantry	damage	ap_damage	weapon_length	melee_weapon_type	audio_type	splash_attack_target_size	splash_attack_max_attacks	splash_attack_power_multiplier	building_damage_multiplier	ignition_amount	is_magical	contact_phase	collision_attack_max_targets	collision_attack_max_targets_cooldown	melee_attack_interval	scaling_damage	is_spell
+#melee_weapons_tables;25;db/melee_weapons_tables/!!!!!!!2xunitsize_compat_pol_sla_ind
+sla_bashabet	0	0	120	300	2.0000	sword	Leviathan_Claw	medium	9	1.2000	0.7500	0.0000	true	pol_bleed_lord	0	10	3.5000		false
+sla_daemonette_talwar	0	12	34	56	3.0000	scimitar	sword	medium	6	1.0000	1.2500	0.0000	true	wh3_main_unit_contact_soporific_musk	0	10	4.0000		false
+sla_rajput_katar	0	9	18	9	1.0000	sword	sword_claws		2	0.8000	0.7500	0.0000	false	pol_bleed	0	10	3.5000		false
+sla_rajput_khanda	0	0	8	34	1.5000	sword	sword	small	3	1.0000	0.7500	0.0000	false		0	10	4.4000		false
+sla_rajput_talwar	0	0	9	26	1.0000	scimitar	sword	small	2	0.8000	0.7500	0.0000	false		0	10	4.1000		false
+sla_rakshasa_axe	0	0	44	72	2.0000	axe	club_medium	medium	5	2.0000	1.2500	0.0000	false		0	10	3.5000		false
+sla_sura_palms	20	0	180	280	2.0000	axe	club_huge	large	6	3.0000	2.0000	0.0000	true		0	10	3.2000		false
+sla_yaksha_glaive	9	0	12	26	2.0000	lance	halberd	small	2	1.4000	0.7500	0.0000	true		0	10	4.2000		false

@@ -1,0 +1,4 @@
+key	ammo_caisson_entity	ammo_caisson_destruction	ammo_caisson_model	ammo_caisson_destroyed_model	articulated_entity	head_offset	engine_articulation_node_index	draughts_articulation_node_index	is_train
+#land_unit_articulated_vehicles_tables;6;db/land_unit_articulated_vehicles_tables/!!!!!!!2xunitsize_compat_!!scm_motm
+gnoblar_spider_chariot		vmp_black_coach_01			gnoblar_spider_chariot_articulation	1.3000	1	2	false
+hunter_spider_chariot		vmp_black_coach_01			hunter_spider_chariot_articulation	1.3000	1	2	false

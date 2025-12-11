@@ -1,0 +1,4 @@
+key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
+#missile_weapons_tables;11;db/missile_weapons_tables/!!!!!!!2xunitsize_compat_possibly_a_verminlord
+skv_verminlord_deceiver_throwing_star	false	skv_verminlord_deceiver_warpstar_projectile	javelin	false
+skv_verminlord_warpseer_scry_orb	false	skv_verminlord_warpseer_scry_orb_projectile	globe	false

@@ -1,0 +1,11 @@
+key	ammo_caisson_entity	ammo_caisson_destruction	ammo_caisson_model	ammo_caisson_destroyed_model	articulated_entity	head_offset	engine_articulation_node_index	draughts_articulation_node_index	is_train
+#land_unit_articulated_vehicles_tables;6;db/land_unit_articulated_vehicles_tables/!!!!!!!2xunitsize_compat_bodyguards_allinone_en
+banshee_mount1		vmp_black_coach_01			banshee_mount1_articulation	1.4000	2	0	false
+chd_bodyguard_war_machine		vmp_black_coach_01			chd_bodyguard_war_machine	0.0000	0	0	true
+chd_bodyguard_war_machine_1carriage		vmp_black_coach_01			chd_bodyguard_war_machine_1carriage	0.0000	0	0	true
+chd_bodyguard_war_machine_2carriage		vmp_black_coach_01			chd_bodyguard_war_machine_2carriage	0.0000	0	0	true
+chd_bodyguard_war_machine_3carriage		vmp_black_coach_01			chd_bodyguard_war_machine_3carriage	0.0000	0	0	true
+chd_zhatan_war_machine1		vmp_black_coach_01			chd_bodyguard_war_machine_skullcracker	0.0000	0	0	true
+cth_bodyguard_chariot		vmp_black_coach_01			cth_bodyguard_chariot	0.0000	2	0	false
+ksl_boyar_mount1		vmp_black_coach_01			ksl_boyar_mount1	2.2000	2	0	false
+ksl_boyar_mount2		vmp_black_coach_01			ksl_boyar_mount2	2.2000	2	0	false

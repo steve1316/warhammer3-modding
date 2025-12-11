@@ -1,0 +1,30 @@
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/!!!!!!!2xunitsize_compat_ab_mixu_legendary_lords
+mixu_brt_adalhard_mount_barded_warhorse	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	mixu_brt_adalhard_mount_barded_warhorse		1.0000	1.0000	0.0000	
+mixu_brt_amalric_de_gaudaron_mount_barded_warhorse	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	mixu_brt_amalric_de_gaudaron_mount_barded_warhorse		1.0000	1.0000	0.0000	
+mixu_brt_bohemond_mount_barded_warhorse	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	mixu_brt_bohemond_mount_barded_warhorse		1.0000	1.0000	0.0000	
+mixu_brt_cassyon_mount_barded_warhorse	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	mixu_brt_cassyon_mount_barded_warhorse		1.0000	1.0000	0.0000	
+mixu_brt_cassyon_mount_pegasus	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	mixu_brt_cassyon_mount_pegasus		1.0000	1.0000	0.0000	
+mixu_brt_chilfroy_mount_barded_warhorse	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	mixu_brt_chilfroy_mount_barded_warhorse		1.0000	1.0000	0.0000	
+mixu_brt_knights_of_origo_mount_warhorse	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	mixu_brt_knights_of_origo_mount_warhorse		1.0000	1.0000	0.0000	
+mixu_chs_egrimm_mount_chaos_dragon	VariantMeshes\_VariantModels\dragon01b\chs\chs_chaos_dragon\tech	mixu_chs_egrimm_mount_chaos_dragon		1.0000	1.3000	0.0000	
+mixu_emp_aldebrand_ludenhof_mount_barded_warhorse	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	mixu_emp_aldebrand_ludenhof_mount_barded_warhorse		1.0000	1.0000	0.0000	
+mixu_emp_daughters_of_rhya_mount_stag		mixu_emp_daughters_of_rhya_mount_stag	st1\wef\wef_great_stag\wef_great_stag_imposter	1.0000	1.0000	0.0000	
+mixu_emp_helmut_feuerbach_mount_barded_warhorse	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	mixu_emp_helmut_feuerbach_mount_barded_warhorse		1.0000	1.0000	0.0000	
+mixu_emp_helmut_feuerbach_mount_demigryph	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	mixu_emp_helmut_feuerbach_mount_demigryph		1.0000	1.1000	0.0000	
+mixu_emp_leviathan	VariantMeshes/wh_variantmodels/cr1/cst/cst_leviathan/tech	mixu_emp_leviathan		1.0000	2.0000	0.0000	
+mixu_emp_luthor_huss_mount_warhorse	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	mixu_emp_luthor_huss_mount_warhorse		1.0000	1.0000	0.0000	
+mixu_emp_marius_leitdorf_mount_barded_warhorse	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	mixu_emp_marius_leitdorf_mount_barded_warhorse		1.0000	1.0000	0.0000	
+mixu_emp_mount_promethean_riders	VariantMeshes/wh_variantmodels/cr1/cst/emp_promethean_riders/tech/	mixu_emp_promethean_riders_platform_01		1.0000	0.8000	0.0000	
+mixu_emp_theoderic_gausser_mount_griffon	VariantMeshes\wh_variantmodels\bc2\emp\emp_imperial_griffon\tech	mixu_emp_theoderic_gausser_mount_griffon		1.6275	1.1500	0.0000	
+mixu_emp_valmir_von_raukov_mount_barded_warhorse	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	mixu_emp_valmir_von_raukov_mount_barded_warhorse		1.0000	1.0000	0.0000	
+mixu_emp_vorn_thugenheim_mount_barded_warhorse	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	mixu_emp_vorn_thugenheim_mount_barded_warhorse		1.0000	1.0000	0.0000	
+mixu_emp_warrior_priest_of_taal_mount_stag	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	mixu_emp_daughters_of_rhya_mount_stag	st1\wef\wef_great_stag\wef_great_stag_imposter	1.0000	1.0000	0.0000	
+mixu_emp_wolfram_hertwig_mount_griffon	VariantMeshes\wh_variantmodels\bc2\emp\emp_imperial_griffon\tech	mixu_emp_wolfram_hertwig_mount_griffon		1.6275	1.1500	0.0000	
+mixu_hef_caradryan_mount_frostheart_phoenix	VariantMeshes\wh_variantmodels\bi1\hef\hef_great_eagle\tech	mixu_hef_caradryan_mount_frostheart_phoenix		1.0000	1.0000	0.0000	
+mixu_skv_feskit_mount_bonebreaker	VariantMeshes\_VariantModels\humanoid18\skv\skv_bone_breaker\tech	mixu_skv_feskit_mount_bonebreaker		1.0000	1.6000	0.0000	
+mixu_tmb_ramhotep_mount_necroserpent	VariantMeshes\wh_variantmodels\dr1\vmp\vmp_zombie_dragon\tech	mixu_tmb_ramhotep_mount_necroserpent	sn1\tmb\tmb_necroserpents\imposter\tmb_necroserpent_imposter	1.0000	1.0000	0.0000	
+mixu_tmb_ramhotep_mount_warsphinx	VariantMeshes\wh_variantmodels\bc1\tmb\tmb_warsphinx\tech	mixu_tmb_ramhotep_mount_warsphinx		1.0000	1.0000	0.0000	
+mixu_tmb_tutankhanut_mount_warsphinx	VariantMeshes\wh_variantmodels\bc1\tmb\tmb_warsphinx\tech	mixu_tmb_tutankhanut_mount_warsphinx		1.0000	1.0000	0.0000	
+mixu_vmp_dieter_helsnicht_mount_manticore	VariantMeshes\_VariantModels\bigcat03\chaos_undivided\saddles\tech	mixu_vmp_dieter_helsnicht_mount_manticore		1.0000	1.0000	0.0000	
+mixu_wef_naieth_mount_great_eagle	VariantMeshes\wh_variantmodels\bi1\hef\hef_great_eagle\tech	mixu_wef_naieth_mount_great_eagle		1.0000	1.0000	0.0000	

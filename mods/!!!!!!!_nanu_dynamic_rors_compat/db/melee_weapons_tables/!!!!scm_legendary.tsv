@@ -6,7 +6,6 @@ hunt_dwf_slayer_pirate_axe	22	0	28	12	1.0000	axe	axe		1	0.3000	1.0000	0.0000	fal
 kho_skullreapers_wep	0	0	34	78	3.0000	axe	axe	medium	3	1.5000	1.2500	0.0000	true		0	10	4.0000		false
 kou_laddrielle_wolves_claws	0	0	28	19	1.0000	axe	sword_claws	medium	2	1.0000	1.2500	0.0000	false	wh2_dlc17_unit_contact_dazed	0	10	4.0000		false
 kou_queen_marrisith_chariot	0	25	100	300	6.0000	axe	sword_claws	very_large	4	1.0000	1.2500	0.0000	true		4	4	4.0000		false
-str_hkrul_knights_cleansing_flame	8	0	35	15	1.0000	lance	spear		1	1.0000	0.7500	0.0000	false		0	10	5.1000		false
 str_wrathmonger_wep	0	15	102	36	3.0000	axe	axe	medium	6	1.3000	0.7500	0.0000	true		0	10	3.8000		false
 wh2_dlc16_wef_kou_bowmen_units_swords	0	5	25	7	1.0000	sword	sword		4	1.0000	1.0000	0.0000	false		0	10	4.4000		false
 wh2_dlc16_wef_kou_eonir_swords	8	0	24	12	1.0000	sword	sword		4	1.0000	1.0000	0.0000	false		0	10	2.6000		false

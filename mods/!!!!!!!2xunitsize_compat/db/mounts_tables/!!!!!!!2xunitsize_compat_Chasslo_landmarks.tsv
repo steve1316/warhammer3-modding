@@ -1,0 +1,4 @@
+key	animation	entity	audio_armour_type	variant	voiceover
+#mounts_tables;10;db/mounts_tables/!!!!!!!2xunitsize_compat_Chasslo_landmarks
+Chasslo_Stompin_Cobb	sp1_arachnarok	wh_main_monster_spider_arachnarok_blood	body	Chasslo_Stompin_Cobb	wh_main_vo_culture_Spider_Small
+cle_irrana_knights_steed	hr1_warhorse	wh_dlc02_vmp_cavalry_standard_blood_knight_blood	leather	cle_irrana_knights_steed	wh_main_vo_culture_Skeletal_horse

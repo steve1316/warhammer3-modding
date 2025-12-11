@@ -1,0 +1,5 @@
+key	animation	entity	audio_armour_type	variant	voiceover
+#mounts_tables;10;db/mounts_tables/!!!!!!!2xunitsize_compat_@ror_series_compilation
+deco_burning_dark_mount	rp3_cold_one	wh2_main_def_cavalry_cold_one_blood	body	deco_burning_dark_mount	wh2_main_vo_culture_Dark_Elves
+deco_grof_riders_warhorse	hr1_warhorse	wh_main_cavalry_slow_blood	plate	deco_grof_riders_warhorse	wh_main_vo_culture_Horse
+deco_ravenspears_mount	hr1_warhorse	wh2_main_def_cavalry_fast_170_blood	leather	wh_brt_warhorses	wh_main_vo_culture_Horse

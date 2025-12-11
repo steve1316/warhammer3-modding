@@ -1,0 +1,6 @@
+key	icon	parent_group
+#ui_unit_groupings_tables;1;db/ui_unit_groupings_tables/!!!!!!!2xunitsize_compat_ovn_albion
+ovn_centaur_great_weapons	centaur_great_weapon	cavalry_chariots
+ovn_druids	wh2_main_infantry_druid	infantry
+ovn_fenbeasts	fenbeast	monster_beasts
+ovn_truthsayer_lore	truthsayer	heroes_agents

@@ -1,0 +1,6 @@
+key	value
+#_kv_unit_ability_scaling_rules_tables;0;db/_kv_unit_ability_scaling_rules_tables/!!!!!!!2xunitsize_compat_vanilla
+direct_damage_large	1.5000
+direct_damage_medium	1.0000
+direct_damage_small	0.5000
+direct_damage_ultra	2.0000

@@ -3,4 +3,3 @@ variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	sc
 gra_longship	warmachines/aircraft/gra_longship/gra_longship_tech/	gra_longship		1.0000	1.0200	0.0000	
 hkrul_geimdall_longship	warmachines/aircraft/nor_longship/totn_longship_tech	gei_longship		1.0000	1.0600	0.0000	
 sarl_birna_longship	warmachines/aircraft/nor_longship/sarl_longship_tech/	sarl_longship		1.0000	0.9700	0.0000	
-wh_mod_nor_cold_one_lzd	VariantMeshes\wh_variantmodels\rp3\def\def_cold_one\tech	lzd_cold_one	rp3\lzd\lzd_cold_one\imposter\lzd_cold_one_imposter	1.1500	1.0000	0.0500	

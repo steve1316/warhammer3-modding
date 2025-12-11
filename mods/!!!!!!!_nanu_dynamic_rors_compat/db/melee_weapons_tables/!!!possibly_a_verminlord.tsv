@@ -1,6 +1,6 @@
 key	bonus_v_large	bonus_v_infantry	damage	ap_damage	weapon_length	melee_weapon_type	audio_type	splash_attack_target_size	splash_attack_max_attacks	splash_attack_power_multiplier	building_damage_multiplier	ignition_amount	is_magical	contact_phase	collision_attack_max_targets	collision_attack_max_targets_cooldown	melee_attack_interval	scaling_damage	is_spell
 #melee_weapons_tables;25;db/melee_weapons_tables/!!!possibly_a_verminlord
-skv_verminlord_corruptor	0	15	300	300	12.0000	scimitar	sword_claws	large	20	2.0000	1.2500	0.0000	true	wh2_main_unit_contact_plague_monk_censer_morale	0	10	4.0000		false
-skv_verminlord_deceiver	0	0	50	550	12.0000	knife	sword	large	12	2.0000	1.2500	0.0000	true	wh2_main_unit_contact_weeping_blade	0	10	4.0000		false
-skv_verminlord_warbringer	15	0	150	450	12.0000	scimitar	sword_claws	large	16	2.0000	1.2500	0.0000	true		0	10	4.0000		false
-skv_verminlord_warpseer	0	0	350	250	12.0000	scimitar	creatures_claws	large	12	2.0000	1.2500	0.0000	true	wh2_dlc14_unit_contact_poisoned_wind	0	10	4.0000		false
+skv_verminlord_corruptor	0	15	250	250	12.0000	scimitar	sword_claws	large	20	2.0000	1.2500	0.0000	true	wh2_main_unit_contact_plague_monk_censer_morale	0	10	4.0000		false
+skv_verminlord_deceiver	0	0	125	375	12.0000	knife	sword	large	12	2.0000	1.2500	0.0000	true	wh2_main_unit_contact_weeping_blade	0	10	4.0000		false
+skv_verminlord_warbringer	15	0	100	425	12.0000	scimitar	sword_claws	large	16	2.0000	1.2500	0.0000	true		0	10	4.0000		false
+skv_verminlord_warpseer	0	0	325	125	12.0000	scimitar	creatures_claws	large	12	2.0000	1.2500	0.0000	true	wh2_dlc14_unit_contact_poisoned_wind	0	10	4.0000		false

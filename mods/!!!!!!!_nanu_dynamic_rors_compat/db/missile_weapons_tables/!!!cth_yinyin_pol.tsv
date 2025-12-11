@@ -1,8 +1,6 @@
 key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
 #missile_weapons_tables;11;db/missile_weapons_tables/!!!cth_yinyin_pol
 ansatsu_bombs	false	ansatsu_bombs		false
-cth_golden_heron_0	false	golden_heron_main_guns	grand_cannon	false
-cth_golden_heron_2_magma_repeater	false	golden_heron_magma_repeater	wh3_dlc23_iron_daemon_carronade	true
 marine_carbine	false	marine_carbine	deck_gunner_cannon	false
 whaler_gun	false	whaler_gun	cannon	false
 yicha_bow	false	yicha_poison_arrows	bow	false

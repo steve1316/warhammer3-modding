@@ -1,0 +1,10 @@
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/!!!!!!!2xunitsize_compat_The_Gunpowder_Road2.
+cth_juma_zhendi		cth_juma_zhendi		1.0000	1.0000	0.0000	
+cth_mnt_murenhuoma	animations/battle/horse01/cth_murenhuoma/tech	cth_horse_murenhuoma	hr1/cth/cth_horse/cth_horse_light_01_imposter	1.0000	1.0000	0.0500	
+cth_ogr_mount		cth_ogr_mount		1.0000	1.0000	0.0500	
+wh3_main_cth_juma		cth_juma		1.0000	1.0000	0.0000	
+wh3_main_cth_juma_dunpai		cth_juma_dunpai		1.0000	1.0000	0.0000	
+wh3_main_cth_juma_mu		cth_juma_mu		1.0000	1.0000	0.0000	
+wh3_main_cth_veh_sky_junk_ror	warmachines/aircraft/cth_sky_junk_ror/tech01	cth_sky_junk02		1.0000	1.0000	0.0000	
+wh3_main_cth_veh_sky_lantern_ror	warmachines/aircraft/cth_sky_junk_ror/tech02	cth_sky_lantern02		1.0000	1.0000	0.0000	

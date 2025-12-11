@@ -1,0 +1,482 @@
+key	bonus_v_large	bonus_v_infantry	damage	ap_damage	weapon_length	melee_weapon_type	audio_type	splash_attack_target_size	splash_attack_max_attacks	splash_attack_power_multiplier	building_damage_multiplier	ignition_amount	is_magical	contact_phase	collision_attack_max_targets	collision_attack_max_targets_cooldown	melee_attack_interval	scaling_damage	is_spell
+#melee_weapons_tables;25;db/melee_weapons_tables/!!!!!!!2xunitsize_compat_bodyguards_allinone_en
+assassin_bodyguard1	0	0	45	15	1.0000	sword	sword	medium	2	0.0000	1.0000	0.0000	false		0	10	4.0000		false
+assassin_bodyguard2	0	0	45	15	1.0000	sword	sword	medium	2	0.0000	1.0000	0.0000	false		0	10	4.0000		false
+assassin_bodyguard3	0	10	25	65	1.0000	sword	sword	medium	2	0.5000	2.0000	0.0000	false	wh2_main_unit_contact_weeping_blade	0	10	2.5000	skv_bodyguard_scale_1_25	false
+assassin_bodyguard4	20	0	25	65	2.0000	spear	halberd	medium	3	0.5000	2.0000	0.0000	false	wh2_main_unit_contact_weeping_blade	0	10	4.0000		false
+banshee_bodyguard1	0	0	0	100	1.0000	knife	creatures_claws	medium	3	0.5000	1.0000	0.0000	true	banshee_bodyguard1_contact	0	10	3.0000		false
+banshee_bodyguard2	0	0	0	150	1.0000	axe	halberd	medium	4	1.0000	1.0000	0.0000	true	wh_dlc08_unit_contact_frostbite	0	10	4.0000		false
+banshee_mount1	0	20	80	200	5.0000	axe	halberd	very_large	4	1.0000	1.5000	1.0000	true		5	5	3.0000		false
+brt_alberic_bordeleaux_bodyguard1	25	0	150	75	3.0000	spear	spear	medium	4	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+brt_alberic_bordeleaux_bodyguard2	25	0	130	65	3.0000	spear	spear	medium	4	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+brt_alberic_bordeleaux_bodyguard3	25	0	120	60	3.0000	spear	spear	medium	4	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+brt_alberic_bordeleaux_bodyguard4	25	0	75	150	9.0000	axe	axe	large	5	1.2500	1.0000	0.0000	false		0	10	4.0000		false
+brt_damsel_bodyguard1	0	0	36	54	3.0000	sword	sword	medium	3	0.5000	1.0000	0.0000	true		0	10	4.0000		false
+brt_damsel_bodyguard2	0	0	32	48	3.0000	sword	sword	medium	3	0.5000	0.5000	0.0000	true		0	10	4.0000		false
+brt_damsel_bodyguard3	20	0	20	40	3.0000	lance	spear	large	4	1.0000	0.5000	0.0000	true		0	10	5.0000		false
+brt_damsel_bodyguard4	20	0	50	20	1.0000	lance	spear	medium	2	0.5000	0.5000	0.0000	true		0	10	4.5000		false
+brt_fay_enchantress_bodyguard1	0	0	125	75	3.0000	sword	sword	medium	4	1.0000	1.0000	0.0000	true		0	10	4.0000		false
+brt_fay_enchantress_bodyguard2	0	0	110	65	3.0000	sword	sword	medium	4	1.0000	1.0000	0.0000	true		0	10	4.0000		false
+brt_henri_le_massif_bodyguard1	0	15	20	60	3.0000	sword	sword	medium	3	0.5000	1.0000	0.0000	false		0	10	4.5000		false
+brt_henri_le_massif_bodyguard2	0	10	50	25	3.0000	sword	sword	medium	3	0.5000	0.5000	0.0000	false		0	10	4.0000		false
+brt_henri_le_massif_bodyguard3	15	0	10	40	3.0000	lance	spear	large	4	1.0000	0.5000	0.0000	false		0	10	5.0000		false
+brt_henri_le_massif_bodyguard4	15	0	40	20	1.0000	lance	spear	medium	2	0.5000	0.5000	0.0000	false		0	10	4.5000		false
+brt_king_louen_leoncoeur_bodyguard1	0	0	150	75	3.0000	sword	sword	medium	4	1.0000	1.0000	0.0000	true		0	10	4.0000		false
+brt_king_louen_leoncoeur_bodyguard2	0	0	125	75	3.0000	sword	sword	medium	4	1.0000	1.0000	0.0000	true		0	10	4.0000		false
+brt_king_louen_leoncoeur_bodyguard3	0	0	115	65	3.0000	sword	sword	medium	4	1.0000	1.0000	0.0000	true		0	10	4.0000		false
+brt_king_louen_leoncoeur_bodyguard4	0	0	80	160	9.0000	axe	axe	large	5	1.2500	1.0000	0.0000	true		0	10	4.0000		false
+brt_lord_bodyguard1	0	0	150	75	3.0000	sword	sword	medium	4	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+brt_lord_bodyguard2	0	0	125	75	3.0000	sword	sword	medium	4	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+brt_lord_bodyguard3	0	0	115	65	3.0000	sword	sword	medium	4	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+brt_lord_bodyguard4	0	0	75	150	9.0000	axe	axe	large	5	1.2500	1.0000	0.0000	false		0	10	4.0000		false
+brt_paladin_bodyguard1	0	15	20	60	3.0000	sword	sword	medium	3	0.5000	1.0000	0.0000	false		0	10	4.5000		false
+brt_paladin_bodyguard2	0	10	50	25	3.0000	sword	sword	medium	3	0.5000	0.5000	0.0000	false		0	10	4.0000		false
+brt_paladin_bodyguard3	15	0	10	40	3.0000	lance	spear	large	4	1.0000	0.5000	0.0000	false		0	10	5.0000		false
+brt_paladin_bodyguard4	15	0	40	20	1.0000	lance	spear	medium	2	0.5000	0.5000	0.0000	false		0	10	4.5000		false
+brt_prophetess_bodyguard1	0	0	125	75	3.0000	sword	sword	medium	4	1.0000	1.0000	0.0000	true		0	10	4.0000		false
+brt_prophetess_bodyguard2	0	0	100	50	3.0000	sword	sword	medium	4	1.0000	1.0000	0.0000	true		0	10	4.0000		false
+brt_prophetess_bodyguard3	0	0	125	75	3.0000	sword	sword	medium	4	1.0000	1.0000	0.0000	true		0	10	4.0000		false
+brt_prophetess_bodyguard4	0	0	115	65	3.0000	sword	sword	medium	4	1.0000	1.0000	0.0000	true		0	10	4.0000		false
+brt_repanse_de_lyonesse_bodyguard1	0	15	75	150	3.0000	sword	sword	medium	4	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+brt_repanse_de_lyonesse_bodyguard2	0	15	75	125	3.0000	sword	sword	medium	4	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+chd_bull_centaur_taurruk_bodyguard1	25	0	40	100	5.0000	axe	axe_2h	medium	4	1.5000	1.5000	0.0000	false		0	10	4.0000		false
+chd_castellan_bodyguard1	0	0	60	30	1.0000	axe	axe	medium	2	0.2500	1.0000	0.0000	false		0	10	4.0000		false
+chd_castellan_bodyguard2	5	0	20	65	1.0000	axe	halberd	medium	2	0.2500	1.0000	1.0000	false		0	10	4.0000		false
+chd_castellan_war_machine1	0	20	70	180	4.0000	axe	unarmed	very_large	6	1.5000	2.0000	0.0000	false		1	2	4.0000		false
+chd_castellan_war_machine2	0	20	100	150	4.0000	axe	unarmed	very_large	6	1.0000	2.0000	0.0000	false		4	4	4.0000		false
+chd_castellan_war_machine3	0	0	130	40	4.0000	axe	unarmed	very_large	4	1.0000	1.2500	0.0000	false		4	4	4.0000		false
+chd_castellan_war_machine4	0	0	130	40	4.0000	axe	unarmed	very_large	4	1.0000	1.2500	0.0000	false		4	4	4.0000		false
+chd_daemonsmith_sorcerer_war_machine1	0	20	70	180	4.0000	axe	unarmed	very_large	6	1.5000	2.0000	1.0000	false		4	4	4.0000		false
+chd_overseer_bodyguard1	0	0	25	70	1.0000	axe	axe	medium	3	0.5000	1.5000	0.0000	false		0	10	4.5000		false
+chd_overseer_bodyguard2	0	0	60	20	1.0000	axe	axe	medium	2	0.2500	1.0000	0.0000	false		0	10	4.0000		false
+chd_overseer_war_machine1	0	20	70	180	4.0000	axe	unarmed	very_large	6	1.5000	4.0000	1.0000	false		1	2	4.0000		false
+chd_overseer_war_machine2	0	20	100	150	4.0000	axe	unarmed	very_large	6	1.0000	4.0000	1.0000	false		4	4	4.0000		false
+chd_overseer_war_machine3	0	20	100	100	4.0000	axe	unarmed	very_large	6	1.0000	4.0000	1.0000	false		4	4	6.0000		false
+chd_overseer_war_machine4	0	0	130	40	4.0000	axe	unarmed	very_large	4	1.0000	1.2500	0.0000	false		4	4	4.0000		false
+chd_overseer_war_machine5	0	0	130	40	4.0000	axe	unarmed	very_large	4	1.0000	1.2500	0.0000	false		4	4	4.0000		false
+chd_sorcerer_prophet_bodyguard1	0	0	60	30	1.0000	axe	axe	medium	2	0.2500	1.0000	1.0000	true		0	10	4.0000		false
+chd_sorcerer_prophet_bodyguard2	0	0	40	10	1.0000	sword	drakegun		1	1.0000	1.0000	1.0000	false		0	10	4.0000		false
+chd_zhatan_war_machine1	0	20	100	250	4.0000	axe	unarmed	very_large	6	1.5000	8.0000	0.0000	false		4	4	4.0000		false
+chieftain_bodyguard1	0	0	35	20	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	10	3.5000		false
+chieftain_bodyguard2	15	0	30	15	1.0000	spear	spear		1	1.0000	1.0000	0.0000	false		0	10	4.5000		false
+chieftain_bodyguard3	0	0	60	30	1.0000	sword	sword	medium	2	0.5000	1.0000	0.0000	false		0	10	3.5000		false
+chieftain_bodyguard4	20	0	20	60	1.0000	spear	halberd	medium	3	0.5000	1.2500	0.0000	false		0	10	4.5000		false
+cst_damned_paladin_bodyguard1	0	10	0	70	3.0000	sword	sword	medium	3	0.5000	1.0000	0.0000	true	wh_dlc08_unit_contact_frostbite	0	10	4.0000		false
+cst_damned_paladin_bodyguard2	15	0	0	70	1.0000	lance	spear	medium	3	0.5000	1.0000	0.0000	true	wh_dlc08_unit_contact_frostbite	0	10	5.0000		false
+cst_gunnery_wight_bodyguard1	0	0	10	5	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+cst_gunnery_wight_bodyguard2	15	0	10	20	2.0000	spear	halberd		1	1.0000	1.0000	0.0000	false		0	10	4.5000		false
+cst_gunnery_wight_bodyguard3	0	0	0	15	1.0000	sword	sword		1	1.0000	1.0000	0.0000	true	wh_dlc08_unit_contact_frostbite	0	10	4.0000		false
+cst_gunnery_wight_bodyguard4	0	0	30	20	1.0000	knife	creatures_claws	medium	2	1.0000	0.5000	0.0000	false		0	10	4.0000		false
+cst_gunnery_wight_bodyguard5	0	0	25	60	3.0000	axe	creatures_claws	medium	5	1.0000	1.5000	0.0000	false		0	10	3.5000		false
+cst_gunnery_wight_mount1	0	0	125	350	6.0000	axe	club_huge	large	6	1.5000	1.5000	0.0000	false		0	10	4.0000		false
+cst_gunnery_wight_mount2	0	15	120	360	10.0000	axe	creatures_claws	large	6	1.5000	2.0000	0.0000	false		5	5	3.0000		false
+cst_mourngul_haunter_bodyguard1	0	20	35	105	3.0000	axe	creatures_claws	medium	5	1.2500	1.5000	0.0000	false	wh_dlc08_unit_contact_frostbite	0	10	4.0000		false
+cst_vampire_fleet_admiral_bodyguard1	0	5	70	30	1.0000	axe	axe	medium	2	0.2500	1.0000	0.0000	false		0	10	3.5000		false
+cst_vampire_fleet_admiral_bodyguard2	30	0	25	55	2.0000	spear	halberd	medium	3	0.2500	1.0000	0.0000	false		0	10	4.0000		false
+cst_vampire_fleet_admiral_bodyguard3	20	0	15	75	3.0000	axe	creatures_claws	medium	5	1.0000	1.5000	0.0000	false		0	10	3.5000		false
+cst_vampire_fleet_admiral_female_mount1	0	0	125	350	6.0000	axe	club_huge	large	6	1.5000	1.5000	0.0000	false		0	10	4.0000		false
+cst_vampire_fleet_admiral_female_mount2	0	15	120	360	10.0000	axe	creatures_claws	large	6	2.0000	2.0000	0.0000	false		5	5	3.0000		false
+cst_vampire_fleet_admiral_mount1	0	25	125	375	6.0000	axe	club_huge	large	6	1.5000	1.5000	10.0000	false	wh_main_unit_contact_morale	0	10	4.0000		false
+cst_vampire_fleet_admiral_mount2	0	15	120	360	10.0000	axe	creatures_claws	large	6	2.0000	2.0000	0.0000	false		5	5	3.0000		false
+cst_vampire_fleet_captain_bodyguard1	0	5	70	30	1.0000	axe	axe	medium	2	0.0000	1.0000	0.0000	false		0	10	3.5000		false
+cst_vampire_fleet_captain_bodyguard2	30	0	25	55	2.0000	spear	halberd		1	0.0000	1.0000	0.0000	false		0	10	4.0000		false
+cst_vampire_fleet_captain_mount1	0	0	140	380	8.0000	axe	creatures_claws	large	6	1.0000	1.5000	0.0000	false		0	10	3.5000		false
+cth_alchemist_bodyguard1	0	0	50	25	1.0000	sword	sword	medium	2	0.0000	1.0000	0.0000	false		0	10	4.0000		false
+cth_alchemist_bodyguard2	0	0	20	5	0.0000	sword	sword		1	0.0000	1.0000	0.0000	false		0	10	4.5000		false
+cth_alchemist_bodyguard3	0	0	20	5	0.0000	sword	sword		1	0.0000	1.0000	0.0000	false		0	10	4.5000		false
+cth_alchemist_bodyguard4	0	0	20	5	0.0000	sword	sword		1	0.0000	1.0000	0.0000	false		0	10	4.5000		false
+cth_alchemist_bodyguard5	0	0	20	5	0.0000	sword	sword		1	0.0000	1.0000	0.0000	false		0	10	4.5000		false
+cth_alchemist_bodyguard6	0	0	20	5	0.0000	sword	sword		1	0.0000	1.0000	0.0000	false		0	10	4.5000		false
+cth_alchemist_mount1	0	0	0	0	1.0000	axe	unarmed		1	0.0000	1.0000	0.0000	false		0	10	4.0000		false
+cth_alchemist_mount2	0	0	0	0	1.0000	axe	unarmed		1	0.0000	1.0000	0.0000	false		0	10	4.0000		false
+cth_alchemist_mount3	0	0	0	0	1.0000	axe	unarmed		1	0.0000	1.0000	0.0000	false		0	10	4.0000		false
+cth_astromancer_bodyguard1	20	0	35	15	2.0000	long_spear	spear		1	0.0000	1.0000	0.0000	false		0	10	4.0000		false
+cth_astromancer_bodyguard2	0	0	30	10	1.0000	sword	sword		1	0.0000	1.0000	0.0000	false		0	10	4.0000		false
+cth_astromancer_bodyguard3	0	5	40	15	1.0000	sword	sword		1	0.0000	1.0000	0.0000	false		0	10	3.5000		false
+cth_astromancer_bodyguard4	0	0	50	25	1.0000	sword	sword	medium	2	0.0000	1.0000	0.0000	false		0	10	3.5000		false
+cth_astromancer_bodyguard5	0	0	50	75	5.0000	axe	sword_huge	large	3	1.0000	1.5000	0.0000	true		0	10	5.0000		false
+cth_astromancer_mount1	0	0	100	100	4.0000	axe	unarmed	very_large	4	1.0000	1.2500	0.0000	true		3	2	4.0000		false
+cth_astromancer_mount2	0	0	200	100	4.0000	axe	unarmed	very_large	4	1.0000	1.2500	0.0000	true		3	2	4.0000		false
+cth_gate_master_bodyguard1	0	0	60	20	1.0000	sword	sword	medium	2	0.0000	1.0000	0.0000	false		0	10	3.5000		false
+cth_gate_master_bodyguard2	0	0	60	20	3.0000	sword	sword	medium	2	0.5000	1.0000	0.0000	false		0	10	3.5000		false
+cth_gate_master_mount1	0	0	100	100	4.0000	axe	unarmed	very_large	4	1.0000	1.2500	0.0000	false		3	2	4.0000		false
+cth_magistrate_bodyguard_yang_1	0	0	60	20	1.0000	sword	sword	medium	2	0.0000	1.0000	0.0000	false		0	10	4.0000		false
+cth_magistrate_bodyguard_yang_2	20	0	25	55	2.0000	spear	halberd	medium	3	0.2500	1.0000	0.0000	false		0	10	4.5000		false
+cth_magistrate_bodyguard_yang_3	20	0	60	15	4.0000	long_spear	spear	medium	2	0.0000	1.0000	0.0000	false		0	10	4.0000		false
+cth_magistrate_bodyguard_yang_4	0	0	15	75	3.0000	spear	halberd	large	3	0.2500	1.2500	0.0000	false		0	10	4.5000		false
+cth_magistrate_bodyguard_yang_5	0	15	30	50	2.0000	sword	sword	large	3	0.2500	1.2500	0.0000	false		0	10	4.5000		false
+cth_magistrate_bodyguard_yang_6	10	0	40	20	1.0000	sword	sword	large	2	0.5000	1.0000	0.0000	false		0	10	4.0000		false
+cth_magistrate_bodyguard_yang_7	0	0	40	20	1.0000	lance	spear	large	2	0.5000	1.0000	0.0000	false		0	10	4.0000		false
+cth_magistrate_bodyguard_yin_1	0	0	60	15	1.0000	sword	sword	medium	2	0.0000	1.0000	0.0000	false		0	10	4.0000		false
+cth_magistrate_bodyguard_yin_2	0	0	60	15	1.0000	sword	sword	medium	2	0.0000	1.0000	0.0000	false		0	10	4.0000		false
+cth_magistrate_bodyguard_yin_3	20	0	60	15	4.0000	long_spear	spear	medium	2	0.0000	1.0000	0.0000	false		0	10	4.0000		false
+cth_magistrate_bodyguard_yin_4	0	0	15	75	3.0000	spear	halberd	large	3	0.2500	1.2500	0.0000	false		0	10	4.5000		false
+cth_magistrate_bodyguard_yin_5	0	15	30	45	2.0000	sword	sword	large	3	0.2500	1.2500	0.0000	false		0	10	4.0000		false
+cth_magistrate_bodyguard_yin_6	0	0	40	10	1.0000	sword	sword	medium	2	0.0000	1.0000	0.0000	false		0	10	4.0000		false
+cth_magistrate_bodyguard_yin_7	0	0	40	10	1.0000	sword	sword	medium	2	0.0000	1.0000	0.0000	false		0	10	4.0000		false
+cth_magistrate_bodyguard_yin_8	0	0	50	25	1.0000	sword	sword	large	2	0.5000	1.0000	0.0000	false		0	10	4.0000		false
+cth_magistrate_mount1	0	0	0	0	1.0000	axe	unarmed		1	0.0000	1.0000	0.0000	false		0	10	4.0000		false
+cth_magistrate_mount2	0	0	0	0	1.0000	axe	unarmed		1	0.0000	1.0000	0.0000	false		0	10	4.0000		false
+cth_magistrate_mount3	0	30	175	175	6.0000	axe	unarmed	very_large	6	0.0000	1.0000	0.0000	false		3	2	4.0000		false
+cth_magistrate_mount4	0	25	200	150	6.0000	axe	unarmed	very_large	6	0.0000	1.0000	0.0000	true		3	2	4.0000		false
+cth_magistrate_mount5	0	0	100	100	4.0000	axe	unarmed	very_large	4	1.0000	1.2500	0.0000	false		3	2	4.0000		false
+cth_shugengan_yang_bodyguard1	30	0	60	30	4.0000	long_spear	halberd	medium	2	0.2500	1.0000	0.0000	false		0	10	4.5000		false
+cth_shugengan_yang_bodyguard2	0	0	20	80	3.0000	spear	halberd	medium	3	0.2500	1.2500	0.0000	false		0	10	4.5000		false
+cth_shugengan_yang_bodyguard3	0	0	50	25	1.0000	sword	sword	medium	2	0.0000	1.0000	0.0000	false		0	10	4.0000		false
+cth_shugengan_yang_bodyguard4	0	0	50	25	1.0000	sword	sword	medium	2	0.0000	1.0000	0.0000	false		0	10	4.0000		false
+cth_shugengan_yang_bodyguard5	0	0	80	40	4.0000	lance	halberd	large	3	0.5000	1.2500	0.0000	false		0	10	4.5000		false
+cth_shugengan_yang_bodyguard6	0	0	160	80	4.0000	lance	spear	large	4	1.0000	1.0000	10.0000	true	wh2_dlc12_unit_contact_flammable	0	10	4.0000		false
+cth_shugengan_yin_bodyguard1	25	0	25	50	2.0000	spear	halberd	medium	2	0.2500	1.0000	0.0000	true		0	10	4.0000		false
+cth_shugengan_yin_bodyguard2	0	0	40	40	1.0000	sword	sword	medium	2	0.0000	1.0000	0.0000	false		0	10	3.5000		false
+cth_shugengan_yin_bodyguard3	0	0	50	25	1.0000	sword	sword	medium	2	0.0000	1.0000	0.0000	false		0	10	4.0000		false
+cth_shugengan_yin_bodyguard4	0	0	50	25	1.0000	sword	sword	medium	2	0.0000	1.0000	0.0000	false		0	10	4.0000		false
+cth_shugengan_yin_bodyguard5	20	0	30	60	2.0000	lance	halberd	large	3	0.5000	1.0000	0.0000	true		0	10	4.0000		false
+cth_shugengan_yin_bodyguard6	0	0	50	150	4.0000	lance	spear	large	4	1.0000	1.2500	0.0000	true	wh2_pro08_unit_contact_dampen	0	10	3.5000		false
+def_death_hag_bodyguard_1	0	10	60	30	1.0000	sword	sword	medium	2	0.0000	1.0000	0.0000	false	wh_main_unit_contact_poison	0	10	3.5000		false
+def_death_hag_bodyguard_2	0	0	75	0	1.0000	sword	sword	medium	2	0.0000	1.0000	0.0000	false	wh_main_unit_contact_poison	0	10	4.0000		false
+def_death_hag_bodyguard_3	0	10	60	30	3.0000	sword	sword	medium	2	0.0000	1.0000	0.0000	false	wh_main_unit_contact_poison	0	10	3.5000		false
+def_death_hag_mount1	0	20	280	140	3.0000	sword	sword	large	6	1.0000	1.0000	0.0000	false	wh_main_unit_contact_poison	0	10	4.0000		false
+def_death_hag_mount2	0	20	290	155	6.0000	axe	creatures_claws	large	5	1.0000	1.0000	0.0000	false	wh_main_unit_contact_poison	0	3	3.5000		false
+def_dreadlord_bodyguard_1	0	0	30	10	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+def_dreadlord_bodyguard_2	0	0	40	20	1.0000	sword	sword	medium	2	0.0000	1.0000	0.0000	false		0	10	4.0000		false
+def_dreadlord_bodyguard_3	0	0	50	70	4.0000	axe	creatures_claws	large	3	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+def_dreadlord_bodyguard_4	0	0	40	20	1.0000	sword	sword	medium	2	0.0000	1.0000	0.0000	false		0	10	4.0000		false
+def_dreadlord_bodyguard_5	0	0	55	25	1.0000	sword	sword	medium	2	0.0000	1.0000	0.0000	false		0	10	4.0000		false
+def_dreadlord_female_bodyguard_1	0	5	55	30	1.0000	sword	sword	medium	2	0.0000	1.0000	0.0000	false		0	10	4.0000		false
+def_dreadlord_female_bodyguard_2	10	0	50	25	1.0000	spear	spear	medium	2	0.0000	1.0000	0.0000	false		0	10	4.5000		false
+def_dreadlord_female_bodyguard_3	0	0	20	80	2.0000	axe	hammer	large	3	1.0000	1.0000	0.0000	false		0	10	3.5000		false
+def_dreadlord_female_bodyguard_4	30	0	35	70	2.0000	spear	halberd	large	3	0.5000	1.0000	0.0000	false		0	10	4.5000		false
+def_dreadlord_female_mount1	0	0	320	170	6.0000	axe	creatures_claws	large	5	1.0000	1.0000	0.0000	false		0	3	3.5000		false
+def_dreadlord_mount1	0	30	120	240	5.0000	axe	creatures_claws	very_large	4	1.0000	1.0000	0.0000	false		3	5	3.5000		false
+def_high_beastmaster_bodyguard_1	20	0	55	25	1.0000	spear	spear	medium	2	0.0000	1.0000	0.0000	false		0	10	4.5000		false
+def_high_beastmaster_bodyguard_2	0	0	50	25	3.0000	sword	sword	medium	3	0.5000	1.0000	0.0000	false		0	10	4.0000		false
+def_high_beastmaster_bodyguard_3	20	0	30	60	2.0000	lance	spear	large	3	0.5000	1.0000	0.0000	false		0	10	4.5000		false
+def_high_beastmaster_bodyguard_4	15	0	140	70	6.0000	axe	creatures_claws	large	5	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+def_high_beastmaster_mount1	15	0	140	380	8.0000	axe	creatures_claws	large	8	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+def_khainite_assassin_bodyguard_1	0	10	50	25	1.0000	sword	sword	medium	2	0.0000	10.0000	0.0000	false		0	10	3.5000		false
+def_khainite_assassin_bodyguard_2	0	20	30	70	1.0000	sword	sword	large	3	0.5000	10.0000	0.0000	false		0	10	4.5000		false
+def_khainite_assassin_bodyguard_3	0	0	40	20	1.0000	sword	sword	medium	2	0.0000	10.0000	0.0000	false		0	10	4.0000		false
+def_khainite_assassin_bodyguard_4	0	0	40	20	1.0000	sword	sword	medium	2	0.0000	10.0000	0.0000	false		0	10	4.0000		false
+def_khainite_assassin_mount1	0	25	200	100	5.0000	axe	creatures_claws	very_large	4	1.0000	10.0000	0.0000	false		3	5	4.0000		false
+def_khainite_assassin_mount2	0	0	230	120	3.0000	sword	sword	medium	3	1.0000	10.0000	0.0000	false	wh_main_unit_contact_poison	0	10	3.5000		false
+def_khainite_assassin_mount3	0	0	230	120	3.0000	sword	sword	medium	3	1.0000	10.0000	0.0000	false	wh_main_unit_contact_poison	0	10	3.5000		false
+def_khainite_assassin_mount4	0	0	290	155	6.0000	axe	creatures_claws	large	5	1.0000	10.0000	0.0000	false	wh_main_unit_contact_poison	0	10	3.5000		false
+def_master_bodyguard_1	20	0	55	20	1.0000	spear	spear	medium	2	0.0000	1.0000	0.0000	false		0	10	4.5000		false
+def_master_bodyguard_2	0	10	60	25	1.0000	sword	sword	medium	2	0.0000	1.0000	0.0000	false		0	10	3.5000		false
+def_master_bodyguard_3	10	0	50	25	1.0000	spear	spear	medium	2	0.0000	1.0000	0.0000	false		0	10	4.5000		false
+def_master_bodyguard_4	20	0	20	60	2.0000	lance	spear	large	3	0.5000	1.0000	0.0000	false		0	10	4.5000		false
+def_master_mount1	15	0	175	270	6.0000	axe	creatures_claws	large	5	1.0000	1.0000	0.0000	false		0	3	3.5000		false
+def_sorceress_mount1	0	0	290	155	6.0000	axe	creatures_claws	large	5	1.0000	1.0000	0.0000	false		0	3	3.5000		false
+dwf_belegar_ironhammer_bodyguard_1	0	0	120	60	1.0000	axe	axe	medium	3	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+dwf_belegar_ironhammer_bodyguard_2	0	0	100	80	3.0000	axe	axe	medium	3	1.0000	1.0000	0.0000	true	wh_dlc08_unit_contact_frostbite	0	10	4.0000		false
+dwf_daemon_slayer_bodyguard_1	25	0	125	75	3.0000	axe	axe	medium	4	1.0000	1.0000	0.0000	true		0	10	3.0000		false
+dwf_daemon_slayer_bodyguard_2	0	15	75	125	2.0000	axe	axe	medium	3	1.5000	1.0000	0.0000	true		0	10	3.5000		false
+dwf_dragon_slayer_bodyguard1	25	0	50	25	3.0000	axe	axe	medium	3	0.5000	1.0000	0.0000	false		0	10	3.0000		false
+dwf_dragon_slayer_bodyguard2	0	15	25	50	2.0000	axe	axe	medium	3	1.0000	1.0000	0.0000	true		0	10	3.5000		false
+dwf_dragon_slayer_bodyguard3	30	0	25	50	3.0000	axe	axe_2h	medium	4	1.0000	1.0000	0.0000	false		0	10	4.5000		false
+dwf_garagrim_ironfist_bodyguard	0	15	60	115	2.0000	axe	axe	medium	3	1.0000	1.0000	0.0000	true		0	10	3.5000		false
+dwf_ghost_engineer_bodyguard	0	0	0	125	3.0000	axe	hammer	medium	4	1.0000	1.0000	0.0000	true	wh_dlc08_unit_contact_frostbite	0	10	4.0000		false
+dwf_ghost_runesmith_bodyguard	0	0	0	125	3.0000	axe	hammer	medium	3	1.0000	1.0000	0.0000	true	wh_dlc08_unit_contact_frostbite	0	10	3.0000		false
+dwf_ghost_thane_bodyguard_0	0	0	0	150	3.0000	axe	axe	medium	3	1.0000	1.0000	0.0000	true	wh_dlc08_unit_contact_frostbite	0	10	4.0000		false
+dwf_ghost_thane_bodyguard_1	0	0	0	100	3.0000	axe	axe	medium	4	1.0000	1.0000	0.0000	true	wh_dlc08_unit_contact_frostbite	0	10	4.0000		false
+dwf_ghost_thane_bodyguard_2	0	0	0	100	3.0000	axe	axe	medium	3	1.0000	1.0000	0.0000	true	wh_dlc08_unit_contact_frostbite	0	10	3.0000		false
+dwf_grombrindal_bodyguard_1	0	0	75	125	3.0000	axe	axe	medium	4	1.0000	1.0000	0.0000	true	wh_dlc08_unit_contact_frostbite	0	10	4.5000		false
+dwf_high_king_bodyguard_1	0	0	75	125	3.0000	axe	hammer_dwarf	medium	4	1.0000	1.0000	0.0000	true	wh_dlc06_unit_contact_sundered_armour	0	10	4.0000		false
+dwf_lord_bodyguard_1	0	0	120	40	1.0000	axe	axe	medium	3	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+dwf_lord_bodyguard_2	0	0	60	100	3.0000	axe	axe	medium	4	1.0000	1.0000	0.0000	false		0	10	4.5000		false
+dwf_malakai_makaisson_bodyguard_1	30	0	25	90	3.0000	axe	axe	medium	4	1.0000	1.0000	0.0000	false		0	10	4.5000		false
+dwf_malakai_makaisson_thunderbarge	0	0	150	350	10.0000	spear	spear	large	4	1.5000	1.0000	0.0000	false		5	5	3.8000		false
+dwf_master_engineer_bodyguard1	0	0	30	15	1.0000	axe	axe		1	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+dwf_master_engineer_bodyguard2	0	0	30	15	1.0000	axe	axe		1	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+dwf_master_engineer_bodyguard3	0	0	30	15	1.0000	axe	axe		1	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+dwf_master_engineer_bodyguard4	0	0	20	40	3.0000	axe	axe	medium	3	0.5000	1.2500	0.0000	false		0	10	4.5000		false
+dwf_master_engineer_bodyguard5	0	0	20	5	1.0000	sword	drakegun		1	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+dwf_master_engineer_bodyguard6	0	0	45	15	1.0000	axe	unarmed	large	3	1.0000	1.2500	0.0000	false		0	10	3.0000		false
+dwf_master_engineer_bodyguard7	0	0	60	20	1.0000	axe	unarmed	large	3	1.0000	1.2500	0.0000	false		0	10	3.0000		false
+dwf_master_engineer_thunderbarge	0	0	150	350	10.0000	spear	spear	large	4	1.5000	1.0000	0.0000	false		5	5	3.8000		false
+dwf_rune_smith_bodyguard1	0	0	115	45	3.0000	axe	hammer	medium	3	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+dwf_rune_smith_bodyguard2	0	0	15	65	3.0000	axe	hammer_dwarf	medium	3	1.0000	1.0000	0.0000	true		0	10	4.5000		false
+dwf_rune_smith_bodyguard3	0	0	50	25	1.0000	axe	axe	medium	2	0.5000	1.0000	0.0000	false		0	10	4.0000		false
+dwf_runelord_bodyguard_1	0	0	115	45	3.0000	axe	hammer	medium	3	1.0000	1.0000	0.0000	false		0	10	3.0000		false
+dwf_runelord_bodyguard_2	0	0	100	200	6.0000	axe	hammer_huge	very_large	6	2.0000	2.0000	0.0000	true		0	10	5.0000		false
+dwf_thane_bodyguard1	0	0	45	20	1.0000	axe	axe	medium	2	0.5000	1.0000	0.0000	false		0	10	4.0000		false
+dwf_thane_bodyguard2	0	0	20	45	3.0000	axe	axe	medium	3	1.0000	1.0000	0.0000	false		0	10	4.5000		false
+dwf_thane_bodyguard3	0	0	15	65	3.0000	axe	hammer_dwarf	medium	3	1.0000	1.0000	0.0000	true		0	10	4.5000		false
+dwf_thane_bodyguard4	0	0	20	5	1.0000	sword	drakegun		1	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+dwf_thane_bodyguard5	0	0	50	25	1.0000	axe	axe	medium	2	0.5000	1.0000	0.0000	false		0	10	4.0000		false
+dwf_thane_bodyguard6	0	0	25	50	1.0000	axe	axe	medium	3	1.0000	1.0000	0.0000	false		0	10	4.5000		false
+dwf_thorek_ironbrow_bodyguard_1	0	0	120	50	3.0000	axe	hammer	medium	4	1.0000	1.0000	0.0000	true		0	10	3.0000		false
+dwf_thorek_ironbrow_bodyguard_2	0	0	120	240	6.0000	axe	hammer_huge	very_large	6	2.0000	2.0000	0.0000	true		0	10	5.0000		false
+dwf_ungrim_ironfist_bodyguard_1	30	0	125	50	1.0000	axe	axe	medium	3	1.0000	1.0000	0.0000	false		0	10	3.0000		false
+dwf_ungrim_ironfist_bodyguard_2	30	0	50	125	3.0000	axe	axe	medium	4	1.0000	1.0000	0.0000	false		0	10	4.5000		false
+emp_arch_lector_bodyguard_1	0	10	100	50	3.0000	axe	hammer	medium	3	1.0000	1.0000	0.0000	true		0	10	4.0000		false
+emp_arch_lector_bodyguard_2	0	10	100	50	3.0000	axe	hammer	medium	3	1.0000	1.0000	0.0000	true		0	10	4.0000		false
+emp_boris_todbringer_bodyguard_1	0	0	100	50	3.0000	sword	sword	medium	4	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+emp_boris_todbringer_bodyguard_2	0	0	100	50	3.0000	sword	sword	medium	4	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+emp_boris_todbringer_bodyguard_3	0	0	100	50	3.0000	sword	sword	medium	4	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+emp_captain_retinue_1	20	0	40	10	1.0000	spear	spear		1	1.0000	1.0000	0.0000	false		0	10	4.5000		false
+emp_captain_retinue_2	20	0	15	40	1.0000	spear	halberd		1	1.0000	1.0000	0.0000	false		0	10	5.0000		false
+emp_captain_retinue_3	0	0	40	15	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+emp_captain_retinue_4	0	20	25	50	3.0000	sword	sword	medium	4	0.5000	1.0000	0.0000	false		0	10	4.0000		false
+emp_captain_retinue_5	0	0	60	30	3.0000	sword	sword	medium	2	0.5000	1.0000	0.0000	false		0	10	4.0000		false
+emp_captain_retinue_6	0	10	50	25	3.0000	sword	sword	medium	2	0.5000	1.0000	0.0000	false		0	10	4.0000		false
+emp_captain_retinue_7	20	0	20	30	3.0000	lance	spear	medium	2	0.5000	1.0000	0.0000	false		0	10	5.0000		false
+emp_captain_retinue_8	30	0	25	50	1.0000	lance	halberd	medium	3	2.0000	1.0000	0.0000	false		0	10	5.0000		false
+emp_captain_retinue_9	15	0	40	20	3.0000	sword	sword	medium	2	0.5000	1.0000	0.0000	false		0	10	4.0000		false
+emp_engineer_retinue_1	0	0	30	15	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+emp_engineer_retinue_2	0	0	30	15	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+emp_engineer_retinue_3	0	0	20	10	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+emp_engineer_retinue_4	0	0	20	10	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+emp_general_bodyguard_1	0	0	100	50	3.0000	sword	sword	medium	4	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+emp_general_bodyguard_2	0	0	100	50	3.0000	sword	sword	medium	4	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+emp_general_bodyguard_3	0	0	100	50	3.0000	sword	sword	medium	4	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+emp_general_retinue_1	0	15	20	60	3.0000	sword	sword	medium	3	0.5000	1.0000	0.0000	false		0	10	4.5000		false
+emp_general_retinue_2	0	15	25	50	3.0000	sword	sword	medium	3	0.5000	1.0000	0.0000	false		0	10	4.5000		false
+emp_general_retinue_3	20	0	20	30	3.0000	lance	spear	large	4	1.0000	1.0000	0.0000	false		0	10	5.0000		false
+emp_huntsmarshal_bodyguard_1	0	0	110	35	3.0000	sword	sword	medium	3	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+emp_huntsmarshal_bodyguard_2	0	0	110	35	3.0000	sword	sword	medium	3	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+emp_karl_franz_bodyguard_1	0	0	100	75	3.0000	sword	sword	medium	4	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+emp_karl_franz_bodyguard_2	15	0	100	50	3.0000	lance	spear	medium	4	1.0000	1.0000	0.0000	false		0	10	4.5000		false
+emp_karl_franz_bodyguard_3	15	0	100	50	3.0000	lance	spear	medium	4	1.0000	1.0000	0.0000	false		0	10	4.5000		false
+emp_markus_wulfhart_bodyguard_1	0	0	110	35	3.0000	sword	sword	medium	3	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+emp_master_engineer_bodyguard_1	0	0	90	40	3.0000	sword	sword	medium	3	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+emp_master_engineer_bodyguard_2	0	0	90	40	3.0000	sword	sword	medium	3	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+emp_master_engineer_bodyguard_3	0	0	90	40	3.0000	sword	sword	medium	3	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+emp_volkmar_the_grim_bodyguard_1	0	10	110	50	3.0000	axe	hammer	medium	4	1.0000	1.0000	0.0000	true		0	10	4.0000		false
+emp_volkmar_the_grim_bodyguard_2	0	10	110	50	3.0000	axe	hammer	medium	4	1.0000	1.0000	0.0000	true		0	10	4.0000		false
+emp_warrior_priest_retinue_1	0	0	40	40	3.0000	axe	hammer	medium	2	0.5000	1.0000	0.0000	true		0	10	3.5000		false
+emp_warrior_priest_retinue_2	0	10	40	40	3.0000	axe	hammer	medium	3	0.5000	1.0000	0.0000	true		0	10	3.5000		false
+emp_warrior_priest_retinue_3	0	0	40	40	3.0000	axe	hammer	medium	2	0.5000	1.0000	0.0000	true		0	10	4.0000		false
+emp_warrior_priest_retinue_4	0	0	30	60	3.0000	axe	hammer	medium	2	0.5000	1.0000	0.0000	true		0	10	4.0000		false
+emp_witch_hunter_retinue_1	0	0	30	15	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+emp_witch_hunter_retinue_2	0	0	30	15	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+emp_witch_hunter_retinue_3	0	0	50	30	1.0000	axe	hammer	medium	2	0.5000	1.0000	0.0000	false		0	10	3.5000		false
+emp_witch_hunter_retinue_4	0	0	50	25	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+emp_witch_hunter_retinue_5	0	0	30	15	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+eshin_sorcerer_bodyguard1	0	0	40	15	1.0000	sword	sword	medium	2	0.0000	1.0000	0.0000	false		0	10	4.0000		false
+eshin_sorcerer_bodyguard2	0	0	40	15	1.0000	sword	sword	medium	2	0.0000	1.0000	0.0000	false		0	10	4.0000		false
+eshin_sorcerer_bodyguard3	20	0	45	90	2.0000	spear	halberd	medium	4	1.0000	2.0000	0.0000	false	wh2_main_unit_contact_weeping_blade	0	10	4.0000		false
+grey_seer_plague_bodyguard1	0	0	60	30	1.0000	sword	sword	medium	2	0.5000	1.0000	0.0000	false		0	10	3.5000		false
+grey_seer_plague_bodyguard2	20	0	20	60	1.0000	spear	halberd	medium	3	0.5000	1.0000	0.0000	false		0	10	4.5000		false
+grey_seer_plague_bodyguard3	0	0	100	50	3.0000	axe	staff	medium	4	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+grey_seer_ruin_bodyguard1	0	0	60	30	1.0000	sword	sword	medium	2	0.5000	1.0000	0.0000	false		0	10	3.5000		false
+grey_seer_ruin_bodyguard2	20	0	20	60	1.0000	spear	halberd	medium	3	0.5000	1.0000	0.0000	false		0	10	4.5000		false
+grey_seer_ruin_bodyguard3	0	0	100	50	3.0000	axe	staff	medium	4	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+grn_azhag_the_slaughterer_bodyguard1	0	0	125	75	1.0000	axe	axe	medium	3	1.0000	1.0000	0.0000	false		0	10	3.5000		false
+grn_black_orc_big_boss_bodyguard1	0	0	75	25	3.0000	axe	axe	medium	3	1.0000	1.0000	0.0000	false		0	10	3.5000		false
+grn_black_orc_big_boss_bodyguard2	0	0	20	80	1.0000	axe	axe	medium	4	1.5000	1.5000	0.0000	false		0	10	4.0000		false
+grn_black_orc_big_boss_bodyguard3	0	10	75	50	1.0000	axe	axe	medium	3	1.0000	1.0000	0.0000	false		0	10	3.0000		false
+grn_black_orc_big_boss_bodyguard4	0	0	75	25	3.0000	axe	axe	medium	3	1.0000	1.0000	0.0000	false		0	10	3.5000		false
+grn_goblin_big_boss_bodyguard1	15	0	45	15	2.0000	spear	spear		1	1.0000	1.0000	0.0000	false	wh_main_unit_contact_poison	0	10	4.5000		false
+grn_goblin_big_boss_bodyguard2	0	0	10	40	1.0000	sword	sword	medium	3	0.0000	1.0000	0.0000	false		0	10	3.5000		false
+grn_goblin_big_boss_bodyguard3	10	0	45	15	2.0000	spear	spear	medium	3	0.5000	1.0000	0.0000	false		0	10	4.5000		false
+grn_goblin_big_boss_bodyguard4	0	0	45	35	0.0000	sword	sword	medium	3	0.2500	1.0000	0.0000	false	wh_main_unit_contact_poison	0	10	3.5000		false
+grn_goblin_great_shaman_bodyguard1	0	0	100	75	3.0000	sword	sword	medium	3	1.0000	1.0000	0.0000	false		0	10	3.5000		false
+grn_goblin_great_shaman_bodyguard2	0	0	100	75	3.0000	sword	sword	medium	3	1.0000	1.0000	0.0000	false		0	10	3.5000		false
+grn_gorbad_ironclaw_bodyguard1	0	0	135	70	1.0000	sword	sword	medium	3	1.0000	1.0000	0.0000	false		0	10	3.5000		false
+grn_gorbad_ironclaw_bodyguard2	0	0	135	70	1.0000	sword	sword	medium	3	1.0000	1.0000	0.0000	false		0	10	3.5000		false
+grn_grimgor_ironhide_bodyguard1	0	0	150	75	1.0000	axe	axe	medium	4	1.0000	1.0000	0.0000	false		0	10	3.5000		false
+grn_night_goblin_big_boss_bodyguard1	0	0	50	25	0.0000	sword	sword	medium	2	0.2500	1.0000	0.0000	false	wh_main_unit_contact_poison	0	10	4.0000		false
+grn_night_goblin_big_boss_bodyguard2	0	10	25	55	0.0000	sword	sword	medium	3	0.2500	1.0000	0.0000	false	wh_main_unit_contact_poison	0	10	4.0000		false
+grn_night_goblin_shaman_bodyguard1	0	0	50	25	0.0000	sword	sword	medium	2	0.2500	1.0000	0.0000	false	wh_main_unit_contact_poison	0	10	4.0000		false
+grn_night_goblin_shaman_bodyguard2	0	10	25	55	0.0000	sword	sword	medium	3	0.2500	1.0000	0.0000	false	wh_main_unit_contact_poison	0	10	4.0000		false
+grn_night_goblin_warboss_bodyguard1	0	0	120	60	3.0000	spear	spear	medium	3	1.0000	1.0000	0.0000	false	wh_main_unit_contact_poison	0	10	3.5000		false
+grn_night_goblin_warboss_bodyguard2	0	20	45	135	3.0000	spear	spear	medium	3	1.0000	1.0000	0.0000	false	wh_main_unit_contact_poison	0	10	3.5000		false
+grn_orc_shaman_bodyguard1	0	0	70	35	1.0000	axe	club_medium	medium	3	1.0000	1.5000	0.0000	true	wh2_pro08_unit_contact_dampen	0	10	4.5000		false
+grn_orc_shaman_bodyguard2	10	0	60	30	1.0000	sword	sword	medium	3	0.5000	1.0000	0.0000	false	wh2_pro08_unit_contact_dampen	0	10	4.0000		false
+grn_orc_shaman_bodyguard3	10	0	60	30	1.0000	sword	sword	medium	3	0.5000	1.0000	0.0000	false		0	10	4.0000		false
+grn_orc_shaman_bodyguard4	15	0	10	40	1.0000	spear	spear	medium	3	1.0000	1.0000	0.0000	false		0	10	5.0000		false
+grn_orc_warboss_bodyguard1	0	0	100	75	3.0000	sword	sword	medium	3	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+grn_orc_warboss_bodyguard2	0	0	100	75	3.0000	sword	sword	medium	3	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+grn_orc_warboss_bodyguard3	0	0	75	150	8.0000	sword	creatures_claws	large	5	1.5000	1.0000	0.0000	false	wh_main_unit_contact_poison	0	10	4.0000		false
+grn_river_troll_hag_bodyguard1	0	0	40	80	2.0000	axe	club_medium	medium	4	1.0000	1.5000	0.0000	false		0	10	3.5000		false
+grn_savage_orc_great_shaman_bodyguard1	0	0	60	140	1.0000	axe	club_medium	medium	4	1.5000	1.0000	0.0000	true	wh2_pro08_unit_contact_dampen	0	10	4.5000		false
+grn_savage_orc_great_shaman_bodyguard2	0	0	125	60	1.0000	sword	sword	medium	3	1.0000	1.0000	0.0000	true	wh2_pro08_unit_contact_dampen	0	10	4.0000		false
+grn_skarsnik_bodyguard1	0	0	100	75	3.0000	sword	sword	medium	3	1.0000	1.0000	0.0000	false	wh_main_unit_contact_poison	0	10	3.5000		false
+grn_snagla_grobspit_bodyguard1	0	0	120	60	3.0000	sword	sword	medium	4	1.0000	1.0000	0.0000	false	wh_main_unit_contact_poison	0	10	3.5000		false
+grn_wurrzag_bodyguard1	0	0	115	50	3.0000	sword	sword	medium	3	1.0000	1.0000	0.0000	true	wh2_pro08_unit_contact_dampen	0	10	4.0000		false
+grn_wurrzag_bodyguard2	0	0	115	50	3.0000	sword	sword	medium	3	1.0000	1.0000	0.0000	true	wh2_pro08_unit_contact_dampen	0	10	4.0000		false
+ikit_claw_bodyguard7	0	20	50	125	3.0000	axe	creatures_claws	medium	4	1.0000	1.0000	0.0000	true		0	10	4.0000		false
+ikit_claw_bodyguard8	0	25	50	85	5.0000	spear	halberd	very_large	4	1.0000	1.0000	0.0000	false	wh_dlc06_unit_contact_sundered_armour	3	2	4.0000		false
+ksl_boris_bodyguard1	0	0	60	30	1.0000	sword	sword	medium	2	0.2500	1.0000	0.0000	false		0	10	3.5000		false
+ksl_boris_bodyguard2	0	15	30	60	1.0000	sword	sword	medium	3	0.5000	1.0000	0.0000	false		0	10	4.5000		false
+ksl_boris_bodyguard3	20	0	30	60	2.0000	spear	halberd	medium	3	0.5000	1.0000	0.0000	false		0	10	4.5000		false
+ksl_boris_bodyguard4	20	0	25	50	4.0000	spear	halberd	medium	4	0.5000	1.0000	0.0000	true	wh_dlc08_unit_contact_frostbite	0	10	4.0000		false
+ksl_boris_bodyguard5	25	0	50	95	4.0000	spear	halberd	medium	4	1.0000	1.0000	0.0000	true	wh_dlc08_unit_contact_frostbite	0	10	4.0000		false
+ksl_boyar_bodyguard1	0	0	60	30	1.0000	axe	axe	medium	2	0.2500	1.0000	0.0000	false		0	10	3.5000		false
+ksl_boyar_bodyguard2	0	0	15	75	1.0000	axe	axe	medium	3	0.5000	1.0000	0.0000	false		0	10	4.5000		false
+ksl_boyar_bodyguard3	20	0	30	60	2.0000	spear	halberd	medium	3	0.5000	1.0000	0.0000	false		0	10	4.5000		false
+ksl_boyar_bodyguard4	0	10	60	30	1.0000	axe	axe	medium	2	0.2500	1.0000	0.0000	false	wh_dlc08_unit_contact_frostbite	0	10	3.0000		false
+ksl_boyar_bodyguard5	0	10	50	25	3.0000	axe	axe	medium	3	0.5000	1.0000	0.0000	false		0	10	4.0000		false
+ksl_boyar_bodyguard6	0	20	50	85	5.0000	axe	creatures_claws	medium	4	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+ksl_boyar_bodyguard7	0	0	15	75	1.0000	axe	axe	medium	2	0.5000	1.0000	0.0000	false		0	10	4.5000		false
+ksl_boyar_mount1	0	25	100	200	5.0000	axe	creatures_claws	very_large	6	1.0000	1.0000	0.0000	false		4	2	4.0000		false
+ksl_boyar_mount2	0	25	100	200	5.0000	axe	creatures_claws	very_large	6	1.0000	1.0000	0.0000	false		4	2	4.0000		false
+ksl_druzhina_bodyguard1	0	0	60	20	1.0000	axe	sword	medium	2	0.5000	1.0000	0.0000	false		0	10	4.0000		false
+ksl_druzhina_bodyguard2	0	0	15	75	1.0000	axe	axe	medium	2	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+ksl_frost_maiden_ice_bodyguard1	20	0	20	60	2.0000	spear	halberd	medium	3	0.5000	1.0000	0.0000	true	wh_dlc08_unit_contact_frostbite	0	10	4.5000		false
+ksl_frost_maiden_ice_bodyguard2	0	10	60	30	1.0000	sword	sword	medium	2	0.2500	1.0000	0.0000	true	wh_dlc08_unit_contact_frostbite	0	10	3.5000		false
+ksl_frost_maiden_tempest_bodyguard1	20	0	20	60	2.0000	spear	halberd	medium	3	0.5000	1.0000	0.0000	true	wh_dlc08_unit_contact_frostbite	0	10	4.5000		false
+ksl_frost_maiden_tempest_bodyguard2	0	10	60	30	1.0000	sword	sword	medium	2	0.2500	1.0000	0.0000	true	wh_dlc08_unit_contact_frostbite	0	10	3.5000		false
+ksl_ice_witch_ice_bodyguard1	20	0	20	60	2.0000	spear	halberd	medium	3	0.5000	1.0000	0.0000	true	wh_dlc08_unit_contact_frostbite	0	10	4.5000		false
+ksl_ice_witch_ice_bodyguard2	0	10	60	30	1.0000	sword	sword	medium	2	0.2500	1.0000	0.0000	true	wh_dlc08_unit_contact_frostbite	0	10	3.5000		false
+ksl_ice_witch_ice_bodyguard3	0	0	100	45	3.0000	sword	sword	medium	3	1.0000	1.0000	0.0000	true	wh_dlc08_unit_contact_frostbite	0	10	4.0000		false
+ksl_ice_witch_ice_bodyguard4	0	0	100	45	3.0000	sword	sword	medium	3	1.0000	1.0000	0.0000	true	wh_dlc08_unit_contact_frostbite	0	10	4.0000		false
+ksl_ice_witch_ice_bodyguard5	0	0	45	100	5.0000	axe	creatures_claws	medium	4	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+ksl_ice_witch_tempest_bodyguard1	20	0	20	60	2.0000	spear	halberd	medium	3	0.5000	1.0000	0.0000	true	wh_dlc08_unit_contact_frostbite	0	10	4.5000		false
+ksl_ice_witch_tempest_bodyguard2	0	10	60	30	1.0000	sword	sword	medium	2	0.2500	1.0000	0.0000	true	wh_dlc08_unit_contact_frostbite	0	10	3.5000		false
+ksl_ice_witch_tempest_bodyguard3	0	0	100	45	3.0000	sword	sword	medium	3	1.0000	1.0000	0.0000	true	wh_dlc08_unit_contact_frostbite	0	10	4.0000		false
+ksl_ice_witch_tempest_bodyguard4	0	0	100	45	3.0000	sword	sword	medium	3	1.0000	1.0000	0.0000	true	wh_dlc08_unit_contact_frostbite	0	10	4.0000		false
+ksl_ice_witch_tempest_bodyguard5	0	0	45	100	5.0000	axe	creatures_claws	medium	5	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+ksl_katarin_bodyguard1	20	0	25	65	2.0000	spear	halberd	medium	3	0.5000	1.0000	0.0000	true	wh_dlc08_unit_contact_frostbite	0	10	4.5000		false
+ksl_katarin_bodyguard2	0	10	70	30	1.0000	sword	sword	medium	2	0.2500	1.0000	0.0000	true	wh_dlc08_unit_contact_frostbite	0	10	3.5000		false
+ksl_katarin_bodyguard3	0	0	110	50	3.0000	sword	sword	medium	3	1.0000	1.0000	0.0000	true	wh_dlc08_unit_contact_frostbite	0	10	4.0000		false
+lzd_kroxigor_ancient_bodyguard_1	0	15	30	70	2.0000	axe	club_medium	medium	4	1.0000	1.0000	0.0000	false		0	10	3.5000		false
+lzd_kroxigor_ancient_bodyguard_2	0	0	30	90	3.0000	axe	club_medium	medium	4	1.0000	1.0000	0.0000	true		0	10	4.0000		false
+lzd_saurus_old_blood_bodyguard_1	0	0	65	40	2.0000	axe	club_saurus	medium	2	0.0000	1.0000	0.0000	false		0	10	3.5000		false
+lzd_saurus_old_blood_bodyguard_2	20	0	65	25	2.0000	spear	spear	medium	2	0.0000	1.0000	0.0000	false		0	10	4.0000		false
+lzd_saurus_old_blood_bodyguard_3	0	0	30	70	1.0000	axe	club_saurus	medium	3	0.0000	1.0000	0.0000	false		0	10	4.0000		false
+lzd_saurus_old_blood_bodyguard_4	25	0	35	70	2.0000	spear	halberd	medium	2	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+lzd_saurus_old_blood_bodyguard_5	0	0	40	85	2.0000	axe	club_saurus	medium	3	0.5000	1.0000	0.0000	false		0	10	4.0000		false
+lzd_saurus_scar_veteran_bodyguard_1	0	0	65	40	2.0000	axe	club_saurus	medium	2	0.0000	1.0000	0.0000	false		0	10	3.5000		false
+lzd_saurus_scar_veteran_bodyguard_2	20	0	65	25	2.0000	spear	spear	medium	2	0.0000	1.0000	0.0000	false		0	10	4.0000		false
+lzd_saurus_scar_veteran_bodyguard_3	15	0	30	65	2.0000	spear	spear	medium	3	0.0000	1.0000	0.0000	false		0	10	4.5000		false
+lzd_saurus_scar_veteran_bodyguard_4	25	0	35	70	2.0000	spear	halberd	medium	2	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+lzd_saurus_scar_veteran_bodyguard_5	20	0	35	75	4.0000	spear	spear	medium	3	0.5000	1.0000	0.0000	false		0	10	4.5000		false
+lzd_skink_chief_bodyguard_1	0	0	45	15	1.0000	axe	club	medium	2	0.0000	1.0000	0.0000	false	wh_main_unit_contact_poison	0	10	3.5000		false
+lzd_skink_chief_bodyguard_2	0	0	45	15	1.0000	axe	club	medium	2	0.0000	1.0000	0.0000	false	wh_main_unit_contact_poison	0	10	3.5000		false
+lzd_skink_chief_bodyguard_3	0	0	70	35	6.0000	spear	creatures_claws	medium	4	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+lzd_skink_chief_bodyguard_4	0	15	35	105	4.0000	axe	creatures_claws	medium	4	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+lzd_skink_chief_red_crested_bodyguard_1	15	0	15	60	1.0000	axe	axe	medium	3	0.5000	1.0000	0.0000	false	wh_main_unit_contact_poison	0	10	4.0000		false
+lzd_skink_chief_red_crested_bodyguard_2	15	0	15	60	4.0000	axe	axe	medium	3	0.5000	1.0000	0.0000	false	wh_main_unit_contact_poison	0	10	4.5000		false
+lzd_skink_chief_red_crested_bodyguard_3	15	0	35	105	4.0000	axe	creatures_claws	medium	4	1.0000	1.0000	0.0000	false	wh_main_unit_contact_poison	0	10	4.0000		false
+lzd_skink_priest_beasts_bodyguard_1	0	0	45	15	1.0000	axe	club	medium	2	0.0000	1.0000	0.0000	false	wh_main_unit_contact_poison	0	10	3.5000		false
+lzd_skink_priest_beasts_bodyguard_2	0	0	80	40	6.0000	spear	creatures_claws	medium	4	1.0000	1.0000	0.0000	false	wh_main_unit_contact_poison	0	10	4.0000		false
+lzd_skink_priest_heavens_bodyguard_1	0	0	45	15	1.0000	axe	club	medium	2	0.0000	1.0000	0.0000	false	wh_main_unit_contact_poison	0	10	3.5000		false
+lzd_skink_priest_heavens_bodyguard_2	0	0	80	40	6.0000	spear	creatures_claws	medium	4	1.0000	1.0000	0.0000	false	wh_main_unit_contact_poison	0	10	4.0000		false
+master_assassin_bodyguard1	0	0	45	15	1.0000	sword	sword	medium	2	0.5000	1.0000	0.0000	false	wh2_main_unit_contact_weeping_blade	0	10	4.0000		false
+master_assassin_bodyguard2	0	0	45	15	1.0000	sword	sword	medium	2	0.5000	1.0000	0.0000	false	wh2_main_unit_contact_weeping_blade	0	10	4.0000		false
+master_assassin_bodyguard3	0	15	60	90	3.0000	sword	sword	medium	3	1.0000	4.0000	0.0000	false	wh2_main_unit_contact_weeping_blade	0	10	2.5000	skv_bodyguard_scale_1_50	false
+ogr_bruiser_bodyguard1	0	10	50	125	3.0000	sword	sword_claws	medium	4	1.0000	1.0000	0.0000	false		0	10	3.5000		false
+ogr_bruiser_bodyguard2	0	10	50	110	3.0000	sword	sword_medium	medium	5	1.0000	1.0000	0.0000	false		0	10	3.5000		false
+ogr_butcher_bodyguard1	0	15	90	60	3.0000	sword	sword_medium	medium	4	1.0000	1.0000	0.0000	false		0	10	3.0000		false
+ogr_butcher_bodyguard2	30	0	50	100	3.0000	sword	sword_medium	medium	5	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+ogr_firebelly_bodyguard1	30	0	45	175	3.0000	sword	sword_medium	medium	4	1.5000	1.0000	1.0000	true		0	10	4.0000		false
+ogr_firebelly_bodyguard2	30	0	40	160	3.0000	sword	sword_medium	medium	5	1.5000	1.0000	1.0000	true		0	10	4.0000		false
+ogr_golgfag_maneater_bodyguard1	0	20	75	150	3.0000	sword	sword_medium	medium	4	1.0000	1.0000	0.0000	false		0	10	3.5000		false
+ogr_hunter_bodyguard1	25	0	50	100	5.0000	spear	spear_medium	medium	5	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+ogr_paymaster_bodyguard1	0	15	40	140	3.0000	sword	sword_medium	medium	4	1.0000	1.0000	0.0000	false		0	10	3.0000		false
+ogr_paymaster_bodyguard2	30	0	40	140	3.0000	axe	axe	medium	4	1.5000	1.0000	0.0000	false		0	10	4.0000		false
+ogr_skrag_the_slaughterer_bodyguard1	0	20	50	125	5.0000	axe	creatures_claws	medium	5	1.0000	1.0000	0.0000	false		0	10	3.0000		false
+ogr_slaughtermaster_bodyguard1	0	0	125	75	3.0000	sword	sword_medium	medium	4	1.0000	1.0000	0.0000	false		0	10	3.5000		false
+ogr_slaughtermaster_bodyguard2	0	0	40	120	3.0000	sword	sword_medium	medium	5	1.0000	1.0000	0.0000	false		0	10	3.5000		false
+ogr_tyrant_bodyguard1	0	0	40	160	4.0000	sword	sword_medium	medium	5	1.5000	1.0000	0.0000	false		0	10	4.0000		false
+ogr_tyrant_bodyguard2	0	0	60	140	4.0000	sword	sword_medium	medium	5	1.5000	1.0000	0.0000	false		0	10	4.0000		false
+plague_priest_bodyguard1	0	10	60	15	1.0000	sword	sword	medium	2	0.0000	1.0000	0.0000	false	wh_main_unit_contact_poison	0	10	3.5000		false
+plague_priest_bodyguard2	0	0	20	100	1.0000	axe	flail	medium	3	1.0000	1.5000	0.0000	true	wh2_main_unit_contact_plague_monk_censer_morale	0	10	4.5000		false
+plague_priest_bodyguard3	10	0	60	60	1.0000	spear	halberd	medium	3	0.5000	1.5000	0.0000	true	wh2_pro08_unit_contact_dampen	0	10	4.0000		false
+queek_headtaker_bodyguard1	0	0	25	50	1.0000	sword	sword	medium	2	0.0000	1.0000	0.0000	false		0	10	4.0000		false
+queek_headtaker_bodyguard2	0	10	25	50	1.0000	sword	sword	medium	2	0.0000	1.0000	0.0000	false		0	10	3.0000		false
+queek_headtaker_bodyguard3	25	0	50	125	3.0000	spear	halberd	large	4	1.0000	1.2500	0.0000	false		0	10	4.0000		false
+skrolk_bodyguard1	0	10	75	25	1.0000	sword	sword	medium	2	0.0000	1.0000	0.0000	false	wh_main_unit_contact_poison	0	10	3.5000		false
+skrolk_bodyguard2	0	0	20	100	1.0000	axe	flail	medium	3	1.0000	1.5000	0.0000	true	wh2_main_unit_contact_plague_monk_censer_morale	0	10	4.5000		false
+skrolk_bodyguard3	10	0	60	60	1.0000	spear	halberd	medium	3	0.5000	1.5000	0.0000	true	wh2_pro08_unit_contact_dampen	0	10	4.0000		false
+skrolk_bodyguard4	0	0	40	120	3.0000	axe	flail	medium	4	1.0000	1.5000	0.0000	true	wh2_main_unit_contact_plague_monk_censer_morale	0	10	4.0000		false
+skvbodyguard_weaponteam_globadiers	0	0	40	30	1.0000	sword	sword	medium	2	0.0000	1.0000	0.0000	false		0	10	4.0000		false
+skvbodyguard_weaponteam_warp_grinder_ikit_claw	0	0	20	90	4.0000	spear	halberd	medium	4	1.5000	4.0000	0.0000	true		0	10	3.0000	skv_bodyguard_scale_1_25	false
+skvbodyguard_weaponteam_warp_grinder_warlock_engineer	0	0	20	80	4.0000	spear	halberd	medium	4	1.5000	4.0000	0.0000	true		0	10	3.0000	skv_bodyguard_scale_1_25	false
+skvbodyguard_weaponteam_warp_grinder_warlock_master	0	0	20	85	4.0000	spear	halberd	medium	4	1.5000	4.0000	0.0000	true		0	10	3.0000	skv_bodyguard_scale_1_25	false
+snikch_bodyguard1	0	0	75	105	3.0000	sword	sword	medium	3	1.0000	4.0000	0.0000	false	wh2_main_unit_contact_weeping_blade	0	10	2.5000	skv_bodyguard_scale_1_50	false
+tcg_kho_bodyguard_1_hero	0	20	20	60	2.0000	sword	sword		1	1.0000	1.0000	1.0000	true		0	10	4.0000		false
+tcg_kho_bodyguard_1_lord	0	20	20	60	2.0000	sword	sword		1	1.0000	1.0000	1.0000	true		0	10	4.0000		false
+tcg_kho_bodyguard_2_hero	0	20	25	50	5.0000	sword	sword	medium	4	0.5000	1.0000	1.0000	true		0	10	4.0000		false
+tcg_kho_bodyguard_2_lord	0	20	25	50	5.0000	sword	sword	medium	4	0.5000	1.0000	1.0000	true		0	10	4.0000		false
+tcg_kho_bodyguard_3_hero	0	25	55	105	10.0000	axe	unarmed	very_large	6	1.0000	1.0000	1.0000	true		4	4	4.5000		false
+tcg_kho_bodyguard_3_lord	0	25	55	105	10.0000	axe	unarmed	very_large	6	1.0000	1.0000	1.0000	true		4	4	4.5000		false
+tcg_nur_bodyguard_1_hero	0	0	60	30	1.0000	sword	sword		1	1.0000	1.0000	0.0000	true	wh_main_unit_contact_poison	0	10	3.5000		false
+tcg_nur_bodyguard_1_lord	0	0	60	30	1.0000	sword	sword		1	1.0000	1.0000	0.0000	true	wh_main_unit_contact_poison	0	10	3.5000		false
+tcg_nur_bodyguard_2_hero	0	10	40	40	4.0000	sword	creatures_claws	medium	3	1.0000	1.0000	0.0000	true	wh_main_unit_contact_poison	0	10	4.0000		false
+tcg_nur_bodyguard_2_lord	0	10	40	40	4.0000	sword	creatures_claws	medium	3	1.0000	1.0000	0.0000	true	wh_main_unit_contact_poison	0	10	4.0000		false
+tcg_nur_bodyguard_3_hero	0	0	25	65	4.0000	sword	creatures_claws	medium	4	1.0000	1.0000	0.0000	true	wh_main_unit_contact_poison	0	10	4.0000		false
+tcg_nur_bodyguard_3_lord	0	0	25	65	4.0000	sword	creatures_claws	medium	4	1.0000	1.0000	0.0000	true	wh_main_unit_contact_poison	0	10	4.0000		false
+tcg_sla_bodyguard_1_hero	0	0	25	65	3.0000	sword	creatures_claws	medium	3	0.5000	1.0000	0.0000	true	wh2_dlc11_unit_contact_charmed	0	10	4.0000		false
+tcg_sla_bodyguard_1_lord	0	0	25	65	3.0000	sword	creatures_claws	medium	3	0.5000	1.0000	0.0000	true	wh2_dlc11_unit_contact_charmed	0	10	4.0000		false
+tcg_sla_bodyguard_2_hero	0	0	20	60	3.0000	sword	creatures_claws	medium	3	0.5000	1.0000	0.0000	true	wh_main_unit_contact_poison	0	10	4.0000		false
+tcg_sla_bodyguard_2_lord	0	0	20	60	3.0000	sword	creatures_claws	medium	3	0.5000	1.0000	0.0000	true	wh_main_unit_contact_poison	0	10	4.0000		false
+tcg_sla_bodyguard_3_hero	0	0	20	60	3.0000	axe	creatures_claws	medium	4	1.0000	1.0000	0.0000	true	wh_main_unit_contact_poison	0	10	4.0000		false
+tcg_sla_bodyguard_3_lord	0	0	20	60	3.0000	axe	creatures_claws	medium	4	1.0000	1.0000	0.0000	true	wh_main_unit_contact_poison	0	10	4.0000		false
+tcg_tze_bodyguard_1_hero	0	0	50	25	1.0000	sword	sword		1	1.0000	1.0000	1.0000	true	wh3_main_unit_contact_warpflame	0	10	3.5000		false
+tcg_tze_bodyguard_1_lord	0	0	50	25	1.0000	sword	sword		1	1.0000	1.0000	1.0000	true	wh3_main_unit_contact_warpflame	0	10	3.5000		false
+tcg_tze_bodyguard_2_hero	0	0	70	35	3.0000	sword	staff	medium	3	0.5000	1.0000	1.0000	true	wh3_main_unit_contact_warpflame	0	10	4.0000		false
+tcg_tze_bodyguard_2_lord	0	0	70	35	3.0000	sword	staff	medium	3	0.5000	1.0000	1.0000	true	wh3_main_unit_contact_warpflame	0	10	4.0000		false
+tcg_tze_bodyguard_3_hero	0	0	75	125	7.0000	sword	drakegun	very_large	6	1.0000	1.0000	1.0000	true	wh3_main_unit_contact_warpflame	2	2	4.0000		false
+tcg_tze_bodyguard_3_lord	0	0	75	125	7.0000	sword	drakegun	very_large	6	1.0000	1.0000	1.0000	true	wh3_main_unit_contact_warpflame	2	2	4.0000		false
+tmb_liche_priest_death_mount1	0	0	230	120	3.0000	axe	creatures_claws	very_large	5	1.0000	1.0000	0.0000	true		4	2	4.0000		false
+tmb_liche_priest_death_mount2	0	28	200	150	5.0000	axe	creatures_claws	very_large	4	1.0000	1.0000	0.0000	true		2	2	4.0000		false
+tmb_liche_priest_light_mount1	0	0	230	120	3.0000	axe	creatures_claws	very_large	5	1.0000	1.0000	0.0000	true		4	2	4.0000		false
+tmb_liche_priest_light_mount2	0	28	200	150	5.0000	axe	creatures_claws	very_large	4	1.0000	1.0000	0.0000	true		2	2	4.0000		false
+tmb_liche_priest_nehekhara_mount1	0	0	230	120	3.0000	axe	creatures_claws	very_large	5	1.0000	1.0000	0.0000	true		4	2	4.0000		false
+tmb_liche_priest_nehekhara_mount2	0	28	200	150	5.0000	axe	creatures_claws	very_large	4	1.0000	1.0000	0.0000	true		2	2	4.0000		false
+tmb_liche_priest_shadow_mount1	0	0	230	120	3.0000	axe	creatures_claws	very_large	5	1.0000	1.0000	0.0000	true		4	2	4.0000		false
+tmb_liche_priest_shadow_mount2	0	28	200	150	5.0000	axe	creatures_claws	very_large	4	1.0000	1.0000	0.0000	true		2	2	4.0000		false
+tmb_necrotect_mount1	0	15	145	345	9.0000	axe	creatures_claws	medium	5	1.5000	1.5000	0.0000	false		4	4	3.5000		false
+tmb_necrotect_shape1	0	15	120	300	7.0000	axe	creatures_claws	large	5	1.0000	1.5000	0.0000	false	wh_main_unit_contact_poison	4	4	3.5000		false
+tmb_necrotect_shape2	0	0	100	300	5.0000	axe	club_huge	large	6	1.0000	1.5000	0.0000	false		0	10	4.0000		false
+tmb_necrotect_shape3	0	0	150	400	6.0000	axe	club_huge	very_large	5	1.5000	2.0000	1.0000	true		5	5	4.0000		false
+tmb_necrotect_shape4	35	0	150	450	9.0000	sword	sword_huge	large	5	1.0000	1.5000	0.0000	false		5	5	3.5000	tmb_bodyguard_scale_1_50	false
+tmb_tomb_king_bodyguard1	0	0	60	30	3.0000	sword	sword	medium	2	0.5000	0.5000	0.0000	false	tmb_bodyguard_contact_khopesh	0	10	4.0000	tmb_bodyguard_scale_1_25	false
+tmb_tomb_king_bodyguard2	25	0	20	60	3.0000	spear	halberd	medium	3	0.5000	0.5000	0.0000	false	tmb_bodyguard_contact_halberd	0	10	4.5000		false
+tmb_tomb_king_bodyguard3	0	0	60	30	3.0000	sword	sword	medium	3	0.5000	0.5000	0.0000	false	tmb_bodyguard_contact_khopesh	0	10	4.0000	tmb_bodyguard_scale_1_25	false
+tmb_tomb_prince_bodyguard1	0	10	80	20	1.0000	sword	sword	medium	2	0.5000	0.5000	0.0000	false	tmb_bodyguard_contact_khopesh	0	10	4.0000	tmb_bodyguard_scale_1_25	false
+tmb_tomb_prince_bodyguard2	25	0	20	60	3.0000	spear	halberd	medium	3	0.5000	0.5000	0.0000	false	tmb_bodyguard_contact_halberd	0	10	4.5000		false
+tmb_tomb_prince_bodyguard3	20	0	20	60	3.0000	spear	halberd	medium	3	0.5000	0.5000	0.0000	false	tmb_bodyguard_contact_halberd	0	10	4.5000		false
+tmb_tomb_prince_bodyguard4	25	0	25	50	4.0000	lance	halberd	medium	3	0.5000	0.5000	0.0000	false	wh_main_unit_contact_poison	0	10	5.5000		false
+tmb_tomb_prince_mount1	0	15	145	345	9.0000	axe	creatures_claws	medium	5	1.5000	1.5000	0.0000	false		4	4	3.5000		false
+tmb_tomb_prince_mount2	30	0	100	300	5.0000	lance	halberd	medium	5	1.0000	1.0000	0.0000	false	wh_main_unit_contact_poison	0	10	4.0000		false
+tretch_craventail_bodyguard1	0	0	65	35	1.0000	sword	sword	medium	2	0.5000	1.0000	0.0000	false		0	10	4.0000		false
+tretch_craventail_bodyguard2	20	0	25	65	1.0000	spear	halberd	medium	3	0.5000	1.2500	0.0000	false		0	10	4.5000		false
+vampire_death_mount1	0	15	50	75	3.0000	axe	unarmed	very_large	4	1.0000	1.0000	0.0000	true		4	2	4.0000		false
+vampire_death_mount2	0	15	50	75	3.0000	axe	unarmed	very_large	4	1.0000	1.0000	0.0000	true		4	2	4.0000		false
+vampire_death_mount3	0	15	50	75	3.0000	axe	unarmed	very_large	4	1.0000	1.0000	0.0000	true		4	2	4.0000		false
+vampire_death_mount4	0	0	125	375	8.0000	axe	creatures_claws	large	6	1.0000	1.5000	0.0000	false		0	10	4.0000		false
+vampire_shadows_mount1	0	15	50	75	3.0000	axe	unarmed	very_large	4	1.0000	1.0000	0.0000	true		4	2	4.0000		false
+vampire_shadows_mount2	0	15	50	75	3.0000	axe	unarmed	very_large	4	1.0000	1.0000	0.0000	true		4	2	4.0000		false
+vampire_shadows_mount3	0	15	50	75	3.0000	axe	unarmed	very_large	4	1.0000	1.0000	0.0000	true		4	2	4.0000		false
+vampire_shadows_mount4	0	0	125	375	8.0000	axe	creatures_claws	large	6	1.0000	1.5000	0.0000	false		0	10	4.0000		false
+warlock_engineer_mount1	0	35	95	175	5.0000	spear	halberd	very_large	5	1.0000	1.0000	0.0000	false		3	2	4.0000		false
+warlock_engineer_mount2	0	30	150	250	4.0000	axe	creatures_claws	very_large	7	1.0000	1.0000	0.0000	false		3	3	4.0000		false
+warlock_master_bodyguard7	0	0	40	100	3.0000	spear	halberd	medium	3	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+warlock_master_bodyguard8	0	25	50	85	5.0000	spear	halberd	very_large	4	1.0000	1.0000	0.0000	false	wh_dlc06_unit_contact_sundered_armour	3	2	4.0000		false
+warlord_bodyguard1	0	0	35	20	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	10	3.5000		false
+warlord_bodyguard2	15	0	30	15	1.0000	spear	spear		1	1.0000	1.0000	0.0000	false		0	10	4.5000		false
+warlord_bodyguard3	0	0	60	30	1.0000	sword	sword	medium	2	0.5000	1.0000	0.0000	false		0	10	3.5000		false
+warlord_bodyguard4	20	0	20	60	1.0000	spear	halberd	medium	3	0.5000	1.2500	0.0000	false		0	10	4.5000		false
+warlord_bodyguard5	25	0	50	100	3.0000	spear	halberd	large	4	1.0000	1.2500	0.0000	false		0	10	4.0000		false
+warlord_bodyguard6	0	0	70	160	5.0000	sword	sword	medium	4	1.5000	1.5000	0.0000	false		0	10	4.0000		false
+wef_female_glade_lord_bodyguard_1	20	0	15	60	1.0000	spear	spear	medium	2	0.5000	1.0000	0.0000	false		0	10	4.5000		false
+wef_female_glade_lord_bodyguard_2	0	0	30	15	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+wef_female_glade_lord_bodyguard_3	0	0	50	25	1.0000	sword	sword	medium	2	0.5000	1.0000	0.0000	false		0	10	4.0000		false
+wef_female_glade_lord_bodyguard_4	0	0	40	20	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false	wh_main_unit_contact_poison	0	10	4.0000		false
+wef_female_glade_lord_bodyguard_5	0	0	25	55	3.0000	spear	spear	large	4	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+wef_glade_captain_bodyguard_1	0	0	30	15	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+wef_glade_captain_bodyguard_2	10	0	20	40	3.0000	spear	spear	medium	4	0.5000	1.0000	0.0000	false		0	10	4.5000		false
+wef_glade_captain_bodyguard_3	0	15	20	60	1.0000	sword	sword	medium	3	0.7500	1.0000	0.0000	false		0	10	4.5000		false
+wef_glade_captain_bodyguard_4	0	15	50	25	1.0000	sword	sword	medium	2	0.5000	1.0000	0.0000	true		0	10	3.5000		false
+wef_glade_captain_bodyguard_5	0	0	40	20	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false	wh_main_unit_contact_poison	0	10	4.0000		false
+wef_glade_captain_bodyguard_6	15	0	25	50	3.0000	spear	spear	large	4	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+wef_glade_lord_bodyguard_1	20	0	15	60	1.0000	spear	spear		1	1.0000	1.0000	0.0000	false		0	10	4.5000		false
+wef_glade_lord_bodyguard_2	0	0	30	15	1.0000	sword	sword	medium	2	0.5000	1.0000	0.0000	false		0	10	4.0000		false
+wef_glade_lord_bodyguard_3	15	0	40	20	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	10	4.5000		false
+wef_glade_lord_bodyguard_4	0	0	25	50	2.0000	axe	axe	medium	4	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+wef_glade_lord_bodyguard_5	0	0	30	60	1.0000	lance	spear	large	4	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+wef_waystalker_bodyguard_1	0	0	25	5	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+wef_waystalker_bodyguard_2	0	0	45	15	1.0000	sword	sword	medium	2	0.5000	1.0000	0.0000	false		0	10	4.0000		false
+wef_waystalker_bodyguard_3	0	10	45	15	1.0000	sword	sword	medium	2	0.5000	1.0000	0.0000	false		0	10	3.5000		false
+wef_waystalker_bodyguard_4	0	0	25	50	2.0000	axe	axe	medium	4	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+wight_king_bodyguard1	25	0	50	100	3.0000	sword	sword	medium	3	0.5000	1.0000	0.0000	true		0	10	4.0000		false
+wight_king_bodyguard2	0	15	150	50	3.0000	sword	sword	medium	3	0.5000	1.0000	0.0000	true		0	10	3.0000		false
+wight_king_bodyguard3	10	0	35	140	3.0000	spear	halberd	large	4	1.0000	1.2500	0.0000	true	wh_dlc06_unit_contact_sundered_armour	0	10	4.0000		false
+wight_king_bodyguard4	20	0	90	60	1.0000	lance	spear	medium	3	1.0000	1.0000	0.0000	true		0	10	4.0000		false
+wight_king_bodyguard5	0	10	125	50	3.0000	sword	sword	medium	3	1.0000	1.0000	0.0000	true		0	10	3.5000		false
+wight_king_bodyguard6	20	0	90	60	1.0000	lance	spear	medium	3	1.0000	1.0000	0.0000	true		0	10	4.0000		false
+wight_king_mount1	20	0	255	135	3.0000	sword	sword	large	6	1.0000	1.0000	0.0000	true		0	10	4.0000		false

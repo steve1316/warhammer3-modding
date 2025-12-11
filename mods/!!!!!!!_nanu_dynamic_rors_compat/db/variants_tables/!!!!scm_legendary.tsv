@@ -1,4 +1,3 @@
 variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
 #variants_tables;6;db/variants_tables/!!!!scm_legendary
 kou_stag_chariot_stag	VariantMeshes\wh_variantmodels\st1\wef\wef_great_stag\tech	kou_queen_royal_stags		1.3800	0.9700	0.0000	
-str_hkrul_knights_cleansing_flame		thm_mar_knights_cleansing_flame_horse		1.0000	1.0000	0.0500	

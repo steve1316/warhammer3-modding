@@ -1,0 +1,16 @@
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/!!!!!!!2xunitsize_compat_str_skaven_clans
+kou_rat_mnt_giant_spider	VariantMeshes/wh_variantmodels/sp1/grn/grn_giant_spider/tech/	grn_giant_spider		1.0000	0.9000	0.0500	
+nathan_rat_mount_cart_slaves		skv_skavenslaves		1.0000	1.0000	0.0000	
+rathan_ferrik_rat_ogre_draught		skv_rat_ogre_mutant		1.0000	0.9000	0.0000	
+str_bonebreaker_sitch	VariantMeshes\_VariantModels\humanoid18\skv\skv_bone_breaker\tech	str_bonebreaker_sitch		1.0000	1.6000	0.0000	
+str_garbag_mount	variantmeshes/wh_variantmodels/rp2/grn/kou_garbag_squig_mount/tech	str_garbag_mount		1.0000	1.0000	0.0000	
+str_garbag_wolf_ap	VariantMeshes\wh_variantmodels\wf1\grn\grn_giant_wolf\tech	str_garbag_wolf_ap		1.0000	1.0000	0.0500	
+str_garbag_wolf_poison	VariantMeshes\wh_variantmodels\wf1\grn\grn_giant_wolf\tech	str_garbag_wolf_poison		1.0000	1.0000	0.0500	
+str_gnaw_duneskulk_arach	VariantMeshes/wh_variantmodels/sp1/grn/grn_arachnorok/tech/	str_gnaw_duneskulk_arach		1.0000	4.0000	0.0000	
+str_gnaw_wyvern_mount	VariantMeshes\wh_variantmodels\bi2\skv\skv_wyvern\tech	grn_wyvern		1.0000	1.0000	0.0000	
+str_pox_rat_mount	VariantMeshes\wh_variantmodels\ra1\skv\skv_brood_horror\tech	str_pox_rat_mount		1.0000	1.0000	0.0000	
+str_pox_rat_nurglitch	VariantMeshes\wh_variantmodels\ra1\skv\skv_brood_horror\tech	str_pox_rat_nurglitch		1.0000	1.0000	0.0000	
+str_skarrik_mount	VariantMeshes\_VariantModels\humanoid18\skv\skv_bone_breaker\tech	str_skarrik_mount		1.0000	1.6000	0.0000	
+str_tenscratch_arach	VariantMeshes/wh_variantmodels/sp1/grn/grn_arachnorok/tech/	str_tenscratch_arach		1.0000	4.0000	0.0000	
+thom_ferrik_armoured_rat_ogre_chariot		thom_ferrik_armoured_rat_ogre		1.0000	1.0000	0.1500	

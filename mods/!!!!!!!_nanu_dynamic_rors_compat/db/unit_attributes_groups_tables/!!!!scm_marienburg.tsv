@@ -2,7 +2,6 @@ group_name
 #unit_attributes_groups_tables;0;db/unit_attributes_groups_tables/!!!!scm_marienburg
 hkrul_burgher
 hkrul_carriers
-hkrul_klumpf
 hkrul_manann_flagellant
 hkrul_mar_culverin
 hkrul_mar_handguns
@@ -14,6 +13,5 @@ hkrul_mar_riverwarden
 hkrul_mar_sons_of_manann
 hkrul_privateers
 hkrul_privateers_dual_swords
-ovn_mar_inf_knights_mariner_0_attributes
 rhox_wh2_dlc11_cst_inf_sartosa_free_company_0
 rhox_wh2_dlc11_cst_inf_sartosa_militia_0

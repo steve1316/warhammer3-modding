@@ -1,0 +1,19 @@
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/!!!!!!!2xunitsize_compat_!scm_totn
+gjalfr	variantmeshes/wh_variantmodels/wf1/nor/nor_ice_wolf/tech	nor_giant_icewolf	wf1/nor/nor_ice_wolf/nor_giant_icewolf	1.0000	1.1500	0.0000	
+gra_longship	warmachines/aircraft/gra_longship/gra_longship_tech/	gra_longship		1.0000	1.0200	0.0000	
+hkrul_akkorak_horse	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	kurg_akkorak_horse		1.1500	1.1500	0.0500	
+hkrul_geimdall_longship	warmachines/aircraft/nor_longship/totn_longship_tech	gei_longship		1.0000	1.0600	0.0000	
+hkrul_olaf_mammoth	VariantMeshes/wh_variantmodels/hq3/nor/nor_war_mammoth/tech	olaf_war_mammoth_howdah_lord		1.0000	1.0000	0.0000	
+hkrul_ulfric_mammoth	VariantMeshes/wh_variantmodels/hq3/nor/nor_war_mammoth/tech	bjornling_war_mammoth_howdah_lord		1.0000	1.0000	0.0000	
+kysaro_adella_stegadon	VariantMeshes\wh_variantmodels\hq1\lzd\lzd_stegadon\tech	kysaro_adella_stegadon		1.6000	1.0000	0.0000	
+medusa_surtha_ek_warhorse_chariot	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	medusa_surtha_ek_warhorse	hr1\chs\chs_steed\low_poly\chs_steed_lowlod	1.1000	1.1000	0.0000	
+nor_longship_ror	warmachines/aircraft/nor_longship/totn_longship_tech	ror_longship		1.0000	1.0000	0.0000	
+oda_manticore	VariantMeshes\_VariantModels\bigcat03\chaos_undivided\saddles\tech	nor_oda_manticore		1.0000	1.0000	0.0000	
+rhox_adella_mnt_adella_horse		skg_adella_horse		1.0000	1.0000	0.0500	
+rhox_drenok_mnt_war_bear	VariantMeshes/wh_variantmodels/br1/ksl/ksl_bear/tech	rhox_drenok_mnt_war_bear	br1/ksl/ksl_bear/ksl_bear_imposter	1.0000	1.0000	0.0000	
+rhox_einar_mnt_war_bear	VariantMeshes/wh_variantmodels/br1/ksl/ksl_bear/tech	rhox_einar_mnt_war_bear	br1/ksl/ksl_bear/ksl_bear_imposter	1.0000	1.0000	0.0000	
+sarl_birna_longship	warmachines/aircraft/nor_longship/sarl_longship_tech/	sarl_longship		1.0000	0.9700	0.0000	
+wh_mod_chs_norscan_warhorse_war_wagon	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	chs_warhorse	hr1\chs\chs_warhorse\low_poly\chs_warhorse_lowlod	1.0850	1.0850	0.0000	
+wh_mod_nor_cold_one_lzd	VariantMeshes\wh_variantmodels\rp3\def\def_cold_one\tech	lzd_cold_one	rp3\lzd\lzd_cold_one\imposter\lzd_cold_one_imposter	1.1500	1.0000	0.0500	
+wh_mod_nor_war_mammoth_draught	VariantMeshes/wh_variantmodels/hq3/nor/nor_war_mammoth/tech	nor_mammoth_draughts		1.0000	1.0000	0.0300	

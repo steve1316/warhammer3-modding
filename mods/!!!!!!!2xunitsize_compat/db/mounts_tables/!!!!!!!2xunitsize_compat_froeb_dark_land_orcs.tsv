@@ -1,0 +1,4 @@
+key	animation	entity	audio_armour_type	variant	voiceover
+#mounts_tables;10;db/mounts_tables/!!!!!!!2xunitsize_compat_froeb_dark_land_orcs
+frb_dark_land_orcs_legendary_hero_boar	bo1_warboar	frb_dark_land_orcs_legendary_hero_boar_entity	heavy_plate	frb_dark_land_orcs_legendary_hero_boar	wh_dlc03_vo_culture_Boar
+frb_orc_dragon	hc3_froeb_orc_dragon	frb_orc_dragon_entity	body	frb_orc_dragon	wh_main_vo_culture_Dragon_Large

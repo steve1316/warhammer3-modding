@@ -1,0 +1,6 @@
+key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
+#missile_weapons_tables;11;db/missile_weapons_tables/!!!!!!!2xunitsize_compat_Trajanns_Sentinels
+traj_barthuum	false	traj_barthuum_single		false
+traj_barthuum_ror	false	traj_barthuum_ror		false
+traj_malarok	false	traj_malarok		false
+traj_malarok_stalkers	false	traj_malarok_stalkers		false

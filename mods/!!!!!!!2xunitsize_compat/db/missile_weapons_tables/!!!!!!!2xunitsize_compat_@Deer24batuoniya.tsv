@@ -1,0 +1,4 @@
+key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
+#missile_weapons_tables;11;db/missile_weapons_tables/!!!!!!!2xunitsize_compat_@Deer24batuoniya
+BTCGSBOW	false	BTCGSBOW	bow	false
+CGSBOW	false	CGSBOW	bow	false

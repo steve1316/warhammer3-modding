@@ -1,0 +1,13 @@
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/!!!!!!!2xunitsize_compat_ror_all
+8skyjunk	warmachines/aircraft/cth_sky_junk/tech/	cth_sky_junk_bomber		1.0000	1.0000	0.0000	
+wh3_main_cth_mnt_horse_hero_ror	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	cth_horse_lord_ror	hr1/cth/cth_horse/cth_horse_heavy_01_imposter	1.0000	1.0000	0.0000	
+wh3_main_kho_juggernaut_bloodcrusher_ror		dae_juggernaut_bloodcrusher_rors	hq4/dae/dae_juggernaut/dae_juggernaught_01_imposter	1.1500	1.0000	0.0000	
+wh3_main_kho_veh_skullcannon_0_	warmachines/engines/dae_skullcannon/tech	dae_skullcannon_pro		1.0000	1.0000	0.0000	
+wh3_main_ksl_mnt_war_bear_rors	VariantMeshes/wh_variantmodels/br1/ksl/ksl_bear/tech	wh3_main_ksl_mnt_war_bear_rors	br1/ksl/ksl_bear/ksl_bear_imposter	1.0000	1.0000	0.0000	
+wh3_main_ksl_mon_elemental_bear_grom		ksl_elemental_bear		1.0000	1.0000	0.0000	
+wh3_main_ogr_veh_rhinox_draft_ror		ogr_rhinox_draught		1.1000	1.1000	0.0000	
+wh3_main_ogr_veh_rhinox_draft_rors		ogr_rhinox_rors		1.1000	1.1000	0.0000	
+wh3_main_sla_mnt_steed_of_slaanesh_draught_ror	VariantMeshes/wh_variantmodels/rp1/dae/dae_steed_of_slaanesh/tech	dae_steed_of_slaanesh_draught_ror		1.0000	1.0000	0.0000	
+wh3_main_sla_mnt_steed_of_slaanesh_ror	VariantMeshes/wh_variantmodels/rp1/dae/dae_steed_of_slaanesh/tech	dae_steed_of_slaanesh_rors		1.0000	1.0000	0.0000	
+wh3_main_tze_mnt_burning_chariot_of_tzeentch_0_ror	VariantMeshes/wh_variantmodels/bch1/dae/dae_burning_chariot/tech/	dae_burning_chariot_of_tzeentch_rors		1.0000	1.0000	0.0000	

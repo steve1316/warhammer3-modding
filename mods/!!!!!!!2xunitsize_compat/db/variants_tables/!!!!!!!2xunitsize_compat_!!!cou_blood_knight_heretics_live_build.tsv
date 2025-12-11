@@ -1,0 +1,11 @@
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/!!!!!!!2xunitsize_compat_!!!cou_blood_knight_heretics_live_build
+cou_bkh_blood_throne_mount_vmd	variantmeshes/wh_variantmodels/cou_vampire_mounts/bt1/blood_dragon_blood_throne/tech	cou_bkh_blood_throne_mount		0.7400	1.3500	0.0000	
+cou_kho_blood_dragons_steed	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	cou_khornate_blood_dragon_steed		1.1500	1.1500	0.0500	
+cou_kho_blood_dragons_terrorghiest	variantmeshes/wh_variantmodels/cou_vampire_mounts/bi2/cou_khorne_gheist/tech	cou_khornate_terrorgheist		1.6500	1.3500	0.0000	
+cou_nur_fathom_fish	variantmeshes\wh_variantmodels\cou_vampire_mounts\mt1\cou_fathom_fish\tech	cou_nurgle_fathom_fish		1.3000	1.1500	0.0500	
+cou_nur_fathomite_toad_dragon	variantmeshes/wh_variantmodels/cou_vampire_mounts/dr5/tech	cou_nurglian_fathom_knight_toad_dragon		1.0000	1.2000	0.0000	
+cou_sla_dame_serpent	variantmeshes/wh_variantmodels/cou_vampire_mounts/sn1/tech	cou_slaaneshi_bewb_worm		1.0000	1.0000	0.1000	
+cou_tze_lh_chs_dragon_vmd	VariantMeshes\_VariantModels\dragon01b\chs\chs_chaos_dragon\tech	cou_tze_lh_chs_dragon		0.8700	1.1500	0.0000	
+cou_tze_templar_steed		cou_tzneetchian_templar_steed		1.0000	1.0000	0.0500	
+cou_tzeentch_templar_manticore	VariantMeshes\_VariantModels\bigcat03\chaos_undivided\saddles\tech	cou_tzeentch_templar_manticore		1.0000	1.0000	0.0500	

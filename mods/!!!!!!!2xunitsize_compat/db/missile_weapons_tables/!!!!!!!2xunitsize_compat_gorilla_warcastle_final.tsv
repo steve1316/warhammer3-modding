@@ -1,0 +1,4 @@
+key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
+#missile_weapons_tables;11;db/missile_weapons_tables/!!!!!!!2xunitsize_compat_gorilla_warcastle_final
+gorilla_brt_mangonel_shot	false	gorilla_brt_mangonel_shot		false
+gorilla_brt_war_castle_arrow	false	gorilla_brt_war_castle_arrow_1	bow	false

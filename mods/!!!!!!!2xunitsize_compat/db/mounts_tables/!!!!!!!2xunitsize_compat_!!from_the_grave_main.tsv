@@ -1,0 +1,4 @@
+key	animation	entity	audio_armour_type	variant	voiceover
+#mounts_tables;10;db/mounts_tables/!!!!!!!2xunitsize_compat_!!from_the_grave_main
+kys_und_bk_steed	kys_und_bk_mount_horse	wh_dlc02_vmp_cavalry_standard_blood_knight_blood	leather	kys_und_bk_steed	wh_main_vo_culture_Skeletal_horse
+kys_und_brood_horror	kys_und_brood_horror_mount	wh2_dlc12_skv_mon_brood_horror_blood	body	kys_und_brood_horror	wh2_main_vo_culture_Skaven

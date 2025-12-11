@@ -1,0 +1,4 @@
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/!!!!!!!2xunitsize_compat_fairlight_beta
+ML_brt_warhorses_barded_faction_colours	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	brt_warhorses_barded_lionheart	hr1\brt\brt_horse\imposter\brt_horse_armoured_imposter	1.0000	1.0000	0.0000	
+wh_brt_repanse_aquila	VariantMeshes\wh_variantmodels\bc2\emp\emp_deathclaw\tech	brt_repanse_aquila		1.0000	1.8330	0.0000	

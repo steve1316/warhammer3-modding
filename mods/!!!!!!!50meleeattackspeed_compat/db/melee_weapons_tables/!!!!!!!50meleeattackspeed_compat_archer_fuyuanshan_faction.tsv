@@ -6,6 +6,7 @@ f_cth_langya_club	0	8	15	30	0.0000	axe	club_medium		2	1.0000	2.0000	0.0000	false
 f_cth_scout_sword	0	5	20	10	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false	wh_main_unit_contact_poison	0	10	1.25		false
 f_cth_sky_keeper_halberd	30	0	45	70	4.0000	lance	halberd_medium	large	4	1.0000	1.0000	0.0000	true		0	10	2.0		false
 fuyuanshan_xinwu	0	0	240	400	9.0000	sword	sword_huge	large	8	1.0000	0.7500	1.0000	true		0	10	2.0		false
+fuyuanshan_xiuluo_0_weapon	0	8	500	140	3.0000	sword	sword	medium	50	2.5000	1.5000	0.0000	true		0	10	2.0		false
 jade_banner	0	0	0	0	3.0000	spear	halberd	medium	8	1.0000	0.7500	0.0000	true		0	10	2.0		false
 jade_general_human	30	0	250	150	3.0000	spear	halberd	medium	8	1.5000	0.7500	0.0000	false		0	10	2.0		false
 jade_general_longma	30	0	150	250	3.0000	spear	halberd	medium	8	1.5000	0.7500	0.0000	false		0	10	2.0		false

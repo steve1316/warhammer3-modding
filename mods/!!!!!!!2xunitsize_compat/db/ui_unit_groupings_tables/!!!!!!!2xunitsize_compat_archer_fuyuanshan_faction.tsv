@@ -1,0 +1,5 @@
+key	icon	parent_group
+#ui_unit_groupings_tables;1;db/ui_unit_groupings_tables/!!!!!!!2xunitsize_compat_archer_fuyuanshan_faction
+firelancer_cavalry	firelancer_cavalry	cavalry_chariots
+fuyuanshan_xiuluo_hero	infantry_sword_great	heroes_agents
+jade_banner	commander	campaign_exclusives

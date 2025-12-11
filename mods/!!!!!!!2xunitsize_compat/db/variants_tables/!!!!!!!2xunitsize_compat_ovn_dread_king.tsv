@@ -1,0 +1,14 @@
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/!!!!!!!2xunitsize_compat_ovn_dread_king
+black_grail_knights_horse		black_grail_knights_horse		1.0000	1.0000	0.0500	
+dread_king_zombie_dragon	VariantMeshes\wh_variantmodels\dr1\vmp\vmp_zombie_dragon\tech	dread_king_zombie_dragon		1.0000	1.0000	0.0000	
+dread_skeletal_elephant	variantmeshes/wh_variantmodels/el1/arb/arb_war_elephant/tech	dread_skeletal_elephant		1.3500	1.3500	0.0000	
+dread_skeletal_elephant_general	variantmeshes/wh_variantmodels/el1/arb/arb_war_elephant/tech	dread_skeletal_elephant_general		1.4000	1.4000	0.0000	
+dread_skeletal_pegasus_hero	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	dread_skeletal_pegasus_hero		1.0000	1.0000	0.0500	
+dread_skeletal_steed	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	dread_skeletal_steed		1.0000	1.0000	0.0500	
+dread_skeletal_steed_chariot		dread_skeletal_steed_chariot		1.0000	1.0000	0.0500	
+dread_skeletal_steed_guard	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	dread_skeletal_steed_guard		1.0000	1.0000	0.0500	
+dread_skeletal_steed_hand	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	dread_skeletal_steed_hand		1.0000	1.0000	0.0500	
+dread_skeletal_steed_hand_chariot		dread_skeletal_steed_hand_chariot		1.0000	1.0000	0.0500	
+dread_skeletal_steed_hero	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	dread_skeletal_steed_hero		1.0000	1.0000	0.0500	
+ovn_dk_mon_skeleton_elephant_ror	variantmeshes/wh_variantmodels/el1/dread_king/skeletal_elephant/tech	dread_skeletal_elephant_ror		1.3500	1.3500	0.0000	

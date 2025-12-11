@@ -1,0 +1,12 @@
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/!!!!!!!2xunitsize_compat_cf-Ksl-units
+cf_dazh_horse_mount	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	cf_dazh_horse_mount	hr1/ksl/ksl_horse/ksl_horse_heavy_01_imposter	1.0000	1.0000	0.0000	
+cf_elemental_bear_draught	VariantMeshes/wh_variantmodels/br1/ksl/ksl_bear/tech	ksl_elemental_bear		1.0000	1.0000	0.0000	
+cf_frost_pegasus_mount		cf_frost_pegasus_mount		1.0000	1.0000	0.0000	
+cf_gryphon_horse_mount	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	cf_gryphon_horse_mount	hr1/ksl/ksl_horse/ksl_horse_heavy_tsar_01_imposter	1.0000	1.0000	0.0000	
+cf_horse_ice_mount	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	cf_horse_ice_mount	hr1/ksl/ksl_horse/ksl_horse_heavy_white_01_imposter	1.0000	1.0000	0.0000	
+cf_kvaskrovka_warhorse_mnt	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	cf_kvaskrovka_warhorse_mnt	hr1/ksl/ksl_horse/ksl_horse_medium_01_imposter	1.0000	1.0000	0.0000	
+cf_little_grom_ice_mount	VariantMeshes/wh_variantmodels/br1/ksl/ksl_bear/tech	cf_little_grom_ice_mount		1.0000	1.0000	0.0000	
+cf_mnt_streltsi_horse	VariantMeshes/wh_variantmodels/hr1/emp/emp_warbeast_horse/tech	ksl_horse_light_dervish	hr1/ksl/ksl_horse/ksl_horse_light_01_imposter	1.0000	1.0000	0.0000	
+cf_mount_black_bear	VariantMeshes/wh_variantmodels/br1/ksl/ksl_bear/tech	cf_mount_black_bear		1.0000	1.0000	0.0000	
+cf_tzar_guard_cav_mount	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	cf_tzar_guard_cav_mount	hr1/ksl/ksl_horse/ksl_horse_heavy_tsar_01_imposter	1.0000	1.0000	0.0000	

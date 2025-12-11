@@ -1,0 +1,8 @@
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/!!!!!!!2xunitsize_compat_gra_holy_orders
+mnt_barded_warhorse_brt_gilbert_araby	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	mnt_barded_warhorse_brt_gilbert_araby	hr1\emp\emp_horse\low_poly\emp_horse_lowlod	1.0000	1.0000	0.0000	
+mnt_barded_warhorse_brt_julienne_saracen	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	mnt_barded_warhorse_brt_julienne_saracen	hr1\emp\emp_horse\low_poly\emp_horse_lowlod	1.0000	1.0000	0.0000	
+mnt_barded_warhorse_brt_knights_hospital		mnt_barded_warhorse_brt_knights_hospital	hr1\brt\brt_horse\imposter\brt_horse_armoured_random_colours_imposter	1.0000	1.0000	0.0500	
+mnt_barded_warhorse_brt_knights_lazarite		mnt_barded_warhorse_brt_knights_lazarite	hr1\brt\brt_horse\imposter\brt_horse_armoured_random_colours_imposter	1.0000	1.0000	0.0500	
+mnt_barded_warhorse_brt_knights_sepulchre		mnt_barded_warhorse_brt_knights_sepulchre	hr1\brt\brt_horse\imposter\brt_horse_armoured_random_colours_imposter	1.0000	1.0000	0.0500	
+mnt_barded_warhorse_brt_knights_temple		mnt_barded_warhorse_brt_knights_temple	hr1\brt\brt_horse\imposter\brt_horse_armoured_random_colours_imposter	1.0000	1.0000	0.0500	

@@ -1,0 +1,15 @@
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/!!!!!!!2xunitsize_compat_!ak_teb
+teb_asarnil_dragon	VariantMeshes\wh_variantmodels\dr1\hef\hef_sun_dragon\tech	teb_asarnil_dragon		1.0000	1.2000	0.0000	
+teb_barded_lupio		teb_barded_lupio		1.0000	1.0000	0.0000	
+teb_cadavo_barded_horse		teb_cadavo_barded_horse		1.0000	1.0000	0.0000	
+teb_catrazza_griffon	VariantMeshes\wh_variantmodels\bc2\emp\emp_imperial_griffon\tech	teb_catrazza_griffon		1.6275	1.1500	0.0000	
+teb_gausser_pegasus	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	teb_gausser_pegasus		1.0000	1.0000	0.0000	
+teb_golden_lion_mount	VariantMeshes\wh_variantmodels\bc2\cth\cth_celestial_lion\tech	teb_golden_lion_mount		1.4000	1.1500	0.0000	
+teb_lucrezzia_steed		teb_lucrezzia_steed		1.0000	1.0000	0.0000	
+teb_lupio_demi	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	teb_lupio_demi		1.0000	1.0000	0.0000	
+teb_templar_demi	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	teb_templar_demi		1.0000	1.0000	0.0000	
+teb_warhorse_ducale		teb_warhorse_ducale	hr1\emp\emp_warhorse_armoured\low_poly\emp_horse_armoured_lowlod	1.0000	1.0000	0.0500	
+teb_warhorse_encarmine		teb_warhorse_encarmine	hr1\emp\emp_warhorse_armoured\low_poly\emp_horse_armoured_lowlod	1.0000	1.0000	0.0500	
+teb_warhorse_venators		teb_warhorse_venators	hr1\emp\emp_warhorse_armoured\low_poly\emp_horse_armoured_lowlod	1.0000	1.0000	0.0500	
+warhorse_barded_borgio_campaign	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	emp_knight_blazing_sun_warhorse	hr1\emp\emp_horse\low_poly\emp_horse_blazing_lowlod	1.0000	1.0000	0.0000	

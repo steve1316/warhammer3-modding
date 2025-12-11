@@ -1,5 +1,0 @@
-key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
-#missile_weapons_tables;11;db/missile_weapons_tables/!!!Chasslo_landmarks
-CLE_Oreon_Warband_bow	false	CLE_Oreon_Warband_bow		false
-Chasslo_Ferlangen_rifle	false	Chasslo_Ferlangen_rifle		false
-Chasslo_Super_IronBlast	false	Chasslo_Super_IronBlast		false

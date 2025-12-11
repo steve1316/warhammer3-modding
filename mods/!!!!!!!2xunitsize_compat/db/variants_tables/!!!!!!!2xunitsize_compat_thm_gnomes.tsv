@@ -1,0 +1,5 @@
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/!!!!!!!2xunitsize_compat_thm_gnomes
+hilldwf_gnome_badger_mount	VariantMeshes\wh_variantmodels\wf1\grn\grn_giant_wolf\tech	hilldwf_gnome_badger_mount		1.0000	1.0000	0.0500	
+hilldwf_gnome_fox_mount	VariantMeshes\wh_variantmodels\wf1\grn\grn_giant_wolf\tech	hilldwf_gnome_fox_mount		1.0000	1.0000	0.0500	
+hilldwf_highland_cow	VariantMeshes/_VariantModels/oxen01/tech/	hilldwf_highland_cow		1.5220	1.1500	0.0000	

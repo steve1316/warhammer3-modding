@@ -1,0 +1,4 @@
+key	animation	entity	audio_armour_type	variant	voiceover
+#mounts_tables;10;db/mounts_tables/!!!!!!!2xunitsize_compat_17C_Deithland_Main
+emp_chemlancers_horses	hr1_warhorse	wh_main_cavalry_slow_blood	chainmail	emp_chemlancers_horses	wh_main_vo_culture_Horse
+emp_chemlancers_horses_mortars	hr1_warhorse	wh_main_cavalry_slow_blood	chainmail	emp_chemlancers_horses_mortars	wh_main_vo_culture_Horse

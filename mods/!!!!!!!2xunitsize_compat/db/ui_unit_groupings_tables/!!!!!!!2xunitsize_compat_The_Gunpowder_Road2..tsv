@@ -1,0 +1,11 @@
+key	icon	parent_group
+#ui_unit_groupings_tables;1;db/ui_unit_groupings_tables/!!!!!!!2xunitsize_compat_The_Gunpowder_Road2.
+dunche	cth_dunche	artillery_war_machines
+explosive	cth_baozhawu	artillery_war_machines
+firearm_infantry	cth_huomenqiang	missile_infantry
+flamethrower_infantry	dwf_irondrakes	missile_infantry
+fortification	cth_fangyugongshi	infantry
+heavy_rocket	cth_huolongchushui	artillery_war_machines
+pianxiangche	cth_cheying	missile_cavalry_chariots
+rocket_battery_infantry	cth_huojianbubing	missile_infantry
+zizhongche	cth_zizhongche	missile_cavalry_chariots

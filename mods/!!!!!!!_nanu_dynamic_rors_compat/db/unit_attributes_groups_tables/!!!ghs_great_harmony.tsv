@@ -15,7 +15,6 @@ cth_jade_warrior_rider_missile_attributes
 cth_soul_flood_dragon_attributes
 cth_terracotta_archer_attributes
 cth_terracotta_axe_attributes
-cth_terracotta_keeper_attributes
 cth_terracotta_rocket_attributes
 dwf_ancestor_statue
 dwf_flying_irondrakes_01
@@ -53,7 +52,6 @@ ghs_def_mon_manticore_rider
 ghs_def_mon_sea_dragon
 ghs_dwf_chd_veh_goblin_crusher
 ghs_dwf_inf_highking_guard
-ghs_dwf_inf_slayer_guard
 ghs_dwf_melee_mecha
 ghs_dwf_melee_mecha_fist
 ghs_dwf_missile_dwfling_mecha
@@ -117,11 +115,11 @@ ghs_skv_mon_hellpit_warpflame
 ghs_tmb_bone_elephant
 ghs_tmb_flying_necrosphinx1
 ghs_tmb_heavy_ostrich_rider
+ghs_tmb_landing_necrosphinx
 ghs_tmb_ostrich_rider
 ghs_tmb_sandstalker_dual_weapon
 ghs_tmb_scarab_flying_01
 ghs_tmb_scarab_flying_02
-ghs_tmb_scorpion_monster
 ghs_tmb_ushabti_dual_weapon
 ghs_tmb_ushabti_eagle_cannon
 ghs_tmb_ushabti_great_weapon

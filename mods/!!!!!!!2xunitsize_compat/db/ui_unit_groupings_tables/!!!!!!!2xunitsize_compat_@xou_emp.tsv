@@ -1,0 +1,12 @@
+key	icon	parent_group
+#ui_unit_groupings_tables;1;db/ui_unit_groupings_tables/!!!!!!!2xunitsize_compat_@xou_emp
+emp_cav_griffon_riders_ror	wh2_dlc15_griffon_knights	monster_beasts
+emp_huntsmaster	emp_huntsmater	heroes_agents
+emp_valten	emp_valten	heroes_agents
+infantry_hammer	emp_infantry_hammer	infantry
+reiksguard_cav	shock_cavalry	reiksguard
+reiksguard_cav_sword	cavalry	reiksguard
+reiksguard_inf_axe	infantry_axe	reiksguard
+reiksguard_inf_gsword	infantry_sword_great	reiksguard
+reiksguard_inf_halberd	infantry_spear_halberd	reiksguard
+reiksguard_inf_sword	infantry_sword	reiksguard

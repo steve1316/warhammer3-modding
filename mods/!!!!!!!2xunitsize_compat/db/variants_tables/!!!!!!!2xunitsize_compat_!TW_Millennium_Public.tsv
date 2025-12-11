@@ -1,0 +1,18 @@
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/!!!!!!!2xunitsize_compat_!TW_Millennium_Public
+wh_twm_emp_air_reikland_t5_biplane_mg	warmachines/aircraft/emp_t5_red_baron/tech	wh_twm_emp_air_reikland_t5_biplane_mg		1.0000	1.0000	0.0000	
+wh_twm_emp_air_reikland_t5_bomber	warmachines/aircraft/emp_t5_bomber/tech	wh_twm_emp_air_reikland_t5_bomber		1.0000	1.0000	0.0000	
+wh_twm_emp_air_reikland_t5_zeppelin_general	warmachines/aircraft/emp_t5_zeppelin_general/tech	wh_twm_emp_air_reikland_t5_zeppelin_general		1.0000	1.0000	0.0000	
+wh_twm_emp_air_reikland_t5_zeppelin_heavy	warmachines/aircraft/emp_t5_zeppelin_heavy/tech	wh_twm_emp_air_reikland_t5_zeppelin_heavy		1.0000	1.0000	0.0000	
+wh_twm_emp_air_reikland_t5_zeppelin_medium	warmachines/aircraft/emp_t5_zeppelin_medium/tech	wh_twm_emp_air_reikland_t5_zeppelin_medium		1.0000	1.0000	0.0000	
+wh_twm_emp_air_reikland_t5_zeppelin_small	warmachines/aircraft/emp_t5_zeppelin_small/tech	wh_twm_emp_air_reikland_t5_zeppelin_small		1.0000	1.0000	0.0000	
+wh_twm_emp_cav_draught_horse_tier_5		wh_twm_emp_art_t5_draught_horse_with_rider	hr1\emp\emp_horse\low_poly\emp_horse_lowlod	1.0000	1.0000	0.0500	
+wh_twm_emp_cav_draught_horse_tier_5_invisible		wh_twm_emp_cav_draught_horse_tier_5_invisible		1.0000	1.0000	0.0000	
+wh_twm_emp_mnt_modern_mechanical_steed		emp_modern_mechanical_steed		1.0000	1.0000	0.0500	
+wh_twm_emp_modern_warhorse		emp_modern_warhorse	hr1\emp\emp_horse\low_poly\emp_horse_lowlod	1.0000	1.0000	0.0500	
+wh_twm_emp_modern_warhorse_cuirassier		emp_modern_warhorse_cuirassier	hr1\emp\emp_horse\low_poly\emp_horse_lowlod	1.0000	1.0000	0.0500	
+wh_twm_emp_veh_reikland_t5_heavy_tank	warmachines/chariot/emp_t5_heavy_tank/tech_tank	wh_twm_emp_veh_reikland_t5_heavy_tank		1.0000	1.0000	0.0000	
+wh_twm_emp_veh_reikland_t5_heavy_tank_flame	warmachines/chariot/emp_t5_heavy_tank/tech_tank_flame	wh_twm_emp_veh_reikland_t5_heavy_tank_flame		1.0000	1.0000	0.0000	
+wh_twm_emp_veh_reikland_t5_heavy_tank_gelt	warmachines/chariot/emp_t5_heavy_tank/tech_tank	wh_twm_emp_veh_reikland_t5_heavy_tank_gelt		1.0000	1.0000	0.0000	
+wh_twm_emp_veh_reikland_t5_medium_tank	warmachines/chariot/emp_t5_medium_tank/tech	wh_twm_emp_veh_reikland_t5_medium_tank		1.0000	1.0000	0.0000	
+wh_twm_emp_veh_reikland_t5_super_heavy_tank	warmachines/chariot/emp_t5_super_heavy_tank/tech	wh_twm_emp_veh_reikland_t5_super_heavy_tank		1.0000	1.0000	0.0000	

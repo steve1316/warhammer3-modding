@@ -186,7 +186,6 @@ local supported_mods = {
     "cth_yinyin_pol",
     "dead_jade_army_pack",
     "DEER24Cathay",
-    "dead_kislev_lord_shaman",
     "derpy_chd_aeromachines",
     "derpy_dwf_burloks_patents",
     "derpy_dwf_polearms",

@@ -1,0 +1,4 @@
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/!!!!!!!2xunitsize_compat_froeb_dark_land_orcs
+frb_dark_land_orcs_legendary_hero_boar	VariantMeshes\wh_variantmodels\bo1\grn\grn_warboar\tech	frb_dark_land_orcs_legendary_hero_boar		1.0000	1.3000	0.0000	
+frb_orc_dragon	variantmeshes\wh_variantmodels\hc3\bst\bst_jabberslythe\tech	frb_orc_dragon		1.0000	1.1500	0.0500	

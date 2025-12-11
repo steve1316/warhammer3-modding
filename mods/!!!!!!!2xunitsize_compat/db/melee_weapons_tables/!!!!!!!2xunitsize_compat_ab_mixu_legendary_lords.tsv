@@ -1,0 +1,61 @@
+key	bonus_v_large	bonus_v_infantry	damage	ap_damage	weapon_length	melee_weapon_type	audio_type	splash_attack_target_size	splash_attack_max_attacks	splash_attack_power_multiplier	building_damage_multiplier	ignition_amount	is_magical	contact_phase	collision_attack_max_targets	collision_attack_max_targets_cooldown	melee_attack_interval	scaling_damage	is_spell
+#melee_weapons_tables;25;db/melee_weapons_tables/!!!!!!!2xunitsize_compat_ab_mixu_legendary_lords
+mixu_2handed_sword_tze_chosen_of_cabal	0	14	12	38	3.0000	sword	sword	medium	4	1.0000	1.0000	0.0000	true		0	10	4.3000		false
+mixu_2handed_sword_tze_exalted_hero	0	16	135	245	3.0000	sword	sword	medium	6	1.0000	1.0000	0.0000	true		0	10	4.0000		false
+mixu_axe_brt_adalhard	0	0	150	300	3.0000	axe	axe	medium	4	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+mixu_axe_brt_adalhard_hippogryph	0	0	150	300	8.0000	axe	axe	large	4	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+mixu_axe_brt_adalhard_pegasus	0	0	150	300	4.0000	axe	axe	medium	4	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+mixu_axe_emp_buccaneers	0	0	9	25	1.0000	axe	axe		4	1.0000	1.2500	0.0000	false		0	10	4.4000		false
+mixu_axe_ksl_rastiltin	0	15	320	150	3.0000	axe	axe	medium	7	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+mixu_axe_nor_fraygerd	0	0	280	140	3.0000	axe	axe	large	8	1.0000	1.2500	0.0000	false		0	10	4.0000		false
+mixu_axe_nor_hrefna	30	0	140	300	3.0000	axe	axe	medium	4	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+mixu_axe_nor_hrefna_chariot	0	25	140	300	5.0000	axe	axe	very_large	4	1.0000	1.2500	0.0000	false		3	2	4.6000		false
+mixu_choppa_gorfang	25	0	140	280	3.0000	sword	sword	medium	7	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+mixu_choppa_gorfang_chariot	0	30	140	230	5.0000	axe	axe	very_large	4	1.0000	1.0000	0.0000	false		4	2	4.0000		false
+mixu_claws_bst_little_morella	0	20	240	140	3.0000	axe	creatures_claws	medium	6	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+mixu_club_ghorros_warhoof	0	0	300	150	3.0000	spear	club_huge	medium	6	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+mixu_club_tze_trolls	0	0	39	81	2.0000	axe	club_medium	medium	4	1.0000	1.2500	0.0000	true		0	10	4.0000		false
+mixu_cog_axe_dwf_grimm	0	0	100	240	3.0000	axe	hammer	medium	8	1.0000	1.0000	0.0000	false	wh_dlc06_unit_contact_sundered_armour	0	10	4.0000		false
+mixu_dual_axes_nor_egil_styrbjorn	0	20	170	320	3.0000	axe	axe	large	8	1.0000	1.0000	10.0000	false		0	10	4.0000		false
+mixu_dual_axes_nor_egil_styrbjorn_chariot	0	26	110	250	3.0000	axe	axe	very_large	4	1.0000	1.0000	10.0000	false		3	2	4.0000		false
+mixu_dual_axes_nor_egil_styrbjorn_juggernaut	0	20	185	335	3.0000	axe	axe	large	8	1.0000	1.0000	10.0000	false		0	10	4.0000		false
+mixu_dual_swords_emp_marius_leitdorf	0	20	300	150	3.0000	sword	sword	medium	8	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+mixu_dual_swords_wychwethyl	0	20	140	330	3.0000	sword	sword	medium	8	1.0000	1.0000	0.0000	true		0	10	4.0000		false
+mixu_emp_cha_fleet_admiral_female	0	20	140	290	3.0000	sword	sword	medium	8	1.0000	0.7500	0.0000	false		0	10	4.0000		false
+mixu_emp_cha_fleet_captain	0	20	250	125	3.0000	sword	sword	medium	8	1.0000	0.7500	0.0000	false		0	10	4.0000		false
+mixu_emp_cha_ogre_bodyguard_anchor	30	0	130	310	7.0000	sword	sword	medium	8	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+mixu_emp_cha_slayer_engineer	0	0	220	100	3.0000	sword	sword	medium	8	1.0000	0.7500	0.0000	false		0	10	4.0000		false
+mixu_emp_cha_witch_doctor	0	0	210	90	4.0000	sword	sword	medium	6	1.0000	0.7500	0.0000	true		0	10	4.0000		false
+mixu_glaive_gorehoof	22	0	140	260	3.0000	axe	axe	medium	6	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+mixu_greataxe_hef_korhil	25	0	160	300	3.0000	sword	sword	medium	8	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+mixu_greatsword_def_ossian_guard	0	14	13	29	3.0000	sword	sword		4	1.0000	1.0000	0.0000	false	mixu_LL_unit_contact_maimed	0	10	4.3000		false
+mixu_greatsword_def_tullaris	0	30	170	300	3.0000	sword	sword	medium	4	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+mixu_gyrocopter_dwf_engineer	0	0	120	40	3.0000	axe	unarmed	large	4	1.0000	1.0000	0.0000	false		0	10	3.2000		false
+mixu_gyrocopter_dwf_grimm	0	0	160	80	3.0000	axe	unarmed	large	8	1.0000	1.0000	0.0000	false		0	10	3.2000		false
+mixu_halberd_def_kouran	25	0	120	280	3.0000	spear	halberd	medium	6	1.0000	1.0000	0.0000	false		0	10	4.5000		false
+mixu_halberd_hef_caradryan	30	0	140	290	3.0000	spear	halberd	medium	6	1.0000	1.0000	0.0000	false		0	10	4.5000		false
+mixu_halberd_hef_caradryan_phoenix	30	0	140	290	7.0000	axe	creatures_claws	medium	6	1.0000	1.0000	0.0000	true	mixu_LL_unit_contact_numbing_coldness	0	10	4.0000		false
+mixu_halberd_skv_feskit	25	0	120	280	3.0000	spear	halberd	medium	5	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+mixu_hammer_emp_luthor_huss	0	0	140	290	3.0000	axe	hammer	medium	8	1.0000	1.0000	0.0000	true		0	10	4.0000		false
+mixu_lance_tze_melekh	30	0	130	290	3.0000	sword	sword	medium	8	1.6000	1.2500	10.0000	true		0	10	4.0000		false
+mixu_mace_brt_bohemond	30	0	170	300	3.0000	axe	hammer	medium	4	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+mixu_mace_brt_bohemond_hippogryph	30	0	170	300	8.0000	axe	hammer	large	4	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+mixu_mace_brt_bohemond_pegasus	30	0	170	300	4.0000	axe	hammer	medium	4	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+mixu_mace_lzd_chakax	10	0	130	310	3.0000	spear	halberd	medium	6	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+mixu_spear_emp_daughters_of_rhya	15	0	19	9	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+mixu_spear_emp_priest_of_taal	35	0	250	110	2.0000	spear	spear	medium	4	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+mixu_spear_gorehoof	22	0	260	140	3.0000	spear	spear	medium	6	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+mixu_spear_wef_daith	35	0	120	260	3.0000	spear	spear	medium	4	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+mixu_staff_bst_slugtongue	0	0	215	95	3.0000	sword	staff	medium	6	1.0000	1.0000	0.0000	false	wh_main_unit_contact_poison	0	10	4.0000		false
+mixu_sword_brt_amalric_de_gaudaron	0	25	260	140	3.0000	sword	sword	medium	8	1.0000	1.0000	0.0000	true		0	10	4.0000		false
+mixu_sword_brt_knights_of_origo	0	0	23	7	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false	wh2_dlc11_unit_contact_disrupted	0	10	4.3000		false
+mixu_sword_caster_lord	0	0	220	120	3.0000	sword	sword	medium	5	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+mixu_sword_edvard_van_der_kraal	0	0	260	140	3.0000	sword	sword	medium	4	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+mixu_sword_emp_alberich_von_korden	0	20	115	265	3.0000	sword	sword	medium	6	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+mixu_sword_emp_buccaneers	0	8	25	10	1.0000	sword	sword		4	1.0000	1.0000	0.0000	false		0	10	4.8000		false
+mixu_sword_emp_oleg_von_raukov	0	20	140	270	3.0000	sword	sword	medium	8	1.0000	1.0000	0.0000	true	wh_dlc08_unit_contact_frostbite	0	10	4.0000		false
+mixu_sword_emp_vorn_thugenheim	0	20	250	150	3.0000	sword	sword	medium	8	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+mixu_sword_tze_cultists	0	0	21	7	1.0000	sword	sword		1	1.0000	1.0000	0.0000	true		0	10	4.3000		false
+mixu_sword_wef_daith	0	20	120	260	3.0000	sword	sword	medium	8	1.0000	1.0000	0.0000	false		0	10	4.0000		false
+mixu_tze_warhound_claw	0	0	19	3	1.0000	sword	creatures_claws		1	1.0000	0.7500	0.0000	true		0	10	4.3000		false
+mixu_whip_emp_celebrants	0	0	27	11	1.0000	sword	sword		4	1.0000	1.0000	0.0000	false		0	10	4.5000		false

@@ -1,0 +1,13 @@
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/!!!!!!!2xunitsize_compat_ab_mixu_mousillon
+mixu_msl_barded_nightmare_characters	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	msl_barded_nightmare_characters		1.0000	1.0000	0.0500	
+mixu_msl_hellsteed		vmp_hellsteed		1.0000	1.0000	0.0500	
+mixu_msl_skeletal_steed	VariantMeshes\wh_variantmodels\hr1\brt\brt_horse\tech	msl_skeletal_steed		1.0000	1.0000	0.0500	
+mixu_msl_skeletal_steed_characters	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	msl_skeletal_steed_characters		1.0000	1.0000	0.0500	
+msl_barded_warhorse_characters	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	brt_warhorses_barded_lionheart		1.0000	1.0000	0.0000	
+msl_barded_warhorse_mallobaude	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	msl_barded_warhorse_mallobaude		1.0000	1.0000	0.0000	
+msl_hippogryph_generic	VariantMeshes\wh_variantmodels\bc2b\brt\brt_hippogryph_beaquis\tech	brt_hippogryphs		1.0000	1.0000	0.0000	
+msl_hippogryph_mallobaude	VariantMeshes\wh_variantmodels\bc2b\brt\brt_hippogryph_beaquis\tech	msl_hippogryph_mallobaude		1.0000	1.0000	0.0000	
+msl_horse	VariantMeshes\wh_variantmodels\hr1\brt\brt_horse\tech	msl_horse		1.0000	1.0000	0.0500	
+msl_skeletal_steed_ethereal_red	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	msl_skeletal_steed_ethereal_red		1.0000	1.0000	0.0500	
+msl_skeletal_steed_the_rose_lances	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	msl_skeletal_steed_the_rose_lances		1.0000	1.0000	0.0500	

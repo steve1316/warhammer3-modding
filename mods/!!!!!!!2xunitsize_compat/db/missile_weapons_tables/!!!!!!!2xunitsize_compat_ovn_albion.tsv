@@ -1,0 +1,8 @@
+key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
+#missile_weapons_tables;11;db/missile_weapons_tables/!!!!!!!2xunitsize_compat_ovn_albion
+alb_sling	false	alb_sling		false
+albion_hunting_bow	false	albion_hunting_bow	bow	false
+albion_riders_javelins	false	albion_riders_javelins	javelin	false
+albion_warden_bow	false	albion_warden_bow	bow	false
+giant_boulder	false	giant_boulder		false
+giant_boulder_cachtorr	false	giant_boulder_cachtorr		false

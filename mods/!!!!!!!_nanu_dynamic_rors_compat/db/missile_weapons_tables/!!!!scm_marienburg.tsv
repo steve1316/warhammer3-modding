@@ -3,4 +3,3 @@ key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
 hkrul_mar_handgun	false	hkrul_mar_bullet	repeater_gun	false
 hkrul_mar_mariner_pistol	false	hkrul_mar_mariner_pistol	pistol	false
 hkrul_mar_pistol	false	hkrul_mar_privateer_bullet	pistol	false
-hkrul_talons	false	hkrul_talons	repeater_gun	false

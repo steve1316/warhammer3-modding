@@ -1,0 +1,9 @@
+key	icon	parent_group
+#ui_unit_groupings_tables;1;db/ui_unit_groupings_tables/!!!!!!!2xunitsize_compat_@exp_roster_compilation
+deco_chd_bull_centaur_lord	wh3_dlc23_chd_bull_centaur_taurruk	commander
+deco_chd_hobgoblin_khan	wh_main_grn_spy	heroes_agents
+deco_grn_orc_bigboss	deco_grn_champion	heroes_agents
+deco_grn_orc_bigboss_boar	deco_grn_champion	heroes_agents
+deco_nor_jarl	wh_main_chs_champion	heroes_agents
+deco_nor_jarl_mammoth	wh_dlc08_nor_chaos_war_mammoth	heroes_agents
+deco_nor_jarl_warhorse	wh_main_chs_champion	heroes_agents

@@ -1,10 +1,5 @@
 variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
 #variants_tables;6;db/variants_tables/!!!!landmarks_of_legend_wh
 braconnier_horses	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	braconnier_horses	hr1/ksl/ksl_horse/ksl_horse_light_01_imposter	1.0000	1.0000	0.0500	
-crab_knights	VariantMeshes/wh_variantmodels/cr1/cst/cst_promethean/tech/	crab_knights		1.0000	0.8000	0.0000	
-cuileux_knights_horse		cuileux_knights_horse		1.0000	1.0000	0.0500	
 eonir_stag		eonir_stag		1.0000	1.0000	0.0500	
-gleaming_shield_knights_warhorse		gleaming_shield_knights_warhorse		1.0000	1.0000	0.0000	
-le_grande_knights_horse		le_grande_knights_horse		1.0000	1.0000	0.0500	
 phoenixes	VariantMeshes\wh_variantmodels\bi1\hef\hef_great_eagle\tech	phoenixes		1.0000	1.0000	0.0500	
-red_death_knights_steed		red_death_knights_steed		1.0000	1.0000	0.0500	

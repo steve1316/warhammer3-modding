@@ -1,0 +1,5 @@
+key	icon	parent_group
+#ui_unit_groupings_tables;1;db/ui_unit_groupings_tables/!!!!!!!2xunitsize_compat_sla_beast_expand
+sla_goz_ror	wh3_dlc23_chd_bale_taurus	monster_beasts
+sla_mez_ror	shock_cavalry	monster_beasts
+sla_steed_dragon	sla_steed_dragon	monster_beasts

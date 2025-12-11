@@ -1,0 +1,35 @@
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/!!!!!!!2xunitsize_compat_!!!3_legendary_mount
+aekold_helbrass_mutalith_vortex_beast	variantmeshes/wh_variantmodels/hc4/dae/dae_mutalith_vortex_beast/tech	aekold_helbrass_mutalith_vortex_beast		1.0000	1.2000	0.0000	
+aranessa_mammoth	variantmeshes/wh_variantmodels/hq3/nor/nor_war_mammoth/tech_for_aranessa	aranessa_mammoth		1.0000	1.0000	0.0000	
+archaon_chaos_dragon_dorghar	variantmeshes/wh_variantmodels/bc3b/nor/nor_chimera/tech	archaon_chaos_dragon_dorghar		1.7500	1.2000	0.0000	
+azhag_skullmuncha_upgrade	variantmeshes/wh_variantmodels/bi2/grn/grn_wyvern/tech2	azhag_skullmuncha_upgrade		1.0000	1.4200	0.0000	
+banshee_terrorgheist	variantmeshes/wh_variantmodels/bi2/vmp/banshee_terrorgheist/tech	banshee_terrorgheist		1.0000	1.0000	0.0000	
+blue_scribes_mutalith_vortex_beast	variantmeshes/wh_variantmodels/hc4/dae/dae_mutalith_vortex_beast/tech_for_blue_scribe	dae_vortex_beast		1.0000	1.2000	0.0000	
+bragg_stonehorn	VariantMeshes\wh_variantmodels\hq3b\ogr\ogr_stonehorn\tech\	bragg_stonehorn		0.8500	1.0000	0.0000	
+colossal_squig	variantmeshes/wh_variantmodels/rp2/grn/grn_squig_herd/tech_for_giant_squig	colossal_squig		1.0000	6.0000	0.0000	
+colossal_squig_skarsnik	variantmeshes/wh_variantmodels/rp2/grn/grn_squig_herd/tech_for_giant_squig	colossal_squig_skarsnik		1.0000	6.0000	0.0000	
+cst_terrorgheist_mount	VariantMeshes\wh_variantmodels\bi2\vmp\vmp_terrorgheist\tech	cst_terrorgheist_mount		1.0000	1.0000	0.0000	
+damned_paladin_hippogryph	VariantMeshes\wh_variantmodels\bc2b\brt\brt_hippogryph_beaquis\tech	damned_paladin_hippogryph		1.0000	1.0000	0.0000	
+epidemius_warshrine	variantmeshes/_variantmodels/warshrine01/dae/tech_for_epidemius	epidemius_warshrine		1.0000	1.1500	0.0000	
+frost_wyrm	variantmeshes/_variantmodels/dragon01b/chs/chaos_dragon_platform/tech	frost_wyrm		1.0000	1.0000	0.0000	
+gorduz_giant_mount	variantmeshes/wh_variantmodels/hu4/tech	gorduz_giant_mount		1.0000	1.0000	0.0000	
+greasus_stonehorn	VariantMeshes\wh_variantmodels\hq3b\ogr\ogr_stonehorn\tech\	greasus_stonehorn		0.8500	1.0000	0.0000	
+grimgor_rogue_idol	variantmeshes/wh_variantmodels/hu4e/grn/grn_idol_of_gork/tech	grimgor_rogue_idol		1.0000	1.4000	0.0000	
+grn_giant_mount	variantmeshes/wh_variantmodels/hu4/tech_for_orc	grn_giant_mount		1.0000	1.0000	0.0000	
+isabella_varghulf	variantmeshes/wh_variantmodels/hu8b/vmp/vmp_varghulf/tech	isabella_varghulf		1.0000	2.0000	0.0000	
+khazrak_ghorgon	variantmeshes/wh_variantmodels/hu11b/bst/bst_ghorgon/tech	khazrak_ghorgon		1.0000	1.0000	0.0000	
+morghur_Jabberslythe	variantmeshes/wh_variantmodels/hc3/bst/mount_jabberslythe/tech	morghur_Jabberslythe		1.0000	1.0000	0.0000	
+mount_Jabberslythe	variantmeshes/wh_variantmodels/hc3/bst/mount_jabberslythe/tech	mount_Jabberslythe		1.0000	1.0000	0.0000	
+platform_chaos_dragon	variantmeshes/_variantmodels/dragon01b/chs/chaos_dragon_platform/tech	platform_chaos_dragon		1.0000	1.1500	0.0000	
+queek_mutant_rat_ogre	VariantMeshes\_VariantModels\humanoid18\skv\skv_bone_breaker\tech	queek_mutant_rat_ogre		1.0000	1.8900	0.0000	
+skeleton_pegasus	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	skeleton_pegasus		1.0000	1.0000	0.0000	
+skrag_stonehorn	VariantMeshes\wh_variantmodels\hq3b\ogr\ogr_stonehorn\tech\	skrag_stonehorn		0.8500	1.0000	0.0000	
+snagla_arachnarok_flinger	VariantMeshes/wh_variantmodels/sp1b/grn/grn_arachnorok_flinger/tech/	snagla_arachnarok_flinger		1.0000	4.0000	0.0000	
+valkia_platform_chaos_dragon	variantmeshes/_variantmodels/dragon01b/chs/chaos_dragon_platform/tech	valkia_platform_chaos_dragon		1.0000	1.1500	0.0000	
+varghulf_mount	variantmeshes/wh_variantmodels/hu8b/vmp/vmp_varghulf/tech	vmp_varghulf		1.0000	1.7000	0.0000	
+vilith_platform_chaos_dragon	variantmeshes/_variantmodels/dragon01b/chs/chaos_dragon_platform/tech	vilith_platform_chaos_dragon		1.0000	1.1500	0.0000	
+vlad_khemrian_warsphinx	VariantMeshes\wh_variantmodels\bc1\tmb\tmb_warsphinx\tech	vlad_khemrian_warsphinx		1.0000	1.0000	0.0000	
+vlad_zombie_dragon	VariantMeshes\wh_variantmodels\bc2\emp\emp_imperial_griffon\tech	vlad_zombie_dragon		1.5275	1.2000	0.0000	
+wurrzag_rogue_idol	variantmeshes/wh_variantmodels/hu4e/grn/grn_idol_of_gork/tech	wurrzag_rogue_idol		1.0000	1.4000	0.0000	
+zombie_chaos_dragon	VariantMeshes\_VariantModels\dragon01b\chs\archaon_chaos_dragon\tech	zombie_chaos_dragon		1.0000	1.1500	0.0000	

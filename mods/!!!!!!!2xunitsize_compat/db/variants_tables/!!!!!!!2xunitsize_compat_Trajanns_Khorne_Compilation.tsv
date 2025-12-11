@@ -1,0 +1,68 @@
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/!!!!!!!2xunitsize_compat_Trajanns_Khorne_Compilation
+KhoKnightsRORSteed	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	KhoKnightsRORSteed	hr1\chs\chs_steed\low_poly\chs_steed_lowlod	1.1500	1.1500	0.0200	
+KhoShrineRORShrine	warmachines/engines/dae_skullcannon/tech	KhoShrineRORmount		1.0000	1.0000	0.0000	
+bloodsaurian	VariantMeshes/wh_variantmodels/rp4/lzd/lzd_dread_saurian/tech	bloodsaurian		1.0000	1.0000	0.0000	
+bloodsaurian_normal	VariantMeshes/wh_variantmodels/rp4/lzd/lzd_dread_saurian/tech	bloodsaurian_normal		1.0000	1.0000	0.0000	
+eku_arachnarok_spider_mount	VariantMeshes/wh_variantmodels/sp1/grn/grn_arachnorok/tech/	eku_arachnarok_lava		1.0000	4.0000	0.0000	
+eku_dragon_princes_mounted_mount		eku_dragon_steed		1.0000	1.0000	0.0200	
+eku_heavy_war_sled_mount	VariantMeshes/wh_variantmodels/br1/ksl/ksl_bear/tech	eku_bear_medium_draught		1.0000	1.0000	0.0000	
+eku_juggernaught_chariot_mount	VariantMeshes\wh_variantmodels\hq4\dae\dae_juggernaut\tech	eku_juggernaut_chariot		1.0000	1.0000	0.0000	
+eku_thundertusk_mount	VariantMeshes/wh_variantmodels/hq3b/ogr/ogr_thundertusk/tech/	eku_thundertusk		1.0000	1.0000	0.0000	
+traj_azrakaar_mount_taurus	VariantMeshes/_VariantModels/oxen01/tech/	traj_azrakaar_mount		1.8260	1.1500	0.0000	
+traj_blood_dragon_longma_ror_mount	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	traj_blood_dragon_longma_ror_mount		1.0000	1.0000	0.0000	
+traj_bloodcharger_mount		traj_bloodcharger_mount		1.5000	1.0000	0.0000	
+traj_bloodcrusher_ror_mount	VariantMeshes\wh_variantmodels\hq4\dae\dae_juggernaut\tech	crs_juggernaut_bloodcrusher		1.1500	1.0000	0.0000	
+traj_bloodfeaster_mount	VariantMeshes\wh_variantmodels\bc2\emp\emp_imperial_griffon\tech	traj_bloodfeaster_mount		1.6670	1.0000	0.0000	
+traj_bloodfeaster_mount_ror	VariantMeshes\wh_variantmodels\bc2\emp\emp_imperial_griffon\tech	traj_bloodfeaster_mount_ror		1.6670	1.0000	0.0000	
+traj_bloodqueen_lord_mount_dragon	VariantMeshes\wh_variantmodels\dr1\def\def_black_dragon\tech	traj_bloodqueen_lord_mount_dragon		1.0000	1.0000	0.0000	
+traj_bloodqueen_lord_mount_griffon	VariantMeshes\wh_variantmodels\bc2\emp\emp_imperial_griffon\tech	traj_hespia_mount_griffon		1.6670	1.0000	0.0000	
+traj_bloodqueen_lord_mount_raptor		traj_hespia_mount_raptor		1.0000	1.0000	0.0000	
+traj_bloodseeker_mount		traj_bloodseeker_mount		1.1000	1.0000	0.0200	
+traj_bloodtracker_mount		traj_bloodtracker_mount		1.0000	1.0000	0.0200	
+traj_castellan_skullcrusher_mount	VariantMeshes\wh_variantmodels\hq4\dae\dae_juggernaut\tech	traj_castellan_skullcrusher_mount		1.1500	1.0000	0.0000	
+traj_elder_mount_stegadon	VariantMeshes\wh_variantmodels\hq1\lzd\lzd_stegadon\tech	kho_stegadon_zlaaq		1.6000	1.0000	0.0000	
+traj_hespia_mount_dragon	VariantMeshes\wh_variantmodels\dr1\def\def_black_dragon\tech	traj_hespia_mount_dragon		1.0000	1.1000	0.0000	
+traj_hespia_mount_griffon	VariantMeshes\wh_variantmodels\bc2\emp\emp_imperial_griffon\tech	traj_hespia_mount_griffon		1.6670	1.0000	0.0000	
+traj_hespia_mount_raptor		traj_hespia_mount_raptor		1.0000	1.0000	0.0000	
+traj_hespia_ror_mount		traj_hespia_ror_mount		1.0000	1.0000	0.0000	
+traj_kho_bastiladon_engine	VariantMeshes/wh_variantmodels/hq1/lzd/lzd_bastiladon/tech	kho_bastiladon_solar_engine		1.2000	1.0000	0.0000	
+traj_kho_bastiladon_engine_ror	VariantMeshes/wh_variantmodels/hq1/lzd/lzd_bastiladon/tech	kho_bastiladon_solar_engine_ror		1.2000	1.0000	0.0000	
+traj_kho_bastiladon_revive	VariantMeshes/wh_variantmodels/hq1/lzd/lzd_bastiladon/tech	kho_bastiladon_healing_platform		1.2000	1.0000	0.0000	
+traj_kho_bear_mount_bloodspeaker	VariantMeshes/wh_variantmodels/br1/ksl/ksl_bear/tech	traj_kho_bear_mount		1.2000	1.0000	0.0000	
+traj_kho_bear_mount_cultist	VariantMeshes/wh_variantmodels/br1/ksl/ksl_bear/tech	traj_kho_bear_mount		1.2000	1.0000	0.0000	
+traj_kho_bear_mount_hero	VariantMeshes/wh_variantmodels/br1/ksl/ksl_bear/tech	traj_kho_bear_mount		1.2000	1.0000	0.0000	
+traj_kho_bear_mount_lord	VariantMeshes/wh_variantmodels/br1/ksl/ksl_bear/tech	traj_kho_bear_mount		1.2000	1.0000	0.0000	
+traj_kho_carnosaur_mount_herald	VariantMeshes\_VariantModels\raptor03b\lzd\lzd_carnosaur\tech	traj_kho_carnosaur_mount		1.4000	1.0000	0.0000	
+traj_kho_carnosaur_mount_reaper	VariantMeshes\_VariantModels\raptor03b\lzd\lzd_carnosaur\tech	traj_kho_carnosaur_mount		1.4000	1.0000	0.0000	
+traj_kho_cav_blood_knight_mount		traj_kho_cav_blood_knight_mount		1.0000	1.0000	0.0200	
+traj_kho_cav_cold_one_mount		traj_kho_cav_cold_one_mount		1.1500	1.0000	0.0000	
+traj_kho_cav_crusher_mount		traj_kho_cav_crusher_mount		1.0000	1.0000	0.0000	
+traj_kho_cav_grail_knight_mount		traj_kho_cav_grail_knight_mount		1.0000	1.0000	0.0200	
+traj_kho_cav_longma_mount	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	traj_kho_cav_longma_mount		1.0000	1.0000	0.0000	
+traj_kho_cav_necropolis_knight_mount	VariantMeshes/wh_variantmodels/sn1/tmb/tmb_necroserpents/body/tech	traj_kho_cav_necropolis_knight_mount		1.0000	1.1000	0.0000	
+traj_kho_cav_outrider_mount		traj_kho_cav_outrider_mount		1.0000	1.0000	0.0200	
+traj_kho_cav_war_bear_mount	VariantMeshes/wh_variantmodels/br1/ksl/ksl_bear/tech	traj_kho_cav_war_bear_mount		1.0000	1.0000	0.0000	
+traj_kho_forsaken_rider_hound	VariantMeshes\wh_variantmodels\bc4\dae\dae_rot_beast\tech\	traj_kho_forsaken_rider_hound		0.5700	1.2500	0.0200	
+traj_kho_khornate_guard_rider_mount		krk_horned_one		1.1500	1.0000	0.0000	
+traj_kho_ripperdactyl_mount	VariantMeshes\wh_variantmodels\bi3\lzd\lzd_terradon\tech	kho_ripperdactyl		1.0000	1.0000	0.0000	
+traj_kho_ripperdactyl_mount_ror	VariantMeshes\wh_variantmodels\bi3\lzd\lzd_terradon\tech	kho_ripperdactyl_ror		1.0000	1.0000	0.0000	
+traj_kho_stegadon_cannon	VariantMeshes\wh_variantmodels\hq1\lzd\lzd_stegadon\tech	traj_kho_stegadon_cannon		1.6000	1.0000	0.0000	
+traj_kho_stegadon_shrine	VariantMeshes\wh_variantmodels\hq1\lzd\lzd_stegadon\tech	traj_kho_stegadon_shrine		1.6000	1.0000	0.0000	
+traj_kho_stegadon_shrine_ror	VariantMeshes\wh_variantmodels\hq1\lzd\lzd_stegadon\tech	traj_kho_stegadon_shrine_ror		1.6000	1.0000	0.0000	
+traj_kho_terradon_mount	VariantMeshes\wh_variantmodels\bi3\lzd\lzd_terradon\tech	kho_terradon		1.0000	1.0000	0.0000	
+traj_kho_terradon_mount_ror	VariantMeshes\wh_variantmodels\bi3\lzd\lzd_terradon\tech	kho_terradon_ror		1.0000	1.0000	0.0000	
+traj_kho_thunderbarge	warmachines/aircraft/dwf_thunderbarge/thunderbarge_tech/	traj_kho_thunderbarge		1.0000	1.0000	0.0000	
+traj_lord_bloodflame_slann_mount_stegadon	VariantMeshes\wh_variantmodels\hq1\lzd\lzd_stegadon\tech	traj_kho_stegadon_slann_mount		1.6000	1.0000	0.0000	
+traj_lord_slaughter_warden_mount_carnosaur	VariantMeshes\_VariantModels\raptor03b\lzd\lzd_carnosaur\tech	obm_carnosaur		1.4000	1.0000	0.0000	
+traj_lord_slaughter_warden_mount_horned_one		krk_horned_one		1.1500	1.0000	0.0000	
+traj_prophet_mount_ripper	VariantMeshes\wh_variantmodels\bi3\lzd\lzd_terradon\tech	kho_ripperdactyl		1.0000	1.0000	0.0000	
+traj_prophet_mount_stegadon	VariantMeshes\wh_variantmodels\hq1\lzd\lzd_stegadon\tech	traj_kho_stegadon_shrine		1.6000	1.0000	0.0000	
+traj_skink_bloodbarb_assassin_mount_troglodon	VariantMeshes\wh_variantmodels\rp3b\lzd\lzd_troglodon\tech	kho_troglodon_mount		1.3000	1.0000	0.0000	
+traj_skink_bloodflame_priest_mount_stegadon	VariantMeshes\wh_variantmodels\hq1\lzd\lzd_stegadon\tech	traj_kho_stegadon_shrine		1.6000	1.0000	0.0000	
+traj_skink_bloodflame_priest_mount_terradon	VariantMeshes\wh_variantmodels\bi3\lzd\lzd_terradon\tech	kho_terradon		1.0000	1.0000	0.0000	
+traj_skorrog_mount_wyvern	VariantMeshes\wh_variantmodels\bi2\grn\grn_wyvern\tech	traj_skorrog_mount		1.1000	1.1000	0.0000	
+traj_skorrog_ror_mount	VariantMeshes\wh_variantmodels\bo1\grn\grn_warboar\tech	traj_skorrog_ror_mount		1.0000	1.1000	0.0100	
+traj_skymaster_mount_terradon	VariantMeshes\wh_variantmodels\bi3\lzd\lzd_terradon\tech	kho_terradon_zwup		1.0000	1.0000	0.0000	
+traj_slayer_mount	VariantMeshes\_VariantModels\raptor03b\lzd\lzd_carnosaur\tech	sly_carnosaur_grymloq		1.4000	1.0000	0.0000	
+traj_slayer_riders_mount		traj_slayer_riders_mount		1.1500	1.0000	0.0000	

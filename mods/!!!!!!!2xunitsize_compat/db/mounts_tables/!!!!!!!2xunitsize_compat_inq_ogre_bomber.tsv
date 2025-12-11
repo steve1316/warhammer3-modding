@@ -1,0 +1,4 @@
+key	animation	entity	audio_armour_type	variant	voiceover
+#mounts_tables;10;db/mounts_tables/!!!!!!!2xunitsize_compat_inq_ogre_bomber
+ogr_stonehorn_cannon	hq3b_wh3_stonehorn	wh3_main_ogr_monster_stonehorn	body	ogr_stonehorn_cannon	wh3_main_vo_culture_Ogres
+ogr_war_mammoth_01	hq3_mammoth	wh_dlc08_nor_mon_mammoth_howdah_blood	body	ogr_war_mammoth_rider_saddle_01	vo_culture_Invalid

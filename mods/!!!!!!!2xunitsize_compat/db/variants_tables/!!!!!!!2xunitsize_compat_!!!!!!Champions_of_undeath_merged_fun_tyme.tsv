@@ -1,0 +1,55 @@
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/!!!!!!!2xunitsize_compat_!!!!!!Champions_of_undeath_merged_fun_tyme
+abyssal_terror_vmd	variantmeshes\wh_variantmodels\hu10e\vmp\abyssal_terror\tech	abyssal_terror		1.2500	1.0000	0.1500	
+bkc_rabe_von_stahl_steed_vmd	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	rabe_von_stahl_steed		1.1000	1.0000	0.0000	
+bkc_ror_steed_vmd	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	oathbound_steed		1.0000	1.0000	0.0000	
+black_grail_ghost_hippogryh_1	VariantMeshes\wh_variantmodels\bc2b\brt\brt_hippogryph_beaquis\tech	bm_black_grail_skeletal_hippogriff_01		1.0000	1.2000	0.0500	
+black_grail_steed	variantmeshes/wh_variantmodels/hr1/vmp_black_grail_steed/tech	black_grail_steed		1.0000	1.1500	0.0500	
+blood_dragon_phantom_steed_vmd	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	blood_dragon_phantom_steed		1.1000	1.1000	0.0000	
+blood_dragon_zombie_dragon_mount_2	VariantMeshes\wh_variantmodels\dr1\vmp\vmp_zombie_dragon\tech	blood_dragon_vmp_dragon_zombie		1.0000	1.0000	0.0000	
+blood_knight_champ_steed	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	vmp_blood_knights_steed		1.1000	1.1000	0.0000	
+blood_knight_glaive_rider_hellsteed	variantmeshes/wh_variantmodels/hr1/chs/chs_dorghar/tech	blood_knight_champ_helsteed		1.0000	1.0000	0.0000	
+bm_battleship	warmachines/aircraft/vmp_ror/tech	bm_vmp_battle_ship		1.0000	1.0000	0.0000	
+bm_wf_hef_bear_vmd	VariantMeshes/wh_variantmodels/br1/ksl/ksl_bear/tech	bm_wf_hef_bear		1.1000	1.0000	0.0000	
+bm_wf_kol_mnt_bloodfather_warshrine	VariantMeshes/wh_variantmodels/hq3/nor/nor_war_mammoth/tech	bm_wf_kol_warshrine		1.0000	1.0000	0.0000	
+bm_wf_mnt_chieftain_hound_war_mammoth	VariantMeshes/wh_variantmodels/hq3/nor/nor_war_mammoth/tech	bm_wf_kolsveinn_mnt_marauder_chieftain_hound_war_mammoth		1.0000	1.0000	0.0000	
+bm_wf_mnt_okku	VariantMeshes/wh_variantmodels/br1/ksl/ksl_bear/tech	bm_wf_okku		1.2000	1.2000	0.0000	
+bm_wf_mnt_valtyrsgandr	variantmeshes/wh_variantmodels/bc4/dae/nor_blodvarg/tech	bm_wf_valtyrsgandr		1.0000	0.9000	0.0000	
+bm_wf_obsidian_great_wyrm_vmd	variantmeshes/wh_variantmodels/bi2/lzd/bm_wf_great_wyrm/tech	bm_wf_great_wyrm		1.0000	1.0000	0.0000	
+captured_wagaon_barded_nightmare		vmp_coach_nightmare_2		1.0000	1.0000	0.0000	
+cou_mikeal_phantom_hippo	VariantMeshes\wh_variantmodels\bc2b\brt\brt_hippogryph_beaquis\tech	cou_mikeal_phantom_hippo		1.0000	1.1000	0.0000	
+cou_mikeal_phantom_steed	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	cou_mikeal_phantom_steed		1.2000	1.2000	0.0000	
+dr11_terror_drake_mount	variantmeshes/wh_variantmodels/dr1/vmp/vmp_terror_drake/tech	vmp_terror_drakes		1.1000	1.0000	0.0000	
+drakenhof_inner_circle_mount_vmd	VariantMeshes\_VariantModels\bigcat03\chaos_undivided\saddles\tech	bm_skeleton_hu1d_mount_manticore		1.0000	1.0000	0.0000	
+drakenhof_nightmare	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	drakenhof_nightmare		1.2000	1.0000	0.0500	
+drakenhof_nightmare_lu		drakenhof_nightmare		1.0000	1.0000	0.0000	
+ethereal_blood_knight_steed_summon	variantmeshes/wh_variantmodels/hr1/chs/chs_dorghar/tech	ethereal_vmp_blood_knights_steed		1.0500	1.0000	0.0000	
+faris_jur_horse_vmd	variantmeshes/wh_variantmodels/hr1/vmp/hr1_faris_jur/tech	faris_jur_horse_heavy		1.0000	0.9000	0.0000	
+faris_jur_khaled_warsphinx_vmd	VariantMeshes\wh_variantmodels\bc1\tmb\tmb_warsphinx\tech	faris_jur_khaled_warsphinx		1.0000	1.0000	0.0000	
+ghost_carnosaur_vmd	variantmeshes/_variantmodels/raptor03b/lzd/lzd_ghost_carnosaur/tech	ghost_skeleton_carnosaur		1.0000	1.0000	0.0000	
+gus_gus_lol	variantmeshes/wh_variantmodels/bi2/vmp/bkc_gheist/tech	vmp_gus_gus01		1.1500	1.0000	0.0000	
+hef_pegasus_hero_pegasus_vmd		bm_wf_hef_pegasus_hero_pegasus		1.0000	1.0000	0.0000	
+hef_pegasus_knight_pegasus_vmd		bm_wf_hef_pegasus		1.0000	1.0000	0.0000	
+khaled_faris_jur_horse_vmd		faris_jur_horse_lord		1.0000	1.0000	0.0000	
+kou_drake_vmd	variantmeshes/wh_variantmodels/dr1/vmp/vmp_terror_drake/tech	kou_dragon_best_bois		1.1000	1.0000	0.0000	
+laf_dwf_oath_stone_bearers_thane	variantmeshes\wh_variantmodels\throne01\dwf_shield_bearers\tech	dwf_thane_oath_stone		1.0000	1.0000	0.0000	
+okg_griff_vmd	VariantMeshes\wh_variantmodels\bc2\emp\emp_imperial_griffon\tech	emp_imperial_griffon		1.2500	1.2500	0.0000	
+skeletal_demigryph_vmd	VariantMeshes\wh_variantmodels\bc2\emp\emp_imperial_griffon\tech	vmp_skeletal_demigryph_01		1.0000	1.0000	0.0500	
+skeleton_horned_one_mount_vmd	VariantMeshes\wh_variantmodels\rp3\def\def_cold_one\tech	lzd_skeleton_horned_one		1.0000	1.0000	0.0000	
+skeleton_horned_one_mount_vmd_2		lzd_skeleton_horned_one		1.0000	1.0000	0.0000	
+skeleton_manticore	VariantMeshes\_VariantModels\bigcat03\chaos_undivided\saddles\tech	bm_skeleton_manticore		1.1500	1.0000	0.0000	
+soggy_coatl	variantmeshes\wh_variantmodels\cou_ordo_mounts\bi4\soggy_coatl\tech	cou_soggy_coatl		1.0000	1.0000	0.0000	
+teb_horse_vmd	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	vmp_teb_warhorse		1.2500	1.0000	0.0500	
+terror_raptor_vmd	VariantMeshes\wh_variantmodels\rp3\def\def_cold_one\tech	dotp_mount		1.0000	1.2000	0.0000	
+tiberius_doom_wolf_vmd	variantmeshes/wh_variantmodels/bc4/vmp/doom_hound_mounts/tech	tiberius_doom_wolf		1.2500	0.6200	0.0000	
+vmp_blood_dragon_inner_circle_hippogryph	VariantMeshes\wh_variantmodels\bc2b\brt\brt_hippogryph_beaquis\tech	cou_inner_circle_skeletal_hippogriff		1.0000	1.0000	0.0000	
+vmp_doom_wolf_vmd	variantmeshes/wh_variantmodels/bc4/vmp/doom_hound_mounts/tech	doom_wolf_mounts		1.2500	0.5700	0.0500	
+vmp_imperial_griffon_vmd	variantmeshes/wh_variantmodels/bc2/emp/vmp_imperial_griffon/tech	vmp_imperial_griffon		1.1500	1.6000	0.0000	
+vmp_imperial_griffon_vmd_2	VariantMeshes\wh_variantmodels\bc2\emp\emp_imperial_griffon\tech	vmp_imperial_griffon		1.0000	1.6670	0.0000	
+vmp_kinlin_vmd		vmp_kinlin		1.5000	1.0000	0.0000	
+vmp_necro_sea_serpent_vmd		vmp_necro_sea_serpents	sn1\tmb\tmb_necroserpents\imposter\tmb_necroserpent_imposter	1.0000	1.1000	0.0000	
+vmp_teb_dread_saurian_vmd	variantmeshes/wh_variantmodels/rp4/vmp/lzd_dread_saurian/tech	vmp_teb_dread_saurian		1.0000	1.0000	0.0000	
+vmp_teb_interceptor_ship_mnt_vmd	warmachines/aircraft/cam_dusk_reaver_interceptor/tech	vmp_teb_interceptor_ship		1.0000	1.0000	0.0000	
+vmp_teb_interceptor_ship_vmd	warmachines\aircraft\dusk_reaver_interceptor\tech	vmp_teb_interceptor_ship		1.0000	1.0000	0.0000	
+vmp_teb_taurus_capt_mount_vmd	variantmeshes/_variantmodels/oxen_01/vmp_bull_capt/tech	vmp_teb_taurus_mount		1.8260	1.1500	0.0000	
+vmp_teb_taurus_mount_vmd	variantmeshes/_variantmodels/oxen_01/vmp_bull_capt/tech	vmp_teb_taurus_mount		1.8260	1.1500	0.0000	
