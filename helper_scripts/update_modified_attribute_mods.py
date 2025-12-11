@@ -1,17 +1,32 @@
 """Script to update the modified attribute mods from the Steam Workshop to account for latest changes to the vanilla and modded data tables."""
 
 import logging
+import subprocess
 import time
 import shutil
 import os
+import argparse
 from typing import List, Dict
-from utilities import extract_tsv_data, extract_modded_tsv_data, load_tsv_data, load_multiple_tsv_data, write_updated_tsv_file, merge_move
+from utilities import (
+    extract_tsv_data,
+    extract_modded_tsv_data,
+    load_tsv_data,
+    load_multiple_tsv_data,
+    write_updated_tsv_file,
+    merge_move,
+    STEAM_LIBRARY_DRIVE,
+)
 from supported_mods import SUPPORTED_MODS
 
 
-PREPEND_MELEE_TABLE_FILE_NAME = "!!!!!!!50meleeattackspeed_compat"
-PREPEND_RANGED_ARC_TABLE_FILE_NAME = "!!!!!!!firing_arc_120_compat"
-PREPEND_VELOCITY_TABLE_FILE_NAME = "!!!!!!!double_projectile_velocity_compat"
+MODS_AND_STEAM_WORKSHOP_IDS = [
+    ("!!!!!!!50meleeattackspeed_compat", "3311361199"),
+    ("!!!!!!!firing_arc_120_compat", "3311361345"),
+    ("!!!!!!!double_projectile_velocity_compat", "3311361464"),
+]
+PREPEND_MELEE_TABLE_FILE_NAME = MODS_AND_STEAM_WORKSHOP_IDS[0][0]
+PREPEND_RANGED_ARC_TABLE_FILE_NAME = MODS_AND_STEAM_WORKSHOP_IDS[1][0]
+PREPEND_VELOCITY_TABLE_FILE_NAME = MODS_AND_STEAM_WORKSHOP_IDS[2][0]
 
 MELEE_WEAPONS_TABLE_VERSION_NUMBER = 25
 PROJECTILES_SCALING_DAMAGES_TABLE_VERSION_NUMBER = 0
@@ -102,6 +117,18 @@ if __name__ == "__main__":
     logging.basicConfig(format="%(asctime)s - %(levelname)s - %(message)s", level=logging.INFO)
     start_time = time.time()
 
+    # Get arguments from argparse.
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--reset", action="store_true", help="Reset the script.")
+    args = parser.parse_args()
+    if args.reset:
+        logging.info("Will reset folders in the packfile before writing.")
+        for mod_name, steam_workshop_id in MODS_AND_STEAM_WORKSHOP_IDS:
+            try:
+                shutil.rmtree(f"../mods/{mod_name}/db")
+            except FileNotFoundError:
+                pass
+
     for mod in SUPPORTED_MODS:
         is_vanilla = False
         if mod["package_name"] == "vanilla":
@@ -145,7 +172,7 @@ if __name__ == "__main__":
                 ]:
                     if is_vanilla and table_name == "melee_weapons_tables" and os.path.exists(f"./vanilla_melee_weapons_tables"):
                         melee_data, headers, version_info = load_tsv_data(f"./vanilla_melee_weapons_tables/db/{table_name}/data__.tsv")
-                        version_info = version_info.replace("data__", f"!!!!!!!50meleeattackspeed_compat_vanilla_and_dlc")
+                        version_info = version_info.replace("data__", f"{PREPEND_MELEE_TABLE_FILE_NAME}_vanilla_and_dlc")
                         updated_melee_data = update_melee_attack_intervals(melee_data)
                         # Sort the data by the key column ascending.
                         updated_melee_data = sorted(updated_melee_data, key=lambda x: x["key"])
@@ -169,7 +196,7 @@ if __name__ == "__main__":
                             updated_melee_data,
                             headers,
                             version_info,
-                            f"./!!!!!!!50meleeattackspeed_compat/db/{table_name}",
+                            f"./{PREPEND_MELEE_TABLE_FILE_NAME}/db/{table_name}",
                             f"{PREPEND_MELEE_TABLE_FILE_NAME}_{folder_name}",
                         )
 
@@ -179,7 +206,7 @@ if __name__ == "__main__":
                     battle_entities_data, headers, version_info = load_tsv_data(
                         f"./vanilla_battle_entities_tables/db/battle_entities_tables/data__.tsv"
                     )
-                    version_info = version_info.replace("data__", f"!!!!!!!firing_arc_120_compat_vanilla_and_dlc")
+                    version_info = version_info.replace("data__", f"{PREPEND_RANGED_ARC_TABLE_FILE_NAME}_vanilla_and_dlc")
                     updated_battle_entities_data = update_rows_for_120_degree_ranged_attacks(battle_entities_data)
                     # Sort the data by the key column ascending.
                     updated_battle_entities_data = sorted(updated_battle_entities_data, key=lambda x: x["key"])
@@ -187,7 +214,7 @@ if __name__ == "__main__":
                         updated_battle_entities_data,
                         headers,
                         version_info,
-                        f"./!!!!!!!firing_arc_120_compat/db/battle_entities_tables",
+                        f"./{PREPEND_RANGED_ARC_TABLE_FILE_NAME}/db/battle_entities_tables",
                         f"{PREPEND_RANGED_ARC_TABLE_FILE_NAME}_vanilla_and_dlc",
                     )
                 elif os.path.exists(f"./{folder_name}/db/battle_entities_tables") and any(
@@ -203,7 +230,7 @@ if __name__ == "__main__":
                         updated_battle_entities_data,
                         headers,
                         version_info,
-                        f"./!!!!!!!firing_arc_120_compat/db/battle_entities_tables",
+                        f"./{PREPEND_RANGED_ARC_TABLE_FILE_NAME}/db/battle_entities_tables",
                         f"{PREPEND_RANGED_ARC_TABLE_FILE_NAME}_{folder_name}",
                     )
 
@@ -217,7 +244,7 @@ if __name__ == "__main__":
                 ]:
                     if is_vanilla and table_name == "projectiles_tables" and os.path.exists(f"./vanilla_projectiles_tables"):
                         projectile_data, headers, version_info = load_tsv_data(f"./vanilla_projectiles_tables/db/{table_name}/data__.tsv")
-                        version_info = version_info.replace("data__", f"!!!!!!!double_projectile_velocity_compat_vanilla_and_dlc")
+                        version_info = version_info.replace("data__", f"{PREPEND_VELOCITY_TABLE_FILE_NAME}_vanilla_and_dlc")
                         updated_projectile_data = adjust_muzzle_velocities(projectile_data)
                         # Sort the data by the key column ascending.
                         updated_projectile_data = sorted(updated_projectile_data, key=lambda x: x["key"])
@@ -225,7 +252,7 @@ if __name__ == "__main__":
                             updated_projectile_data,
                             headers,
                             version_info,
-                            f"./!!!!!!!double_projectile_velocity_compat/db/{table_name}",
+                            f"./{PREPEND_VELOCITY_TABLE_FILE_NAME}/db/{table_name}",
                             f"{PREPEND_VELOCITY_TABLE_FILE_NAME}_vanilla_and_dlc",
                         )
                     elif os.path.exists(f"./{folder_name}/db/{table_name}") and any(
@@ -242,7 +269,7 @@ if __name__ == "__main__":
                             updated_projectile_data,
                             headers,
                             version_info,
-                            f"./!!!!!!!double_projectile_velocity_compat/db/{table_name}",
+                            f"./{PREPEND_VELOCITY_TABLE_FILE_NAME}/db/{table_name}",
                             f"{PREPEND_VELOCITY_TABLE_FILE_NAME}_{folder_name}",
                         )
 
@@ -254,10 +281,46 @@ if __name__ == "__main__":
                 shutil.rmtree(f"./{folder_name}", ignore_errors=True)
 
     # After processing all mods, move the final folders to their destinations.
-    for folder_name in ["!!!!!!!50meleeattackspeed_compat", "!!!!!!!firing_arc_120_compat", "!!!!!!!double_projectile_velocity_compat"]:
+    for folder_name in [PREPEND_MELEE_TABLE_FILE_NAME, PREPEND_RANGED_ARC_TABLE_FILE_NAME, PREPEND_VELOCITY_TABLE_FILE_NAME]:
         if os.path.exists(f"./{folder_name}"):
             logging.info(f"Moving {folder_name} to ../mods/.")
             merge_move(f"./{folder_name}", "../mods/")
+
+    for mod_name, steam_workshop_id in MODS_AND_STEAM_WORKSHOP_IDS:
+        if args.reset:
+            # Use the RPFM CLI to reset the mod.
+            subprocess.run(
+                [
+                    "./rpfm_cli.exe",
+                    "--game",
+                    "warhammer_3",
+                    "pack",
+                    "delete",
+                    "--pack-path",
+                    f"{STEAM_LIBRARY_DRIVE}\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\{steam_workshop_id}\\{mod_name}.pack",
+                    "--folder-path",
+                    "db",
+                ],
+                capture_output=True,
+            )
+
+        # Now use the RPFM CLI to add the modded files into the packfile.
+        subprocess.run(
+            [
+                "./rpfm_cli.exe",
+                "--game",
+                "warhammer_3",
+                "pack",
+                "add",
+                "--pack-path",
+                f"{STEAM_LIBRARY_DRIVE}\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\{steam_workshop_id}\\{mod_name}.pack",
+                "--tsv-to-binary",
+                "./schemas/schema_wh3.ron",
+                "--folder-path",
+                f"../mods/{mod_name}/db;",
+            ],
+            capture_output=True,
+        )
 
     end_time = round(time.time() - start_time, 2)
     logging.info(f"Total time for updating modified attribute mods: {end_time} seconds or {round(end_time / 60, 2)} minutes.")

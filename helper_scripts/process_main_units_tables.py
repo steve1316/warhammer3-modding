@@ -14,7 +14,7 @@ import logging
 import gc
 import shutil
 import time
-from utilities import extract_tsv_data, read_and_clean_tsv
+from utilities import extract_tsv_data, read_and_clean_tsv, STEAM_LIBRARY_DRIVE
 from supported_mods import SUPPORTED_MODS
 from typing import List, Dict
 
@@ -173,6 +173,7 @@ def process_tsv_files(directory: str, table_type: str, allowed_patterns: List[st
 
 
 def tsv_to_faction_data(
+    mod: Dict,
     factions_data: Dict,
     faction_keys: List[str],
     df_main_units_tables: pd.DataFrame,
@@ -186,6 +187,7 @@ def tsv_to_faction_data(
     """Transform TSV data into structured faction data dictionary.
 
     Args:
+        mod (Dict): Mod data.
         factions_data (Dict): Existing data to augment.
         faction_keys (List[str]): Faction detection patterns.
         df_main_units_tables (pd.DataFrame): Processed units data.
@@ -442,6 +444,7 @@ if __name__ == "__main__":
             if mod["package_name"] == "vanilla":
                 logging.info(f"Processing vanilla units...")
                 factions_data = tsv_to_faction_data(
+                    mod,
                     factions_data,
                     faction_keys,
                     df_main_units_tables_vanilla,
@@ -476,6 +479,7 @@ if __name__ == "__main__":
                             do_not_use_underscore_pattern = True
 
                 factions_data = tsv_to_faction_data(
+                    mod,
                     factions_data,
                     temp_faction_keys,
                     df_main_units_tables_vanilla,
@@ -514,6 +518,40 @@ if __name__ == "__main__":
             os.remove(destination_filepath)
         shutil.move("factions_data.lua", destination_filepath)
         os.remove("factions_data.json")
+
+    # Use the RPFM CLI to delete the existing factions_data.lua file from the mod.
+    subprocess.run(
+        [
+            "./rpfm_cli.exe",
+            "--game",
+            "warhammer_3",
+            "pack",
+            "delete",
+            "--pack-path",
+            f"{STEAM_LIBRARY_DRIVE}\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\3397481450\\land_encounters_and_points_of_interest_6_0.pack",
+            "--file-path",
+            "script/land_encounters/constants/battles/factions_data.lua",
+        ],
+        capture_output=True,
+    )
+
+    # Now use the RPFM CLI to add the new factions_data.lua file into the packfile.
+    subprocess.run(
+        [
+            "./rpfm_cli.exe",
+            "--game",
+            "warhammer_3",
+            "pack",
+            "add",
+            "--pack-path",
+            f"{STEAM_LIBRARY_DRIVE}\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\3397481450\\land_encounters_and_points_of_interest_6_0.pack",
+            "--tsv-to-binary",
+            "./schemas/schema_wh3.ron",
+            "--file-path",
+            f"../mods/land_encounters_and_points_of_interest_with_mct/script/land_encounters/constants/battles/factions_data.lua;script/land_encounters/constants/battles/factions_data.lua",
+        ],
+        capture_output=True,
+    )
 
     # Perform final cleanup.
     for cleanup_file in [

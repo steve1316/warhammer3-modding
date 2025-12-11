@@ -1217,7 +1217,7 @@ if __name__ == "__main__":
 
     # Reset if necessary.
     if args.reset:
-        # Use the RPFM CLI to delete all files from the required folders.
+        # Use the RPFM CLI to delete all files from the packfile.
         subprocess.run(
             [
                 "./rpfm_cli.exe",
@@ -1228,84 +1228,28 @@ if __name__ == "__main__":
                 "--pack-path",
                 f"{STEAM_LIBRARY_DRIVE}\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\3513364573\\!!!!!!!_nanu_dynamic_rors_compat.pack",
                 "--folder-path",
-                "db",
+                "",
             ],
             capture_output=True,
         )
-        subprocess.run(
-            [
-                "./rpfm_cli.exe",
-                "--game",
-                "warhammer_3",
-                "pack",
-                "delete",
-                "--pack-path",
-                f"{STEAM_LIBRARY_DRIVE}\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\3513364573\\!!!!!!!_nanu_dynamic_rors_compat.pack",
-                "--folder-path",
-                "variantmeshes",
-            ],
-            capture_output=True,
-        )
-    # Use the RPFM CLI to delete all files from the required folders.
-    for folder_name in [
-        "unit_purchasable_effect_sets_tables",
-        "land_units_tables",
-        "main_units_tables",
-        "unit_description_historical_texts_tables",
-        "battle_animations_table_tables",
-        "battle_entities_tables",
-        "mounts_tables",
-        "melee_weapons_tables",
-        "missile_weapons_tables",
-        "unit_description_short_texts_tables",
-        "unit_attributes_groups_tables",
-        "battlefield_engines_tables",
-        "projectiles_tables",
-        "battle_vortexs_tables",
-        "projectiles_scaling_damages_tables",
-        "projectile_shot_type_displays_tables",
-        "unit_spacings_tables",
-        "first_person_engines_tables",
-        "land_unit_articulated_vehicles_tables",
-        "ui_unit_groupings_tables",
-        "ui_unit_group_parents_tables",
-        "variants_tables",
-    ]:
-        if os.path.exists(f"../mods/!!!!!!!_nanu_dynamic_rors_compat/db/{folder_name}"):
-            # Then merge the updated mod files into the packfile.
-            subprocess.run(
-                [
-                    "./rpfm_cli.exe",
-                    "--game",
-                    "warhammer_3",
-                    "pack",
-                    "add",
-                    "--pack-path",
-                    f"{STEAM_LIBRARY_DRIVE}\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\3513364573\\!!!!!!!_nanu_dynamic_rors_compat.pack",
-                    "--tsv-to-binary",
-                    "./schemas/schema_wh3.ron",
-                    "--folder-path",
-                    f"../mods/!!!!!!!_nanu_dynamic_rors_compat/db/{folder_name};db/{folder_name}",
-                ],
-                capture_output=True,
-            )
-            if folder_name == "mounts_tables" and os.path.exists("../mods/!!!!!!!_nanu_dynamic_rors_compat/variantmeshes/variantmeshdefinitions"):
-                subprocess.run(
-                    [
-                        "./rpfm_cli.exe",
-                        "--game",
-                        "warhammer_3",
-                        "pack",
-                        "add",
-                        "--pack-path",
-                        f"{STEAM_LIBRARY_DRIVE}\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\3513364573\\!!!!!!!_nanu_dynamic_rors_compat.pack",
-                        "--tsv-to-binary",
-                        "./schemas/schema_wh3.ron",
-                        "--folder-path",
-                        f"../mods/!!!!!!!_nanu_dynamic_rors_compat/variantmeshes;variantmeshes",
-                    ],
-                    capture_output=True,
-                )
+
+    # Then merge the updated mod files into the packfile.
+    subprocess.run(
+        [
+            "./rpfm_cli.exe",
+            "--game",
+            "warhammer_3",
+            "pack",
+            "add",
+            "--pack-path",
+            f"{STEAM_LIBRARY_DRIVE}\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\3513364573\\!!!!!!!_nanu_dynamic_rors_compat.pack",
+            "--tsv-to-binary",
+            "./schemas/schema_wh3.ron",
+            "--folder-path",
+            f"../mods/!!!!!!!_nanu_dynamic_rors_compat;",
+        ],
+        capture_output=True,
+    )
 
     # Perform final cleanup of vanilla folders.
     cleanup_folders(
